@@ -1,0 +1,9 @@
+{
+  "self_contained": true,
+  "runtime_extracted_from_sources": true,
+  "python_packages": ["numpy", "pandas"],
+  "source_archives": [
+    "sources/RMW1_BTI2_EHC2_DECOMP1_PUV_HANDOFF_COMPACT_20260912.zip",
+    "sources/EHC1_E1GLOBAL_FULL_20260911.zip"
+  ]
+}

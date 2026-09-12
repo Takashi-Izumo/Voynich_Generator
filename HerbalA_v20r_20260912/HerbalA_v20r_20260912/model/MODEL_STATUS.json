@@ -1,0 +1,9 @@
+{
+  "model_id": "RMW1-BTI2-EHC2-DECOMP1-PUV-R4LEX-W2H2L4-K16",
+  "status": "PROMOTED",
+  "promoted_on": "2026-09-12",
+  "supersedes_as_current_candidate": "PUV + BODY-R4 lambda=0.85 + adaptive leaf-excess",
+  "component_added": "W2 exact-L4 K16 legal same-width H2-only splice",
+  "promotion_basis": "independent NEW15 replication + ALL20 Holm-significant standard n-gram improvement with safety metrics unchanged",
+  "integration_hash_audit": "100/100 exact matches for generated_rows, surface_commits, generation_input"
+}
