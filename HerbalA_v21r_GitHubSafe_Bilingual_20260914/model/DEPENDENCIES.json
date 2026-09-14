@@ -1,0 +1,17 @@
+{
+  "self_contained": false,
+  "runtime_extracted_from_sources": true,
+  "github_safe_packaging": true,
+  "python_packages": ["numpy", "pandas", "scipy"],
+  "source_archives": [
+    "RMW1_BTI2_EHC2_DECOMP1_PUV_HANDOFF_COMPACT_20260912.zip",
+    "EHC1_E1GLOBAL_FULL_20260911.zip"
+  ],
+  "source_resolution": [
+    "VOYNICH_V21R_SOURCE_DIR",
+    "model/sources",
+    "release_assets",
+    "external_sources"
+  ],
+  "runtime_override_env": "VOYNICH_V21R_RUNTIME_DIR"
+}
