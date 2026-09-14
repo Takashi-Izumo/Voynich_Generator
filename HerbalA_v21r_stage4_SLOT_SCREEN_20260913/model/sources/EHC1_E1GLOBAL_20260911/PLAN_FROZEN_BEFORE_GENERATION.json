@@ -1,0 +1,60 @@
+{
+  "arms": [
+    "BASE",
+    "E12_VH",
+    "E12_VH_E1GLOBAL"
+  ],
+  "baseline": "BASE",
+  "bootstrap": 10000,
+  "candidate": "E12_VH_E1GLOBAL",
+  "candidate_search": false,
+  "change": "Only E1 bridge and its diagnostic joint: external+known3 -> external-only",
+  "coefficient_search": false,
+  "core_scope": "frozen18; outer heldout4 excluded",
+  "date": "2026-09-11",
+  "entry_scope": "external complete16 only",
+  "experiment": "EHC1_E1GLOBAL_SINGLE_ABLATION",
+  "fresh_seed_scope": "absent in available generation and seed reservation manifests; historical target pages reused",
+  "known_existing_runs": [
+    91011,
+    91021,
+    91022,
+    91023,
+    91031,
+    91032,
+    91033,
+    91034,
+    91035
+  ],
+  "leaves": 20,
+  "legacy_space_secondary": true,
+  "new_model_after_scores": false,
+  "no_interim_performance_stopping": true,
+  "other_leaf_information": "unchanged; E2/H1V/H3/route/bT still use known3",
+  "pages": 300,
+  "primary_judges": [
+    "SPACE_RAW",
+    "H2_RAW"
+  ],
+  "primary_reference": "E12_VH",
+  "reasons_for_direct_5seeds": "One user-specified intervention, no candidate or coefficient selection; all five runs report together",
+  "reference": "E12_VH",
+  "runs": [
+    91151,
+    91152,
+    91153,
+    91154,
+    91155
+  ],
+  "same_seed_all_arms": true,
+  "secondary_reference": "BASE",
+  "statistical_unit": "20 bifolia",
+  "target_joint_JSD_secondary": true,
+  "thresholds_warning_only": {
+    "hapax_mae_increase": 1.5,
+    "mean_len_mae_increase": 0.05,
+    "mean_width_mae_increase": 0.1,
+    "ngram_bt_relative_abs_increase": 0.1,
+    "types_mae_increase": 1.0
+  }
+}

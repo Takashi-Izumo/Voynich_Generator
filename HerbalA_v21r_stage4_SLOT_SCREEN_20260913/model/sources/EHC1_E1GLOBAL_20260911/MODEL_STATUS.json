@@ -1,0 +1,29 @@
+{
+  "EHC1_reference": "E12_VH",
+  "H1V_known3": true,
+  "H2_known3": true,
+  "H3_known3": true,
+  "arm": "E12_VH_E1GLOBAL",
+  "champion": "RMW1-BTI2",
+  "comparison": "300 newly generated pages; all arms use the same 5 run IDs, 20 bifolia",
+  "entry_external_strength": 1,
+  "entry_leaf_delta": 0,
+  "fit_or_tuning_after_judging": false,
+  "implementation_complete": true,
+  "inference_limit": "historical 20 targets; no new independent manuscript sample",
+  "inherited_rare_provenance": "UNVERIFIED",
+  "judge_scores_run": true,
+  "only_step_1_executed": true,
+  "performance_runs": [
+    91151,
+    91152,
+    91153,
+    91154,
+    91155
+  ],
+  "reason": "H1 forcing improves and target TH1 JSD retains improvement over BTI2, but SPACE judge regresses vs E12_VH and ng/bigram regression warnings remain",
+  "route_and_bt_known3": true,
+  "status": "JUDGED_NOT_PROMOTED",
+  "target_used_to_fit": false,
+  "version": "RMW1-BTI2-EHC1-E1GLOBAL"
+}
