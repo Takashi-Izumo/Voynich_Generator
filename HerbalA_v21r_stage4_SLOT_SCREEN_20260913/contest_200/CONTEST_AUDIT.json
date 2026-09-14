@@ -1,0 +1,28 @@
+{
+  "model_id": "RMW1-BTI2-EHC2-DECOMP1-PUV-R4LEX-W2H2L4-K16",
+  "model_zip_sha256": "479abd67f1fc8994f8afd5e056c8600858612d3f87e1c4b0d9ca9f1b9383cd15",
+  "fresh_runs": [
+    99001,
+    99002,
+    99003,
+    99004,
+    99005,
+    99006,
+    99007,
+    99008,
+    99009,
+    99010
+  ],
+  "n_generated_pages": 200,
+  "n_unique_target_pages": 20,
+  "presentation_sha256": "806008b4f073e4c7f08d3f64308118fbd6e4b1651c72bdf1359314f2e20b8ac6",
+  "mechanical": {
+    "packing_all": true,
+    "retries": 0,
+    "support_violations": 0,
+    "invalid_rows": 0,
+    "max_normalization_error": 8.881784197001252e-16
+  },
+  "primary": "combined",
+  "decision": "PASS"
+}
