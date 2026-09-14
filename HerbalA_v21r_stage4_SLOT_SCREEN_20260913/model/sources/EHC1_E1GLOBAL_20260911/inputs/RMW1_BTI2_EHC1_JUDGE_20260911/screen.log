@@ -1,0 +1,73 @@
+SCREEN 0 A:2 f7v
+SCREEN 0 B:3 f14v
+SCREEN 0 D:1 f32v
+SCREEN 0 F:2 f47v
+SCREEN 1 A:3 f6v
+SCREEN 1 C:1 f24v
+SCREEN 1 D:3 f30v
+SCREEN 1 F:4 f45v
+SCREEN 2 A:4 f5v
+SCREEN 2 C:2 f23v
+SCREEN 2 D:4 f29v
+SCREEN 2 G:1 f49v
+SCREEN 3 B:1 f9v
+SCREEN 3 C:3 f22v
+SCREEN 3 E:3 f38v
+SCREEN 3 G:3 f54v
+SCREEN 4 B:2 f15v
+SCREEN 4 C:4 f21v
+SCREEN 4 E:4 f37v
+SCREEN 4 G:4 f53v
+FROZEN ['E12', 'E12_VH']
+       arm  primary_ratio  composite_ratio    warnings  eligible
+    E12_VH       0.611379         0.755780                  True
+     E12_V       0.727556         0.765812                  True
+   E12_F16       0.633680         0.797564                  True
+     E12_B       0.647429         0.798634 types;hapax     False
+     E12_H       0.697109         0.810259 types;hapax     False
+       E12       0.690163         0.816874 types;hapax     False
+        E1       0.830597         0.918795       types     False
+E12_VH_ALL       0.763780         0.959953                  True
+      BASE       1.000000         1.000000                 False
+       OFF       1.000000         1.000000                 False
+       arm     kind  events  loss_bits  zero_support
+      BASE  H1_HEAD     215   2.924415             0
+      BASE H1_SPACE    1173   3.336714             1
+      BASE       H2    1464   2.185974             5
+      BASE  H3_HEAD     192   3.354182             6
+        E1  H1_HEAD     215   2.924415             0
+        E1 H1_SPACE    1173   3.405781             1
+        E1       H2    1464   2.185974             5
+        E1  H3_HEAD     192   3.354182             6
+       E12  H1_HEAD     215   2.924415             0
+       E12 H1_SPACE    1173   3.405781             1
+       E12       H2    1464   2.249696             5
+       E12  H3_HEAD     192   3.354182             6
+     E12_B  H1_HEAD     215   2.924415             0
+     E12_B H1_SPACE    1173   3.405781             1
+     E12_B       H2    1464   2.249696             5
+     E12_B  H3_HEAD     192   3.354182             6
+   E12_F16  H1_HEAD     215   2.932792             0
+   E12_F16 H1_SPACE    1173   3.410494             1
+   E12_F16       H2    1464   2.279931             6
+   E12_F16  H3_HEAD     192   3.810822             8
+     E12_H  H1_HEAD     215   2.924415             0
+     E12_H H1_SPACE    1173   3.405781             1
+     E12_H       H2    1464   2.249696             5
+     E12_H  H3_HEAD     192   3.309419             6
+     E12_V  H1_HEAD     215   2.858847             0
+     E12_V H1_SPACE    1173   3.405781             1
+     E12_V       H2    1464   2.249696             5
+     E12_V  H3_HEAD     192   3.354182             6
+    E12_VH  H1_HEAD     215   2.858847             0
+    E12_VH H1_SPACE    1173   3.405781             1
+    E12_VH       H2    1464   2.249696             5
+    E12_VH  H3_HEAD     192   3.309419             6
+E12_VH_ALL  H1_HEAD     215   2.858847             0
+E12_VH_ALL H1_SPACE    1173   3.405781             1
+E12_VH_ALL       H2    1464   2.249696             5
+E12_VH_ALL  H3_HEAD     192   3.309419             6
+       OFF  H1_HEAD     215   2.924415             0
+       OFF H1_SPACE    1173   3.336714             1
+       OFF       H2    1464   2.185974             5
+       OFF  H3_HEAD     192   3.354182             6

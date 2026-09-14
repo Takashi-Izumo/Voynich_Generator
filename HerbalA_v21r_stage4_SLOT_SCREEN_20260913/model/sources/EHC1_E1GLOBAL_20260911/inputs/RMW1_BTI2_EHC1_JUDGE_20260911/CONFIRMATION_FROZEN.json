@@ -1,0 +1,38 @@
+{
+  "confirmation_seeds": [
+    91031,
+    91032,
+    91033,
+    91034,
+    91035
+  ],
+  "performance_status_before_confirmation": "NOT_PROMOTABLE_REGRESSION_WARNINGS",
+  "ranking": [
+    {
+      "arm": "E12",
+      "five_channel_ratio": 0.9372822737767154,
+      "regression_warnings": [
+        "bigram",
+        "combined",
+        "ng",
+        "trigram"
+      ]
+    },
+    {
+      "arm": "E12_VH",
+      "five_channel_ratio": 0.9122121838653628,
+      "regression_warnings": [
+        "bigram",
+        "length_width",
+        "ng",
+        "trigram"
+      ]
+    }
+  ],
+  "selected_arms": [
+    "E12_VH"
+  ],
+  "selection_basis": "balanced five-channel fixed diagnostic score, same unchanged candidates; warnings retained",
+  "settings_changed": false,
+  "three_seed_result_sha256": "7ea90d064a6e3b13a2bab13b1b079fc720316129a1a32f8d116c1b41a9f23aa1"
+}

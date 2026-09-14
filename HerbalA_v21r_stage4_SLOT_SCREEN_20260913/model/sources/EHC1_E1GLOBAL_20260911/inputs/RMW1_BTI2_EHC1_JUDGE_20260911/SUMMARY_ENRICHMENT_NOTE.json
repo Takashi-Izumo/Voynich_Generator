@@ -1,0 +1,5 @@
+{
+  "confirmation_raw_score_sha256": "4595c68de1048aa131a5bf5f1b80208a2763c892303e808a81cd0ee16ab41fdc",
+  "multirun_raw_score_sha256": "5baf92c2e6aa4cdf823eb2ffe2d30de7b6153b1dbd17f2c69d01826e4d58cbd2",
+  "note": "After selections, paired summaries were additionally annotated with group-specific two-sided Holm columns. Raw scores and generator outputs were not changed; historical selection digest refers to the pre-enrichment table."
+}

@@ -1,0 +1,10 @@
+{
+  "model_label": "E12_VH",
+  "eta_entry": 1,
+  "eta_h2": 1,
+  "eta_vertical_head": 0.5,
+  "eta_h3": 0.5,
+  "h3_scope": "HEAD",
+  "scope_policy": "LEGACY_SCOPE",
+  "boundary_policy": "B0"
+}

@@ -1,0 +1,27 @@
+JUDGED confirmation 0 A:2
+JUDGED confirmation 0 B:3
+JUDGED confirmation 0 D:1
+JUDGED confirmation 0 F:2
+JUDGED confirmation 1 A:3
+JUDGED confirmation 1 C:1
+JUDGED confirmation 1 D:3
+JUDGED confirmation 1 F:4
+JUDGED confirmation 2 A:4
+JUDGED confirmation 2 C:2
+JUDGED confirmation 2 D:4
+JUDGED confirmation 2 G:1
+JUDGED confirmation 3 B:1
+JUDGED confirmation 3 C:3
+JUDGED confirmation 3 E:3
+JUDGED confirmation 3 G:3
+JUDGED confirmation 4 B:2
+JUDGED confirmation 4 C:4
+JUDGED confirmation 4 E:4
+JUDGED confirmation 4 G:4
+JUDGE_COMPLETE confirmation 4000
+   arm         judge  change_pct  leaves_improved  p_improve_one_sided  holm_primary  holm_head
+E12_VH        H2_RAW  -22.628912               13             0.039555      0.039555        NaN
+E12_VH   H3_HEAD_RAW   -3.373815               10             0.366437           NaN   0.732874
+E12_VH    HEAD_shape  -20.492572               15             0.029357           NaN   0.088071
+E12_VH HEAD_vertical   10.358241                7             0.859257           NaN   0.859257
+E12_VH    SPACE_T_H1  -32.871974               16             0.003821      0.007643        NaN

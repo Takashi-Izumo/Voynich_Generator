@@ -1,0 +1,32 @@
+JUDGED multirun 0 A:2
+JUDGED multirun 0 B:3
+JUDGED multirun 0 D:1
+JUDGED multirun 0 F:2
+JUDGED multirun 1 A:3
+JUDGED multirun 1 C:1
+JUDGED multirun 1 D:3
+JUDGED multirun 1 F:4
+JUDGED multirun 2 A:4
+JUDGED multirun 2 C:2
+JUDGED multirun 2 D:4
+JUDGED multirun 2 G:1
+JUDGED multirun 3 B:1
+JUDGED multirun 3 C:3
+JUDGED multirun 3 E:3
+JUDGED multirun 3 G:3
+JUDGED multirun 4 B:2
+JUDGED multirun 4 C:4
+JUDGED multirun 4 E:4
+JUDGED multirun 4 G:4
+JUDGE_COMPLETE multirun 3600
+   arm         judge  change_pct  leaves_improved  p_improve_one_sided  holm_primary  holm_head
+   E12        H2_RAW  -22.364564               13             0.086316      0.086316        NaN
+   E12   H3_HEAD_RAW   -4.010520                9             0.360683           NaN        1.0
+   E12    HEAD_shape   20.623618                6             0.933165           NaN        1.0
+   E12 HEAD_vertical   13.052859                8             0.871867           NaN        1.0
+   E12    SPACE_T_H1  -38.660256               15             0.004100      0.008200        NaN
+E12_VH        H2_RAW  -10.167162               10             0.290874      0.290874        NaN
+E12_VH   H3_HEAD_RAW   -1.635304               11             0.457217           NaN        1.0
+E12_VH    HEAD_shape    1.214021               10             0.526587           NaN        1.0
+E12_VH HEAD_vertical   11.635307                8             0.829007           NaN        1.0
+E12_VH    SPACE_T_H1  -44.940769               15             0.001452      0.002905        NaN

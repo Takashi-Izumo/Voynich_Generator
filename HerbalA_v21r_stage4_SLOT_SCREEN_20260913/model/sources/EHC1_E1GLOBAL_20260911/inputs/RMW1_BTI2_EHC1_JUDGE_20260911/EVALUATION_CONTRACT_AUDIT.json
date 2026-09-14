@@ -1,0 +1,25 @@
+{
+  "changed_generator_or_parameter_files": [],
+  "contract_tests": [
+    {
+      "bif": "A:2",
+      "exact_frozen16_equivalence": true,
+      "fold": 0
+    },
+    {
+      "bif": "A:4",
+      "exact_frozen16_equivalence": true,
+      "fold": 2
+    },
+    {
+      "bif": "B:2",
+      "exact_frozen16_equivalence": true,
+      "fold": 4
+    }
+  ],
+  "cross_PLANT_or_unknown_entry_events": 0,
+  "independent_llm_judges": false,
+  "max_frozen_score_error": 0.0,
+  "parent_stage2_files_checked": 533,
+  "raw_entry_events": 5137
+}
