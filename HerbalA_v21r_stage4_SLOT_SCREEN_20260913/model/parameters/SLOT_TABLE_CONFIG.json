@@ -1,0 +1,28 @@
+{
+  "schema": "V21_W2_SLOT_TABLE_CONFIG_V1",
+  "generator_connected": false,
+  "domain": {
+    "w2": "base_role=W2 AND board=W2 AND exact glyph length=4 AND total width in {4,5,6,7,8}",
+    "body_h4": "base_role=BODY AND board=BODY AND exact glyph length=4 AND H4 physical width=1",
+    "training_scope": "outer fold complete_train_bifs only"
+  },
+  "h2": {
+    "source": "W2_ONLY",
+    "contexts": ["H1", "H1+W", "H1+W+T", "H1+W+T+row_phase"],
+    "alpha_grid": [2,4,8,16,32],
+    "selection": "leave-one-training-bifolium-out token log-loss"
+  },
+  "h3": {
+    "model": "P(H3|H1,W)",
+    "width_states": [4,5,6,7,8],
+    "width_smoothing": false,
+    "alpha_grid": [2,4,8,16,32],
+    "selection": "leave-one-training-bifolium-out token log-loss"
+  },
+  "h4": {
+    "model": "BODY_SHARED P(H4|H3)",
+    "alpha": 2,
+    "h4_physical_width": 1
+  },
+  "smoothing": "empirical root shrunk to symmetric stable-22 prior; child contexts recursively shrunk to parent"
+}
