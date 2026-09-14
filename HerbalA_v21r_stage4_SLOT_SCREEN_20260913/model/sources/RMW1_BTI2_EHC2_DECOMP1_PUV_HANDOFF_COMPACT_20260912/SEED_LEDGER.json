@@ -1,0 +1,17 @@
+{
+  "used": {
+    "91291": "Stage2 P0/PU mechanical audit",
+    "91292": "Stage3 V debug",
+    "91301": "Stage4 P0/PU/PV/PUV integration audit",
+    "91311-91313": "Stage5 3seed screening",
+    "91293": "RBS1 mechanical audit",
+    "91314-91316": "Stage5R RBS1 screening",
+    "91321-91325": "Stage6 final 5seed confirmation",
+    "91295": "SEC0 pseudo-target predictability test"
+  },
+  "unused_reserved": {
+    "91294": "SEC1 debug seed; unused because SEC0 failed",
+    "91331-91333": "SEC1 screening seeds; unused",
+    "91341-91345": "SEC1 confirmation seeds; unused"
+  }
+}
