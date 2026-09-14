@@ -1,7 +1,0 @@
-{
-  "release": "HerbalA_v21r_stage4_SLOT_SCREEN_20260913",
-  "files": 142,
-  "slot_decision": "STOP_AT_3SEED_SCREEN",
-  "v21r_candidate": "SAFE_LEFT_BT_OFF",
-  "independent_slot_validation": "NOT_RUN_BY_STOP_RULE"
-}

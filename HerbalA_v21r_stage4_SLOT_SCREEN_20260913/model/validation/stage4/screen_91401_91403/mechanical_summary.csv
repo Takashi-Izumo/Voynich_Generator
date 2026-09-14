@@ -1,5 +1,0 @@
-arm,cases,packing,support,invalid,slot_all,slot_committed,fallback_all,fallback_committed,splice_all,splice_fallback_all,w2_exact4_requests,bt_on_exact4,candidate_mean,h2_change,h3_change,h4_change,fallback_rate_all,fallback_rate_committed
-SAFE_LEFT_BT_OFF,60,True,0,0,0,0,0,0,343,2,343,0,,,,,,
-SAFE_LEFT_BT_ON,60,True,0,0,0,0,0,0,334,3,334,272,,,,,,
-SLOT_BT_OFF,60,True,0,0,310,158,0,0,0,0,310,0,282.83687294587355,0.4351285987536718,0.6399058106319941,0.6317005320804269,0.0,0.0
-V20_COMPAT,60,True,0,0,0,0,0,0,329,3,329,267,,,,,,
