@@ -1,0 +1,81 @@
+{
+  "package": "HerbalA_v21r_GitHubSafe_Bilingual_20260914",
+  "model_state_unchanged": true,
+  "active_candidate": "SAFE_LEFT_BT_OFF",
+  "slot_promoted": false,
+  "original_stage4_bytes_without_generated_runtime": 264325594,
+  "github_safe_bytes": 3002466,
+  "excluded_runtime_source_bytes": 261286682,
+  "source_assets": {
+    "EHC1_E1GLOBAL_FULL_20260911.zip": {
+      "bytes": 214847061,
+      "sha256": "cf8ec127ab584a8460c3c02aa4f3a5b2a7f01a328a9b3568f58d6ce0c53c025f"
+    },
+    "RMW1_BTI2_EHC2_DECOMP1_PUV_HANDOFF_COMPACT_20260912.zip": {
+      "bytes": 46439621,
+      "sha256": "0a3ea22dbe826ca56100de3e185460e6a3b5e804c5b1166069abfc8dd6c04f29"
+    }
+  },
+  "python_code_audit": {
+    "files": 24,
+    "identical": 18,
+    "modified_packaging_or_portability_only": 5,
+    "added_packaging_helpers": 1,
+    "removed": 0,
+    "model_generation_logic_files_changed": false
+  },
+  "validation": {
+    "external_source_sha256": "PASS",
+    "integration_smoke": "PASS",
+    "integration_generated_rows_sha256": "3539ede053d36919c2434a90c54a0d9965252d6c930cc6a1a00ec0b8648d652e",
+    "integration_matches_original_smoke_hash": true,
+    "stage1_smoke": "PASS",
+    "stage2_smoke": "PASS",
+    "stage2_historical_checks": "23/23",
+    "stage3": "PASS 5/5 folds",
+    "stage4_synthetic": "PASS",
+    "stage4_synthetic_byte_identical_to_original": true,
+    "post_translation_integration_smoke": "PASS",
+    "post_translation_stage1_smoke": "PASS",
+    "post_translation_stage2_smoke": "PASS",
+    "post_translation_stage3": "PASS 5/5 folds",
+    "post_translation_stage4_synthetic": "PASS"
+  },
+  "intentional_code_changes": [
+    {
+      "path": "model/code/runtime_bootstrap.py",
+      "reason": "external source resolver and SHA-256 verification"
+    },
+    {
+      "path": "model/code/validate_integration.py",
+      "reason": "external-source-aware integrity check and portable temp directory"
+    },
+    {
+      "path": "model/code/validate_v21_stage1.py",
+      "reason": "portable temp directory only"
+    },
+    {
+      "path": "model/code/validate_v21_stage2.py",
+      "reason": "portable temp directory only"
+    },
+    {
+      "path": "model/code/validate_v21_stage4_synthetic.py",
+      "reason": "honor runtime directory override"
+    },
+    {
+      "path": "model/code/check_external_sources.py",
+      "reason": "new packaging helper"
+    }
+  ],
+  "historical_scripts_note": "root validation/code and contest_200/code retain original hard-coded research-workspace paths for provenance; current reproducibility uses model/code and model/validation/code.",
+  "documentation": {
+    "languages": [
+      "English",
+      "Japanese"
+    ],
+    "japanese_markdown_documents": 19,
+    "english_companion_documents": 19,
+    "complete_pairing": true,
+    "translation_scope": "documentation only; model code, parameters, reference hashes, CSV/JSON scientific outputs unchanged"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "package": "HerbalA_v21r_GitHubSafe_Bilingual_20260914",
+  "repository_files": 174,
+  "repository_bytes": 3002466,
+  "large_source_archives_in_git_repo": 0,
+  "external_release_assets": 2,
+  "runtime_generated_locally": true,
+  "active_candidate": "SAFE_LEFT_BT_OFF",
+  "integrity_audit": "PASS",
+  "documentation_languages": [
+    "en",
+    "ja"
+  ],
+  "documentation_translation_pairs": 19,
+  "english_docs_complete": true
+}
