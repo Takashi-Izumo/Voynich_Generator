@@ -1,0 +1,12 @@
+{
+  "release_name": "HerbalA_v21r_stage4_SLOT_SCREEN",
+  "release_date": "2026-09-13",
+  "parent_release": "HerbalA_v21r_stage3_SLOT_TABLES_20260913",
+  "model_id": "HerbalA-v21r-candidate-SAFE-LEFT-BTOFF",
+  "status": "STAGE4_SLOT_STOPPED_V21R_CANDIDATE_SAFE_LEFT_BT_OFF",
+  "primary_change": "connect Stage-3 SLOT tables to generator, add formal SAFE_LEFT_BT_OFF control, run 3-seed screen",
+  "behavior_change": true,
+  "generator_connected": true,
+  "slot_promoted": false,
+  "active_candidate": "SAFE_LEFT_BT_OFF"
+}
