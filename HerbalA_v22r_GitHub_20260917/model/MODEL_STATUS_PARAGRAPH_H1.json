@@ -1,0 +1,38 @@
+{
+  "model_id": "HerbalA-v22r",
+  "parent": "HerbalA-v21r-PRETERM-SHORTBODY-H2GLOBAL",
+  "status": "PROMOTED_PASS_WITH_RESIDUAL",
+  "state_model": "continuous_running_residual",
+  "lambda": 32.0,
+  "decay": null,
+  "reset": "paragraph_boundary",
+  "scope": "BODY stable length>=2; para line>=2; not paragraph-final; not segment-final",
+  "mechanical_selftest": {
+    "seed": 91601,
+    "bifolia": 20,
+    "eligible_commits": 495,
+    "applied": 381,
+    "actual_h1_changes": 12,
+    "changed_bifolia": 7,
+    "packing_pass": "20/20",
+    "support_violations": 0,
+    "invalid_rows": 0,
+    "noop_rows_hash": "20/20 parent match",
+    "noop_commits_hash": "20/20 parent match",
+    "route_state_frozen": "20/20"
+  },
+  "blind_judge": "PASS_WITH_RESIDUAL",
+  "fresh_judge_seeds": [
+    91701,
+    91702,
+    91703,
+    91704,
+    91705,
+    91706,
+    91707,
+    91708,
+    91709,
+    91710
+  ],
+  "fresh_judge_bifolia": 20
+}

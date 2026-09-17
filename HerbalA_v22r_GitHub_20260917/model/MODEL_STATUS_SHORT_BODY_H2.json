@@ -1,0 +1,12 @@
+{
+  "release": "HerbalA_v21r_PRETERM_SHORTBODY_H2GLOBAL_20260916",
+  "parent": "HerbalA_v21r_PRETERM_20260916 / PRETERM_QMAP9",
+  "active_candidate": "PRETERM_SHORT_H2_GLOBAL",
+  "status": "IMPLEMENTED_PREJUDGE_NOT_JUDGED",
+  "scope": "BODY len2..4 H2|H1 target-leaf known3 residual only",
+  "H1_leaf_signal": "retained",
+  "H2_external_pureA_signal": "retained",
+  "H2_target_leaf_known3": "disabled",
+  "preterm": "QMAP9 retained",
+  "judge": "NOT_RUN"
+}
