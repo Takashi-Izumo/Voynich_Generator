@@ -1,0 +1,11 @@
+{
+  "release": "HerbalA_v21r_PRETERM_20260916",
+  "active_candidate": "PRETERM_QMAP9",
+  "literal_R6_control": "NO_EFFECT_AT_3SEED",
+  "phase20_cases_per_arm": 400,
+  "packing_pass": "400/400",
+  "support_violations": 0,
+  "invalid_rows": 0,
+  "promotion_decision": "PROMOTE_AS_V21R_PRETERM_CANDIDATE",
+  "note": "No extra narrow-glyph bias; parent packing already reproduces that component."
+}
