@@ -1,0 +1,212 @@
+{
+  "corpus": "Currier A, pure herbal A, annotated EVA tokens",
+  "source": "source_pureA85_observed_tokens.csv.gz",
+  "words": 6836,
+  "word_types": 1971,
+  "pages": 85,
+  "bifolia": 22,
+  "paragraphs": 165,
+  "lines": 1090,
+  "paragraph_line_counts": {
+    "2": 1,
+    "3": 22,
+    "4": 31,
+    "5": 22,
+    "6": 25,
+    "7": 15,
+    "8": 17,
+    "9": 6,
+    "10": 7,
+    "11": 5,
+    "12": 1,
+    "13": 4,
+    "14": 2,
+    "15": 2,
+    "16": 2,
+    "20": 1,
+    "21": 1,
+    "23": 1
+  },
+  "core_paragraphs_3plus": 164,
+  "core_role_tokens": 6816,
+  "excluded_2line_paragraphs": [
+    {
+      "page": "f23r",
+      "paragraph": "2",
+      "lines": 2,
+      "tokens": 20
+    }
+  ],
+  "glyph_alphabet": [
+    "q",
+    "cfh",
+    "ch",
+    "cph",
+    "cth",
+    "p",
+    "sh",
+    "ckh",
+    "f",
+    "k",
+    "o",
+    "t",
+    "a",
+    "d",
+    "e",
+    "s",
+    "i",
+    "l",
+    "y",
+    "r",
+    "m",
+    "n",
+    "g"
+  ],
+  "glyph_count": 23,
+  "observed_bigram_types": 229,
+  "observed_trigram_types": 881,
+  "shared_routes_4to6": 715,
+  "q_token_count": 603,
+  "q_word_initial_tokens": 600,
+  "q_followed_by_o_tokens": 597,
+  "end_glyphs": {
+    "y": 2202,
+    "n": 1213,
+    "l": 1147,
+    "o": 415,
+    "r": 1112,
+    "m": 194,
+    "a": 10,
+    "s": 256,
+    "d": 147,
+    "sh": 13,
+    "e": 19,
+    "g": 40,
+    "t": 31,
+    "i": 2,
+    "k": 11,
+    "ch": 9,
+    "f": 4,
+    "p": 6,
+    "cth": 3,
+    "ckh": 2
+  },
+  "start_glyphs": {
+    "k": 335,
+    "ch": 1413,
+    "o": 997,
+    "l": 51,
+    "t": 231,
+    "cfh": 13,
+    "a": 85,
+    "y": 444,
+    "d": 1176,
+    "ckh": 74,
+    "sh": 616,
+    "cth": 291,
+    "s": 267,
+    "p": 77,
+    "cph": 49,
+    "q": 600,
+    "f": 29,
+    "e": 23,
+    "r": 52,
+    "i": 1,
+    "m": 2,
+    "n": 3,
+    "g": 7
+  },
+  "substitution_pair_types": {
+    "ch>sh": 162,
+    "k>t": 179,
+    "l>r": 136,
+    "o>a": 153
+  },
+  "role_stats": [
+    {
+      "role": "PHW",
+      "tokens": 164,
+      "attested_types": 138,
+      "mean_glyph_length": 5.183,
+      "gallows_start_pct": 82.927,
+      "typical_forms": "tchor;pchor;tshol;shol;pchocthy;kooiin;kchor;pcheol;pydaiin;pchar;paiin;tchol;pcho;tshor;toy;fcho"
+    },
+    {
+      "role": "F1_BODY",
+      "tokens": 848,
+      "attested_types": 478,
+      "mean_glyph_length": 4.039,
+      "gallows_start_pct": 7.901,
+      "typical_forms": "daiin;shol;shor;chor;shy;sho;shey;dy;chol;chey;s;o;chy;oty;cthy;ol"
+    },
+    {
+      "role": "F1_LF",
+      "tokens": 164,
+      "attested_types": 130,
+      "mean_glyph_length": 4.0,
+      "gallows_start_pct": 7.317,
+      "typical_forms": "daiin;s;dy;shy;dain;am;shey;shor;chdy;opchordy;sy;dal;kchy;oty;dar;shoshy"
+    },
+    {
+      "role": "HEAD",
+      "tokens": 760,
+      "attested_types": 425,
+      "mean_glyph_length": 4.504,
+      "gallows_start_pct": 5.395,
+      "typical_forms": "daiin;sho;or;qokchy;chol;qotchy;dchor;shor;otchol;qotor;shol;dor;ychor;qo;otchor;ol"
+    },
+    {
+      "role": "W2",
+      "tokens": 749,
+      "attested_types": 345,
+      "mean_glyph_length": 3.729,
+      "gallows_start_pct": 8.678,
+      "typical_forms": "chol;chor;daiin;sho;shol;chy;cho;cthy;ol;shor;shy;char;chey;y;cthol;r"
+    },
+    {
+      "role": "BODY",
+      "tokens": 2669,
+      "attested_types": 811,
+      "mean_glyph_length": 3.772,
+      "gallows_start_pct": 9.03,
+      "typical_forms": "daiin;chol;chy;chor;s;shol;dain;dy;cthy;sho;chey;y;dar;dol;cthol;chaiin"
+    },
+    {
+      "role": "LF",
+      "tokens": 759,
+      "attested_types": 406,
+      "mean_glyph_length": 4.022,
+      "gallows_start_pct": 6.719,
+      "typical_forms": "daiin;dy;cthy;s;dal;dar;dam;dain;aiin;chaiin;d;dan;y;oty;ckhy;chody"
+    },
+    {
+      "role": "PF_HEAD",
+      "tokens": 158,
+      "attested_types": 116,
+      "mean_glyph_length": 4.209,
+      "gallows_start_pct": 3.165,
+      "typical_forms": "daiin;sho;chor;dain;ycheor;or;ysho;dsho;qokol;qotchy;qotchor;sor;dol;otol;dair;s"
+    },
+    {
+      "role": "PF_BODY",
+      "tokens": 381,
+      "attested_types": 196,
+      "mean_glyph_length": 3.556,
+      "gallows_start_pct": 11.024,
+      "typical_forms": "chol;daiin;chor;chy;y;s;cheor;dy;chey;kchy;dain;cheey;cthy;o;aiin;or"
+    },
+    {
+      "role": "PF_LF",
+      "tokens": 164,
+      "attested_types": 128,
+      "mean_glyph_length": 4.634,
+      "gallows_start_pct": 7.317,
+      "typical_forms": "daiin;dy;cthy;chor;dan;chom;chckhy;okain;cthor;shy;chkaiin;otal;dar;chol;chokody;chodar"
+    }
+  ],
+  "evidence_policy": {
+    "observed": "directly computed from supplied lexical corpus",
+    "recommended": "corpus-biased but not obligatory",
+    "exploratory": "no inferred meaning or parts of speech"
+  }
+}

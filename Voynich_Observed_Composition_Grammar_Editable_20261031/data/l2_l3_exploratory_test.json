@@ -1,0 +1,10 @@
+{
+  "sample_paragraphs_4plus": 142,
+  "observed_shared_route_sum": 161,
+  "null_repetitions": 5000,
+  "null_mean": 142.106,
+  "null_ge_observed": 177,
+  "one_sided_plus_one_p": 0.03559,
+  "seed": 101,
+  "note": "4-glyph word-internal path sets; first and final lines fixed; shuffle interior words only"
+}

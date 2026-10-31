@@ -1,0 +1,2778 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{fontspec}
+\setmainfont{Noto Serif}
+\setsansfont{Noto Sans}[Scale=0.94]
+\setmonofont{DejaVu Sans Mono}[Scale=0.78]
+\usepackage[margin=23mm,headheight=16pt,footskip=13mm]{geometry}
+\usepackage{amsmath,amssymb,booktabs,array,tabularx,longtable,multicol,pdflscape}
+\usepackage{enumitem,microtype,xcolor,hyperref,fancyhdr,lastpage,titlesec,fancyvrb,needspace}
+\definecolor{ink}{HTML}{25384A}
+\definecolor{accent}{HTML}{335C73}
+\definecolor{soft}{HTML}{657783}
+\hypersetup{hidelinks,pdfauthor={Voynich Herbal A Research Project}}
+\newcommand{\EVA}[1]{{\ttfamily\detokenize{#1}}}
+\newcommand{\STATUS}[1]{\textsf{\bfseries #1}}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\setlist[itemize]{leftmargin=18pt,itemsep=2pt,topsep=4pt}
+\setlist[enumerate]{leftmargin=18pt,itemsep=3pt,topsep=4pt}
+\titleformat{\section}{\Large\sffamily\bfseries\color{ink}}{}{0pt}{}
+\titleformat{\subsection}{\large\sffamily\bfseries\color{accent}}{}{0pt}{}
+\titleformat{\subsubsection}{\normalsize\sffamily\bfseries\color{ink}}{}{0pt}{}
+\titlespacing*{\section}{0pt}{18pt plus 2pt}{8pt}
+\titlespacing*{\subsection}{0pt}{12pt plus 2pt}{5pt}
+\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\footnotesize\sffamily VOYNICH A / ATTESTED LEXICON}\fancyhead[R]{\footnotesize\sffamily 31 OCT 2026}\fancyfoot[C]{\footnotesize\thepage\ / \pageref{LastPage}}\renewcommand{\headrulewidth}{0.3pt}
+\newcommand{\Evidence}[1]{\par\smallskip{\color{soft}\footnotesize\textit{Evidence note.} #1}\par\smallskip}
+\begin{document}
+\begin{titlepage}\vspace*{30mm}
+{\sffamily\Large\color{accent} COMPANION LEXICAL INDEX\par}\vspace{8mm}
+{\sffamily\Huge\bfseries\color{ink} Attested Voynich-A\par Surface Words\par}\vspace{10mm}
+{\Large Alphabetical/formal concordance for free composition\par}
+\vspace{15mm}\hrule\vspace{8mm}
+{\large 1,971 attested types / 715 shared four- to six-glyph routes\par}
+{\large Corpus-first English edition, 31 October 2026\par}
+\vfill{\small The role abbreviations indicate \emph{observed manuscript positions}, not parts of speech or discovered translations. All entries come from the supplied pure Herbal A lexical corpus; no simulated word has been inserted.}\par
+\end{titlepage}
+\tableofcontents\clearpage
+\section{How to Use This Concordance}
+The lexicon lists every distinct clean word form in the 85-page annotated pure Herbal A dataset. Forms are ordered by descending token frequency, so the most reusable evidence comes first. A separate CSV contains all counts, pages, bifolia, glyph segmentation, and source loci. Use this volume as a writing inventory: every entry may be employed freely wherever its observed role permits it. This document \emph{does not} assert what any form means. The two annotation fields, \textbf{Meaning} and \textbf{Part of Speech}, are initially blank for every entry. They are not reconstructions or claims. Use the editable CSV or workbook for typing, or the printed cells for handwriting.
+
+\begin{tabularx}{\textwidth}{@{}p{26mm}Y@{}}\toprule
+Column & Description \\\midrule
+Rank, word & Rank and complete EVA surface word.\\
+N & Token frequency in the defined corpus.\\
+Length & Number of segmentation glyphs, with \EVA{ch/sh/cfh/ckh/cph/cth} counted as one glyph.\\
+Roles & Space-saving codes for exact slots in which the word was \emph{observed}.\\
+Locus & One source line identifier, not the entire set of occurrences.\\
+Meaning & Intentionally blank; readers may enter their own conjectured translation.\\
+Part of Speech & Intentionally blank; readers may supply their own proposed category.\\
+\bottomrule\end{tabularx}
+
+\subsection{Role codes}
+\begin{tabularx}{\textwidth}{@{}p{15mm}p{28mm}Y@{}}\toprule
+Code & Slot & Details\\\midrule
+P & PHW & First word in paragraph first line.\\
+I & \EVA{F1_BODY} & Interior word of paragraph first line.\\
+J & \EVA{F1_LF} & Last word of paragraph first line.\\
+H & HEAD & First word in an ordinary inner line.\\
+2 & W2 & Second word of an ordinary inner line.\\
+B & BODY & Remaining interior word of inner line.\\
+L & LF & Last word of an ordinary inner line.\\
+F & \EVA{PF_HEAD} & First word of final line.\\
+D & \EVA{PF_BODY} & Interior word of final line.\\
+Z & \EVA{PF_LF} & Paragraph's final word.\\
+\bottomrule\end{tabularx}
+
+Only paragraphs with at least three lines contribute to slot counts. One two-line paragraph is included in the corpus frequency totals but absent from role classification; this is why rare words can have no printed role code. These entries are not errors and are accessible in the machine-readable table.
+
+\section{Complete Attested Surface Word Inventory (1,971 types)}
+The two rightmost columns are \textbf{reader-editable annotations}. Initially they are empty and are not part of corpus-derived evidence. The facing orientation is landscape to leave room for handwriting.
+\begin{landscape}
+\footnotesize\renewcommand{\arraystretch}{1.16}
+\setlength{\tabcolsep}{4.2pt}
+\begin{longtable}{@{}r>{\ttfamily}lrrl>{\ttfamily}l>{\raggedright\arraybackslash}p{80mm}>{\raggedright\arraybackslash}p{36mm}@{}}
+\toprule Rank & Form & N & Len & Roles & Locus & Meaning & Part of Speech\\\midrule\endfirsthead
+\toprule Rank & Form & N & Len & Roles & Locus & Meaning & Part of Speech\\\midrule\endhead
+1 & daiin & 369 & 5 & IJH2BLFDZ & f1v.8 &  & \\
+2 & chol & 206 & 3 & IH2BLFDZ & f1v.6 &  & \\
+3 & chor & 144 & 3 & IJH2BLFDZ & f2r.3 &  & \\
+4 & s & 108 & 1 & IJH2BLFD & f2r.2 &  & \\
+5 & dy & 105 & 2 & IJH2BLDZ & f2r.4 &  & \\
+6 & chy & 97 & 2 & IJH2BLFDZ & f1v.6 &  & \\
+7 & shol & 95 & 3 & PIH2BFDZ & f1v.5 &  & \\
+8 & sho & 90 & 2 & IH2BFD & f2r.9 &  & \\
+9 & cthy & 86 & 2 & IJ2BLDZ & f1v.3 &  & \\
+10 & dain & 77 & 4 & IJH2BLFDZ & f2r.6 &  & \\
+11 & y & 69 & 1 & IJH2BLFDZ & f2r.3 &  & \\
+12 & dar & 60 & 3 & IJH2BLDZ & f1v.5 &  & \\
+13 & shor & 60 & 3 & IJH2BFD & f1v.9 &  & \\
+14 & chey & 58 & 3 & IH2BLD & f1v.5 &  & \\
+15 & shy & 56 & 2 & IJH2BLDZ & f1v.3 &  & \\
+16 & or & 50 & 2 & IJH2BLFD & f1v.2 &  & \\
+17 & ol & 49 & 2 & IJH2BLFD & f1v.1 &  & \\
+18 & cho & 47 & 2 & IH2BLFD & f3r.4 &  & \\
+19 & o & 47 & 1 & IH2BLFD & f1v.1 &  & \\
+20 & qotchy & 44 & 5 & IH2BLFD & f4r.5 &  & \\
+21 & cthol & 42 & 3 & IH2BLDZ & f1v.8 &  & \\
+22 & dal & 40 & 3 & IJ2BLDZ & f1v.3 &  & \\
+23 & dol & 40 & 3 & IH2BLFD & f1v.4 &  & \\
+24 & cthor & 39 & 3 & IH2BLDZ & f2r.12 &  & \\
+25 & chaiin & 37 & 5 & J2BLD & f2r.3 &  & \\
+26 & oty & 37 & 3 & PIJH2BLD & f6v.5 &  & \\
+27 & qokchy & 37 & 5 & IH2BFD & f3v.13 &  & \\
+28 & aiin & 36 & 4 & IJH2BLD & f3r.20 &  & \\
+29 & d & 33 & 1 & IJ2BL & f2r.4 &  & \\
+30 & dor & 33 & 3 & IH2BLFD & f2v.5 &  & \\
+31 & r & 33 & 1 & PIJ2BLDZ & f3v.4 &  & \\
+32 & oky & 31 & 3 & IJH2BLD & f3r.8 &  & \\
+33 & shey & 30 & 3 & IJ2BDZ & f2v.5 &  & \\
+34 & dam & 29 & 3 & IJBLDZ & f1v.4 &  & \\
+35 & kchy & 29 & 3 & J2BLD & f2v.2 &  & \\
+36 & otchy & 28 & 4 & IJHB & f2v.3 &  & \\
+37 & char & 27 & 3 & I2BLD & f1v.1 &  & \\
+38 & okaiin & 27 & 6 & IH2BLDZ & f4r.4 &  & \\
+39 & otol & 27 & 4 & IHBLFD & f5r.2 &  & \\
+40 & qoty & 27 & 4 & IJH2BLZ & f2v.2 &  & \\
+41 & cheor & 26 & 4 & I2BD & f2v.4 &  & \\
+42 & otaiin & 26 & 6 & IJH2BLZ & f2v.1 &  & \\
+43 & dair & 25 & 4 & IJ2BLFD & f1v.4 &  & \\
+44 & chody & 24 & 4 & I2BLFD & f1v.2 &  & \\
+45 & kol & 24 & 3 & PIJH2BLD & f1v.8 &  & \\
+46 & otchol & 24 & 5 & IHBFD & f3r.7 &  & \\
+47 & dchy & 23 & 3 & IH2BL & f2r.6 &  & \\
+48 & dchor & 22 & 4 & IH2BLFD & f1v.9 &  & \\
+49 & ckhy & 21 & 2 & 2BLD & f1v.3 &  & \\
+50 & qokol & 21 & 5 & IH2BF & f3r.5 &  & \\
+51 & qoky & 21 & 4 & IH2BLF & f7v.2 &  & \\
+52 & tchy & 21 & 3 & PI2BD & f4r.9 &  & \\
+53 & choty & 20 & 4 & IH2BLZ & f7r.8 &  & \\
+54 & okol & 20 & 4 & IH2BLD & f1v.9 &  & \\
+55 & chodaiin & 19 & 7 & IH2BLFZ & f2v.4 &  & \\
+56 & kchol & 19 & 4 & PI2BD & f8v.7 &  & \\
+57 & l & 19 & 1 & IH2BFD & f1v.1 &  & \\
+58 & odaiin & 19 & 6 & IH2BLFD & f3r.20 &  & \\
+59 & chcthy & 18 & 3 & J2BZ & f2r.13 &  & \\
+60 & cheol & 18 & 4 & I2BD & f1v.7 &  & \\
+61 & choky & 18 & 4 & H2BLD & f1v.6 &  & \\
+62 & qotol & 18 & 5 & PIH2BF & f4v.11 &  & \\
+63 & sheey & 18 & 4 & PIH2BD & f2r.9 &  & \\
+64 & ar & 17 & 2 & IJ2BL & f6v.15 &  & \\
+65 & cthey & 17 & 3 & 2BDZ & f1v.7 &  & \\
+66 & qotor & 17 & 5 & PIH2BZ & f5v.4 &  & \\
+67 & cheey & 16 & 4 & IH2BD & f7v.3 &  & \\
+68 & ctho & 16 & 2 & 2B & f1v.6 &  & \\
+69 & kchor & 16 & 4 & PIH2BLD & f2v.5 &  & \\
+70 & ky & 16 & 2 & IJ2BLD & f1v.8 &  & \\
+71 & qo & 16 & 2 & IHBF & f1v.7 &  & \\
+72 & saiin & 16 & 5 & IJHBLFDZ & f2r.6 &  & \\
+73 & sy & 16 & 2 & IJBL & f8r.3 &  & \\
+74 & ykchy & 16 & 4 & IJH2BLD & f3v.8 &  & \\
+75 & dchol & 15 & 4 & IHBFDZ & f2r.6 &  & \\
+76 & kaiin & 15 & 5 & BLD & f8r.19 &  & \\
+77 & okal & 15 & 4 & JH2BL & f1v.6 &  & \\
+78 & qokaiin & 15 & 7 & IH2BLD & f5r.2 &  & \\
+79 & chear & 14 & 4 & I2BLD & f3v.4 &  & \\
+80 & otchor & 14 & 5 & IH2BLZ & f3r.19 &  & \\
+81 & tchor & 14 & 4 & PIH2B & f2v.6 &  & \\
+82 & dan & 13 & 3 & IBLZ & f2r.5 &  & \\
+83 & shaiin & 13 & 5 & I2B & f2r.8 &  & \\
+84 & tchol & 13 & 4 & PIJ2B & f9r.7 &  & \\
+85 & chckhy & 12 & 3 & I2BZ & f6r.2 &  & \\
+86 & chocthy & 12 & 4 & I2BFZ & f5r.3 &  & \\
+87 & choiin & 12 & 5 & IHBLZ & f7r.9 &  & \\
+88 & chokchy & 12 & 5 & H2BLD & f7v.9 &  & \\
+89 & chotchy & 12 & 5 & JHBL & f7r.7 &  & \\
+90 & ckhol & 12 & 3 & I2B & f3v.1 &  & \\
+91 & do & 12 & 2 & 2BL & f1v.7 &  & \\
+92 & okchor & 12 & 5 & H2BFD & f13r.6 &  & \\
+93 & okchy & 12 & 4 & H2BLF & f13r.6 &  & \\
+94 & qokchol & 12 & 6 & H2B & f10r.7 &  & \\
+95 & shody & 12 & 4 & IH2BLZ & f4v.11 &  & \\
+96 & taiin & 12 & 5 & IBLD & f5v.4 &  & \\
+97 & ty & 12 & 2 & IBD & f7v.3 &  & \\
+98 & ytaiin & 12 & 6 & IHBLZ & f6r.3 &  & \\
+99 & chain & 11 & 4 & I2BD & f7r.10 &  & \\
+100 & chom & 11 & 3 & IJBLZ & f3r.7 &  & \\
+101 & cthaiin & 11 & 5 & I2BL & f6r.5 &  & \\
+102 & kchey & 11 & 4 & PIHBD & f6v.2 &  & \\
+103 & keey & 11 & 4 & BDZ & f4v.12 &  & \\
+104 & otor & 11 & 4 & IH2BL & f4v.8 &  & \\
+105 & qodaiin & 11 & 7 & IH2BL & f3r.7 &  & \\
+106 & qokeey & 11 & 6 & IHBFZ & f3r.13 &  & \\
+107 & qotaiin & 11 & 7 & IHBL & f2r.3 &  & \\
+108 & qotchol & 11 & 6 & IHBLFD & f4r.4 &  & \\
+109 & she & 11 & 2 & I2B & f6r.10 &  & \\
+110 & sor & 11 & 3 & IHBFD & f2r.6 &  & \\
+111 & ytchy & 11 & 4 & H2BD & f3v.12 &  & \\
+112 & chan & 10 & 3 & J2BLD & f2r.12 &  & \\
+113 & kor & 10 & 3 & I2BD & f3v.6 &  & \\
+114 & oaiin & 10 & 5 & IHBDZ & f5r.1 &  & \\
+115 & okor & 10 & 4 & H2BFD & f3v.2 &  & \\
+116 & otchey & 10 & 5 & IH2BFD & f20r.12 &  & \\
+117 & qot & 10 & 3 & H2BL & f3r.13 &  & \\
+118 & qotchor & 10 & 6 & HBF & f10r.8 &  & \\
+119 & shodaiin & 10 & 7 & IJH2BL & f2r.5 &  & \\
+120 & sol & 10 & 3 & PJHBLF & f8r.6 &  & \\
+121 & cheo & 9 & 3 & I2BD & f2v.1 &  & \\
+122 & chory & 9 & 4 & IBLZ & f6r.9 &  & \\
+123 & ckhey & 9 & 3 & I2BL & f25v.2 &  & \\
+124 & cthar & 9 & 3 & 2BL & f6v.16 &  & \\
+125 & daiiin & 9 & 6 & IJ2BL & f2v.5 &  & \\
+126 & dchey & 9 & 4 & IH2B & f7r.2 &  & \\
+127 & tol & 9 & 3 & IH2BF & f15r.8 &  & \\
+128 & ychor & 9 & 4 & HF & f6v.8 &  & \\
+129 & ydaiin & 9 & 6 & HLD & f6r.6 &  & \\
+130 & ykeey & 9 & 5 & H2BLFD & f2r.13 &  & \\
+131 & ykol & 9 & 4 & H2BD & f1v.7 &  & \\
+132 & yky & 9 & 3 & IH2BL & f2r.9 &  & \\
+133 & ytchor & 9 & 5 & H2BZ & f15v.5 &  & \\
+134 & am & 8 & 2 & JBLZ & f1v.1 &  & \\
+135 & cthody & 8 & 4 & 2BL & f13v.3 &  & \\
+136 & dshor & 8 & 4 & HB & f22v.2 &  & \\
+137 & keol & 8 & 4 & 2BLD & f2r.10 &  & \\
+138 & okchey & 8 & 5 & H2B & f6v.8 &  & \\
+139 & otal & 8 & 4 & I2BLZ & f9v.7 &  & \\
+140 & qotchey & 8 & 6 & IHB & f7v.8 &  & \\
+141 & qoteey & 8 & 6 & IH2B & f11v.6 &  & \\
+142 & sheor & 8 & 4 & IH2B & f6r.4 &  & \\
+143 & tchey & 8 & 4 & I2BLZ & f1v.1 &  & \\
+144 & ytol & 8 & 4 & HB & f9r.4 &  & \\
+145 & ytor & 8 & 4 & I2B & f5v.3 &  & \\
+146 & yty & 8 & 3 & JBLD & f3v.13 &  & \\
+147 & al & 7 & 2 & IJ2BLD & f2r.5 &  & \\
+148 & cham & 7 & 3 & IJBLZ & f3r.2 &  & \\
+149 & chees & 7 & 4 & 2B & f2v.7 &  & \\
+150 & chkaiin & 7 & 6 & BLFZ & f9v.2 &  & \\
+151 & chokaiin & 7 & 7 & H2BLZ & f2r.4 &  & \\
+152 & choly & 7 & 4 & I2BLD & f9r.1 &  & \\
+153 & chos & 7 & 3 & 2BZ & f15r.9 &  & \\
+154 & cphy & 7 & 2 & IJ2BD & f2r.4 &  & \\
+155 & daiir & 7 & 5 & HBLD & f7v.9 &  & \\
+156 & doiin & 7 & 5 & IHBFD & f4r.1 &  & \\
+157 & dsho & 7 & 3 & HBF & f10v.3 &  & \\
+158 & dshy & 7 & 3 & HBF & f14v.7 &  & \\
+159 & g & 7 & 1 & BLZ & f18r.11 &  & \\
+160 & kcho & 7 & 3 & IH2BD & f2v.2 &  & \\
+161 & ksho & 7 & 3 & PH2BD & f11v.7 &  & \\
+162 & ody & 7 & 3 & BL & f4v.12 &  & \\
+163 & oiin & 7 & 4 & 2B & f13r.6 &  & \\
+164 & okchol & 7 & 5 & BFD & f11r.7 &  & \\
+165 & os & 7 & 2 & BLFD & f6r.3 &  & \\
+166 & qokchor & 7 & 6 & H2 & f3r.12 &  & \\
+167 & qotcho & 7 & 5 & PHB & f2v.2 &  & \\
+168 & sh & 7 & 1 & H2BD & f8r.2 &  & \\
+169 & sheaiin & 7 & 6 & IJ2BL & f8v.2 &  & \\
+170 & sheo & 7 & 3 & I2BD & f4v.2 &  & \\
+171 & sheol & 7 & 4 & I2BL & f3r.11 &  & \\
+172 & shocthy & 7 & 4 & IH2B & f15r.8 &  & \\
+173 & chal & 6 & 3 & IBL & f3r.4 &  & \\
+174 & chdy & 6 & 3 & IJ2BL & f9r.6 &  & \\
+175 & cheky & 6 & 4 & 2BLD & f10v.7 &  & \\
+176 & chkchy & 6 & 4 & 2B & f16v.11 &  & \\
+177 & chl & 6 & 2 & BD & f8r.17 &  & \\
+178 & chotaiin & 6 & 7 & BL & f5v.5 &  & \\
+179 & choy & 6 & 3 & 2BD & f9v.6 &  & \\
+180 & chty & 6 & 3 & IB & f2v.6 &  & \\
+181 & dom & 6 & 3 & JLZ & f15r.14 &  & \\
+182 & okeey & 6 & 5 & H2BD & f3r.14 &  & \\
+183 & om & 6 & 2 & IBL & f18r.1 &  & \\
+184 & opchy & 6 & 4 & I & f13r.1 &  & \\
+185 & otcho & 6 & 4 & H2BF & f14r.7 &  & \\
+186 & pchor & 6 & 4 & PI & f2v.1 &  & \\
+187 & qoaiin & 6 & 6 & IH2B & f5r.3 &  & \\
+188 & qokor & 6 & 5 & HBD & f6v.14 &  & \\
+189 & qor & 6 & 3 & IH2FD & f17r.4 &  & \\
+190 & sal & 6 & 3 & IBL & f2r.12 &  & \\
+191 & sar & 6 & 3 & IH2BLF & f6v.1 &  & \\
+192 & shan & 6 & 3 & IJBL & f2r.11 &  & \\
+193 & t & 6 & 1 & 2BD & f27r.6 &  & \\
+194 & tcho & 6 & 3 & HB & f1v.9 &  & \\
+195 & tchody & 6 & 5 & PIHB & f6v.6 &  & \\
+196 & tor & 6 & 3 & HBL & f9v.9 &  & \\
+197 & ychol & 6 & 4 & H2 & f6r.8 &  & \\
+198 & ykaiin & 6 & 6 & IB & f9v.3 &  & \\
+199 & cfhy & 5 & 2 & I2 & f10r.10 &  & \\
+200 & cheody & 5 & 5 & 2BLZ & f3r.13 &  & \\
+201 & chety & 5 & 4 & 2B & f2r.12 &  & \\
+202 & chod & 5 & 3 & H2BD & f14r.10 &  & \\
+203 & choldy & 5 & 5 & IBL & f4v.2 &  & \\
+204 & chotol & 5 & 5 & BL & f8r.12 &  & \\
+205 & cphaiin & 5 & 5 & I2BL & f4r.10 &  & \\
+206 & cphol & 5 & 3 & IB & f6r.1 &  & \\
+207 & cthal & 5 & 3 & 2BL & f3v.13 &  & \\
+208 & cthom & 5 & 3 & BL & f3r.6 &  & \\
+209 & dary & 5 & 4 & BL & f9v.9 &  & \\
+210 & key & 5 & 3 & BD & f4v.14 &  & \\
+211 & kshy & 5 & 3 & I2B & f7v.3 &  & \\
+212 & okeol & 5 & 5 & 2B & f3v.9 &  & \\
+213 & okeor & 5 & 5 & 2BD & f15v.3 &  & \\
+214 & okshy & 5 & 4 & H2BL & f13v.4 &  & \\
+215 & olol & 5 & 4 & HBL & f14r.3 &  & \\
+216 & oly & 5 & 3 & PIJB & f3v.1 &  & \\
+217 & opchol & 5 & 5 & PI & f3r.18 &  & \\
+218 & otam & 5 & 4 & 2BL & f6v.11 &  & \\
+219 & otar & 5 & 4 & BL & f9r.4 &  & \\
+220 & qockhy & 5 & 4 & 2BD & f22r.13 &  & \\
+221 & qodal & 5 & 5 & 2B & f51v.4 &  & \\
+222 & qokcho & 5 & 5 & H2B & f7r.4 &  & \\
+223 & qokey & 5 & 5 & HB & f2r.9 &  & \\
+224 & qopchy & 5 & 5 & IJ & f7v.1 &  & \\
+225 & shar & 5 & 3 & IH2B & f3v.13 &  & \\
+226 & shoiin & 5 & 5 & IHB & f10v.4 &  & \\
+227 & soiin & 5 & 5 & IHF & f4r.12 &  & \\
+228 & ycheor & 5 & 5 & PHF & f3r.2 &  & \\
+229 & ykchor & 5 & 5 & HB & f11r.6 &  & \\
+230 & chcphy & 4 & 3 & I2 & f20v.5 &  & \\
+231 & chkeey & 4 & 5 & 2BF & f7v.3 &  & \\
+232 & chochy & 4 & 4 & HB & f7r.9 &  & \\
+233 & chockhy & 4 & 4 & IH2 & f6v.15 &  & \\
+234 & chokchol & 4 & 6 & H2BF & f47r.2 &  & \\
+235 & chokeey & 4 & 6 & H2B & f25v.5 &  & \\
+236 & chotchey & 4 & 6 & IH2D & f1v.10 &  & \\
+237 & chyky & 4 & 4 & 2B & f2r.12 &  & \\
+238 & ckhor & 4 & 3 & 2LD & f2r.11 &  & \\
+239 & cphor & 4 & 3 & I2B & f3v.1 &  & \\
+240 & cthain & 4 & 4 & IBL & f21r.4 &  & \\
+241 & ctheey & 4 & 4 & 2B & f17v.22 &  & \\
+242 & da & 4 & 2 & HBL & f1v.3 &  & \\
+243 & dcheey & 4 & 5 & HB & f7r.2 &  & \\
+244 & dcho & 4 & 3 & HBF & f1v.2 &  & \\
+245 & dl & 4 & 2 & BLF & f16r.13 &  & \\
+246 & dshey & 4 & 4 & H2B & f25v.3 &  & \\
+247 & kchaiin & 4 & 6 & HBZ & f10r.7 &  & \\
+248 & kcheol & 4 & 5 & PIB & f3v.4 &  & \\
+249 & keor & 4 & 4 & 2B & f14r.12 &  & \\
+250 & koiin & 4 & 5 & PB & f14r.9 &  & \\
+251 & ksheo & 4 & 4 & PIB & f4v.1 &  & \\
+252 & ochor & 4 & 4 & HBF & f3r.3 &  & \\
+253 & od & 4 & 2 & BL & f6r.10 &  & \\
+254 & odal & 4 & 4 & IH2B & f4r.10 &  & \\
+255 & oeees & 4 & 5 & 2B & f9v.3 &  & \\
+256 & okain & 4 & 5 & HBZ & f9r.8 &  & \\
+257 & okar & 4 & 4 & HB & f8r.18 &  & \\
+258 & okchal & 4 & 5 & BL & f13r.9 &  & \\
+259 & okcho & 4 & 4 & HLD & f24v.2 &  & \\
+260 & oteol & 4 & 5 & IHBL & f3r.16 &  & \\
+261 & otoldy & 4 & 6 & JBZ & f22r.11 &  & \\
+262 & otshy & 4 & 4 & IH2D & f23v.9 &  & \\
+263 & qocthy & 4 & 4 & PHL & f4v.4 &  & \\
+264 & qody & 4 & 4 & HBL & f8v.3 &  & \\
+265 & qokchey & 4 & 6 & IHBD & f20r.9 &  & \\
+266 & qokeol & 4 & 6 & BLF & f21r.6 &  & \\
+267 & qokoiin & 4 & 7 & PIHB & f21r.5 &  & \\
+268 & qotshy & 4 & 5 & I2D & f19r.1 &  & \\
+269 & qoy & 4 & 3 & IB & f2r.8 &  & \\
+270 & schey & 4 & 4 & IHB & f3r.4 &  & \\
+271 & shain & 4 & 4 & HBLZ & f4r.3 &  & \\
+272 & shckhy & 4 & 3 & I2B & f6v.4 &  & \\
+273 & shcthy & 4 & 3 & BD & f10v.6 &  & \\
+274 & shokchy & 4 & 5 & BD & f4v.6 &  & \\
+275 & shoty & 4 & 4 & I2BL & f14r.10 &  & \\
+276 & tcheey & 4 & 5 & 2BZ & f7v.5 &  & \\
+277 & tsho & 4 & 3 & PI2F & f17r.6 &  & \\
+278 & tshol & 4 & 4 & P & f11r.1 &  & \\
+279 & ychey & 4 & 4 & HB & f7r.4 &  & \\
+280 & ychy & 4 & 3 & IHL & f14v.3 &  & \\
+281 & ykchol & 4 & 5 & IH2D & f18r.1 &  & \\
+282 & ytchey & 4 & 5 & IHB & f5v.1 &  & \\
+283 & chckhey & 3 & 4 & B & f17v.12 &  & \\
+284 & chckhol & 3 & 4 & 2B & f3v.8 &  & \\
+285 & cheaiin & 3 & 6 & BLD & f2v.7 &  & \\
+286 & chkar & 3 & 4 & 2D & f2r.2 &  & \\
+287 & chkor & 3 & 4 & BZ & f9r.10 &  & \\
+288 & chky & 3 & 3 & BL & f3v.13 &  & \\
+289 & chodaly & 3 & 6 & BD & f3v.6 &  & \\
+290 & chodar & 3 & 5 & HBZ & f1v.10 &  & \\
+291 & chok & 3 & 3 & HB & f14r.2 &  & \\
+292 & chokor & 3 & 5 & BLD & f29v.9 &  & \\
+293 & chot & 3 & 3 & HB & f8r.11 &  & \\
+294 & chotor & 3 & 5 & BL & f42r.5 &  & \\
+295 & chr & 3 & 2 & 2B & f2v.7 &  & \\
+296 & chs & 3 & 2 & IB & f16r.5 &  & \\
+297 & chyty & 3 & 4 & 2B & f9v.9 &  & \\
+298 & ckhaiin & 3 & 5 & BL & f6r.8 &  & \\
+299 & ckham & 3 & 3 & 2BL & f6r.6 &  & \\
+300 & ckhody & 3 & 4 & 2B & f17r.2 &  & \\
+301 & cphey & 3 & 3 & 2BL & f7r.9 &  & \\
+302 & ctheol & 3 & 4 & B & f17v.11 &  & \\
+303 & cthod & 3 & 3 & B & f9v.6 &  & \\
+304 & ctholy & 3 & 4 & BL & f15r.8 &  & \\
+305 & daiidy & 3 & 6 & HBL & f3v.2 &  & \\
+306 & daldy & 3 & 5 & BL & f13r.9 &  & \\
+307 & dals & 3 & 4 & 2B & f2r.4 &  & \\
+308 & dchaiin & 3 & 6 & HB & f20r.11 &  & \\
+309 & dchckhy & 3 & 4 & HBZ & f14v.9 &  & \\
+310 & dchokchy & 3 & 6 & HB & f14r.11 &  & \\
+311 & dody & 3 & 4 & IB & f17r.1 &  & \\
+312 & ety & 3 & 3 & BLD & f20v.10 &  & \\
+313 & kcheor & 3 & 5 & I2D & f4v.11 &  & \\
+314 & kchod & 3 & 4 & I2L & f7r.9 &  & \\
+315 & keeor & 3 & 5 & 2B & f17v.2 &  & \\
+316 & kom & 3 & 3 & JLD & f10r.1 &  & \\
+317 & kshey & 3 & 4 & I2B & f8r.14 &  & \\
+318 & n & 3 & 1 & L & f14v.6 &  & \\
+319 & ochy & 3 & 3 & HB & f1v.2 &  & \\
+320 & oees & 3 & 4 & HB & f6v.2 &  & \\
+321 & okchar & 3 & 5 & I2B & f45r.6 &  & \\
+322 & okey & 3 & 4 & 2BL & f5r.2 &  & \\
+323 & okoiin & 3 & 6 & HBF & f6r.5 &  & \\
+324 & okoy & 3 & 4 & ILD & f20v.1 &  & \\
+325 & oksho & 3 & 4 & IHB & f7v.6 &  & \\
+326 & opchey & 3 & 5 & I & f19v.1 &  & \\
+327 & otcham & 3 & 5 & IJB & f3v.7 &  & \\
+328 & otchar & 3 & 5 & H2B & f8v.5 &  & \\
+329 & otey & 3 & 4 & 2B & f16r.2 &  & \\
+330 & pchar & 3 & 4 & PB & f6r.8 &  & \\
+331 & pchocthy & 3 & 5 & P & f10r.1 &  & \\
+332 & qockhey & 3 & 5 & 2B & f51r.5 &  & \\
+333 & qod & 3 & 3 & B & f24r.14 &  & \\
+334 & qodar & 3 & 5 & HB & f3v.4 &  & \\
+335 & qokam & 3 & 5 & 2L & f6v.12 &  & \\
+336 & qokar & 3 & 5 & HB & f8r.17 &  & \\
+337 & qokchod & 3 & 6 & H2B & f6v.10 &  & \\
+338 & qokod & 3 & 5 & I2B & f13v.3 &  & \\
+339 & qotal & 3 & 5 & IBL & f37v.19 &  & \\
+340 & qotcheol & 3 & 7 & IHB & f21r.5 &  & \\
+341 & qoto & 3 & 4 & HB & f23v.9 &  & \\
+342 & ry & 3 & 2 & BL & f8v.7 &  & \\
+343 & sain & 3 & 4 & JBL & f10v.1 &  & \\
+344 & sary & 3 & 4 & IJL & f9r.1 &  & \\
+345 & schol & 3 & 4 & 2F & f8r.21 &  & \\
+346 & schor & 3 & 4 & IH & f22r.4 &  & \\
+347 & shees & 3 & 4 & 2 & f5v.4 &  & \\
+348 & sheody & 3 & 5 & 2BD & f5r.4 &  & \\
+349 & shod & 3 & 3 & I & f24v.1 &  & \\
+350 & shom & 3 & 3 & B & f3r.7 &  & \\
+351 & shory & 3 & 4 & JL & f16v.2 &  & \\
+352 & shos & 3 & 3 & JHB & f20v.6 &  & \\
+353 & shosaiin & 3 & 7 & PJH & f20r.5 &  & \\
+354 & sos & 3 & 3 & JHL & f20v.2 &  & \\
+355 & teey & 3 & 4 & IBZ & f20r.4 &  & \\
+356 & tey & 3 & 3 & B & f7v.8 &  & \\
+357 & todaiin & 3 & 7 & HB & f21v.6 &  & \\
+358 & tody & 3 & 4 & IBL & f1v.5 &  & \\
+359 & toy & 3 & 3 & PL & f19v.8 &  & \\
+360 & tydy & 3 & 4 & JB & f4r.5 &  & \\
+361 & ycheol & 3 & 5 & H & f17v.9 &  & \\
+362 & ycho & 3 & 3 & HF & f19v.7 &  & \\
+363 & yd & 3 & 2 & JL & f36r.8 &  & \\
+364 & ykar & 3 & 4 & 2BL & f18v.6 &  & \\
+365 & ykchody & 3 & 6 & HBL & f37r.9 &  & \\
+366 & ykeol & 3 & 5 & HD & f45r.4 &  & \\
+367 & ykoiin & 3 & 6 & H2B & f5v.4 &  & \\
+368 & ykor & 3 & 4 & HBD & f13r.3 &  & \\
+369 & ypchy & 3 & 4 & I & f9v.5 &  & \\
+370 & ysho & 3 & 3 & F & f6r.14 &  & \\
+371 & ytal & 3 & 4 & BL & f13v.9 &  & \\
+372 & ytey & 3 & 4 & IFD & f9v.4 &  & \\
+373 & ytoiin & 3 & 6 & BL & f10r.10 &  & \\
+374 & ytoldy & 3 & 6 & BL & f2r.6 &  & \\
+375 & aldy & 2 & 4 & BD & f35r.11 &  & \\
+376 & an & 2 & 2 & B & f2r.12 &  & \\
+377 & cfhar & 2 & 3 & IH & f1v.1 &  & \\
+378 & chary & 2 & 4 & JL & f8v.4 &  & \\
+379 & chcth & 2 & 2 & BL & f24r.13 &  & \\
+380 & chcthey & 2 & 4 & IB & f30r.9 &  & \\
+381 & chctho & 2 & 3 & B & f30r.10 &  & \\
+382 & cheain & 2 & 5 & 2B & f8r.19 &  & \\
+383 & cheal & 2 & 4 & 2B & f8v.3 &  & \\
+384 & chean & 2 & 4 & B & f8r.17 &  & \\
+385 & cheeey & 2 & 5 & BL & f8r.5 &  & \\
+386 & cheeky & 2 & 5 & IB & f8v.15 &  & \\
+387 & cheeody & 2 & 6 & B & f7v.8 &  & \\
+388 & cheeor & 2 & 5 & 2B & f17v.18 &  & \\
+389 & cheod & 2 & 4 & BD & f29r.9 &  & \\
+390 & cheodaiin & 2 & 8 & 2 & f7r.3 &  & \\
+391 & cheos & 2 & 4 & IB & f14r.8 &  & \\
+392 & cheotol & 2 & 6 & 2B & f5v.5 &  & \\
+393 & ches & 2 & 3 & BL & f6v.18 &  & \\
+394 & chetchy & 2 & 5 & I & f29v.1 &  & \\
+395 & chkol & 2 & 4 & B & f30v.5 &  & \\
+396 & chkoldy & 2 & 6 & I2 & f7r.6 &  & \\
+397 & choaiin & 2 & 6 & JL & f4v.4 &  & \\
+398 & chochor & 2 & 5 & HD & f38r.6 &  & \\
+399 & chocphy & 2 & 4 & IJ & f28r.1 &  & \\
+400 & chodain & 2 & 6 & BL & f2v.3 &  & \\
+401 & chodchy & 2 & 5 & BL & f20r.2 &  & \\
+402 & choees & 2 & 5 & HB & f1v.7 &  & \\
+403 & choety & 2 & 5 & B & f8r.6 &  & \\
+404 & chof & 2 & 3 & IB & f8r.4 &  & \\
+405 & chokain & 2 & 6 & B & f8v.13 &  & \\
+406 & chokan & 2 & 5 & 2L & f49r.19 &  & \\
+407 & chokcho & 2 & 5 & H2 & f9r.4 &  & \\
+408 & chokeo & 2 & 5 & HD & f1v.4 &  & \\
+409 & chokeody & 2 & 7 & BL & f4v.10 &  & \\
+410 & chokey & 2 & 5 & HZ & f42v.15 &  & \\
+411 & chokody & 2 & 6 & BZ & f1v.4 &  & \\
+412 & choldaiin & 2 & 8 & BL & f17v.8 &  & \\
+413 & cholor & 2 & 5 & IB & f6r.1 &  & \\
+414 & chols & 2 & 4 & ID & f5v.1 &  & \\
+415 & choor & 2 & 4 & B & f8r.7 &  & \\
+416 & chopchy & 2 & 5 & I & f4v.1 &  & \\
+417 & chopy & 2 & 4 & I & f8r.1 &  & \\
+418 & chorain & 2 & 6 & BL & f30r.3 &  & \\
+419 & chorchy & 2 & 5 & I & f10r.1 &  & \\
+420 & chordy & 2 & 5 & BL & f19r.2 &  & \\
+421 & choror & 2 & 5 & J2 & f37v.11 &  & \\
+422 & choteol & 2 & 6 & 2B & f4v.4 &  & \\
+423 & chotshol & 2 & 6 & 2B & f21v.6 &  & \\
+424 & chtchy & 2 & 4 & B & f42v.2 &  & \\
+425 & chtol & 2 & 4 & 2L & f21v.4 &  & \\
+426 & chykchy & 2 & 5 & B & f8v.2 &  & \\
+427 & ckhal & 2 & 3 & BD & f6v.17 &  & \\
+428 & ckheey & 2 & 4 & 2Z & f51r.12 &  & \\
+429 & ckheody & 2 & 5 & 2B & f51r.2 &  & \\
+430 & ckhos & 2 & 3 & PZ & f54r.6 &  & \\
+431 & cphar & 2 & 3 & I & f11v.1 &  & \\
+432 & cpheo & 2 & 3 & IB & f42v.9 &  & \\
+433 & cpholdy & 2 & 5 & IL & f4r.8 &  & \\
+434 & ctheod & 2 & 4 & 2 & f6r.10 &  & \\
+435 & ctheody & 2 & 5 & 2B & f51v.6 &  & \\
+436 & cthoiin & 2 & 5 & IB & f15v.10 &  & \\
+437 & cthory & 2 & 4 & L & f4v.8 &  & \\
+438 & cthyd & 2 & 3 & BL & f10r.11 &  & \\
+439 & daiiny & 2 & 6 & DZ & f2r.7 &  & \\
+440 & daim & 2 & 4 & BL & f9v.7 &  & \\
+441 & daky & 2 & 4 & BZ & f15r.15 &  & \\
+442 & dalor & 2 & 5 & B & f2r.11 &  & \\
+443 & daly & 2 & 4 & BL & f9v.8 &  & \\
+444 & dchar & 2 & 4 & BF & f23r.3 &  & \\
+445 & dcheo & 2 & 4 & IH & f30r.8 &  & \\
+446 & dchodaiin & 2 & 8 & LF & f7v.5 &  & \\
+447 & ddy & 2 & 3 & B & f11v.6 &  & \\
+448 & deey & 2 & 4 & 2D & f21v.5 &  & \\
+449 & dls & 2 & 3 & HB & f2r.9 &  & \\
+450 & doroiin & 2 & 7 & IB & f22r.4 &  & \\
+451 & dpchy & 2 & 4 & I & f13r.5 &  & \\
+452 & ds & 2 & 2 & L & f14v.4 &  & \\
+453 & dsheey & 2 & 5 & IH & f8r.9 &  & \\
+454 & dykaiin & 2 & 7 & BD & f22r.3 &  & \\
+455 & dykchy & 2 & 5 & 2F & f7v.3 &  & \\
+456 & dyky & 2 & 4 & 2B & f16r.6 &  & \\
+457 & dytchy & 2 & 5 & B & f14v.3 &  & \\
+458 & eees & 2 & 4 & BL & f17v.18 &  & \\
+459 & eey & 2 & 3 & B & f3v.4 &  & \\
+460 & fcho & 2 & 3 & P & f21r.8 &  & \\
+461 & fchol & 2 & 4 & I2 & f16r.10 &  & \\
+462 & fcholdy & 2 & 6 & PI & f23r.1 &  & \\
+463 & foar & 2 & 4 & P2 & f6r.1 &  & \\
+464 & k & 2 & 1 & PJ & f5v.1 &  & \\
+465 & kaiiin & 2 & 6 & B & f10r.9 &  & \\
+466 & kal & 2 & 3 & BL & f8r.20 &  & \\
+467 & kam & 2 & 3 & L & f8r.19 &  & \\
+468 & kar & 2 & 3 & BD & f6r.2 &  & \\
+469 & kchal & 2 & 4 & LD & f27r.6 &  & \\
+470 & kcheey & 2 & 5 & 2B & f56r.11 &  & \\
+471 & kchos & 2 & 4 & 2B & f6v.19 &  & \\
+472 & kechy & 2 & 4 & IB & f1v.8 &  & \\
+473 & keeo & 2 & 4 & BD & f7v.9 &  & \\
+474 & kody & 2 & 4 & B & f29r.8 &  & \\
+475 & koldy & 2 & 5 & BL & f35r.12 &  & \\
+476 & kooiin & 2 & 6 & P & f2v.1 &  & \\
+477 & ksheody & 2 & 6 & B & f9v.6 &  & \\
+478 & kshol & 2 & 4 & PB & f23v.10 &  & \\
+479 & kshor & 2 & 4 & P2 & f6r.3 &  & \\
+480 & ldy & 2 & 3 & JB & f28r.1 &  & \\
+481 & lor & 2 & 3 & HF & f6v.11 &  & \\
+482 & lshy & 2 & 3 & B & f2v.3 &  & \\
+483 & ochey & 2 & 4 & H & f5r.2 &  & \\
+484 & ocho & 2 & 3 & H & f9r.9 &  & \\
+485 & ochol & 2 & 4 & HF & f20r.4 &  & \\
+486 & octhor & 2 & 4 & ID & f18r.1 &  & \\
+487 & octhy & 2 & 3 & 2L & f3r.12 &  & \\
+488 & odan & 2 & 4 & JL & f32v.7 &  & \\
+489 & odar & 2 & 4 & 2F & f32v.2 &  & \\
+490 & odor & 2 & 4 & B & f24v.13 &  & \\
+491 & ofchar & 2 & 5 & IJ & f22v.1 &  & \\
+492 & ofchey & 2 & 5 & I & f8r.9 &  & \\
+493 & ok & 2 & 2 & 2B & f23r.9 &  & \\
+494 & okaiir & 2 & 6 & I & f9r.6 &  & \\
+495 & okam & 2 & 4 & BL & f24v.3 &  & \\
+496 & okchody & 2 & 6 & BZ & f9r.2 &  & \\
+497 & okchom & 2 & 5 & BZ & f17r.3 &  & \\
+498 & okeal & 2 & 5 & I2 & f24r.16 &  & \\
+499 & okeeor & 2 & 6 & B & f3v.2 &  & \\
+500 & okeom & 2 & 5 & DZ & f3r.17 &  & \\
+501 & okom & 2 & 4 & HB & f3v.3 &  & \\
+502 & olchy & 2 & 4 & I2 & f14r.3 &  & \\
+503 & oldaiin & 2 & 7 & BZ & f17v.3 &  & \\
+504 & oldy & 2 & 4 & HB & f13r.7 &  & \\
+505 & olor & 2 & 4 & HB & f35r.12 &  & \\
+506 & ols & 2 & 3 & L & f15v.7 &  & \\
+507 & opchor & 2 & 5 & I & f13r.1 &  & \\
+508 & opchordy & 2 & 7 & J & f15v.1 &  & \\
+509 & opy & 2 & 3 & IJ & f9v.1 &  & \\
+510 & opydaiin & 2 & 8 & I & f8v.1 &  & \\
+511 & opydy & 2 & 5 & I & f17r.1 &  & \\
+512 & oraiin & 2 & 6 & FD & f9r.10 &  & \\
+513 & oro & 2 & 3 & 2Z & f15v.2 &  & \\
+514 & orshy & 2 & 4 & IH & f15v.1 &  & \\
+515 & otaiir & 2 & 6 & BD & f24v.2 &  & \\
+516 & otain & 2 & 5 & BF & f5r.4 &  & \\
+517 & otchaiin & 2 & 7 & HB & f22v.4 &  & \\
+518 & otchal & 2 & 5 & I2 & f2r.1 &  & \\
+519 & otcheor & 2 & 6 & IB & f30v.10 &  & \\
+520 & otchody & 2 & 6 & B & f3r.9 &  & \\
+521 & oteey & 2 & 5 & B & f8v.16 &  & \\
+522 & otod & 2 & 4 & JL & f37r.1 &  & \\
+523 & otody & 2 & 5 & BL & f16r.2 &  & \\
+524 & otorchy & 2 & 6 & 2B & f8v.13 &  & \\
+525 & otshol & 2 & 5 & IH & f7v.1 &  & \\
+526 & otydy & 2 & 5 & IL & f10v.1 &  & \\
+527 & oy & 2 & 2 & H & f14v.7 &  & \\
+528 & paiin & 2 & 5 & P & f10v.1 &  & \\
+529 & pcheey & 2 & 5 & I & f8r.9 &  & \\
+530 & pcheol & 2 & 5 & P & f3r.11 &  & \\
+531 & pcho & 2 & 3 & P & f14r.1 &  & \\
+532 & pchodaiin & 2 & 8 & PB & f20r.10 &  & \\
+533 & pchodol & 2 & 6 & PI & f10r.1 &  & \\
+534 & pchy & 2 & 3 & IB & f8v.10 &  & \\
+535 & podaiin & 2 & 7 & P & f49r.12 &  & \\
+536 & pol & 2 & 3 & PD & f1v.10 &  & \\
+537 & py & 2 & 2 & I & f19v.1 &  & \\
+538 & pydaiin & 2 & 7 & P & f4r.5 &  & \\
+539 & qocphy & 2 & 4 & IB & f20r.9 &  & \\
+540 & qocthol & 2 & 5 & HB & f6r.13 &  & \\
+541 & qodchy & 2 & 5 & IF & f13r.4 &  & \\
+542 & qoeor & 2 & 5 & B & f3r.19 &  & \\
+543 & qokal & 2 & 5 & 2B & f51v.8 &  & \\
+544 & qokchaiin & 2 & 8 & HB & f35r.13 &  & \\
+545 & qokcheo & 2 & 6 & H & f17v.11 &  & \\
+546 & qokechy & 2 & 6 & H & f7r.9 &  & \\
+547 & qokeees & 2 & 7 & B & f18v.6 &  & \\
+548 & qoko & 2 & 4 & H2 & f30r.4 &  & \\
+549 & qokody & 2 & 6 & HB & f3r.13 &  & \\
+550 & qokom & 2 & 5 & BL & f6v.8 &  & \\
+551 & qokshy & 2 & 5 & HB & f18v.3 &  & \\
+552 & qol & 2 & 3 & 2B & f18v.5 &  & \\
+553 & qoos & 2 & 4 & ID & f7r.1 &  & \\
+554 & qop & 2 & 3 & IB & f30r.4 &  & \\
+555 & qopchey & 2 & 6 & I & f16r.1 &  & \\
+556 & qopchor & 2 & 6 & IB & f3r.18 &  & \\
+557 & qopy & 2 & 4 & IJ & f20v.1 &  & \\
+558 & qotchar & 2 & 6 & IL & f23v.1 &  & \\
+559 & qotcheaiin & 2 & 9 & H & f25r.5 &  & \\
+560 & qotchod & 2 & 6 & BL & f15v.4 &  & \\
+561 & qotchody & 2 & 7 & L & f5r.3 &  & \\
+562 & qotchoiin & 2 & 8 & HB & f4r.11 &  & \\
+563 & qoteees & 2 & 7 & H & f49v.16 &  & \\
+564 & qoteeol & 2 & 7 & 2B & f3v.2 &  & \\
+565 & qotod & 2 & 5 & B & f9r.3 &  & \\
+566 & qotoeey & 2 & 7 & IF & f5r.7 &  & \\
+567 & qotoiin & 2 & 7 & HB & f10v.6 &  & \\
+568 & raiin & 2 & 5 & BL & f8v.16 &  & \\
+569 & rol & 2 & 3 & I2 & f8v.12 &  & \\
+570 & sam & 2 & 3 & FZ & f3r.17 &  & \\
+571 & scheaiin & 2 & 7 & HB & f8r.16 &  & \\
+572 & schy & 2 & 3 & HB & f16r.7 &  & \\
+573 & sham & 2 & 3 & HB & f24r.16 &  & \\
+574 & shdy & 2 & 3 & B & f27v.7 &  & \\
+575 & shear & 2 & 4 & IB & f8v.12 &  & \\
+576 & sheky & 2 & 4 & BL & f2r.10 &  & \\
+577 & sheod & 2 & 4 & IB & f7v.6 &  & \\
+578 & sheos & 2 & 4 & IB & f29r.5 &  & \\
+579 & shkaiin & 2 & 6 & 2 & f3v.13 &  & \\
+580 & shodal & 2 & 5 & ID & f54r.1 &  & \\
+581 & shokaiin & 2 & 7 & HL & f20v.10 &  & \\
+582 & shoky & 2 & 4 & B & f4v.9 &  & \\
+583 & shot & 2 & 3 & BD & f29v.4 &  & \\
+584 & shotol & 2 & 5 & IH & f38v.1 &  & \\
+585 & shtchy & 2 & 4 & IB & f4r.2 &  & \\
+586 & shytchy & 2 & 5 & I2 & f4r.6 &  & \\
+587 & so & 2 & 2 & IB & f2r.9 &  & \\
+588 & sodaiin & 2 & 7 & HF & f14r.13 &  & \\
+589 & sody & 2 & 4 & HB & f14r.9 &  & \\
+590 & soiiin & 2 & 6 & HB & f14r.2 &  & \\
+591 & som & 2 & 3 & I & f17r.4 &  & \\
+592 & soshy & 2 & 4 & PI & f14r.8 &  & \\
+593 & tar & 2 & 3 & HB & f35v.14 &  & \\
+594 & tch & 2 & 2 & LD & f9v.4 &  & \\
+595 & tchodar & 2 & 6 & PL & f24v.1 &  & \\
+596 & teor & 2 & 4 & BL & f32v.2 &  & \\
+597 & tod & 2 & 3 & B & f24r.12 &  & \\
+598 & torchy & 2 & 5 & PB & f4v.7 &  & \\
+599 & tsheody & 2 & 6 & PB & f44v.8 &  & \\
+600 & tshor & 2 & 4 & P & f15r.1 &  & \\
+601 & tshy & 2 & 3 & IB & f13r.5 &  & \\
+602 & ychain & 2 & 5 & H & f2r.11 &  & \\
+603 & ychear & 2 & 5 & H2 & f3v.5 &  & \\
+604 & ycheey & 2 & 5 & H & f17v.2 &  & \\
+605 & ychos & 2 & 4 & H & f6v.7 &  & \\
+606 & ydain & 2 & 5 & J2 & f14v.1 &  & \\
+607 & ydal & 2 & 4 & HB & f13r.2 &  & \\
+608 & ydar & 2 & 4 & IF & f3r.10 &  & \\
+609 & ydy & 2 & 3 & BL & f2r.3 &  & \\
+610 & ykair & 2 & 5 & BL & f16r.3 &  & \\
+611 & ykcho & 2 & 4 & HB & f18v.4 &  & \\
+612 & ykeor & 2 & 5 & HB & f6r.3 &  & \\
+613 & ykody & 2 & 5 & B & f2r.9 &  & \\
+614 & ykshy & 2 & 4 & HB & f14v.4 &  & \\
+615 & yor & 2 & 3 & BF & f2r.12 &  & \\
+616 & ypchol & 2 & 5 & I & f2r.1 &  & \\
+617 & ypchor & 2 & 5 & I & f14v.1 &  & \\
+618 & ytam & 2 & 4 & BL & f51v.3 &  & \\
+619 & ytar & 2 & 4 & B & f19v.13 &  & \\
+620 & ytchody & 2 & 6 & B & f45r.6 &  & \\
+621 & ytchol & 2 & 5 & BF & f22v.3 &  & \\
+622 & ytchoy & 2 & 5 & BF & f4v.6 &  & \\
+623 & yteey & 2 & 5 & H & f1v.2 &  & \\
+624 & yteol & 2 & 5 & BD & f21r.11 &  & \\
+625 & ytody & 2 & 5 & BL & f6v.4 &  & \\
+626 & ytsho & 2 & 4 & 2F & f32r.4 &  & \\
+627 & ytshy & 2 & 4 & IB & f13r.3 &  & \\
+628 & aiiin & 1 & 5 & B & f38v.4 &  & \\
+629 & aiios & 1 & 5 & D & f23v.12 &  & \\
+630 & aim & 1 & 3 & B & f54v.8 &  & \\
+631 & ain & 1 & 3 & B & f6v.15 &  & \\
+632 & air & 1 & 3 & D & f54r.12 &  & \\
+633 & alchy & 1 & 4 & 2 & f54v.15 &  & \\
+634 & aldam & 1 & 5 & L & f54v.14 &  & \\
+635 & alg & 1 & 3 & L & f23r.7 &  & \\
+636 & aral & 1 & 4 & L & f42v.14 &  & \\
+637 & aram & 1 & 4 & L & f4v.3 &  & \\
+638 & arg & 1 & 3 & L & f11v.6 &  & \\
+639 & ary & 1 & 3 & B & f42v.5 &  & \\
+640 & asy & 1 & 3 & I & f36v.1 &  & \\
+641 & cfhaiin & 1 & 5 & 2 & f8r.18 &  & \\
+642 & cfham & 1 & 3 & I & f3v.7 &  & \\
+643 & cfhodar & 1 & 5 & I & f8r.1 &  & \\
+644 & cfhol & 1 & 3 & I & f9v.1 &  & \\
+645 & cfholdar & 1 & 6 & I & f37r.4 &  & \\
+646 & cfholdy & 1 & 5 & J & f13r.5 &  & \\
+647 & ch & 1 & 1 & D & f16v.6 &  & \\
+648 & cha & 1 & 2 & B & f8r.18 &  & \\
+649 & chag & 1 & 3 & B & f3r.4 &  & \\
+650 & chaies & 1 & 5 & 2 & f6v.17 &  & \\
+651 & chair & 1 & 4 & B & f10r.2 &  & \\
+652 & chakod & 1 & 5 & B & f28r.2 &  & \\
+653 & chald & 1 & 4 & L & f7r.3 &  & \\
+654 & chals & 1 & 4 & I & f27r.7 &  & \\
+655 & chapchy & 1 & 5 & I & f6v.1 &  & \\
+656 & chariin & 1 & 6 & B & f49v.44 &  & \\
+657 & charochy & 1 & 6 & J & f7r.1 &  & \\
+658 & chcfhal & 1 & 4 & I & f36r.1 &  & \\
+659 & chchotaiin & 1 & 8 & I & f8v.12 &  & \\
+660 & chchoty & 1 & 5 & B & f29r.2 &  & \\
+661 & chckh & 1 & 2 & B & f38r.4 &  & \\
+662 & chckhaly & 1 & 5 & 2 & f24r.4 &  & \\
+663 & chckhan & 1 & 4 & Z & f10v.7 &  & \\
+664 & chckheey & 1 & 5 & L & f52v.4 &  & \\
+665 & chckho & 1 & 3 & 2 & f17r.9 &  & \\
+666 & chckhor & 1 & 4 & L & f35v.5 &  & \\
+667 & chcphol & 1 & 4 & I & f52v.1 &  & \\
+668 & chcthaiin & 1 & 6 & L & f35v.6 &  & \\
+669 & chcthal & 1 & 4 & 2 & f18r.9 &  & \\
+670 & chcthod & 1 & 4 & 2 & f9r.4 &  & \\
+671 & chcthody & 1 & 5 & 2 & f16v.4 &  & \\
+672 & chcthor & 1 & 4 & B & f10v.2 &  & \\
+673 & chd & 1 & 2 & L & f36v.12 &  & \\
+674 & chdain & 1 & 5 & B & f42r.14 &  & \\
+675 & chdlety & 1 & 6 & B & f47v.13 &  & \\
+676 & chdoly & 1 & 5 & I & f22r.7 &  & \\
+677 & cheam & 1 & 4 & L & f42r.13 &  & \\
+678 & checkhy & 1 & 4 & B & f30v.4 &  & \\
+679 & checthy & 1 & 4 & B & f20v.2 &  & \\
+680 & cheeal & 1 & 5 & B & f51r.12 &  & \\
+681 & cheeckhody & 1 & 7 & Z & f56r.8 &  & \\
+682 & cheecthy & 1 & 5 & J & f29r.1 &  & \\
+683 & cheeodam & 1 & 7 & H & f24v.14 &  & \\
+684 & cheeol & 1 & 5 & B & f17v.22 &  & \\
+685 & cheesees & 1 & 7 & B & f25r.3 &  & \\
+686 & cheesg & 1 & 5 & L & f27v.4 &  & \\
+687 & cheet & 1 & 4 & B & f49r.8 &  & \\
+688 & cheeykam & 1 & 7 & B & f3v.3 &  & \\
+689 & cheg & 1 & 3 & L & f45v.6 &  & \\
+690 & chekchey & 1 & 6 & I & f42v.9 &  & \\
+691 & chekchoy & 1 & 6 & B & f6v.3 &  & \\
+692 & chekeesshy & 1 & 8 & L & f42v.7 &  & \\
+693 & cheocthy & 1 & 5 & B & f8r.10 &  & \\
+694 & cheodain & 1 & 7 & Z & f51v.13 &  & \\
+695 & cheodar & 1 & 6 & B & f51v.4 &  & \\
+696 & cheoeees & 1 & 7 & B & f6r.3 &  & \\
+697 & cheog & 1 & 4 & B & f4v.9 &  & \\
+698 & cheoiees & 1 & 7 & 2 & f24r.11 &  & \\
+699 & cheokchet & 1 & 7 & B & f49v.38 &  & \\
+700 & cheokeey & 1 & 7 & D & f27r.12 &  & \\
+701 & cheokor & 1 & 6 & D & f52v.14 &  & \\
+702 & cheoky & 1 & 5 & 2 & f37v.15 &  & \\
+703 & cheoldain & 1 & 8 & B & f30r.5 &  & \\
+704 & cheoldy & 1 & 6 & L & f30v.5 &  & \\
+705 & cheolsos & 1 & 7 & L & f30v.9 &  & \\
+706 & cheoraiin & 1 & 8 & Z & f49r.3 &  & \\
+707 & cheory & 1 & 5 & B & f4v.2 &  & \\
+708 & cheotar & 1 & 6 & 2 & f47v.8 &  & \\
+709 & cheotchar & 1 & 7 & 2 & f42v.6 &  & \\
+710 & chep & 1 & 3 & I & f29r.1 &  & \\
+711 & chepchy & 1 & 5 & I & f30v.1 &  & \\
+712 & cher & 1 & 3 & I & f54r.6 &  & \\
+713 & chesey & 1 & 5 & I & f30r.8 &  & \\
+714 & chetaiin & 1 & 7 & L & f42v.5 &  & \\
+715 & chetan & 1 & 5 & B & f42v.5 &  & \\
+716 & chetar & 1 & 5 & 2 & f42r.4 &  & \\
+717 & chetchaiin & 1 & 8 & L & f35r.12 &  & \\
+718 & chetcho & 1 & 5 & B & f49v.44 &  & \\
+719 & cheteg & 1 & 5 & Z & f17r.6 &  & \\
+720 & chetody & 1 & 6 & B & f20r.10 &  & \\
+721 & chforaiin & 1 & 8 & I & f27r.1 &  & \\
+722 & chiin & 1 & 4 & D & f35r.15 &  & \\
+723 & chk & 1 & 2 & B & f23r.2 &  & \\
+724 & chkain & 1 & 5 & L & f25r.2 &  & \\
+725 & chkalchy & 1 & 6 & B & f49v.50 &  & \\
+726 & chkaly & 1 & 5 & B & f35v.17 &  & \\
+727 & chkchean & 1 & 6 & B & f30r.10 &  & \\
+728 & chkchory & 1 & 6 & L & f42r.9 &  & \\
+729 & chkeaiin & 1 & 7 & B & f30r.12 &  & \\
+730 & chkear & 1 & 5 & L & f25v.4 &  & \\
+731 & chkey & 1 & 4 & F & f25v.7 &  & \\
+732 & chko & 1 & 3 & P & f45v.1 &  & \\
+733 & chkodal & 1 & 6 & L & f53v.11 &  & \\
+734 & chkoy & 1 & 4 & I & f5r.1 &  & \\
+735 & chlol & 1 & 4 & I & f18r.5 &  & \\
+736 & chocfhey & 1 & 5 & I & f24v.1 &  & \\
+737 & chochar & 1 & 5 & B & f52v.3 &  & \\
+738 & chockhol & 1 & 5 & B & f17v.3 &  & \\
+739 & chocthey & 1 & 5 & I & f30v.1 &  & \\
+740 & chocthody & 1 & 6 & P & f53r.1 &  & \\
+741 & chodair & 1 & 6 & 2 & f3v.12 &  & \\
+742 & chodal & 1 & 5 & B & f13v.2 &  & \\
+743 & chodalg & 1 & 6 & L & f14r.12 &  & \\
+744 & chodam & 1 & 5 & D & f6v.5 &  & \\
+745 & choddal & 1 & 6 & L & f32r.4 &  & \\
+746 & chodey & 1 & 5 & B & f8v.16 &  & \\
+747 & chodl & 1 & 4 & I & f11r.5 &  & \\
+748 & chodo & 1 & 4 & B & f1v.6 &  & \\
+749 & chodoldy & 1 & 7 & L & f54v.15 &  & \\
+750 & chods & 1 & 4 & 2 & f49r.20 &  & \\
+751 & chodykchy & 1 & 7 & B & f9r.9 &  & \\
+752 & chodys & 1 & 5 & 2 & f38r.2 &  & \\
+753 & choek & 1 & 4 & D & f54r.12 &  & \\
+754 & choeky & 1 & 5 & B & f42r.12 &  & \\
+755 & chofchody & 1 & 7 & J & f32v.1 &  & \\
+756 & chofchy & 1 & 5 & I & f21v.1 &  & \\
+757 & chofydy & 1 & 6 & I & f8r.14 &  & \\
+758 & chog & 1 & 3 & I & f17r.1 &  & \\
+759 & chokag & 1 & 5 & L & f49v.24 &  & \\
+760 & chokaly & 1 & 6 & B & f49v.48 &  & \\
+761 & chokchaiin & 1 & 8 & H & f30r.10 &  & \\
+762 & chokcheey & 1 & 7 & D & f30v.11 &  & \\
+763 & chokcheo & 1 & 6 & 2 & f56r.13 &  & \\
+764 & chokchey & 1 & 6 & H & f56r.2 &  & \\
+765 & chokchodaiin & 1 & 10 & B & f49v.30 &  & \\
+766 & chokeeo & 1 & 6 & H & f42v.5 &  & \\
+767 & chokeeodol & 1 & 9 & 2 & f49v.32 &  & \\
+768 & chokeeody & 1 & 8 & D & f49v.26 &  & \\
+769 & chokeeoky & 1 & 8 & B & f49v.50 &  & \\
+770 & chokeol & 1 & 6 & H & f32r.17 &  & \\
+771 & chokeor & 1 & 6 & B & f30v.3 &  & \\
+772 & chokeos & 1 & 6 & B & f2v.7 &  & \\
+773 & choko & 1 & 4 & H & f30r.5 &  & \\
+774 & chokoaiin & 1 & 8 & I & f20r.5 &  & \\
+775 & chokoiin & 1 & 7 & D & f9r.5 &  & \\
+776 & chokoishe & 1 & 7 & F & f2v.8 &  & \\
+777 & chokokor & 1 & 7 & L & f38r.3 &  & \\
+778 & chokol & 1 & 5 & 2 & f30v.6 &  & \\
+779 & chokoldy & 1 & 7 & J & f20r.9 &  & \\
+780 & chokolg & 1 & 6 & Z & f47r.5 &  & \\
+781 & chokoran & 1 & 7 & L & f49v.50 &  & \\
+782 & chokshchy & 1 & 6 & Z & f22r.6 &  & \\
+783 & chokshor & 1 & 6 & H & f14v.8 &  & \\
+784 & chokshy & 1 & 5 & H & f29r.6 &  & \\
+785 & choksy & 1 & 5 & L & f56r.3 &  & \\
+786 & cholaiin & 1 & 7 & H & f2r.10 &  & \\
+787 & cholal & 1 & 5 & J & f8r.14 &  & \\
+788 & cholchom & 1 & 6 & L & f17v.19 &  & \\
+789 & cholcthom & 1 & 6 & Z & f3r.10 &  & \\
+790 & chold & 1 & 4 & Z & f11v.7 &  & \\
+791 & choldam & 1 & 6 & L & f53v.6 &  & \\
+792 & choldar & 1 & 6 & 2 & f6v.20 &  & \\
+793 & choldchy & 1 & 6 & L & f22r.5 &  & \\
+794 & choldshy & 1 & 6 & I & f17r.7 &  & \\
+795 & cholo & 1 & 4 & D & f2v.4 &  & \\
+796 & cholody & 1 & 6 & B & f29v.8 &  & \\
+797 & cholol & 1 & 5 & J & f47r.6 &  & \\
+798 & cholols & 1 & 6 & I & f5r.5 &  & \\
+799 & chololy & 1 & 6 & 2 & f3r.5 &  & \\
+800 & cholsho & 1 & 5 & I & f47v.1 &  & \\
+801 & choltaiin & 1 & 8 & B & f17v.9 &  & \\
+802 & chon & 1 & 3 & B & f37v.3 &  & \\
+803 & chop & 1 & 3 & I & f17r.1 &  & \\
+804 & chopchal & 1 & 6 & I & f10r.1 &  & \\
+805 & chopchol & 1 & 6 & I & f6r.1 &  & \\
+806 & chopdain & 1 & 7 & I & f37v.1 &  & \\
+807 & chopol & 1 & 5 & I & f14r.1 &  & \\
+808 & choraiin & 1 & 7 & B & f4r.2 &  & \\
+809 & choraly & 1 & 6 & 2 & f20v.8 &  & \\
+810 & chorcheor & 1 & 7 & H & f7v.7 &  & \\
+811 & chorly & 1 & 5 & Z & f24r.20 &  & \\
+812 & choro & 1 & 4 & B & f42r.22 &  & \\
+813 & chorody & 1 & 6 & I & f37r.8 &  & \\
+814 & choroiin & 1 & 7 & L & f49r.9 &  & \\
+815 & chorol & 1 & 5 & B & f56v.13 &  & \\
+816 & choross & 1 & 6 & L & f15r.11 &  & \\
+817 & chosar & 1 & 5 & 2 & f35v.10 &  & \\
+818 & choschy & 1 & 5 & 2 & f7v.4 &  & \\
+819 & choshy & 1 & 4 & B & f49r.2 &  & \\
+820 & chosory & 1 & 6 & L & f49r.17 &  & \\
+821 & chosy & 1 & 4 & B & f21r.5 &  & \\
+822 & chotain & 1 & 6 & B & f8v.7 &  & \\
+823 & chotar & 1 & 5 & B & f42r.3 &  & \\
+824 & chotcheol & 1 & 7 & F & f49r.11 &  & \\
+825 & chotcho & 1 & 5 & H & f47v.10 &  & \\
+826 & chotchody & 1 & 7 & J & f49v.36 &  & \\
+827 & chotchol & 1 & 6 & H & f30v.3 &  & \\
+828 & choteeey & 1 & 7 & B & f56v.3 &  & \\
+829 & choteey & 1 & 6 & B & f49v.42 &  & \\
+830 & chotey & 1 & 5 & B & f38v.4 &  & \\
+831 & choto & 1 & 4 & H & f8r.7 &  & \\
+832 & chotody & 1 & 6 & 2 & f42v.3 &  & \\
+833 & chotols & 1 & 6 & L & f6r.2 &  & \\
+834 & chotom & 1 & 5 & Z & f17r.12 &  & \\
+835 & chots & 1 & 4 & B & f5v.2 &  & \\
+836 & chotshy & 1 & 5 & I & f49r.4 &  & \\
+837 & chpady & 1 & 5 & I & f4r.1 &  & \\
+838 & chpal & 1 & 4 & I & f54v.1 &  & \\
+839 & chpcheos & 1 & 6 & I & f19v.1 &  & \\
+840 & chpchey & 1 & 5 & I & f16v.1 &  & \\
+841 & chpchol & 1 & 5 & I & f16v.1 &  & \\
+842 & chschsy & 1 & 5 & B & f27v.7 &  & \\
+843 & chseeor & 1 & 6 & B & f30r.6 &  & \\
+844 & chsey & 1 & 4 & 2 & f8r.16 &  & \\
+845 & chshol & 1 & 4 & D & f38v.8 &  & \\
+846 & chshoty & 1 & 5 & 2 & f9v.11 &  & \\
+847 & chshy & 1 & 3 & I & f29v.5 &  & \\
+848 & chsky & 1 & 4 & B & f25r.2 &  & \\
+849 & chtain & 1 & 5 & Z & f36v.14 &  & \\
+850 & chtar & 1 & 4 & H & f24r.7 &  & \\
+851 & chtchey & 1 & 5 & D & f30r.13 &  & \\
+852 & chtchor & 1 & 5 & B & f10r.4 &  & \\
+853 & chteeor & 1 & 6 & B & f52v.3 &  & \\
+854 & chtod & 1 & 4 & H & f2r.4 &  & \\
+855 & chtody & 1 & 5 & Z & f4v.14 &  & \\
+856 & chtoiin & 1 & 6 & I & f13v.1 &  & \\
+857 & chtols & 1 & 5 & I & f15r.1 &  & \\
+858 & chtor & 1 & 4 & B & f53r.8 &  & \\
+859 & chtshar & 1 & 5 & 2 & f42r.3 &  & \\
+860 & chtshy & 1 & 4 & I & f28v.7 &  & \\
+861 & chyd & 1 & 3 & I & f29v.10 &  & \\
+862 & chydaiin & 1 & 7 & I & f1v.1 &  & \\
+863 & chykald & 1 & 6 & L & f18r.9 &  & \\
+864 & chykar & 1 & 5 & J & f29v.10 &  & \\
+865 & chykey & 1 & 5 & B & f56r.2 &  & \\
+866 & chypcham & 1 & 6 & L & f17r.9 &  & \\
+867 & chypchy & 1 & 5 & I & f16v.7 &  & \\
+868 & chyt & 1 & 3 & B & f29v.11 &  & \\
+869 & chytaroiin & 1 & 9 & L & f36r.5 &  & \\
+870 & chytshy & 1 & 5 & B & f14v.2 &  & \\
+871 & ckhear & 1 & 4 & B & f25v.4 &  & \\
+872 & ckheeey & 1 & 5 & 2 & f52v.13 &  & \\
+873 & ckheol & 1 & 4 & 2 & f52v.9 &  & \\
+874 & ckho & 1 & 2 & 2 & f54r.8 &  & \\
+875 & ckhochy & 1 & 4 & 2 & f4r.9 &  & \\
+876 & ckhockhy & 1 & 4 & B & f1v.3 &  & \\
+877 & ckhoiin & 1 & 5 & I & f36v.5 &  & \\
+878 & ckholdy & 1 & 5 & L & f38r.5 &  & \\
+879 & ckholsy & 1 & 5 & J & f2r.1 &  & \\
+880 & ckholy & 1 & 4 & J & f21v.1 &  & \\
+881 & ckhoy & 1 & 3 & B & f5r.2 &  & \\
+882 & cphaiiin & 1 & 6 & I & f52v.1 &  & \\
+883 & cphal & 1 & 3 & J & f22r.7 &  & \\
+884 & cphaldy & 1 & 5 & B & f17r.5 &  & \\
+885 & cpharom & 1 & 5 & L & f8v.10 &  & \\
+886 & cphchar & 1 & 4 & J & f36v.5 &  & \\
+887 & cpheeain & 1 & 6 & I & f54v.1 &  & \\
+888 & cpheodar & 1 & 6 & B & f52v.5 &  & \\
+889 & cpheor & 1 & 4 & B & f17v.21 &  & \\
+890 & cpho & 1 & 2 & B & f32v.10 &  & \\
+891 & cphoaiin & 1 & 6 & B & f30v.8 &  & \\
+892 & cphoal & 1 & 4 & I & f1v.5 &  & \\
+893 & cphod & 1 & 3 & B & f16v.4 &  & \\
+894 & cphodal & 1 & 5 & B & f51r.14 &  & \\
+895 & cphodol & 1 & 5 & B & f53r.5 &  & \\
+896 & cphody & 1 & 4 & Z & f4v.6 &  & \\
+897 & cphokchol & 1 & 6 & J & f49v.2 &  & \\
+898 & cphorods & 1 & 6 & J & f37v.14 &  & \\
+899 & cphoy & 1 & 3 & B & f18v.8 &  & \\
+900 & cphydy & 1 & 4 & J & f4v.7 &  & \\
+901 & cth & 1 & 1 & B & f10r.7 &  & \\
+902 & cthaildy & 1 & 6 & B & f54v.2 &  & \\
+903 & ctham & 1 & 3 & L & f47r.8 &  & \\
+904 & cthan & 1 & 3 & 2 & f8v.6 &  & \\
+905 & cthd & 1 & 2 & L & f7v.2 &  & \\
+906 & cthe & 1 & 2 & B & f24r.5 &  & \\
+907 & ctheees & 1 & 5 & D & f53r.9 &  & \\
+908 & cthees & 1 & 4 & 2 & f44v.9 &  & \\
+909 & ctheo & 1 & 3 & D & f22r.9 &  & \\
+910 & ctheor & 1 & 4 & 2 & f52v.4 &  & \\
+911 & cthl & 1 & 2 & B & f15r.9 &  & \\
+912 & cthoaiin & 1 & 6 & I & f9r.6 &  & \\
+913 & cthochy & 1 & 4 & 2 & f42r.18 &  & \\
+914 & cthodaiin & 1 & 7 & I & f21r.8 &  & \\
+915 & cthodal & 1 & 5 & B & f17v.2 &  & \\
+916 & cthodam & 1 & 5 & B & f6v.17 &  & \\
+917 & cthodd & 1 & 4 & L & f49r.13 &  & \\
+918 & cthodoaly & 1 & 7 & B & f3v.9 &  & \\
+919 & cthold & 1 & 4 & B & f29v.2 &  & \\
+920 & ctholdg & 1 & 5 & D & f14v.9 &  & \\
+921 & ctholdy & 1 & 5 & L & f30v.2 &  & \\
+922 & ctholo & 1 & 4 & D & f22r.3 &  & \\
+923 & cthols & 1 & 4 & L & f37v.21 &  & \\
+924 & cthoor & 1 & 4 & 2 & f10r.2 &  & \\
+925 & cthorchy & 1 & 5 & Z & f30r.7 &  & \\
+926 & cths & 1 & 2 & L & f32r.14 &  & \\
+927 & dady & 1 & 4 & L & f21r.6 &  & \\
+928 & dago & 1 & 4 & L & f3r.8 &  & \\
+929 & dai & 1 & 3 & B & f8r.19 &  & \\
+930 & daid & 1 & 4 & 2 & f24v.7 &  & \\
+931 & daidy & 1 & 5 & B & f27v.2 &  & \\
+932 & daiidal & 1 & 7 & I & f23r.6 &  & \\
+933 & daiig & 1 & 5 & L & f52v.13 &  & \\
+934 & daiild & 1 & 6 & L & f36v.10 &  & \\
+935 & daiildy & 1 & 7 & J & f2r.8 &  & \\
+936 & daiim & 1 & 5 & B & f3v.10 &  & \\
+937 & daiino & 1 & 6 & H & f54v.8 &  & \\
+938 & daiinody & 1 & 8 & L & f37v.18 &  & \\
+939 & daiinol & 1 & 7 & L & f19r.12 &  & \\
+940 & daiio & 1 & 5 & B & f53v.4 &  & \\
+941 & daiioam & 1 & 7 & I & f32v.1 &  & \\
+942 & daiiody & 1 & 7 & I & f32r.1 &  & \\
+943 & daiiol & 1 & 6 & D & f25v.7 &  & \\
+944 & daiisol & 1 & 7 & L & f2r.9 &  & \\
+945 & daiity & 1 & 6 & L & f25v.3 &  & \\
+946 & daiiy & 1 & 5 & L & f47v.2 &  & \\
+947 & dail & 1 & 4 & D & f45v.4 &  & \\
+948 & daimg & 1 & 5 & J & f3r.1 &  & \\
+949 & dainl & 1 & 5 & L & f35r.4 &  & \\
+950 & dainod & 1 & 6 & F & f16r.4 &  & \\
+951 & dairg & 1 & 5 & L & f8r.10 &  & \\
+952 & dairin & 1 & 6 & Z & f16v.6 &  & \\
+953 & dairl & 1 & 5 & Z & f44v.13 &  & \\
+954 & dairo & 1 & 5 & B & f23r.7 &  & \\
+955 & dairod & 1 & 6 & J & f13v.6 &  & \\
+956 & dairodg & 1 & 7 & Z & f5v.6 &  & \\
+957 & dait & 1 & 4 & B & f21v.5 &  & \\
+958 & dalchy & 1 & 5 & 2 & f16r.7 &  & \\
+959 & daldaiin & 1 & 8 & Z & f45r.11 &  & \\
+960 & daldalol & 1 & 8 & Z & f22v.16 &  & \\
+961 & dalo & 1 & 4 & B & f14r.5 &  & \\
+962 & dalory & 1 & 6 & Z & f23r.11 &  & \\
+963 & damo & 1 & 4 & L & f3r.7 &  & \\
+964 & daral & 1 & 5 & L & f20r.3 &  & \\
+965 & daram & 1 & 5 & I & f17r.1 &  & \\
+966 & darchor & 1 & 6 & B & f5v.3 &  & \\
+967 & dardy & 1 & 5 & L & f14v.7 &  & \\
+968 & darody & 1 & 6 & B & f14v.4 &  & \\
+969 & darom & 1 & 5 & L & f19v.2 &  & \\
+970 & daror & 1 & 5 & B & f18v.8 &  & \\
+971 & dayty & 1 & 5 & L & f9r.4 &  & \\
+972 & dchain & 1 & 5 & 2 & f25r.5 &  & \\
+973 & dchal & 1 & 4 & I & f18v.1 &  & \\
+974 & dchchy & 1 & 4 & H & f17r.8 &  & \\
+975 & dchcthy & 1 & 4 & Z & f32v.6 &  & \\
+976 & dchd & 1 & 3 & B & f27v.7 &  & \\
+977 & dcheain & 1 & 6 & H & f54v.2 &  & \\
+978 & dcheeey & 1 & 6 & B & f49r.18 &  & \\
+979 & dcheodaiin & 1 & 9 & H & f51r.2 &  & \\
+980 & dcheodain & 1 & 8 & B & f32r.3 &  & \\
+981 & dcheol & 1 & 5 & I & f49v.36 &  & \\
+982 & dcheor & 1 & 5 & B & f17r.10 &  & \\
+983 & dchg & 1 & 3 & J & f13r.1 &  & \\
+984 & dchod & 1 & 4 & H & f20r.11 &  & \\
+985 & dchog & 1 & 4 & L & f49v.32 &  & \\
+986 & dchold & 1 & 5 & L & f35v.8 &  & \\
+987 & dcholdy & 1 & 6 & Z & f45v.11 &  & \\
+988 & dchom & 1 & 4 & B & f53v.2 &  & \\
+989 & dchorol & 1 & 6 & H & f30r.6 &  & \\
+990 & dchoty & 1 & 5 & L & f32r.17 &  & \\
+991 & dchsy & 1 & 4 & I & f49v.28 &  & \\
+992 & dchyd & 1 & 4 & B & f14v.6 &  & \\
+993 & dchydy & 1 & 5 & J & f19r.1 &  & \\
+994 & dchytchy & 1 & 6 & H & f36v.3 &  & \\
+995 & dcthy & 1 & 3 & J & f47v.7 &  & \\
+996 & ddor & 1 & 4 & L & f19v.9 &  & \\
+997 & deaiin & 1 & 6 & Z & f28r.9 &  & \\
+998 & deeaiir & 1 & 7 & B & f25v.6 &  & \\
+999 & deeeese & 1 & 7 & 2 & f7r.8 &  & \\
+1000 & deeeod & 1 & 6 & B & f16r.6 &  & \\
+1001 & deees & 1 & 5 & B & f7v.4 &  & \\
+1002 & deeey & 1 & 5 & B & f30r.5 &  & \\
+1003 & deol & 1 & 4 & D & f7v.9 &  & \\
+1004 & dey & 1 & 3 & B & f6v.4 &  & \\
+1005 & dg & 1 & 2 & L & f42v.4 &  & \\
+1006 & dkeeor & 1 & 6 & B & f30r.5 &  & \\
+1007 & dkol & 1 & 4 & B & f2r.6 &  & \\
+1008 & dksheey & 1 & 6 & B & f1v.3 &  & \\
+1009 & dkshy & 1 & 4 & I & f5r.1 &  & \\
+1010 & dky & 1 & 3 & I & f11r.5 &  & \\
+1011 & dlod & 1 & 4 & J & f4v.1 &  & \\
+1012 & dlos & 1 & 4 & L & f24v.4 &  & \\
+1013 & dly & 1 & 3 & L & f28r.2 &  & \\
+1014 & doaiin & 1 & 6 & L & f13r.7 &  & \\
+1015 & doal & 1 & 4 & B & f16r.7 &  & \\
+1016 & dochod & 1 & 5 & D & f47v.6 &  & \\
+1017 & dockhy & 1 & 4 & B & f53v.3 &  & \\
+1018 & dod & 1 & 3 & I & f45v.1 &  & \\
+1019 & dodaiin & 1 & 7 & Z & f42r.15 &  & \\
+1020 & dodar & 1 & 5 & J & f49r.4 &  & \\
+1021 & doiiin & 1 & 6 & H & f20v.6 &  & \\
+1022 & doiir & 1 & 5 & B & f32r.15 &  & \\
+1023 & doky & 1 & 4 & B & f18v.9 &  & \\
+1024 & dolas & 1 & 5 & L & f8v.3 &  & \\
+1025 & dolchds & 1 & 6 & L & f15r.10 &  & \\
+1026 & dolcheey & 1 & 7 & B & f17v.5 &  & \\
+1027 & dolchey & 1 & 6 & B & f1v.6 &  & \\
+1028 & dold & 1 & 4 & B & f7r.2 &  & \\
+1029 & doldaiin & 1 & 8 & L & f18r.7 &  & \\
+1030 & doldom & 1 & 6 & Z & f6v.5 &  & \\
+1031 & dolds & 1 & 5 & I & f4v.1 &  & \\
+1032 & doldy & 1 & 5 & B & f18r.7 &  & \\
+1033 & dolo & 1 & 4 & B & f1v.7 &  & \\
+1034 & dolody & 1 & 6 & Z & f2v.8 &  & \\
+1035 & dolsain & 1 & 7 & Z & f36r.3 &  & \\
+1036 & dorain & 1 & 6 & Z & f42r.6 &  & \\
+1037 & dorchory & 1 & 7 & H & f2r.2 &  & \\
+1038 & dorl & 1 & 4 & B & f19r.8 &  & \\
+1039 & dorody & 1 & 6 & L & f14r.4 &  & \\
+1040 & dory & 1 & 4 & L & f22v.15 &  & \\
+1041 & dosg & 1 & 4 & L & f32v.5 &  & \\
+1042 & doty & 1 & 4 & B & f19v.5 &  & \\
+1043 & dscheey & 1 & 6 & I & f51v.1 &  & \\
+1044 & dshe & 1 & 3 & H & f29r.2 &  & \\
+1045 & dsheor & 1 & 5 & I & f22r.7 &  & \\
+1046 & dshodar & 1 & 6 & B & f32r.2 &  & \\
+1047 & dshody & 1 & 5 & H & f51v.2 &  & \\
+1048 & dshol & 1 & 4 & H & f8v.4 &  & \\
+1049 & dsholdy & 1 & 6 & D & f9r.5 &  & \\
+1050 & dsholy & 1 & 5 & H & f47v.5 &  & \\
+1051 & dshoy & 1 & 4 & H & f7r.7 &  & \\
+1052 & dtchan & 1 & 5 & I & f15v.1 &  & \\
+1053 & dychear & 1 & 6 & 2 & f17r.8 &  & \\
+1054 & dydy & 1 & 4 & B & f14v.7 &  & \\
+1055 & dyeees & 1 & 6 & 2 & f44r.2 &  & \\
+1056 & dyoty & 1 & 5 & B & f14v.4 &  & \\
+1057 & dypchy & 1 & 5 & I & f13r.1 &  & \\
+1058 & dys & 1 & 3 & L & f36v.6 &  & \\
+1059 & dytcheey & 1 & 7 & L & f4r.6 &  & \\
+1060 & dytchor & 1 & 6 & H & f32r.9 &  & \\
+1061 & dytory & 1 & 6 & 2 & f37v.4 &  & \\
+1062 & dyty & 1 & 4 & L & f19r.2 &  & \\
+1063 & eeckhy & 1 & 4 & B & f51r.7 &  & \\
+1064 & eeeoly & 1 & 6 & Z & f23v.12 &  & \\
+1065 & een & 1 & 3 & L & f3v.4 &  & \\
+1066 & eeockhy & 1 & 5 & I & f21r.1 &  & \\
+1067 & eeor & 1 & 4 & B & f24r.4 &  & \\
+1068 & ees & 1 & 3 & 2 & f3v.4 &  & \\
+1069 & ekokeey & 1 & 7 & 2 & f44r.3 &  & \\
+1070 & ekshy & 1 & 4 & B & f3r.16 &  & \\
+1071 & eold & 1 & 4 & B & f42v.11 &  & \\
+1072 & ese & 1 & 3 & B & f52v.2 &  & \\
+1073 & esedy & 1 & 5 & I & f56r.1 &  & \\
+1074 & etaiin & 1 & 6 & B & f8v.5 &  & \\
+1075 & etchal & 1 & 5 & L & f54r.8 &  & \\
+1076 & etcheody & 1 & 7 & B & f27v.3 &  & \\
+1077 & etyd & 1 & 4 & L & f10r.2 &  & \\
+1078 & ey & 1 & 2 & 2 & f20r.2 &  & \\
+1079 & faiis & 1 & 5 & P & f20v.1 &  & \\
+1080 & fchaiin & 1 & 6 & P & f32r.1 &  & \\
+1081 & fcheody & 1 & 6 & I & f30r.1 &  & \\
+1082 & fchochor & 1 & 6 & P & f49v.28 &  & \\
+1083 & fchodaiin & 1 & 8 & P & f7r.1 &  & \\
+1084 & fchodees & 1 & 7 & P & f20r.9 &  & \\
+1085 & fcholy & 1 & 5 & I & f22r.1 &  & \\
+1086 & fchom & 1 & 4 & I & f36r.4 &  & \\
+1087 & fchoy & 1 & 4 & I & f5r.1 &  & \\
+1088 & fochor & 1 & 5 & P & f9v.1 &  & \\
+1089 & fodan & 1 & 5 & I & f2r.8 &  & \\
+1090 & foeear & 1 & 6 & H & f6r.3 &  & \\
+1091 & folchol & 1 & 6 & I & f20v.5 &  & \\
+1092 & fold & 1 & 4 & L & f51v.10 &  & \\
+1093 & foldaiin & 1 & 8 & P & f13v.6 &  & \\
+1094 & folr & 1 & 4 & P & f47r.6 &  & \\
+1095 & fshodchy & 1 & 6 & I & f20v.5 &  & \\
+1096 & fshody & 1 & 5 & P & f17r.1 &  & \\
+1097 & fsholom & 1 & 6 & I & f45v.1 &  & \\
+1098 & fshor & 1 & 4 & P & f22v.6 &  & \\
+1099 & fychey & 1 & 5 & I & f21r.1 &  & \\
+1100 & iiin & 1 & 4 & 2 & f4v.9 &  & \\
+1101 & ka & 1 & 2 & L & f32v.3 &  & \\
+1102 & kaiiidal & 1 & 8 & 2 & f51r.14 &  & \\
+1103 & kaiim & 1 & 5 & Z & f6r.14 &  & \\
+1104 & kain & 1 & 4 & B & f38r.5 &  & \\
+1105 & kair & 1 & 4 & B & f45r.10 &  & \\
+1106 & kald & 1 & 4 & B & f13v.8 &  & \\
+1107 & kan & 1 & 3 & L & f15v.9 &  & \\
+1108 & kary & 1 & 4 & L & f42r.5 &  & \\
+1109 & kch & 1 & 2 & I & f16r.5 &  & \\
+1110 & kchain & 1 & 5 & B & f44v.6 &  & \\
+1111 & kcham & 1 & 4 & B & f3v.12 &  & \\
+1112 & kchan & 1 & 4 & D & f32v.6 &  & \\
+1113 & kchar & 1 & 4 & 2 & f17v.8 &  & \\
+1114 & kchdal & 1 & 5 & L & f47r.4 &  & \\
+1115 & kchdy & 1 & 4 & L & f6v.10 &  & \\
+1116 & kcheals & 1 & 6 & B & f8r.2 &  & \\
+1117 & kcheeytain & 1 & 9 & L & f56v.12 &  & \\
+1118 & kcheodaiin & 1 & 9 & P & f32v.1 &  & \\
+1119 & kchoan & 1 & 5 & 2 & f8r.7 &  & \\
+1120 & kchoar & 1 & 5 & B & f56r.18 &  & \\
+1121 & kchochaiin & 1 & 8 & Z & f21v.8 &  & \\
+1122 & kchochor & 1 & 6 & B & f37r.10 &  & \\
+1123 & kchodan & 1 & 6 & B & f42r.9 &  & \\
+1124 & kchody & 1 & 5 & P & f5r.1 &  & \\
+1125 & kchokchy & 1 & 6 & P & f56v.7 &  & \\
+1126 & kcholol & 1 & 6 & L & f51v.9 &  & \\
+1127 & kcholqod & 1 & 7 & B & f36v.9 &  & \\
+1128 & kcholy & 1 & 5 & Z & f52v.6 &  & \\
+1129 & kchom & 1 & 4 & 2 & f3v.8 &  & \\
+1130 & kchorl & 1 & 5 & 2 & f22v.3 &  & \\
+1131 & kchoror & 1 & 6 & B & f28r.5 &  & \\
+1132 & kchoy & 1 & 4 & I & f4v.1 &  & \\
+1133 & kchrrr & 1 & 5 & 2 & f27v.6 &  & \\
+1134 & kchsy & 1 & 4 & P & f1v.1 &  & \\
+1135 & kchydy & 1 & 5 & Z & f30v.11 &  & \\
+1136 & kdchody & 1 & 6 & P & f20r.1 &  & \\
+1137 & keaiin & 1 & 6 & B & f17v.12 &  & \\
+1138 & keam & 1 & 4 & Z & f3v.14 &  & \\
+1139 & keeaiin & 1 & 7 & B & f30r.9 &  & \\
+1140 & keechy & 1 & 5 & B & f47v.4 &  & \\
+1141 & keeees & 1 & 6 & 2 & f21v.3 &  & \\
+1142 & keeey & 1 & 5 & 2 & f38v.6 &  & \\
+1143 & keeeyd & 1 & 6 & B & f42v.7 &  & \\
+1144 & keem & 1 & 4 & L & f30r.3 &  & \\
+1145 & keeod & 1 & 5 & 2 & f27r.9 &  & \\
+1146 & keeodol & 1 & 7 & B & f30r.2 &  & \\
+1147 & keeol & 1 & 5 & 2 & f56v.11 &  & \\
+1148 & keesy & 1 & 5 & 2 & f47v.12 &  & \\
+1149 & keo & 1 & 3 & 2 & f7r.2 &  & \\
+1150 & keocthy & 1 & 5 & L & f15r.7 &  & \\
+1151 & keody & 1 & 5 & 2 & f20v.9 &  & \\
+1152 & keoky & 1 & 5 & B & f8v.13 &  & \\
+1153 & keolchey & 1 & 7 & B & f49r.19 &  & \\
+1154 & keom & 1 & 4 & L & f24r.5 &  & \\
+1155 & kesey & 1 & 5 & B & f8r.20 &  & \\
+1156 & ko & 1 & 2 & 2 & f15r.6 &  & \\
+1157 & koaiin & 1 & 6 & P & f3v.1 &  & \\
+1158 & koair & 1 & 5 & P & f13v.1 &  & \\
+1159 & koary & 1 & 5 & P & f6v.1 &  & \\
+1160 & kochky & 1 & 5 & H & f24v.8 &  & \\
+1161 & kod & 1 & 3 & B & f27v.4 &  & \\
+1162 & kodaiin & 1 & 7 & H & f52v.8 &  & \\
+1163 & kodalchy & 1 & 7 & P & f4r.1 &  & \\
+1164 & koddy & 1 & 5 & L & f49v.6 &  & \\
+1165 & kodl & 1 & 4 & H & f54r.8 &  & \\
+1166 & koees & 1 & 5 & I & f44r.1 &  & \\
+1167 & koldal & 1 & 6 & B & f52r.2 &  & \\
+1168 & kolschees & 1 & 8 & Z & f42r.23 &  & \\
+1169 & koltoldy & 1 & 8 & 2 & f8r.6 &  & \\
+1170 & koly & 1 & 4 & L & f15r.2 &  & \\
+1171 & koraiin & 1 & 7 & B & f9r.8 &  & \\
+1172 & korchy & 1 & 5 & B & f56r.2 &  & \\
+1173 & kos & 1 & 3 & D & f38r.6 &  & \\
+1174 & koshet & 1 & 5 & L & f16v.3 &  & \\
+1175 & kotchody & 1 & 7 & B & f1v.3 &  & \\
+1176 & kshaiin & 1 & 6 & I & f42r.7 &  & \\
+1177 & kshardy & 1 & 6 & B & f49v.40 &  & \\
+1178 & kshes & 1 & 4 & B & f42r.18 &  & \\
+1179 & kshody & 1 & 5 & 2 & f53v.8 &  & \\
+1180 & ksholo & 1 & 5 & P & f7r.6 &  & \\
+1181 & kshotol & 1 & 6 & B & f44r.3 &  & \\
+1182 & ksor & 1 & 4 & P & f27r.1 &  & \\
+1183 & kydain & 1 & 6 & P & f2r.8 &  & \\
+1184 & kydainy & 1 & 7 & P & f2r.1 &  & \\
+1185 & kyty & 1 & 4 & L & f9v.10 &  & \\
+1186 & laldan & 1 & 6 & D & f45r.11 &  & \\
+1187 & lchal & 1 & 4 & B & f35r.11 &  & \\
+1188 & lchar & 1 & 4 & F & f45r.7 &  & \\
+1189 & lchiody & 1 & 6 & L & f1v.7 &  & \\
+1190 & lchol & 1 & 4 & 2 & f21v.7 &  & \\
+1191 & lchor & 1 & 4 & F & f44v.13 &  & \\
+1192 & ldals & 1 & 5 & J & f23r.6 &  & \\
+1193 & ldam & 1 & 4 & Z & f54r.12 &  & \\
+1194 & lkeees & 1 & 6 & B & f44v.9 &  & \\
+1195 & lkeey & 1 & 5 & B & f56v.12 &  & \\
+1196 & lkody & 1 & 5 & B & f1v.2 &  & \\
+1197 & lo & 1 & 2 & L & f44v.9 &  & \\
+1198 & lochey & 1 & 5 & B & f7r.4 &  & \\
+1199 & lodaly & 1 & 6 & B & f35r.13 &  & \\
+1200 & lody & 1 & 4 & I & f8r.14 &  & \\
+1201 & loeees & 1 & 6 & B & f2v.2 &  & \\
+1202 & lokaiin & 1 & 7 & B & f8v.14 &  & \\
+1203 & lol & 1 & 3 & B & f1v.6 &  & \\
+1204 & lolchor & 1 & 6 & B & f23r.2 &  & \\
+1205 & loldaiin & 1 & 8 & L & f37r.9 &  & \\
+1206 & ls & 1 & 2 & I & f29v.1 &  & \\
+1207 & lsho & 1 & 3 & H & f44v.10 &  & \\
+1208 & lshod & 1 & 4 & 2 & f20r.7 &  & \\
+1209 & lshol & 1 & 4 & I & f7v.6 &  & \\
+1210 & ltchey & 1 & 5 & 2 & f47v.10 &  & \\
+1211 & ly & 1 & 2 & I & f27r.7 &  & \\
+1212 & m & 1 & 1 & B & f6v.11 &  & \\
+1213 & mol & 1 & 3 & L & f17r.10 &  & \\
+1214 & oaiir & 1 & 5 & F & f7r.5 &  & \\
+1215 & oain & 1 & 4 & H & f44v.5 &  & \\
+1216 & oair & 1 & 4 & H & f44r.3 &  & \\
+1217 & oal & 1 & 3 & H & f17v.21 &  & \\
+1218 & oaldary & 1 & 7 & Z & f23v.5 &  & \\
+1219 & oaorar & 1 & 6 & Z & f16v.13 &  & \\
+1220 & oar & 1 & 3 & I & f5r.1 &  & \\
+1221 & ochaiin & 1 & 6 & F & f20r.13 &  & \\
+1222 & ochdy & 1 & 4 & L & f24v.15 &  & \\
+1223 & ochoaiin & 1 & 7 & H & f20r.10 &  & \\
+1224 & ochockhy & 1 & 5 & H & f51v.12 &  & \\
+1225 & ochody & 1 & 5 & F & f4v.14 &  & \\
+1226 & ochoiky & 1 & 6 & H & f53v.6 &  & \\
+1227 & ochokeey & 1 & 7 & H & f49v.24 &  & \\
+1228 & ocholdy & 1 & 6 & I & f25r.1 &  & \\
+1229 & ocholy & 1 & 5 & H & f6v.19 &  & \\
+1230 & ochos & 1 & 4 & H & f3v.10 &  & \\
+1231 & ockhoees & 1 & 6 & H & f24r.15 &  & \\
+1232 & ockhol & 1 & 4 & 2 & f54r.4 &  & \\
+1233 & ockhy & 1 & 3 & L & f14r.6 &  & \\
+1234 & ocphal & 1 & 4 & I & f21r.8 &  & \\
+1235 & ocphoraiin & 1 & 8 & I & f24v.1 &  & \\
+1236 & ocphy & 1 & 3 & J & f22r.1 &  & \\
+1237 & octhain & 1 & 5 & H & f15r.9 &  & \\
+1238 & octham & 1 & 4 & Z & f6v.21 &  & \\
+1239 & octheody & 1 & 6 & H & f53v.9 &  & \\
+1240 & octhody & 1 & 5 & I & f10r.1 &  & \\
+1241 & octhol & 1 & 4 & 2 & f15v.9 &  & \\
+1242 & octhos & 1 & 4 & J & f13v.1 &  & \\
+1243 & odaiiily & 1 & 8 & I & f23v.1 &  & \\
+1244 & odaiiin & 1 & 7 & B & f6v.2 &  & \\
+1245 & odaiil & 1 & 6 & B & f42v.4 &  & \\
+1246 & odaiim & 1 & 6 & Z & f24v.16 &  & \\
+1247 & odaiir & 1 & 6 & B & f20r.2 &  & \\
+1248 & odain & 1 & 5 & I & f2v.1 &  & \\
+1249 & odam & 1 & 4 & L & f6r.5 &  & \\
+1250 & odchaiin & 1 & 7 & H & f22r.12 &  & \\
+1251 & odchees & 1 & 6 & H & f24v.3 &  & \\
+1252 & odeey & 1 & 5 & Z & f42v.16 &  & \\
+1253 & odl & 1 & 3 & H & f11r.6 &  & \\
+1254 & odol & 1 & 4 & H & f9v.6 &  & \\
+1255 & ods & 1 & 3 & L & f17r.2 &  & \\
+1256 & odyd & 1 & 4 & B & f14v.7 &  & \\
+1257 & oechockhy & 1 & 6 & B & f6v.3 &  & \\
+1258 & oeear & 1 & 5 & H & f7v.4 &  & \\
+1259 & oeeees & 1 & 6 & H & f7r.3 &  & \\
+1260 & oeeeos & 1 & 6 & H & f24r.6 &  & \\
+1261 & oeeesoy & 1 & 7 & H & f21v.2 &  & \\
+1262 & oeeey & 1 & 5 & H & f24v.13 &  & \\
+1263 & oeeo & 1 & 4 & H & f6v.9 &  & \\
+1264 & oeesody & 1 & 7 & 2 & f8v.10 &  & \\
+1265 & oeesordy & 1 & 8 & L & f16r.2 &  & \\
+1266 & oekor & 1 & 5 & H & f17v.6 &  & \\
+1267 & oeor & 1 & 4 & F & f24v.5 &  & \\
+1268 & oesearies & 1 & 9 & 2 & f24v.3 &  & \\
+1269 & ofaiin & 1 & 6 & P & f42r.1 &  & \\
+1270 & ofchol & 1 & 5 & - & f23r.4 &  & \\
+1271 & ofchor & 1 & 5 & I & f37r.1 &  & \\
+1272 & ofchy & 1 & 4 & I & f22r.4 &  & \\
+1273 & oiir & 1 & 4 & I & f28v.7 &  & \\
+1274 & oir & 1 & 3 & 2 & f14r.6 &  & \\
+1275 & oka & 1 & 3 & L & f3v.8 &  & \\
+1276 & okadaiin & 1 & 8 & H & f3r.12 &  & \\
+1277 & okai & 1 & 4 & L & f3v.3 &  & \\
+1278 & okaiiin & 1 & 7 & H & f52v.13 &  & \\
+1279 & okary & 1 & 5 & L & f3v.10 &  & \\
+1280 & okch & 1 & 3 & B & f5v.4 &  & \\
+1281 & okchain & 1 & 6 & H & f22v.13 &  & \\
+1282 & okchaldy & 1 & 7 & 2 & f23v.2 &  & \\
+1283 & okchan & 1 & 5 & L & f19v.10 &  & \\
+1284 & okche & 1 & 4 & B & f8r.2 &  & \\
+1285 & okcheey & 1 & 6 & H & f35v.10 &  & \\
+1286 & okcheol & 1 & 6 & H & f17v.16 &  & \\
+1287 & okchodshy & 1 & 7 & 2 & f19v.12 &  & \\
+1288 & okchokol & 1 & 7 & L & f49v.30 &  & \\
+1289 & okchokshy & 1 & 7 & Z & f27v.8 &  & \\
+1290 & okcholksh & 1 & 7 & H & f8v.8 &  & \\
+1291 & okchop & 1 & 5 & P & f38v.1 &  & \\
+1292 & okchydy & 1 & 6 & L & f14r.10 &  & \\
+1293 & okeaiin & 1 & 7 & B & f38v.2 &  & \\
+1294 & okeam & 1 & 5 & B & f54r.8 &  & \\
+1295 & okear & 1 & 5 & L & f15r.6 &  & \\
+1296 & okeeaiin & 1 & 8 & B & f25v.2 &  & \\
+1297 & okeedy & 1 & 6 & B & f27v.6 &  & \\
+1298 & okeeesy & 1 & 7 & P & f30r.1 &  & \\
+1299 & okeem & 1 & 5 & B & f24r.11 &  & \\
+1300 & okeeol & 1 & 6 & B & f17v.14 &  & \\
+1301 & okeoaiin & 1 & 8 & L & f21r.5 &  & \\
+1302 & okeodain & 1 & 8 & D & f54r.5 &  & \\
+1303 & okeodsho & 1 & 7 & H & f49v.8 &  & \\
+1304 & okeody & 1 & 6 & B & f4v.10 &  & \\
+1305 & okeokear & 1 & 8 & H & f42v.6 &  & \\
+1306 & oko & 1 & 3 & H & f13v.2 &  & \\
+1307 & okod & 1 & 4 & B & f53r.7 &  & \\
+1308 & okodaiin & 1 & 8 & L & f24v.11 &  & \\
+1309 & okodar & 1 & 6 & B & f1v.2 &  & \\
+1310 & okody & 1 & 5 & B & f6v.4 &  & \\
+1311 & okoeor & 1 & 6 & H & f24v.10 &  & \\
+1312 & okokchodg & 1 & 8 & Z & f8r.13 &  & \\
+1313 & okolshol & 1 & 7 & H & f1v.8 &  & \\
+1314 & okoly & 1 & 5 & I & f22r.1 &  & \\
+1315 & okorory & 1 & 7 & Z & f13r.10 &  & \\
+1316 & okos & 1 & 4 & B & f13v.4 &  & \\
+1317 & okshal & 1 & 5 & B & f18r.9 &  & \\
+1318 & oksheo & 1 & 5 & B & f8r.10 &  & \\
+1319 & okshes & 1 & 5 & F & f27v.8 &  & \\
+1320 & okshey & 1 & 5 & H & f38r.2 &  & \\
+1321 & okshody & 1 & 6 & B & f14v.8 &  & \\
+1322 & okshol & 1 & 5 & I & f38r.1 &  & \\
+1323 & okshor & 1 & 5 & H & f22v.9 &  & \\
+1324 & okytaiin & 1 & 8 & H & f16v.11 &  & \\
+1325 & olaiin & 1 & 6 & I & f17r.4 &  & \\
+1326 & olald & 1 & 5 & J & f45v.1 &  & \\
+1327 & olcfholy & 1 & 6 & I & f9v.5 &  & \\
+1328 & olchar & 1 & 5 & 2 & f23r.7 &  & \\
+1329 & olcheety & 1 & 7 & L & f51v.7 &  & \\
+1330 & olcheol & 1 & 6 & L & f17v.4 &  & \\
+1331 & olchey & 1 & 5 & H & f56r.3 &  & \\
+1332 & olchsy & 1 & 5 & I & f3r.15 &  & \\
+1333 & olcphy & 1 & 4 & I & f13v.6 &  & \\
+1334 & oldaig & 1 & 6 & H & f17v.3 &  & \\
+1335 & oldam & 1 & 5 & J & f22r.10 &  & \\
+1336 & oldar & 1 & 5 & B & f23v.9 &  & \\
+1337 & oldckhy & 1 & 5 & J & f17r.1 &  & \\
+1338 & oldor & 1 & 5 & B & f22r.5 &  & \\
+1339 & olfchor & 1 & 6 & - & f23r.4 &  & \\
+1340 & olkeeody & 1 & 8 & H & f51v.8 &  & \\
+1341 & olo & 1 & 3 & H & f17v.14 &  & \\
+1342 & olody & 1 & 5 & B & f18r.8 &  & \\
+1343 & oloiin & 1 & 6 & I & f54v.1 &  & \\
+1344 & oloiir & 1 & 6 & L & f23v.10 &  & \\
+1345 & ololdy & 1 & 6 & I & f23r.1 &  & \\
+1346 & olols & 1 & 5 & B & f23v.11 &  & \\
+1347 & ololy & 1 & 5 & Z & f44v.7 &  & \\
+1348 & olom & 1 & 4 & L & f24v.7 &  & \\
+1349 & oloro & 1 & 5 & D & f23v.12 &  & \\
+1350 & olsaiin & 1 & 7 & B & f2r.11 &  & \\
+1351 & olsar & 1 & 5 & J & f23v.6 &  & \\
+1352 & olsheey & 1 & 6 & I & f2r.8 &  & \\
+1353 & olshey & 1 & 5 & D & f47r.5 &  & \\
+1354 & olshly & 1 & 5 & H & f22v.14 &  & \\
+1355 & olshy & 1 & 4 & I & f22r.1 &  & \\
+1356 & olsy & 1 & 4 & I & f5r.1 &  & \\
+1357 & oltchy & 1 & 5 & D & f29v.4 &  & \\
+1358 & oltshey & 1 & 6 & I & f53v.1 &  & \\
+1359 & oltsho & 1 & 5 & B & f53r.8 &  & \\
+1360 & olytol & 1 & 6 & B & f3v.2 &  & \\
+1361 & oor & 1 & 3 & H & f52v.3 &  & \\
+1362 & opchaiin & 1 & 7 & I & f45v.1 &  & \\
+1363 & opchal & 1 & 5 & I & f45r.1 &  & \\
+1364 & opchaldy & 1 & 7 & I & f45r.5 &  & \\
+1365 & opchar & 1 & 5 & I & f24r.1 &  & \\
+1366 & opcheaiin & 1 & 8 & I & f8v.1 &  & \\
+1367 & opchear & 1 & 6 & I & f51r.1 &  & \\
+1368 & opcheodal & 1 & 8 & I & f49v.28 &  & \\
+1369 & opcheol & 1 & 6 & I & f54r.1 &  & \\
+1370 & opchod & 1 & 5 & I & f44v.4 &  & \\
+1371 & opchory & 1 & 6 & I & f27v.1 &  & \\
+1372 & opod & 1 & 4 & L & f53v.8 &  & \\
+1373 & opom & 1 & 4 & I & f24v.1 &  & \\
+1374 & oporar & 1 & 6 & J & f3r.15 &  & \\
+1375 & oporody & 1 & 7 & I & f9v.1 &  & \\
+1376 & opsheas & 1 & 6 & I & f21r.8 &  & \\
+1377 & opshody & 1 & 6 & I & f24v.1 &  & \\
+1378 & opyaiin & 1 & 7 & I & f23r.1 &  & \\
+1379 & opydg & 1 & 5 & I & f17r.4 &  & \\
+1380 & oqoor & 1 & 5 & 2 & f53r.6 &  & \\
+1381 & oral & 1 & 4 & H & f36r.2 &  & \\
+1382 & orchaiin & 1 & 7 & Z & f25v.7 &  & \\
+1383 & orchey & 1 & 5 & I & f9r.1 &  & \\
+1384 & orchl & 1 & 4 & 2 & f8v.9 &  & \\
+1385 & orcho & 1 & 4 & H & f25v.3 &  & \\
+1386 & orchochor & 1 & 7 & B & f37v.2 &  & \\
+1387 & oriin & 1 & 5 & L & f49r.20 &  & \\
+1388 & orol & 1 & 4 & D & f53r.9 &  & \\
+1389 & orom & 1 & 4 & J & f16r.1 &  & \\
+1390 & osain & 1 & 5 & B & f10r.10 &  & \\
+1391 & oscheor & 1 & 6 & H & f19r.3 &  & \\
+1392 & oschotshl & 1 & 7 & H & f28r.8 &  & \\
+1393 & osh & 1 & 2 & H & f3v.12 &  & \\
+1394 & oshaiin & 1 & 6 & H & f16r.6 &  & \\
+1395 & oshctho & 1 & 4 & H & f37v.21 &  & \\
+1396 & osho & 1 & 3 & H & f21v.5 &  & \\
+1397 & oshol & 1 & 4 & H & f51r.8 &  & \\
+1398 & oshor & 1 & 4 & H & f18r.7 &  & \\
+1399 & ot & 1 & 2 & D & f9r.5 &  & \\
+1400 & otacphy & 1 & 5 & L & f24r.19 &  & \\
+1401 & otald & 1 & 5 & L & f47v.13 &  & \\
+1402 & otaldam & 1 & 7 & L & f3r.6 &  & \\
+1403 & otan & 1 & 4 & 2 & f5r.3 &  & \\
+1404 & otariin & 1 & 7 & L & f8r.11 &  & \\
+1405 & otaro & 1 & 5 & Z & f36r.9 &  & \\
+1406 & otch & 1 & 3 & H & f19v.12 &  & \\
+1407 & otchald & 1 & 6 & - & f23r.4 &  & \\
+1408 & otchdal & 1 & 6 & I & f18v.1 &  & \\
+1409 & otchdy & 1 & 5 & L & f27v.7 &  & \\
+1410 & otcheey & 1 & 6 & I & f42r.1 &  & \\
+1411 & otcheolom & 1 & 8 & L & f17v.16 &  & \\
+1412 & otchg & 1 & 4 & L & f23v.2 &  & \\
+1413 & otchodar & 1 & 7 & B & f49v.32 &  & \\
+1414 & otcholchy & 1 & 7 & B & f28r.6 &  & \\
+1415 & otchom & 1 & 5 & I & f3r.15 &  & \\
+1416 & otchordy & 1 & 7 & B & f52r.6 &  & \\
+1417 & otchos & 1 & 5 & B & f24v.2 &  & \\
+1418 & otchoty & 1 & 6 & H & f42r.19 &  & \\
+1419 & otchyd & 1 & 5 & J & f56v.7 &  & \\
+1420 & otchyky & 1 & 6 & B & f22v.3 &  & \\
+1421 & otdy & 1 & 4 & I & f22v.1 &  & \\
+1422 & oteeaiin & 1 & 8 & B & f42v.12 &  & \\
+1423 & oteees & 1 & 6 & B & f52r.2 &  & \\
+1424 & oteeol & 1 & 6 & B & f38v.5 &  & \\
+1425 & oteo & 1 & 4 & B & f51v.4 &  & \\
+1426 & oteos & 1 & 5 & B & f21r.2 &  & \\
+1427 & otoaiin & 1 & 7 & I & f1v.5 &  & \\
+1428 & otochor & 1 & 6 & H & f2r.5 &  & \\
+1429 & otoiin & 1 & 6 & B & f4v.5 &  & \\
+1430 & otoloaiin & 1 & 9 & J & f44r.1 &  & \\
+1431 & otolodal & 1 & 8 & L & f24v.13 &  & \\
+1432 & otolom & 1 & 6 & J & f3r.18 &  & \\
+1433 & otoly & 1 & 5 & L & f37r.5 &  & \\
+1434 & otos & 1 & 4 & 2 & f53r.7 &  & \\
+1435 & otosy & 1 & 5 & Z & f25r.7 &  & \\
+1436 & ototaykal & 1 & 9 & L & f44r.3 &  & \\
+1437 & otoy & 1 & 4 & L & f42v.3 &  & \\
+1438 & otshaiin & 1 & 7 & L & f42r.2 &  & \\
+1439 & otshal & 1 & 5 & I & f8r.1 &  & \\
+1440 & otshcho & 1 & 5 & I & f32v.7 &  & \\
+1441 & otshey & 1 & 5 & D & f42r.15 &  & \\
+1442 & otsho & 1 & 4 & H & f53v.11 &  & \\
+1443 & otshor & 1 & 5 & I & f23v.6 &  & \\
+1444 & otydal & 1 & 6 & I & f45r.8 &  & \\
+1445 & otyky & 1 & 5 & B & f21r.11 &  & \\
+1446 & otyshy & 1 & 5 & I & f14v.1 &  & \\
+1447 & otytam & 1 & 6 & J & f45v.5 &  & \\
+1448 & otytchol & 1 & 7 & B & f10r.2 &  & \\
+1449 & otytchy & 1 & 6 & B & f19r.6 &  & \\
+1450 & oykchor & 1 & 6 & H & f10r.9 &  & \\
+1451 & oykeeey & 1 & 7 & H & f49r.9 &  & \\
+1452 & oykeey & 1 & 6 & H & f9r.2 &  & \\
+1453 & oyshy & 1 & 4 & H & f30v.8 &  & \\
+1454 & oyteey & 1 & 6 & H & f37v.18 &  & \\
+1455 & oytor & 1 & 5 & H & f17v.10 &  & \\
+1456 & oyty & 1 & 4 & D & f44r.7 &  & \\
+1457 & parchor & 1 & 6 & P & f35v.1 &  & \\
+1458 & pchaiin & 1 & 6 & P & f22r.4 &  & \\
+1459 & pchear & 1 & 5 & J & f42r.1 &  & \\
+1460 & pcheodar & 1 & 7 & P & f54v.1 &  & \\
+1461 & pcheoldom & 1 & 8 & P & f3r.18 &  & \\
+1462 & pchey & 1 & 4 & I & f8r.9 &  & \\
+1463 & pchodal & 1 & 6 & L & f51r.12 &  & \\
+1464 & pchodar & 1 & 6 & P & f28r.1 &  & \\
+1465 & pchody & 1 & 5 & F & f42r.15 &  & \\
+1466 & pchofychy & 1 & 7 & P & f21r.4 &  & \\
+1467 & pchol & 1 & 4 & P & f28v.7 &  & \\
+1468 & pchom & 1 & 4 & B & f45v.8 &  & \\
+1469 & pchooiin & 1 & 7 & P & f4v.1 &  & \\
+1470 & pchotchy & 1 & 6 & P & f37r.4 &  & \\
+1471 & pchroiin & 1 & 7 & P & f16v.1 &  & \\
+1472 & pdrairdy & 1 & 8 & P & f18r.1 &  & \\
+1473 & pdychoiin & 1 & 8 & P & f14v.1 &  & \\
+1474 & pochaiin & 1 & 7 & P & f19v.1 &  & \\
+1475 & pocheody & 1 & 7 & P & f16r.1 &  & \\
+1476 & pochof & 1 & 5 & P & f27v.1 &  & \\
+1477 & podaiir & 1 & 7 & P & f36r.4 &  & \\
+1478 & podairol & 1 & 8 & P & f23v.1 &  & \\
+1479 & poeeaiin & 1 & 8 & P & f25v.1 &  & \\
+1480 & pofochey & 1 & 7 & I & f20v.1 &  & \\
+1481 & poiis & 1 & 5 & B & f17v.7 &  & \\
+1482 & poldchody & 1 & 8 & P & f11v.1 &  & \\
+1483 & polyshy & 1 & 6 & P & f7v.1 &  & \\
+1484 & por & 1 & 3 & P & f24r.1 &  & \\
+1485 & poror & 1 & 5 & P & f15v.1 &  & \\
+1486 & posaiin & 1 & 7 & P & f29r.1 &  & \\
+1487 & posheor & 1 & 6 & P & f42v.9 &  & \\
+1488 & poshody & 1 & 6 & P & f51v.1 &  & \\
+1489 & potoy & 1 & 5 & P & f1v.5 &  & \\
+1490 & psheot & 1 & 5 & P & f47v.1 &  & \\
+1491 & pshoain & 1 & 6 & P & f9r.6 &  & \\
+1492 & pshod & 1 & 4 & I & f5v.1 &  & \\
+1493 & pshoiiin & 1 & 7 & I & f28v.1 &  & \\
+1494 & pshol & 1 & 4 & P & f8r.1 &  & \\
+1495 & pshy & 1 & 3 & P & f44r.8 &  & \\
+1496 & pychol & 1 & 5 & P & f49r.1 &  & \\
+1497 & pydchdom & 1 & 7 & P & f23r.1 &  & \\
+1498 & pykydal & 1 & 7 & P & f45r.1 &  & \\
+1499 & pysaiinor & 1 & 9 & P & f22v.1 &  & \\
+1500 & qchodal & 1 & 6 & B & f51r.9 &  & \\
+1501 & qekeochor & 1 & 8 & F & f29v.12 &  & \\
+1502 & qkaiin & 1 & 6 & 2 & f37v.19 &  & \\
+1503 & qkchol & 1 & 5 & I & f54r.6 &  & \\
+1504 & qko & 1 & 3 & I & f7r.1 &  & \\
+1505 & qoain & 1 & 5 & H & f17v.17 &  & \\
+1506 & qoair & 1 & 5 & H & f6v.3 &  & \\
+1507 & qochar & 1 & 5 & 2 & f30r.9 &  & \\
+1508 & qocheor & 1 & 6 & 2 & f3r.3 &  & \\
+1509 & qocho & 1 & 4 & I & f42v.1 &  & \\
+1510 & qochol & 1 & 5 & B & f25v.5 &  & \\
+1511 & qochy & 1 & 4 & B & f20r.3 &  & \\
+1512 & qockhodal & 1 & 7 & B & f54r.2 &  & \\
+1513 & qockhom & 1 & 5 & H & f52r.7 &  & \\
+1514 & qockhor & 1 & 5 & B & f53v.4 &  & \\
+1515 & qoctheol & 1 & 6 & B & f54v.7 &  & \\
+1516 & qocthey & 1 & 5 & I & f21r.4 &  & \\
+1517 & qoctholy & 1 & 6 & I & f10r.6 &  & \\
+1518 & qodaim & 1 & 6 & 2 & f54v.5 &  & \\
+1519 & qodain & 1 & 6 & P & f49r.4 &  & \\
+1520 & qodair & 1 & 6 & D & f3r.14 &  & \\
+1521 & qodam & 1 & 5 & D & f17r.3 &  & \\
+1522 & qodckhy & 1 & 5 & I & f53v.1 &  & \\
+1523 & qodcthy & 1 & 5 & B & f17r.2 &  & \\
+1524 & qodol & 1 & 5 & L & f24r.7 &  & \\
+1525 & qodom & 1 & 5 & B & f24v.11 &  & \\
+1526 & qodor & 1 & 5 & 2 & f11r.2 &  & \\
+1527 & qoear & 1 & 5 & B & f24r.8 &  & \\
+1528 & qoeees & 1 & 6 & H & f18v.2 &  & \\
+1529 & qoeeey & 1 & 6 & B & f5r.6 &  & \\
+1530 & qoekar & 1 & 6 & H & f52v.12 &  & \\
+1531 & qoekchar & 1 & 7 & B & f6v.2 &  & \\
+1532 & qoetam & 1 & 6 & L & f51r.9 &  & \\
+1533 & qof & 1 & 3 & D & f17r.6 &  & \\
+1534 & qofchor & 1 & 6 & I & f25v.1 &  & \\
+1535 & qofol & 1 & 5 & I & f9v.1 &  & \\
+1536 & qoforom & 1 & 7 & I & f36v.1 &  & \\
+1537 & qofshey & 1 & 6 & I & f21v.1 &  & \\
+1538 & qofy & 1 & 4 & I & f52r.1 &  & \\
+1539 & qokaiiin & 1 & 8 & L & f29r.6 &  & \\
+1540 & qokain & 1 & 6 & L & f24r.11 &  & \\
+1541 & qokay & 1 & 5 & 2 & f18v.4 &  & \\
+1542 & qokchain & 1 & 7 & B & f44v.2 &  & \\
+1543 & qokchd & 1 & 5 & B & f11v.3 &  & \\
+1544 & qokcheey & 1 & 7 & 2 & f56r.17 &  & \\
+1545 & qokcheody & 1 & 8 & B & f51v.7 &  & \\
+1546 & qokcheor & 1 & 7 & D & f17r.6 &  & \\
+1547 & qokchocthor & 1 & 8 & B & f16v.2 &  & \\
+1548 & qokchody & 1 & 7 & B & f28v.2 &  & \\
+1549 & qokchon & 1 & 6 & H & f37v.3 &  & \\
+1550 & qokchory & 1 & 7 & B & f13v.7 &  & \\
+1551 & qokchos & 1 & 6 & B & f19v.2 &  & \\
+1552 & qokchs & 1 & 5 & I & f19v.8 &  & \\
+1553 & qokeaiin & 1 & 8 & H & f49v.42 &  & \\
+1554 & qokeeaiin & 1 & 9 & H & f35r.2 &  & \\
+1555 & qokeee & 1 & 6 & H & f17v.22 &  & \\
+1556 & qokeeodal & 1 & 9 & D & f3r.17 &  & \\
+1557 & qokeeor & 1 & 7 & H & f30v.6 &  & \\
+1558 & qokeom & 1 & 6 & B & f3r.16 &  & \\
+1559 & qokeor & 1 & 6 & H & f49r.7 &  & \\
+1560 & qokochy & 1 & 6 & 2 & f30r.5 &  & \\
+1561 & qokodar & 1 & 7 & I & f51v.1 &  & \\
+1562 & qokoiiin & 1 & 8 & 2 & f37v.17 &  & \\
+1563 & qokoiir & 1 & 7 & 2 & f17v.11 &  & \\
+1564 & qokokchy & 1 & 7 & L & f56r.12 &  & \\
+1565 & qokoldy & 1 & 7 & - & f23r.4 &  & \\
+1566 & qokorar & 1 & 7 & H & f19r.4 &  & \\
+1567 & qokshe & 1 & 5 & F & f29r.9 &  & \\
+1568 & qokshey & 1 & 6 & B & f3r.13 &  & \\
+1569 & qokshol & 1 & 6 & B & f3v.10 &  & \\
+1570 & qokyd & 1 & 5 & L & f44r.9 &  & \\
+1571 & qolody & 1 & 6 & 2 & f19r.11 &  & \\
+1572 & qolsor & 1 & 6 & L & f49r.8 &  & \\
+1573 & qooiiin & 1 & 7 & I & f28v.1 &  & \\
+1574 & qooko & 1 & 5 & H & f4v.9 &  & \\
+1575 & qooldy & 1 & 6 & B & f36r.2 &  & \\
+1576 & qoor & 1 & 4 & I & f6v.1 &  & \\
+1577 & qopal & 1 & 5 & I & f3r.1 &  & \\
+1578 & qopchaiin & 1 & 8 & B & f17v.17 &  & \\
+1579 & qopchar & 1 & 6 & B & f49r.2 &  & \\
+1580 & qopcheody & 1 & 8 & I & f21r.1 &  & \\
+1581 & qopchol & 1 & 6 & I & f54r.1 &  & \\
+1582 & qopchypcho & 1 & 8 & I & f9v.1 &  & \\
+1583 & qopol & 1 & 5 & I & f3r.18 &  & \\
+1584 & qopor & 1 & 5 & H & f42r.13 &  & \\
+1585 & qorain & 1 & 6 & P & f36r.1 &  & \\
+1586 & qos & 1 & 3 & J & f7v.6 &  & \\
+1587 & qosaiin & 1 & 7 & B & f3r.19 &  & \\
+1588 & qotam & 1 & 5 & B & f52r.3 &  & \\
+1589 & qotan & 1 & 5 & L & f49r.5 &  & \\
+1590 & qotar & 1 & 5 & B & f24r.3 &  & \\
+1591 & qotchaiin & 1 & 8 & H & f28r.3 &  & \\
+1592 & qotchain & 1 & 7 & L & f25r.4 &  & \\
+1593 & qotcham & 1 & 6 & B & f3r.2 &  & \\
+1594 & qotcheeaiin & 1 & 10 & H & f35v.11 &  & \\
+1595 & qotcheey & 1 & 7 & H & f47v.9 &  & \\
+1596 & qotcheo & 1 & 6 & I & f5r.5 &  & \\
+1597 & qotcholg & 1 & 7 & L & f23v.3 &  & \\
+1598 & qotchytor & 1 & 8 & P & f10v.4 &  & \\
+1599 & qoteeeo & 1 & 7 & H & f7v.8 &  & \\
+1600 & qoteeey & 1 & 7 & B & f2v.7 &  & \\
+1601 & qoteeody & 1 & 8 & 2 & f20r.11 &  & \\
+1602 & qoteol & 1 & 6 & B & f3r.19 &  & \\
+1603 & qotey & 1 & 5 & I & f4r.1 &  & \\
+1604 & qotodaiin & 1 & 9 & F & f52v.6 &  & \\
+1605 & qotody & 1 & 6 & L & f49r.7 &  & \\
+1606 & qotoees & 1 & 7 & I & f7r.6 &  & \\
+1607 & qotoldy & 1 & 7 & I & f37v.1 &  & \\
+1608 & qotolo & 1 & 6 & L & f14r.5 &  & \\
+1609 & qotomody & 1 & 8 & B & f37r.6 &  & \\
+1610 & qotoral & 1 & 7 & B & f25v.6 &  & \\
+1611 & qotordy & 1 & 7 & B & f37r.9 &  & \\
+1612 & qotoy & 1 & 5 & I & f3v.1 &  & \\
+1613 & qotshey & 1 & 6 & B & f28v.5 &  & \\
+1614 & qotshol & 1 & 6 & I & f44v.1 &  & \\
+1615 & qotyd & 1 & 5 & I & f13v.6 &  & \\
+1616 & qoykeeey & 1 & 8 & B & f5r.6 &  & \\
+1617 & qoypchol & 1 & 7 & I & f36r.4 &  & \\
+1618 & qykchey & 1 & 6 & B & f44r.2 &  & \\
+1619 & ram & 1 & 3 & L & f9r.3 &  & \\
+1620 & rchealcham & 1 & 8 & L & f8r.18 &  & \\
+1621 & rcheey & 1 & 5 & B & f49v.32 &  & \\
+1622 & rchey & 1 & 4 & J & f30r.8 &  & \\
+1623 & rchody & 1 & 5 & L & f30r.10 &  & \\
+1624 & rchseesy & 1 & 7 & B & f49v.46 &  & \\
+1625 & rchy & 1 & 3 & J & f42v.9 &  & \\
+1626 & ro & 1 & 2 & B & f30r.6 &  & \\
+1627 & roaiin & 1 & 6 & I & f35v.1 &  & \\
+1628 & roiry & 1 & 5 & I & f44r.8 &  & \\
+1629 & rokyd & 1 & 5 & B & f9v.8 &  & \\
+1630 & rychos & 1 & 5 & L & f6v.3 &  & \\
+1631 & sa & 1 & 2 & B & f45v.9 &  & \\
+1632 & saiiin & 1 & 6 & B & f15r.10 &  & \\
+1633 & saiinchy & 1 & 7 & F & f22v.16 &  & \\
+1634 & saim & 1 & 4 & Z & f8r.21 &  & \\
+1635 & sair & 1 & 4 & H & f8r.19 &  & \\
+1636 & sarar & 1 & 5 & B & f42v.14 &  & \\
+1637 & sarg & 1 & 4 & L & f52v.5 &  & \\
+1638 & satar & 1 & 5 & L & f8v.13 &  & \\
+1639 & schaiin & 1 & 6 & H & f35r.6 &  & \\
+1640 & schar & 1 & 4 & B & f17r.8 &  & \\
+1641 & scharchy & 1 & 6 & H & f8v.10 &  & \\
+1642 & scheey & 1 & 5 & B & f35r.5 &  & \\
+1643 & scheo & 1 & 4 & I & f30r.8 &  & \\
+1644 & schesy & 1 & 5 & H & f47r.7 &  & \\
+1645 & scho & 1 & 3 & B & f8r.5 &  & \\
+1646 & schoal & 1 & 5 & I & f11r.1 &  & \\
+1647 & schodain & 1 & 7 & F & f20r.8 &  & \\
+1648 & schodam & 1 & 6 & B & f3r.12 &  & \\
+1649 & schody & 1 & 5 & D & f1v.10 &  & \\
+1650 & schokey & 1 & 6 & H & f35v.19 &  & \\
+1651 & seees & 1 & 5 & B & f3v.3 &  & \\
+1652 & sha & 1 & 2 & I & f3v.1 &  & \\
+1653 & shair & 1 & 4 & B & f25r.2 &  & \\
+1654 & shal & 1 & 3 & D & f32v.6 &  & \\
+1655 & shckh & 1 & 2 & D & f25v.7 &  & \\
+1656 & shckhol & 1 & 4 & I & f21v.1 &  & \\
+1657 & shcphy & 1 & 3 & I & f11v.1 &  & \\
+1658 & shcthal & 1 & 4 & H & f8v.2 &  & \\
+1659 & shd & 1 & 2 & B & f20v.9 &  & \\
+1660 & shdaiin & 1 & 6 & L & f19r.9 &  & \\
+1661 & sheal & 1 & 4 & 2 & f16r.3 &  & \\
+1662 & shealy & 1 & 5 & B & f8v.4 &  & \\
+1663 & sheam & 1 & 4 & D & f3v.14 &  & \\
+1664 & shecthy & 1 & 4 & B & f17v.21 &  & \\
+1665 & shedaiin & 1 & 7 & 2 & f52r.6 &  & \\
+1666 & sheear & 1 & 5 & B & f25r.3 &  & \\
+1667 & sheekal & 1 & 6 & B & f54r.8 &  & \\
+1668 & sheekol & 1 & 6 & B & f53v.2 &  & \\
+1669 & sheeod & 1 & 5 & 2 & f49v.18 &  & \\
+1670 & sheeor & 1 & 5 & I & f4v.7 &  & \\
+1671 & sheetchy & 1 & 6 & B & f53v.8 &  & \\
+1672 & sheodaiin & 1 & 8 & I & f7v.6 &  & \\
+1673 & sheoldam & 1 & 7 & 2 & f3r.9 &  & \\
+1674 & sheoldy & 1 & 6 & 2 & f30v.10 &  & \\
+1675 & sheoty & 1 & 5 & B & f49r.6 &  & \\
+1676 & sheoy & 1 & 4 & B & f20v.7 &  & \\
+1677 & shepchy & 1 & 5 & I & f28v.1 &  & \\
+1678 & shes & 1 & 3 & 2 & f27r.10 &  & \\
+1679 & shesed & 1 & 5 & B & f8r.4 &  & \\
+1680 & shet & 1 & 3 & 2 & f35r.4 &  & \\
+1681 & shfydaiin & 1 & 8 & I & f11r.1 &  & \\
+1682 & shkchor & 1 & 5 & B & f4v.2 &  & \\
+1683 & shkchy & 1 & 4 & B & f13r.2 &  & \\
+1684 & shkol & 1 & 4 & B & f27v.5 &  & \\
+1685 & shkshy & 1 & 4 & I & f23v.6 &  & \\
+1686 & shky & 1 & 3 & I & f44v.4 &  & \\
+1687 & shld & 1 & 3 & L & f27v.3 &  & \\
+1688 & shoaiin & 1 & 6 & I & f36v.1 &  & \\
+1689 & shocho & 1 & 4 & F & f49v.34 &  & \\
+1690 & shochy & 1 & 4 & H & f13r.8 &  & \\
+1691 & shockho & 1 & 4 & 2 & f3v.11 &  & \\
+1692 & shockhy & 1 & 4 & B & f28r.7 &  & \\
+1693 & shocthol & 1 & 5 & I & f6v.6 &  & \\
+1694 & shodaim & 1 & 6 & B & f52r.7 &  & \\
+1695 & shodol & 1 & 5 & B & f51v.5 &  & \\
+1696 & shodshey & 1 & 6 & H & f56v.2 &  & \\
+1697 & shoeor & 1 & 5 & F & f21r.7 &  & \\
+1698 & shofom & 1 & 5 & I & f54r.6 &  & \\
+1699 & shokeeol & 1 & 7 & H & f5v.5 &  & \\
+1700 & shokeey & 1 & 6 & H & f47r.8 &  & \\
+1701 & shokey & 1 & 5 & B & f32v.3 &  & \\
+1702 & shokog & 1 & 5 & L & f51v.4 &  & \\
+1703 & shokshor & 1 & 6 & B & f14v.4 &  & \\
+1704 & shokyd & 1 & 5 & B & f27r.2 &  & \\
+1705 & sholdaiin & 1 & 8 & I & f8r.9 &  & \\
+1706 & sholdy & 1 & 5 & B & f18r.7 &  & \\
+1707 & sholo & 1 & 4 & L & f16v.8 &  & \\
+1708 & sholoiin & 1 & 7 & I & f52v.7 &  & \\
+1709 & sholol & 1 & 5 & B & f23v.4 &  & \\
+1710 & sholor & 1 & 5 & B & f17v.21 &  & \\
+1711 & sholos & 1 & 5 & I & f44r.8 &  & \\
+1712 & shols & 1 & 4 & I & f42v.1 &  & \\
+1713 & sholy & 1 & 4 & J & f42r.16 &  & \\
+1714 & shon & 1 & 3 & L & f13v.7 &  & \\
+1715 & shopchey & 1 & 6 & I & f7r.1 &  & \\
+1716 & shopchy & 1 & 5 & 2 & f52r.4 &  & \\
+1717 & shoqoky & 1 & 6 & H & f49r.14 &  & \\
+1718 & shorchaiin & 1 & 8 & J & f35r.9 &  & \\
+1719 & shorchey & 1 & 6 & I & f30r.1 &  & \\
+1720 & shordy & 1 & 5 & I & f11v.1 &  & \\
+1721 & shorodo & 1 & 6 & P & f13r.5 &  & \\
+1722 & shorody & 1 & 6 & I & f44v.4 &  & \\
+1723 & shorpchor & 1 & 7 & I & f49r.1 &  & \\
+1724 & shosheky & 1 & 6 & B & f29r.8 &  & \\
+1725 & shoshy & 1 & 4 & J & f1v.5 &  & \\
+1726 & shotaiin & 1 & 7 & I & f42r.7 &  & \\
+1727 & shotchey & 1 & 6 & B & f27r.9 &  & \\
+1728 & shotchor & 1 & 6 & 2 & f29v.8 &  & \\
+1729 & shotchot & 1 & 6 & H & f56v.9 &  & \\
+1730 & shotchy & 1 & 5 & H & f16r.8 &  & \\
+1731 & shoteo & 1 & 5 & I & f27r.1 &  & \\
+1732 & shoto & 1 & 4 & I & f45v.5 &  & \\
+1733 & shotokody & 1 & 8 & B & f8r.12 &  & \\
+1734 & shotoly & 1 & 6 & L & f22v.13 &  & \\
+1735 & shotshy & 1 & 5 & B & f5r.6 &  & \\
+1736 & shoykcho & 1 & 6 & 2 & f27v.7 &  & \\
+1737 & shoyty & 1 & 5 & J & f11r.1 &  & \\
+1738 & shtaiin & 1 & 6 & B & f4v.11 &  & \\
+1739 & shtshy & 1 & 4 & B & f16r.12 &  & \\
+1740 & shty & 1 & 3 & J & f2v.1 &  & \\
+1741 & shydal & 1 & 5 & I & f9r.6 &  & \\
+1742 & shykeody & 1 & 7 & I & f32r.1 &  & \\
+1743 & shysho & 1 & 4 & I & f44r.5 &  & \\
+1744 & shyshol & 1 & 5 & B & f4r.10 &  & \\
+1745 & skaiiodar & 1 & 9 & B & f6r.9 &  & \\
+1746 & skey & 1 & 4 & B & f32v.9 &  & \\
+1747 & sky & 1 & 3 & B & f15r.13 &  & \\
+1748 & soaiin & 1 & 6 & L & f20v.7 &  & \\
+1749 & sochey & 1 & 5 & D & f1v.4 &  & \\
+1750 & sockhody & 1 & 6 & B & f54r.2 &  & \\
+1751 & socthody & 1 & 6 & H & f11r.2 &  & \\
+1752 & sodal & 1 & 5 & F & f42v.8 &  & \\
+1753 & sodar & 1 & 5 & H & f53r.7 &  & \\
+1754 & soeom & 1 & 5 & F & f3r.17 &  & \\
+1755 & soin & 1 & 4 & B & f30r.4 &  & \\
+1756 & sokaiin & 1 & 7 & H & f22v.11 &  & \\
+1757 & sokar & 1 & 5 & F & f16v.13 &  & \\
+1758 & sokchor & 1 & 6 & H & f37v.17 &  & \\
+1759 & sokchy & 1 & 5 & H & f16r.11 &  & \\
+1760 & sold & 1 & 4 & L & f36r.7 &  & \\
+1761 & soleeg & 1 & 6 & L & f3r.16 &  & \\
+1762 & solkaiin & 1 & 8 & H & f42r.2 &  & \\
+1763 & sols & 1 & 4 & I & f3r.11 &  & \\
+1764 & soly & 1 & 4 & I & f27v.1 &  & \\
+1765 & sorain & 1 & 6 & Z & f8v.11 &  & \\
+1766 & sotchaiin & 1 & 8 & H & f18r.11 &  & \\
+1767 & sotchdy & 1 & 6 & L & f27v.6 &  & \\
+1768 & sotchy & 1 & 5 & F & f13r.10 &  & \\
+1769 & sotodan & 1 & 7 & L & f56r.18 &  & \\
+1770 & sotoiiin & 1 & 8 & Z & f37v.13 &  & \\
+1771 & soty & 1 & 4 & L & f32r.16 &  & \\
+1772 & soy & 1 & 3 & H & f17r.9 &  & \\
+1773 & soydy & 1 & 5 & H & f11v.6 &  & \\
+1774 & sshey & 1 & 4 & H & f24r.17 &  & \\
+1775 & sykaiin & 1 & 7 & I & f16r.1 &  & \\
+1776 & tad & 1 & 3 & B & f56v.4 &  & \\
+1777 & tal & 1 & 3 & B & f13v.9 &  & \\
+1778 & tam & 1 & 3 & B & f54v.14 &  & \\
+1779 & taor & 1 & 4 & F & f1v.10 &  & \\
+1780 & tchaiin & 1 & 6 & F & f44v.7 &  & \\
+1781 & tchain & 1 & 5 & L & f56v.11 &  & \\
+1782 & tchalody & 1 & 7 & L & f6v.14 &  & \\
+1783 & tchaly & 1 & 5 & I & f15r.1 &  & \\
+1784 & tcham & 1 & 4 & B & f52r.7 &  & \\
+1785 & tchar & 1 & 4 & D & f24v.5 &  & \\
+1786 & tcheain & 1 & 6 & H & f35v.14 &  & \\
+1787 & tcheodal & 1 & 7 & B & f20r.3 &  & \\
+1788 & tcheody & 1 & 6 & H & f51r.5 &  & \\
+1789 & tcheol & 1 & 5 & B & f49r.13 &  & \\
+1790 & tcheor & 1 & 5 & B & f15r.12 &  & \\
+1791 & tcheychedy & 1 & 8 & J & f32r.6 &  & \\
+1792 & tchod & 1 & 4 & B & f47r.8 &  & \\
+1793 & tchodaiin & 1 & 8 & H & f51r.11 &  & \\
+1794 & tchoep & 1 & 5 & P & f8r.9 &  & \\
+1795 & tchoky & 1 & 5 & P & f56r.9 &  & \\
+1796 & tchokyd & 1 & 6 & L & f16r.12 &  & \\
+1797 & tcholol & 1 & 6 & B & f45r.6 &  & \\
+1798 & tchory & 1 & 5 & L & f17v.14 &  & \\
+1799 & tchotchey & 1 & 7 & H & f49v.32 &  & \\
+1800 & tchotshey & 1 & 7 & H & f52r.3 &  & \\
+1801 & tchtcho & 1 & 5 & H & f45v.7 &  & \\
+1802 & tchtod & 1 & 5 & H & f13v.9 &  & \\
+1803 & tchty & 1 & 4 & H & f8r.2 &  & \\
+1804 & tchyky & 1 & 5 & B & f14r.12 &  & \\
+1805 & tdaiin & 1 & 6 & B & f19r.3 &  & \\
+1806 & tdokchcfhy & 1 & 7 & P & f52r.1 &  & \\
+1807 & teaiin & 1 & 6 & B & f42v.11 &  & \\
+1808 & teeodan & 1 & 7 & B & f8r.10 &  & \\
+1809 & teol & 1 & 4 & 2 & f44v.12 &  & \\
+1810 & to & 1 & 2 & H & f23r.2 &  & \\
+1811 & toaiin & 1 & 6 & L & f16r.6 &  & \\
+1812 & tochol & 1 & 5 & P & f24v.6 &  & \\
+1813 & tochon & 1 & 5 & P & f29v.5 &  & \\
+1814 & tocphol & 1 & 5 & P & f37r.1 &  & \\
+1815 & todain & 1 & 6 & P & f37v.14 &  & \\
+1816 & toeoky & 1 & 6 & B & f9r.2 &  & \\
+1817 & toiin & 1 & 5 & H & f9r.3 &  & \\
+1818 & tolchory & 1 & 7 & J & f21r.4 &  & \\
+1819 & told & 1 & 4 & P & f18v.1 &  & \\
+1820 & toldshy & 1 & 6 & P & f21v.1 &  & \\
+1821 & toldy & 1 & 5 & Z & f9v.4 &  & \\
+1822 & tolg & 1 & 4 & L & f27r.9 &  & \\
+1823 & tolol & 1 & 5 & H & f18v.8 &  & \\
+1824 & tolor & 1 & 5 & P & f38r.1 &  & \\
+1825 & tolosheey & 1 & 8 & I & f21r.4 &  & \\
+1826 & tolshy & 1 & 5 & B & f20v.3 &  & \\
+1827 & tom & 1 & 3 & L & f37v.10 &  & \\
+1828 & toror & 1 & 5 & P & f16r.10 &  & \\
+1829 & torshor & 1 & 6 & P & f13r.1 &  & \\
+1830 & tosh & 1 & 3 & H & f8r.6 &  & \\
+1831 & toshy & 1 & 4 & H & f42r.3 &  & \\
+1832 & totchy & 1 & 5 & H & f21r.10 &  & \\
+1833 & toyd & 1 & 4 & L & f53r.8 &  & \\
+1834 & tsh & 1 & 2 & I & f42r.16 &  & \\
+1835 & tshaiin & 1 & 6 & B & f21r.9 &  & \\
+1836 & tsheoarom & 1 & 8 & P & f3r.15 &  & \\
+1837 & tsheos & 1 & 5 & P & f3r.1 &  & \\
+1838 & tshey & 1 & 4 & B & f20r.11 &  & \\
+1839 & tshodody & 1 & 7 & J & f7v.1 &  & \\
+1840 & tshodpy & 1 & 6 & P & f44r.1 &  & \\
+1841 & tshoiin & 1 & 6 & P & f28v.4 &  & \\
+1842 & tsholdchy & 1 & 7 & P & f51r.1 &  & \\
+1843 & tsholol & 1 & 6 & B & f45v.10 &  & \\
+1844 & tydlo & 1 & 5 & P & f9r.1 &  & \\
+1845 & tyol & 1 & 4 & B & f45v.7 &  & \\
+1846 & yaiir & 1 & 5 & B & f6r.4 &  & \\
+1847 & yair & 1 & 4 & H & f54v.3 &  & \\
+1848 & ychair & 1 & 5 & H & f18r.12 &  & \\
+1849 & ychar & 1 & 4 & H & f6r.11 &  & \\
+1850 & ychcthod & 1 & 5 & L & f52r.4 &  & \\
+1851 & ychdain & 1 & 6 & L & f30r.12 &  & \\
+1852 & ychealod & 1 & 7 & Z & f16r.4 &  & \\
+1853 & ychekch & 1 & 5 & F & f18r.14 &  & \\
+1854 & ychekchy & 1 & 6 & H & f17r.5 &  & \\
+1855 & ycheoky & 1 & 6 & H & f51v.11 &  & \\
+1856 & ychky & 1 & 4 & H & f22v.12 &  & \\
+1857 & ychocphy & 1 & 5 & I & f56r.1 &  & \\
+1858 & ychocthy & 1 & 5 & H & f53v.10 &  & \\
+1859 & ychod & 1 & 4 & F & f17r.12 &  & \\
+1860 & ychody & 1 & 5 & H & f30r.2 &  & \\
+1861 & ychoees & 1 & 6 & H & f18v.5 &  & \\
+1862 & ychok & 1 & 4 & H & f38r.4 &  & \\
+1863 & ychom & 1 & 4 & Z & f29r.9 &  & \\
+1864 & ychopordg & 1 & 8 & L & f5v.2 &  & \\
+1865 & ychoy & 1 & 4 & H & f19v.6 &  & \\
+1866 & ychtaiin & 1 & 7 & H & f3r.6 &  & \\
+1867 & ychykchy & 1 & 6 & H & f16r.2 &  & \\
+1868 & yckhey & 1 & 4 & L & f54v.13 &  & \\
+1869 & yckhodaiin & 1 & 8 & F & f53v.13 &  & \\
+1870 & yckhody & 1 & 5 & H & f22r.11 &  & \\
+1871 & ycphko & 1 & 4 & I & f52r.1 &  & \\
+1872 & ycthar & 1 & 4 & H & f24r.3 &  & \\
+1873 & ycthol & 1 & 4 & B & f51v.7 &  & \\
+1874 & ydair & 1 & 5 & H & f17r.2 &  & \\
+1875 & ydals & 1 & 5 & H & f24v.2 &  & \\
+1876 & ydam & 1 & 4 & L & f53v.12 &  & \\
+1877 & ydchody & 1 & 6 & H & f51r.3 &  & \\
+1878 & ydey & 1 & 4 & B & f30r.11 &  & \\
+1879 & ydl & 1 & 3 & B & f18v.4 &  & \\
+1880 & ydor & 1 & 4 & H & f16r.3 &  & \\
+1881 & ydsh & 1 & 3 & H & f44r.2 &  & \\
+1882 & yees & 1 & 4 & H & f19v.13 &  & \\
+1883 & yfchor & 1 & 5 & - & f23r.4 &  & \\
+1884 & yfchy & 1 & 4 & I & f23r.1 &  & \\
+1885 & yfodain & 1 & 7 & I & f14v.1 &  & \\
+1886 & yk & 1 & 2 & B & f28v.8 &  & \\
+1887 & ykaiil & 1 & 6 & - & f23r.4 &  & \\
+1888 & ykain & 1 & 5 & L & f23r.10 &  & \\
+1889 & ykald & 1 & 5 & L & f51r.6 &  & \\
+1890 & ykam & 1 & 4 & L & f18v.8 &  & \\
+1891 & ykchdy & 1 & 5 & B & f53r.6 &  & \\
+1892 & ykcheody & 1 & 7 & B & f53v.6 &  & \\
+1893 & ykchey & 1 & 5 & D & f44r.4 &  & \\
+1894 & ykchodaiin & 1 & 9 & B & f51r.6 &  & \\
+1895 & ykchokeo & 1 & 7 & F & f49v.52 &  & \\
+1896 & ykcholy & 1 & 6 & H & f28v.2 &  & \\
+1897 & ykchom & 1 & 5 & L & f45v.9 &  & \\
+1898 & ykchon & 1 & 5 & B & f37v.5 &  & \\
+1899 & ykchotchy & 1 & 7 & H & f36v.10 &  & \\
+1900 & ykeeod & 1 & 6 & B & f53r.8 &  & \\
+1901 & ykeeols & 1 & 7 & L & f37v.17 &  & \\
+1902 & ykeeyky & 1 & 7 & L & f14r.11 &  & \\
+1903 & ykeodar & 1 & 7 & H & f53r.6 &  & \\
+1904 & ykeody & 1 & 6 & Z & f14r.13 &  & \\
+1905 & ykeoldy & 1 & 7 & L & f51r.13 &  & \\
+1906 & ykey & 1 & 4 & H & f9v.3 &  & \\
+1907 & yko & 1 & 3 & L & f9v.6 &  & \\
+1908 & ykoaiin & 1 & 7 & I & f3v.1 &  & \\
+1909 & ykoda & 1 & 5 & I & f44v.8 &  & \\
+1910 & ykoldam & 1 & 7 & B & f54v.3 &  & \\
+1911 & ykoldy & 1 & 6 & B & f52r.2 &  & \\
+1912 & ykolody & 1 & 7 & B & f45r.9 &  & \\
+1913 & ykoly & 1 & 5 & B & f13r.9 &  & \\
+1914 & yksh & 1 & 3 & I & f2r.8 &  & \\
+1915 & yksheor & 1 & 6 & H & f45v.8 &  & \\
+1916 & ykshol & 1 & 5 & H & f15r.13 &  & \\
+1917 & ykychy & 1 & 5 & B & f11r.3 &  & \\
+1918 & ylg & 1 & 3 & L & f23v.7 &  & \\
+1919 & yoar & 1 & 4 & I & f18r.1 &  & \\
+1920 & yodaiin & 1 & 7 & H & f6v.13 &  & \\
+1921 & yoees & 1 & 5 & H & f51r.12 &  & \\
+1922 & yokalod & 1 & 7 & P & f44v.4 &  & \\
+1923 & yokor & 1 & 5 & H & f37v.6 &  & \\
+1924 & yol & 1 & 3 & H & f24r.19 &  & \\
+1925 & yolkol & 1 & 6 & H & f44v.2 &  & \\
+1926 & ypaim & 1 & 5 & J & f17r.4 &  & \\
+1927 & ypch & 1 & 3 & I & f10r.1 &  & \\
+1928 & ypchaiin & 1 & 7 & I & f2r.1 &  & \\
+1929 & ypchal & 1 & 5 & L & f54v.2 &  & \\
+1930 & ypchedy & 1 & 6 & J & f51r.1 &  & \\
+1931 & ypcheey & 1 & 6 & I & f9v.5 &  & \\
+1932 & ypchey & 1 & 5 & I & f21r.1 &  & \\
+1933 & ypod & 1 & 4 & I & f17r.1 &  & \\
+1934 & ypsholy & 1 & 6 & I & f44r.1 &  & \\
+1935 & ysheey & 1 & 5 & H & f53v.5 &  & \\
+1936 & ysheol & 1 & 5 & D & f21r.12 &  & \\
+1937 & ysheor & 1 & 5 & H & f3r.8 &  & \\
+1938 & yshol & 1 & 4 & H & f42r.8 &  & \\
+1939 & yshor & 1 & 4 & H & f19r.6 &  & \\
+1940 & yt & 1 & 2 & H & f56r.10 &  & \\
+1941 & ytain & 1 & 5 & Z & f35r.15 &  & \\
+1942 & ytair & 1 & 5 & I & f52r.1 &  & \\
+1943 & ytaly & 1 & 5 & B & f6r.5 &  & \\
+1944 & ytch & 1 & 3 & H & f19v.4 &  & \\
+1945 & ytchaiin & 1 & 7 & B & f2r.5 &  & \\
+1946 & ytchar & 1 & 5 & I & f27v.1 &  & \\
+1947 & ytcharg & 1 & 6 & L & f18r.3 &  & \\
+1948 & ytchdam & 1 & 6 & L & f52r.5 &  & \\
+1949 & ytchdy & 1 & 5 & B & f45v.6 &  & \\
+1950 & ytchear & 1 & 6 & B & f44v.5 &  & \\
+1951 & ytcheear & 1 & 7 & H & f3v.9 &  & \\
+1952 & ytcheey & 1 & 6 & B & f7r.3 &  & \\
+1953 & ytcho & 1 & 4 & I & f23r.6 &  & \\
+1954 & ytchocthol & 1 & 7 & H & f6v.18 &  & \\
+1955 & ytchodaiin & 1 & 9 & H & f53r.4 &  & \\
+1956 & ytchoky & 1 & 6 & B & f11r.2 &  & \\
+1957 & ytchom & 1 & 5 & L & f45v.7 &  & \\
+1958 & ytchord & 1 & 6 & L & f45v.10 &  & \\
+1959 & ytdg & 1 & 4 & J & f18v.1 &  & \\
+1960 & yteain & 1 & 6 & B & f23r.10 &  & \\
+1961 & yteal & 1 & 5 & B & f54v.8 &  & \\
+1962 & yteody & 1 & 6 & D & f3r.17 &  & \\
+1963 & yto & 1 & 3 & F & f37v.23 &  & \\
+1964 & ytodaiin & 1 & 8 & H & f54r.2 &  & \\
+1965 & ytodaly & 1 & 7 & F & f36r.9 &  & \\
+1966 & ytoiiin & 1 & 7 & I & f5v.1 &  & \\
+1967 & ytorory & 1 & 7 & B & f36r.7 &  & \\
+1968 & ytoryd & 1 & 6 & L & f36v.11 &  & \\
+1969 & ytoy & 1 & 4 & J & f4r.1 &  & \\
+1970 & ytychy & 1 & 5 & H & f14v.4 &  & \\
+1971 & ytym & 1 & 4 & - & f23r.5 &  & \\
+\bottomrule\end{longtable}\normalsize
+
+\end{landscape}
+\clearpage
+\section{Registered Shared Routes (715 operational families)}
+A route is a contiguous series of four to six glyphs, and it may overlap other routes inside the same complete word. Inclusion criteria are: at least three containing tokens, at least two distinct complete forms, and appearances on at least two manuscript surfaces. The route is not a proven lexeme or semantic family.
+
+\footnotesize\renewcommand{\arraystretch}{1.10}
+\begin{longtable}{@{}>{\ttfamily}lrrrl@{}}
+\toprule Route (glyph units) & N & Types & Pages & Example carrier\\\midrule\endfirsthead
+\toprule Route & N & Types & Pages & Example\\\midrule\endhead
+a.i.i.n & 891 & 161 & 84 & \EVA{daiin}\\
+d.a.i.i & 527 & 68 & 84 & \EVA{daiin}\\
+d.a.i.i.n & 490 & 47 & 83 & \EVA{daiin}\\
+o.d.a.i & 109 & 46 & 52 & \EVA{chodaiin}\\
+q.o.t.ch & 101 & 19 & 57 & \EVA{qotchy}\\
+k.a.i.i & 98 & 22 & 48 & \EVA{okaiin}\\
+d.a.i.n & 97 & 19 & 51 & \EVA{dain}\\
+o.d.a.i.i & 94 & 32 & 49 & \EVA{chodaiin}\\
+o.t.ch.o & 93 & 23 & 48 & \EVA{otchol}\\
+o.t.ch.y & 92 & 11 & 55 & \EVA{qotchy}\\
+k.a.i.i.n & 88 & 14 & 45 & \EVA{okaiin}\\
+o.d.a.i.i.n & 88 & 26 & 46 & \EVA{chodaiin}\\
+q.o.k.ch & 83 & 19 & 49 & \EVA{qokchy}\\
+t.a.i.i & 77 & 14 & 43 & \EVA{otaiin}\\
+o.i.i.n & 76 & 28 & 40 & \EVA{choiin}\\
+t.a.i.i.n & 75 & 13 & 42 & \EVA{otaiin}\\
+o.k.ch.o & 74 & 25 & 47 & \EVA{qokchol}\\
+o.k.ch.y & 72 & 9 & 43 & \EVA{qokchy}\\
+o.t.o.l & 67 & 15 & 45 & \EVA{otol}\\
+ch.a.i.i & 66 & 23 & 37 & \EVA{chaiin}\\
+ch.a.i.i.n & 66 & 23 & 37 & \EVA{chaiin}\\
+o.k.a.i & 65 & 13 & 41 & \EVA{okaiin}\\
+o.k.a.i.i & 57 & 9 & 37 & \EVA{okaiin}\\
+ch.o.d.y & 56 & 22 & 36 & \EVA{chody}\\
+t.ch.o.l & 55 & 9 & 37 & \EVA{otchol}\\
+k.ch.o.l & 53 & 12 & 32 & \EVA{kchol}\\
+o.k.a.i.i.n & 53 & 6 & 35 & \EVA{okaiin}\\
+q.o.t.o & 53 & 15 & 34 & \EVA{qotol}\\
+t.ch.o.r & 53 & 10 & 36 & \EVA{tchor}\\
+k.e.e.y & 52 & 13 & 32 & \EVA{qokeey}\\
+o.t.a.i & 50 & 8 & 32 & \EVA{otaiin}\\
+ch.o.d.a & 49 & 23 & 32 & \EVA{chodaiin}\\
+o.k.o.l & 48 & 9 & 32 & \EVA{qokol}\\
+k.ch.o.r & 47 & 11 & 37 & \EVA{kchor}\\
+o.t.a.i.i & 47 & 6 & 30 & \EVA{otaiin}\\
+q.o.k.o & 47 & 14 & 34 & \EVA{qokol}\\
+o.t.a.i.i.n & 45 & 5 & 29 & \EVA{otaiin}\\
+q.o.t.ch.y & 45 & 2 & 35 & \EVA{qotchy}\\
+ch.e.e.y & 44 & 20 & 24 & \EVA{cheey}\\
+ch.e.o.r & 44 & 12 & 30 & \EVA{cheor}\\
+o.k.e.e & 43 & 23 & 25 & \EVA{qokeey}\\
+o.l.d.y & 42 & 28 & 31 & \EVA{choldy}\\
+ch.e.o.l & 41 & 16 & 25 & \EVA{cheol}\\
+t.ch.e.y & 39 & 10 & 29 & \EVA{otchey}\\
+o.t.ch.o.l & 38 & 5 & 30 & \EVA{otchol}\\
+o.t.ch.e & 37 & 14 & 27 & \EVA{otchey}\\
+e.o.d.y & 36 & 24 & 23 & \EVA{cheody}\\
+d.a.i.r & 35 & 11 & 30 & \EVA{dair}\\
+o.t.o.r & 35 & 6 & 25 & \EVA{qotor}\\
+q.o.t.ch.o & 35 & 7 & 28 & \EVA{qotchol}\\
+o.a.i.i & 33 & 18 & 25 & \EVA{oaiin}\\
+ch.o.d.a.i & 32 & 11 & 24 & \EVA{chodaiin}\\
+o.a.i.i.n & 32 & 17 & 25 & \EVA{oaiin}\\
+q.o.k.ch.o & 32 & 9 & 24 & \EVA{qokchol}\\
+o.k.e.o & 31 & 17 & 18 & \EVA{okeol}\\
+q.o.k.e & 31 & 12 & 22 & \EVA{qokeey}\\
+o.d.a.l & 30 & 20 & 22 & \EVA{qodal}\\
+ch.o.d.a.i.i & 28 & 8 & 23 & \EVA{chodaiin}\\
+e.a.i.i & 28 & 18 & 22 & \EVA{sheaiin}\\
+q.o.t.y & 28 & 2 & 21 & \EVA{qoty}\\
+ch.o.k.ch & 27 & 10 & 18 & \EVA{chokchy}\\
+e.a.i.i.n & 27 & 17 & 22 & \EVA{sheaiin}\\
+k.ch.e.y & 27 & 7 & 19 & \EVA{kchey}\\
+i.i.i.n & 26 & 16 & 19 & \EVA{daiiin}\\
+o.t.ch.o.r & 26 & 4 & 22 & \EVA{otchor}\\
+q.o.k.a & 26 & 7 & 17 & \EVA{qokaiin}\\
+o.k.ch.o.l & 25 & 5 & 18 & \EVA{qokchol}\\
+o.k.e.e.y & 25 & 7 & 17 & \EVA{qokeey}\\
+o.k.o.r & 25 & 9 & 21 & \EVA{okor}\\
+s.a.i.i & 25 & 8 & 17 & \EVA{saiin}\\
+ch.e.o.d & 24 & 18 & 17 & \EVA{cheody}\\
+e.e.e.s & 24 & 18 & 21 & \EVA{oeees}\\
+o.k.ch.e & 24 & 13 & 19 & \EVA{okchey}\\
+o.t.ch.e.y & 24 & 5 & 19 & \EVA{otchey}\\
+s.a.i.i.n & 24 & 7 & 17 & \EVA{saiin}\\
+sh.e.e.y & 24 & 6 & 16 & \EVA{sheey}\\
+ch.o.t.ch & 23 & 9 & 16 & \EVA{chotchy}\\
+ch.o.t.y & 23 & 4 & 16 & \EVA{choty}\\
+d.ch.o.r & 23 & 2 & 18 & \EVA{dchor}\\
+k.e.o.l & 23 & 7 & 20 & \EVA{keol}\\
+o.d.a.r & 23 & 17 & 17 & \EVA{chodar}\\
+q.o.d.a & 23 & 7 & 15 & \EVA{qodaiin}\\
+q.o.k.y & 23 & 3 & 18 & \EVA{qoky}\\
+y.t.ch.o & 23 & 12 & 20 & \EVA{ytchor}\\
+k.e.e.o & 22 & 18 & 16 & \EVA{keeor}\\
+o.t.e.e & 22 & 12 & 15 & \EVA{qoteey}\\
+q.o.k.o.l & 22 & 2 & 15 & \EVA{qokol}\\
+t.ch.o.d & 22 & 12 & 20 & \EVA{tchody}\\
+y.k.ch.o & 22 & 12 & 19 & \EVA{ykchor}\\
+y.k.ch.y & 22 & 5 & 19 & \EVA{ykchy}\\
+ch.o.k.y & 21 & 4 & 16 & \EVA{choky}\\
+o.k.ch.o.r & 21 & 4 & 17 & \EVA{okchor}\\
+ch.e.a.r & 20 & 6 & 14 & \EVA{chear}\\
+ch.o.k.e & 20 & 14 & 11 & \EVA{chokeey}\\
+q.o.t.o.l & 20 & 3 & 14 & \EVA{qotol}\\
+y.d.a.i & 20 & 9 & 19 & \EVA{ydaiin}\\
+a.i.i.i & 19 & 10 & 17 & \EVA{daiiin}\\
+ch.a.i.n & 19 & 8 & 15 & \EVA{chain}\\
+o.k.a.l & 19 & 4 & 13 & \EVA{okal}\\
+q.o.t.o.r & 19 & 3 & 14 & \EVA{qotor}\\
+k.ch.o.d & 18 & 11 & 16 & \EVA{qokchod}\\
+o.l.d.a & 18 & 16 & 14 & \EVA{oldaiin}\\
+o.t.ch.a & 18 & 11 & 15 & \EVA{otcham}\\
+sh.o.d.y & 18 & 7 & 14 & \EVA{shody}\\
+a.i.i.i.n & 17 & 8 & 15 & \EVA{daiiin}\\
+ch.o.l.d & 17 & 11 & 15 & \EVA{choldy}\\
+d.ch.o.l & 17 & 3 & 17 & \EVA{dchol}\\
+e.o.d.a & 17 & 16 & 15 & \EVA{cheodaiin}\\
+k.o.i.i & 17 & 7 & 13 & \EVA{koiin}\\
+q.o.k.a.i & 17 & 3 & 12 & \EVA{qokaiin}\\
+q.o.k.e.e & 17 & 6 & 11 & \EVA{qokeey}\\
+q.o.t.a & 17 & 5 & 13 & \EVA{qotaiin}\\
+q.o.t.e & 17 & 8 & 13 & \EVA{qoteey}\\
+sh.a.i.i & 17 & 5 & 14 & \EVA{shaiin}\\
+sh.a.i.i.n & 17 & 5 & 14 & \EVA{shaiin}\\
+t.e.e.y & 17 & 6 & 14 & \EVA{qoteey}\\
+y.t.ch.y & 17 & 5 & 14 & \EVA{ytchy}\\
+a.i.i.r & 16 & 8 & 15 & \EVA{daiir}\\
+ch.o.cth.y & 16 & 3 & 13 & \EVA{chocthy}\\
+ch.o.k.ch.y & 16 & 3 & 13 & \EVA{chokchy}\\
+o.l.o.l & 16 & 12 & 13 & \EVA{olol}\\
+p.ch.o.r & 16 & 7 & 14 & \EVA{pchor}\\
+q.o.k.a.i.i & 16 & 2 & 11 & \EVA{qokaiin}\\
+q.o.t.ch.e & 16 & 6 & 15 & \EVA{qotchey}\\
+y.t.a.i & 16 & 5 & 15 & \EVA{ytaiin}\\
+ch.o.i.i & 15 & 3 & 15 & \EVA{choiin}\\
+ch.o.i.i.n & 15 & 3 & 15 & \EVA{choiin}\\
+ch.o.k.o & 15 & 12 & 12 & \EVA{chokor}\\
+ch.o.r.y & 15 & 7 & 15 & \EVA{chory}\\
+k.ch.e.o & 15 & 9 & 14 & \EVA{kcheol}\\
+k.o.i.i.n & 15 & 5 & 12 & \EVA{koiin}\\
+o.p.ch.o & 15 & 8 & 14 & \EVA{opchol}\\
+o.p.ch.y & 15 & 5 & 11 & \EVA{opchy}\\
+q.o.t.e.e & 15 & 6 & 11 & \EVA{qoteey}\\
+y.d.a.i.i & 15 & 5 & 15 & \EVA{ydaiin}\\
+y.d.a.i.i.n & 15 & 5 & 15 & \EVA{ydaiin}\\
+y.k.e.e & 15 & 7 & 13 & \EVA{ykeey}\\
+ch.o.t.ch.y & 14 & 3 & 10 & \EVA{chotchy}\\
+e.e.o.d & 14 & 13 & 11 & \EVA{cheeody}\\
+o.k.ch.a & 14 & 8 & 13 & \EVA{okchal}\\
+q.o.d.a.i & 14 & 4 & 10 & \EVA{qodaiin}\\
+q.o.p.ch & 14 & 8 & 13 & \EVA{qopchy}\\
+sh.o.d.a & 14 & 4 & 10 & \EVA{shodaiin}\\
+t.ch.o.d.y & 14 & 6 & 13 & \EVA{tchody}\\
+ch.o.k.a & 13 & 5 & 11 & \EVA{chokaiin}\\
+e.e.e.y & 13 & 12 & 11 & \EVA{cheeey}\\
+e.e.o.r & 13 & 9 & 8 & \EVA{keeor}\\
+k.e.o.r & 13 & 5 & 10 & \EVA{okeor}\\
+o.k.ch.e.y & 13 & 3 & 12 & \EVA{okchey}\\
+o.k.o.d & 13 & 9 & 11 & \EVA{qokod}\\
+o.t.a.l & 13 & 4 & 12 & \EVA{otal}\\
+t.ch.e.o & 13 & 10 & 12 & \EVA{qotcheol}\\
+y.k.a.i & 13 & 6 & 11 & \EVA{ykaiin}\\
+y.k.o.l & 13 & 5 & 12 & \EVA{ykol}\\
+y.t.a.i.i & 13 & 2 & 12 & \EVA{ytaiin}\\
+y.t.a.i.i.n & 13 & 2 & 12 & \EVA{ytaiin}\\
+y.t.o.r & 13 & 6 & 11 & \EVA{ytor}\\
+ch.e.a.i & 12 & 7 & 10 & \EVA{cheaiin}\\
+ch.e.o.d.y & 12 & 8 & 10 & \EVA{cheody}\\
+ch.o.t.o & 12 & 6 & 9 & \EVA{chotol}\\
+cth.a.i.i & 12 & 2 & 11 & \EVA{cthaiin}\\
+cth.a.i.i.n & 12 & 2 & 11 & \EVA{cthaiin}\\
+cth.o.d.y & 12 & 5 & 12 & \EVA{cthody}\\
+o.ch.o.r & 12 & 8 & 11 & \EVA{ochor}\\
+o.e.e.e & 12 & 9 & 11 & \EVA{oeees}\\
+o.e.e.s & 12 & 9 & 10 & \EVA{oees}\\
+o.k.e.y & 12 & 5 & 11 & \EVA{qokey}\\
+o.r.a.i & 12 & 10 & 9 & \EVA{oraiin}\\
+p.ch.o.l & 12 & 7 & 11 & \EVA{opchol}\\
+q.o.t.ch.o.l & 12 & 2 & 11 & \EVA{qotchol}\\
+sh.e.o.r & 12 & 5 & 10 & \EVA{sheor}\\
+t.o.l.d & 12 & 7 & 11 & \EVA{otoldy}\\
+y.t.o.l & 12 & 3 & 12 & \EVA{ytol}\\
+ch.e.e.s & 11 & 5 & 9 & \EVA{chees}\\
+ch.o.l.y & 11 & 5 & 10 & \EVA{choly}\\
+d.a.i.i.i & 11 & 3 & 11 & \EVA{daiiin}\\
+k.o.d.y & 11 & 7 & 10 & \EVA{chokody}\\
+l.d.a.i & 11 & 9 & 9 & \EVA{oldaiin}\\
+o.k.o.i & 11 & 6 & 10 & \EVA{qokoiin}\\
+o.p.ch.e & 11 & 8 & 11 & \EVA{opchey}\\
+o.t.e.e.y & 11 & 3 & 9 & \EVA{qoteey}\\
+sh.o.d.a.i & 11 & 2 & 9 & \EVA{shodaiin}\\
+t.o.d.y & 11 & 7 & 11 & \EVA{tody}\\
+t.sh.o.l & 11 & 6 & 11 & \EVA{tshol}\\
+y.k.e.e.y & 11 & 3 & 9 & \EVA{ykeey}\\
+y.t.ch.o.r & 11 & 3 & 10 & \EVA{ytchor}\\
+ch.e.o.d.a & 10 & 9 & 9 & \EVA{cheodaiin}\\
+d.a.i.i.i.n & 10 & 2 & 10 & \EVA{daiiin}\\
+k.a.i.n & 10 & 6 & 10 & \EVA{okain}\\
+k.ch.a.i & 10 & 6 & 9 & \EVA{kchaiin}\\
+k.e.e.e & 10 & 9 & 10 & \EVA{qokeees}\\
+o.d.a.i.n & 10 & 9 & 9 & \EVA{chodain}\\
+o.k.e.e.o & 10 & 9 & 8 & \EVA{okeeor}\\
+o.k.e.o.l & 10 & 3 & 9 & \EVA{okeol}\\
+o.k.o.i.i & 10 & 5 & 9 & \EVA{qokoiin}\\
+o.l.d.a.i & 10 & 8 & 8 & \EVA{oldaiin}\\
+o.t.a.r & 10 & 6 & 10 & \EVA{otar}\\
+o.t.e.o & 10 & 6 & 9 & \EVA{oteol}\\
+o.t.o.d & 10 & 7 & 10 & \EVA{qotod}\\
+o.t.sh.y & 10 & 4 & 10 & \EVA{qotshy}\\
+sh.e.o.d & 10 & 5 & 7 & \EVA{sheody}\\
+sh.e.o.l & 10 & 4 & 8 & \EVA{sheol}\\
+t.ch.e.e & 10 & 7 & 9 & \EVA{tcheey}\\
+t.e.o.l & 10 & 5 & 9 & \EVA{oteol}\\
+t.o.i.i & 10 & 7 & 8 & \EVA{ytoiin}\\
+t.o.l.d.y & 10 & 5 & 9 & \EVA{otoldy}\\
+y.k.a.i.i & 10 & 4 & 10 & \EVA{ykaiin}\\
+ch.o.k.a.i & 9 & 2 & 9 & \EVA{chokaiin}\\
+ch.o.k.e.e & 9 & 6 & 4 & \EVA{chokeey}\\
+ch.o.l.d.y & 9 & 4 & 8 & \EVA{choldy}\\
+ch.o.l.o & 9 & 8 & 9 & \EVA{cholor}\\
+ch.o.r.o & 9 & 8 & 8 & \EVA{choror}\\
+ch.o.t.a & 9 & 4 & 8 & \EVA{chotaiin}\\
+d.a.i.i.r & 9 & 3 & 9 & \EVA{daiir}\\
+d.o.i.i & 9 & 3 & 8 & \EVA{doiin}\\
+e.e.o.l & 9 & 8 & 8 & \EVA{qoteeol}\\
+k.e.o.d & 9 & 8 & 8 & \EVA{chokeody}\\
+k.o.l.d & 9 & 7 & 8 & \EVA{chkoldy}\\
+l.d.a.i.i & 9 & 7 & 8 & \EVA{oldaiin}\\
+l.d.a.i.i.n & 9 & 7 & 8 & \EVA{oldaiin}\\
+o.d.o.l & 9 & 8 & 9 & \EVA{pchodol}\\
+o.k.a.r & 9 & 4 & 8 & \EVA{okar}\\
+o.k.ch.o.d & 9 & 6 & 8 & \EVA{qokchod}\\
+o.k.sh.o & 9 & 7 & 7 & \EVA{oksho}\\
+o.k.sh.y & 9 & 4 & 8 & \EVA{okshy}\\
+o.t.ch.o.d & 9 & 6 & 8 & \EVA{otchody}\\
+p.ch.e.y & 9 & 6 & 9 & \EVA{opchey}\\
+q.o.k.ch.e & 9 & 5 & 9 & \EVA{qokchey}\\
+r.a.i.i & 9 & 7 & 7 & \EVA{raiin}\\
+r.a.i.i.n & 9 & 7 & 7 & \EVA{raiin}\\
+t.ch.a.i & 9 & 8 & 9 & \EVA{otchaiin}\\
+t.ch.a.r & 9 & 6 & 8 & \EVA{otchar}\\
+y.ch.e.o & 9 & 3 & 8 & \EVA{ycheor}\\
+y.k.a.i.i.n & 9 & 3 & 9 & \EVA{ykaiin}\\
+y.k.e.o & 9 & 6 & 8 & \EVA{ykeol}\\
+a.l.d.y & 8 & 5 & 7 & \EVA{daldy}\\
+ch.e.a.i.i & 8 & 4 & 8 & \EVA{cheaiin}\\
+ch.e.a.i.i.n & 8 & 4 & 8 & \EVA{cheaiin}\\
+ch.k.a.i & 8 & 2 & 5 & \EVA{chkaiin}\\
+ch.o.k.e.o & 8 & 6 & 6 & \EVA{chokeo}\\
+ch.o.t.a.i & 8 & 3 & 7 & \EVA{chotaiin}\\
+e.e.a.i & 8 & 8 & 6 & \EVA{poeeaiin}\\
+e.o.d.a.i & 8 & 7 & 8 & \EVA{cheodaiin}\\
+k.sh.e.o & 8 & 4 & 8 & \EVA{ksheo}\\
+o.e.e.e.s & 8 & 5 & 8 & \EVA{oeees}\\
+o.i.i.i & 8 & 7 & 5 & \EVA{soiiin}\\
+o.i.i.i.n & 8 & 7 & 5 & \EVA{soiiin}\\
+o.k.o.i.i.n & 8 & 3 & 7 & \EVA{qokoiin}\\
+o.l.d.a.i.i & 8 & 6 & 7 & \EVA{oldaiin}\\
+o.r.ch.y & 8 & 5 & 7 & \EVA{torchy}\\
+o.r.d.y & 8 & 6 & 7 & \EVA{opchordy}\\
+o.t.ch.e.o & 8 & 5 & 8 & \EVA{qotcheol}\\
+p.ch.e.o & 8 & 7 & 7 & \EVA{pcheol}\\
+p.ch.o.d & 8 & 6 & 8 & \EVA{pchodol}\\
+q.o.a.i & 8 & 3 & 6 & \EVA{qoaiin}\\
+q.o.k.ch.o.r & 8 & 2 & 7 & \EVA{qokchor}\\
+sh.o.l.o & 8 & 8 & 7 & \EVA{ksholo}\\
+t.ch.e.e.y & 8 & 5 & 8 & \EVA{tcheey}\\
+t.o.d.a & 8 & 6 & 8 & \EVA{todaiin}\\
+t.o.i.i.n & 8 & 5 & 7 & \EVA{ytoiin}\\
+y.t.ch.e & 8 & 5 & 8 & \EVA{ytchey}\\
+ch.o.d.a.l & 7 & 5 & 6 & \EVA{chodaly}\\
+ch.o.d.a.r & 7 & 4 & 6 & \EVA{chodar}\\
+ch.o.k.ch.o & 7 & 3 & 6 & \EVA{chokchol}\\
+ch.o.t.a.i.i & 7 & 2 & 7 & \EVA{chotaiin}\\
+d.a.l.y & 7 & 4 & 7 & \EVA{chodaly}\\
+e.e.a.i.i & 7 & 7 & 5 & \EVA{poeeaiin}\\
+e.o.l.d & 7 & 7 & 5 & \EVA{sheoldam}\\
+k.ch.a.i.i & 7 & 3 & 7 & \EVA{kchaiin}\\
+k.ch.a.i.i.n & 7 & 3 & 7 & \EVA{kchaiin}\\
+k.ch.a.l & 7 & 3 & 7 & \EVA{okchal}\\
+k.ch.o.d.y & 7 & 4 & 7 & \EVA{ykchody}\\
+k.e.e.o.d & 7 & 7 & 6 & \EVA{qokeeodal}\\
+k.e.e.o.r & 7 & 4 & 5 & \EVA{keeor}\\
+k.o.d.a & 7 & 7 & 7 & \EVA{okodar}\\
+k.o.l.d.y & 7 & 5 & 7 & \EVA{chkoldy}\\
+l.d.a.m & 7 & 7 & 5 & \EVA{otaldam}\\
+l.o.d.y & 7 & 7 & 7 & \EVA{dolody}\\
+o.k.a.i.n & 7 & 3 & 7 & \EVA{okain}\\
+o.k.e.a & 7 & 6 & 7 & \EVA{okeal}\\
+o.k.e.o.r & 7 & 3 & 6 & \EVA{okeor}\\
+o.l.o.r & 7 & 5 & 7 & \EVA{cholor}\\
+o.p.ch.a & 7 & 7 & 6 & \EVA{chopchal}\\
+o.p.ch.o.l & 7 & 3 & 7 & \EVA{opchol}\\
+o.p.ch.o.r & 7 & 4 & 7 & \EVA{qopchor}\\
+o.r.a.i.i & 7 & 6 & 5 & \EVA{oraiin}\\
+o.r.a.i.i.n & 7 & 6 & 5 & \EVA{oraiin}\\
+o.r.o.r & 7 & 6 & 7 & \EVA{choror}\\
+o.t.e.o.l & 7 & 3 & 6 & \EVA{oteol}\\
+o.t.sh.o & 7 & 5 & 7 & \EVA{otshol}\\
+q.o.k.o.r & 7 & 2 & 7 & \EVA{qokor}\\
+s.o.i.i & 7 & 2 & 6 & \EVA{soiin}\\
+sh.e.o.d.y & 7 & 3 & 6 & \EVA{sheody}\\
+sh.o.i.i & 7 & 3 & 4 & \EVA{shoiin}\\
+t.ch.a.i.i & 7 & 6 & 7 & \EVA{otchaiin}\\
+t.ch.a.i.i.n & 7 & 6 & 7 & \EVA{otchaiin}\\
+t.o.l.o & 7 & 7 & 7 & \EVA{otolom}\\
+y.ch.o.l & 7 & 2 & 7 & \EVA{ychol}\\
+a.i.i.o & 6 & 6 & 6 & \EVA{skaiiodar}\\
+a.l.d.a & 6 & 6 & 5 & \EVA{otaldam}\\
+ch.e.e.o & 6 & 4 & 5 & \EVA{cheeody}\\
+ch.e.o.d.a.i & 6 & 5 & 6 & \EVA{cheodaiin}\\
+ch.o.ckh.y & 6 & 3 & 5 & \EVA{chockhy}\\
+ch.o.r.d & 6 & 4 & 5 & \EVA{opchordy}\\
+ch.o.t.ch.e & 6 & 3 & 6 & \EVA{chotchey}\\
+ch.o.t.o.l & 6 & 2 & 6 & \EVA{chotol}\\
+ch.y.k.y & 6 & 3 & 6 & \EVA{chyky}\\
+ckh.o.d.y & 6 & 4 & 6 & \EVA{ckhody}\\
+cph.a.i.i & 6 & 2 & 5 & \EVA{cphaiin}\\
+d.a.r.y & 6 & 2 & 6 & \EVA{dary}\\
+d.ch.e.e & 6 & 3 & 6 & \EVA{dcheey}\\
+d.ch.e.o & 6 & 5 & 6 & \EVA{dcheo}\\
+d.ch.o.d & 6 & 5 & 5 & \EVA{dchodaiin}\\
+d.o.l.d & 6 & 6 & 5 & \EVA{dolds}\\
+e.a.i.n & 6 & 5 & 5 & \EVA{cheain}\\
+e.e.a.i.i.n & 6 & 6 & 5 & \EVA{poeeaiin}\\
+f.ch.o.l & 6 & 4 & 5 & \EVA{fchol}\\
+k.ch.e.e & 6 & 5 & 4 & \EVA{kcheey}\\
+k.ch.e.e.y & 6 & 5 & 4 & \EVA{kcheey}\\
+k.e.o.d.y & 6 & 5 & 5 & \EVA{chokeody}\\
+k.sh.o.l & 6 & 5 & 6 & \EVA{kshol}\\
+o.ch.o.l & 6 & 5 & 6 & \EVA{ochol}\\
+o.cth.o.l & 6 & 5 & 5 & \EVA{qocthol}\\
+o.d.a.m & 6 & 6 & 5 & \EVA{schodam}\\
+o.d.a.n & 6 & 5 & 5 & \EVA{odan}\\
+o.k.ch.e.o & 6 & 5 & 5 & \EVA{qokcheo}\\
+o.k.o.d.y & 6 & 4 & 6 & \EVA{chokody}\\
+o.l.ch.e & 6 & 6 & 5 & \EVA{dolchey}\\
+o.l.o.d & 6 & 6 & 6 & \EVA{dolody}\\
+o.p.ch.e.y & 6 & 3 & 6 & \EVA{opchey}\\
+o.r.o.d & 6 & 6 & 6 & \EVA{oporody}\\
+o.s.a.i & 6 & 4 & 6 & \EVA{shosaiin}\\
+o.t.a.m & 6 & 2 & 6 & \EVA{otam}\\
+o.t.ch.a.r & 6 & 3 & 5 & \EVA{otchar}\\
+o.t.ch.o.d.y & 6 & 4 & 6 & \EVA{otchody}\\
+o.t.e.e.e & 6 & 5 & 5 & \EVA{qoteees}\\
+q.o.k.e.o & 6 & 3 & 6 & \EVA{qokeol}\\
+q.o.k.o.d & 6 & 3 & 6 & \EVA{qokod}\\
+q.o.k.o.i & 6 & 3 & 6 & \EVA{qokoiin}\\
+q.o.k.o.i.i & 6 & 3 & 6 & \EVA{qokoiin}\\
+q.o.p.ch.y & 6 & 2 & 5 & \EVA{qopchy}\\
+q.o.t.sh & 6 & 3 & 5 & \EVA{qotshy}\\
+sh.o.i.i.n & 6 & 2 & 4 & \EVA{shoiin}\\
+sh.o.t.o & 6 & 5 & 6 & \EVA{shotol}\\
+t.a.i.n & 6 & 5 & 6 & \EVA{otain}\\
+t.ch.a.l & 6 & 5 & 6 & \EVA{otchal}\\
+t.ch.e.o.l & 6 & 4 & 5 & \EVA{qotcheol}\\
+t.e.e.e & 6 & 5 & 5 & \EVA{qoteees}\\
+t.e.e.o & 6 & 5 & 6 & \EVA{qoteeol}\\
+t.o.d.a.i & 6 & 4 & 6 & \EVA{todaiin}\\
+y.d.a.l & 6 & 5 & 4 & \EVA{ydal}\\
+y.k.ch.o.r & 6 & 2 & 5 & \EVA{ykchor}\\
+y.p.ch.o & 6 & 4 & 6 & \EVA{ypchol}\\
+ch.e.a.l & 5 & 4 & 4 & \EVA{cheal}\\
+ch.e.o.k & 5 & 5 & 5 & \EVA{cheokeey}\\
+ch.o.ch.o & 5 & 4 & 5 & \EVA{chochor}\\
+ch.o.ch.o.r & 5 & 4 & 5 & \EVA{chochor}\\
+ch.o.k.e.e.y & 5 & 2 & 4 & \EVA{chokeey}\\
+ch.o.l.o.l & 5 & 5 & 5 & \EVA{chololy}\\
+ch.o.r.d.y & 5 & 3 & 4 & \EVA{opchordy}\\
+ch.o.t.ch.e.y & 5 & 2 & 5 & \EVA{chotchey}\\
+ch.o.t.e & 5 & 4 & 5 & \EVA{choteol}\\
+ch.o.t.sh & 5 & 4 & 5 & \EVA{chotshol}\\
+cth.a.i.n & 5 & 2 & 4 & \EVA{cthain}\\
+cth.e.o.d & 5 & 3 & 4 & \EVA{ctheod}\\
+d.a.i.m & 5 & 4 & 5 & \EVA{daim}\\
+d.a.l.d & 5 & 3 & 4 & \EVA{daldy}\\
+d.a.l.o & 5 & 4 & 5 & \EVA{dalor}\\
+d.a.l.s & 5 & 3 & 4 & \EVA{dals}\\
+d.ch.a.i & 5 & 3 & 5 & \EVA{dchaiin}\\
+d.sh.e.y & 5 & 2 & 4 & \EVA{dshey}\\
+e.e.o.d.y & 5 & 4 & 5 & \EVA{cheeody}\\
+e.o.d.a.i.i & 5 & 4 & 5 & \EVA{cheodaiin}\\
+e.o.k.y & 5 & 5 & 5 & \EVA{keoky}\\
+k.a.i.i.i & 5 & 4 & 5 & \EVA{kaiiin}\\
+k.ch.a.r & 5 & 3 & 5 & \EVA{okchar}\\
+k.ch.e.o.l & 5 & 2 & 5 & \EVA{kcheol}\\
+k.sh.e.y & 5 & 3 & 5 & \EVA{kshey}\\
+k.sh.o.r & 5 & 4 & 4 & \EVA{kshor}\\
+o.ch.e.y & 5 & 4 & 5 & \EVA{ochey}\\
+o.d.a.l.y & 5 & 3 & 5 & \EVA{chodaly}\\
+o.d.ch.y & 5 & 3 & 5 & \EVA{qodchy}\\
+o.e.o.r & 5 & 4 & 4 & \EVA{qoeor}\\
+o.k.a.m & 5 & 2 & 5 & \EVA{qokam}\\
+o.k.ch.a.i & 5 & 4 & 5 & \EVA{qokchaiin}\\
+o.k.ch.a.l & 5 & 2 & 5 & \EVA{okchal}\\
+o.k.e.o.d & 5 & 4 & 4 & \EVA{chokeody}\\
+o.k.sh.e & 5 & 5 & 5 & \EVA{qokshey}\\
+o.l.o.d.y & 5 & 5 & 5 & \EVA{dolody}\\
+o.p.y.d & 5 & 3 & 4 & \EVA{opydaiin}\\
+o.r.a.i.n & 5 & 4 & 4 & \EVA{chorain}\\
+o.s.a.i.i & 5 & 3 & 5 & \EVA{shosaiin}\\
+o.s.a.i.i.n & 5 & 3 & 5 & \EVA{shosaiin}\\
+o.t.ch.a.i & 5 & 4 & 5 & \EVA{otchaiin}\\
+o.t.ch.e.o.l & 5 & 3 & 5 & \EVA{qotcheol}\\
+o.t.e.y & 5 & 3 & 5 & \EVA{otey}\\
+o.t.o.l.d & 5 & 2 & 5 & \EVA{otoldy}\\
+o.t.o.l.d.y & 5 & 2 & 5 & \EVA{otoldy}\\
+o.t.sh.o.l & 5 & 3 & 5 & \EVA{otshol}\\
+p.ch.a.r & 5 & 3 & 5 & \EVA{pchar}\\
+q.o.k.sh & 5 & 4 & 5 & \EVA{qokshy}\\
+q.o.t.ch.a & 5 & 4 & 5 & \EVA{qotchar}\\
+r.a.i.n & 5 & 4 & 4 & \EVA{chorain}\\
+r.o.d.y & 5 & 5 & 5 & \EVA{oporody}\\
+r.o.i.i & 5 & 4 & 5 & \EVA{doroiin}\\
+r.o.i.i.n & 5 & 4 & 5 & \EVA{doroiin}\\
+s.a.i.n & 5 & 3 & 5 & \EVA{sain}\\
+sh.o.t.y & 5 & 2 & 5 & \EVA{shoty}\\
+t.ch.a.m & 5 & 3 & 4 & \EVA{otcham}\\
+t.ch.o.d.a & 5 & 4 & 5 & \EVA{tchodar}\\
+t.o.d.a.i.i & 5 & 3 & 5 & \EVA{todaiin}\\
+t.sh.e.y & 5 & 5 & 5 & \EVA{tshey}\\
+t.y.d.y & 5 & 2 & 5 & \EVA{tydy}\\
+y.ch.e.y & 5 & 2 & 5 & \EVA{ychey}\\
+y.k.ch.o.l & 5 & 2 & 4 & \EVA{ykchol}\\
+y.p.ch.y & 5 & 3 & 5 & \EVA{ypchy}\\
+a.i.i.d & 4 & 2 & 4 & \EVA{daiidy}\\
+a.i.i.l & 4 & 4 & 4 & \EVA{daiildy}\\
+a.i.i.n.o & 4 & 4 & 4 & \EVA{daiinol}\\
+a.i.r.o & 4 & 4 & 4 & \EVA{dairodg}\\
+a.l.ch.y & 4 & 4 & 4 & \EVA{kodalchy}\\
+ch.a.l.d & 4 & 4 & 4 & \EVA{chald}\\
+ch.e.a.i.n & 4 & 3 & 4 & \EVA{cheain}\\
+ch.e.k.ch & 4 & 4 & 4 & \EVA{chekchoy}\\
+ch.e.o.t & 4 & 3 & 4 & \EVA{cheotol}\\
+ch.e.t.ch & 4 & 3 & 4 & \EVA{chetchy}\\
+ch.k.o.l & 4 & 2 & 4 & \EVA{chkoldy}\\
+ch.o.d.o & 4 & 3 & 4 & \EVA{pchodol}\\
+ch.o.k.e.e.o & 4 & 4 & 2 & \EVA{chokeeo}\\
+ch.o.k.o.l & 4 & 4 & 4 & \EVA{chokoldy}\\
+ch.o.k.o.r & 4 & 2 & 3 & \EVA{chokor}\\
+ch.o.k.sh & 4 & 4 & 4 & \EVA{chokshor}\\
+ch.o.l.d.a & 4 & 3 & 4 & \EVA{choldaiin}\\
+ch.o.p.ch & 4 & 3 & 4 & \EVA{chopchy}\\
+ch.o.r.a & 4 & 3 & 4 & \EVA{chorain}\\
+cth.e.o.l & 4 & 2 & 4 & \EVA{ctheol}\\
+cth.o.l.y & 4 & 2 & 4 & \EVA{ctholy}\\
+d.a.i.i.d & 4 & 2 & 4 & \EVA{daiidy}\\
+d.a.i.i.o & 4 & 4 & 4 & \EVA{daiiol}\\
+d.a.i.r.o & 4 & 4 & 4 & \EVA{dairodg}\\
+d.ch.a.i.i & 4 & 2 & 4 & \EVA{dchaiin}\\
+d.ch.a.i.i.n & 4 & 2 & 4 & \EVA{dchaiin}\\
+d.e.e.e & 4 & 4 & 4 & \EVA{deeeese}\\
+d.o.d.y & 4 & 2 & 4 & \EVA{dody}\\
+d.y.t.ch & 4 & 3 & 4 & \EVA{dytchy}\\
+e.e.a.r & 4 & 4 & 4 & \EVA{ytcheear}\\
+e.e.e.o & 4 & 4 & 4 & \EVA{qoteeeo}\\
+e.o.d.a.r & 4 & 4 & 4 & \EVA{cheodar}\\
+f.ch.o.r & 4 & 4 & 3 & \EVA{yfchor}\\
+i.i.n.o & 4 & 4 & 4 & \EVA{daiinol}\\
+k.a.i.i.i.n & 4 & 3 & 4 & \EVA{kaiiin}\\
+k.ch.e.o.r & 4 & 2 & 4 & \EVA{kcheor}\\
+k.ch.o.k & 4 & 4 & 3 & \EVA{okchokshy}\\
+k.ch.o.m & 4 & 3 & 4 & \EVA{okchom}\\
+k.e.a.i & 4 & 4 & 4 & \EVA{keaiin}\\
+k.e.a.i.i & 4 & 4 & 4 & \EVA{keaiin}\\
+k.e.a.i.i.n & 4 & 4 & 4 & \EVA{keaiin}\\
+k.e.ch.y & 4 & 2 & 4 & \EVA{kechy}\\
+k.e.e.e.s & 4 & 3 & 4 & \EVA{qokeees}\\
+k.e.e.e.y & 4 & 4 & 4 & \EVA{qoykeeey}\\
+k.e.e.o.l & 4 & 4 & 4 & \EVA{shokeeol}\\
+k.e.o.m & 4 & 3 & 3 & \EVA{okeom}\\
+k.o.a.i & 4 & 4 & 3 & \EVA{koaiin}\\
+l.d.a.r & 4 & 4 & 3 & \EVA{choldar}\\
+o.f.ch.o & 4 & 4 & 4 & \EVA{ofchol}\\
+o.i.i.r & 4 & 4 & 4 & \EVA{qokoiir}\\
+o.k.e.e.e & 4 & 3 & 4 & \EVA{qokeees}\\
+o.k.o.m & 4 & 2 & 4 & \EVA{okom}\\
+o.k.y.d & 4 & 4 & 4 & \EVA{rokyd}\\
+o.l.ch.o & 4 & 4 & 4 & \EVA{cholchom}\\
+o.l.d.a.m & 4 & 4 & 4 & \EVA{sheoldam}\\
+o.l.o.m & 4 & 4 & 4 & \EVA{otolom}\\
+o.o.i.i & 4 & 3 & 4 & \EVA{kooiin}\\
+o.p.o.r & 4 & 4 & 4 & \EVA{oporar}\\
+o.r.o.d.y & 4 & 4 & 4 & \EVA{oporody}\\
+o.t.ch.a.i.i & 4 & 3 & 4 & \EVA{otchaiin}\\
+o.t.ch.a.m & 4 & 2 & 3 & \EVA{otcham}\\
+o.t.e.e.o & 4 & 3 & 4 & \EVA{qoteeol}\\
+o.t.o.d.y & 4 & 3 & 4 & \EVA{otody}\\
+o.t.o.i & 4 & 3 & 3 & \EVA{qotoiin}\\
+o.t.o.i.i & 4 & 3 & 3 & \EVA{qotoiin}\\
+o.t.o.l.o & 4 & 4 & 4 & \EVA{otolom}\\
+o.t.y.d & 4 & 3 & 4 & \EVA{otydy}\\
+p.ch.a.i & 4 & 4 & 4 & \EVA{ypchaiin}\\
+p.ch.a.i.i & 4 & 4 & 4 & \EVA{ypchaiin}\\
+p.ch.a.i.i.n & 4 & 4 & 4 & \EVA{ypchaiin}\\
+p.ch.a.l & 4 & 4 & 3 & \EVA{chopchal}\\
+p.ch.e.o.l & 4 & 3 & 3 & \EVA{pcheol}\\
+p.ch.o.d.a & 4 & 3 & 4 & \EVA{pchodaiin}\\
+p.o.d.a & 4 & 3 & 4 & \EVA{podaiin}\\
+p.o.d.a.i & 4 & 3 & 4 & \EVA{podaiin}\\
+p.y.d.a & 4 & 2 & 4 & \EVA{pydaiin}\\
+p.y.d.a.i & 4 & 2 & 4 & \EVA{pydaiin}\\
+p.y.d.a.i.i & 4 & 2 & 4 & \EVA{pydaiin}\\
+q.o.k.ch.e.o & 4 & 3 & 4 & \EVA{qokcheo}\\
+q.o.k.ch.o.d & 4 & 2 & 4 & \EVA{qokchod}\\
+q.o.t.ch.e.o & 4 & 2 & 4 & \EVA{qotcheol}\\
+q.o.t.ch.o.d & 4 & 2 & 4 & \EVA{qotchody}\\
+q.o.t.e.e.e & 4 & 3 & 4 & \EVA{qoteees}\\
+q.o.t.o.d & 4 & 3 & 4 & \EVA{qotod}\\
+s.o.d.a & 4 & 3 & 4 & \EVA{sodaiin}\\
+sh.o.l.d & 4 & 4 & 4 & \EVA{sholdaiin}\\
+sh.o.t.ch & 4 & 4 & 4 & \EVA{shotchy}\\
+sh.o.t.o.l & 4 & 3 & 4 & \EVA{shotol}\\
+t.ch.e.a & 4 & 3 & 4 & \EVA{qotcheaiin}\\
+t.ch.o.t & 4 & 4 & 4 & \EVA{otchoty}\\
+t.o.r.ch & 4 & 2 & 4 & \EVA{torchy}\\
+t.o.r.ch.y & 4 & 2 & 4 & \EVA{torchy}\\
+t.sh.e.o & 4 & 3 & 3 & \EVA{tsheody}\\
+y.ch.e.a & 4 & 3 & 4 & \EVA{ychear}\\
+y.d.a.i.n & 4 & 3 & 3 & \EVA{ydain}\\
+y.k.a.r & 4 & 2 & 4 & \EVA{ykar}\\
+y.k.ch.o.d & 4 & 2 & 4 & \EVA{ykchody}\\
+y.k.e.o.l & 4 & 2 & 3 & \EVA{ykeol}\\
+y.t.a.l & 4 & 2 & 4 & \EVA{ytal}\\
+y.t.o.d & 4 & 3 & 4 & \EVA{ytody}\\
+y.t.o.i & 4 & 2 & 4 & \EVA{ytoiin}\\
+y.t.o.i.i & 4 & 2 & 4 & \EVA{ytoiin}\\
+a.i.i.m & 3 & 3 & 3 & \EVA{daiim}\\
+a.l.o.d & 3 & 3 & 3 & \EVA{tchalody}\\
+a.l.o.r & 3 & 2 & 3 & \EVA{dalor}\\
+a.r.o.m & 3 & 3 & 3 & \EVA{tsheoarom}\\
+ch.cth.o.d & 3 & 3 & 3 & \EVA{chcthod}\\
+ch.e.a.n & 3 & 2 & 3 & \EVA{chean}\\
+ch.e.e.a & 3 & 3 & 3 & \EVA{ytcheear}\\
+ch.e.e.e & 3 & 2 & 3 & \EVA{cheeey}\\
+ch.e.e.e.y & 3 & 2 & 3 & \EVA{cheeey}\\
+ch.e.e.o.d & 3 & 2 & 3 & \EVA{cheeody}\\
+ch.e.o.l.d & 3 & 3 & 3 & \EVA{pcheoldom}\\
+ch.e.o.s & 3 & 2 & 3 & \EVA{cheos}\\
+ch.e.t.a & 3 & 3 & 2 & \EVA{chetar}\\
+ch.o.a.i & 3 & 2 & 3 & \EVA{choaiin}\\
+ch.o.a.i.i & 3 & 2 & 3 & \EVA{choaiin}\\
+ch.o.a.i.i.n & 3 & 2 & 3 & \EVA{choaiin}\\
+ch.o.cph.y & 3 & 2 & 3 & \EVA{chocphy}\\
+ch.o.cth.o & 3 & 3 & 3 & \EVA{ytchocthol}\\
+ch.o.d.a.i.n & 3 & 2 & 3 & \EVA{chodain}\\
+ch.o.d.o.l & 3 & 2 & 3 & \EVA{pchodol}\\
+ch.o.e.e & 3 & 2 & 3 & \EVA{choees}\\
+ch.o.e.e.s & 3 & 2 & 3 & \EVA{choees}\\
+ch.o.k.ch.e & 3 & 3 & 2 & \EVA{chokcheey}\\
+ch.o.k.e.y & 3 & 2 & 3 & \EVA{chokey}\\
+ch.o.r.a.i & 3 & 2 & 3 & \EVA{chorain}\\
+ch.o.r.ch & 3 & 2 & 3 & \EVA{chorchy}\\
+ch.o.r.o.r & 3 & 2 & 3 & \EVA{choror}\\
+ch.o.t.ch.o & 3 & 3 & 3 & \EVA{chotchol}\\
+ch.t.o.d & 3 & 3 & 3 & \EVA{chtod}\\
+ch.t.o.l & 3 & 2 & 3 & \EVA{chtol}\\
+ch.y.d.y & 3 & 3 & 3 & \EVA{okchydy}\\
+ch.y.k.ch & 3 & 2 & 3 & \EVA{chykchy}\\
+ch.y.k.ch.y & 3 & 2 & 3 & \EVA{chykchy}\\
+ch.y.p.ch & 3 & 3 & 3 & \EVA{qopchypcho}\\
+ckh.e.e.y & 3 & 2 & 2 & \EVA{ckheey}\\
+cth.e.o.d.y & 3 & 2 & 2 & \EVA{ctheody}\\
+cth.o.d.a & 3 & 3 & 3 & \EVA{cthodam}\\
+cth.o.l.d & 3 & 3 & 3 & \EVA{ctholdg}\\
+d.a.i.i.l & 3 & 3 & 3 & \EVA{daiildy}\\
+d.a.i.i.n.o & 3 & 3 & 3 & \EVA{daiinol}\\
+d.a.l.o.r & 3 & 2 & 3 & \EVA{dalor}\\
+d.a.r.o & 3 & 3 & 3 & \EVA{darody}\\
+d.ch.o.d.y & 3 & 3 & 3 & \EVA{poldchody}\\
+d.e.e.y & 3 & 2 & 3 & \EVA{deey}\\
+d.o.l.ch & 3 & 3 & 3 & \EVA{dolchey}\\
+d.o.r.o & 3 & 2 & 3 & \EVA{doroiin}\\
+d.sh.o.l & 3 & 3 & 3 & \EVA{dshol}\\
+d.y.k.ch & 3 & 2 & 3 & \EVA{dykchy}\\
+d.y.k.ch.y & 3 & 2 & 3 & \EVA{dykchy}\\
+e.e.e.e & 3 & 3 & 2 & \EVA{oeeees}\\
+e.e.e.e.s & 3 & 3 & 2 & \EVA{oeeees}\\
+e.e.o.d.a & 3 & 3 & 3 & \EVA{qokeeodal}\\
+e.e.s.o & 3 & 3 & 3 & \EVA{oeesody}\\
+e.e.s.y & 3 & 3 & 3 & \EVA{okeeesy}\\
+e.o.d.a.i.n & 3 & 3 & 3 & \EVA{dcheodain}\\
+e.o.d.a.l & 3 & 3 & 3 & \EVA{qokeeodal}\\
+e.o.l.d.y & 3 & 3 & 2 & \EVA{cheoldy}\\
+e.t.ch.y & 3 & 2 & 3 & \EVA{chetchy}\\
+f.ch.o.d & 3 & 3 & 3 & \EVA{fchodaiin}\\
+k.a.i.r & 3 & 2 & 3 & \EVA{ykair}\\
+k.a.l.d & 3 & 3 & 3 & \EVA{kald}\\
+k.ch.a.i.n & 3 & 3 & 2 & \EVA{okchain}\\
+k.ch.e.o.d & 3 & 3 & 3 & \EVA{kcheodaiin}\\
+k.ch.o.d.a & 3 & 3 & 3 & \EVA{kchodan}\\
+k.ch.o.s & 3 & 2 & 3 & \EVA{kchos}\\
+k.e.a.r & 3 & 3 & 3 & \EVA{okear}\\
+k.e.e.a & 3 & 3 & 3 & \EVA{okeeaiin}\\
+k.e.e.a.i & 3 & 3 & 3 & \EVA{okeeaiin}\\
+k.e.e.a.i.i & 3 & 3 & 3 & \EVA{okeeaiin}\\
+k.o.a.i.i & 3 & 3 & 2 & \EVA{koaiin}\\
+k.o.a.i.i.n & 3 & 3 & 2 & \EVA{koaiin}\\
+k.o.l.y & 3 & 3 & 3 & \EVA{ykoly}\\
+k.o.r.a & 3 & 3 & 3 & \EVA{koraiin}\\
+k.y.d.a & 3 & 3 & 2 & \EVA{kydainy}\\
+l.ch.e.y & 3 & 3 & 3 & \EVA{dolchey}\\
+l.ch.o.r & 3 & 3 & 3 & \EVA{tolchory}\\
+l.d.a.l & 3 & 3 & 3 & \EVA{daldalol}\\
+l.k.e.e & 3 & 3 & 3 & \EVA{lkeees}\\
+l.o.i.i & 3 & 3 & 3 & \EVA{oloiir}\\
+o.a.i.n & 3 & 3 & 3 & \EVA{pshoain}\\
+o.a.i.r & 3 & 3 & 3 & \EVA{qoair}\\
+o.ch.a.i & 3 & 3 & 3 & \EVA{pochaiin}\\
+o.ch.a.i.i & 3 & 3 & 3 & \EVA{pochaiin}\\
+o.ch.a.i.i.n & 3 & 3 & 3 & \EVA{pochaiin}\\
+o.cth.o.d & 3 & 3 & 3 & \EVA{octhody}\\
+o.cth.o.d.y & 3 & 3 & 3 & \EVA{octhody}\\
+o.cth.o.r & 3 & 2 & 3 & \EVA{octhor}\\
+o.d.a.i.r & 3 & 3 & 3 & \EVA{qodair}\\
+o.d.o.r & 3 & 2 & 3 & \EVA{odor}\\
+o.e.e.a & 3 & 3 & 3 & \EVA{foeear}\\
+o.k.ch.a.i.i & 3 & 2 & 3 & \EVA{qokchaiin}\\
+o.k.ch.e.e & 3 & 3 & 3 & \EVA{chokcheey}\\
+o.k.ch.e.e.y & 3 & 3 & 3 & \EVA{chokcheey}\\
+o.k.ch.o.d.y & 3 & 2 & 3 & \EVA{okchody}\\
+o.k.e.e.e.s & 3 & 2 & 3 & \EVA{qokeees}\\
+o.k.e.e.o.d & 3 & 3 & 2 & \EVA{qokeeodal}\\
+o.k.e.e.o.r & 3 & 2 & 3 & \EVA{okeeor}\\
+o.k.e.o.d.y & 3 & 2 & 2 & \EVA{chokeody}\\
+o.k.e.o.m & 3 & 2 & 2 & \EVA{okeom}\\
+o.k.o.d.a & 3 & 3 & 3 & \EVA{okodar}\\
+o.k.o.k & 3 & 3 & 3 & \EVA{okokchodg}\\
+o.k.sh.o.r & 3 & 3 & 2 & \EVA{shokshor}\\
+o.l.ch.e.y & 3 & 3 & 3 & \EVA{dolchey}\\
+o.l.ch.y & 3 & 2 & 3 & \EVA{olchy}\\
+o.l.d.a.r & 3 & 3 & 3 & \EVA{choldar}\\
+o.l.d.ch & 3 & 3 & 3 & \EVA{poldchody}\\
+o.l.d.o & 3 & 3 & 3 & \EVA{pcheoldom}\\
+o.l.o.i & 3 & 3 & 3 & \EVA{oloiir}\\
+o.l.o.i.i & 3 & 3 & 3 & \EVA{oloiir}\\
+o.l.s.a & 3 & 3 & 3 & \EVA{olsaiin}\\
+o.o.i.i.n & 3 & 2 & 3 & \EVA{kooiin}\\
+o.p.ch.a.l & 3 & 3 & 2 & \EVA{chopchal}\\
+o.p.ch.e.o & 3 & 3 & 3 & \EVA{qopcheody}\\
+o.r.a.l & 3 & 3 & 3 & \EVA{choraly}\\
+o.r.a.r & 3 & 3 & 3 & \EVA{oporar}\\
+o.r.ch.e & 3 & 3 & 3 & \EVA{chorcheor}\\
+o.r.ch.o & 3 & 3 & 3 & \EVA{dorchory}\\
+o.r.o.i & 3 & 2 & 3 & \EVA{doroiin}\\
+o.r.o.i.i & 3 & 2 & 3 & \EVA{doroiin}\\
+o.r.o.i.i.n & 3 & 2 & 3 & \EVA{doroiin}\\
+o.r.o.l & 3 & 3 & 3 & \EVA{dchorol}\\
+o.t.a.i.n & 3 & 2 & 3 & \EVA{otain}\\
+o.t.ch.a.l & 3 & 2 & 3 & \EVA{otchal}\\
+o.t.ch.d & 3 & 3 & 2 & \EVA{otchdal}\\
+o.t.ch.e.e & 3 & 3 & 3 & \EVA{qotcheeaiin}\\
+o.t.e.e.e.s & 3 & 2 & 3 & \EVA{qoteees}\\
+o.t.e.e.o.l & 3 & 2 & 3 & \EVA{qoteeol}\\
+o.t.o.e & 3 & 2 & 3 & \EVA{qotoeey}\\
+o.t.o.e.e & 3 & 2 & 3 & \EVA{qotoeey}\\
+o.t.o.i.i.n & 3 & 2 & 3 & \EVA{qotoiin}\\
+o.t.o.y & 3 & 3 & 3 & \EVA{potoy}\\
+o.t.sh.e & 3 & 3 & 3 & \EVA{qotshey}\\
+o.t.sh.e.y & 3 & 3 & 3 & \EVA{qotshey}\\
+o.t.y.t & 3 & 3 & 3 & \EVA{otytchol}\\
+o.y.k.e & 3 & 3 & 3 & \EVA{qoykeeey}\\
+o.y.k.e.e & 3 & 3 & 3 & \EVA{qoykeeey}\\
+p.ch.e.a & 3 & 3 & 3 & \EVA{opcheaiin}\\
+p.ch.e.e & 3 & 2 & 3 & \EVA{pcheey}\\
+p.ch.e.e.y & 3 & 2 & 3 & \EVA{pcheey}\\
+p.ch.e.o.d & 3 & 3 & 3 & \EVA{qopcheody}\\
+p.o.d.a.i.i & 3 & 2 & 3 & \EVA{podaiin}\\
+q.o.ckh.o & 3 & 3 & 3 & \EVA{qockhom}\\
+q.o.cth.o & 3 & 2 & 3 & \EVA{qocthol}\\
+q.o.cth.o.l & 3 & 2 & 3 & \EVA{qocthol}\\
+q.o.d.o & 3 & 3 & 3 & \EVA{qodor}\\
+q.o.k.ch.a & 3 & 2 & 3 & \EVA{qokchaiin}\\
+q.o.k.ch.a.i & 3 & 2 & 3 & \EVA{qokchaiin}\\
+q.o.k.e.e.e & 3 & 2 & 3 & \EVA{qokeees}\\
+q.o.p.ch.e & 3 & 2 & 3 & \EVA{qopchey}\\
+q.o.p.ch.o & 3 & 2 & 3 & \EVA{qopchor}\\
+q.o.t.e.e.o & 3 & 2 & 3 & \EVA{qoteeol}\\
+q.o.t.o.e & 3 & 2 & 3 & \EVA{qotoeey}\\
+q.o.t.o.e.e & 3 & 2 & 3 & \EVA{qotoeey}\\
+r.ch.e.y & 3 & 3 & 2 & \EVA{orchey}\\
+r.ch.o.r & 3 & 3 & 3 & \EVA{dorchory}\\
+r.i.i.n & 3 & 3 & 3 & \EVA{otariin}\\
+s.ch.e.e & 3 & 3 & 3 & \EVA{scheey}\\
+s.ch.o.d & 3 & 3 & 3 & \EVA{schody}\\
+s.o.d.y & 3 & 2 & 3 & \EVA{sody}\\
+s.o.t.ch & 3 & 3 & 3 & \EVA{sotchy}\\
+sh.e.k.y & 3 & 2 & 3 & \EVA{sheky}\\
+sh.e.o.s & 3 & 2 & 3 & \EVA{sheos}\\
+sh.o.k.e & 3 & 3 & 3 & \EVA{shokeeol}\\
+sh.o.k.y & 3 & 2 & 3 & \EVA{shoky}\\
+sh.o.l.y & 3 & 3 & 3 & \EVA{sholy}\\
+t.ch.d.y & 3 & 3 & 2 & \EVA{sotchdy}\\
+t.ch.e.a.i & 3 & 2 & 3 & \EVA{qotcheaiin}\\
+t.ch.e.o.d & 3 & 3 & 3 & \EVA{tcheodal}\\
+t.ch.e.o.r & 3 & 2 & 3 & \EVA{otcheor}\\
+t.ch.o.d.a.r & 3 & 2 & 3 & \EVA{tchodar}\\
+t.ch.o.k & 3 & 3 & 3 & \EVA{ytchoky}\\
+t.ch.o.k.y & 3 & 3 & 3 & \EVA{ytchoky}\\
+t.e.e.e.s & 3 & 2 & 3 & \EVA{qoteees}\\
+t.e.e.o.l & 3 & 2 & 3 & \EVA{qoteeol}\\
+t.o.ch.o & 3 & 3 & 3 & \EVA{otochor}\\
+t.o.e.e & 3 & 2 & 3 & \EVA{qotoeey}\\
+t.sh.o.r & 3 & 2 & 3 & \EVA{tshor}\\
+y.ch.a.i & 3 & 2 & 3 & \EVA{ychain}\\
+y.ch.e.a.r & 3 & 2 & 3 & \EVA{ychear}\\
+y.ch.o.s & 3 & 2 & 2 & \EVA{ychos}\\
+y.k.a.l & 3 & 3 & 3 & \EVA{chykald}\\
+y.k.ch.e & 3 & 3 & 2 & \EVA{qykchey}\\
+y.k.e.o.d & 3 & 3 & 3 & \EVA{ykeody}\\
+y.k.o.d & 3 & 2 & 3 & \EVA{ykody}\\
+y.p.ch.a & 3 & 3 & 3 & \EVA{ypchaiin}\\
+y.p.ch.e & 3 & 3 & 3 & \EVA{ypcheey}\\
+y.p.ch.o.l & 3 & 2 & 3 & \EVA{ypchol}\\
+y.t.a.m & 3 & 2 & 3 & \EVA{ytam}\\
+y.t.a.r & 3 & 2 & 3 & \EVA{ytar}\\
+y.t.ch.a & 3 & 3 & 3 & \EVA{ytchaiin}\\
+y.t.ch.e.e & 3 & 3 & 3 & \EVA{ytcheear}\\
+y.t.ch.o.d & 3 & 2 & 3 & \EVA{ytchody}\\
+y.t.ch.o.l & 3 & 2 & 3 & \EVA{ytchol}\\
+y.t.e.e & 3 & 2 & 3 & \EVA{yteey}\\
+y.t.e.e.y & 3 & 2 & 3 & \EVA{yteey}\\
+y.t.e.o & 3 & 2 & 3 & \EVA{yteol}\\
+y.t.sh.y & 3 & 2 & 3 & \EVA{ytshy}\\
+\bottomrule\end{longtable}\normalsize
+
+\section{What the Lexicon Does Not Contain}
+No noun, verb, adjective, subject, object, person, tense, aspect, number, case, referent, or translation has been assigned to an EVA word \emph{by this research edition}. The new Meaning and Part of Speech fields are blank so that readers can write their own hypotheses; filling them does not turn them into attested facts. Analogical Grade-B innovations are \emph{not} inserted in the attested index; the checker creates a separate innovation audit for them. For examples and a readable syntax of paragraphs, see \emph{An Induced Compositional Surface Grammar}.
+\end{document}
