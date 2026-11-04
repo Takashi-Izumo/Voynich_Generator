@@ -1,0 +1,21 @@
+{
+  "hard_failure": "route mechanism frozen violated",
+  "paired_run": {
+    "seed": 91708,
+    "bif": "C:2"
+  },
+  "trigger_token": {
+    "page": "f23v",
+    "locus": "f23v.1",
+    "parent": "chofchol",
+    "candidate": "chofchoy",
+    "terminal_change": "l->y"
+  },
+  "route_trace_rows_different": 11,
+  "first_divergent_step": 10,
+  "last_divergent_step": 20,
+  "route_final_state_recovers": true,
+  "downstream_visible_tokens_outside_strict_scope_changed": false,
+  "cause": "Stage3D commit_word commits the final terminal-modified child into MapState; MapState.commit updates route current from the committed sequence. The terminal selector therefore can transiently alter route memory.",
+  "required_fix": "Commit the v22.2 base_child to the route/MapState in commit_word, while committing the Stage3D final_child only to visible surface/prev_terminal in commit_surface. Then rerun 3E-3G."
+}

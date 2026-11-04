@@ -1,0 +1,31 @@
+{
+  "model_id": "HerbalA-v22.3-STAGE3D-CANDIDATE",
+  "parent_model_id": "HerbalA-v22.2",
+  "strict_events": 88,
+  "strict_bifolia": 20,
+  "complete_bifolia": [
+    "A:2",
+    "A:3",
+    "A:4",
+    "B:1",
+    "B:2",
+    "B:3",
+    "C:1",
+    "C:2",
+    "C:3",
+    "C:4",
+    "D:1",
+    "D:3",
+    "D:4",
+    "E:3",
+    "E:4",
+    "F:2",
+    "F:4",
+    "G:1",
+    "G:3",
+    "G:4"
+  ],
+  "laws": 20,
+  "tau": 20.0,
+  "status": "TABLES_BUILT"
+}

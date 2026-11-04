@@ -1,0 +1,272 @@
+{
+  "runs": [
+    91601,
+    91602,
+    91603,
+    91604,
+    91605,
+    91606,
+    91607,
+    91608,
+    91609,
+    91610,
+    91611,
+    91612,
+    91613,
+    91614,
+    91615,
+    91616,
+    91617,
+    91618,
+    91619,
+    91620
+  ],
+  "global_absolute": [
+    {
+      "arm": "PRETERM_QMAP9",
+      "judge": "H2_RAW",
+      "value": 0.04972019714192447
+    },
+    {
+      "arm": "PRETERM_QMAP9",
+      "judge": "SPACE_RAW",
+      "value": 0.05022375554614923
+    },
+    {
+      "arm": "PRETERM_QMAP9",
+      "judge": "bT_leaf_excess",
+      "value": 0.1944186110020736
+    },
+    {
+      "arm": "PRETERM_QMAP9",
+      "judge": "bigram",
+      "value": 0.041678222760898956
+    },
+    {
+      "arm": "PRETERM_QMAP9",
+      "judge": "glyph_depth",
+      "value": 0.024545378121864837
+    },
+    {
+      "arm": "PRETERM_QMAP9",
+      "judge": "length_width",
+      "value": 0.04927930994132808
+    },
+    {
+      "arm": "PRETERM_QMAP9",
+      "judge": "ng",
+      "value": 0.03990418530926333
+    },
+    {
+      "arm": "PRETERM_QMAP9",
+      "judge": "route56",
+      "value": 0.0605584453004426
+    },
+    {
+      "arm": "PRETERM_QMAP9",
+      "judge": "trigram",
+      "value": 0.04940152706352573
+    },
+    {
+      "arm": "SAFE_LEFT_BT_OFF",
+      "judge": "H2_RAW",
+      "value": 0.04983070876631294
+    },
+    {
+      "arm": "SAFE_LEFT_BT_OFF",
+      "judge": "SPACE_RAW",
+      "value": 0.05030486041357792
+    },
+    {
+      "arm": "SAFE_LEFT_BT_OFF",
+      "judge": "bT_leaf_excess",
+      "value": 0.1950754984121063
+    },
+    {
+      "arm": "SAFE_LEFT_BT_OFF",
+      "judge": "bigram",
+      "value": 0.04098388476571568
+    },
+    {
+      "arm": "SAFE_LEFT_BT_OFF",
+      "judge": "glyph_depth",
+      "value": 0.025096640280152648
+    },
+    {
+      "arm": "SAFE_LEFT_BT_OFF",
+      "judge": "length_width",
+      "value": 0.048592967887324034
+    },
+    {
+      "arm": "SAFE_LEFT_BT_OFF",
+      "judge": "ng",
+      "value": 0.03953389734432598
+    },
+    {
+      "arm": "SAFE_LEFT_BT_OFF",
+      "judge": "route56",
+      "value": 0.05941170236565213
+    },
+    {
+      "arm": "SAFE_LEFT_BT_OFF",
+      "judge": "trigram",
+      "value": 0.04916974399480927
+    }
+  ],
+  "paired": [
+    {
+      "reference": "SAFE_LEFT_BT_OFF",
+      "arm": "PRETERM_QMAP9",
+      "judge": "H2_RAW",
+      "improvement": 0.00011051162438846605,
+      "wins": 11,
+      "losses": 9,
+      "ties": 0,
+      "p": 0.7651984444971875
+    },
+    {
+      "reference": "SAFE_LEFT_BT_OFF",
+      "arm": "PRETERM_QMAP9",
+      "judge": "bigram",
+      "improvement": -0.0006943379951832807,
+      "wins": 8,
+      "losses": 12,
+      "ties": 0,
+      "p": 0.2789649507806645
+    },
+    {
+      "reference": "SAFE_LEFT_BT_OFF",
+      "arm": "PRETERM_QMAP9",
+      "judge": "ng",
+      "improvement": -0.0003702879649373516,
+      "wins": 8,
+      "losses": 12,
+      "ties": 0,
+      "p": 0.37026127045291435
+    },
+    {
+      "reference": "SAFE_LEFT_BT_OFF",
+      "arm": "PRETERM_QMAP9",
+      "judge": "trigram",
+      "improvement": -0.0002317830687164518,
+      "wins": 9,
+      "losses": 11,
+      "ties": 0,
+      "p": 0.43304828842793475
+    },
+    {
+      "reference": "SAFE_LEFT_BT_OFF",
+      "arm": "PRETERM_QMAP9",
+      "judge": "SPACE_RAW",
+      "improvement": 8.110486742869371e-05,
+      "wins": 7,
+      "losses": 12,
+      "ties": 1,
+      "p": 0.6873736155096972
+    },
+    {
+      "reference": "SAFE_LEFT_BT_OFF",
+      "arm": "PRETERM_QMAP9",
+      "judge": "route56",
+      "improvement": -0.0011467429347904671,
+      "wins": 8,
+      "losses": 11,
+      "ties": 1,
+      "p": 0.29542405582364173
+    },
+    {
+      "reference": "SAFE_LEFT_BT_OFF",
+      "arm": "PRETERM_QMAP9",
+      "judge": "bT_leaf_excess",
+      "improvement": 0.0006568874100326922,
+      "wins": 10,
+      "losses": 9,
+      "ties": 1,
+      "p": 0.5460878490645904
+    },
+    {
+      "reference": "SAFE_LEFT_BT_OFF",
+      "arm": "PRETERM_QMAP9",
+      "judge": "glyph_depth",
+      "improvement": 0.0005512621582878076,
+      "wins": 11,
+      "losses": 9,
+      "ties": 0,
+      "p": 0.14539977506508558
+    },
+    {
+      "reference": "SAFE_LEFT_BT_OFF",
+      "arm": "PRETERM_QMAP9",
+      "judge": "length_width",
+      "improvement": -0.0006863420540040409,
+      "wins": 9,
+      "losses": 10,
+      "ties": 1,
+      "p": 0.29542405582364173
+    }
+  ],
+  "targeted_pooled": [
+    {
+      "n_body_nonfinal": 11440,
+      "n_low": 1362,
+      "low_frac": 0.11905594405594405,
+      "low_avgw": 1.2725281448849732,
+      "high_avgw": 1.3164308544865202,
+      "low_avgw_target_abs_err": 0.009243144884973242,
+      "low_nmy": 0.5190895741556535,
+      "high_nmy": 0.5633062115499107,
+      "low_nmy_target_abs_err": 0.05318057415565347,
+      "low_lr": 0.36490455212922174,
+      "high_lr": 0.33687239531653107,
+      "low_lr_target_abs_err": 0.11236844787077827,
+      "low_close": 0.15418502202643172,
+      "high_close": 0.22643381623337963,
+      "low_close_target_abs_err": 0.16554902202643174,
+      "arm": "SAFE_LEFT_BT_OFF"
+    },
+    {
+      "n_body_nonfinal": 11451,
+      "n_low": 1374,
+      "low_frac": 0.11998952056588945,
+      "low_avgw": 1.2760310528869483,
+      "high_avgw": 1.3168795584246613,
+      "low_avgw_target_abs_err": 0.0127460528869483,
+      "low_nmy": 0.4585152838427948,
+      "high_nmy": 0.5605835069961298,
+      "low_nmy_target_abs_err": 0.0073937161572052434,
+      "low_lr": 0.37554585152838427,
+      "high_lr": 0.33849359928550166,
+      "low_lr_target_abs_err": 0.10172714847161574,
+      "low_close": 0.08296943231441048,
+      "high_close": 0.22208990771062817,
+      "low_close_target_abs_err": 0.09433343231441048,
+      "arm": "PRETERM_QMAP9"
+    }
+  ],
+  "mechanical": [
+    {
+      "arm": "PRETERM_QMAP9",
+      "cases": 400,
+      "packing": true,
+      "support": 0,
+      "invalid": 0,
+      "preterm_events": 2226,
+      "preterm_changed": 139,
+      "preterm_committed": 1268,
+      "preterm_committed_changed": 81,
+      "mean_close_delta": -0.08556416949064008
+    },
+    {
+      "arm": "SAFE_LEFT_BT_OFF",
+      "cases": 400,
+      "packing": true,
+      "support": 0,
+      "invalid": 0,
+      "preterm_events": 0,
+      "preterm_changed": 0,
+      "preterm_committed": 0,
+      "preterm_committed_changed": 0,
+      "mean_close_delta": 0.0
+    }
+  ]
+}

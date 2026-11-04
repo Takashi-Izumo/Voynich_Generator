@@ -1,0 +1,32 @@
+{
+  "fresh_seeds": [
+    92001,
+    92002,
+    92003,
+    92004,
+    92005,
+    92006,
+    92007,
+    92008,
+    92009,
+    92011
+  ],
+  "cases_parent": 200,
+  "cases_child": 200,
+  "packing_parent_all": true,
+  "packing_child_all": true,
+  "support_parent": 0,
+  "support_child": 0,
+  "invalid_parent": 0,
+  "invalid_child": 0,
+  "retry_parent": 0,
+  "retry_child": 0,
+  "row_alignment_all": true,
+  "total_output_word_changes": 56,
+  "direct_scope_word_changes": 56,
+  "downstream_word_changes": 0,
+  "scope_requests": 220,
+  "scope_applied": 218,
+  "scope_changed": 56,
+  "single_candidate_skips": 2
+}

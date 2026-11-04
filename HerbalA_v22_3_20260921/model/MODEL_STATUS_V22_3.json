@@ -1,0 +1,24 @@
+{
+  "model_id": "HerbalA-v22.3",
+  "implementation_id": "HerbalA-v22.3-STAGE3D-R1-CANDIDATE",
+  "parent": "HerbalA-v22.2",
+  "status": "PROMOTED_PASS_WITH_RESIDUAL",
+  "implementation": "F1LF_LENGTH_AWARE_TERMINAL_L_INHERITANCE_ROUTE_NEUTRAL_R1",
+  "promotion": true,
+  "promotion_policy": "DECISION_LEVEL_REPRODUCTION_PLUS_CURRENT_LAW_FREEZE",
+  "decision_level_reproduction": "PASS",
+  "law_freeze": "PASS",
+  "stage3e_r1": "PASS",
+  "stage3f_r1": "PASS",
+  "stage3g_r1": "PASS",
+  "current_stable_model": "HerbalA-v22.3",
+  "legacy_component_bit_alignment_required": false,
+  "law_data_sha256": "65a166a1235c17e97b0b4dce64d3bff47c1ae692250ec2534601f88d217d3d2e",
+  "law_plus_interpreter_sha256": "2e7df79abfbe4f954d34b1966054cfc49476b7d04b955a43b5b956b65a1ab4ab",
+  "residuals": [
+    "Two support-preserving safe fallbacks remain at f7v.6 and f53v.1 when live same-width support and frozen-law support do not intersect.",
+    "Seed 91706 / G:1 is excluded because parent v22.2 and candidate hit the same pre-existing assertion; seed 91711 replaces it in the 10-seed paired set.",
+    "Mean 5-gram/6-gram JSD deltas are slightly positive but no protected metric is BH-significantly regressed.",
+    "Legacy Stage1/2 component artifacts are not bit-level aligned. Under the revised promotion policy this is historical provenance only, not a promotion blocker."
+  ]
+}

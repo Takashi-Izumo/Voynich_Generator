@@ -1,0 +1,135 @@
+{
+  "decision": "PROMOTED_PASS_WITH_RESIDUAL",
+  "model_id": "HerbalA-v22.3",
+  "implementation_id": "HerbalA-v22.3-STAGE3D-R1-CANDIDATE",
+  "parent_model_id": "HerbalA-v22.2",
+  "date": "2026-09-21",
+  "promotion_policy": "DECISION_LEVEL_REPRODUCTION_PLUS_CURRENT_LAW_FREEZE",
+  "decision_level_reproduction": "PASS",
+  "current_law_freeze": "PASS",
+  "criteria": [
+    {
+      "id": "D1",
+      "criterion": "strict scope decision reproduced (88 terminal events / 20 complete bifolia)",
+      "pass": true,
+      "evidence": {
+        "events": 88,
+        "bifolia": 20
+      }
+    },
+    {
+      "id": "D2",
+      "criterion": "short selector decision reproduced: L<=3 uses normal middle-LF terminal distribution",
+      "pass": true,
+      "evidence": {
+        "law_files": 20,
+        "short_method": "p_normal_lf_short"
+      }
+    },
+    {
+      "id": "D3",
+      "criterion": "long selector decision reproduced: L>=4 preserves F1 non-l ratios and inherits only normal-LF P(l)",
+      "pass": true,
+      "evidence": {
+        "probability_sum_error": 2.220446049250313e-16,
+        "l_inheritance_error": 4.163336342344337e-17,
+        "non_l_ratio_error": 1.1102230246251565e-16,
+        "y_n_ratio_error": 4.440892098500626e-16,
+        "support_changes": 0
+      }
+    },
+    {
+      "id": "D4",
+      "criterion": "closure/extra-bias decision reproduced: STOP unchanged; y/n dedicated bias, S_LF, Global6, post-hoc rewrite remain OFF",
+      "pass": true,
+      "evidence": {
+        "forbidden_markers_absent": true,
+        "stage3e_runtime": "910/910 PASS"
+      }
+    },
+    {
+      "id": "D5",
+      "criterion": "whole-bifolium decision reproduces positive and significant teacher-forced improvement",
+      "pass": true,
+      "evidence": {
+        "events": 88,
+        "bifolia": 20,
+        "baseL_nll_bits_per_terminal": 2.2660903939451966,
+        "candidate_nll_bits_per_terminal": 2.2276233696198955,
+        "improvement_bits_per_terminal": 0.03846702432530031,
+        "long_improvement_bits_per_terminal": 0.06770196281252855,
+        "bifolia_improved": 18,
+        "exact_signflip_p_one_sided": 0.007533073425292969
+      }
+    },
+    {
+      "id": "D6",
+      "criterion": "live mechanics and protected global regressions pass after route-neutral r1 fix",
+      "pass": true,
+      "evidence": {
+        "stage3f_checks": 410379,
+        "stage3f_failures": 0,
+        "stage3g_checks": 4120232,
+        "stage3g_failures": 0,
+        "route_trace_exact_runs": 200,
+        "route_final_state_exact_runs": 200,
+        "BH_significant_regressions": []
+      }
+    },
+    {
+      "id": "D7",
+      "criterion": "current law frozen with immutable manifest and aggregate SHA-256",
+      "pass": true,
+      "evidence": {
+        "freeze_id": "HerbalA-v22.3-F1LF-CURRENT-LAW-FREEZE-20260921",
+        "model_id": "HerbalA-v22.3",
+        "implementation_id": "HerbalA-v22.3-STAGE3D-R1-CANDIDATE",
+        "parent_model_id": "HerbalA-v22.2",
+        "promotion_policy": "DECISION_LEVEL_REPRODUCTION_PLUS_CURRENT_LAW_FREEZE",
+        "law_files": 20,
+        "strict_events": 88,
+        "strict_bifolia": 20,
+        "law_data_sha256": "65a166a1235c17e97b0b4dce64d3bff47c1ae692250ec2534601f88d217d3d2e",
+        "law_plus_interpreter_sha256": "2e7df79abfbe4f954d34b1966054cfc49476b7d04b955a43b5b956b65a1ab4ab",
+        "mutable_after_promotion": false,
+        "replacement_policy": "Any change to frozen law or interpreter constitutes a new model version and requires 3E->3F->3G re-audit."
+      }
+    }
+  ],
+  "stage3d_r1": "PASS_21_OF_21",
+  "stage3e_r1": "PASS_910_OF_910",
+  "stage3f_r1": "PASS_410379_COMPARISONS_0_FAILURES",
+  "stage3g_r1": "PASS_4120232_COMPARISONS_0_FAILURES_0_BH_REGRESSIONS",
+  "route_state_leakage": "FIXED_AND_REAUDITED",
+  "safe_fallbacks": {
+    "count": 2,
+    "loci": [
+      "f53v f53v.1",
+      "f7v f7v.6"
+    ]
+  },
+  "residuals": [
+    "Two support-preserving safe fallbacks remain at f7v.6 and f53v.1 when live same-width support and frozen-law support do not intersect.",
+    "Seed 91706 / G:1 is excluded because parent v22.2 and candidate hit the same pre-existing assertion; seed 91711 replaces it in the 10-seed paired set.",
+    "Mean 5-gram/6-gram JSD deltas are slightly positive but no protected metric is BH-significantly regressed.",
+    "Legacy Stage1/2 component artifacts are not bit-level aligned. Under the revised promotion policy this is historical provenance only, not a promotion blocker."
+  ],
+  "promotion": true,
+  "current_stable_model": "HerbalA-v22.3",
+  "previous_stable_model": "HerbalA-v22.2",
+  "legacy_component_bit_alignment_required": false,
+  "law_freeze": {
+    "freeze_id": "HerbalA-v22.3-F1LF-CURRENT-LAW-FREEZE-20260921",
+    "model_id": "HerbalA-v22.3",
+    "implementation_id": "HerbalA-v22.3-STAGE3D-R1-CANDIDATE",
+    "parent_model_id": "HerbalA-v22.2",
+    "promotion_policy": "DECISION_LEVEL_REPRODUCTION_PLUS_CURRENT_LAW_FREEZE",
+    "law_files": 20,
+    "strict_events": 88,
+    "strict_bifolia": 20,
+    "law_data_sha256": "65a166a1235c17e97b0b4dce64d3bff47c1ae692250ec2534601f88d217d3d2e",
+    "law_plus_interpreter_sha256": "2e7df79abfbe4f954d34b1966054cfc49476b7d04b955a43b5b956b65a1ab4ab",
+    "mutable_after_promotion": false,
+    "replacement_policy": "Any change to frozen law or interpreter constitutes a new model version and requires 3E->3F->3G re-audit."
+  }
+}

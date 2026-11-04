@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+model/runtime/
+model/outputs/
+.DS_Store
+# Large frozen source archives are distributed as a GitHub Release asset.
+model/sources/*.zip

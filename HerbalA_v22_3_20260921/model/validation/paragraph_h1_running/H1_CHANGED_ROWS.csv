@@ -1,0 +1,13 @@
+bif,row,page,locus,para,para_line_raw,role,parent,run32,parent_surface,run32_surface,glyph_len,phys_width,h1_only
+F:2,17,f47v,f47v.3,1,3,BODY,cthaiin,cphaiin,cthaiin,cphaiin,5,8,True
+A:3,17,f6v,f6v.3,1,3,BODY,shey,chey,shey,chey,3,4,True
+D:3,32,f30v,f30v.4,1,4,BODY,ykshol,lkshol,ykshol,lkshol,5,7,True
+G:1,113,f49v,f49v.42,3,4,BODY,rol,dol,rol,dol,3,3,True
+G:3,49,f54v,f54v.7,1,7,BODY,ky,ty,ky,ty,2,3,True
+G:3,58,f54v,f54v.8,1,8,BODY,ckhey,cphey,ckhey,cphey,3,6,True
+G:3,79,f54v,f54v.13,1,13,BODY,daiin,oaiin,daiin,oaiin,5,5,True
+B:2,30,f15v,f15v.6,1,6,BODY,dain,sain,dain,sain,4,4,True
+B:2,41,f15v,f15v.8,1,8,BODY,daiin,saiin,daiin,saiin,5,5,True
+B:2,42,f15v,f15v.8,1,8,BODY,deey,seey,deey,seey,4,4,True
+B:2,52,f15v,f15v.10,1,10,BODY,dly,aly,dly,aly,3,3,True
+G:4,59,f53v,f53v.10,1,10,BODY,opchy,ypchy,opchy,ypchy,4,6,True

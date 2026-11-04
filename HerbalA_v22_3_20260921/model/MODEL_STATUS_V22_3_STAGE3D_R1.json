@@ -1,0 +1,19 @@
+{
+  "model_id": "HerbalA-v22.3-STAGE3D-R1-CANDIDATE",
+  "parent_model_id": "HerbalA-v22.2",
+  "date": "2026-09-21",
+  "status": "STAGE3D_R1_FIXED_AND_REAUDITED",
+  "stage3d_static": "PASS",
+  "stage3e_runtime": "PASS",
+  "stage3f_live_paired": "PASS",
+  "stage3g_full_regression": "PASS_WITH_RESIDUAL_AND_PROVENANCE_BLOCK",
+  "route_state_leakage": "FIXED",
+  "paired_bifolium_runs_stage3g": 200,
+  "mechanical_checks_stage3g": 4120232,
+  "mechanical_failures_stage3g": 0,
+  "route_trace_exact_runs": 200,
+  "route_final_state_exact_runs": 200,
+  "promotion": false,
+  "current_stable_parent": "HerbalA-v22.2",
+  "promotion_blocker": "Legacy Stage1/2 component artifact/source-law alignment unresolved"
+}

@@ -1,0 +1,17 @@
+{
+  "excluded_seed": 91706,
+  "reason": "Parent v22.2 and candidate both hit the same pre-existing run_bti2_ehc1 terminal_mismatches/fake_head assertion at G:1.",
+  "replacement_seed": 91711,
+  "valid_seeds": [
+    91701,
+    91702,
+    91703,
+    91704,
+    91705,
+    91707,
+    91708,
+    91709,
+    91710,
+    91711
+  ]
+}

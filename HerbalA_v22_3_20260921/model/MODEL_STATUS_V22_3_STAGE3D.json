@@ -1,0 +1,27 @@
+{
+  "model_id": "HerbalA-v22.3-STAGE3D-R1-CANDIDATE",
+  "parent_model_id": "HerbalA-v22.2",
+  "stage": "3D-R1",
+  "status": "ROUTE_NEUTRAL_COMMIT_FIX_PENDING_REAUDIT",
+  "promotion": false,
+  "formal_version": "HerbalA-v22.2 remains current stable parent",
+  "intervention": [
+    "L<=3: normal middle-LF terminal selector",
+    "L>=4: F1 terminal selector + normal middle-LF P(l)",
+    "STOP: inherited unchanged from v22.2"
+  ],
+  "not_included": [
+    "y bias",
+    "n bias",
+    "y+n bias",
+    "S_LF",
+    "post-hoc terminal rewrite"
+  ],
+  "next_stage": "Stage 3E runtime unit/invariant audit",
+  "source_law_provenance": "CURRENT_TL_RECONSTRUCTION_PRIOR_STAGE1_TABLE_NOT_MOUNTED",
+  "formal_promotion_blockers": [
+    "STAGE3E_SOURCE_LAW_RECONCILIATION",
+    "STAGE3F_LIVE_PAIRED_AUDIT"
+  ],
+  "route_fix": "commit_word=v22.2 base_child; commit_surface=Stage3D final_child"
+}

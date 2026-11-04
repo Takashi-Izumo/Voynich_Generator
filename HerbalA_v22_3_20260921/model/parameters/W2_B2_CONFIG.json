@@ -1,0 +1,40 @@
+{
+  "model_id": "HerbalA-v22r-W2B2",
+  "parent_model": "HerbalA-v22r",
+  "enabled": true,
+  "scope": {
+    "row_phase": "MIDDLE",
+    "role": "W2",
+    "board": "W2",
+    "end": false,
+    "min_glyph_length": 3,
+    "max_glyph_length": 5
+  },
+  "target_h2_law": {
+    "base": "W2POS: keep cdf[mo=3, wp=1] through H2",
+    "external_residual": "OFF",
+    "known3_tau": 128.0,
+    "eta": "inherit patch.eta_h2"
+  },
+  "invariants": {
+    "h1_frozen": true,
+    "h3_plus_frozen": true,
+    "terminal_frozen": true,
+    "exact_length_frozen": true,
+    "stable_physical_width_frozen": true,
+    "h2_glyph_width_frozen": true,
+    "route_state_frozen": true,
+    "packing_frozen": true,
+    "parent_rng_untouched": true
+  },
+  "selection": {
+    "method": "request-local maximal coupling",
+    "namespace": "V22R_W2_H2_B2_MINIMAL_V1",
+    "staging": "post-commit visible H2 write"
+  },
+  "validation": {
+    "mechanical": "PASS",
+    "fresh_blind_200": "PASS_WITH_RESIDUAL",
+    "multi_judge": "LOCAL_PASS_NO_POSITIONAL_REGRESSION"
+  }
+}

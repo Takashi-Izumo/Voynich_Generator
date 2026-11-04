@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "parent_manifest_entries": 353,
+  "byte_identical_entries": 351,
+  "intentional_promotion_metadata_overrides": [
+    {
+      "path": "VERSION.json",
+      "parent_sha256": "bfb7c6e349a20b26bb70eeb1911d35a744c17edf35d2363d31a4c681b7fc258d",
+      "promoted_sha256": "bdc6c89ac52424379e4769abeafa47d7fedc173790fe8564d35435b6ff587f2f"
+    },
+    {
+      "path": "model/MODEL_STATUS.json",
+      "parent_sha256": "ff336b11f54fc2df2b76fc6044d663eb7bc2d31240eab331f2bdfd041d86ea20",
+      "promoted_sha256": "9588e35301dbcf7c32551f477dd75bb2849ba313ef849815773a045b94aa69cb"
+    }
+  ],
+  "missing": [],
+  "audited_executable_behavior_changed": false,
+  "note": "Only release identity/status metadata are overridden at formal promotion; audited implementation code and frozen law are unchanged."
+}

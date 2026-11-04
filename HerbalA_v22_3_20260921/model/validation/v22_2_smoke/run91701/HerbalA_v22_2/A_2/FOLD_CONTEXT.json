@@ -1,0 +1,61 @@
+{
+  "complete_train_bifs": [
+    "A:3",
+    "A:4",
+    "B:1",
+    "B:2",
+    "C:1",
+    "C:2",
+    "C:3",
+    "C:4",
+    "D:3",
+    "D:4",
+    "E:3",
+    "E:4",
+    "F:4",
+    "G:1",
+    "G:3",
+    "G:4"
+  ],
+  "core_train_bifs": [
+    "A:1",
+    "A:3",
+    "A:4",
+    "B:1",
+    "B:2",
+    "B:4",
+    "C:1",
+    "C:2",
+    "C:3",
+    "C:4",
+    "D:3",
+    "D:4",
+    "E:3",
+    "E:4",
+    "F:4",
+    "G:1",
+    "G:3",
+    "G:4"
+  ],
+  "data_hash": "4de2122feeecb33bdc6f0d41df0e1209bfb7bee5f01a0449fa78e5706f583869",
+  "event_policy_hash": "24af779b9d2f422a2a12127fa8db8526fc9480d8b33e603abb37ea1d798a8f22",
+  "fold": 0,
+  "incomplete_aux_bifs": [
+    "A:1",
+    "B:4"
+  ],
+  "known_pages": [
+    "f2r",
+    "f2v",
+    "f7r"
+  ],
+  "outer_test_bifs": [
+    "A:2",
+    "B:3",
+    "D:1",
+    "F:2"
+  ],
+  "scope_policy": "LEGACY_SCOPE",
+  "target_bif": "A:2",
+  "target_page": "f7v"
+}

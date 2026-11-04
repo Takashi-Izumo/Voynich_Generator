@@ -1,0 +1,11 @@
+{
+  "release_name": "HerbalA_v21r_PRETERM_SHORTBODY_H2GLOBAL_PARAH1RUN_20260917",
+  "release_date": "2026-09-17",
+  "parent_release": "HerbalA_v21r_PRETERM_SHORTBODY_H2GLOBAL_20260916",
+  "model_id": "HerbalA-v21r-PRETERM-SHORTBODY-H2GLOBAL-PARAH1-RUN32",
+  "status": "IMPLEMENTED_PREJUDGE_ONLY",
+  "primary_change": "causal paragraph-local continuous running residual applied to BODY H1 only",
+  "paragraph_h1_lambda": 32.0,
+  "paragraph_h1_decay": null,
+  "blind_judge": "NOT_RUN"
+}

@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "model_id": "HerbalA-v22.3",
+  "decision": "PROMOTED_PASS_WITH_RESIDUAL",
+  "law_plus_interpreter_sha256": "2e7df79abfbe4f954d34b1966054cfc49476b7d04b955a43b5b956b65a1ab4ab",
+  "files_checked": 25
+}

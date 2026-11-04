@@ -1,0 +1,30 @@
+{
+  "name": "v22r W2-H2 B2 minimal-safe mechanical candidate",
+  "parent": "HerbalA-v22r",
+  "status": "MECHANICAL_PASS_NOT_PROMOTED",
+  "scope": {
+    "row_phase": "MIDDLE",
+    "role": "W2",
+    "board": "W2",
+    "glyph_length": [
+      3,
+      5
+    ],
+    "actual_lengths": "3..5"
+  },
+  "intervention": {
+    "H1": "frozen",
+    "H2": "W2POS base + external OFF + known3 tau=128",
+    "H3plus": "frozen",
+    "terminal": "frozen",
+    "exact_length": "frozen",
+    "stable_physical_width": "frozen",
+    "selection": "request-local SHA stream + maximal coupling"
+  },
+  "rationale": {
+    "length2": "excluded because H2 is terminal",
+    "length6plus": "excluded because predictive sensitivity was non-beneficial",
+    "length3_5_predictive_sensitivity": "16/20 leaves improved, Wilcoxon p≈0.00944; engineering scope selection only, not new confirmatory evidence"
+  },
+  "blind_judge_used": false
+}

@@ -1,0 +1,65 @@
+{
+  "stage": 4,
+  "status": "PASS_IMPLEMENTATION_SCREEN_STOP",
+  "preflight": {
+    "V20_COMPAT": "300/300",
+    "SAFE_LEFT_BT_ON": "300/300",
+    "SAFE_LEFT_BT_OFF_reference": "300 fields frozen",
+    "Stage3_tables": "5/5 PASS"
+  },
+  "synthetic": "PASS",
+  "screen": {
+    "decision": "STOP_SLOT_AT_3SEED_SCREEN",
+    "screen_pass": false,
+    "reason": "SPACE_RAW major regression (>10% relative and paired p≈0.010)",
+    "criteria": {
+      "packing_failure_zero": true,
+      "support_violation_zero": true,
+      "invalid_rows_zero": true,
+      "space_no_major_regression": false,
+      "length_width_no_major_regression": true,
+      "fallback_below_5pct": true,
+      "bigram_trigram_no_major_regression": true,
+      "h3_local_improve_or_equal": true
+    },
+    "space_raw": {
+      "safe_left_bt_off": 0.0446548644277599,
+      "slot_bt_off": 0.0518416783452613,
+      "relative_change_pct": 16.094134445593976
+    },
+    "ngram": {
+      "bigram": {
+        "safe_left_bt_off": 0.0463811240028849,
+        "slot_bt_off": 0.0377950540338682,
+        "relative_change_pct": -18.511992008823785
+      },
+      "ng": {
+        "safe_left_bt_off": 0.0383882293051096,
+        "slot_bt_off": 0.0345751045400966,
+        "relative_change_pct": -9.933057174130866
+      },
+      "trigram": {
+        "safe_left_bt_off": 0.0462424640289302,
+        "slot_bt_off": 0.0465257268418315,
+        "relative_change_pct": 0.6125599464684273
+      }
+    },
+    "pooled_h3_conditional_jsd": {
+      "safe_left_bt_off": 0.3202819343735003,
+      "slot_bt_off": 0.24083022140555446
+    },
+    "fallback_rate_all": 0.0,
+    "next_action": "Do not run 91404-91420 for SLOT. Promote SAFE_LEFT_BT_OFF to v21r candidate unless it materially regresses vs v20r."
+  },
+  "slot_hard_assertions": {
+    "slot_events": 310,
+    "parent_rng_untouched": "310/310",
+    "semantic_state_untouched": "310/310",
+    "bt_off": "310/310",
+    "fallback": "0/310",
+    "packing": "60/60",
+    "support_violations": 0,
+    "invalid_rows": 0
+  },
+  "final_candidate": "SAFE_LEFT_BT_OFF"
+}

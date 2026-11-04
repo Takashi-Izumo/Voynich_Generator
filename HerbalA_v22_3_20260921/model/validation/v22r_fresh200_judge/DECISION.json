@@ -1,0 +1,96 @@
+{
+  "date": "2026-09-17",
+  "model": "v21r+PRETERM+SHORTBODY-H2GLOBAL+PARAH1-RUN32",
+  "parent": "v21r+PRETERM+SHORTBODY-H2GLOBAL",
+  "fresh_seeds": [
+    91701,
+    91702,
+    91703,
+    91704,
+    91705,
+    91706,
+    91707,
+    91708,
+    91709,
+    91710
+  ],
+  "n_bifolia": 20,
+  "n_sets": 200,
+  "status": "PASS_WITH_RESIDUAL",
+  "promotion_conditions": {
+    "combined_chance_inside": true,
+    "h1h2_improved_signed_margin": true,
+    "h1h2_leaf_wins_improved": true,
+    "bigram_residual_shrunk_signed_margin": true,
+    "trigram_not_worse_signed_margin": true,
+    "mechanical_safe": true,
+    "all_minimum_conditions": true
+  },
+  "mechanical": {
+    "cases": 200,
+    "packing_pass": true,
+    "support_violations": 0,
+    "invalid_rows": 0,
+    "segment_retries": 0,
+    "max_normalization_error": 8.881784197001252e-16,
+    "paragraph_eligible": 4939,
+    "paragraph_applied": 3797,
+    "h1_changes": 136,
+    "pages_with_h1_change": 92,
+    "bifolia_with_h1_change": 20,
+    "h1_only_all": true,
+    "h2plus_frozen_all": true,
+    "exact_width_all": true,
+    "exact_length_all": true,
+    "parent_rng_untouched_all": true,
+    "fresh_parent_child_metadata_equal": true,
+    "fresh_parent_child_diff_words": 136,
+    "fresh_parent_child_h1_only_diffs": 136,
+    "fresh_parent_child_bad_diffs": 0,
+    "route_state_equal_all": true
+  },
+  "headline": {
+    "combined_parent": {
+      "real": 7,
+      "generated": 13,
+      "signflip_p": 0.1457977294921875
+    },
+    "combined_child": {
+      "real": 7,
+      "generated": 13,
+      "signflip_p": 0.1523704528808593
+    },
+    "H1H2_parent": {
+      "real": 5,
+      "generated": 15,
+      "mean_leaf_margin": -0.0249244255180855
+    },
+    "H1H2_child": {
+      "real": 6,
+      "generated": 14,
+      "mean_leaf_margin": -0.0218234739437362
+    },
+    "bigram_parent": {
+      "real": 4,
+      "generated": 16,
+      "mean_leaf_margin": -0.0242482661905344,
+      "signflip_p": 0.0024967193603515
+    },
+    "bigram_child": {
+      "real": 4,
+      "generated": 16,
+      "mean_leaf_margin": -0.0237126826011768,
+      "signflip_p": 0.0028152465820312
+    },
+    "trigram_parent": {
+      "real": 6,
+      "generated": 14,
+      "mean_leaf_margin": -0.0081061129350204
+    },
+    "trigram_child": {
+      "real": 7,
+      "generated": 13,
+      "mean_leaf_margin": -0.0079141871915221
+    }
+  }
+}

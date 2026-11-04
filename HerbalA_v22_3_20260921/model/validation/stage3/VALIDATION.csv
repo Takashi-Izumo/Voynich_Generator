@@ -1,0 +1,6 @@
+fold,status,w2_train,body_h4_train,probability_checks,h2_alpha,h2_depth,h3_alpha,h4_alpha
+0,PASS,146,462,438,8.0,3,8.0,2.0
+1,PASS,135,471,405,8.0,3,8.0,2.0
+2,PASS,134,489,402,4.0,3,8.0,2.0
+3,PASS,140,473,420,4.0,3,4.0,2.0
+4,PASS,149,489,447,4.0,2,8.0,2.0

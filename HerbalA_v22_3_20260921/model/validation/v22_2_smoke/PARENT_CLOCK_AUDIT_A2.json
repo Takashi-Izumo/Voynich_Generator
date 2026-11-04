@@ -1,0 +1,17 @@
+{
+  "case": "A:2 seed 91701 fold0",
+  "parent_model": "HerbalA-v22r-W2B2",
+  "child_model": "HerbalA-v22.2",
+  "parent_all_requests": 626,
+  "child_all_requests": 626,
+  "parent_committed_requests": 71,
+  "child_committed_requests": 71,
+  "request_key_sequence_exact": true,
+  "candidate_banks_exact": true,
+  "accept_reject_flags_exact": true,
+  "packing_table_exact": true,
+  "scoped_committed_requests": 2,
+  "scoped_changed_requests": 1,
+  "judge_scores_run": false,
+  "note": "Mechanical preflight only; no NLL/JSD/slope/frequency judge metrics computed."
+}

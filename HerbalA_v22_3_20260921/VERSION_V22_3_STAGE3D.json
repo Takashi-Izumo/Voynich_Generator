@@ -1,0 +1,11 @@
+{
+  "model_id": "HerbalA-v22.3-STAGE3D-R1-CANDIDATE",
+  "parent_model_id": "HerbalA-v22.2",
+  "date": "2026-09-20",
+  "stage": "3D-R1",
+  "status": "ROUTE_NEUTRAL_COMMIT_FIX_PENDING_REAUDIT",
+  "formal_promotion": false,
+  "current_stable_parent": "HerbalA-v22.2",
+  "promotion": false,
+  "route_fix": "commit_word=v22.2 base_child; commit_surface=Stage3D final_child"
+}

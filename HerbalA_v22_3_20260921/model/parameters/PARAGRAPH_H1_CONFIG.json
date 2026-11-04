@@ -1,0 +1,32 @@
+{
+  "model_id": "HerbalA-v22r",
+  "enabled": true,
+  "scope": {
+    "role": "BODY",
+    "min_stable_glyph_length": 2,
+    "paragraph_line_min": 2,
+    "paragraph_final_line": false,
+    "segment_final_word": false
+  },
+  "state": {
+    "type": "continuous_running_residual",
+    "decay": null,
+    "shrinkage_lambda": 32.0,
+    "update_granularity": "completed_prior_eligible_lines_only",
+    "reset": "paragraph_boundary"
+  },
+  "baseline": "exact glyph length + boundary/previous terminal + target-blind leaf-known-3 H1",
+  "intervention": {
+    "changed_slot": "H1 only",
+    "H2_plus": "frozen",
+    "exact_length": "frozen",
+    "H1_physical_width": "frozen",
+    "total_physical_width": "frozen",
+    "packing": "parent-frozen",
+    "rare_glyph_logic": "parent-frozen",
+    "route_memory": "parent-frozen",
+    "parent_rng": "untouched",
+    "materialization": "post-parent-commit H1 write"
+  },
+  "blind_judge": "PASS_WITH_RESIDUAL"
+}

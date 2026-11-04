@@ -1,0 +1,14 @@
+{
+  "freeze_id": "HerbalA-v22.3-F1LF-CURRENT-LAW-FREEZE-20260921",
+  "model_id": "HerbalA-v22.3",
+  "implementation_id": "HerbalA-v22.3-STAGE3D-R1-CANDIDATE",
+  "parent_model_id": "HerbalA-v22.2",
+  "promotion_policy": "DECISION_LEVEL_REPRODUCTION_PLUS_CURRENT_LAW_FREEZE",
+  "law_files": 20,
+  "strict_events": 88,
+  "strict_bifolia": 20,
+  "law_data_sha256": "65a166a1235c17e97b0b4dce64d3bff47c1ae692250ec2534601f88d217d3d2e",
+  "law_plus_interpreter_sha256": "2e7df79abfbe4f954d34b1966054cfc49476b7d04b955a43b5b956b65a1ab4ab",
+  "mutable_after_promotion": false,
+  "replacement_policy": "Any change to frozen law or interpreter constitutes a new model version and requires 3E->3F->3G re-audit."
+}

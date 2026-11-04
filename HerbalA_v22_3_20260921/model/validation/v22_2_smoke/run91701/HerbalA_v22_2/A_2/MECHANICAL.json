@@ -1,0 +1,303 @@
+{
+  "F11p": 0,
+  "F2": 6,
+  "F3_5": 2,
+  "F6_10": 0,
+  "all_sampler_calls": 7719,
+  "alpha_leafex": 256.0,
+  "bank_count_all_branches": 100,
+  "bif": "A:2",
+  "bt_learning": {
+    "policy": "PARENT"
+  },
+  "delegate_calls": 264,
+  "elapsed_seconds": 0.9813015399995493,
+  "fold": 0,
+  "generated_rows_sha256": "c7ebdb52ccd1725672514c1f7f7f08e91acaf41d0cc563d0f0ce2fbf6376d5e3",
+  "generation_input_sha256": "909617ffff88c06d38d95fbe985c37073297ccca9e3db132edfb27ad50d91301",
+  "h1_corrected_rows": 5326,
+  "h2_corrected_rows": 7384,
+  "h3_corrected_rows": 387,
+  "hapax": 53,
+  "head_probability_draws": 8,
+  "inherited_stats": {
+    "forced_segment_end": 2,
+    "m_branch": 7,
+    "pf_candidates": 4,
+    "pf_counterfactual_rejects": 93,
+    "pf_length_rescue_selected": 0,
+    "pf_rescue_candidates": 8,
+    "pf_selected_candidate1": 2,
+    "pf_selection_events": 2,
+    "phw_candidates": 8,
+    "phw_length_rescue": 1,
+    "phw_rescue_candidates": 2,
+    "phw_selection_events": 2,
+    "rare_g": 1,
+    "reject": 168,
+    "terminal_selector_reject": 10
+  },
+  "invalid_rows": 0,
+  "judge_scores_run": false,
+  "lambda_r4": 0.85,
+  "max_end_error": 0.0,
+  "max_normalization_error": 8.881784197001252e-16,
+  "mean_len": 3.915492957746479,
+  "mean_width": 5.098591549295775,
+  "model_id": "HerbalA-v22.2",
+  "model_label": "E12_VH_E1GLOBAL",
+  "packing_exact": true,
+  "packing_segments": 12,
+  "page": "f7v",
+  "parent_model_id": "HerbalA-v22r-W2B2",
+  "phw_delegations": 264,
+  "plant_false_heads": 0,
+  "requests": 626,
+  "rng_end": {
+    "bit_generator": "PCG64",
+    "has_uint32": 0,
+    "state": {
+      "inc": 288976770511949886363762700184395034523,
+      "state": 52692857061242628273303073409369306747
+    },
+    "uinteger": 0
+  },
+  "route_final_state": {
+    "attempts": 78,
+    "current": [
+      10,
+      17,
+      6,
+      14,
+      14,
+      18
+    ],
+    "route_map": {
+      "5": [
+        [
+          2,
+          10,
+          9,
+          10,
+          16
+        ],
+        [
+          2,
+          10,
+          11,
+          2,
+          14
+        ],
+        [
+          8,
+          10,
+          13,
+          12,
+          21
+        ],
+        [
+          9,
+          10,
+          16,
+          6,
+          14
+        ],
+        [
+          9,
+          18,
+          13,
+          12,
+          16
+        ],
+        [
+          10,
+          12,
+          16,
+          16,
+          19
+        ],
+        [
+          11,
+          2,
+          14,
+          14,
+          18
+        ],
+        [
+          11,
+          14,
+          14,
+          14,
+          18
+        ],
+        [
+          14,
+          14,
+          14,
+          15,
+          14
+        ],
+        [
+          17,
+          15,
+          12,
+          16,
+          16
+        ],
+        [
+          18,
+          2,
+          12,
+          16,
+          21
+        ],
+        [
+          18,
+          9,
+          10,
+          13,
+          18
+        ],
+        [
+          18,
+          11,
+          2,
+          12,
+          16
+        ],
+        [
+          19,
+          2,
+          10,
+          19,
+          18
+        ]
+      ],
+      "6": [
+        [
+          2,
+          10,
+          12,
+          16,
+          16,
+          21
+        ],
+        [
+          8,
+          2,
+          10,
+          13,
+          12,
+          16
+        ],
+        [
+          10,
+          9,
+          10,
+          16,
+          6,
+          14
+        ],
+        [
+          10,
+          14,
+          14,
+          14,
+          14,
+          15
+        ],
+        [
+          12,
+          16,
+          16,
+          15,
+          10,
+          17
+        ],
+        [
+          12,
+          16,
+          16,
+          17,
+          13,
+          18
+        ],
+        [
+          17,
+          10,
+          14,
+          14,
+          14,
+          15
+        ],
+        [
+          18,
+          11,
+          2,
+          14,
+          14,
+          18
+        ],
+        [
+          18,
+          11,
+          10,
+          17,
+          13,
+          18
+        ]
+      ]
+    },
+    "step": 71
+  },
+  "route_stats": {
+    "bt_any_active": 50,
+    "bt_base_active": 41,
+    "bt_events": 55,
+    "bt_opportunity_missed": 9,
+    "bt_opportunity_recovered": 9,
+    "bt_selected_active": 49,
+    "candidates": 307,
+    "changed": 48,
+    "events": 78,
+    "paragraph_h1_changed": 1,
+    "paragraph_h1_events": 15,
+    "preterm_changed": 0,
+    "preterm_close_score_delta": 0,
+    "preterm_events": 1,
+    "short_body_h2_changed": 1,
+    "short_body_h2_events": 19,
+    "shortfall": 3,
+    "v22_2_f1lf_router_off_changed": 1,
+    "v22_2_f1lf_router_off_committed": 2,
+    "w2_b2_changed": 1,
+    "w2_b2_events": 3,
+    "w2h2splice_changed": 0,
+    "w2h2splice_events": 1,
+    "w2h2splice_zero_fallback": 0
+  },
+  "row_catalog_count": 813,
+  "row_fallbacks": 0,
+  "run": 91701,
+  "segment_retries": 0,
+  "shortfall_banks_all_branches": 6,
+  "status": "IMPLEMENTED_PREJUDGE_NOT_JUDGED",
+  "support_violations": 0,
+  "surface_commits_sha256": "dddb4da14866c26a47c0d420bd0c0f47594f690622058d27cab2ecb6513c1938",
+  "surface_tokens": 71,
+  "terminal_mismatches": 0,
+  "tokens": 71,
+  "transaction_checks": 626,
+  "types": 61,
+  "v22_2_audit": {
+    "clock_safe_postaccept": true,
+    "current_request_parent_proposal_returned": true,
+    "judge_scores_run": false,
+    "scope_board_lf": true,
+    "scope_role_f1": true,
+    "scope_row_first": true,
+    "scope_segment_zero": true,
+    "scoped_requests": 2
+  },
+  "v22_2_f1lf_router_off": true
+}

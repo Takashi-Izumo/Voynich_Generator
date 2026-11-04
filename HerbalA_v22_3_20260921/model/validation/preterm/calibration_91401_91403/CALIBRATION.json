@@ -1,0 +1,23 @@
+{
+  "observed_crossfit_boundary_median": 5.75,
+  "observed_body_low_n": 88,
+  "observed_body_total_n": 801,
+  "observed_body_low_fraction": 0.10986267166042447,
+  "runtime_literal_R6_fraction": 0.007597895967270602,
+  "runtime_prevalence_matched_threshold": 9,
+  "runtime_prevalence_matched_fraction": 0.11338398597311514,
+  "observed_low_targets": {
+    "avg_glyph_width": 1.263285,
+    "terminal_nmy": 0.465909,
+    "terminal_lr": 0.477273,
+    "terminal_close_score": -0.011364
+  },
+  "parent_runtime_R9_low": {
+    "avg_glyph_width": 1.2756872852233676,
+    "terminal_nmy": 0.5360824742268041,
+    "terminal_lr": 0.30412371134020616,
+    "terminal_close_score": 0.23195876288659795
+  },
+  "preterm_close_lambda": -0.29704000178961015,
+  "calibration_note": "Lambda is an exponential terminal-family tilt calibrated on parent 91401-91403 low-R9 BODY output to the observed low terminal close-score; validation seeds 91601-91620 are independent."
+}

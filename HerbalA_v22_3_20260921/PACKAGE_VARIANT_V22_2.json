@@ -1,0 +1,10 @@
+{
+  "variant": "v22.2",
+  "model_id": "HerbalA-v22.2",
+  "parent": "HerbalA-v22r-W2B2",
+  "entrypoint": "model/code/run_v22_2.py",
+  "validator": "model/code/validate_v22_2.py",
+  "config": "model/parameters/V22_2_CONFIG.json",
+  "status": "model/MODEL_STATUS_V22_2.json",
+  "judge_status": "NOT_RUN"
+}

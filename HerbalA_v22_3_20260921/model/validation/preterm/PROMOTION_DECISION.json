@@ -1,0 +1,288 @@
+{
+  "decision": "PROMOTE_AS_V21R_PRETERM_CANDIDATE",
+  "model_id": "HerbalA-v21r-PRETERM-QMAP9",
+  "parent": "SAFE_LEFT_BT_OFF",
+  "calibration_seeds": [
+    91401,
+    91402,
+    91403
+  ],
+  "validation_seeds": [
+    91601,
+    91602,
+    91603,
+    91604,
+    91605,
+    91606,
+    91607,
+    91608,
+    91609,
+    91610,
+    91611,
+    91612,
+    91613,
+    91614,
+    91615,
+    91616,
+    91617,
+    91618,
+    91619,
+    91620
+  ],
+  "cases_per_arm": 400,
+  "global_absolute": [
+    {
+      "arm": "PRETERM_QMAP9",
+      "judge": "H2_RAW",
+      "value": 0.0497201971419244
+    },
+    {
+      "arm": "PRETERM_QMAP9",
+      "judge": "SPACE_RAW",
+      "value": 0.0502237555461492
+    },
+    {
+      "arm": "PRETERM_QMAP9",
+      "judge": "bT_leaf_excess",
+      "value": 0.1944186110020736
+    },
+    {
+      "arm": "PRETERM_QMAP9",
+      "judge": "bigram",
+      "value": 0.0416782227608989
+    },
+    {
+      "arm": "PRETERM_QMAP9",
+      "judge": "glyph_depth",
+      "value": 0.0245453781218648
+    },
+    {
+      "arm": "PRETERM_QMAP9",
+      "judge": "length_width",
+      "value": 0.049279309941328
+    },
+    {
+      "arm": "PRETERM_QMAP9",
+      "judge": "ng",
+      "value": 0.0399041853092633
+    },
+    {
+      "arm": "PRETERM_QMAP9",
+      "judge": "route56",
+      "value": 0.0605584453004426
+    },
+    {
+      "arm": "PRETERM_QMAP9",
+      "judge": "trigram",
+      "value": 0.0494015270635257
+    },
+    {
+      "arm": "SAFE_LEFT_BT_OFF",
+      "judge": "H2_RAW",
+      "value": 0.0498307087663129
+    },
+    {
+      "arm": "SAFE_LEFT_BT_OFF",
+      "judge": "SPACE_RAW",
+      "value": 0.0503048604135779
+    },
+    {
+      "arm": "SAFE_LEFT_BT_OFF",
+      "judge": "bT_leaf_excess",
+      "value": 0.1950754984121063
+    },
+    {
+      "arm": "SAFE_LEFT_BT_OFF",
+      "judge": "bigram",
+      "value": 0.0409838847657156
+    },
+    {
+      "arm": "SAFE_LEFT_BT_OFF",
+      "judge": "glyph_depth",
+      "value": 0.0250966402801526
+    },
+    {
+      "arm": "SAFE_LEFT_BT_OFF",
+      "judge": "length_width",
+      "value": 0.048592967887324
+    },
+    {
+      "arm": "SAFE_LEFT_BT_OFF",
+      "judge": "ng",
+      "value": 0.0395338973443259
+    },
+    {
+      "arm": "SAFE_LEFT_BT_OFF",
+      "judge": "route56",
+      "value": 0.0594117023656521
+    },
+    {
+      "arm": "SAFE_LEFT_BT_OFF",
+      "judge": "trigram",
+      "value": 0.0491697439948092
+    }
+  ],
+  "paired_global": [
+    {
+      "reference": "SAFE_LEFT_BT_OFF",
+      "arm": "PRETERM_QMAP9",
+      "judge": "H2_RAW",
+      "improvement": 0.0001105116243884,
+      "wins": 11,
+      "losses": 9,
+      "ties": 0,
+      "p": 0.7651984444971875
+    },
+    {
+      "reference": "SAFE_LEFT_BT_OFF",
+      "arm": "PRETERM_QMAP9",
+      "judge": "bigram",
+      "improvement": -0.0006943379951832,
+      "wins": 8,
+      "losses": 12,
+      "ties": 0,
+      "p": 0.2789649507806645
+    },
+    {
+      "reference": "SAFE_LEFT_BT_OFF",
+      "arm": "PRETERM_QMAP9",
+      "judge": "ng",
+      "improvement": -0.0003702879649373,
+      "wins": 8,
+      "losses": 12,
+      "ties": 0,
+      "p": 0.3702612704529143
+    },
+    {
+      "reference": "SAFE_LEFT_BT_OFF",
+      "arm": "PRETERM_QMAP9",
+      "judge": "trigram",
+      "improvement": -0.0002317830687164,
+      "wins": 9,
+      "losses": 11,
+      "ties": 0,
+      "p": 0.4330482884279347
+    },
+    {
+      "reference": "SAFE_LEFT_BT_OFF",
+      "arm": "PRETERM_QMAP9",
+      "judge": "SPACE_RAW",
+      "improvement": 8.110486742869371e-05,
+      "wins": 7,
+      "losses": 12,
+      "ties": 1,
+      "p": 0.6873736155096972
+    },
+    {
+      "reference": "SAFE_LEFT_BT_OFF",
+      "arm": "PRETERM_QMAP9",
+      "judge": "route56",
+      "improvement": -0.0011467429347904,
+      "wins": 8,
+      "losses": 11,
+      "ties": 1,
+      "p": 0.2954240558236417
+    },
+    {
+      "reference": "SAFE_LEFT_BT_OFF",
+      "arm": "PRETERM_QMAP9",
+      "judge": "bT_leaf_excess",
+      "improvement": 0.0006568874100326,
+      "wins": 10,
+      "losses": 9,
+      "ties": 1,
+      "p": 0.5460878490645904
+    },
+    {
+      "reference": "SAFE_LEFT_BT_OFF",
+      "arm": "PRETERM_QMAP9",
+      "judge": "glyph_depth",
+      "improvement": 0.0005512621582878,
+      "wins": 11,
+      "losses": 9,
+      "ties": 0,
+      "p": 0.1453997750650855
+    },
+    {
+      "reference": "SAFE_LEFT_BT_OFF",
+      "arm": "PRETERM_QMAP9",
+      "judge": "length_width",
+      "improvement": -0.000686342054004,
+      "wins": 9,
+      "losses": 10,
+      "ties": 1,
+      "p": 0.2954240558236417
+    }
+  ],
+  "targeted_pooled": [
+    {
+      "n_body_nonfinal": 11440,
+      "n_low": 1362,
+      "low_frac": 0.119055944055944,
+      "low_avgw": 1.2725281448849732,
+      "high_avgw": 1.3164308544865202,
+      "low_avgw_target_abs_err": 0.0092431448849732,
+      "low_nmy": 0.5190895741556535,
+      "high_nmy": 0.5633062115499107,
+      "low_nmy_target_abs_err": 0.0531805741556534,
+      "low_lr": 0.3649045521292217,
+      "high_lr": 0.336872395316531,
+      "low_lr_target_abs_err": 0.1123684478707782,
+      "low_close": 0.1541850220264317,
+      "high_close": 0.2264338162333796,
+      "low_close_target_abs_err": 0.1655490220264317,
+      "arm": "SAFE_LEFT_BT_OFF"
+    },
+    {
+      "n_body_nonfinal": 11451,
+      "n_low": 1374,
+      "low_frac": 0.1199895205658894,
+      "low_avgw": 1.2760310528869483,
+      "high_avgw": 1.316879558424661,
+      "low_avgw_target_abs_err": 0.0127460528869483,
+      "low_nmy": 0.4585152838427948,
+      "high_nmy": 0.5605835069961298,
+      "low_nmy_target_abs_err": 0.0073937161572052,
+      "low_lr": 0.3755458515283842,
+      "high_lr": 0.3384935992855016,
+      "low_lr_target_abs_err": 0.1017271484716157,
+      "low_close": 0.0829694323144104,
+      "high_close": 0.2220899077106281,
+      "low_close_target_abs_err": 0.0943334323144104,
+      "arm": "PRETERM_QMAP9"
+    }
+  ],
+  "mechanical": [
+    {
+      "arm": "PRETERM_QMAP9",
+      "cases": 400,
+      "packing": true,
+      "support": 0,
+      "invalid": 0,
+      "preterm_events": 2226,
+      "preterm_changed": 139,
+      "preterm_committed": 1268,
+      "preterm_committed_changed": 81,
+      "mean_close_delta": -0.08556416949064
+    },
+    {
+      "arm": "SAFE_LEFT_BT_OFF",
+      "cases": 400,
+      "packing": true,
+      "support": 0,
+      "invalid": 0,
+      "preterm_events": 0,
+      "preterm_changed": 0,
+      "preterm_committed": 0,
+      "preterm_committed_changed": 0,
+      "mean_close_delta": 0.0
+    }
+  ],
+  "guardrails": {
+    "max_abs_relative_global_change_pct": 2.196558,
+    "packing_pass": "400/400",
+    "support_violations": 0,
+    "invalid_rows": 0
+  },
+  "interpretation": "Parent packing already supplies the narrow-glyph component. PRETERM adds only a minimal terminal-family holding tilt on non-LF BODY at runtime R<=9."
+}

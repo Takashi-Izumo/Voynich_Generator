@@ -1,0 +1,76 @@
+{
+  "status": "STAGE3G_FULL_REGRESSION_PASS_WITH_RESIDUAL_AND_PROVENANCE_BLOCK",
+  "model_id": "HerbalA-v22.3-STAGE3D-R1-CANDIDATE",
+  "parent_model_id": "HerbalA-v22.2",
+  "valid_seeds": [
+    91701,
+    91702,
+    91703,
+    91704,
+    91705,
+    91707,
+    91708,
+    91709,
+    91710,
+    91711
+  ],
+  "excluded_common_parent_candidate_failure_seed": 91706,
+  "paired_bifolium_runs": 200,
+  "paired_model_generations": 400,
+  "generated_parent_tokens_total": 15782,
+  "mechanical_checks": 4120232,
+  "mechanical_failures": 0,
+  "surface_diffs": 95,
+  "strict_requests": 180,
+  "stage3d_applied": 178,
+  "stage3d_changed": 95,
+  "safe_fallbacks": 2,
+  "unique_fallback_loci": [
+    "f53v f53v.1",
+    "f7v f7v.6"
+  ],
+  "mechanical_pass": true,
+  "global_regression_pass": true,
+  "guardrail_pass": true,
+  "significant_regressions_BH05": [],
+  "max_mean_ngram_jsd_delta": 0.0006078775869064023,
+  "mean_frequency_L1_delta": -4.8,
+  "teacher_forced_current_TL": {
+    "events": 88,
+    "bifolia": 20,
+    "baseL_nll_bits_per_terminal": 2.2660903939451966,
+    "candidate_nll_bits_per_terminal": 2.2276233696198955,
+    "improvement_bits_per_terminal": 0.03846702432530031,
+    "long_improvement_bits_per_terminal": 0.06770196281252855,
+    "bifolia_improved": 18,
+    "exact_signflip_p_one_sided": 0.007533073425292969
+  },
+  "live_terminal_summary": {
+    "base_terminal": {
+      "counts": {
+        "n": 30,
+        "OTHER": 30,
+        "l": 18,
+        "y": 75,
+        "r": 17,
+        "m": 8
+      },
+      "NMY_LR": 3.2285714285714286
+    },
+    "final_terminal": {
+      "counts": {
+        "r": 16,
+        "l": 22,
+        "n": 21,
+        "m": 10,
+        "OTHER": 24,
+        "y": 85
+      },
+      "NMY_LR": 3.0526315789473686
+    }
+  },
+  "promotion": false,
+  "promotion_blockers": [
+    "Legacy Stage1/2 component artifact/source-law alignment unresolved"
+  ]
+}

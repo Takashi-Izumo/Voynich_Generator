@@ -1,0 +1,3 @@
+page,locus,segment_id,word_index,proposal_id,role,row_phase,board,v22_2_parent_selected,v22_2_child_selected,v22_2_changed,candidate_count,proposal_draws,v22_2_keep_probability,v22_2_selection_digest
+f7v,f7v.1,0,7,283,F1,FIRST,LF,kodaiin,cheorain,True,4,221,0.2500016125381063,2ede84cec698918ad30ab2c857635a9b61bfd9264b8cda5a4e1abf2bfa669bfc
+f7v,f7v.6,0,7,450,F1,FIRST,LF,tcheodsh,tcheodsh,False,4,125,0.7624467670919659,5cbea8c8cccf5d011b045b6ca9da3d77ac49febde71230e50e552bca3f19a3af

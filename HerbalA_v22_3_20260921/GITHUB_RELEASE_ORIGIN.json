@@ -1,0 +1,13 @@
+{
+  "release_tag": "HerbalA_v22_3_20260921",
+  "asset_url": "https://github.com/Takashi-Izumo/Voynich_Generator/releases/download/HerbalA_v22_3_20260921/HerbalA_v22_3_FULL_EXPORT.zip",
+  "asset_sha256": "9ae7718a0725c7918ed9355166e976957def8d50d0ac042716019fdd15020315",
+  "release_file_count": 462,
+  "files_preserved_byte_for_byte": 460,
+  "omitted_git_files": [
+    "model/sources/EHC1_E1GLOBAL_FULL_20260911.zip",
+    "model/sources/RMW1_BTI2_EHC2_DECOMP1_PUV_HANDOFF_COMPACT_20260912.zip"
+  ],
+  "omitted_files_available_in_release": true,
+  "package_manifest_sha256": "bfe8c73dc344dc91bed38fd437df4b663d5ca0b16be23f58c999878892a328d3"
+}

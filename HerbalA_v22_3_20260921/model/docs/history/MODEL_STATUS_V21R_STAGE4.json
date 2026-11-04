@@ -1,0 +1,31 @@
+{
+  "model_id": "HerbalA-v21r-candidate-SAFE-LEFT-BTOFF",
+  "status": "STAGE4_SLOT_STOPPED_V21R_CANDIDATE_SAFE_LEFT_BT_OFF",
+  "parent": "HerbalA_v21r_stage3_SLOT_TABLES_20260913",
+  "stage": 4,
+  "slot_generator": {
+    "implemented": true,
+    "mode": "SLOT_BT_OFF",
+    "screen_runs": [91401, 91402, 91403],
+    "screen_cases_per_arm": 60,
+    "fallback_rate": 0.0,
+    "packing": "PASS",
+    "support_violations": 0,
+    "invalid_rows": 0,
+    "pooled_h3_conditional_jsd_safe_off": 0.3202819343735003,
+    "pooled_h3_conditional_jsd_slot": 0.24083022140555446,
+    "space_raw_relative_regression_pct": 16.094134445593976,
+    "space_raw_paired_p": 0.009996388475979442,
+    "decision": "STOP_AT_3SEED_SCREEN"
+  },
+  "active_generation_candidate": "SAFE_LEFT_BT_OFF",
+  "safe_left_bt_off": {
+    "reference_hash_cases": 100,
+    "reference_hash_fields": 300,
+    "w2_exact4_bt": "OFF",
+    "right_bridge": "OFF",
+    "historical_5seed_major_regression": false,
+    "fresh_3seed_major_regression": false
+  },
+  "independent_slot_validation": "NOT_RUN_BY_STOP_RULE"
+}

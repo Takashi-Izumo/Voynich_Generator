@@ -1,0 +1,18 @@
+{
+  "release": "HerbalA_v21r_PRETERM_SHORTBODY_H2GLOBAL_20260916",
+  "parent_release": "HerbalA_v21r_PRETERM_20260916",
+  "active_candidate": "PRETERM_SHORT_H2_GLOBAL",
+  "implementation_status": "IMPLEMENTED_PREJUDGE_NOT_JUDGED",
+  "short_body_h2_policy": "retain H1 known-3; retain external Pure-A H2 residual; disable target-leaf known-3 residual for BODY len 2..4",
+  "preterm_qmap9": "retained",
+  "prejudge_seed": 91601,
+  "prejudge_bifolia": 20,
+  "prejudge_intervention_events": 354,
+  "prejudge_actual_h2_changes": 24,
+  "prejudge_changed_bifolia": 15,
+  "packing_pass": "20/20",
+  "support_violations": 0,
+  "invalid_rows": 0,
+  "noop_parent_hash_match": "20/20",
+  "blind_judge": "NOT_RUN"
+}

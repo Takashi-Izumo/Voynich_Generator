@@ -1,0 +1,98 @@
+{
+  "date": "2026-09-20",
+  "model": "HerbalA-v22.2",
+  "parent": "HerbalA-v22r-W2B2",
+  "status": "PASS_WITH_RESIDUAL",
+  "promote": true,
+  "fresh_seeds": [
+    92001,
+    92002,
+    92003,
+    92004,
+    92005,
+    92006,
+    92007,
+    92008,
+    92009,
+    92011
+  ],
+  "seed_note": "92010 was excluded before scoring because the frozen parent W2B2 itself hit its existing terminal_mismatch/fake_head assertion on fold 4; 92011 replaced it globally. No judge score had been computed before replacement.",
+  "formal_unit": "20 bifolia",
+  "descriptive_sets": 200,
+  "implementation_fix_before_scoring": "single-candidate F1-LF banks are now explicit no-op skips; prior code marked them applied without staging a child and could raise KeyError. All judged pages were regenerated from scratch after the fix.",
+  "mechanical": {
+    "fresh_seeds": [
+      92001,
+      92002,
+      92003,
+      92004,
+      92005,
+      92006,
+      92007,
+      92008,
+      92009,
+      92011
+    ],
+    "cases_parent": 200,
+    "cases_child": 200,
+    "packing_parent_all": true,
+    "packing_child_all": true,
+    "support_parent": 0,
+    "support_child": 0,
+    "invalid_parent": 0,
+    "invalid_child": 0,
+    "retry_parent": 0,
+    "retry_child": 0,
+    "row_alignment_all": true,
+    "total_output_word_changes": 56,
+    "direct_scope_word_changes": 56,
+    "downstream_word_changes": 0,
+    "scope_requests": 220,
+    "scope_applied": 218,
+    "scope_changed": 56,
+    "single_candidate_skips": 2
+  },
+  "primary_route56": {
+    "parent_abs": 0.0621882741909199,
+    "child_abs": 0.0613506038018438,
+    "improvement": 0.0008376703890761,
+    "leaves_improved": 14,
+    "leaves_worsened": 2,
+    "wilcoxon_greater": 0.0002899169921875
+  },
+  "combined_child": {
+    "real_wins": 8,
+    "generated_wins": 12,
+    "signflip_p": 0.2512035369873047,
+    "mean_margin": -0.0088519378919482
+  },
+  "route56_child_residual": {
+    "real_wins": 4,
+    "generated_wins": 16,
+    "signflip_p": 0.0127811431884765,
+    "mean_margin": -0.032187887042867
+  },
+  "bigram_child_residual": {
+    "real_wins": 8,
+    "generated_wins": 12,
+    "signflip_p": 0.0125503540039062,
+    "mean_margin": -0.021140216614016
+  },
+  "f1lf_y": {
+    "parent_mae": 0.50625,
+    "child_mae": 0.4614583333333333,
+    "parent_slope": -0.1723404255319149,
+    "child_slope": 0.00177304964539,
+    "wilcoxon_greater": 0.091796875
+  },
+  "judgment": {
+    "route_router_off_supported": true,
+    "combined_blind_stays_chance": true,
+    "no_mechanical_regression": true,
+    "scope_isolation_exact_visible_output": true,
+    "global_route56_closed": false,
+    "global_bigram_closed": false,
+    "f1lf_terminal_family_fully_closed": false,
+    "promotion_label": "PASS_WITH_RESIDUAL"
+  }
+}

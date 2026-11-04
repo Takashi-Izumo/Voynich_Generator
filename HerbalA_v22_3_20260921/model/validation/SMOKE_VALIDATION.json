@@ -1,0 +1,8 @@
+GEN 0 A:2 91321 3539ede053d3
+{
+  "static": "PASS",
+  "model_id": "RMW1-BTI2-EHC2-DECOMP1-PUV-R4LEX-W2H2L4-K16",
+  "smoke_hash_identity": "PASS",
+  "smoke_case": "fold0 A:2 run91321",
+  "generated_rows_sha256": "3539ede053d36919c2434a90c54a0d9965252d6c930cc6a1a00ec0b8648d652e"
+}

@@ -1,0 +1,34 @@
+{
+  "model_id": "HerbalA-v22r-W2B2",
+  "status": "PROMOTED_LOCAL_PASS_WITH_RESIDUAL",
+  "promotion_date": "2026-09-17",
+  "parent": "HerbalA-v22r",
+  "implementation": "W2-B2-H2-POSTCOMMIT",
+  "scope": "MIDDLE x W2 x non-END x stable glyph length 3..5",
+  "target_law": {
+    "h2_base": "W2POS",
+    "external_h2": "OFF",
+    "known3_tau": 128,
+    "selection": "request-local maximal coupling",
+    "rng_namespace": "V22R_W2_H2_B2_MINIMAL_V1"
+  },
+  "frozen": ["H1","H3+","terminal","exact_length","stable_width","route_state","packing","parent_rng"],
+  "fresh_200": {
+    "strict_w2_h2_given_h1": {
+      "parent_margin": -0.206648,
+      "child_margin": -0.170828,
+      "improved_leaves": "17/20",
+      "paired_p": 0.0000267,
+      "parent_signflip_p": 0.028255,
+      "child_signflip_p": 0.063082
+    },
+    "global_bigram": {"real":4,"generated":16,"margin":-0.023551},
+    "trigram": {"real":6,"generated":14,"margin":-0.008206},
+    "combined": {"real":7,"generated":13,"margin":-0.010664},
+    "mechanical": {"packing":"200/200 PASS","support_violations":0,"invalid_rows":0,"segment_retries":0,"applied":1793,"changed":81,"pages_changed":55,"bifolia_changed":"20/20"}
+  },
+  "multi_judge": "LOCAL_PASS_NO_POSITIONAL_REGRESSION",
+  "merge_reproduction": {"seed":91701,"hashes_exact":"20/20","requests_exact":"130/130","changed":6},
+  "not_included": ["F1 H3 patch","FIRST_GENERIC raw H3 prototype"],
+  "next_priority": "F1 H3-only constrained sibling feasibility audit"
+}

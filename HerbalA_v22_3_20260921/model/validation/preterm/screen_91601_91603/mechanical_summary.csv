@@ -1,0 +1,4 @@
+arm,cases,packing,support,invalid,preterm_events,preterm_changed,preterm_committed,preterm_committed_changed,mean_close_delta
+PRETERM_QMAP9,60,True,0,0,337,23,187,13,-0.10431878306878307
+PRETERM_R6,60,True,0,0,14,0,8,0,0.0
+SAFE_LEFT_BT_OFF,60,True,0,0,0,0,0,0,0.0

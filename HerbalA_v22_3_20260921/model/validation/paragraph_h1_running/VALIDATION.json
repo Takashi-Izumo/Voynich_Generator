@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "checks": {
+    "cases_20": true,
+    "noop_rows_20_20": true,
+    "noop_commits_20_20": true,
+    "packing_20_20": true,
+    "support_zero": true,
+    "invalid_zero": true,
+    "structure_frozen_20_20": true,
+    "route_state_frozen_20_20": true,
+    "h1_only_all_changes": true,
+    "h2plus_frozen_all_changes": true,
+    "exact_length_all_changes": true,
+    "exact_width_all_changes": true,
+    "parent_rng_untouched": true,
+    "precommit_semantics_untouched": true,
+    "intervention_applied_positive": true,
+    "actual_h1_changes_positive": true,
+    "audit_change_count_matches_rows": true
+  },
+  "seed": 91601,
+  "cases": 20,
+  "eligible_commits": 495,
+  "applied": 381,
+  "changed_rows": 12,
+  "changed_bifolia": 7,
+  "blind_judge_run": false
+}

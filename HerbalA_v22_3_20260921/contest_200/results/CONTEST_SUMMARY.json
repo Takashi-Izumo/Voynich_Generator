@@ -1,0 +1,48 @@
+{
+  "status": "COMPLETE",
+  "model": "RMW1-BTI2-EHC2-DECOMP1-PUV-R4LEX-W2H2L4-K16",
+  "runs": [
+    99001,
+    99002,
+    99003,
+    99004,
+    99005,
+    99006,
+    99007,
+    99008,
+    99009,
+    99010
+  ],
+  "n_pairs": 200,
+  "n_unique_real_target_pages": 20,
+  "repeats_per_target": 10,
+  "pair_order_randomized": true,
+  "left_real": 100,
+  "right_real": 100,
+  "primary_judge": "combined",
+  "formal_stat_unit": "20 bifolia; ten fresh seeds averaged within leaf",
+  "raw_200_is_descriptive_only": true,
+  "presentation_sha256": "806008b4f073e4c7f08d3f64308118fbd6e4b1651c72bdf1359314f2e20b8ac6",
+  "combined_raw": {
+    "judge": "combined",
+    "sets": 200,
+    "real_wins": 96,
+    "generated_wins": 104,
+    "ties": 0,
+    "real_win_rate": 0.48,
+    "descriptive_binom_p": 0.6207289280968303,
+    "mean_margin": -0.008780899091538744,
+    "mean_abs_margin": 0.03872868034970743
+  },
+  "combined_cluster": {
+    "judge": "combined",
+    "leaves": 20,
+    "real_wins": 10,
+    "generated_wins": 10,
+    "ties": 0,
+    "binom_p": 1.0,
+    "signflip_p": 0.32910728454589844,
+    "mean_leaf_margin": -0.008780899091538742,
+    "mean_leaf_abs_margin": 0.03137000111493831
+  }
+}

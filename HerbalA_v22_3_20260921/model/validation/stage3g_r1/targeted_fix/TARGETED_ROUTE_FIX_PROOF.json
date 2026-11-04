@@ -1,0 +1,9 @@
+{
+  "case": "seed 91708 / C:2 / f23v.1",
+  "parent_route_rows": 78,
+  "r1_route_rows": 78,
+  "route_trace_exact": true,
+  "parent_route_sha256": "fa0ab3f36ef85745038d50c795ebb49453205699a8fbad2c704c842e713df537",
+  "r1_route_sha256": "fa0ab3f36ef85745038d50c795ebb49453205699a8fbad2c704c842e713df537",
+  "visible_terminal_change_preserved": "chofchol -> chofchoy"
+}
