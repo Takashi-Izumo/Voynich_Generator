@@ -18,7 +18,7 @@ CONFIG_HASH = digest(CONFIG)
 
 
 def normalize(c: Counter) -> dict:
-    total = sum(c.values())
+    total = math.fsum(c.values())
     return {k: v/total for k, v in c.items()} if total else {}
 
 
@@ -35,15 +35,15 @@ def jsd(a: Counter, b: Counter) -> float:
     if not a or not b:
         raise ValueError('JSD requires two nonempty distributions')
     p, q = normalize(a), normalize(b)
-    result = 0.0
-    for k in p.keys() | q.keys():
+    terms = []
+    for k in sorted(p.keys() | q.keys(), key=repr):
         x, y = p.get(k, 0.0), q.get(k, 0.0)
         m = (x+y)/2
         if x:
-            result += 0.5*x*math.log2(x/m)
+            terms.append(0.5*x*math.log2(x/m))
         if y:
-            result += 0.5*y*math.log2(y/m)
-    return max(0.0, result)
+            terms.append(0.5*y*math.log2(y/m))
+    return max(0.0, math.fsum(terms))
 
 
 def compare(ref: list[Feature], a: Feature, b: Feature) -> dict:
@@ -61,17 +61,18 @@ def compare(ref: list[Feature], a: Feature, b: Feature) -> dict:
         rr = split(reference_mix([f.counts for f in ref]))
         aa, bb = split(a.counts), split(b.counts)
         masses = Counter({ctx: sum(row.values()) for ctx, row in rr.items()})
-        common = set(masses) & aa.keys() & bb.keys()
-        mass = sum(masses[k] for k in common)
-        coverage.update(contexts=len(common), reference_context_coverage=mass/sum(masses.values()))
+        common = sorted(set(masses) & aa.keys() & bb.keys(), key=repr)
+        mass = math.fsum(masses[k] for k in common)
+        coverage.update(contexts=len(common), reference_context_coverage=mass/math.fsum(masses.values()))
         if not mass:
             return dict(coverage, A=None, B=None, delta=None, status='NA_CONTEXT')
-        sa = sb = 0.0
+        av, bv = [], []
         for ctx in common:
             q = rr[ctx]
             w = masses[ctx]/mass
-            sa -= w*jsd(q, aa[ctx])
-            sb -= w*jsd(q, bb[ctx])
+            av.append(-w*jsd(q, aa[ctx]))
+            bv.append(-w*jsd(q, bb[ctx]))
+        sa, sb = math.fsum(av), math.fsum(bv)
     else:
         q = reference_mix([f.counts for f in ref])
         sa, sb = -jsd(q, a.counts), -jsd(q, b.counts)

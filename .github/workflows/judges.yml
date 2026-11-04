@@ -24,3 +24,8 @@ jobs:
           python -m judges validate --input judges/examples/demo.jsonl
           python -m judges predict --input judges/examples/demo.jsonl --output "$RUNNER_TEMP/judges-predictions"
           python -m judges score --predictions "$RUNNER_TEMP/judges-predictions" --key judges/examples/demo-key.jsonl --output "$RUNNER_TEMP/judges-scores"
+      - name: v0.3 typed observations and statistics smoke test
+        run: |
+          python -m judges v03 validate --input judges/examples/v03-demo.jsonl
+          python -m judges v03 predict --input judges/examples/v03-demo.jsonl --output "$RUNNER_TEMP/judges-v03-predictions"
+          python -m judges v03 score --predictions "$RUNNER_TEMP/judges-v03-predictions" --key judges/examples/v03-demo-key.jsonl --output "$RUNNER_TEMP/judges-v03-scores" --bootstrap 100

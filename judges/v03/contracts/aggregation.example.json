@@ -1,0 +1,92 @@
+{
+  "description": "Aggregate design example; generated labels are illustrative, not manuscript results.",
+  "trials": [
+    {
+      "cluster_id": "B0",
+      "seed": 1,
+      "status": "DECIDED",
+      "correct": 1
+    },
+    {
+      "cluster_id": "B0",
+      "seed": 2,
+      "status": "DECIDED",
+      "correct": 1
+    },
+    {
+      "cluster_id": "B0",
+      "seed": 3,
+      "status": "TIE",
+      "correct": null
+    },
+    {
+      "cluster_id": "B0",
+      "seed": 4,
+      "status": "NA",
+      "correct": null
+    },
+    {
+      "cluster_id": "B1",
+      "seed": 1,
+      "status": "DECIDED",
+      "correct": 0
+    },
+    {
+      "cluster_id": "B1",
+      "seed": 2,
+      "status": "NA",
+      "correct": null
+    },
+    {
+      "cluster_id": "B1",
+      "seed": 3,
+      "status": "NA",
+      "correct": null
+    },
+    {
+      "cluster_id": "B1",
+      "seed": 4,
+      "status": "NA",
+      "correct": null
+    },
+    {
+      "cluster_id": "B2",
+      "seed": 1,
+      "status": "NA",
+      "correct": null
+    },
+    {
+      "cluster_id": "B2",
+      "seed": 2,
+      "status": "NA",
+      "correct": null
+    },
+    {
+      "cluster_id": "B2",
+      "seed": 3,
+      "status": "NA",
+      "correct": null
+    },
+    {
+      "cluster_id": "B2",
+      "seed": 4,
+      "status": "NA",
+      "correct": null
+    }
+  ],
+  "expected": {
+    "total_trials": 12,
+    "total_bifolia": 3,
+    "decided": 3,
+    "ties": 1,
+    "NA": 8,
+    "decided_bifolia": 2,
+    "comparable_bifolia": 2,
+    "macro_decided_accuracy": 0.5,
+    "pooled_decided_accuracy": 0.6666666666666666,
+    "macro_expected_game_accuracy": 0.4166666666666667,
+    "pooled_expected_game_accuracy": 0.625,
+    "comparable_coverage": 0.3333333333333333,
+    "decision_coverage": 0.25
+  }
+}

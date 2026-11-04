@@ -1,0 +1,360 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:voynich:judges:v03:prediction-v2",
+  "title": "Voynich judges v0.3 contract: sealed prediction row",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "set_id",
+    "cluster_id",
+    "seed",
+    "target_slot",
+    "protocol_hash",
+    "input_hash",
+    "template_hash",
+    "extractor_hash",
+    "model_hash",
+    "primary",
+    "forced_primary_pick",
+    "views"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 2
+    },
+    "set_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "cluster_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "seed": {
+      "type": "integer"
+    },
+    "target_slot": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 3
+    },
+    "protocol_hash": {
+      "$ref": "#/$defs/sha256"
+    },
+    "input_hash": {
+      "$ref": "#/$defs/sha256"
+    },
+    "template_hash": {
+      "$ref": "#/$defs/sha256"
+    },
+    "extractor_hash": {
+      "$ref": "#/$defs/sha256"
+    },
+    "model_hash": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/sha256"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "primary": {
+      "enum": [
+        "J24.PROTO",
+        "J24.CAL"
+      ]
+    },
+    "forced_primary_pick": {
+      "enum": [
+        "A",
+        "B",
+        null
+      ]
+    },
+    "views": {
+      "type": "object",
+      "minProperties": 1,
+      "propertyNames": {
+        "pattern": "^(?:J[0-9]{2}|ATOM)(?:\\.[A-Z0-9_]+)*$"
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/view"
+      }
+    }
+  },
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "calibrationCoverage": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "level",
+            "bifolia",
+            "target_pages",
+            "event_count"
+          ],
+          "properties": {
+            "level": {
+              "enum": [
+                "SIZE_BIN",
+                "ALL_SIZES"
+              ]
+            },
+            "bifolia": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "target_pages": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "event_count": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        }
+      ]
+    },
+    "view": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "family",
+        "status",
+        "reason",
+        "scores",
+        "delta",
+        "pick",
+        "active_channels",
+        "coverage"
+      ],
+      "properties": {
+        "family": {
+          "enum": [
+            "PROTO",
+            "CAL"
+          ]
+        },
+        "status": {
+          "enum": [
+            "DECIDED",
+            "TIE",
+            "NA"
+          ]
+        },
+        "reason": {
+          "enum": [
+            "OK",
+            "EXACT_OR_NUMERIC_TIE",
+            "NO_SOURCE_ANCHOR",
+            "NO_EVENTS",
+            "NO_REFERENCE_EVENTS",
+            "NO_COMMON_CONTEXT",
+            "TOO_FEW_ACTIVE_ATOMS",
+            "NO_CALIBRATION",
+            "INSUFFICIENT_CALIBRATION",
+            "FLAT_MODEL"
+          ]
+        },
+        "scores": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "A",
+            "B"
+          ],
+          "properties": {
+            "A": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "B": {
+              "type": [
+                "number",
+                "null"
+              ]
+            }
+          }
+        },
+        "delta": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "pick": {
+          "enum": [
+            "A",
+            "B",
+            null
+          ]
+        },
+        "active_channels": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "coverage": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "source_slots",
+            "A_events",
+            "B_events",
+            "reference_events",
+            "reference_nonempty_pages",
+            "common_contexts",
+            "reference_context_mass",
+            "calibration",
+            "source_unit"
+          ],
+          "properties": {
+            "source_slots": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "A_events": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "B_events": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "reference_events": {
+              "type": "array",
+              "minItems": 3,
+              "maxItems": 3,
+              "items": {
+                "type": "integer",
+                "minimum": 0
+              }
+            },
+            "reference_nonempty_pages": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 3
+            },
+            "common_contexts": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "reference_context_mass": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 1
+            },
+            "calibration": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "A",
+                "B"
+              ],
+              "properties": {
+                "A": {
+                  "$ref": "#/$defs/calibrationCoverage"
+                },
+                "B": {
+                  "$ref": "#/$defs/calibrationCoverage"
+                }
+              }
+            },
+            "source_unit": {
+              "enum": [
+                "ENDPOINTS",
+                "MIDDLE_LINES",
+                "FULL_SEGMENTS"
+              ]
+            }
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "DECIDED"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "pick": {
+                "enum": [
+                  "A",
+                  "B"
+                ]
+              },
+              "delta": {
+                "type": "number"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "TIE"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "pick": {
+                "type": "null"
+              },
+              "delta": {
+                "type": "number"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "NA"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "pick": {
+                "type": "null"
+              },
+              "delta": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

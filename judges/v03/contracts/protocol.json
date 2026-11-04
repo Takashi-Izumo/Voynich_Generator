@@ -1,0 +1,156 @@
+{
+  "protocol_id": "judges-v0.3-v1",
+  "status": "implementation_v0.3",
+  "versions": {
+    "case_schema": 2,
+    "prediction_schema": 2,
+    "statistics": "bif-equal-expected-game-v1",
+    "input_profile": "structure-endpoints-v2",
+    "prototype_model": "prototype-jsd-measure-v3",
+    "calibrated_model": "genuine-null-rank-v1"
+  },
+  "text": {
+    "profile": "stable22-visible",
+    "rare_removed": [
+      "b",
+      "g",
+      "j",
+      "v",
+      "z",
+      "u"
+    ],
+    "m_retained": true
+  },
+  "masks": {
+    "full": "whole_line_usable",
+    "endpoint": "end_word_known",
+    "source_only": true,
+    "shared_target_layout": true,
+    "end_only_consumers": [
+      "J08.WIDE",
+      "J08.F1LF",
+      "J08.POSTPLANT"
+    ],
+    "plant_segment_break": true,
+    "exception_policy": "f28v.7-v1"
+  },
+  "tie_epsilon": 1e-12,
+  "statistics": {
+    "bootstrap_replicates": 10000,
+    "bootstrap_rng_seed": 20261104,
+    "unit": "bifolium",
+    "expected_tie_credit": 0.5,
+    "na_credit": null,
+    "unique_trial": [
+      "cluster_id",
+      "target_slot",
+      "seed"
+    ],
+    "promotion_verdict": null
+  },
+  "fitting": {
+    "outer_folds": 5,
+    "outer_test_bifolia": 4,
+    "external_bifolia": 16,
+    "prior_train_bifolia": 8,
+    "null_calibration_bifolia": 8,
+    "split_order": "sha256(v03-split-v1|cluster_id)",
+    "inner_validation": "leave-one-training-bifolium-out; all four target slots",
+    "hyperparameters": {
+      "lambda": [
+        1,
+        8,
+        32
+      ],
+      "rho": [
+        0,
+        0.25,
+        0.5,
+        0.75
+      ]
+    },
+    "hyperparameter_tie_break": [
+      "larger_lambda",
+      "smaller_rho"
+    ],
+    "jeffreys_pseudocount": 0.5,
+    "minimum_inner_validation_bifolia": 4,
+    "null_size_bins": [
+      {
+        "name": "N1_2",
+        "min": 1,
+        "max": 2
+      },
+      {
+        "name": "N3_4",
+        "min": 3,
+        "max": 4
+      },
+      {
+        "name": "N5_16",
+        "min": 5,
+        "max": 16
+      },
+      {
+        "name": "N17PLUS",
+        "min": 17,
+        "max": null
+      }
+    ],
+    "null_fallback_order": [
+      "scope_and_channel_and_size_bin",
+      "scope_and_channel_ALL_SIZES"
+    ],
+    "min_null_bifolia": 6,
+    "min_null_target_pages": 12,
+    "null_weight": "equal_bifolium_then_equal_target_page",
+    "typicality": "1 - 2*abs(weighted_mid_CDF(distance)-0.5)",
+    "probability_of_authenticity": false
+  },
+  "primary": {
+    "prototype_atoms": [
+      "PHW",
+      "FIRST_INTERIOR",
+      "HEAD",
+      "W2",
+      "BODY",
+      "PLANT_END",
+      "LINE_END",
+      "PARA_END"
+    ],
+    "calibrated_atom_weights": "equal",
+    "calibrated_min_common_atoms": 4,
+    "additional_diagnostic_votes": false,
+    "default_view": "J24.PROTO",
+    "calibrated_view": "J24.CAL",
+    "force_binary_on_valid_tie": true,
+    "calibrated_requires_bound_artifact": true
+  },
+  "controls": {
+    "strengths": [
+      0.25,
+      0.5,
+      1
+    ],
+    "directions": [
+      "toward_reference",
+      "away_from_reference"
+    ],
+    "replicates": 5,
+    "rng_namespace": "judges-v03-control-v1",
+    "capability_gate": {
+      "minimum_target_bifolia": 10,
+      "minimum_comparable_fraction": 0.8,
+      "strong_expected_game_accuracy_min": 0.75,
+      "strong_cluster_bootstrap_95_lower_strictly_above": 0.5,
+      "report_all_directions_and_strengths": true,
+      "meaning": "development capability check; not proof of generator equivalence or a statistical multiplicity-adjusted discovery"
+    }
+  },
+  "record_separation": {
+    "predict_accepts_answer_key": false,
+    "predict_accepts_generator_logs": false,
+    "mechanism_audit_output_separate": true,
+    "current_20_bifolia_status": "development_reused_not_fresh_confirmation"
+  }
+}

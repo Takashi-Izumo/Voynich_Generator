@@ -7,6 +7,10 @@ import sys
 
 
 def main(argv=None) -> int:
+    raw = sys.argv[1:] if argv is None else argv
+    if raw and raw[0] == 'v03':
+        from .v03.cli import main as v03_main
+        return v03_main(raw[1:])
     parser = argparse.ArgumentParser(description='Voynich visible-input judge panel (research baseline)')
     sub = parser.add_subparsers(dest='command', required=True)
     p = sub.add_parser('validate', help='validate blind JSONL inputs without scoring')

@@ -1,0 +1,366 @@
+{
+  "schema_version": 2,
+  "protocol_id": "judges-v0.3-v1",
+  "set_id": "toy-case-001",
+  "cluster_id": "toy-bif-001",
+  "seed": 1,
+  "target_slot": 3,
+  "text_profile": "stable22-visible",
+  "input_profile": "structure-endpoints-v2",
+  "known": [
+    {
+      "slot": 0,
+      "layout": {
+        "lines": [
+          {
+            "line_no": 1,
+            "paragraph": 0,
+            "paragraph_line": 1,
+            "paragraph_final": false,
+            "layout_mode": "LINEAR_PARAGRAPH",
+            "whole_line_usable": true,
+            "mapping_exact": true,
+            "source_multiword": true,
+            "mask_reasons": [],
+            "segments": [
+              {
+                "end": "LINE_END",
+                "end_word_known": true,
+                "end_predecessor_known": true
+              }
+            ]
+          },
+          {
+            "line_no": 2,
+            "paragraph": 0,
+            "paragraph_line": 2,
+            "paragraph_final": true,
+            "layout_mode": "LINEAR_PARAGRAPH",
+            "whole_line_usable": true,
+            "mapping_exact": true,
+            "source_multiword": true,
+            "mask_reasons": [],
+            "segments": [
+              {
+                "end": "LINE_END",
+                "end_word_known": true,
+                "end_predecessor_known": true
+              }
+            ]
+          }
+        ]
+      },
+      "observations": {
+        "lines": [
+          {
+            "segments": [
+              {
+                "mode": "FULL",
+                "tokens": [
+                  "qokar",
+                  "daiin"
+                ]
+              }
+            ]
+          },
+          {
+            "segments": [
+              {
+                "mode": "FULL",
+                "tokens": [
+                  "chol",
+                  "dar",
+                  "chey"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "slot": 1,
+      "layout": {
+        "lines": [
+          {
+            "line_no": 1,
+            "paragraph": 0,
+            "paragraph_line": 1,
+            "paragraph_final": false,
+            "layout_mode": "LINEAR_PARAGRAPH",
+            "whole_line_usable": true,
+            "mapping_exact": true,
+            "source_multiword": true,
+            "mask_reasons": [],
+            "segments": [
+              {
+                "end": "LINE_END",
+                "end_word_known": true,
+                "end_predecessor_known": true
+              }
+            ]
+          },
+          {
+            "line_no": 2,
+            "paragraph": 0,
+            "paragraph_line": 2,
+            "paragraph_final": true,
+            "layout_mode": "LINEAR_PARAGRAPH",
+            "whole_line_usable": true,
+            "mapping_exact": true,
+            "source_multiword": true,
+            "mask_reasons": [],
+            "segments": [
+              {
+                "end": "LINE_END",
+                "end_word_known": true,
+                "end_predecessor_known": true
+              }
+            ]
+          }
+        ]
+      },
+      "observations": {
+        "lines": [
+          {
+            "segments": [
+              {
+                "mode": "FULL",
+                "tokens": [
+                  "pchey",
+                  "chol"
+                ]
+              }
+            ]
+          },
+          {
+            "segments": [
+              {
+                "mode": "FULL",
+                "tokens": [
+                  "shol",
+                  "dor",
+                  "daiin"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "slot": 2,
+      "layout": {
+        "lines": [
+          {
+            "line_no": 1,
+            "paragraph": 0,
+            "paragraph_line": 1,
+            "paragraph_final": false,
+            "layout_mode": "LINEAR_PARAGRAPH",
+            "whole_line_usable": true,
+            "mapping_exact": true,
+            "source_multiword": true,
+            "mask_reasons": [],
+            "segments": [
+              {
+                "end": "LINE_END",
+                "end_word_known": true,
+                "end_predecessor_known": true
+              }
+            ]
+          },
+          {
+            "line_no": 2,
+            "paragraph": 0,
+            "paragraph_line": 2,
+            "paragraph_final": true,
+            "layout_mode": "LINEAR_PARAGRAPH",
+            "whole_line_usable": true,
+            "mapping_exact": true,
+            "source_multiword": true,
+            "mask_reasons": [],
+            "segments": [
+              {
+                "end": "LINE_END",
+                "end_word_known": true,
+                "end_predecessor_known": true
+              }
+            ]
+          }
+        ]
+      },
+      "observations": {
+        "lines": [
+          {
+            "segments": [
+              {
+                "mode": "FULL",
+                "tokens": [
+                  "fchedy",
+                  "daiin"
+                ]
+              }
+            ]
+          },
+          {
+            "segments": [
+              {
+                "mode": "FULL",
+                "tokens": [
+                  "qokar",
+                  "dar",
+                  "chol"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "target_layout": {
+    "lines": [
+      {
+        "line_no": 1,
+        "paragraph": 0,
+        "paragraph_line": 1,
+        "paragraph_final": false,
+        "layout_mode": "LINEAR_PARAGRAPH",
+        "whole_line_usable": false,
+        "mapping_exact": true,
+        "source_multiword": true,
+        "mask_reasons": [
+          "UNPARSEABLE_SPAN"
+        ],
+        "segments": [
+          {
+            "end": "LINE_END",
+            "end_word_known": true,
+            "end_predecessor_known": true
+          }
+        ]
+      },
+      {
+        "line_no": 2,
+        "paragraph": 0,
+        "paragraph_line": 2,
+        "paragraph_final": false,
+        "layout_mode": "LINEAR_PARAGRAPH",
+        "whole_line_usable": true,
+        "mapping_exact": true,
+        "source_multiword": true,
+        "mask_reasons": [],
+        "segments": [
+          {
+            "end": "PLANT",
+            "end_word_known": true,
+            "end_predecessor_known": true
+          },
+          {
+            "end": "LINE_END",
+            "end_word_known": true,
+            "end_predecessor_known": true
+          }
+        ]
+      },
+      {
+        "line_no": 3,
+        "paragraph": 0,
+        "paragraph_line": 3,
+        "paragraph_final": true,
+        "layout_mode": "LINEAR_PARAGRAPH",
+        "whole_line_usable": false,
+        "mapping_exact": null,
+        "source_multiword": null,
+        "mask_reasons": [
+          "MISSING_SOURCE_LINE"
+        ],
+        "segments": [
+          {
+            "end": "LINE_END",
+            "end_word_known": false,
+            "end_predecessor_known": false
+          }
+        ]
+      }
+    ]
+  },
+  "candidates": {
+    "A": {
+      "lines": [
+        {
+          "segments": [
+            {
+              "mode": "END_ONLY",
+              "end_word": "daiin"
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "mode": "FULL",
+              "tokens": [
+                "qokar",
+                "dar",
+                "chol"
+              ]
+            },
+            {
+              "mode": "FULL",
+              "tokens": [
+                "shom"
+              ]
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "mode": "NONE"
+            }
+          ]
+        }
+      ]
+    },
+    "B": {
+      "lines": [
+        {
+          "segments": [
+            {
+              "mode": "END_ONLY",
+              "end_word": "chol"
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "mode": "FULL",
+              "tokens": [
+                "qokar",
+                "dor",
+                "chol"
+              ]
+            },
+            {
+              "mode": "FULL",
+              "tokens": [
+                "sho",
+                "da"
+              ]
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "mode": "NONE"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

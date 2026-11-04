@@ -1,0 +1,332 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:voynich:judges:v03:case-v2",
+  "title": "Voynich judges v0.3 contract: anonymous shared-layout case",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "protocol_id",
+    "set_id",
+    "cluster_id",
+    "seed",
+    "target_slot",
+    "text_profile",
+    "input_profile",
+    "known",
+    "target_layout",
+    "candidates"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 2
+    },
+    "protocol_id": {
+      "const": "judges-v0.3-v1"
+    },
+    "set_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "cluster_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "seed": {
+      "type": "integer"
+    },
+    "target_slot": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 3
+    },
+    "text_profile": {
+      "const": "stable22-visible"
+    },
+    "input_profile": {
+      "const": "structure-endpoints-v2"
+    },
+    "known": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "$ref": "#/$defs/reference"
+      }
+    },
+    "target_layout": {
+      "$ref": "#/$defs/layout"
+    },
+    "candidates": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "A",
+        "B"
+      ],
+      "properties": {
+        "A": {
+          "$ref": "#/$defs/observations"
+        },
+        "B": {
+          "$ref": "#/$defs/observations"
+        }
+      }
+    }
+  },
+  "$defs": {
+    "word": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^(?:cfh|ckh|cph|cth|ch|sh|[qpfkotadesilyrmn])+$"
+    },
+    "segmentFrame": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "end",
+        "end_word_known",
+        "end_predecessor_known"
+      ],
+      "properties": {
+        "end": {
+          "enum": [
+            "PLANT",
+            "LINE_END"
+          ]
+        },
+        "end_word_known": {
+          "type": "boolean"
+        },
+        "end_predecessor_known": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        }
+      }
+    },
+    "lineFrame": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "line_no",
+        "paragraph",
+        "paragraph_line",
+        "paragraph_final",
+        "layout_mode",
+        "whole_line_usable",
+        "mapping_exact",
+        "source_multiword",
+        "mask_reasons",
+        "segments"
+      ],
+      "properties": {
+        "line_no": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "paragraph": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "paragraph_line": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "paragraph_final": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "layout_mode": {
+          "enum": [
+            "LINEAR_PARAGRAPH",
+            "OTHER",
+            "UNKNOWN"
+          ]
+        },
+        "whole_line_usable": {
+          "type": "boolean"
+        },
+        "mapping_exact": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "source_multiword": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "mask_reasons": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "UNPARSEABLE_SPAN",
+              "ORDER_MISMATCH",
+              "EMPTY_SEGMENT",
+              "MISSING_SOURCE_LINE",
+              "UNKNOWN_STRUCTURE",
+              "UNCONFIRMED_ENDPOINT",
+              "LEGACY_LAYOUT_EXCEPTION"
+            ]
+          }
+        },
+        "segments": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/segmentFrame"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "layout": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "lines"
+      ],
+      "properties": {
+        "lines": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/lineFrame"
+          }
+        }
+      }
+    },
+    "segmentObservation": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "mode",
+            "tokens"
+          ],
+          "properties": {
+            "mode": {
+              "const": "FULL"
+            },
+            "tokens": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/word"
+              }
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "mode",
+            "end_word"
+          ],
+          "properties": {
+            "mode": {
+              "const": "END_ONLY"
+            },
+            "end_word": {
+              "$ref": "#/$defs/word"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "mode"
+          ],
+          "properties": {
+            "mode": {
+              "const": "NONE"
+            }
+          }
+        }
+      ]
+    },
+    "lineObservation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "segments"
+      ],
+      "properties": {
+        "segments": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/segmentObservation"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "observations": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "lines"
+      ],
+      "properties": {
+        "lines": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/lineObservation"
+          }
+        }
+      }
+    },
+    "reference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "slot",
+        "layout",
+        "observations"
+      ],
+      "properties": {
+        "slot": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3
+        },
+        "layout": {
+          "$ref": "#/$defs/layout"
+        },
+        "observations": {
+          "$ref": "#/$defs/observations"
+        }
+      }
+    }
+  }
+}

@@ -3,6 +3,7 @@ from __future__ import annotations
 from collections import Counter, defaultdict
 from dataclasses import dataclass, field
 from itertools import combinations
+from functools import lru_cache
 
 from .schema import Event, RARE, WIDTH, events
 
@@ -11,6 +12,7 @@ from .schema import Event, RARE, WIDTH, events
 class Feature:
     counts: Counter = field(default_factory=Counter)
     conditional: bool = False
+    events: int | None = None
 
 
 def near(a: tuple, b: tuple) -> bool:
@@ -23,6 +25,24 @@ def near(a: tuple, b: tuple) -> bool:
         a, b = b, a
     i = next((i for i, (x, y) in enumerate(zip(a, b)) if x != y), len(a))
     return a[i:] == b[i+1:]
+
+
+@lru_cache(maxsize=256)
+def _near_index(vocabulary: frozenset):
+    shortened = set()
+    substitutions = set()
+    for word in vocabulary:
+        for i in range(len(word)):
+            shortened.add(word[:i]+word[i+1:])
+            substitutions.add(word[:i]+(None,)+word[i+1:])
+    return shortened, substitutions
+
+
+def near_any(word: tuple, vocabulary: frozenset) -> bool:
+    """Same one-glyph edit relation as near(), indexed without changing exposure."""
+    shortened, substitutions = _near_index(vocabulary)
+    return (word in vocabulary or word in shortened or
+        any(word[:i]+word[i+1:] in vocabulary or word[:i]+(None,)+word[i+1:] in substitutions for i in range(len(word))))
 
 
 def route_features(es: list[Event], refsets: list[set]) -> dict[str, Feature]:
@@ -63,11 +83,11 @@ def route_features(es: list[Event], refsets: list[set]) -> dict[str, Feature]:
             total = sum(c.values())
             for key, value in c.items():
                 counts[key] += value/total/len(nonempty)
-        out[name] = Feature(counts)
+        out[name] = Feature(counts, events=min(int(sum(c.values())) for c in nonempty))
     return out
 
 
-def extract(doc: dict, reference: list[dict], profile: str) -> dict[str, Feature]:
+def extract(doc: dict, reference: list[dict], profile: str, *, event_list=None) -> dict[str, Feature]:
     out: dict[str, Feature] = {}
 
     def add(name, value, weight=1.0):
@@ -86,11 +106,12 @@ def extract(doc: dict, reference: list[dict], profile: str) -> dict[str, Feature
             for i in range(len(g)-n+1):
                 add(name+f'/ng{n}', g[i:i+n])
 
-    es = events(doc)
+    es = events(doc) if event_list is None else event_list
     valid = [e for e in es if e.g]
     refsets = [{e.g for e in events(r) if e.g} for r in reference]
     out.update(route_features(es, refsets))
     reference_pairs = list(combinations(refsets, 2))
+    reference_vocabularies = [frozenset().union(*subset) for subset in reference_pairs]
     capacity_by_seg = {}
     for e in es:
         key = (e.line, e.segment)
@@ -168,9 +189,8 @@ def extract(doc: dict, reference: list[dict], profile: str) -> dict[str, Feature
             add('J18/depth', (min(d, 9), g[d-2] if d >= 2 else 'START', g[d-1] if d else 'START', g[d] if d < len(g) else 'END'))
         add('J18/length_width_joint', (len(g), sum(WIDTH[c] for c in g)))
         # Compare to two reference pages in both candidates and reference LOO views.
-        for subset in reference_pairs:
-            v = set().union(*subset)
-            relation = 'exact' if g in v else 'near' if any(near(g, w) for w in v) else 'novel'
+        for v in reference_vocabularies:
+            relation = 'exact' if g in v else 'near' if near_any(g, v) else 'novel'
             add('J19/relation_to_two', relation, 1/len(reference_pairs))
         if g in last_word:
             add('J20/repeat_distance', min(10, e.line-last_word[g]))
