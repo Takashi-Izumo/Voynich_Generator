@@ -1,0 +1,33 @@
+{
+  "release_name": "HerbalA_v22r_20260917",
+  "release_date": "2026-09-17",
+  "model_id": "HerbalA-v22r",
+  "parent_release": "HerbalA_v21r_PRETERM_SHORTBODY_H2GLOBAL_20260916",
+  "promoted_from": "HerbalA-v21r-PRETERM-SHORTBODY-H2GLOBAL-PARAH1-RUN32",
+  "status": "PROMOTED_PASS_WITH_RESIDUAL",
+  "algorithm_frozen": true,
+  "primary_change": "causal paragraph-local continuous running residual applied to BODY H1 only",
+  "paragraph_h1_lambda": 32.0,
+  "paragraph_h1_decay": null,
+  "fresh_blind_judge": {
+    "seeds": [
+      91701,
+      91702,
+      91703,
+      91704,
+      91705,
+      91706,
+      91707,
+      91708,
+      91709,
+      91710
+    ],
+    "bifolia": 20,
+    "sets": 200,
+    "decision": "PASS_WITH_RESIDUAL"
+  },
+  "known_residuals": [
+    "global bigram residual remains significant",
+    "terminal 15/5 leaf wins; unchanged from parent"
+  ]
+}

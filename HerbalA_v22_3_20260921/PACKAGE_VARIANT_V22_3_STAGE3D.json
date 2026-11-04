@@ -1,0 +1,11 @@
+{
+  "package_variant": "V22_3_STAGE3D_R1_CANDIDATE",
+  "self_contained": true,
+  "parent_preserved": "HerbalA-v22.2",
+  "new_runtime_entrypoint": "run_v22_3_stage3d.py",
+  "new_validator": "validate_v22_3_stage3d.py",
+  "live_generation_run": false,
+  "promotion": false,
+  "notes": "Stage 3D only. Stage 3E/3F must pass before HerbalA-v22.3 promotion.",
+  "route_fix": "commit_word=v22.2 base_child; commit_surface=Stage3D final_child"
+}

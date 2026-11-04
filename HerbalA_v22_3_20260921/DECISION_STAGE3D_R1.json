@@ -1,0 +1,34 @@
+{
+  "decision": "STAGE3D_R1_FIXED_REAUDITED_PASS_WITH_PROVENANCE_BLOCK",
+  "model_id": "HerbalA-v22.3-STAGE3D-R1-CANDIDATE",
+  "parent_model_id": "HerbalA-v22.2",
+  "route_leakage_fix": "PASS",
+  "targeted_leakage_case_route_trace_exact": true,
+  "stage3d_static_logical": "PASS_21_OF_21",
+  "stage3e_runtime": "PASS_910_OF_910",
+  "stage3f_live_paired": {
+    "status": "PASS",
+    "mechanical_checks": 410379,
+    "failures": 0,
+    "route_rng_exact_bifolia": 20
+  },
+  "stage3g_full_regression": {
+    "status": "PASS_WITH_RESIDUAL_AND_PROVENANCE_BLOCK",
+    "paired_bifolium_runs": 200,
+    "mechanical_checks": 4120232,
+    "failures": 0,
+    "route_trace_exact_runs": 200,
+    "route_final_state_exact_runs": 200,
+    "BH_significant_regressions": 0
+  },
+  "safe_fallbacks": {
+    "count": 2,
+    "loci": [
+      "f53v f53v.1",
+      "f7v f7v.6"
+    ]
+  },
+  "promotion": false,
+  "current_stable_parent": "HerbalA-v22.2",
+  "promotion_blocker": "Legacy Stage1/2 component artifact/source-law alignment unresolved"
+}

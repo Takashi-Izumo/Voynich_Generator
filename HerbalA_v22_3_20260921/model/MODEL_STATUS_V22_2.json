@@ -1,0 +1,56 @@
+{
+  "model_id": "HerbalA-v22.2",
+  "status": "PROMOTED_PASS_WITH_RESIDUAL",
+  "implementation_date": "2026-09-20",
+  "parent": "HerbalA-v22r-W2B2",
+  "implementation": "NORMAL_F1LF_ROUTE_ROUTER_OFF",
+  "scope": "FIRST x physical-LF x role=F1 x segment_id=0 x non-paragraph-final",
+  "behavior": {
+    "parent_request_path": "unchanged through acceptance",
+    "route_neutral_target": "softmax(parent candidate score minus route score)",
+    "selection": "maximal coupling using request-local SHA-256 side stream",
+    "candidate_bank": "unchanged parent bank",
+    "candidate_legality": "unchanged",
+    "current_request_proposal_retry_clock": "parent-exact",
+    "glyph_length": "same as accepted parent bank",
+    "physical_width": "same as accepted parent bank",
+    "packing": "unchanged",
+    "route_state_commit": "normal commit of the route-neutral child after acceptance",
+    "parent_rng": "untouched by v22.2 side selection"
+  },
+  "excluded_from_scope": [
+    "plant-restart BODY segment_id>0",
+    "paragraph-final/single-line FIRST",
+    "MIDDLE LF",
+    "W2/BODY/non-LF positions"
+  ],
+  "not_included": [
+    "S_LF terminal prior",
+    "BODY terminal row",
+    "terminal post-commit correction",
+    "sibling-word replacement",
+    "preterminal correction",
+    "plant-restart BODY correction"
+  ],
+  "judge": {
+    "run": true,
+    "status": "PASS_WITH_RESIDUAL",
+    "date": "2026-09-20",
+    "fresh_seeds": [
+      92001,
+      92002,
+      92003,
+      92004,
+      92005,
+      92006,
+      92007,
+      92008,
+      92009,
+      92011
+    ],
+    "formal_unit": "20 bifolia",
+    "descriptive_sets": 200,
+    "decision_file": "validation/v22_2_fresh200/DECISION.json"
+  },
+  "next_step": "v22.2 is promoted; remaining F1-LF terminal-family and global bigram/route56 residuals stay separate."
+}

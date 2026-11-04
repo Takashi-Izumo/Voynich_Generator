@@ -1,0 +1,13 @@
+locus,segment_id,capacity,used,words,exact
+f7v.1,0,56,56,8,True
+f7v.2,0,49,49,9,True
+f7v.3,0,60,60,11,True
+f7v.4,0,43,43,6,True
+f7v.5,0,31,31,6,True
+f7v.6,0,54,54,8,True
+f7v.7,0,16,16,3,True
+f7v.7,1,16,16,3,True
+f7v.8,0,36,36,7,True
+f7v.8,1,15,15,3,True
+f7v.9,0,36,36,6,True
+f7v.9,1,9,9,1,True

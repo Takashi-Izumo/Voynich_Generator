@@ -1,0 +1,59 @@
+{
+  "model_id": "HerbalA-v22.3-STAGE3D-R1-CANDIDATE",
+  "parent_model_id": "HerbalA-v22.2",
+  "status": "STAGE3D_R1_ROUTE_NEUTRAL_COMMIT_FIX",
+  "enabled": true,
+  "terminal_source_tau": 20.0,
+  "strict_scope": {
+    "row_phase": "FIRST",
+    "physical_final": true,
+    "segment_id": 0,
+    "role": "F1",
+    "plant_restart": false,
+    "plant_boundary": false,
+    "paragraph_line_count_min_exclusive": 1,
+    "line_word_count_min_exclusive": 1,
+    "layout_mode": "linear_paragraph",
+    "mapping_quality": "EXACT_W_SEQUENCE",
+    "width_known": true,
+    "expected_terminal_events": 88,
+    "expected_complete_bifolia": 20
+  },
+  "selector": {
+    "short": "L<=3 -> normal middle-LF terminal law",
+    "long": "L>=4 -> F1 terminal law + normal middle-LF P(l)",
+    "long_formula": "Pnew(l)=PLF(l); Pnew(g!=l)=PF1(g)*(1-PLF(l))/(1-PF1(l))",
+    "stop": "parent v22.2 unchanged",
+    "y_bias": false,
+    "n_bias": false,
+    "S_LF": false,
+    "post_hoc_terminal_rewrite": false
+  },
+  "frozen_mechanics": [
+    "glyph length",
+    "physical width",
+    "line capacity",
+    "segment capacity",
+    "remaining width",
+    "packing",
+    "SPACE",
+    "carry",
+    "retry",
+    "paragraph structure",
+    "plant boundary handling",
+    "route mechanism",
+    "candidate bank",
+    "frequency machinery",
+    "types/hapax machinery"
+  ],
+  "source_law_provenance": {
+    "status": "CURRENT_TL_RECONSTRUCTION_PRIOR_STAGE1_TABLE_NOT_MOUNTED",
+    "reference_full_source_counts": {
+      "A_F1": 490,
+      "B_BODY": 1312,
+      "C_MID_LF": 460
+    },
+    "formal_promotion_requires_reconciliation": true
+  },
+  "route_commit_policy": "commit_word uses exact v22.2 base_child; commit_surface materializes Stage3D final_child and prev_terminal"
+}

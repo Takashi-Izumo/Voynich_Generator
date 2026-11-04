@@ -1,0 +1,13 @@
+{
+  "release_name": "HerbalA_v22_3_20260921",
+  "release_date": "2026-09-21",
+  "model_id": "HerbalA-v22.3",
+  "implementation_id": "HerbalA-v22.3-STAGE3D-R1-CANDIDATE",
+  "parent_model_id": "HerbalA-v22.2",
+  "status": "PROMOTED_PASS_WITH_RESIDUAL",
+  "promotion_policy": "DECISION_LEVEL_REPRODUCTION_PLUS_CURRENT_LAW_FREEZE",
+  "law_data_sha256": "65a166a1235c17e97b0b4dce64d3bff47c1ae692250ec2534601f88d217d3d2e",
+  "law_plus_interpreter_sha256": "2e7df79abfbe4f954d34b1966054cfc49476b7d04b955a43b5b956b65a1ab4ab",
+  "audited_executable_unchanged": true,
+  "judged": "2026-09-21"
+}

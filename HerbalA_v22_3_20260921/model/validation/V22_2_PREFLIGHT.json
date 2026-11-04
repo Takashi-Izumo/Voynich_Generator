@@ -1,0 +1,9 @@
+{
+  "model_id": "HerbalA-v22.2",
+  "compile": "PASS",
+  "scope_truth_table": "PASS",
+  "parent": "HerbalA-v22r-W2B2",
+  "judge_scores_run": true,
+  "judge_status": "PASS_WITH_RESIDUAL",
+  "status": "PROMOTED_PASS_WITH_RESIDUAL"
+}

@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "context": {
+    "H1": 0,
+    "W": 4,
+    "T": 0,
+    "row_phase": "MIDDLE"
+  },
+  "candidate_count": 1344,
+  "selected": "qoar",
+  "selected_index": 105,
+  "checks": {
+    "H1_fixed": true,
+    "glyph_length_4": true,
+    "W_fixed": true,
+    "H4_width_1": true,
+    "LEFT_legal": true,
+    "RIGHT_unused_by_component": true,
+    "probability_finite": true,
+    "probability_normalized": true,
+    "candidate_count_positive": true,
+    "selection_digest": true
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "checks": {
+    "noop_rows_20_20": true,
+    "noop_commits_20_20": true,
+    "packing_20_20": true,
+    "support_zero": true,
+    "invalid_zero": true,
+    "intervention_events_positive": true,
+    "actual_changes_positive": true,
+    "trace_scope_body": true,
+    "trace_lengths_2_4": true
+  },
+  "events": 354,
+  "changes": 24,
+  "changed_bifolia": 15,
+  "blind_judge_run": false
+}

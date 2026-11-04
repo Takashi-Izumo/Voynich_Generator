@@ -1,0 +1,105 @@
+{
+  "model_id": "HerbalA-v22r",
+  "status": "PROMOTED_PASS_WITH_RESIDUAL",
+  "promotion_date": "2026-09-17",
+  "parent": "HerbalA-v21r-PRETERM-SHORTBODY-H2GLOBAL",
+  "frozen_implementation": "PARAH1-RUN32",
+  "state_model": {
+    "type": "continuous_running_residual",
+    "lambda": 32.0,
+    "decay": null,
+    "reset": "paragraph_boundary",
+    "scope": "BODY stable length>=2; para line>=2; not paragraph-final; not segment-final"
+  },
+  "fresh_200_judge": {
+    "seeds": [
+      91701,
+      91702,
+      91703,
+      91704,
+      91705,
+      91706,
+      91707,
+      91708,
+      91709,
+      91710
+    ],
+    "formal_units": 20,
+    "generated_sets": 200,
+    "decision": "PASS_WITH_RESIDUAL",
+    "combined": {
+      "real": 7,
+      "generated": 13,
+      "binom_p": 0.263176,
+      "signflip_p": 0.15237
+    },
+    "bigram": {
+      "real": 4,
+      "generated": 16,
+      "mean_margin": -0.0237126826011768,
+      "signflip_p": 0.0028152465820312,
+      "parent_margin": -0.0242482661905344,
+      "shrink_pct": 2.21
+    },
+    "trigram": {
+      "real": 7,
+      "generated": 13,
+      "mean_margin": -0.0079141871915221,
+      "parent_margin": -0.0081061129350204
+    },
+    "H1": {
+      "real": 9,
+      "generated": 11,
+      "mean_margin": -0.009041,
+      "parent_margin": -0.011995,
+      "paired_corrected_leaves": "20/20",
+      "paired_p": 2e-06
+    },
+    "H1H2": {
+      "real": 6,
+      "generated": 14,
+      "mean_margin": -0.021823,
+      "parent_real": 5,
+      "parent_generated": 15,
+      "parent_margin": -0.024924,
+      "paired_corrected_leaves": "17/20",
+      "paired_p": 0.000261
+    },
+    "terminal": {
+      "real": 15,
+      "generated": 5,
+      "binom_p": 0.041389,
+      "signflip_p": 0.29546,
+      "parent_unchanged": true
+    },
+    "bT": {
+      "real": 13,
+      "generated": 7,
+      "parent_unchanged_effectively": true
+    },
+    "LF": {
+      "real": 9,
+      "generated": 11,
+      "parent_unchanged": true
+    }
+  },
+  "mechanical_fresh_200": {
+    "packing": "200/200 PASS",
+    "support_violations": 0,
+    "invalid_rows": 0,
+    "segment_retries": 0,
+    "h1_changes": 136,
+    "pages_with_h1_change": 92,
+    "bifolia_with_h1_change": "20/20",
+    "all_diffs_h1_only": true,
+    "route_state_equal": "200/200",
+    "parent_rng_untouched": true
+  },
+  "known_residuals": {
+    "global_bigram": "significant; 4/16 real/generated, sign-flip p=0.002815; signed margin shrank 2.21% versus parent",
+    "terminal": "15/5 real/generated, binomial p=0.041389; margin sign-flip p=0.295460; exactly unchanged from parent",
+    "ng": "8/12 with sign-flip p=0.037697; inherited weak residual",
+    "route56": "7/13; essentially unchanged from parent"
+  },
+  "next_priority": "terminal residual decomposition and remaining global bigram residual; v22r parameters frozen"
+}

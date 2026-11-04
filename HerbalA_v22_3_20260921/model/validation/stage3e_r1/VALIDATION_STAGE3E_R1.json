@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "stage": "3E_R1_RUNTIME",
+  "model_id": "HerbalA-v22.3-STAGE3D-R1-CANDIDATE",
+  "checks_passed": 910,
+  "checks_failed": 0,
+  "strict_events": 88,
+  "strict_bifolia": 20,
+  "max_errors": {
+    "probability_sum_error": 2.220446049250313e-16,
+    "l_inheritance_error": 4.163336342344337e-17,
+    "non_l_ratio_error": 1.1102230246251565e-16,
+    "y_n_ratio_error": 4.440892098500626e-16,
+    "support_changes": 0
+  },
+  "route_commit_policy": "v22.2 base_child",
+  "surface_terminal_policy": "Stage3D final_child",
+  "promotion": false
+}

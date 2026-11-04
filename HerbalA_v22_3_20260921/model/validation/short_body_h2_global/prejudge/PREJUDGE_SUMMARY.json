@@ -1,0 +1,23 @@
+{
+  "status": "PASS_PREJUDGE",
+  "blind_judge_run": false,
+  "seed": 91601,
+  "bifolia": 20,
+  "noop_generated_rows_hash_match": "20/20",
+  "noop_surface_commits_hash_match": "20/20",
+  "intervention_opportunities": 354,
+  "actual_h2_changes": 24,
+  "changed_bifolia": 15,
+  "packing_exact": "20/20",
+  "support_violations": 0,
+  "invalid_rows": 0,
+  "invariants": [
+    "H1 frozen",
+    "H3+ frozen",
+    "exact length frozen",
+    "H2 physical glyph width frozen",
+    "total physical word width frozen",
+    "parent RNG untouched",
+    "semantic state untouched"
+  ]
+}

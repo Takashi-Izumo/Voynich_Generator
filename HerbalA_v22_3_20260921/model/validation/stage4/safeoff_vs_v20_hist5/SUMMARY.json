@@ -1,0 +1,60 @@
+{
+  "cases": 100,
+  "status": "PASS",
+  "left_mechanical": {
+    "arm": "LEFT",
+    "events": 540,
+    "changed": 170,
+    "fallback": 4,
+    "pool": 8611,
+    "eligible": 6966,
+    "eligible_per_event": 12.9,
+    "changed_rate": 0.3148148148148148,
+    "right_off_events": 540,
+    "support": 0,
+    "invalid": 0,
+    "packing": true
+  },
+  "both_vs_left": [
+    {
+      "reference": "BOTH",
+      "judge": "H2_RAW",
+      "arm": "LEFT",
+      "improvement": -0.0007181222235085044,
+      "wins": 7,
+      "losses": 11,
+      "ties": 2,
+      "p": 0.5861803873075235
+    },
+    {
+      "reference": "BOTH",
+      "judge": "bigram",
+      "arm": "LEFT",
+      "improvement": 0.002106310165308544,
+      "wins": 13,
+      "losses": 5,
+      "ties": 2,
+      "p": 0.07776744228559361
+    },
+    {
+      "reference": "BOTH",
+      "judge": "ng",
+      "arm": "LEFT",
+      "improvement": 0.0001781235486219993,
+      "wins": 10,
+      "losses": 8,
+      "ties": 2,
+      "p": 0.6790730414946473
+    },
+    {
+      "reference": "BOTH",
+      "judge": "trigram",
+      "arm": "LEFT",
+      "improvement": -0.0009695698405025056,
+      "wins": 8,
+      "losses": 10,
+      "ties": 2,
+      "p": 0.7771175732880233
+    }
+  ]
+}

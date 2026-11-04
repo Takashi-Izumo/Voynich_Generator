@@ -1,0 +1,128 @@
+{
+  "observed": {
+    "tokens": 1581,
+    "types": 696,
+    "hapax": 510,
+    "F2": 71,
+    "F3_5": 70,
+    "F6_10": 27,
+    "F11p": 18,
+    "ngram2_events": 4718,
+    "ngram3_events": 3223,
+    "ngram4_events": 1936,
+    "ngram5_events": 1001,
+    "ngram6_events": 382
+  },
+  "parent": {
+    "tokens": 1570,
+    "types": 601,
+    "hapax": 406,
+    "F2": 77,
+    "F3_5": 66,
+    "F6_10": 27,
+    "F11p": 25,
+    "ngram2_events": 4677,
+    "ngram3_events": 3175,
+    "ngram4_events": 1874,
+    "ngram5_events": 957,
+    "ngram6_events": 374,
+    "jsd_ngram2_to_observed": 0.021988930743868533,
+    "jsd_ngram3_to_observed": 0.0907973700899737,
+    "jsd_ngram4_to_observed": 0.23761174798154117,
+    "jsd_ngram5_to_observed": 0.39736602653019315,
+    "jsd_ngram6_to_observed": 0.5854313106537359
+  },
+  "candidate": {
+    "tokens": 1570,
+    "types": 604,
+    "hapax": 409,
+    "F2": 77,
+    "F3_5": 66,
+    "F6_10": 28,
+    "F11p": 24,
+    "ngram2_events": 4677,
+    "ngram3_events": 3175,
+    "ngram4_events": 1874,
+    "ngram5_events": 957,
+    "ngram6_events": 374,
+    "jsd_ngram2_to_observed": 0.021638567526546387,
+    "jsd_ngram2_vs_parent": 0.0006257302926028151,
+    "jsd_ngram3_to_observed": 0.09099384199258695,
+    "jsd_ngram3_vs_parent": 0.0013110205939475543,
+    "jsd_ngram4_to_observed": 0.24003495140898723,
+    "jsd_ngram4_vs_parent": 0.0032986656623100337,
+    "jsd_ngram5_to_observed": 0.3982858105244063,
+    "jsd_ngram5_vs_parent": 0.0020570742833157544,
+    "jsd_ngram6_to_observed": 0.5854313106537359,
+    "jsd_ngram6_vs_parent": 0.0053475935828877
+  },
+  "base_terminal_live_counts": {
+    "n": 3,
+    "OTHER": 3,
+    "l": 1,
+    "y": 6,
+    "r": 3
+  },
+  "base_terminal_NMY_LR": 2.25,
+  "final_terminal_live_counts": {
+    "r": 5,
+    "l": 4,
+    "n": 2,
+    "m": 1,
+    "OTHER": 2,
+    "y": 2
+  },
+  "final_terminal_NMY_LR": 0.5555555555555556,
+  "teacher_forced": {
+    "events": 88,
+    "bifolia": 20,
+    "baseL_nll_bits_per_terminal": 2.2660903939451966,
+    "candidate_nll_bits_per_terminal": 2.2276233696198955,
+    "improvement_bits_per_terminal": 0.03846702432530031,
+    "long_improvement_bits_per_terminal": 0.06770196281252855,
+    "bifolia_improved": 18,
+    "exact_signflip_p_one_sided": 0.007533073425292969
+  },
+  "terminal_category_88": {
+    "observed": {
+      "y": 40,
+      "OTHER": 10,
+      "n": 20,
+      "m": 4,
+      "r": 9,
+      "l": 5
+    },
+    "baseL_expected": {
+      "OTHER": 10.953465691934241,
+      "l": 12.989903577725743,
+      "y": 33.264200748076895,
+      "r": 9.748283764210775,
+      "m": 5.724275681751201,
+      "n": 15.31987053630112
+    },
+    "candidate_expected": {
+      "OTHER": 11.194549408863095,
+      "l": 9.953599540735736,
+      "y": 34.63354584491501,
+      "r": 10.169426934638127,
+      "m": 5.788129352872205,
+      "n": 16.26074891797579
+    },
+    "observed_NMY_LR": 4.571428571428571,
+    "baseL_expected_NMY_LR": 2.3884202442983304,
+    "candidate_expected_NMY_LR": 2.8167941927189615
+  },
+  "live": {
+    "bifolia": 20,
+    "parent_tokens": 1570,
+    "candidate_tokens": 1570,
+    "token_surface_diffs": 13,
+    "strict_requests": 18,
+    "stage3d_applied": 16,
+    "stage3d_changed": 13,
+    "bifolia_with_any_surface_diff": 12,
+    "bifolia_hash_identical": 8,
+    "checks_total": 410379,
+    "failures": 0
+  }
+}

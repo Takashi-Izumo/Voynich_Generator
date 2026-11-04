@@ -1,0 +1,37 @@
+{
+  "status": "COMPLETE",
+  "target": "short BODY initial H1->H2",
+  "primary_conclusion": "H1_MARGINAL_PREDICTABLE_BUT_H2_GIVEN_H1_NOT_PREDICTABLE_FROM_KNOWN3",
+  "all_four_rotations": 80,
+  "leaf_clusters": 20,
+  "H1_marginal_shrink": {
+    "delta_bits_per_token": -0.04568667382607452,
+    "better_leaves": 14,
+    "p_one_sided": 0.009616851806640625,
+    "lambda": 128,
+    "effective_known3_weight_mean": 0.3645429037903069
+  },
+  "joint_bigram_shrink": {
+    "delta_bits_per_token": -0.0182172550011744,
+    "better_leaves": 14,
+    "p_one_sided": 0.0242204666137695,
+    "lambda_outer_counts": {
+      "256": 9,
+      "512": 11
+    },
+    "effective_known3_weight_mean": 0.169298
+  },
+  "conditional_H2_given_H1_shrink": {
+    "delta_bits_per_token": -0.0034475770677704,
+    "better_leaves": 11,
+    "p_one_sided": 0.1841382980346679,
+    "lambda": 128,
+    "effective_known3_weight_event_mean": 0.08492748760172172
+  },
+  "direct_known3_conditional": {
+    "delta_bits_per_token": 0.7970553007409922,
+    "leaves_global_better": 20
+  },
+  "fixed_fourth_conditional_shrink_delta_bits": -0.0015287853350541,
+  "interpretation": "Known-3 carries leaf signal mainly in H1 marginal. The H1->H2 conditional transition is not reliably inferable from the other three surfaces. Copying known-3 conditional bigram rates therefore overfits."
+}

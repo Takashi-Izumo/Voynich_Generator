@@ -1,0 +1,80 @@
+{
+  "date": "2026-09-17",
+  "model": "v22r + B2 minimal W2 H2 patch",
+  "status": "PASS_WITH_RESIDUAL",
+  "scope": "MIDDLE x W2 x stable length 3-5 x H2 only; W2POS at H2; external OFF; known3 tau=128",
+  "fresh_seeds": [
+    91701,
+    91702,
+    91703,
+    91704,
+    91705,
+    91706,
+    91707,
+    91708,
+    91709,
+    91710
+  ],
+  "formal_unit": "20 bifolia",
+  "descriptive_sets": 200,
+  "targeted_w2": {
+    "H2_given_H1_all_parent_margin": -0.2066484068434694,
+    "H2_given_H1_all_child_margin": -0.1708279769293555,
+    "H2_given_H1_all_parent_signflip_p": 0.0282554626464843,
+    "H2_given_H1_all_child_signflip_p": 0.0630817413330078,
+    "paired_delta": 0.0358204299141139,
+    "paired_wilcoxon_greater_p": 2.6702880859375e-05,
+    "positive_leaves": 17,
+    "negative_leaves": 1,
+    "len3_5_child_margin": -0.2809903861560721,
+    "len3_5_child_signflip_p": 0.0085124969482421
+  },
+  "global": {
+    "bigram_parent_margin": -0.0237126826011768,
+    "bigram_child_margin": -0.0235509941870313,
+    "bigram_parent_wins": [
+      4,
+      16
+    ],
+    "bigram_child_wins": [
+      4,
+      16
+    ],
+    "bigram_child_signflip_p": 0.0030708312988281,
+    "bigram_paired_delta": 0.0001616884141455,
+    "bigram_paired_p_greater": 0.3198471069335937,
+    "trigram_parent_margin": -0.0079141871915221,
+    "trigram_child_margin": -0.0082059982305887,
+    "trigram_child_wins": [
+      6,
+      14
+    ],
+    "trigram_paired_delta": -0.0002918110390666,
+    "trigram_paired_p_less": 0.3198471069335937,
+    "combined_parent_margin": -0.0107504613670404,
+    "combined_child_margin": -0.0106638916576552,
+    "combined_child_wins": [
+      7,
+      13
+    ]
+  },
+  "mechanical": {
+    "cases": 200,
+    "packing_exact_all": true,
+    "support_violations": 0,
+    "invalid_rows": 0,
+    "segment_retries": 0,
+    "b2_applied": 1793,
+    "b2_changed_words": 81,
+    "pages_with_change": 55,
+    "bifolia_with_change": 20
+  },
+  "judgment": {
+    "w2_target_pass": true,
+    "mechanical_pass": true,
+    "global_bigram_closed": false,
+    "trigram_material_worsening_detected": false,
+    "promote_as_w2_fix": true,
+    "do_not_claim_global_bigram_resolution": true
+  }
+}

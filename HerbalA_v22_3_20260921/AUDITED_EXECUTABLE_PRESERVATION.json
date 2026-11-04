@@ -1,0 +1,212 @@
+{
+  "status": "PASS",
+  "preexisting_model_code_files": 41,
+  "byte_identical": 41,
+  "files": [
+    {
+      "file": "build_paragraph_h1_baseline.py",
+      "same": true,
+      "sha256": "9cc939ac1a2cb85ba1a8ef670e0c0e2e212392c25dc4bb7ff4176e763e3c77fb"
+    },
+    {
+      "file": "build_v21_stage3_tables.py",
+      "same": true,
+      "sha256": "c38a45358a6556c2acc82494ae4afab897d94a79b4821593dce12b83fd75703b"
+    },
+    {
+      "file": "build_v22_3_stage3d_tables.py",
+      "same": true,
+      "sha256": "f3e2680bae5a787a2220c575cf5863559645f1339b017fe56a1482c90ccc22da"
+    },
+    {
+      "file": "f1lf_length_terminal_law.py",
+      "same": true,
+      "sha256": "86f037373c6eafb0204e75fdbfc43e5b6156b498d848ed4ab1dfd7484b6e6376"
+    },
+    {
+      "file": "f1lf_length_terminal_sampler.py",
+      "same": true,
+      "sha256": "5ae04eaf27922af4320bf3bd5ca7d580e4b47ffa585bedac2cf8e9d496671f72"
+    },
+    {
+      "file": "f1lf_router_off_sampler.py",
+      "same": true,
+      "sha256": "75b0c718cf707b6f3de08f528efafd88c03e79b0ab5f0df96d95abe45e98a648"
+    },
+    {
+      "file": "integrated_sampler.py",
+      "same": true,
+      "sha256": "d87a23847e075743484efd099a6884e576c2b34b280e967393bb29298f1cef65"
+    },
+    {
+      "file": "integrated_sampler_v21.py",
+      "same": true,
+      "sha256": "89adbc89c2d13fca2ffab751efd2d2f1347f9f705b7fe31d82f18c8af528898e"
+    },
+    {
+      "file": "paragraph_h1_sampler.py",
+      "same": true,
+      "sha256": "884ce14697886e7a31699e9cd073ad16aee28eb5d10cbf494f53d0785f145f03"
+    },
+    {
+      "file": "paragraph_h1_state.py",
+      "same": true,
+      "sha256": "618bb49868058dbbfa037fe9ddffc0c1311e3524a0c0cde4c24834152b8a4b67"
+    },
+    {
+      "file": "preterm_sampler.py",
+      "same": true,
+      "sha256": "b10bc4f05361e4a283e9d2ace9870176847957589c4f1651ddde16ab2259ee4b"
+    },
+    {
+      "file": "run_all_folds.py",
+      "same": true,
+      "sha256": "bbe770f346d7579c4daa0e45e630131a38574ed6208db8096b79ec223a135127"
+    },
+    {
+      "file": "run_all_folds_v21.py",
+      "same": true,
+      "sha256": "f652dd91bc105ada2678cc5415e09db4d9c51139fddd9693e694852b3182070b"
+    },
+    {
+      "file": "run_model.py",
+      "same": true,
+      "sha256": "10131dd00932e80fd392040099f56f34892414a9b7133912de98ea73561c987b"
+    },
+    {
+      "file": "run_model_paragraph_h1.py",
+      "same": true,
+      "sha256": "3b6bb08f8305b42ef8f703fd5a4acad0a42282f5ec55f2a1fdd3fc6ce5023a31"
+    },
+    {
+      "file": "run_model_preterm.py",
+      "same": true,
+      "sha256": "8462f05625aa93528bfd6c6621ab24c2524908bee8ece397086fb0914cb2af20"
+    },
+    {
+      "file": "run_model_v21.py",
+      "same": true,
+      "sha256": "33766ad6722c9b6c82589668aa94ea13bd3b9b7f08ba7f5b38048839e045bcaf"
+    },
+    {
+      "file": "run_preterm_modes.py",
+      "same": true,
+      "sha256": "b6ded5e5a2ca1a2a5705fc9a4927ae098166bed9b4df37416d0300f422a6ff77"
+    },
+    {
+      "file": "run_stage4_modes.py",
+      "same": true,
+      "sha256": "7372ae59b07c02bd7c37b888320eceb9790d3993b231b3077f9aa10d9e8924c7"
+    },
+    {
+      "file": "run_v22_2.py",
+      "same": true,
+      "sha256": "f5d171e382eb7d5060807a7732dcb90f84b3f8812a7bf6632ef21f64ae6c0123"
+    },
+    {
+      "file": "run_v22_3_stage3d.py",
+      "same": true,
+      "sha256": "57561f3c70ad278ca52b4822eca6d77ed37325189ee618c9aaf41f29d8790d7f"
+    },
+    {
+      "file": "run_v22r.py",
+      "same": true,
+      "sha256": "a9b967163ed37e35ca2741ea7fcc5b46a752d075f456604c0f45de184fd1f7e9"
+    },
+    {
+      "file": "run_v22r_w2b2.py",
+      "same": true,
+      "sha256": "66b80b3e12b40b49f892d9181e449468be6fd8f7c992a21239970ec2e898f7a1"
+    },
+    {
+      "file": "runtime_bootstrap.py",
+      "same": true,
+      "sha256": "f9c6cd871f039b52d65f2b243c202a5054055072f58ced295edb21372b526fc4"
+    },
+    {
+      "file": "short_body_h2_sampler.py",
+      "same": true,
+      "sha256": "1f7bd6de99ad63c0f25f735295d27390e320a61f71c50d3f429932287a3ea867"
+    },
+    {
+      "file": "validate_integration.py",
+      "same": true,
+      "sha256": "5ca7aebcf9d124f6d752a8b995d5598be12aeeb4608267a98401465c6559002a"
+    },
+    {
+      "file": "validate_paragraph_h1_running.py",
+      "same": true,
+      "sha256": "2b2d1f3ef642d93c7fe622eb40270dbb7a6b428ef25635e49af7f9b1e955a5b0"
+    },
+    {
+      "file": "validate_short_body_h2_global.py",
+      "same": true,
+      "sha256": "8cd08ff622ff5109aefc4435068037980b954039e3ffa118fded20a0b12bd0d0"
+    },
+    {
+      "file": "validate_v21_stage1.py",
+      "same": true,
+      "sha256": "1544b0da9399c78fe7f2968898aeae28aa345dc0b0e8421219df9b23f70df52e"
+    },
+    {
+      "file": "validate_v21_stage2.py",
+      "same": true,
+      "sha256": "1b2af558ac2fe085e1fc17f038bdec695e1fa2af2eda8159c53dc43170c3faad"
+    },
+    {
+      "file": "validate_v21_stage3.py",
+      "same": true,
+      "sha256": "25be2dbfe06785e114952ba12693163242a7860e927c603f84b5f0a59a13b75f"
+    },
+    {
+      "file": "validate_v21_stage4_synthetic.py",
+      "same": true,
+      "sha256": "e29a2ae3fe048d1405815e8d79c7e7f78672d9cad8e036cd14e21bf0588cd413"
+    },
+    {
+      "file": "validate_v22_2.py",
+      "same": true,
+      "sha256": "0e6e5597d97f6a279d4a10af54124813b9c3a29bd0e8d02a1b71f14ae5798ea3"
+    },
+    {
+      "file": "validate_v22_3_stage3d.py",
+      "same": true,
+      "sha256": "a8dcc9e997a445a0706e56d35854ca2283d77afb38af44a825da5aa82c190f96"
+    },
+    {
+      "file": "validate_v22r.py",
+      "same": true,
+      "sha256": "1d143823c887a7c7e99599a835bdb1e1f6110a5a077ae8fb7fcf3aba4934b221"
+    },
+    {
+      "file": "validate_w2_b2.py",
+      "same": true,
+      "sha256": "19dd4071942096dc8c2775d09e95f7a7020e82ca4e18cf6967d31f30b1d11cf6"
+    },
+    {
+      "file": "verify_release_sources.py",
+      "same": true,
+      "sha256": "898c92671040b8f04036435f92801caaf0c6b9d740cf7cb6c8a0fecb5083beae"
+    },
+    {
+      "file": "w2_b2_sampler.py",
+      "same": true,
+      "sha256": "8051fcb727c51b528a39c939f338ae03696fb8a124f36828840d2c37bd5b0dcc"
+    },
+    {
+      "file": "w2_sibling_generator.py",
+      "same": true,
+      "sha256": "d8d0405dffffdb604857e74ba899e597adeeb28e303ff9ea9e579e154b161a2a"
+    },
+    {
+      "file": "w2_slot_generator.py",
+      "same": true,
+      "sha256": "85576ffe48c714552e2e1edc99142f7a519746c291f7adaa0f342bca40c3f1b5"
+    },
+    {
+      "file": "w2_slot_tables.py",
+      "same": true,
+      "sha256": "bde30cc4887f8f771a7df838504f9206d4d5572e091e29fdd0518658b712d209"
+    }
+  ]
+}

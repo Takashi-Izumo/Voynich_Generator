@@ -1,0 +1,36 @@
+{
+  "model_id": "HerbalA-v21r-PRETERM-SHORTBODY-H2GLOBAL",
+  "parent_model": "HerbalA-v21r-PRETERM-QMAP9",
+  "status": "IMPLEMENTED_PREJUDGE_NOT_JUDGED",
+  "scope": {
+    "role": "BODY",
+    "board": "BODY",
+    "end": false,
+    "glyph_length_min": 2,
+    "glyph_length_max": 4,
+    "h1_frozen": true,
+    "h3_plus_frozen": true,
+    "h2_glyph_width_frozen": true,
+    "physical_word_width_frozen": true,
+    "exact_length_frozen": true
+  },
+  "intervention": {
+    "target": "P(H2|H1) short BODY known-3 residual only",
+    "known3_strength": 0.0,
+    "external_pure_a_residual_retained": true,
+    "external_pseudocount": 16.0,
+    "target_leaf_known3_residual_disabled": true,
+    "route_memory_retained": true,
+    "body_r4_retained": true,
+    "bt_terminal_calibration_retained": true,
+    "preterm_qmap9_retained": true,
+    "selection": "request-local maximal coupling",
+    "rng_namespace": "V21_SHORT_BODY_H2_EXTERNAL_ONLY_V1"
+  },
+  "basis": {
+    "h1_known3_predictive": true,
+    "h2_given_h1_known3_predictive": false,
+    "design_rule": "keep leaf information in H1; remove leaf-known3 residual only from short-BODY H2|H1"
+  },
+  "judgment_status": "NOT_RUN"
+}

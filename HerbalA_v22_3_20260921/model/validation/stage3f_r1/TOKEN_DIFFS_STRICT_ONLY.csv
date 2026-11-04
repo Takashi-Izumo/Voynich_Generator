@@ -1,0 +1,14 @@
+bif,page,locus,segment_id,segment_wordnum,role,parent,candidate,parent_terminal,candidate_terminal,glyph_len,phys_width
+A:2,f7v,f7v.1,0,8,F1,cheorain,cheorair,n,r,7,8
+A:3,f6v,f6v.1,0,9,F1,d,l,d,l,1,1
+A:4,f5v,f5v.1,0,10,F1,okal,okan,l,n,4,5
+B:1,f9v,f9v.1,0,12,F1,choly,cholr,y,r,4,5
+B:2,f15v,f15v.1,0,7,F1,dar,dam,r,m,3,3
+B:3,f14v,f14v.1,0,9,F1,qokchy,qokchr,y,r,5,7
+C:2,f23v,f23v.1,0,11,F1,oporain,oporail,n,l,7,8
+C:4,f21v,f21v.1,0,9,F1,shcph,shcth,cph,cth,2,6
+D:3,f30v,f30v.1,0,7,F1,daiin,daiil,n,l,5,5
+E:4,f37v,f37v.1,0,5,F1,olod,olol,d,l,4,4
+E:4,f37v,f37v.8,0,5,F1,shey,shes,y,s,3,4
+F:4,f45v,f45v.1,0,7,F1,sholy,sholr,y,r,4,5
+G:3,f54v,f54v.1,0,8,F1,soir,soin,r,n,4,4

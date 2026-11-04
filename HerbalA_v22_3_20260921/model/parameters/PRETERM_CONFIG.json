@@ -1,0 +1,26 @@
+{
+  "model_id": "HerbalA-v21r-PRETERM-QMAP9",
+  "parent_model": "HerbalA-v21r-candidate-SAFE-LEFT-BTOFF",
+  "scope": {
+    "role": "BODY",
+    "board": "BODY",
+    "end": false,
+    "runtime_rstart_max": 9,
+    "exact_length_frozen": true,
+    "prefix_frozen": true,
+    "terminal_glyph_width_frozen": true,
+    "physical_word_width_frozen": true
+  },
+  "terminal_family": {
+    "close_positive": ["n", "m", "y"],
+    "hold_positive": ["l", "r"],
+    "close_score": "n/m/y=+1, l/r=-1, other=0",
+    "lambda": -0.29704000178961015,
+    "selection": "maximal coupling from parent-local distribution to exponentially tilted distribution",
+    "rng_namespace": "V21_PRETERM_TERMINAL_QMAP9_V1"
+  },
+  "narrow_glyph_extra_bias": false,
+  "narrow_glyph_note": "Not added: parent v21r packing already reproduces the low-width glyph-mixture effect; an extra narrowness bias would over-correct.",
+  "threshold_note": "Observed cross-fitted boundary median is 5.75 on estimated-capacity coordinates. Runtime integer R<=9 is the prevalence-matched operational analogue in the parent generator (calibration seeds 91401-91403).",
+  "validation_seeds": [91601, 91602, 91603, 91604, 91605, 91606, 91607, 91608, 91609, 91610, 91611, 91612, 91613, 91614, 91615, 91616, 91617, 91618, 91619, 91620]
+}
