@@ -1,0 +1,26 @@
+name: Judges
+
+on:
+  pull_request:
+    paths: ['judges/**', 'JUDGES.md', '.github/workflows/judges.yml']
+  push:
+    branches: [main]
+    paths: ['judges/**', 'JUDGES.md', '.github/workflows/judges.yml']
+
+permissions:
+  contents: read
+
+jobs:
+  standard-library-panel:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s judges/tests -v
+      - name: Blind CLI smoke test (synthetic documents)
+        run: |
+          python -m judges validate --input judges/examples/demo.jsonl
+          python -m judges predict --input judges/examples/demo.jsonl --output "$RUNNER_TEMP/judges-predictions"
+          python -m judges score --predictions "$RUNNER_TEMP/judges-predictions" --key judges/examples/demo-key.jsonl --output "$RUNNER_TEMP/judges-scores"
