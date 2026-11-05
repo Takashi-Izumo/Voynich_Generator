@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "status": "REGISTERED_DESCRIPTIVE_EXECUTION",
+  "user_instruction": "本比較",
+  "interpretation": "Execute the frozen descriptive comparison; report capability separately without fabricating a capability PASS",
+  "registered_at_utc": "2026-11-05T12:38:02.471460+00:00",
+  "source_commit": "2bd72160cb61d994e873c48d09a7dfca72b3375b",
+  "comparison_plan_hash": "262097f1db82c4c53c2f2b8ebf84ddee227c8ebd2264fb3f56ab02a42f131c17",
+  "model_set_hash": "61238cf467871ac13ab9374e2da23ae8a3ad215ea960029e6c8507e065efaf79",
+  "capability_pass_not_assumed": true,
+  "quality_or_equivalence_or_promotion_claims": false,
+  "control_full_generation_started_at_registration": false,
+  "control_predictions_or_scores_exist_at_registration": false,
+  "prior_information": "Implementation-side three-leaf construction diagnostics were known; no full-cohort control results were available",
+  "change": "Capability remains an inference/quality gate, not a requirement to compute the requested descriptive table",
+  "unchanged": "800 cases, cohorts, seeds, arms, contrasts, models, extraction, primary/local-primary, bootstrap and capability thresholds",
+  "driver_sha256": "9b0e0d895b027116eb44c992da5124ba1e494fec24cf88507db9c9aca75423c9",
+  "original_driver_sha256": "211fe068352f9903567bcadf87e3108025101708152a7f3ecbe6e82e33a921e6",
+  "promotion": null
+}

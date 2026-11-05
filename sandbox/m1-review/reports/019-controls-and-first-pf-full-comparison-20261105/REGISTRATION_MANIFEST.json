@@ -1,0 +1,23 @@
+{
+  "status": "PROSPECTIVELY_REGISTERED",
+  "files": [
+    {
+      "path": "DESCRIPTIVE_EXECUTION.json",
+      "bytes": 1371,
+      "sha256": "554836c12815b4c1007c41ead6fbe61841d6c8ffaff9fe03da51d5555ae443e4"
+    },
+    {
+      "path": "EXECUTION_AMENDMENT.md",
+      "bytes": 2680,
+      "sha256": "94c50f0f8c71c8f36cc371bf01423885b3c74c4a9556a8d0c87ebc91d05f6083"
+    },
+    {
+      "path": "run_comparison_descriptive.py",
+      "bytes": 9103,
+      "sha256": "9b0e0d895b027116eb44c992da5124ba1e494fec24cf88507db9c9aca75423c9"
+    }
+  ],
+  "source_commit": "2bd72160cb61d994e873c48d09a7dfca72b3375b",
+  "full_control_outcomes_available": false,
+  "main_outcomes_available": false
+}
