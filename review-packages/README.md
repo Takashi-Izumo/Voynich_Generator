@@ -1,5 +1,16 @@
 # M1 independent review bundle
 
+## Current: schema v2 review fixes
+
+Use `m1-independent-review-20261105-v2.zip` for the next independent review.
+SHA-256: `3886b3ec756137e366b3e203b91e3076a198f681860d319d0247869ec669ead3`.
+
+This revision fixes four reported gaps: expanded-runtime input binding, stale audit PASS acceptance after artifact/checksum changes, END_ONLY atom-observation labeling, and explicit final main-RNG capture/comparison. It includes regression tests and new small-run evidence. The package contains 25 implementation/evidence files and the same frozen CAL model. Tests: 27 new/regression plus 56 unchanged jury tests; 24 pages regenerated. This is implementation-side evidence, not independent approval.
+
+The full comparison remains ON HOLD pending independent re-review. Follow the v2 ZIP's `REVIEW_REQUEST_JA.md`, use new schema-v2 plans and fresh output directories, and do not merge into main or promote a model. The downstream correction-RNG effects of request-ID allocation remain part of the total intervention effect.
+
+The older v1 ZIP below is retained only as review history; its plans and audit seals are superseded.
+
 This branch distributes a review snapshot. It is not a promotion or a request to merge into main.
 
 Download `m1-independent-review-20261105.zip` and its `.sha256` file from this directory. The ZIP contains:
