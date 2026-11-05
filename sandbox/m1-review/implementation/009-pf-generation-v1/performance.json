@@ -1,0 +1,15 @@
+{
+  "all_comparison_cases_repeat_exact": true,
+  "generated_pages": 12,
+  "generation_wall_seconds": 73.91855338198366,
+  "max_rss_kib": 436324,
+  "max_rss_mib": 426.09765625,
+  "per_arm_engine_elapsed_seconds": {
+    "BASE": 7.07342928997241,
+    "PF_GATE": 5.880791642004624,
+    "PF_GATE_LENGTH": 9.706192785000894,
+    "REFERENCE": 2.0488951329898555
+  },
+  "scope": "separate_process_same_3_bifolia_smoke_including_load_and_three_fold_cores; not_full_run_budget",
+  "status": "PASS"
+}

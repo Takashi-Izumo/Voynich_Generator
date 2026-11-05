@@ -1,0 +1,43 @@
+{
+  "actual_final_main_rng_compared": true,
+  "all_outer_folds_fitted": 5,
+  "base_reference_exact_cases": 3,
+  "capability_control_replay_implemented": false,
+  "fixed_cal_predictions": 9,
+  "identity_pages": 12,
+  "identity_plan_hash": "de01514c5e869b9667e223aec5262f8afa4b704020879adc323736a9edffb131",
+  "identity_reference_exact_cases": 9,
+  "implementation_source_files": 39,
+  "mechanics": {
+    "generated_pages": 48,
+    "invalid_rows": 0,
+    "packing_failures": 0,
+    "plant_false_heads": 0,
+    "support_violations": 0,
+    "terminal_mismatches": 0
+  },
+  "negative_probe_checks": 6,
+  "new_full_comparison_started": false,
+  "ordered_and_reversed_pages": 24,
+  "ordered_repeat_exact_cases": 9,
+  "other_proposal_studies_implemented": false,
+  "paired_contrasts": 2,
+  "performance_repeat_pages": 12,
+  "promotion": null,
+  "raw_artifact_root": "/workspace/voynich-results/pf-generation-implementation-v1-20261105",
+  "scope": "development_mechanism_smoke; not_independent_confirmation_or_improvement_evidence",
+  "source_files_preserved": 501,
+  "status": "PASS_MECHANISM_AND_CAL_SMOKE",
+  "study_arms": [
+    "BASE",
+    "PF_GATE",
+    "PF_GATE_LENGTH"
+  ],
+  "study_plan_hash": "32537fffbcb53f9a5cfa03545650cde3fabe816cd19292aa5bd01743e5289152",
+  "unit_tests": {
+    "judges": 56,
+    "m1": 27,
+    "pf_generation": 20,
+    "total": 103
+  }
+}

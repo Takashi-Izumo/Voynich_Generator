@@ -1,0 +1,198 @@
+{
+  "base_commit": "c610c2a81e733748e0fb246de89143d6ecda764e",
+  "design_commit": "2422d7051f96fc9c7924c732df6f88105d2af4a9",
+  "files": [
+    {
+      "bytes": 5349,
+      "path": "experiments/pf_generation/README.md",
+      "sha256": "12560e6e05e0e4aab2a8fcc32264509030d8b94c4b48954276cfb5602db4e33b"
+    },
+    {
+      "bytes": 505,
+      "path": "experiments/pf_generation/__init__.py",
+      "sha256": "3e9ca9cb2730193e19603780fc8a44f29d4551758796aa86df92392f3f48aae8"
+    },
+    {
+      "bytes": 2975,
+      "path": "experiments/pf_generation/__main__.py",
+      "sha256": "3cc7f1bf6f64b5a7a3129bf85a4859981dc9991bf18ebcc8b391062085b0ea65"
+    },
+    {
+      "bytes": 8486,
+      "path": "experiments/pf_generation/audit.py",
+      "sha256": "39e742a725ec434165e0f10740414faf1275cd5a232ebdbe942149f00f2580f7"
+    },
+    {
+      "bytes": 1255,
+      "path": "experiments/pf_generation/common.py",
+      "sha256": "3adb9302480936577a5581f1463475ebb80328e43cb1c2e7e6143fa17684bdff"
+    },
+    {
+      "bytes": 3202,
+      "path": "experiments/pf_generation/diagnostics.py",
+      "sha256": "d8213d05a902b331d8a6409b6e8560289d1826b3c73a43a39c9c993c12e7e1c4"
+    },
+    {
+      "bytes": 5670,
+      "path": "experiments/pf_generation/evaluation.py",
+      "sha256": "d0bbf445de3bea99bd8cb9f32af16664cebbeadf9324608cea20bde0e89d7e55"
+    },
+    {
+      "bytes": 1446,
+      "path": "experiments/pf_generation/gate.py",
+      "sha256": "42fadb3d89d67e007a7f1d5391a07e3b2f8916f635a4d9466307b73677c8d57e"
+    },
+    {
+      "bytes": 6604,
+      "path": "experiments/pf_generation/laws.py",
+      "sha256": "a63b8180269d3b119d1cde2f0743d22b625fd468435d912aad0159119959300b"
+    },
+    {
+      "bytes": 12545,
+      "path": "experiments/pf_generation/overlay.py",
+      "sha256": "34ca0d84af9901d3bb82cc4976c31145aa61d613c4fb9ef7080cf91656156519"
+    },
+    {
+      "bytes": 7006,
+      "path": "experiments/pf_generation/plan.py",
+      "sha256": "f9f90bcbd00a1ce7db8ddbb77553639a09346506fc569bccd7453b99132abd52"
+    },
+    {
+      "bytes": 5586,
+      "path": "experiments/pf_generation/policy_audit.py",
+      "sha256": "2e64e77e6b402b08336502c4a3832498bc026bec24fa4d214796946425d27f44"
+    },
+    {
+      "bytes": 2970,
+      "path": "experiments/pf_generation/proposal.py",
+      "sha256": "9d53a018700075a5e1340fe7c079578ab4f89e17c6a2169250a00ff975859a60"
+    },
+    {
+      "bytes": 5748,
+      "path": "experiments/pf_generation/runtime.py",
+      "sha256": "f67e576822950182460fcc0f7cdf6cba66431ec642e80f0340e02f8069188708"
+    },
+    {
+      "bytes": 0,
+      "path": "experiments/pf_generation/tests/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 5299,
+      "path": "experiments/pf_generation/tests/run_artifact_probes.py",
+      "sha256": "a1005b12f9346f4a86f761df8b5fa350fc59dd6a876dfaa9bd65e2f84f5a2e82"
+    },
+    {
+      "bytes": 5860,
+      "path": "experiments/pf_generation/tests/test_integrity.py",
+      "sha256": "e077df102a90d67b119be07775f203088a9bc7b909579b109b4c9e8e355c7596"
+    },
+    {
+      "bytes": 6917,
+      "path": "experiments/pf_generation/tests/test_policy.py",
+      "sha256": "c640fec69db0db0ea7f07b3bd1dfae7e3c5e2910d356ad2cb2f7ec27653b708a"
+    },
+    {
+      "bytes": 4945,
+      "path": "sandbox/m1-review/implementation/009-pf-generation-v1/VALIDATION.md",
+      "sha256": "3739c8e7757cd5fe254b454a5658d0661a901b0dac072f557932cac7dad7cbb1"
+    },
+    {
+      "bytes": 6348,
+      "path": "sandbox/m1-review/implementation/009-pf-generation-v1/all-fold-fit-check.json",
+      "sha256": "ebc9765c57c032f77f49cfad0be8b2da9c3ec19ca3bfcfc0a7c70c691f2faffd"
+    },
+    {
+      "bytes": 1894,
+      "path": "sandbox/m1-review/implementation/009-pf-generation-v1/cal-smoke.json",
+      "sha256": "ce2ab96e026d3d74951c6e9df69d1866c88233f0271678203e553c395f93fe5a"
+    },
+    {
+      "bytes": 2328,
+      "path": "sandbox/m1-review/implementation/009-pf-generation-v1/diagnostics.json",
+      "sha256": "71f18149060296cd9be8c34032aa8d741e6a610ccffe7c5ca6042e52e9a6d47c"
+    },
+    {
+      "bytes": 87815,
+      "path": "sandbox/m1-review/implementation/009-pf-generation-v1/identity-plan/plan.json",
+      "sha256": "c6292ebba66b31a87602e703602b0ecd31b25deaca91b506be4d9c87a723d058"
+    },
+    {
+      "bytes": 30288,
+      "path": "sandbox/m1-review/implementation/009-pf-generation-v1/identity-plan/scope_ledger.json",
+      "sha256": "a01c19bf5681f1d5e48022b1b44a12e31ed580c147f311d5f5de5578bb34105f"
+    },
+    {
+      "bytes": 6587,
+      "path": "sandbox/m1-review/implementation/009-pf-generation-v1/identity-report.json",
+      "sha256": "e40e09c085d28fce96c845590810c04257adcf1424cef093c398dc9adadce4e7"
+    },
+    {
+      "bytes": 7258,
+      "path": "sandbox/m1-review/implementation/009-pf-generation-v1/mechanical-report.json",
+      "sha256": "5704d0c15359f0ea48b57035ff9a59f23eb41a5ee4f44a28e760cd0170178ee0"
+    },
+    {
+      "bytes": 7258,
+      "path": "sandbox/m1-review/implementation/009-pf-generation-v1/performance-report.json",
+      "sha256": "44732a275502e6a2f5dbdf4d00a42dfb44364c3c494c0f2cb81ef677a372c6ee"
+    },
+    {
+      "bytes": 490,
+      "path": "sandbox/m1-review/implementation/009-pf-generation-v1/performance.json",
+      "sha256": "799dc688278d31f3a2c341342d676a6547d581113c49d46ca1bdc684786c08cb"
+    },
+    {
+      "bytes": 1195,
+      "path": "sandbox/m1-review/implementation/009-pf-generation-v1/probes.json",
+      "sha256": "de587e38f1732e7d4c2133be049d35b870f5083205079878b24a5d56e50e4fba"
+    },
+    {
+      "bytes": 88518,
+      "path": "sandbox/m1-review/implementation/009-pf-generation-v1/study-plan/plan.json",
+      "sha256": "4a10285c2416637ffa9d8891705b2350a696a8c4b1174a8dcdddb0c8ccb42c1b"
+    },
+    {
+      "bytes": 30288,
+      "path": "sandbox/m1-review/implementation/009-pf-generation-v1/study-plan/scope_ledger.json",
+      "sha256": "a01c19bf5681f1d5e48022b1b44a12e31ed580c147f311d5f5de5578bb34105f"
+    },
+    {
+      "bytes": 1360,
+      "path": "sandbox/m1-review/implementation/009-pf-generation-v1/summary.json",
+      "sha256": "a96e680e0b203bd97561117d72fea018207a7dd9a47df00dfc246d6af5f03b7a"
+    },
+    {
+      "bytes": 7159,
+      "path": "sandbox/m1-review/implementation/009-pf-generation-v1/tests-judges.log",
+      "sha256": "6ac1eb4802a1fed9aaae76149957dd13d49426bd5ee2031f15db5e34e8330eb8"
+    },
+    {
+      "bytes": 3692,
+      "path": "sandbox/m1-review/implementation/009-pf-generation-v1/tests-m1.log",
+      "sha256": "c39f9d1d2d49ed1fb8b93833ea31cb6a572fac5f6b5fce4ece32b597090c9463"
+    },
+    {
+      "bytes": 2569,
+      "path": "sandbox/m1-review/implementation/009-pf-generation-v1/tests-pf.log",
+      "sha256": "8500d9debbec97b46b8ad685a5c337d88dc4aa0ae0f48253ae91e1f742673c68"
+    },
+    {
+      "bytes": 2906,
+      "path": "sandbox/m1-review/requests/010-pf-generation-independent-check.md",
+      "sha256": "feebc5a9334963e338a1b5893d8dff5a1a281b4cbffa2032c643f1e2533a7710"
+    },
+    {
+      "bytes": 1521,
+      "path": "sandbox/m1-review/responses/009-pf-generation-implementation.md",
+      "sha256": "f23e98e071e0ebd179ab3bbc09bc15713d43d257fd841e819586d94a2e650f59"
+    }
+  ],
+  "frozen_source_sha256": "e4b1d0a0de114d4f1e19aaa07b40e2d10354afd52648352ba2e4140b299d28a6",
+  "implementation_source_sha256": "ca4bfeee2b4585c1caadfec6952da4af2545476491b856067baa71c2620aafc5",
+  "payload_snapshot_sha256": "9475e4135bd43964c9a4f36e99a8ea7061e2fc4101464e6a16e0d3033c8049fc",
+  "promotion": null,
+  "review_revision": "PF_GENERATION_STUDY1_V1",
+  "schema_version": 1,
+  "scope": "study_one_implementation_and_small_smoke_evidence; no raw generated pages, keys or parent archives"
+}

@@ -1,0 +1,46 @@
+{
+  "bootstrap_replicates": 100,
+  "comparison_sha256": "d1398a6a780824ff3fd65d8a2fe49fcf4c91de0bf290ace022e78f5d8ac76c6a",
+  "contrasts": [
+    "BASE__PF_GATE",
+    "PF_GATE__PF_GATE_LENGTH"
+  ],
+  "model_set_hash": "61238cf467871ac13ab9374e2da23ae8a3ad215ea960029e6c8507e065efaf79",
+  "plan_hash": "32537fffbcb53f9a5cfa03545650cde3fabe816cd19292aa5bd01743e5289152",
+  "prediction_count": 9,
+  "predictions": [
+    {
+      "arm": "BASE",
+      "files": {
+        "channels.jsonl": "22384f1b5014910e26ecee173396c674cbb5fce916cd8a7cfba944826ea1744b",
+        "manifest.json": "2d90f3b619018b59bf61634628e16216fbcc4327a5eec2ccb6d018c3ec9e35a6",
+        "predictions.jsonl": "25c79958a964dbb82639bf0564cf93f25897bf306e1ab7bf4a9d43ec4b00aa3a"
+      },
+      "model_set_hash": "61238cf467871ac13ab9374e2da23ae8a3ad215ea960029e6c8507e065efaf79",
+      "sets": 3
+    },
+    {
+      "arm": "PF_GATE",
+      "files": {
+        "channels.jsonl": "22384f1b5014910e26ecee173396c674cbb5fce916cd8a7cfba944826ea1744b",
+        "manifest.json": "2d90f3b619018b59bf61634628e16216fbcc4327a5eec2ccb6d018c3ec9e35a6",
+        "predictions.jsonl": "25c79958a964dbb82639bf0564cf93f25897bf306e1ab7bf4a9d43ec4b00aa3a"
+      },
+      "model_set_hash": "61238cf467871ac13ab9374e2da23ae8a3ad215ea960029e6c8507e065efaf79",
+      "sets": 3
+    },
+    {
+      "arm": "PF_GATE_LENGTH",
+      "files": {
+        "channels.jsonl": "d6150bcba08ae88ea2e9e5fcad7b9a79f4a36f459113d492b1d1a7e08ac88074",
+        "manifest.json": "fb11f3fcd42222a5e06d7b6a1797b3a4c070f68d87847eaa026673105614f89c",
+        "predictions.jsonl": "c9827c475fb204be44b1c1f092e1eac41be34f0c50d421758fc8514763ebdbf5"
+      },
+      "model_set_hash": "61238cf467871ac13ab9374e2da23ae8a3ad215ea960029e6c8507e065efaf79",
+      "sets": 3
+    }
+  ],
+  "promotion": null,
+  "scope": "connection_smoke_only_no_selection_or_improvement_claim",
+  "status": "PASS"
+}

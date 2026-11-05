@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "branch": "sandbox/m1-review",
-  "phase": "POST_M1_PF_DESIGN_READY_FOR_REVIEW",
-  "current_request": "sandbox/m1-review/requests/008-pf-design-review.md",
+  "phase": "PF_GENERATION_STUDY1_SMOKE_PASSED_AWAITING_INDEPENDENT_REVIEW",
+  "current_request": "sandbox/m1-review/requests/010-pf-generation-independent-check.md",
   "latest_received_report": "sandbox/m1-review/reports/005-post-m1-proposals-20261105/PROPOSAL.md",
   "implementation_manifest": "sandbox/m1-review/implementation_manifest.json",
   "implementation_side_checks": {
@@ -49,9 +49,10 @@
     "proposal_sha256": "cc8898a356678161b8f2eb85106c425c074258807e978b4869ed9fe2aa06bde6",
     "verified_report_files": 3,
     "priority_design_candidate": "PF_SPECIFIC_CLOSING_GATE_AND_END_LENGTH_WIDTH_DISTRIBUTION",
-    "new_candidate_implemented": false,
-    "new_candidate_generated": false,
-    "new_candidate_evaluated": false
+    "new_candidate_implemented": true,
+    "new_candidate_generated": true,
+    "new_candidate_evaluated": true,
+    "evaluation_scope": "STUDY1_FIXED_CAL_CONNECTION_SMOKE_ONLY_NO_IMPROVEMENT_CLAIM"
   },
   "pf_design": {
     "design_id": "007-pf-generation-v1",
@@ -60,16 +61,39 @@
     "contract": "sandbox/m1-review/designs/007-pf-generation-v1/DESIGN_CONTRACT.json",
     "source_audit": "sandbox/m1-review/designs/007-pf-generation-v1/SOURCE_AUDIT.json",
     "manifest": "sandbox/m1-review/designs/007-pf-generation-v1/MANIFEST.json",
-    "status": "DESIGN_FOR_REVIEW_NOT_IMPLEMENTED",
+    "status": "STUDY1_IMPLEMENTED_OTHER_STUDIES_DESIGNED",
     "source_capacity_checks": 120,
     "training_pf_ends_by_outer_fold": [96, 94, 96, 98, 96],
     "first_study_arms": ["BASE", "PF_GATE", "PF_GATE_LENGTH"],
-    "review_request_scope": "DOCUMENT_REVIEW_ONLY_NO_NEW_FIT_GENERATION_OR_SCORING"
+    "design_review_008_received": false,
+    "implementation_authorization": "User explicitly requested implementation after design delivery"
+  },
+  "pf_implementation_manifest": "sandbox/m1-review/implementation/009-pf-generation-v1/MANIFEST.json",
+  "pf_generation_side_checks": {
+    "implementation": "experiments/pf_generation",
+    "validation": "sandbox/m1-review/implementation/009-pf-generation-v1/VALIDATION.md",
+    "summary": "sandbox/m1-review/implementation/009-pf-generation-v1/summary.json",
+    "status": "PASS_MECHANISM_AND_CAL_SMOKE",
+    "new_unit_tests": 20,
+    "existing_m1_tests": 27,
+    "frozen_judge_tests": 56,
+    "fresh_generated_pages": 48,
+    "ordered_and_reversed_pages": 24,
+    "identity_pages": 12,
+    "performance_repeat_pages": 12,
+    "fixed_cal_predictions": 9,
+    "paired_contrasts": 2,
+    "real_negative_probe_checks": 6,
+    "source_frozen_files_preserved": 501,
+    "max_smoke_generation_rss_mib": 426.09765625,
+    "new_full_comparison": "NOT_STARTED_CAPABILITY_CONTROLS_PENDING",
+    "capability_control_replay_implemented": false,
+    "terminal_score_and_space_studies_implemented": false
   },
   "main_merge": "REQUIRES_USER_APPROVAL",
   "promotion": null,
   "coordination": "fetch on each resumed task; no automatic cross-chat activation; reviewer appends reports only",
   "last_completed_request": "sandbox/m1-review/requests/002-v2-recheck.md",
-  "next_step": "Review design 007 under request 008, then implement the isolated PF gate/end-length study. This request is document review only; no new model fit, implementation, generation or scoring has started.",
-  "latest_implementation_response": "sandbox/m1-review/responses/006-full-comparison-and-proposal-review.md"
+  "next_step": "Run independent implementation verification under request 010. Design review 008 remains background. Capability controls and a separately sealed execution plan are needed before a new full comparison; promotion remains null.",
+  "latest_implementation_response": "sandbox/m1-review/responses/009-pf-generation-implementation.md"
 }
