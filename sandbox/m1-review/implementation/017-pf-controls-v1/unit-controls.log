@@ -1,0 +1,36 @@
+test_complete_record_fixture (test_controls.BindingTests.test_complete_record_fixture) ... ok
+test_context_types_are_exact (test_controls.BindingTests.test_context_types_are_exact) ... ok
+test_effective_class_controls_include_inherited_configuration (test_controls.BindingTests.test_effective_class_controls_include_inherited_configuration) ... ok
+test_failed_audit_removes_old_seal_even_bad_plan (test_controls.BindingTests.test_failed_audit_removes_old_seal_even_bad_plan) ... ok
+test_fresh_audit_rejects_forged_state_hash (test_controls.BindingTests.test_fresh_audit_rejects_forged_state_hash) ... ok
+test_receipt_rejects_changed_payload (test_controls.BindingTests.test_receipt_rejects_changed_payload) ... ok
+test_resealed_changed_selection_rejected (test_controls.BindingTests.test_resealed_changed_selection_rejected) ... ok
+test_resealed_existing_context_misbind_rejected (test_controls.BindingTests.test_resealed_existing_context_misbind_rejected) ... ok
+test_resealed_missing_all_or_one_trace_rejected (test_controls.BindingTests.test_resealed_missing_all_or_one_trace_rejected) ... ok
+test_resealed_missing_request_rejected (test_controls.BindingTests.test_resealed_missing_request_rejected) ... ok
+test_resealed_typed_branch_not_int (test_controls.BindingTests.test_resealed_typed_branch_not_int) ... ok
+test_restore_class_controls_removes_new_overrides_and_restores_mutable_values (test_controls.BindingTests.test_restore_class_controls_removes_new_overrides_and_restores_mutable_values) ... ok
+test_stale_pass_after_artifact_and_checksum_update (test_controls.BindingTests.test_stale_pass_after_artifact_and_checksum_update) ... ok
+test_typed_digest_rejects_bool_and_float (test_controls.BindingTests.test_typed_digest_rejects_bool_and_float) ... ok
+test_all_six_predictions_sealed_before_any_scoring (test_controls.GateTests.test_all_six_predictions_sealed_before_any_scoring) ... ok
+test_na_kept_in_coverage_denominator (test_controls.GateTests.test_na_kept_in_coverage_denominator) ... ok
+test_per_channel_preregistered_gate_pass (test_controls.GateTests.test_per_channel_preregistered_gate_pass) ... ok
+test_raw_nll_has_no_role_in_cal_truth (test_controls.GateTests.test_raw_nll_has_no_role_in_cal_truth) ... ok
+test_replicates_do_not_increase_leaf_count (test_controls.GateTests.test_replicates_do_not_increase_leaf_count) ... ok
+test_ties_are_half_not_hashed_forced_pick (test_controls.GateTests.test_ties_are_half_not_hashed_forced_pick) ... ok
+test_unrealized_manipulation_has_separate_failure (test_controls.GateTests.test_unrealized_manipulation_has_separate_failure) ... ok
+test_wrong_fixed_model_rejected_before_predicting (test_controls.GateTests.test_wrong_fixed_model_rejected_before_predicting) ... ok
+test_deterministic_selection_and_directions (test_controls.ProxyTests.test_deterministic_selection_and_directions) ... ok
+test_missing_duplicate_or_reordered_branches_rejected (test_controls.ProxyTests.test_missing_duplicate_or_reordered_branches_rejected) ... ok
+test_no_match_not_support_impossibility (test_controls.ProxyTests.test_no_match_not_support_impossibility) ... ok
+test_prior_normalization_and_no_empty_mass (test_controls.ProxyTests.test_prior_normalization_and_no_empty_mass) ... ok
+test_selector_does_not_accept_target_or_scores (test_controls.ProxyTests.test_selector_does_not_accept_target_or_scores) ... ok
+test_space_fixes_exact_terminal (test_controls.ProxyTests.test_space_fixes_exact_terminal) ... ok
+test_space_never_crosses_segment (test_controls.ProxyTests.test_space_never_crosses_segment) ... ok
+test_terminal_lane_constraints (test_controls.ProxyTests.test_terminal_lane_constraints) ... ok
+test_visible_tokenizer_and_physical_separate (test_controls.ProxyTests.test_visible_tokenizer_and_physical_separate) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 0.379s
+
+OK

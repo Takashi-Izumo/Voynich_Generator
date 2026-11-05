@@ -1,0 +1,36 @@
+{
+  "base_full_semantics_state_main_rng_checked": true,
+  "binding": "5ed5719402d49697b6aca569a98eb4a05f7d5791e3c6ffecd7eda0a697a45aa4",
+  "capability_pass": false,
+  "cases": [
+    {
+      "base_sha256": "85ecd524d9e638cb0a4b7acf335d5bf34027a47a8859c45948dc5c65e1cd382e",
+      "bif": "A:2",
+      "donors": 128,
+      "events": 2,
+      "expected_donors": 128,
+      "selections": 12
+    },
+    {
+      "base_sha256": "a3eac2c02d76edd323e27753d37e7b39fe9fbb62c60a4a635eba8d4d4f9252e5",
+      "bif": "A:3",
+      "donors": 128,
+      "events": 2,
+      "expected_donors": 128,
+      "selections": 6
+    },
+    {
+      "base_sha256": "54f70eaf598a72aa33b6ba8fcb72443c934f9ee8301e903c39046149a0849940",
+      "bif": "G:1",
+      "donors": 192,
+      "events": 3,
+      "expected_donors": 192,
+      "selections": 18
+    }
+  ],
+  "fresh_replay_checked": true,
+  "plan_sha256": "37bf96f5fae1efe46ff1342f0755b35d0924411d47591460bb9d6df810743135",
+  "sha256": "0c460915eedbf590f35135ee422dd56d5d7376eff915c52410184253d7e20789",
+  "status": "PASS",
+  "support_packing_terminal_plant_violations": 0
+}

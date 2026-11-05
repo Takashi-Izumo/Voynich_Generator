@@ -5,12 +5,15 @@
 ```text
 experiments/m1_pf/               # 現在の実装（v2、実ファイル）
 experiments/pf_generation/       # 新しいPF gate/語長法則・第1比較の実装
+experiments/pf_controls/         # 原版BASEから隔離した64枝PF能力対照replay
 sandbox/m1-review/
   status.json                   # 実装側が管理する現在地
-  requests/015-pf-r2-context-recheck.md # 現在の独立再検証依頼
+  requests/018-pf-controls-independent-check.md # 現在の独立確認依頼
   designs/007-pf-generation-v1/ # 3案の評価・設計・入力監査
   designs/012-pf-review-corrections/ # CAL能力対照の設計訂正
+  designs/017-pf-controls-v1/   # 64枝replay・支持内対照・新能力基準の実装設計
   implementation/014-pf-r2-contextfix/ # raw候補帰属修正の検証記録・manifest
+  implementation/017-pf-controls-v1/ # 対照replayの封印plan・smoke・負例・manifest
   reports/001-forwarded-v1.md    # ユーザー経由で届いた旧版の指摘
   reports/<review-id>/...        # 検証側が追加する報告・再現手順
   responses/                    # 実装側の受領・確認記録
@@ -51,8 +54,9 @@ git push origin HEAD:refs/heads/sandbox/m1-review
 - M1の2候補を現行v22.3の置換として推奨する結果には至っていません。その後の3案の評価・設計は `designs/007-pf-generation-v1/`、最優先案の実装は `experiments/pf_generation/` にあります。
 - 第一案の独立検証010では通常生成・fit・恒等対照・CAL接続を再現できましたが、介入ログ欠落を新規監査が受理するR1があり、要修正となりました。
 - 再検証013ではR1解消と訂正012を独立に確認しましたが、raw行の候補ラベルと結合先の矛盾を見逃すR2が追加されました。
-- R2を5項目の型付きcontextの直接照合で修正し、130テスト、新規36面、R2負例13実行・R1回帰13ケース・既定負例6項目を確認しました。現在は依頼015で独立再検証を依頼しています。検証した12ケースの意味出力/state/RNGと、予測・採点12ファイルは前回v2と一致しました。
+- R2を5項目の型付きcontextの直接照合で修正し、報告015で130テスト・新規36面・固定CAL接続・R2/R1負例を独立PASSしました。既存生成法則・予測/採点の保存も確認されています。
 - 能力対照のnear/base/far CAL順位は訂正012を参照してください。元の生NLLの大小をCALの順位へ直結させず、旧75%能力基準を無条件に適用しません。
-- 個別末字・SPACEは後続study、審判能力対照64枝replayと新本比較は次段階です。smoke PASSで自動採用・昇格・mainへのmergeを行いません。
+- 報告016の契約に沿い、64枝replay・外部16葉proxy・支持内donor選択・真正面対改変面export・全recordのfresh再生監査・固定CAL能力判定を独立packageへ実装しました。依頼018で独立確認し、検証側が全対照と能力確認後の本比較を実行します。実装側は機構smokeまでを担当します。
+- 個別末字・SPACEの生成器本体studyは後続です。smoke PASSで自動採用・昇格・mainへのmergeを行いません。
 - クラウド間の自動起動・常駐ポーリングは設定していません。別チャットを開始/再開した時にfetchし、GitHub上の最新依頼・報告を読みます。
 - sandboxは別リポジトリや秘密領域ではなく、同じリポジトリの専用ブランチです。

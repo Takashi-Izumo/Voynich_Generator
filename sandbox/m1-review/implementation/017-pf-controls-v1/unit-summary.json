@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "tests": 161,
+  "suites": [
+    {
+      "suite": "controls",
+      "tests": 31,
+      "status": "PASS",
+      "command": [
+        "/workspace/.venvs/voynich/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "experiments/pf_controls/tests",
+        "-v"
+      ]
+    },
+    {
+      "suite": "pf_generation",
+      "tests": 47,
+      "status": "PASS",
+      "command": [
+        "/workspace/.venvs/voynich/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "experiments/pf_generation/tests",
+        "-v"
+      ]
+    },
+    {
+      "suite": "m1",
+      "tests": 27,
+      "status": "PASS",
+      "command": [
+        "/workspace/.venvs/voynich/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "experiments/m1_pf/tests",
+        "-v"
+      ]
+    },
+    {
+      "suite": "judges",
+      "tests": 56,
+      "status": "PASS",
+      "command": [
+        "/workspace/.venvs/voynich/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "judges/tests",
+        "-v"
+      ]
+    }
+  ],
+  "python": "3.12.14",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "numba": "0.68.1",
+    "llvmlite": "0.50.0"
+  }
+}

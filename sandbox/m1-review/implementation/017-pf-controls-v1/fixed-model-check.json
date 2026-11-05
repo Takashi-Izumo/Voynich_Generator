@@ -1,0 +1,10 @@
+{
+  "bound_clusters": 20,
+  "extractor_hash": "5b74ed23eda0cad35377e0786f0c3aa8cc7375a033bb6cdc7ed81b98e343bc37",
+  "model_set_hash": "61238cf467871ac13ab9374e2da23ae8a3ad215ea960029e6c8507e065efaf79",
+  "predictions_run": false,
+  "proto_fallback": false,
+  "protocol_hash": "007d2c9556c5f19a72aa044aa01cf6bf6cbe60f7296e50504112242cf97896f0",
+  "refit": false,
+  "status": "PASS"
+}

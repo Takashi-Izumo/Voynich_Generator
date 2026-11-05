@@ -1,0 +1,198 @@
+{
+  "capability_assessed": false,
+  "contains_answer_keys": false,
+  "contains_parent_archives": false,
+  "contains_raw_generated_pages": false,
+  "contains_snapshots": false,
+  "files": [
+    {
+      "bytes": 6837,
+      "path": "experiments/pf_controls/README.md",
+      "sha256": "f3f791d5b7d5295ee5517f200d15fd5b3ac34898f6c1fc8aa182e7fce13ee7ea"
+    },
+    {
+      "bytes": 344,
+      "path": "experiments/pf_controls/__init__.py",
+      "sha256": "475dd39f7939e8c4b8adc4cd28c535d01fe579cf06c78d00c97a933e4b5b53e5"
+    },
+    {
+      "bytes": 1544,
+      "path": "experiments/pf_controls/__main__.py",
+      "sha256": "0415442d1515a60b7b6cdefcf21989ab397cdeb55f7cea5e9b7929b8dd5795cb"
+    },
+    {
+      "bytes": 1415,
+      "path": "experiments/pf_controls/common.py",
+      "sha256": "a5852141759416019b527015a35d372fe501b4ea55317cce7aea07ff0b073892"
+    },
+    {
+      "bytes": 6252,
+      "path": "experiments/pf_controls/evaluation.py",
+      "sha256": "f520a3dc2d9df542f8e2ebcd482d4d6625f4dc028dfc849fa8982ce0aec476cf"
+    },
+    {
+      "bytes": 15595,
+      "path": "experiments/pf_controls/pipeline.py",
+      "sha256": "51dffe3f2c30fcde7b12c2086afcd02f5dd912d2d832cc06fda087051c125809"
+    },
+    {
+      "bytes": 5928,
+      "path": "experiments/pf_controls/plan.py",
+      "sha256": "f1bd955f07653e821fb8e304389446ce48d81cc66eaf3c055082454aa93e4146"
+    },
+    {
+      "bytes": 6594,
+      "path": "experiments/pf_controls/proxy.py",
+      "sha256": "eeb51e93a25297e5da6fe8058e560f4ad5a007a36482043950d4026b53654c5f"
+    },
+    {
+      "bytes": 10315,
+      "path": "experiments/pf_controls/replay.py",
+      "sha256": "a8309264605198520403a36efbd73abaa7a5b225e976496c23cccd10aada1a71"
+    },
+    {
+      "bytes": 8154,
+      "path": "experiments/pf_controls/tests/run_probes.py",
+      "sha256": "a90123bb513680d8fa61f33168abb6061d45f8d31d9319f425f47b3bb0adffdb"
+    },
+    {
+      "bytes": 17354,
+      "path": "experiments/pf_controls/tests/test_controls.py",
+      "sha256": "08b6efc852460d6c1fe0f6aef7c8ea709688877e04314b53d455dfdf2e5ede0a"
+    },
+    {
+      "bytes": 5760,
+      "path": "sandbox/m1-review/README.md",
+      "sha256": "c1532004f4f06bd426b2d79eca6fb428d7088c4ce006e607670ff809009e20f7"
+    },
+    {
+      "bytes": 6638,
+      "path": "sandbox/m1-review/designs/017-pf-controls-v1/DESIGN.md",
+      "sha256": "afea742dc0d013d2c75db87fdb3a907891ab47de713be3a0155cbeaac655e379"
+    },
+    {
+      "bytes": 6746,
+      "path": "sandbox/m1-review/implementation/017-pf-controls-v1/VALIDATION.md",
+      "sha256": "991efdbcdef064b5ef9ad7a772d108eb727fff687cc6a5d0f384b0fe9ec723ba"
+    },
+    {
+      "bytes": 131,
+      "path": "sandbox/m1-review/implementation/017-pf-controls-v1/audit-performance.json",
+      "sha256": "8c49a0ecc5a35ad69dff7293176d29d14f36d42bfec4cce15cad16479461a676"
+    },
+    {
+      "bytes": 2471,
+      "path": "sandbox/m1-review/implementation/017-pf-controls-v1/export-manifest.json",
+      "sha256": "28543088f04046e16fe4919243df77e854e12fa1feec73692f5c6d50c3d86c7e"
+    },
+    {
+      "bytes": 131,
+      "path": "sandbox/m1-review/implementation/017-pf-controls-v1/export-performance.json",
+      "sha256": "15e227e856a5d8dcd802fd393b0f8b8fb5e48c5453b53de84e283bcb3ce8e17e"
+    },
+    {
+      "bytes": 383,
+      "path": "sandbox/m1-review/implementation/017-pf-controls-v1/fixed-model-check.json",
+      "sha256": "4ecca78b0aa88789de6559f17d9d50b390a56a99ca1a0166afbb752de66156ef"
+    },
+    {
+      "bytes": 306725,
+      "path": "sandbox/m1-review/implementation/017-pf-controls-v1/full-control-plan.json",
+      "sha256": "8952bced0e784807a90feeb6ad52ea4de145b8c9309ef835b99852c8fbae93e4"
+    },
+    {
+      "bytes": 131,
+      "path": "sandbox/m1-review/implementation/017-pf-controls-v1/full-plan-preparation-performance.json",
+      "sha256": "2d36d05331311290657e96fafb5a037f5934884be354d9426914b5f3ebda20ac"
+    },
+    {
+      "bytes": 132,
+      "path": "sandbox/m1-review/implementation/017-pf-controls-v1/generation-performance.json",
+      "sha256": "544d942756f02f501b0fec590378d7d766e53899cdec6846d34f5c1561e1c8ca"
+    },
+    {
+      "bytes": 1094,
+      "path": "sandbox/m1-review/implementation/017-pf-controls-v1/mechanical-audit.json",
+      "sha256": "a8aae9856bcc6c60b344b1ae84f072bb27d32057b5bfad93781516db941f33b9"
+    },
+    {
+      "bytes": 182,
+      "path": "sandbox/m1-review/implementation/017-pf-controls-v1/prepared-main-plan-check.json",
+      "sha256": "bf3d5e348c6779d14d9ec93651bc9163726fa875bf5fe36ce23c4e34933b2262"
+    },
+    {
+      "bytes": 110,
+      "path": "sandbox/m1-review/implementation/017-pf-controls-v1/probes-performance.json",
+      "sha256": "42b9d2273545ef850c73c3974b7ca06e73474a36e6b98fc6446669dbfcfe19f8"
+    },
+    {
+      "bytes": 4274,
+      "path": "sandbox/m1-review/implementation/017-pf-controls-v1/probes-summary.json",
+      "sha256": "24eae56b1ea5ee64f9772f6220a362a2e2f631a4937449380485db2ec9d16395"
+    },
+    {
+      "bytes": 214124,
+      "path": "sandbox/m1-review/implementation/017-pf-controls-v1/smoke-plan.json",
+      "sha256": "44d58137724d04ce51efced68f48cef03bc9db2e304e57bdbcce8cfb7200dce4"
+    },
+    {
+      "bytes": 3325,
+      "path": "sandbox/m1-review/implementation/017-pf-controls-v1/summary.json",
+      "sha256": "8d0b4cc24388adf146cda8aed5537ec04620b3838572198dfdb0528ec483a280"
+    },
+    {
+      "bytes": 3875,
+      "path": "sandbox/m1-review/implementation/017-pf-controls-v1/unit-controls.log",
+      "sha256": "575d5e86b91b538d16ded9ffcb90ca3b8b4a676bff1075582dc203f4e03074f3"
+    },
+    {
+      "bytes": 7159,
+      "path": "sandbox/m1-review/implementation/017-pf-controls-v1/unit-judges.log",
+      "sha256": "d0e4daf5ba842ed0bb78946bed02540f2ac30e21fbbfd4fc97b141de525dc2e2"
+    },
+    {
+      "bytes": 3692,
+      "path": "sandbox/m1-review/implementation/017-pf-controls-v1/unit-m1.log",
+      "sha256": "faceba2283dd87d498680592328ebd39616d2b488679adbc8ddfe46a03854e2c"
+    },
+    {
+      "bytes": 6066,
+      "path": "sandbox/m1-review/implementation/017-pf-controls-v1/unit-pf_generation.log",
+      "sha256": "093c7fff8dae370038511600b2649dec3fd216df47e44d0d7572e77e153a4383"
+    },
+    {
+      "bytes": 1317,
+      "path": "sandbox/m1-review/implementation/017-pf-controls-v1/unit-summary.json",
+      "sha256": "e0a55329400eb3702750451c7dfc3b246f08088705c1b0b1ab865460713482c4"
+    },
+    {
+      "bytes": 132,
+      "path": "sandbox/m1-review/implementation/017-pf-controls-v1/verify-export-performance.json",
+      "sha256": "a225e53e46e3e5d59f73a725f4bd77b6eb15344a6aa76716bc850e6aa04ebd93"
+    },
+    {
+      "bytes": 4738,
+      "path": "sandbox/m1-review/requests/018-pf-controls-independent-check.md",
+      "sha256": "285b7e64d43c4dae774a13f9f7d9ed0051580aa92c2ec38ca7b8e182848204bc"
+    },
+    {
+      "bytes": 1426,
+      "path": "sandbox/m1-review/responses/017-pf-controls-response.md",
+      "sha256": "c140600471f21eaf5d4075aa976740c1264b9531fc3bc996087d082df095337a"
+    },
+    {
+      "bytes": 8307,
+      "path": "sandbox/m1-review/status.json",
+      "sha256": "d2cf951f4e0af511e778b0fd85cdd9633ee83c2133267349e35f6dabfc552d27"
+    }
+  ],
+  "frozen_files_seal_sha256": "e4b1d0a0de114d4f1e19aaa07b40e2d10354afd52648352ba2e4140b299d28a6",
+  "full_control_plan_hash": "33b7d30a29c3494e4d95fc25fa479df69fa24e10150050f2454d13fb824e3e76",
+  "main_comparison_started": false,
+  "payload_snapshot_sha256": "cad946c734fc670e3444f36c9a082120b59bb5281a085e4df65d9095c8666a20",
+  "promotion": null,
+  "purpose": "PF capability replay implementation and mechanism handoff",
+  "schema_version": 1,
+  "source_base_commit": "4eaf769",
+  "source_files_seal_sha256": "23195d6b06255616dadf0fecf3bcb13c3723be564fe4c9815904bed40792345c"
+}

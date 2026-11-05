@@ -1,0 +1,28 @@
+{
+  "all_donors_selected_before_true_word_substitution": true,
+  "files": {
+    "length_width__far/answer_key.jsonl": "9c66b9d573c2f4febf4ad6feac8f7d5d0752b9bdae4d0e6651ee2586d9724c68",
+    "length_width__far/diagnostics.jsonl": "e8ca921b399f0c15d1ffaff9863a53a3622689992b1ab8fa6c1f1891b5739448",
+    "length_width__far/inputs.jsonl": "51fb500b4a4d637aa509f7b6f849132331e388eeb074a7a3a3218905aba5a86e",
+    "length_width__near/answer_key.jsonl": "3689072bb59961c2f4369386980ae8d7401a33ae7fab0862fd561334a595d020",
+    "length_width__near/diagnostics.jsonl": "1ee67a3874c6fda8fcb45f7daad2ee50f30b8eb60d575ec714d76df9a0471cd2",
+    "length_width__near/inputs.jsonl": "8e74b17654c320ddc7121604a53e5dc90b6bc25a0ca91c7f9a871f811a169870",
+    "space_T_H1__far/answer_key.jsonl": "54378ec7a3f7d9a1a8e1eae267f8c217f44142eb7b2a9917d730fb29d41c48ed",
+    "space_T_H1__far/diagnostics.jsonl": "d63183cc94ee87a348f12ca8c4c40c371dc00fc9c77313ad7e47c4f00416691e",
+    "space_T_H1__far/inputs.jsonl": "6501b7cb1db07bcc26a6491d9ccd42132e36eeeb26b48926a6459196ff5467c7",
+    "space_T_H1__near/answer_key.jsonl": "7b2f9dafc0ccbb7c7633b747d69426f2d1a2614d378cec5431a2282477b74649",
+    "space_T_H1__near/diagnostics.jsonl": "90c0e91f0299a956ea61ff85b0075157e94ec2ec5597d60eaa9d3e96b6178aeb",
+    "space_T_H1__near/inputs.jsonl": "547e3734a45ef90a39d30121e25200a5ccb5b51bae9064c96e56f6fb01fa555b",
+    "terminal__far/answer_key.jsonl": "a1cc36052b440c5f30f6c192d56cc47a69f0dbe06ce57cdd1d924e592044bfbd",
+    "terminal__far/diagnostics.jsonl": "edc916d0ddf196bc6b8d80e0499a193773922be08ebd52776f105139b8d5b98e",
+    "terminal__far/inputs.jsonl": "d80a556b5ddaf0beb5e43ee81ce61ed8ea033c498118f6730fbf055a66c5907d",
+    "terminal__near/answer_key.jsonl": "b5e3f78572af2112ab0e810cb703c5b9fce43babc530fa43493a48cf122137a3",
+    "terminal__near/diagnostics.jsonl": "ed4c01349b63e3652af49e3c043a3d1f45666151c12cc4e257b61d3f3632751f",
+    "terminal__near/inputs.jsonl": "172e722db0d8ef505f122cdcd7e18da04f9648e916b9354cdf4eaac425cf6800"
+  },
+  "generated_root": "/workspace/voynich-results/pf-controls-implementation-20261105/handoff-v1/generated",
+  "generation_binding": "5ed5719402d49697b6aca569a98eb4a05f7d5791e3c6ffecd7eda0a697a45aa4",
+  "plan_sha256": "37bf96f5fae1efe46ff1342f0755b35d0924411d47591460bb9d6df810743135",
+  "predictor_files": "only each inputs.jsonl; no snapshots/proxies/logs/keys/diagnostics",
+  "sha256": "14bedd5652d4e0384255506f8e2d58dcffa5e365bf1cfe024a4e53202fe84a5e"
+}
