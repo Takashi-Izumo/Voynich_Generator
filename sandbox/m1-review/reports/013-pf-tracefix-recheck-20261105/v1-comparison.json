@@ -1,0 +1,142 @@
+{
+  "cases": [
+    {
+      "arm": "BASE",
+      "bif": "A:2",
+      "run": 91701,
+      "semantic_state_rng_equal": true
+    },
+    {
+      "arm": "BASE",
+      "bif": "A:3",
+      "run": 91701,
+      "semantic_state_rng_equal": true
+    },
+    {
+      "arm": "BASE",
+      "bif": "G:1",
+      "run": 91701,
+      "semantic_state_rng_equal": true
+    },
+    {
+      "arm": "PF_GATE",
+      "bif": "A:2",
+      "run": 91701,
+      "semantic_state_rng_equal": true
+    },
+    {
+      "arm": "PF_GATE",
+      "bif": "A:3",
+      "run": 91701,
+      "semantic_state_rng_equal": true
+    },
+    {
+      "arm": "PF_GATE",
+      "bif": "G:1",
+      "run": 91701,
+      "semantic_state_rng_equal": true
+    },
+    {
+      "arm": "PF_GATE_LENGTH",
+      "bif": "A:2",
+      "run": 91701,
+      "semantic_state_rng_equal": true
+    },
+    {
+      "arm": "PF_GATE_LENGTH",
+      "bif": "A:3",
+      "run": 91701,
+      "semantic_state_rng_equal": true
+    },
+    {
+      "arm": "PF_GATE_LENGTH",
+      "bif": "G:1",
+      "run": 91701,
+      "semantic_state_rng_equal": true
+    },
+    {
+      "arm": "REFERENCE",
+      "bif": "A:2",
+      "run": 91701,
+      "semantic_state_rng_equal": true
+    },
+    {
+      "arm": "REFERENCE",
+      "bif": "A:3",
+      "run": 91701,
+      "semantic_state_rng_equal": true
+    },
+    {
+      "arm": "REFERENCE",
+      "bif": "G:1",
+      "run": 91701,
+      "semantic_state_rng_equal": true
+    }
+  ],
+  "comparison": "Full semantic output including final state and actual main RNG; only request pfgen metadata excluded",
+  "evaluation_artifacts": [
+    {
+      "byte_equal": true,
+      "path": "evaluation/predictions/BASE/predictions.jsonl",
+      "sha256": "25c79958a964dbb82639bf0564cf93f25897bf306e1ab7bf4a9d43ec4b00aa3a"
+    },
+    {
+      "byte_equal": true,
+      "path": "evaluation/predictions/BASE/channels.jsonl",
+      "sha256": "22384f1b5014910e26ecee173396c674cbb5fce916cd8a7cfba944826ea1744b"
+    },
+    {
+      "byte_equal": true,
+      "path": "evaluation/predictions/PF_GATE/predictions.jsonl",
+      "sha256": "25c79958a964dbb82639bf0564cf93f25897bf306e1ab7bf4a9d43ec4b00aa3a"
+    },
+    {
+      "byte_equal": true,
+      "path": "evaluation/predictions/PF_GATE/channels.jsonl",
+      "sha256": "22384f1b5014910e26ecee173396c674cbb5fce916cd8a7cfba944826ea1744b"
+    },
+    {
+      "byte_equal": true,
+      "path": "evaluation/predictions/PF_GATE_LENGTH/predictions.jsonl",
+      "sha256": "c9827c475fb204be44b1c1f092e1eac41be34f0c50d421758fc8514763ebdbf5"
+    },
+    {
+      "byte_equal": true,
+      "path": "evaluation/predictions/PF_GATE_LENGTH/channels.jsonl",
+      "sha256": "d6150bcba08ae88ea2e9e5fcad7b9a79f4a36f459113d492b1d1a7e08ac88074"
+    },
+    {
+      "byte_equal": true,
+      "path": "evaluation/scores/BASE/measurements.jsonl",
+      "sha256": "568f85652cc0c91f050099241fc3c80b5a96a37e166a0dd957122881e81edebd"
+    },
+    {
+      "byte_equal": true,
+      "path": "evaluation/scores/BASE/summary.json",
+      "sha256": "db26ba654b53cf535533d7d44880c071c3ac40703e79d07bb1639b7fc49e08b2"
+    },
+    {
+      "byte_equal": true,
+      "path": "evaluation/scores/PF_GATE/measurements.jsonl",
+      "sha256": "568f85652cc0c91f050099241fc3c80b5a96a37e166a0dd957122881e81edebd"
+    },
+    {
+      "byte_equal": true,
+      "path": "evaluation/scores/PF_GATE/summary.json",
+      "sha256": "db26ba654b53cf535533d7d44880c071c3ac40703e79d07bb1639b7fc49e08b2"
+    },
+    {
+      "byte_equal": true,
+      "path": "evaluation/scores/PF_GATE_LENGTH/measurements.jsonl",
+      "sha256": "c6a4233062d9971dd36201ab857f0c3133c0ba756de6a40d80747a191f107663"
+    },
+    {
+      "byte_equal": true,
+      "path": "evaluation/scores/PF_GATE_LENGTH/summary.json",
+      "sha256": "9df307d440f278143886b641021ccfdc24a653205abcfda5142a4470d2b46395"
+    }
+  ],
+  "original_candidate_and_raw_gate_values_equal": true,
+  "reference_run": "Independent reviewer v1 run, not implementation-side outputs",
+  "status": "PASS"
+}

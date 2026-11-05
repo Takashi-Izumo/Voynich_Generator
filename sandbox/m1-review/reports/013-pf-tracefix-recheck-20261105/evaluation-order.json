@@ -1,0 +1,40 @@
+{
+  "bootstrap": 100,
+  "contrasts": [
+    "BASE__PF_GATE",
+    "PF_GATE__PF_GATE_LENGTH"
+  ],
+  "events": [
+    {
+      "action": "prediction_sealed",
+      "arm": "BASE",
+      "predictions": 3
+    },
+    {
+      "action": "prediction_sealed",
+      "arm": "PF_GATE",
+      "predictions": 3
+    },
+    {
+      "action": "prediction_sealed",
+      "arm": "PF_GATE_LENGTH",
+      "predictions": 3
+    },
+    {
+      "action": "score_key_read",
+      "already_sealed_predictions": 9,
+      "arm": "BASE"
+    },
+    {
+      "action": "score_key_read",
+      "already_sealed_predictions": 9,
+      "arm": "PF_GATE"
+    },
+    {
+      "action": "score_key_read",
+      "already_sealed_predictions": 9,
+      "arm": "PF_GATE_LENGTH"
+    }
+  ],
+  "status": "PASS_CONNECTION_ONLY"
+}

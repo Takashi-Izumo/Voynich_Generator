@@ -1,0 +1,6 @@
+{
+  "audit": "Missing PF policy rows for candidate window",
+  "original_artifacts_unmodified": true,
+  "same_omission_in_both_orders": true,
+  "status": "REJECTED_AS_EXPECTED"
+}

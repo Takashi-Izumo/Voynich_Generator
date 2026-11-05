@@ -1,0 +1,27 @@
+{
+  "capability_design_correction": "CONFIRMED_NOT_CAPABILITY_PASS",
+  "full_comparison_started": false,
+  "identity_omission_probes_rejected": 2,
+  "new_finding": {
+    "id": "R2",
+    "severity": "P2",
+    "subject": "Raw candidate context can disagree with linked request/candidate window and pass audit"
+  },
+  "new_generated_pages": 36,
+  "normal_generation_mechanics": "PASS",
+  "original_trace_omission_probes_rejected": 2,
+  "previous_R1": "RESOLVED",
+  "promotion": null,
+  "provided_trace_probes_rejected": 13,
+  "quality_conclusion": null,
+  "reviewed_commit": "7db514606b2b77640a3f8454acd4c7b1abbc4a7c",
+  "tests": {
+    "judges": 56,
+    "m1": 27,
+    "pf": 39
+  },
+  "v1_prediction_channel_files_byte_equal": 6,
+  "v1_score_files_byte_equal": 6,
+  "v1_semantic_state_rng_comparison_cases": 12,
+  "verdict": "REQUEST_CHANGES"
+}

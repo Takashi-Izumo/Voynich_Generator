@@ -1,0 +1,17 @@
+{
+  "arm": "PF_GATE_LENGTH",
+  "audit_result": "Missing PF policy rows for candidate window",
+  "bif": "A:2",
+  "generated_tokens_state_rng_candidates_requests_unchanged": true,
+  "probe": "erase_all_new_policy_trace_rows_and_zero_counters_with_fresh_checksums",
+  "removed_counts": {
+    "anchor_fallbacks": 0,
+    "gate_calls": 28,
+    "gate_changed_calls": 0,
+    "proposal_calls": 1579,
+    "raw_draws": 1579
+  },
+  "source_artifacts_unmodified": true,
+  "status": "REJECTED_AS_EXPECTED",
+  "unchanged_original_case_files": 17
+}

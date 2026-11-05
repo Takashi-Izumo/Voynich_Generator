@@ -1,0 +1,9 @@
+{
+  "cal_direction_corrected": true,
+  "capability_pass_not_claimed": true,
+  "design_erratum_hash_sealed": true,
+  "old_v1_plan": {
+    "reason": "Unsupported PF contract",
+    "status": "REJECTED_AS_EXPECTED"
+  }
+}

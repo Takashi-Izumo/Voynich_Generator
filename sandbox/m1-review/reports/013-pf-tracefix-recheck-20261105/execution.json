@@ -1,0 +1,83 @@
+{
+  "note": "Generation processes overlapped; wall times are not isolated speed comparisons. Early post-check launch stopped on missing reverse-completion receipt before any audit/output; rerun after all generation completed. No generation failure or seed replacement.",
+  "results": {
+    "audit-identity.result": {
+      "name": "audit-identity",
+      "returncode": 0,
+      "wall_seconds": 19.40907955900184
+    },
+    "audit-normal.result": {
+      "name": "audit-normal",
+      "returncode": 0,
+      "wall_seconds": 21.84245811199071
+    },
+    "fit-identity.result": {
+      "name": "fit-identity",
+      "returncode": 0,
+      "wall_seconds": 39.96218974799558
+    },
+    "fit-normal.result": {
+      "name": "fit-normal",
+      "returncode": 0,
+      "wall_seconds": 43.894424708007136
+    },
+    "generate-forward.result": {
+      "max_rss_kib": 436124,
+      "name": "generate-forward",
+      "returncode": 0,
+      "wall_seconds": 199.27639519699733
+    },
+    "generate-identity.result": {
+      "max_rss_kib": 433676,
+      "name": "generate-identity",
+      "returncode": 0,
+      "wall_seconds": 209.47141027900216
+    },
+    "generate-reverse.result": {
+      "max_rss_kib": 436496,
+      "name": "generate-reverse",
+      "returncode": 0,
+      "wall_seconds": 240.30822828201053
+    },
+    "identity-omission.result": {
+      "name": "identity-omission",
+      "returncode": 0,
+      "wall_seconds": 14.098216160011361
+    },
+    "original-reviewer-probe.result": {
+      "name": "original-reviewer-probe",
+      "returncode": 0,
+      "wall_seconds": 13.059765781988972
+    },
+    "required-probes.result": {
+      "name": "required-probes",
+      "returncode": 0,
+      "wall_seconds": 56.318735473993
+    },
+    "trace-probes.result": {
+      "name": "trace-probes",
+      "returncode": 0,
+      "wall_seconds": 170.56164998500026
+    },
+    "unit-judges.result": {
+      "name": "unit-judges",
+      "returncode": 0,
+      "wall_seconds": 3.8130195819976507
+    },
+    "unit-m1.result": {
+      "name": "unit-m1",
+      "returncode": 0,
+      "wall_seconds": 1.3279968569986522
+    },
+    "unit-pf.result": {
+      "name": "unit-pf",
+      "returncode": 0,
+      "wall_seconds": 0.7937235860008514
+    },
+    "v1-comparison.result": {
+      "name": "v1-comparison",
+      "returncode": 0,
+      "wall_seconds": 3.5453267080010846
+    }
+  }
+}

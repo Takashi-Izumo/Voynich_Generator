@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "fresh_fit_performed": true,
+  "plan_hash": "5dcd7aedf76922e4cba8d87779c54c7692fd7bab9088635757943db53aaa0810",
+  "identity_plan_hash": "62061dc9ff6ff3ad41846c4055af3f78219677b97f85ea7bf473a6194125cced",
+  "laws_equal_v1": true,
+  "frozen_sources_equal_v1": true,
+  "runtime_inputs_equal_v1": true,
+  "shared_v2_plan_equal": true,
+  "pf_training_ends": {
+    "0": 96,
+    "1": 94,
+    "2": 96
+  }
+}

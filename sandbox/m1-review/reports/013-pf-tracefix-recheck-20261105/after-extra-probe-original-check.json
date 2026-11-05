@@ -1,0 +1,7 @@
+{
+  "extra_probe_only_changed_copies": true,
+  "original_generated_manifests_valid": true,
+  "original_normal_and_identity_seals_valid": true,
+  "original_source_and_runtime_inputs_valid": true,
+  "status": "PASS"
+}
