@@ -1,0 +1,28 @@
+{
+  "arm": "PF_GATE_LENGTH",
+  "bif": "A:3",
+  "locus": "f6v.10",
+  "next_committed_request": 631,
+  "next_request_terminal": 12,
+  "page": "f6v",
+  "physical_width": 3,
+  "proposal_id": 630,
+  "raw_word_published": false,
+  "receipt": {
+    "anchor_route_preserved": true,
+    "before_semantic_surface_commit": true,
+    "physical_position": 1,
+    "previous_terminal": 10,
+    "rank": 1,
+    "schema_version": 1,
+    "selected_terminal": 12,
+    "writer": "W2_H2"
+  },
+  "run": 91711,
+  "semantic_terminal": 12,
+  "stable_length": 3,
+  "status": "PASS",
+  "surface_sha256": "399a300166767b9258228d35f919c990fe61aec104fb18b409a60eee477b2a3d",
+  "terminal_mismatches": 0,
+  "visible_length": 2
+}

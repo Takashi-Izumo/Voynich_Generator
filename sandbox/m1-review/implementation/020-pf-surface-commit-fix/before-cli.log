@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/workspace/Voynich_Generator/experiments/pf_controls/__main__.py", line 33, in <module>
+    main()
+  File "/workspace/Voynich_Generator/experiments/pf_controls/__main__.py", line 28, in main
+    result=getattr(pipeline,command.replace('-','_'))(**args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: verify_export() got an unexpected keyword argument 'exported'

@@ -6,7 +6,7 @@ from types import SimpleNamespace
 import unittest
 from unittest.mock import patch
 
-from experiments.pf_generation import ARMS, BASE_COMMIT, CONTRASTS, DESIGN, CAPABILITY_ERRATUM, EXTRACTOR_HASH, MODEL_SET_HASH, POLICY, PROTOCOL_HASH
+from experiments.pf_generation import ARMS, BASE_COMMIT, CONTRASTS, DESIGN, CAPABILITY_ERRATUM, EXTRACTOR_HASH, MODEL_SET_HASH, POLICY, PROTOCOL_HASH, SURFACE_COMMIT_POLICY
 from experiments.pf_generation.common import ROOT, digest, file_hash, write_json
 from experiments.pf_generation.evaluation import audited
 from experiments.pf_generation.audit import generation_binding
@@ -20,7 +20,7 @@ class PlanIntegrityTests(unittest.TestCase):
         self.addCleanup(self.temp.cleanup)
         self.root = Path(self.temp.name)
         self.plan = dict(schema_version=2, trace_schema=2, experiment='PF_GENERATION_DESIGN_007_STUDY_1', base_commit=BASE_COMMIT,
-                         arms=list(ARMS), contrasts=[list(c) for c in CONTRASTS], policy=POLICY,
+                         arms=list(ARMS), contrasts=[list(c) for c in CONTRASTS], policy=POLICY,surface_commit_policy=SURFACE_COMMIT_POLICY,
                          bifolia=['T0'], folds={'T0': 0}, runtime_inputs={}, frozen_sources={}, implementation_sources={},
                          design_sha256=file_hash(ROOT / DESIGN), scope_ledger_hash=digest([]), identity_override=True,
                          capability_design_erratum_sha256=file_hash(ROOT / CAPABILITY_ERRATUM),

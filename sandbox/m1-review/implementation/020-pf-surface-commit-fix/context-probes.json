@@ -1,0 +1,294 @@
+{
+  "context_probe_count": 11,
+  "original_artifacts_unmodified": true,
+  "plan_hash": "589cbc4d1c148910c7346ba3562df2a71ff2b378aef479ec2b284265cde71e74",
+  "probes": [
+    {
+      "after": {
+        "candidate": 1,
+        "event": 0,
+        "locus": "f7v.5",
+        "page": "f7v",
+        "segment_id": 0
+      },
+      "before": {
+        "candidate": 0,
+        "event": 0,
+        "locus": "f7v.5",
+        "page": "f7v",
+        "segment_id": 0
+      },
+      "checksum_validation_passed": true,
+      "evaluation_precheck_rejected": true,
+      "probe": "candidate-single",
+      "raw_call_id": 0,
+      "reason": "Raw call belongs to another candidate context",
+      "receipt_and_checksums_refreshed": true,
+      "request_id": 386,
+      "stale_seal_invalidated": true,
+      "status": "REJECTED_AS_EXPECTED",
+      "unchanged_case_files": 18
+    },
+    {
+      "after": {
+        "candidate": 0,
+        "event": 0,
+        "locus": "f7v.5",
+        "page": "wrong-page",
+        "segment_id": 0
+      },
+      "before": {
+        "candidate": 0,
+        "event": 0,
+        "locus": "f7v.5",
+        "page": "f7v",
+        "segment_id": 0
+      },
+      "checksum_validation_passed": true,
+      "evaluation_precheck_rejected": true,
+      "probe": "page-single",
+      "raw_call_id": 0,
+      "reason": "Raw call belongs to another candidate context",
+      "receipt_and_checksums_refreshed": true,
+      "request_id": 386,
+      "stale_seal_invalidated": true,
+      "status": "REJECTED_AS_EXPECTED",
+      "unchanged_case_files": 18
+    },
+    {
+      "after": {
+        "candidate": 0,
+        "event": 0,
+        "locus": "f7v.9",
+        "page": "f7v",
+        "segment_id": 0
+      },
+      "before": {
+        "candidate": 0,
+        "event": 0,
+        "locus": "f7v.5",
+        "page": "f7v",
+        "segment_id": 0
+      },
+      "checksum_validation_passed": true,
+      "evaluation_precheck_rejected": true,
+      "probe": "locus-single",
+      "raw_call_id": 0,
+      "reason": "Raw call belongs to another candidate context",
+      "receipt_and_checksums_refreshed": true,
+      "request_id": 386,
+      "stale_seal_invalidated": true,
+      "status": "REJECTED_AS_EXPECTED",
+      "unchanged_case_files": 18
+    },
+    {
+      "after": {
+        "candidate": 0,
+        "event": 0,
+        "locus": "f7v.5",
+        "page": "f7v",
+        "segment_id": 1
+      },
+      "before": {
+        "candidate": 0,
+        "event": 0,
+        "locus": "f7v.5",
+        "page": "f7v",
+        "segment_id": 0
+      },
+      "checksum_validation_passed": true,
+      "evaluation_precheck_rejected": true,
+      "probe": "segment_id-single",
+      "raw_call_id": 0,
+      "reason": "Raw call belongs to another candidate context",
+      "receipt_and_checksums_refreshed": true,
+      "request_id": 386,
+      "stale_seal_invalidated": true,
+      "status": "REJECTED_AS_EXPECTED",
+      "unchanged_case_files": 18
+    },
+    {
+      "after": {
+        "candidate": 0,
+        "event": 1,
+        "locus": "f7v.5",
+        "page": "f7v",
+        "segment_id": 0
+      },
+      "before": {
+        "candidate": 0,
+        "event": 0,
+        "locus": "f7v.5",
+        "page": "f7v",
+        "segment_id": 0
+      },
+      "checksum_validation_passed": true,
+      "evaluation_precheck_rejected": true,
+      "probe": "event-single",
+      "raw_call_id": 0,
+      "reason": "Raw call belongs to another candidate context",
+      "receipt_and_checksums_refreshed": true,
+      "request_id": 386,
+      "stale_seal_invalidated": true,
+      "status": "REJECTED_AS_EXPECTED",
+      "unchanged_case_files": 18
+    },
+    {
+      "after": {
+        "candidate": 0,
+        "event": 1,
+        "locus": "f7v.9",
+        "page": "f7v",
+        "segment_id": 1
+      },
+      "before": {
+        "candidate": 0,
+        "event": 0,
+        "locus": "f7v.5",
+        "page": "f7v",
+        "segment_id": 0
+      },
+      "checksum_validation_passed": true,
+      "evaluation_precheck_rejected": true,
+      "probe": "whole_existing-single",
+      "raw_call_id": 0,
+      "reason": "Raw call belongs to another candidate context",
+      "receipt_and_checksums_refreshed": true,
+      "request_id": 386,
+      "stale_seal_invalidated": true,
+      "status": "REJECTED_AS_EXPECTED",
+      "unchanged_case_files": 18
+    },
+    {
+      "after": {
+        "candidate": 0.0,
+        "event": 0,
+        "locus": "f7v.5",
+        "page": "f7v",
+        "segment_id": 0
+      },
+      "before": {
+        "candidate": 0,
+        "event": 0,
+        "locus": "f7v.5",
+        "page": "f7v",
+        "segment_id": 0
+      },
+      "checksum_validation_passed": true,
+      "evaluation_precheck_rejected": true,
+      "probe": "candidate_float-single",
+      "raw_call_id": 0,
+      "reason": "Invalid PF candidate context fields/types",
+      "receipt_and_checksums_refreshed": true,
+      "request_id": 386,
+      "stale_seal_invalidated": true,
+      "status": "REJECTED_AS_EXPECTED",
+      "unchanged_case_files": 18
+    },
+    {
+      "after": {
+        "candidate": false,
+        "event": 0,
+        "locus": "f7v.5",
+        "page": "f7v",
+        "segment_id": 0
+      },
+      "before": {
+        "candidate": 0,
+        "event": 0,
+        "locus": "f7v.5",
+        "page": "f7v",
+        "segment_id": 0
+      },
+      "checksum_validation_passed": true,
+      "evaluation_precheck_rejected": true,
+      "probe": "candidate_bool-single",
+      "raw_call_id": 0,
+      "reason": "Invalid PF candidate context fields/types",
+      "receipt_and_checksums_refreshed": true,
+      "request_id": 386,
+      "stale_seal_invalidated": true,
+      "status": "REJECTED_AS_EXPECTED",
+      "unchanged_case_files": 18
+    },
+    {
+      "after": {
+        "candidate": "0",
+        "event": 0,
+        "locus": "f7v.5",
+        "page": "f7v",
+        "segment_id": 0
+      },
+      "before": {
+        "candidate": 0,
+        "event": 0,
+        "locus": "f7v.5",
+        "page": "f7v",
+        "segment_id": 0
+      },
+      "checksum_validation_passed": true,
+      "evaluation_precheck_rejected": true,
+      "probe": "candidate_string-single",
+      "raw_call_id": 0,
+      "reason": "Invalid PF candidate context fields/types",
+      "receipt_and_checksums_refreshed": true,
+      "request_id": 386,
+      "stale_seal_invalidated": true,
+      "status": "REJECTED_AS_EXPECTED",
+      "unchanged_case_files": 18
+    },
+    {
+      "after": {
+        "candidate": 1,
+        "event": 0,
+        "locus": "f7v.5",
+        "page": "f7v",
+        "segment_id": 0
+      },
+      "before": {
+        "candidate": 0,
+        "event": 0,
+        "locus": "f7v.5",
+        "page": "f7v",
+        "segment_id": 0
+      },
+      "checksum_validation_passed": true,
+      "evaluation_precheck_rejected": true,
+      "probe": "candidate-both",
+      "raw_call_id": 0,
+      "reason": "Raw call belongs to another candidate context",
+      "receipt_and_checksums_refreshed": true,
+      "request_id": 386,
+      "stale_seal_invalidated": true,
+      "status": "REJECTED_AS_EXPECTED",
+      "unchanged_case_files": 18
+    },
+    {
+      "after": {
+        "candidate": 1,
+        "event": 0,
+        "locus": "f7v.5",
+        "page": "f7v",
+        "segment_id": 0
+      },
+      "before": {
+        "candidate": 0,
+        "event": 0,
+        "locus": "f7v.5",
+        "page": "f7v",
+        "segment_id": 0
+      },
+      "checksum_validation_passed": true,
+      "evaluation_precheck_rejected": true,
+      "probe": "candidate-repeat_only",
+      "raw_call_id": 0,
+      "reason": "Raw call belongs to another candidate context",
+      "receipt_and_checksums_refreshed": true,
+      "request_id": 386,
+      "stale_seal_invalidated": true,
+      "status": "REJECTED_AS_EXPECTED",
+      "unchanged_case_files": 18
+    }
+  ],
+  "status": "PASS"
+}

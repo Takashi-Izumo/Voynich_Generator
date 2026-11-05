@@ -8,3 +8,7 @@ DESIGN = 'sandbox/m1-review/designs/007-pf-generation-v1/DESIGN_CONTRACT.json'
 CAPABILITY_ERRATUM = 'sandbox/m1-review/designs/012-pf-review-corrections/CAPABILITY_CONTROL_ERRATUM.json'
 POLICY = dict(gate_ridge=20.0, prior_mass=0.5, shrinkage_mass=20.0,
               gain_min=0.25, gain_max=4.0, max_raw_draws=32)
+SURFACE_COMMIT_POLICY = dict(schema_version=1,arms=['PF_GATE','PF_GATE_LENGTH'],
+    scope='already-selected W2 H2 / BODY H1 becomes physical terminal after m; no rare suffix',
+    phase='before semantic surface commit; after anchor route commit and m/rare/packing',
+    randomness='no additional draws',baseline='literal original BASE and REFERENCE')

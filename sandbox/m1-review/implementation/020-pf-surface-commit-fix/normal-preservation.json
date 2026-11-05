@@ -1,0 +1,67 @@
+{
+  "all_request_candidate_event_gate_raw_records_exact": true,
+  "cases": [
+    {
+      "arm": "BASE",
+      "bif": "A:2",
+      "run": 91701
+    },
+    {
+      "arm": "BASE",
+      "bif": "A:3",
+      "run": 91701
+    },
+    {
+      "arm": "BASE",
+      "bif": "G:1",
+      "run": 91701
+    },
+    {
+      "arm": "PF_GATE",
+      "bif": "A:2",
+      "run": 91701
+    },
+    {
+      "arm": "PF_GATE",
+      "bif": "A:3",
+      "run": 91701
+    },
+    {
+      "arm": "PF_GATE",
+      "bif": "G:1",
+      "run": 91701
+    },
+    {
+      "arm": "PF_GATE_LENGTH",
+      "bif": "A:2",
+      "run": 91701
+    },
+    {
+      "arm": "PF_GATE_LENGTH",
+      "bif": "A:3",
+      "run": 91701
+    },
+    {
+      "arm": "PF_GATE_LENGTH",
+      "bif": "G:1",
+      "run": 91701
+    },
+    {
+      "arm": "REFERENCE",
+      "bif": "A:2",
+      "run": 91701
+    },
+    {
+      "arm": "REFERENCE",
+      "bif": "A:3",
+      "run": 91701
+    },
+    {
+      "arm": "REFERENCE",
+      "bif": "G:1",
+      "run": 91701
+    }
+  ],
+  "semantic_state_main_rng_exact": true,
+  "status": "PASS"
+}

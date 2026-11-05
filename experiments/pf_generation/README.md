@@ -8,7 +8,11 @@
 
 gateのsplit gainは原版engineで一度だけ適用します。sampler factoryとrunnerの一時接続は`finally`で復元します。共有coreのSTOP配列や展開runtimeを変更しません。
 
-独立検証010のR1を受け、現在はplan/監査/traceのschema v2です。再検証013でR1解消を確認後、追加R2のraw候補帰属も修正しました。記録形式はv2のままですが、sourceが変わった旧plan・PASSは再利用せず、新しいplanで再生成します。生成法則は初版と同じです。[R2修正と検証](../../sandbox/m1-review/implementation/014-pf-r2-contextfix/VALIDATION.md)、[R1の過去記録](../../sandbox/m1-review/implementation/011-pf-tracefix-v2/VALIDATION.md)、[能力対照の設計訂正](../../sandbox/m1-review/designs/012-pf-review-corrections/CAPABILITY_CONTROL_ERRATUM.md)を併読してください。
+独立検証010のR1、013のR2は報告015で解消を独立確認しています。plan/監査/traceはschema v2を維持します。報告019で見つかったW2+m縮約時の末字commit不整合には、候補2群のsurface commit境界で対処しました。詳細は [修正020](../../sandbox/m1-review/implementation/020-pf-surface-commit-fix/VALIDATION.md)。sourceが変わった旧plan・PASSは再利用せず、新しいplanで再生成します。
+
+`surface_commit_policy` をplanへ封印し、既に選択済みのW2 H2またはBODY H1がm削除後の物理末字になる場合だけ、最終visible glyphを親のsemantic surface commitより先に反映します。routeへ渡すanchor、m/rare・packing、H1のpending統計、追加乱数なしという方針を保持します。通常の非末字補正、rare suffix、F1LF/Stage3Dは元のcommit chainへそのまま委譲します。BASE/REFERENCEはliteral原版のままです。`pfgen_terminal_precommit` receiptと最終surface→state→次の要求の鎖を監査します。
+
+[R2の過去記録](../../sandbox/m1-review/implementation/014-pf-r2-contextfix/VALIDATION.md)、[R1の過去記録](../../sandbox/m1-review/implementation/011-pf-tracefix-v2/VALIDATION.md)、[能力対照の設計訂正](../../sandbox/m1-review/designs/012-pf-review-corrections/CAPABILITY_CONTROL_ERRATUM.md)も参照できます。
 
 ## 実行
 

@@ -1,0 +1,206 @@
+{
+  "actual_cli_negative_checks": 1,
+  "capability_status": "CAPABILITY_NOT_VERIFIED",
+  "control_cli_fresh_pages": 2,
+  "control_cli_fresh_replay_branches": 128,
+  "control_snapshot_donor_base_selection_records_unchanged": true,
+  "fixed_case": {
+    "arm": "PF_GATE_LENGTH",
+    "bif": "A:3",
+    "locus": "f6v.10",
+    "next_committed_request": 631,
+    "next_request_terminal": 12,
+    "page": "f6v",
+    "physical_width": 3,
+    "proposal_id": 630,
+    "raw_word_published": false,
+    "receipt": {
+      "anchor_route_preserved": true,
+      "before_semantic_surface_commit": true,
+      "physical_position": 1,
+      "previous_terminal": 10,
+      "rank": 1,
+      "schema_version": 1,
+      "selected_terminal": 12,
+      "writer": "W2_H2"
+    },
+    "run": 91711,
+    "semantic_terminal": 12,
+    "stable_length": 3,
+    "status": "PASS",
+    "surface_sha256": "399a300166767b9258228d35f919c990fe61aec104fb18b409a60eee477b2a3d",
+    "terminal_mismatches": 0,
+    "visible_length": 2
+  },
+  "fresh_study_pages": 48,
+  "frozen_files": 501,
+  "identity_pages": 12,
+  "main_plan_hash": "5f0e657be62f5541ef16b40737d44f86bca70cdf990985154693a7fbacb6954a",
+  "new_full_generation_started": false,
+  "new_terminal_negative_checks": 3,
+  "prior_normal_semantic_state_rng_records_equal": 12,
+  "promotion": null,
+  "r1_negative_checks": 13,
+  "r2_negative_checks": 11,
+  "repairs": [
+    {
+      "arm": "BASE",
+      "bif": "A:2",
+      "run": 91701,
+      "terminal_precommits": 0
+    },
+    {
+      "arm": "BASE",
+      "bif": "A:2",
+      "run": 91711,
+      "terminal_precommits": 0
+    },
+    {
+      "arm": "BASE",
+      "bif": "A:3",
+      "run": 91701,
+      "terminal_precommits": 0
+    },
+    {
+      "arm": "BASE",
+      "bif": "A:3",
+      "run": 91711,
+      "terminal_precommits": 0
+    },
+    {
+      "arm": "BASE",
+      "bif": "G:1",
+      "run": 91701,
+      "terminal_precommits": 0
+    },
+    {
+      "arm": "BASE",
+      "bif": "G:1",
+      "run": 91711,
+      "terminal_precommits": 0
+    },
+    {
+      "arm": "PF_GATE",
+      "bif": "A:2",
+      "run": 91701,
+      "terminal_precommits": 0
+    },
+    {
+      "arm": "PF_GATE",
+      "bif": "A:2",
+      "run": 91711,
+      "terminal_precommits": 0
+    },
+    {
+      "arm": "PF_GATE",
+      "bif": "A:3",
+      "run": 91701,
+      "terminal_precommits": 0
+    },
+    {
+      "arm": "PF_GATE",
+      "bif": "A:3",
+      "run": 91711,
+      "terminal_precommits": 0
+    },
+    {
+      "arm": "PF_GATE",
+      "bif": "G:1",
+      "run": 91701,
+      "terminal_precommits": 0
+    },
+    {
+      "arm": "PF_GATE",
+      "bif": "G:1",
+      "run": 91711,
+      "terminal_precommits": 0
+    },
+    {
+      "arm": "PF_GATE_LENGTH",
+      "bif": "A:2",
+      "run": 91701,
+      "terminal_precommits": 0
+    },
+    {
+      "arm": "PF_GATE_LENGTH",
+      "bif": "A:2",
+      "run": 91711,
+      "terminal_precommits": 0
+    },
+    {
+      "arm": "PF_GATE_LENGTH",
+      "bif": "A:3",
+      "run": 91701,
+      "terminal_precommits": 0
+    },
+    {
+      "arm": "PF_GATE_LENGTH",
+      "bif": "A:3",
+      "run": 91711,
+      "terminal_precommits": 1
+    },
+    {
+      "arm": "PF_GATE_LENGTH",
+      "bif": "G:1",
+      "run": 91701,
+      "terminal_precommits": 0
+    },
+    {
+      "arm": "PF_GATE_LENGTH",
+      "bif": "G:1",
+      "run": 91711,
+      "terminal_precommits": 0
+    },
+    {
+      "arm": "REFERENCE",
+      "bif": "A:2",
+      "run": 91701,
+      "terminal_precommits": 0
+    },
+    {
+      "arm": "REFERENCE",
+      "bif": "A:2",
+      "run": 91711,
+      "terminal_precommits": 0
+    },
+    {
+      "arm": "REFERENCE",
+      "bif": "A:3",
+      "run": 91701,
+      "terminal_precommits": 0
+    },
+    {
+      "arm": "REFERENCE",
+      "bif": "A:3",
+      "run": 91711,
+      "terminal_precommits": 0
+    },
+    {
+      "arm": "REFERENCE",
+      "bif": "G:1",
+      "run": 91701,
+      "terminal_precommits": 0
+    },
+    {
+      "arm": "REFERENCE",
+      "bif": "G:1",
+      "run": 91711,
+      "terminal_precommits": 0
+    }
+  ],
+  "report_files_verified": 33,
+  "report_received_commit": "7cfd166",
+  "required_artifact_checks": 6,
+  "smoke_plan_hash": "589cbc4d1c148910c7346ba3562df2a71ff2b378aef479ec2b284265cde71e74",
+  "status": "FIX_VALIDATED_AWAITING_INDEPENDENT_RECHECK",
+  "total_fresh_pf_pages": 60,
+  "total_negative_and_invalidation_checks": 34,
+  "unit_suites": {
+    "controls": 33,
+    "judges": 56,
+    "m1": 27,
+    "pf": 58
+  },
+  "unit_tests": 174,
+  "v2_measurement_control_design": "DESIGN_ONLY_NOT_IMPLEMENTED_OR_FITTED_OR_PREDICTED"
+}

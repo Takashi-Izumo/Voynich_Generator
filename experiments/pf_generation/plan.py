@@ -9,6 +9,7 @@ from experiments.m1_pf.runtime import Runtime as SourceRuntime
 from . import ARMS, BASE_COMMIT, CONTRASTS, DESIGN, CAPABILITY_ERRATUM, EXTRACTOR_HASH, MODEL_SET_HASH, POLICY, PROTOCOL_HASH, TRACE_SCHEMA
 from .common import ROOT, PACKAGE, digest, file_hash, frozen_sources, implementation_sources, model_dir, require, runtime_inputs, write_json
 from .laws import Law, fit_fold
+from . import SURFACE_COMMIT_POLICY
 
 
 def create_plan(output, bifolia, runs, kind='smoke', identity=False, blinding_seed=20261105):
@@ -28,7 +29,7 @@ def create_plan(output, bifolia, runs, kind='smoke', identity=False, blinding_se
     ledger, data = scope_ledger(bifolia)
     plan = dict(schema_version=2, trace_schema=TRACE_SCHEMA, experiment='PF_GENERATION_DESIGN_007_STUDY_1', base_commit=BASE_COMMIT,
                 package=PACKAGE.name, arms=list(ARMS), contrasts=[list(c) for c in CONTRASTS], kind=kind,
-                bifolia=bifolia, runs=runs, folds=folds, laws=laws, policy=dict(POLICY),
+                bifolia=bifolia, runs=runs, folds=folds, laws=laws, policy=dict(POLICY),surface_commit_policy=dict(SURFACE_COMMIT_POLICY),
                 identity_override=bool(identity), blinding_seed=blinding_seed,
                 required_model_set_hash=MODEL_SET_HASH, extractor_hash=EXTRACTOR_HASH, protocol_hash=PROTOCOL_HASH,
                 primary='J24.CAL', local_primary='ATOM.PARA_END.CAL', data=data,
@@ -72,6 +73,7 @@ def load_plan(path):
             and plan['experiment'] == 'PF_GENERATION_DESIGN_007_STUDY_1'
             and plan['base_commit'] == BASE_COMMIT and plan['arms'] == list(ARMS)
             and plan['contrasts'] == [list(c) for c in CONTRASTS] and plan['policy'] == POLICY
+            and plan.get('surface_commit_policy') == SURFACE_COMMIT_POLICY
             and plan['required_model_set_hash'] == MODEL_SET_HASH and plan['extractor_hash'] == EXTRACTOR_HASH
             and plan['protocol_hash'] == PROTOCOL_HASH and plan['primary'] == 'J24.CAL'
             and plan['local_primary'] == 'ATOM.PARA_END.CAL', 'Unsupported PF contract')

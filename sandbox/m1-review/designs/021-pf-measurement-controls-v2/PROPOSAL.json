@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "status": "DESIGN_ONLY_NOT_IMPLEMENTED_OR_FITTED_OR_PREDICTED",
+  "responds_to": "reports/019-controls-and-first-pf-full-comparison-20261105/REPORT.md",
+  "existing_model_set_unchanged": "61238cf467871ac13ab9374e2da23ae8a3ad215ea960029e6c8507e065efaf79",
+  "existing_capability_status_preserved": "CAPABILITY_NOT_VERIFIED",
+  "length_width": {
+    "proposed_channel": "ATOM.PARA_END/length_width_energy",
+    "feature": "joint frozen visible glyph length and WIDTH",
+    "scales": "max(1, weighted IQR) from prior-train8 genuine leaves, all4 faces; equal leaf then face then event",
+    "distance": "2 E||X-Y|| - E||X-Xprime|| - E||Y-Yprime||",
+    "reference": "equal mixture of nonempty known3 page empirical distributions",
+    "calibration": "new genuine-only null8 all4 leave-one-face-out; outer test4 excluded; two-sided typicality",
+    "new_protocol_extractor_and_model_set_required": true,
+    "replace_existing_J24_automatically": false
+  },
+  "conditional_replay_feasibility": {
+    "namespace": "PF_CAPABILITY_CONDITIONAL_REPLAY_V2_20261105",
+    "seed": 92101,
+    "max_complete_segment_attempts_per_event": 64,
+    "fixed_allocation": {"length_width": 21, "terminal": 21, "space_T_H1": 22},
+    "condition_training": "external16 all4 strict observations; no outer test4 or target known3",
+    "terminal_filters": "retain V1 length bin, exact visible/physical widths and terminal family",
+    "space_filters": "retain V1 length bin, exact visible/physical widths and exact terminal; segment-local predecessor",
+    "original_zero_probability_edges_remain_zero": true,
+    "posthoc_word_editing": false,
+    "source_base_anchor_only": true,
+    "true_target_words_or_test_scores_in_selector": false,
+    "parent_cdf_conditioning_and_all_legacy_constraints_require_independent_review": true,
+    "realizability_claim": null
+  },
+  "preprediction_manipulation_gate": {
+    "eligible_pages": {"length_width": 18, "terminal": 18, "space_T_H1": 17},
+    "required_realized_fraction_each": 0.8,
+    "insufficient": "MANIPULATION_NOT_REALIZED_STOP_BEFORE_PREDICT",
+    "seed_replacement_or_posthoc_subset": false
+  },
+  "postprediction_gate": {
+    "minimum_contributing_leaves": 10,
+    "minimum_comparable_fraction": 0.8,
+    "minimum_expected_accuracy": 0.6,
+    "bootstrap_replicates": 10000,
+    "cluster_unit": "bifolium",
+    "lower_95_strictly_above": 0.5,
+    "tie": 0.5,
+    "near_used_for_gate": false,
+    "freeze_exact_required_channel_set_with_new_model_before_predictions": true
+  },
+  "promotion": null
+}

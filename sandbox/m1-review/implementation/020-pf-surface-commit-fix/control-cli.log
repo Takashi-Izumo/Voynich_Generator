@@ -1,0 +1,4 @@
+REPLAY A:2 events=2 branches=128
+{"command": "verify-export", "status": "COMPLETE"}
+
+ACTUAL CLI PASS

@@ -1,0 +1,20 @@
+{
+  "base_full_semantics_state_main_rng_checked": true,
+  "binding": "826997bc0bd7fe42cb8e19d942d5d9c3559bd2de554a82b21a1fe8b0c10622d5",
+  "capability_pass": false,
+  "cases": [
+    {
+      "base_sha256": "85ecd524d9e638cb0a4b7acf335d5bf34027a47a8859c45948dc5c65e1cd382e",
+      "bif": "A:2",
+      "donors": 128,
+      "events": 2,
+      "expected_donors": 128,
+      "selections": 12
+    }
+  ],
+  "fresh_replay_checked": true,
+  "plan_sha256": "1ef8ba4a046a4d557e2e0e86bb74d75a040d0cc58a58284486da4ff675953cd1",
+  "sha256": "194f375f22633211c0c98a346a96815ccec68b910d0c3991d3792fe2065dfd64",
+  "status": "PASS",
+  "support_packing_terminal_plant_violations": 0
+}

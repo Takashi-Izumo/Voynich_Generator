@@ -6,12 +6,13 @@ import inspect
 from pathlib import Path
 
 from experiments.m1_pf.runtime import Runtime as FrozenRuntime, GENERATION_LOCK
-from . import ARMS, TRACE_SCHEMA
+from . import ARMS, TRACE_SCHEMA, SURFACE_COMMIT_POLICY
 from .common import digest, file_hash, implementation_sources, require, runtime_inputs, state_hash, write_json
 from .gate import models_view
 from .laws import Law
 from .overlay import Overlay
 from .proposal import Trace, sampler_class, request_sampler_class
+from .surface_commit import sampler_class as surface_commit_sampler_class
 
 
 class Runtime(FrozenRuntime):
@@ -61,6 +62,7 @@ class Runtime(FrozenRuntime):
         try:
             rb.PatchSampler = a.configure(run, bif)
             if arm in ('PF_GATE', 'PF_GATE_LENGTH'):
+                rb.PatchSampler = surface_commit_sampler_class(rb.PatchSampler,e.m)
                 rb.PatchSampler = request_sampler_class(rb.PatchSampler, trace)
             rb.PatchMapState = a.ParagraphH1PatchMapState
             rb.build_bt_leafex = lambda ref, ext, a0=32.: a.real_build(ref, ext, alpha)
@@ -97,5 +99,7 @@ class Runtime(FrozenRuntime):
                    raw_draws=sum(len(p['draws']) for p in trace.proposals),
                    anchor_fallbacks=sum(p['fallback'] for p in trace.proposals),
                    gate_changed_calls=sum(g['parent_probability'] != g['adapted_probability'] for g in trace.gates),
-                   identity_override=self.plan['identity_override']))
+                   identity_override=self.plan['identity_override'],
+                   surface_commit_policy_sha256=digest(SURFACE_COMMIT_POLICY),
+                   terminal_precommits=sum('pfgen_terminal_precommit' in r for r in result[3]['requests'])))
         return result[1]

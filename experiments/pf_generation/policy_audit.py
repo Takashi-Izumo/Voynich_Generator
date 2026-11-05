@@ -145,6 +145,11 @@ def audit_case(path, arm, plan):
     proposals = read_rows(path / 'pfgen_proposals.jsonl.gz')
     candidates = read_rows(path / 'm1_candidates.jsonl.gz')
     requests = read_rows(path / 'requests.jsonl.gz')
+    from . import SURFACE_COMMIT_POLICY
+    from .surface_commit import audit_requests
+    repaired = audit_requests(requests,read_rows(path/'surface_commits.jsonl.gz'),arm)
+    require(final.get('surface_commit_policy_sha256')==digest(SURFACE_COMMIT_POLICY)
+            and final.get('terminal_precommits')==repaired,'Terminal precommit summary/provenance mismatch')
     coverage = trace_coverage(candidates, requests, gates, proposals, arm)
     keys = {context_key(c) for c in candidates}
     require(arm != 'BASE' or not gates, 'Gate adapter used in BASE')

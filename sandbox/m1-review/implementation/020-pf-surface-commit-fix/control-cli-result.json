@@ -1,0 +1,19 @@
+{
+  "command": [
+    "/workspace/.venvs/voynich/bin/python",
+    "-m",
+    "experiments.pf_controls",
+    "verify-export",
+    "--plan",
+    "/workspace/voynich-results/pf-review019-fix-20261105/control-cli/plan/plan.json",
+    "--generated",
+    "/workspace/voynich-results/pf-review019-fix-20261105/control-cli/generated",
+    "--exported",
+    "/workspace/voynich-results/pf-review019-fix-20261105/control-cli/export"
+  ],
+  "max_rss_mib": 583.34765625,
+  "returncode": 0,
+  "seconds": 115.89375385499443,
+  "status": "PASS",
+  "stdout": "{\"command\": \"verify-export\", \"status\": \"COMPLETE\"}\n"
+}

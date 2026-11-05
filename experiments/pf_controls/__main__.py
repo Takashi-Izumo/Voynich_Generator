@@ -24,6 +24,8 @@ def main():
         if command=='evaluate':
             from .evaluation import evaluate
             result=evaluate(**args)
+        elif command=='verify-export':
+            result=pipeline.verify_export(args['plan'],args['generated'],args['exported'])
         else:
             result=getattr(pipeline,command.replace('-','_'))(**args)
         print(json.dumps(dict(command=command,status='COMPLETE')))

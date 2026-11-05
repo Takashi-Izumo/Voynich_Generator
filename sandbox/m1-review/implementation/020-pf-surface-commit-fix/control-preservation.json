@@ -1,0 +1,7 @@
+{
+  "all_snapshot_donor_base_selection_records_equal": true,
+  "bif": "A:2",
+  "only_control_plan_binding_differs": true,
+  "run": 92101,
+  "status": "PASS"
+}

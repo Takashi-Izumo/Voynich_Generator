@@ -1,0 +1,407 @@
+{
+  "base_commit": "7cfd16639fe01768ad4e870f8c1b9dc637908631",
+  "contains_answer_keys": false,
+  "contains_parent_archives": false,
+  "contains_raw_generated_pages": false,
+  "contains_raw_words": false,
+  "contains_snapshots": false,
+  "files": [
+    {
+      "bytes": 7402,
+      "path": "experiments/pf_controls/README.md",
+      "sha256": "4f6e7d9dc402ce4c10d56cfd2edd9392c080df68c6b7e24b7a0c3896bc97fcf3"
+    },
+    {
+      "bytes": 344,
+      "path": "experiments/pf_controls/__init__.py",
+      "sha256": "475dd39f7939e8c4b8adc4cd28c535d01fe579cf06c78d00c97a933e4b5b53e5"
+    },
+    {
+      "bytes": 1674,
+      "path": "experiments/pf_controls/__main__.py",
+      "sha256": "b0e9907f1775d0a774910f7a01f11469093e05394c4447121c6b0650d7f1ea8f"
+    },
+    {
+      "bytes": 1415,
+      "path": "experiments/pf_controls/common.py",
+      "sha256": "a5852141759416019b527015a35d372fe501b4ea55317cce7aea07ff0b073892"
+    },
+    {
+      "bytes": 6252,
+      "path": "experiments/pf_controls/evaluation.py",
+      "sha256": "f520a3dc2d9df542f8e2ebcd482d4d6625f4dc028dfc849fa8982ce0aec476cf"
+    },
+    {
+      "bytes": 15595,
+      "path": "experiments/pf_controls/pipeline.py",
+      "sha256": "51dffe3f2c30fcde7b12c2086afcd02f5dd912d2d832cc06fda087051c125809"
+    },
+    {
+      "bytes": 5928,
+      "path": "experiments/pf_controls/plan.py",
+      "sha256": "f1bd955f07653e821fb8e304389446ce48d81cc66eaf3c055082454aa93e4146"
+    },
+    {
+      "bytes": 6594,
+      "path": "experiments/pf_controls/proxy.py",
+      "sha256": "eeb51e93a25297e5da6fe8058e560f4ad5a007a36482043950d4026b53654c5f"
+    },
+    {
+      "bytes": 10315,
+      "path": "experiments/pf_controls/replay.py",
+      "sha256": "a8309264605198520403a36efbd73abaa7a5b225e976496c23cccd10aada1a71"
+    },
+    {
+      "bytes": 8154,
+      "path": "experiments/pf_controls/tests/run_probes.py",
+      "sha256": "a90123bb513680d8fa61f33168abb6061d45f8d31d9319f425f47b3bb0adffdb"
+    },
+    {
+      "bytes": 1133,
+      "path": "experiments/pf_controls/tests/test_cli.py",
+      "sha256": "8a91fd3be575c331e7f2689b0237694427c24dd5bf55fe5b3635f8f204557c1f"
+    },
+    {
+      "bytes": 17354,
+      "path": "experiments/pf_controls/tests/test_controls.py",
+      "sha256": "08b6efc852460d6c1fe0f6aef7c8ea709688877e04314b53d455dfdf2e5ede0a"
+    },
+    {
+      "bytes": 8637,
+      "path": "experiments/pf_generation/README.md",
+      "sha256": "2c67bd82908cc3e9e59ee2dc275e1824e113faadf43ffe279a5ac35f9dd69d74"
+    },
+    {
+      "bytes": 981,
+      "path": "experiments/pf_generation/__init__.py",
+      "sha256": "25c6257132641b433326dced5480bb3c1f5d8dfc4e20d5588825fc1bddfe1136"
+    },
+    {
+      "bytes": 2975,
+      "path": "experiments/pf_generation/__main__.py",
+      "sha256": "3cc7f1bf6f64b5a7a3129bf85a4859981dc9991bf18ebcc8b391062085b0ea65"
+    },
+    {
+      "bytes": 8805,
+      "path": "experiments/pf_generation/audit.py",
+      "sha256": "7c99ad687c11c60a8475fae9980fb945a6cc26d63db255a301229eb1f60c989e"
+    },
+    {
+      "bytes": 1302,
+      "path": "experiments/pf_generation/common.py",
+      "sha256": "4591026b9873a59b05d0ecf32fa7dc7d4fc297412ab381c81a3db0906c0ff711"
+    },
+    {
+      "bytes": 3202,
+      "path": "experiments/pf_generation/diagnostics.py",
+      "sha256": "d8213d05a902b331d8a6409b6e8560289d1826b3c73a43a39c9c993c12e7e1c4"
+    },
+    {
+      "bytes": 5731,
+      "path": "experiments/pf_generation/evaluation.py",
+      "sha256": "d6c198a08b63f2b2329579daee78df6a205eb8f74bb1c3103b8f004574682b9e"
+    },
+    {
+      "bytes": 1447,
+      "path": "experiments/pf_generation/gate.py",
+      "sha256": "adb3f87fbcdf81a015c89ddf9368f66422bfb3ebc5be32f44409edde6e7cd14b"
+    },
+    {
+      "bytes": 6604,
+      "path": "experiments/pf_generation/laws.py",
+      "sha256": "a63b8180269d3b119d1cde2f0743d22b625fd468435d912aad0159119959300b"
+    },
+    {
+      "bytes": 12545,
+      "path": "experiments/pf_generation/overlay.py",
+      "sha256": "34ca0d84af9901d3bb82cc4976c31145aa61d613c4fb9ef7080cf91656156519"
+    },
+    {
+      "bytes": 7503,
+      "path": "experiments/pf_generation/plan.py",
+      "sha256": "e31e57ac9660dbc965dc8d19ba6784a21f8e7ff8b73f8aafc20e3a4238c9f401"
+    },
+    {
+      "bytes": 12742,
+      "path": "experiments/pf_generation/policy_audit.py",
+      "sha256": "b8bf69d851dfbed4f036bcdfa3a523409a38ce8c1246d36f07a866c590f6708f"
+    },
+    {
+      "bytes": 5754,
+      "path": "experiments/pf_generation/proposal.py",
+      "sha256": "56947994e96f049fb0a516328d6b27d1ebc53f87428969027640ddf84bc3518a"
+    },
+    {
+      "bytes": 6595,
+      "path": "experiments/pf_generation/runtime.py",
+      "sha256": "7ebdac18c4d66f2d6117e62d8817f94283a37aa48d2d88ba660e98226ef48e17"
+    },
+    {
+      "bytes": 6203,
+      "path": "experiments/pf_generation/surface_commit.py",
+      "sha256": "eec0ff0933cba4a0a5a9ada0fcd7a68309c1cb85606215103de53454a844d90d"
+    },
+    {
+      "bytes": 0,
+      "path": "experiments/pf_generation/tests/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 5299,
+      "path": "experiments/pf_generation/tests/run_artifact_probes.py",
+      "sha256": "a1005b12f9346f4a86f761df8b5fa350fc59dd6a876dfaa9bd65e2f84f5a2e82"
+    },
+    {
+      "bytes": 6047,
+      "path": "experiments/pf_generation/tests/run_context_probes.py",
+      "sha256": "2a40a8f946cf2fa165320f7b6270764445cddb8e31d13b05e60f3699e60b11c9"
+    },
+    {
+      "bytes": 6336,
+      "path": "experiments/pf_generation/tests/run_trace_probes.py",
+      "sha256": "d63a822176ea9dd12eeaed7b76883d29f297d1fc65648fb492ca28c81a016d8d"
+    },
+    {
+      "bytes": 1114,
+      "path": "experiments/pf_generation/tests/test_calibration_contract.py",
+      "sha256": "1e8b0c8ee7e4707ad9060abe912bbd113e468e8517c2b6b21abe2ed196f421b3"
+    },
+    {
+      "bytes": 6364,
+      "path": "experiments/pf_generation/tests/test_integrity.py",
+      "sha256": "c876ab91c6f2259d783fff1e1f7e372b6031dcf0360d050657c756cf9bf3e8a5"
+    },
+    {
+      "bytes": 7257,
+      "path": "experiments/pf_generation/tests/test_policy.py",
+      "sha256": "1077d09145c4f52a036f87cfbfcda68cc7a1b4bf4f6571289f37f96d8f816767"
+    },
+    {
+      "bytes": 4396,
+      "path": "experiments/pf_generation/tests/test_raw_context.py",
+      "sha256": "c89aa79e3fc44e6487870f2f715f9b10ea41ba1939a2bb09bd165042cc35065c"
+    },
+    {
+      "bytes": 9021,
+      "path": "experiments/pf_generation/tests/test_surface_commit.py",
+      "sha256": "71ac9b15584718fe0de8d66ee0ae3c475c260cb3cbbdf99249c4c375ed0fce65"
+    },
+    {
+      "bytes": 5908,
+      "path": "experiments/pf_generation/tests/test_trace_coverage.py",
+      "sha256": "dc9135a8115fd6c66e3f5faf4a47c81345fd506a2533266060a496c00d967ae1"
+    },
+    {
+      "bytes": 6210,
+      "path": "sandbox/m1-review/README.md",
+      "sha256": "7d5272190282262c2bc19a9137f7904689b796b9a730c0249dd4f0cf73845430"
+    },
+    {
+      "bytes": 7767,
+      "path": "sandbox/m1-review/designs/021-pf-measurement-controls-v2/DESIGN.md",
+      "sha256": "476ee3960fe364cae865ac7f9850b4fe14f310718b1895f29f2497e34a4d7588"
+    },
+    {
+      "bytes": 2553,
+      "path": "sandbox/m1-review/designs/021-pf-measurement-controls-v2/PROPOSAL.json",
+      "sha256": "5d5613e6154ec368c21e45308b1a10497b424e5d0ccfae0abfb39fa6a302e561"
+    },
+    {
+      "bytes": 5876,
+      "path": "sandbox/m1-review/implementation/020-pf-surface-commit-fix/VALIDATION.md",
+      "sha256": "694ee2b4a90ee9720870282923bd20c2ae58f3161b751b6bb4bdcc9a2551169a"
+    },
+    {
+      "bytes": 536,
+      "path": "sandbox/m1-review/implementation/020-pf-surface-commit-fix/before-cli.log",
+      "sha256": "a241ca44caa18da6caa72bc43e44ed32c16c86d8e0c143006654d339ee867061"
+    },
+    {
+      "bytes": 1144,
+      "path": "sandbox/m1-review/implementation/020-pf-surface-commit-fix/before-failure.log",
+      "sha256": "d0c008a62b15b38c1e77ddd6aa3cf90b53642a4dbb61569615a5cf7094ef650a"
+    },
+    {
+      "bytes": 76,
+      "path": "sandbox/m1-review/implementation/020-pf-surface-commit-fix/before.json",
+      "sha256": "e33e633d77e5cd08f2ef6441e3c58f04ac61cf4dba251ae09c2a81c58422dbc5"
+    },
+    {
+      "bytes": 7834,
+      "path": "sandbox/m1-review/implementation/020-pf-surface-commit-fix/context-probes.json",
+      "sha256": "e3b1851f2dc664d91b40656a3851780d766ddddc20ffd778a88dfc59677fce3c"
+    },
+    {
+      "bytes": 125967,
+      "path": "sandbox/m1-review/implementation/020-pf-surface-commit-fix/control-cli-plan.json",
+      "sha256": "1be8dc6ad8752045290e4dbc51a5e496bf5ccbd817a9cedf14af162c2bc5f878"
+    },
+    {
+      "bytes": 606,
+      "path": "sandbox/m1-review/implementation/020-pf-surface-commit-fix/control-cli-result.json",
+      "sha256": "99ee386e698199bc52cfca6360086f52c8c51eee0ddf75727ee490525a362e4b"
+    },
+    {
+      "bytes": 101,
+      "path": "sandbox/m1-review/implementation/020-pf-surface-commit-fix/control-cli.log",
+      "sha256": "1a9af97edbcaa96edb5ae47913b9142bd4006670ae701b2ae19b9619ce29478e"
+    },
+    {
+      "bytes": 665,
+      "path": "sandbox/m1-review/implementation/020-pf-surface-commit-fix/control-mechanical-audit.json",
+      "sha256": "990e232a502ed608a4e71c64bf891bc26d22ed5175a2c62df5e9ed9b0cd0de00"
+    },
+    {
+      "bytes": 159,
+      "path": "sandbox/m1-review/implementation/020-pf-surface-commit-fix/control-preservation.json",
+      "sha256": "c8a58372e2cae77a7bc3413479aee3e7ca4cb61840354a30ab8c510d75e2cf51"
+    },
+    {
+      "bytes": 696,
+      "path": "sandbox/m1-review/implementation/020-pf-surface-commit-fix/fixed-case.json",
+      "sha256": "4722e625d1106cbccb345f7be850b80aba34ab4ba398cc48f54c4de7b34f9038"
+    },
+    {
+      "bytes": 97059,
+      "path": "sandbox/m1-review/implementation/020-pf-surface-commit-fix/full-plan/plan.json",
+      "sha256": "3a63c269ec032390d6c0f91a12a7b0c79a3a80ab9cda9777331fb88d47d90474"
+    },
+    {
+      "bytes": 153678,
+      "path": "sandbox/m1-review/implementation/020-pf-surface-commit-fix/full-plan/scope_ledger.json",
+      "sha256": "d7caec57a372a6619c82c708b7bf6c707ade69398ffccb40567e2a97c79a72fd"
+    },
+    {
+      "bytes": 474,
+      "path": "sandbox/m1-review/implementation/020-pf-surface-commit-fix/full-plan-check.json",
+      "sha256": "9a1a440247eb6de7b7aef8022f0f14c7dd24d4222d7599e75c92ddd20a193ed8"
+    },
+    {
+      "bytes": 7189,
+      "path": "sandbox/m1-review/implementation/020-pf-surface-commit-fix/identity-audit.json",
+      "sha256": "67075884fb05c833cb8037e524657cdff33cdaadc21ea33b3876be041bcff84b"
+    },
+    {
+      "bytes": 65,
+      "path": "sandbox/m1-review/implementation/020-pf-surface-commit-fix/identity-performance.json",
+      "sha256": "f657e231f0c0b7397ebe7a181d9c1024d1ef39f2277c13b628e05e0a65839296"
+    },
+    {
+      "bytes": 88627,
+      "path": "sandbox/m1-review/implementation/020-pf-surface-commit-fix/identity-plan/plan.json",
+      "sha256": "5255f70b26f8f2e677a88a54bf4bf3253a48437ac4cdd4e0da81741f0e0e7973"
+    },
+    {
+      "bytes": 30288,
+      "path": "sandbox/m1-review/implementation/020-pf-surface-commit-fix/identity-plan/scope_ledger.json",
+      "sha256": "a01c19bf5681f1d5e48022b1b44a12e31ed580c147f311d5f5de5578bb34105f"
+    },
+    {
+      "bytes": 461,
+      "path": "sandbox/m1-review/implementation/020-pf-surface-commit-fix/identity.log",
+      "sha256": "19f0e0970b44382155d732a05e85bf5998a11fddd1816c1e2d42919f63d149d9"
+    },
+    {
+      "bytes": 13221,
+      "path": "sandbox/m1-review/implementation/020-pf-surface-commit-fix/mechanical-audit.json",
+      "sha256": "a8d294f3d38ea13b071e1f2bcb362f77600c48a7c07a2d0f55eaca352c7d3db2"
+    },
+    {
+      "bytes": 1073,
+      "path": "sandbox/m1-review/implementation/020-pf-surface-commit-fix/normal-preservation.json",
+      "sha256": "49cee1ca01c3bf32bce7e9de72c776dbeee7efcf86a9f4dd26a52a3e3f2e6f70"
+    },
+    {
+      "bytes": 1195,
+      "path": "sandbox/m1-review/implementation/020-pf-surface-commit-fix/required-probes.json",
+      "sha256": "debc51e9d8c92d04611773a40f1799f7846ef7206837fa6168345490417ac4a6"
+    },
+    {
+      "bytes": 89341,
+      "path": "sandbox/m1-review/implementation/020-pf-surface-commit-fix/smoke-plan/plan.json",
+      "sha256": "d614cf198083242dc6b55d59aa50ad778e02f06ded5776f30e26caa3220022db"
+    },
+    {
+      "bytes": 30288,
+      "path": "sandbox/m1-review/implementation/020-pf-surface-commit-fix/smoke-plan/scope_ledger.json",
+      "sha256": "a01c19bf5681f1d5e48022b1b44a12e31ed580c147f311d5f5de5578bb34105f"
+    },
+    {
+      "bytes": 66,
+      "path": "sandbox/m1-review/implementation/020-pf-surface-commit-fix/study-performance.json",
+      "sha256": "61cd9eb469c9e4d152368d2c3cd53c3d3467b74bee44f273555c9da5130472ee"
+    },
+    {
+      "bytes": 1772,
+      "path": "sandbox/m1-review/implementation/020-pf-surface-commit-fix/study.log",
+      "sha256": "3bc5324585c84c91674d5fc4dcfec1a62a1d8044ec709c12405dc78bd45b6271"
+    },
+    {
+      "bytes": 4543,
+      "path": "sandbox/m1-review/implementation/020-pf-surface-commit-fix/summary.json",
+      "sha256": "07a6fa4b4f3d329e49812346247bd44e100b27b44474888d84911ea9b1df2949"
+    },
+    {
+      "bytes": 910,
+      "path": "sandbox/m1-review/implementation/020-pf-surface-commit-fix/terminal-probes.json",
+      "sha256": "64b3c9221fd26ff3d5d4f1f1ef40f1cc6b563af5c636c300c4cedf6c8b1fdab9"
+    },
+    {
+      "bytes": 4038,
+      "path": "sandbox/m1-review/implementation/020-pf-surface-commit-fix/trace-probes.json",
+      "sha256": "4aff377a272f6d9523fbf22a1028e426bea508bc3fb441d4b3e500ff6f58fbd2"
+    },
+    {
+      "bytes": 4195,
+      "path": "sandbox/m1-review/implementation/020-pf-surface-commit-fix/unit-controls.log",
+      "sha256": "3d6016a5b45da97324921d2b7112c40aeff7037ca071c0c558fe179308537b91"
+    },
+    {
+      "bytes": 7159,
+      "path": "sandbox/m1-review/implementation/020-pf-surface-commit-fix/unit-judges.log",
+      "sha256": "a84e1580a0b3f62d8979f0bb75cca7ea7b7546d6eb4c86bafa977abaaf3d6e3d"
+    },
+    {
+      "bytes": 3692,
+      "path": "sandbox/m1-review/implementation/020-pf-surface-commit-fix/unit-m1.log",
+      "sha256": "ff18cd97491afea3863070a3beb6a7784b6780fd2e485e296f6a0be8b2d1dd05"
+    },
+    {
+      "bytes": 8476,
+      "path": "sandbox/m1-review/implementation/020-pf-surface-commit-fix/unit-pf_generation.log",
+      "sha256": "8c10ab5ed76c58a6bb57a0dcdd1ab2cea7fec64968853ccf1de3c58836462d5b"
+    },
+    {
+      "bytes": 382,
+      "path": "sandbox/m1-review/implementation/020-pf-surface-commit-fix/unit-summary.json",
+      "sha256": "535facb9ee38feb1e6f737390f55159eb77731eba10d4ff27c6aa9de831640fa"
+    },
+    {
+      "bytes": 4141,
+      "path": "sandbox/m1-review/requests/022-pf-surface-commit-recheck.md",
+      "sha256": "54480bfb30126984f61ed152a98ac3714e2ca897362cdab44dd8c23e5e9b548c"
+    },
+    {
+      "bytes": 1723,
+      "path": "sandbox/m1-review/responses/020-review019-response.md",
+      "sha256": "309619ebe86764064ff7c1a21d8751410c7ec36f0a2e45959155d95e20ca5204"
+    },
+    {
+      "bytes": 9489,
+      "path": "sandbox/m1-review/status.json",
+      "sha256": "c5b6c6e8343119f615be3f266a3bdc67ad36635f0087e5dcd953575e4e59ce2a"
+    }
+  ],
+  "fresh_pf_pages": 60,
+  "frozen_sources_sha256": "e4b1d0a0de114d4f1e19aaa07b40e2d10354afd52648352ba2e4140b299d28a6",
+  "generation_sources_sha256": "ef903488a24ae231175d2fa6869596979f7b81cc823e1ae31fa0b22c6af3da23",
+  "main_plan_hash": "5f0e657be62f5541ef16b40737d44f86bca70cdf990985154693a7fbacb6954a",
+  "negative_and_invalidation_checks": 34,
+  "new_full_comparison_started": false,
+  "new_model_or_v2_donors_implemented": false,
+  "payload_snapshot_sha256": "59477eb5f2771399eb7ad8e51ccfcce67f5614cca05872c24ddae225db09c171",
+  "promotion": null,
+  "purpose": "Report019 surface-commit and CLI fixes; new measurement/control design only",
+  "schema_version": 1,
+  "unit_tests": 174
+}

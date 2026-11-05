@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "total": 174,
+  "suites": [
+    {
+      "suite": "pf_generation",
+      "tests": 58,
+      "status": "PASS"
+    },
+    {
+      "suite": "controls",
+      "tests": 33,
+      "status": "PASS"
+    },
+    {
+      "suite": "m1",
+      "tests": 27,
+      "status": "PASS"
+    },
+    {
+      "suite": "judges",
+      "tests": 56,
+      "status": "PASS"
+    }
+  ]
+}

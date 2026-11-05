@@ -1,0 +1,15 @@
+{
+  "arms": 4,
+  "bifolia": 20,
+  "frozen_files": 501,
+  "generation_source_files": 41,
+  "generation_started": false,
+  "known3_layout_masks_unchanged": true,
+  "law_payloads_unchanged": true,
+  "old_plan_hash": "262097f1db82c4c53c2f2b8ebf84ddee227c8ebd2264fb3f56ab02a42f131c17",
+  "old_plan_rejected": "Unsupported PF contract",
+  "plan_hash": "5f0e657be62f5541ef16b40737d44f86bca70cdf990985154693a7fbacb6954a",
+  "planned_pages": 800,
+  "seeds": 10,
+  "status": "PASS"
+}
