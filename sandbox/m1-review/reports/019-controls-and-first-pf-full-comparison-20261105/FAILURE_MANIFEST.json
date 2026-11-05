@@ -1,0 +1,35 @@
+{
+  "status": "MAIN_ABORTED_REPRODUCIBLE_GENERATOR_INVARIANT",
+  "source_commit": "2bd72160cb61d994e873c48d09a7dfca72b3375b",
+  "prior_registration_commit": "197de98",
+  "main_comparison_plan_hash": "262097f1db82c4c53c2f2b8ebf84ddee227c8ebd2264fb3f56ab02a42f131c17",
+  "files": [
+    {
+      "path": "FAILURE_REPORT.md",
+      "bytes": 4987,
+      "sha256": "743f6f874e33f914286f2c68ea8bcd59d03cef2ebcaffeab91d66678b552b666"
+    },
+    {
+      "path": "GENERATOR_FAILURE.json",
+      "bytes": 2215,
+      "sha256": "01f3ecac3dc80d0ca83ba3c402ef6a313004f97faec093c91981aa26cad4c88c"
+    },
+    {
+      "path": "MAIN_FAILURE_SUMMARY.json",
+      "bytes": 1142,
+      "sha256": "872c06af425b77e6da1a6900e485dfc722808f4e13fe9e4bec2a7a99b488e9a0"
+    },
+    {
+      "path": "PARTIAL_EXECUTION.csv",
+      "bytes": 37305,
+      "sha256": "6a20d55aabe449c4070f1cff4124180bcb1f8f4a7b53621fc0e92fdc032c39e5"
+    },
+    {
+      "path": "main-failure-traceback.log",
+      "bytes": 890,
+      "sha256": "f4658f7162bdb322efec676005848e3299f18c75ab1063da1386df9d6f26b701"
+    }
+  ],
+  "raw_generated_words_included": false,
+  "partial_scoring_performed": false
+}

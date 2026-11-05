@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "<stdin>", line 10, in <module>
+  File "/workspace/voynich-results/m1-v2-independent-20261105/checkout/experiments/m1_pf/runtime.py", line 73, in generate
+    return self._generate(bif, run, arm, dest)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/voynich-results/m1-v2-independent-20261105/checkout/experiments/pf_generation/runtime.py", line 71, in _generate
+    result = rb.generate(self.C, fc, core, cfg, prev, patch, tab, run)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/voynich-results/m1-v2-independent-20261105/checkout/HerbalA_v22_3_20260921/model/runtime/EHC1_E1GLOBAL_20260911/inputs/RMW1_BTI2_EHC1_20260911/code/run_bti2_ehc1.py", line 114, in generate
+    assert terminal_mismatches==0 and fake_head==0
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

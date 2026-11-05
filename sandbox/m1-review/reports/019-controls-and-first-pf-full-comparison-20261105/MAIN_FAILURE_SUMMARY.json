@@ -1,0 +1,33 @@
+{
+  "status": "FAILED_GENERATOR_INVARIANT",
+  "comparison_plan_hash": "262097f1db82c4c53c2f2b8ebf84ddee227c8ebd2264fb3f56ab02a42f131c17",
+  "planned_pages": 800,
+  "completed_pages": 421,
+  "completed_by_arm": {
+    "BASE": 200,
+    "PF_GATE": 196,
+    "PF_GATE_LENGTH": 25,
+    "REFERENCE": 0
+  },
+  "failed_case": {
+    "arm": "PF_GATE_LENGTH",
+    "bif": "A:3",
+    "error": "",
+    "run": 91711
+  },
+  "not_generated_after_stop": 378,
+  "seed_exclusion_or_replacement": false,
+  "partial_scoring_performed": false,
+  "full_audit_seal_created": false,
+  "partial_record_digest": "2df5684bd29952ec1195f2c78129ad7c51c3960afe86e9748b844464b741620a",
+  "baseline_historical_semantics": {
+    "status": "PASS",
+    "cases": 200,
+    "semantic_state_actual_rng_exact": true,
+    "base_records_sha256": "e7242e4dc4333529fdbb554928b71e8b76093929c156b7cf83ead89daed5e260",
+    "prior_manifest_sha256": "61dcfef71767d20eaf6934fb68da9f221696ea7435ac26257788a33898c0f2a4",
+    "reference": "Prior independent M1 full-comparison BASE, same seeds and literal generator"
+  },
+  "control_assessment": "CONTINUES_SEPARATELY",
+  "source_unmodified": true
+}
