@@ -1,0 +1,728 @@
+{
+  "BASE": {
+    "PF_channels_CAL": {
+      "ATOM.PARA_END/head": {
+        "macro_expected_accuracy": 0.5444444444444445,
+        "bifolia": 18,
+        "comparisons": 180,
+        "ties": 106
+      },
+      "ATOM.PARA_END/length_pair": {
+        "macro_expected_accuracy": 0.5676470588235294,
+        "bifolia": 17,
+        "comparisons": 170,
+        "ties": 127
+      },
+      "ATOM.PARA_END/length_width": {
+        "macro_expected_accuracy": 0.6194444444444445,
+        "bifolia": 18,
+        "comparisons": 180,
+        "ties": 111
+      },
+      "ATOM.PARA_END/ng2": {
+        "macro_expected_accuracy": 0.5970588235294118,
+        "bifolia": 17,
+        "comparisons": 170,
+        "ties": 31
+      },
+      "ATOM.PARA_END/ng3": {
+        "macro_expected_accuracy": 0.5079248366013073,
+        "bifolia": 17,
+        "comparisons": 162,
+        "ties": 84
+      },
+      "ATOM.PARA_END/space_T_H1": {
+        "macro_expected_accuracy": 0.6176470588235294,
+        "bifolia": 17,
+        "comparisons": 170,
+        "ties": 26
+      },
+      "ATOM.PARA_END/terminal": {
+        "macro_expected_accuracy": 0.5861111111111111,
+        "bifolia": 18,
+        "comparisons": 180,
+        "ties": 55
+      },
+      "ATOM.PARA_END/word": {
+        "macro_expected_accuracy": 0.49166666666666664,
+        "bifolia": 18,
+        "comparisons": 180,
+        "ties": 159
+      },
+      "ATOM.PARA_END/word_pair": {
+        "macro_expected_accuracy": 0.5,
+        "bifolia": 17,
+        "comparisons": 170,
+        "ties": 150
+      }
+    },
+    "visible_features": {
+      "generated/ALL/mean_previous_length": {
+        "macro_mean": 3.9460784313725488,
+        "bifolia": 17
+      },
+      "generated/ALL/mean_visible_length": {
+        "macro_mean": 4.656481481481482,
+        "bifolia": 18
+      },
+      "generated/ALL/mean_visible_width": {
+        "macro_mean": 5.6,
+        "bifolia": 18
+      },
+      "generated/ALL/no_previous_word": {
+        "macro_mean": 0.06574074074074074,
+        "bifolia": 18
+      },
+      "generated/ALL/short_le3": {
+        "macro_mean": 0.19444444444444445,
+        "bifolia": 18
+      },
+      "generated/ALL/terminal_l": {
+        "macro_mean": 0.045370370370370366,
+        "bifolia": 18
+      },
+      "generated/ALL/terminal_m": {
+        "macro_mean": 0.05555555555555555,
+        "bifolia": 18
+      },
+      "generated/ALL/terminal_n": {
+        "macro_mean": 0.48888888888888893,
+        "bifolia": 18
+      },
+      "generated/ALL/terminal_r": {
+        "macro_mean": 0.06944444444444445,
+        "bifolia": 18
+      },
+      "generated/ALL/terminal_y": {
+        "macro_mean": 0.2759259259259259,
+        "bifolia": 18
+      },
+      "generated/MULTILINE/mean_previous_length": {
+        "macro_mean": 3.9460784313725488,
+        "bifolia": 17
+      },
+      "generated/MULTILINE/mean_visible_length": {
+        "macro_mean": 4.656481481481482,
+        "bifolia": 18
+      },
+      "generated/MULTILINE/mean_visible_width": {
+        "macro_mean": 5.6,
+        "bifolia": 18
+      },
+      "generated/MULTILINE/no_previous_word": {
+        "macro_mean": 0.06574074074074074,
+        "bifolia": 18
+      },
+      "generated/MULTILINE/short_le3": {
+        "macro_mean": 0.19444444444444445,
+        "bifolia": 18
+      },
+      "generated/MULTILINE/terminal_l": {
+        "macro_mean": 0.045370370370370366,
+        "bifolia": 18
+      },
+      "generated/MULTILINE/terminal_m": {
+        "macro_mean": 0.05555555555555555,
+        "bifolia": 18
+      },
+      "generated/MULTILINE/terminal_n": {
+        "macro_mean": 0.48888888888888893,
+        "bifolia": 18
+      },
+      "generated/MULTILINE/terminal_r": {
+        "macro_mean": 0.06944444444444445,
+        "bifolia": 18
+      },
+      "generated/MULTILINE/terminal_y": {
+        "macro_mean": 0.2759259259259259,
+        "bifolia": 18
+      },
+      "genuine/ALL/mean_previous_length": {
+        "macro_mean": 3.7254901960784315,
+        "bifolia": 17
+      },
+      "genuine/ALL/mean_visible_length": {
+        "macro_mean": 4.898148148148149,
+        "bifolia": 18
+      },
+      "genuine/ALL/mean_visible_width": {
+        "macro_mean": 5.981481481481482,
+        "bifolia": 18
+      },
+      "genuine/ALL/no_previous_word": {
+        "macro_mean": 0.07407407407407407,
+        "bifolia": 18
+      },
+      "genuine/ALL/short_le3": {
+        "macro_mean": 0.2777777777777778,
+        "bifolia": 18
+      },
+      "genuine/ALL/terminal_l": {
+        "macro_mean": 0.08333333333333333,
+        "bifolia": 18
+      },
+      "genuine/ALL/terminal_m": {
+        "macro_mean": 0.08333333333333333,
+        "bifolia": 18
+      },
+      "genuine/ALL/terminal_n": {
+        "macro_mean": 0.3148148148148148,
+        "bifolia": 18
+      },
+      "genuine/ALL/terminal_r": {
+        "macro_mean": 0.08333333333333333,
+        "bifolia": 18
+      },
+      "genuine/ALL/terminal_y": {
+        "macro_mean": 0.4074074074074074,
+        "bifolia": 18
+      },
+      "genuine/MULTILINE/mean_previous_length": {
+        "macro_mean": 3.7254901960784315,
+        "bifolia": 17
+      },
+      "genuine/MULTILINE/mean_visible_length": {
+        "macro_mean": 4.898148148148149,
+        "bifolia": 18
+      },
+      "genuine/MULTILINE/mean_visible_width": {
+        "macro_mean": 5.981481481481482,
+        "bifolia": 18
+      },
+      "genuine/MULTILINE/no_previous_word": {
+        "macro_mean": 0.07407407407407407,
+        "bifolia": 18
+      },
+      "genuine/MULTILINE/short_le3": {
+        "macro_mean": 0.2777777777777778,
+        "bifolia": 18
+      },
+      "genuine/MULTILINE/terminal_l": {
+        "macro_mean": 0.08333333333333333,
+        "bifolia": 18
+      },
+      "genuine/MULTILINE/terminal_m": {
+        "macro_mean": 0.08333333333333333,
+        "bifolia": 18
+      },
+      "genuine/MULTILINE/terminal_n": {
+        "macro_mean": 0.3148148148148148,
+        "bifolia": 18
+      },
+      "genuine/MULTILINE/terminal_r": {
+        "macro_mean": 0.08333333333333333,
+        "bifolia": 18
+      },
+      "genuine/MULTILINE/terminal_y": {
+        "macro_mean": 0.4074074074074074,
+        "bifolia": 18
+      }
+    }
+  },
+  "PF_NO_RESCUE": {
+    "PF_channels_CAL": {
+      "ATOM.PARA_END/head": {
+        "macro_expected_accuracy": 0.5277777777777778,
+        "bifolia": 18,
+        "comparisons": 180,
+        "ties": 112
+      },
+      "ATOM.PARA_END/length_pair": {
+        "macro_expected_accuracy": 0.5764705882352942,
+        "bifolia": 17,
+        "comparisons": 170,
+        "ties": 128
+      },
+      "ATOM.PARA_END/length_width": {
+        "macro_expected_accuracy": 0.5861111111111111,
+        "bifolia": 18,
+        "comparisons": 180,
+        "ties": 121
+      },
+      "ATOM.PARA_END/ng2": {
+        "macro_expected_accuracy": 0.5499999999999999,
+        "bifolia": 17,
+        "comparisons": 170,
+        "ties": 27
+      },
+      "ATOM.PARA_END/ng3": {
+        "macro_expected_accuracy": 0.47785947712418303,
+        "bifolia": 17,
+        "comparisons": 159,
+        "ties": 77
+      },
+      "ATOM.PARA_END/space_T_H1": {
+        "macro_expected_accuracy": 0.5823529411764706,
+        "bifolia": 17,
+        "comparisons": 170,
+        "ties": 20
+      },
+      "ATOM.PARA_END/terminal": {
+        "macro_expected_accuracy": 0.5611111111111111,
+        "bifolia": 18,
+        "comparisons": 180,
+        "ties": 62
+      },
+      "ATOM.PARA_END/word": {
+        "macro_expected_accuracy": 0.49166666666666664,
+        "bifolia": 18,
+        "comparisons": 180,
+        "ties": 157
+      },
+      "ATOM.PARA_END/word_pair": {
+        "macro_expected_accuracy": 0.4970588235294117,
+        "bifolia": 17,
+        "comparisons": 170,
+        "ties": 151
+      }
+    },
+    "visible_features": {
+      "generated/ALL/mean_previous_length": {
+        "macro_mean": 4.051960784313726,
+        "bifolia": 17
+      },
+      "generated/ALL/mean_visible_length": {
+        "macro_mean": 4.35462962962963,
+        "bifolia": 18
+      },
+      "generated/ALL/mean_visible_width": {
+        "macro_mean": 5.557407407407407,
+        "bifolia": 18
+      },
+      "generated/ALL/no_previous_word": {
+        "macro_mean": 0.06851851851851852,
+        "bifolia": 18
+      },
+      "generated/ALL/short_le3": {
+        "macro_mean": 0.25,
+        "bifolia": 18
+      },
+      "generated/ALL/terminal_l": {
+        "macro_mean": 0.05555555555555555,
+        "bifolia": 18
+      },
+      "generated/ALL/terminal_m": {
+        "macro_mean": 0.03796296296296296,
+        "bifolia": 18
+      },
+      "generated/ALL/terminal_n": {
+        "macro_mean": 0.4009259259259259,
+        "bifolia": 18
+      },
+      "generated/ALL/terminal_r": {
+        "macro_mean": 0.062037037037037036,
+        "bifolia": 18
+      },
+      "generated/ALL/terminal_y": {
+        "macro_mean": 0.38703703703703707,
+        "bifolia": 18
+      },
+      "generated/MULTILINE/mean_previous_length": {
+        "macro_mean": 4.051960784313726,
+        "bifolia": 17
+      },
+      "generated/MULTILINE/mean_visible_length": {
+        "macro_mean": 4.35462962962963,
+        "bifolia": 18
+      },
+      "generated/MULTILINE/mean_visible_width": {
+        "macro_mean": 5.557407407407407,
+        "bifolia": 18
+      },
+      "generated/MULTILINE/no_previous_word": {
+        "macro_mean": 0.06851851851851852,
+        "bifolia": 18
+      },
+      "generated/MULTILINE/short_le3": {
+        "macro_mean": 0.25,
+        "bifolia": 18
+      },
+      "generated/MULTILINE/terminal_l": {
+        "macro_mean": 0.05555555555555555,
+        "bifolia": 18
+      },
+      "generated/MULTILINE/terminal_m": {
+        "macro_mean": 0.03796296296296296,
+        "bifolia": 18
+      },
+      "generated/MULTILINE/terminal_n": {
+        "macro_mean": 0.4009259259259259,
+        "bifolia": 18
+      },
+      "generated/MULTILINE/terminal_r": {
+        "macro_mean": 0.062037037037037036,
+        "bifolia": 18
+      },
+      "generated/MULTILINE/terminal_y": {
+        "macro_mean": 0.38703703703703707,
+        "bifolia": 18
+      },
+      "genuine/ALL/mean_previous_length": {
+        "macro_mean": 3.7254901960784315,
+        "bifolia": 17
+      },
+      "genuine/ALL/mean_visible_length": {
+        "macro_mean": 4.898148148148149,
+        "bifolia": 18
+      },
+      "genuine/ALL/mean_visible_width": {
+        "macro_mean": 5.981481481481482,
+        "bifolia": 18
+      },
+      "genuine/ALL/no_previous_word": {
+        "macro_mean": 0.07407407407407407,
+        "bifolia": 18
+      },
+      "genuine/ALL/short_le3": {
+        "macro_mean": 0.2777777777777778,
+        "bifolia": 18
+      },
+      "genuine/ALL/terminal_l": {
+        "macro_mean": 0.08333333333333333,
+        "bifolia": 18
+      },
+      "genuine/ALL/terminal_m": {
+        "macro_mean": 0.08333333333333333,
+        "bifolia": 18
+      },
+      "genuine/ALL/terminal_n": {
+        "macro_mean": 0.3148148148148148,
+        "bifolia": 18
+      },
+      "genuine/ALL/terminal_r": {
+        "macro_mean": 0.08333333333333333,
+        "bifolia": 18
+      },
+      "genuine/ALL/terminal_y": {
+        "macro_mean": 0.4074074074074074,
+        "bifolia": 18
+      },
+      "genuine/MULTILINE/mean_previous_length": {
+        "macro_mean": 3.7254901960784315,
+        "bifolia": 17
+      },
+      "genuine/MULTILINE/mean_visible_length": {
+        "macro_mean": 4.898148148148149,
+        "bifolia": 18
+      },
+      "genuine/MULTILINE/mean_visible_width": {
+        "macro_mean": 5.981481481481482,
+        "bifolia": 18
+      },
+      "genuine/MULTILINE/no_previous_word": {
+        "macro_mean": 0.07407407407407407,
+        "bifolia": 18
+      },
+      "genuine/MULTILINE/short_le3": {
+        "macro_mean": 0.2777777777777778,
+        "bifolia": 18
+      },
+      "genuine/MULTILINE/terminal_l": {
+        "macro_mean": 0.08333333333333333,
+        "bifolia": 18
+      },
+      "genuine/MULTILINE/terminal_m": {
+        "macro_mean": 0.08333333333333333,
+        "bifolia": 18
+      },
+      "genuine/MULTILINE/terminal_n": {
+        "macro_mean": 0.3148148148148148,
+        "bifolia": 18
+      },
+      "genuine/MULTILINE/terminal_r": {
+        "macro_mean": 0.08333333333333333,
+        "bifolia": 18
+      },
+      "genuine/MULTILINE/terminal_y": {
+        "macro_mean": 0.4074074074074074,
+        "bifolia": 18
+      }
+    }
+  },
+  "PF_ANCHOR": {
+    "PF_channels_CAL": {
+      "ATOM.PARA_END/head": {
+        "macro_expected_accuracy": 0.5166666666666667,
+        "bifolia": 18,
+        "comparisons": 180,
+        "ties": 112
+      },
+      "ATOM.PARA_END/length_pair": {
+        "macro_expected_accuracy": 0.5705882352941176,
+        "bifolia": 17,
+        "comparisons": 170,
+        "ties": 126
+      },
+      "ATOM.PARA_END/length_width": {
+        "macro_expected_accuracy": 0.6000000000000001,
+        "bifolia": 18,
+        "comparisons": 180,
+        "ties": 112
+      },
+      "ATOM.PARA_END/ng2": {
+        "macro_expected_accuracy": 0.4781862745098039,
+        "bifolia": 17,
+        "comparisons": 165,
+        "ties": 36
+      },
+      "ATOM.PARA_END/ng3": {
+        "macro_expected_accuracy": 0.425046685340803,
+        "bifolia": 17,
+        "comparisons": 152,
+        "ties": 85
+      },
+      "ATOM.PARA_END/space_T_H1": {
+        "macro_expected_accuracy": 0.5735294117647058,
+        "bifolia": 17,
+        "comparisons": 170,
+        "ties": 19
+      },
+      "ATOM.PARA_END/terminal": {
+        "macro_expected_accuracy": 0.6194444444444445,
+        "bifolia": 18,
+        "comparisons": 180,
+        "ties": 57
+      },
+      "ATOM.PARA_END/word": {
+        "macro_expected_accuracy": 0.47777777777777775,
+        "bifolia": 18,
+        "comparisons": 180,
+        "ties": 156
+      },
+      "ATOM.PARA_END/word_pair": {
+        "macro_expected_accuracy": 0.5,
+        "bifolia": 17,
+        "comparisons": 170,
+        "ties": 150
+      }
+    },
+    "visible_features": {
+      "generated/ALL/mean_previous_length": {
+        "macro_mean": 4.256862745098039,
+        "bifolia": 17
+      },
+      "generated/ALL/mean_visible_length": {
+        "macro_mean": 3.8787037037037035,
+        "bifolia": 18
+      },
+      "generated/ALL/mean_visible_width": {
+        "macro_mean": 4.9601851851851855,
+        "bifolia": 18
+      },
+      "generated/ALL/no_previous_word": {
+        "macro_mean": 0.061111111111111116,
+        "bifolia": 18
+      },
+      "generated/ALL/short_le3": {
+        "macro_mean": 0.44351851851851853,
+        "bifolia": 18
+      },
+      "generated/ALL/terminal_l": {
+        "macro_mean": 0.09722222222222222,
+        "bifolia": 18
+      },
+      "generated/ALL/terminal_m": {
+        "macro_mean": 0.07037037037037036,
+        "bifolia": 18
+      },
+      "generated/ALL/terminal_n": {
+        "macro_mean": 0.2574074074074074,
+        "bifolia": 18
+      },
+      "generated/ALL/terminal_r": {
+        "macro_mean": 0.0787037037037037,
+        "bifolia": 18
+      },
+      "generated/ALL/terminal_y": {
+        "macro_mean": 0.3657407407407407,
+        "bifolia": 18
+      },
+      "generated/MULTILINE/mean_previous_length": {
+        "macro_mean": 4.256862745098039,
+        "bifolia": 17
+      },
+      "generated/MULTILINE/mean_visible_length": {
+        "macro_mean": 3.8787037037037035,
+        "bifolia": 18
+      },
+      "generated/MULTILINE/mean_visible_width": {
+        "macro_mean": 4.9601851851851855,
+        "bifolia": 18
+      },
+      "generated/MULTILINE/no_previous_word": {
+        "macro_mean": 0.061111111111111116,
+        "bifolia": 18
+      },
+      "generated/MULTILINE/short_le3": {
+        "macro_mean": 0.44351851851851853,
+        "bifolia": 18
+      },
+      "generated/MULTILINE/terminal_l": {
+        "macro_mean": 0.09722222222222222,
+        "bifolia": 18
+      },
+      "generated/MULTILINE/terminal_m": {
+        "macro_mean": 0.07037037037037036,
+        "bifolia": 18
+      },
+      "generated/MULTILINE/terminal_n": {
+        "macro_mean": 0.2574074074074074,
+        "bifolia": 18
+      },
+      "generated/MULTILINE/terminal_r": {
+        "macro_mean": 0.0787037037037037,
+        "bifolia": 18
+      },
+      "generated/MULTILINE/terminal_y": {
+        "macro_mean": 0.3657407407407407,
+        "bifolia": 18
+      },
+      "genuine/ALL/mean_previous_length": {
+        "macro_mean": 3.7254901960784315,
+        "bifolia": 17
+      },
+      "genuine/ALL/mean_visible_length": {
+        "macro_mean": 4.898148148148149,
+        "bifolia": 18
+      },
+      "genuine/ALL/mean_visible_width": {
+        "macro_mean": 5.981481481481482,
+        "bifolia": 18
+      },
+      "genuine/ALL/no_previous_word": {
+        "macro_mean": 0.07407407407407407,
+        "bifolia": 18
+      },
+      "genuine/ALL/short_le3": {
+        "macro_mean": 0.2777777777777778,
+        "bifolia": 18
+      },
+      "genuine/ALL/terminal_l": {
+        "macro_mean": 0.08333333333333333,
+        "bifolia": 18
+      },
+      "genuine/ALL/terminal_m": {
+        "macro_mean": 0.08333333333333333,
+        "bifolia": 18
+      },
+      "genuine/ALL/terminal_n": {
+        "macro_mean": 0.3148148148148148,
+        "bifolia": 18
+      },
+      "genuine/ALL/terminal_r": {
+        "macro_mean": 0.08333333333333333,
+        "bifolia": 18
+      },
+      "genuine/ALL/terminal_y": {
+        "macro_mean": 0.4074074074074074,
+        "bifolia": 18
+      },
+      "genuine/MULTILINE/mean_previous_length": {
+        "macro_mean": 3.7254901960784315,
+        "bifolia": 17
+      },
+      "genuine/MULTILINE/mean_visible_length": {
+        "macro_mean": 4.898148148148149,
+        "bifolia": 18
+      },
+      "genuine/MULTILINE/mean_visible_width": {
+        "macro_mean": 5.981481481481482,
+        "bifolia": 18
+      },
+      "genuine/MULTILINE/no_previous_word": {
+        "macro_mean": 0.07407407407407407,
+        "bifolia": 18
+      },
+      "genuine/MULTILINE/short_le3": {
+        "macro_mean": 0.2777777777777778,
+        "bifolia": 18
+      },
+      "genuine/MULTILINE/terminal_l": {
+        "macro_mean": 0.08333333333333333,
+        "bifolia": 18
+      },
+      "genuine/MULTILINE/terminal_m": {
+        "macro_mean": 0.08333333333333333,
+        "bifolia": 18
+      },
+      "genuine/MULTILINE/terminal_n": {
+        "macro_mean": 0.3148148148148148,
+        "bifolia": 18
+      },
+      "genuine/MULTILINE/terminal_r": {
+        "macro_mean": 0.08333333333333333,
+        "bifolia": 18
+      },
+      "genuine/MULTILINE/terminal_y": {
+        "macro_mean": 0.4074074074074074,
+        "bifolia": 18
+      }
+    }
+  },
+  "_note": "Exploratory existing development data. Within-case means, then seed means within bifolium, then equal bifolium means. Genuine pages repeated across seeds are not independent. Glyph-derived visible width, m retained. Individual channels overlap and are not independent votes. No generator fitting or new generation.",
+  "visible_pf_length_bands_macro": {
+    "BASE": {
+      "genuine/1-3": 0.2777777777777778,
+      "genuine/4-6": 0.48148148148148145,
+      "genuine/7+": 0.24074074074074073,
+      "generated/1-3": 0.19444444444444445,
+      "generated/4-6": 0.7583333333333333,
+      "generated/7+": 0.04722222222222222
+    },
+    "PF_NO_RESCUE": {
+      "genuine/1-3": 0.2777777777777778,
+      "genuine/4-6": 0.48148148148148145,
+      "genuine/7+": 0.24074074074074073,
+      "generated/1-3": 0.25,
+      "generated/4-6": 0.7,
+      "generated/7+": 0.05
+    },
+    "PF_ANCHOR": {
+      "genuine/1-3": 0.2777777777777778,
+      "genuine/4-6": 0.48148148148148145,
+      "genuine/7+": 0.24074074074074073,
+      "generated/1-3": 0.44351851851851853,
+      "generated/4-6": 0.5083333333333333,
+      "generated/7+": 0.04814814814814815
+    }
+  },
+  "BASE_candidate_pool_long_words": {
+    "visible_pf_occurrences_across_seeds": 290,
+    "real_pf_slots": 29,
+    "bifolia": 18,
+    "macro_rates": {
+      "candidate0_visible_7plus": 0.03888888888888889,
+      "first_two_pool_visible_7plus": 0.04490740740740741,
+      "first_two_any_visible_7plus": 0.08981481481481482,
+      "selected_visible_7plus": 0.04722222222222222,
+      "selected_stable_7plus": 0.04722222222222222
+    },
+    "note": "Initial two candidates only for pool measures; no target word is used for choosing any branch. Exploratory development diagnostics, equal bifolium weighting."
+  },
+  "visible_pf_width_bands_macro": {
+    "BASE": {
+      "genuine/width_ge7": 0.49074074074074076,
+      "genuine/width_ge9": 0.12962962962962965,
+      "genuine/length_ge7": 0.24074074074074073,
+      "generated/width_ge7": 0.2898148148148148,
+      "generated/width_ge9": 0.05092592592592593,
+      "generated/length_ge7": 0.04722222222222222
+    },
+    "PF_NO_RESCUE": {
+      "genuine/width_ge7": 0.49074074074074076,
+      "genuine/width_ge9": 0.12962962962962965,
+      "genuine/length_ge7": 0.24074074074074073,
+      "generated/width_ge7": 0.3111111111111111,
+      "generated/width_ge9": 0.058333333333333334,
+      "generated/length_ge7": 0.05
+    },
+    "PF_ANCHOR": {
+      "genuine/width_ge7": 0.49074074074074076,
+      "genuine/width_ge9": 0.12962962962962965,
+      "genuine/length_ge7": 0.24074074074074073,
+      "generated/width_ge7": 0.24629629629629632,
+      "generated/width_ge9": 0.05925925925925926,
+      "generated/length_ge7": 0.04814814814814815
+    }
+  }
+}

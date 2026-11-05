@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "source_comparison_commit": "e45a708133a0ca1abb8f0753f1594f026d6b8d3d",
+  "purpose": "Proposal and exploratory read-only diagnostics; no new generator fit or execution",
+  "files": [
+    {
+      "path": "DIAGNOSTIC_METHOD.md",
+      "sha256": "76a161bc3e4fc5ea1ce8776ff8ff6d9c574fe8ae38e864cf6b4e9bdb8b26fb48",
+      "bytes": 2605
+    },
+    {
+      "path": "PF_DIAGNOSTICS.json",
+      "sha256": "033effc7756d1ae14799863360b4812934abec4ca13d009b8832f727db2fd6c7",
+      "bytes": 21191
+    },
+    {
+      "path": "PROPOSAL.md",
+      "sha256": "cc8898a356678161b8f2eb85106c425c074258807e978b4869ed9fe2aa06bde6",
+      "bytes": 8916
+    }
+  ]
+}
