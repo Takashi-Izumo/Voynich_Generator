@@ -1,0 +1,4472 @@
+{
+  "acceptance_margins": null,
+  "comparisons": {
+    "BASE__PF_NO_RESCUE": {
+      "ATOM.BODY.CAL": {
+        "cluster_bootstrap_95": [
+          -0.04999999999999993,
+          0.05500000000000005
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.020000000000000018,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.02999999999999997,
+        "left_rate": 0.47000000000000003,
+        "mean_bifolium_distance_change": -1.1102230246251566e-17,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.04999999999999999,
+        "right_rate": 0.45,
+        "signed_rate_change": -0.020000000000000018,
+        "status_transitions": {
+          "DECIDED->DECIDED": 200
+        }
+      },
+      "ATOM.BODY.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.05999999999999994,
+          0.05999999999999994
+        ],
+        "direction_reversal": true,
+        "distance_change": -0.0050000000000000044,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.015000000000000013,
+        "left_rate": 0.485,
+        "mean_bifolium_distance_change": 0.015000000000000005,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.010000000000000009,
+        "right_rate": 0.51,
+        "signed_rate_change": 0.025000000000000022,
+        "status_transitions": {
+          "DECIDED->DECIDED": 200
+        }
+      },
+      "ATOM.FIRST_INTERIOR.CAL": {
+        "cluster_bootstrap_95": [
+          0.0,
+          0.0
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.0,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.07333333333333336,
+        "left_rate": 0.5733333333333334,
+        "mean_bifolium_distance_change": 0.0,
+        "paired_bifolia": 15,
+        "paired_cases": 150,
+        "promotion": null,
+        "right_distance": 0.07333333333333336,
+        "right_rate": 0.5733333333333334,
+        "signed_rate_change": 0.0,
+        "status_transitions": {
+          "DECIDED->DECIDED": 150,
+          "NA->NA": 50
+        }
+      },
+      "ATOM.FIRST_INTERIOR.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.019999999999999907,
+          0.020000000000000018
+        ],
+        "direction_reversal": false,
+        "distance_change": 5.551115123125783e-17,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.026666666666666616,
+        "left_rate": 0.4733333333333334,
+        "mean_bifolium_distance_change": -7.401486830834377e-18,
+        "paired_bifolia": 15,
+        "paired_cases": 150,
+        "promotion": null,
+        "right_distance": 0.026666666666666672,
+        "right_rate": 0.47333333333333333,
+        "signed_rate_change": -5.551115123125783e-17,
+        "status_transitions": {
+          "DECIDED->DECIDED": 150,
+          "NA->NA": 50
+        }
+      },
+      "ATOM.HEAD.CAL": {
+        "cluster_bootstrap_95": [
+          -0.030000000000000027,
+          0.03499999999999992
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.0,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.03749999999999998,
+        "left_rate": 0.5375,
+        "mean_bifolium_distance_change": 0.010000000000000012,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.03749999999999998,
+        "right_rate": 0.5375,
+        "signed_rate_change": 0.0,
+        "status_transitions": {
+          "DECIDED->DECIDED": 197,
+          "DECIDED->TIE": 2,
+          "TIE->TIE": 1
+        }
+      },
+      "ATOM.HEAD.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.039999999999999925,
+          0.040000000000000036
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.0050000000000000044,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.07499999999999996,
+        "left_rate": 0.575,
+        "mean_bifolium_distance_change": -0.045,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.07999999999999996,
+        "right_rate": 0.58,
+        "signed_rate_change": 0.0050000000000000044,
+        "status_transitions": {
+          "DECIDED->DECIDED": 200
+        }
+      },
+      "ATOM.LINE_END.CAL": {
+        "cluster_bootstrap_95": [
+          -0.05499999999999994,
+          0.025000000000000022
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.020000000000000018,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.09999999999999998,
+        "left_rate": 0.6,
+        "mean_bifolium_distance_change": 8.326672684688674e-18,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.07999999999999996,
+        "right_rate": 0.58,
+        "signed_rate_change": -0.020000000000000018,
+        "status_transitions": {
+          "DECIDED->DECIDED": 200
+        }
+      },
+      "ATOM.LINE_END.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.04499999999999993,
+          0.03999999999999998
+        ],
+        "direction_reversal": true,
+        "distance_change": -0.010000000000000009,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.015000000000000013,
+        "left_rate": 0.515,
+        "mean_bifolium_distance_change": -0.009999999999999995,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.0050000000000000044,
+        "right_rate": 0.495,
+        "signed_rate_change": -0.020000000000000018,
+        "status_transitions": {
+          "DECIDED->DECIDED": 200
+        }
+      },
+      "ATOM.PARA_END.CAL": {
+        "cluster_bootstrap_95": [
+          -0.047222222222222165,
+          0.022222222222222143
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.01388888888888884,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.23333333333333328,
+        "left_rate": 0.7333333333333333,
+        "mean_bifolium_distance_change": -0.008333333333333344,
+        "paired_bifolia": 18,
+        "paired_cases": 180,
+        "promotion": null,
+        "right_distance": 0.21944444444444444,
+        "right_rate": 0.7194444444444444,
+        "signed_rate_change": -0.01388888888888884,
+        "status_transitions": {
+          "DECIDED->DECIDED": 174,
+          "DECIDED->TIE": 2,
+          "NA->NA": 20,
+          "TIE->DECIDED": 1,
+          "TIE->TIE": 3
+        }
+      },
+      "ATOM.PARA_END.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.06111111111111106,
+          0.0527777777777777
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.011111111111111072,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.008333333333333304,
+        "left_rate": 0.5083333333333333,
+        "mean_bifolium_distance_change": -0.01111111111111113,
+        "paired_bifolia": 18,
+        "paired_cases": 180,
+        "promotion": null,
+        "right_distance": 0.019444444444444375,
+        "right_rate": 0.5194444444444444,
+        "signed_rate_change": 0.011111111111111072,
+        "status_transitions": {
+          "DECIDED->DECIDED": 169,
+          "DECIDED->TIE": 4,
+          "NA->NA": 20,
+          "TIE->DECIDED": 2,
+          "TIE->TIE": 5
+        }
+      },
+      "ATOM.PHW.CAL": {
+        "cluster_bootstrap_95": [
+          -0.010000000000000009,
+          0.006666666666666654
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.0033333333333334103,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.07000000000000006,
+        "left_rate": 0.5700000000000001,
+        "mean_bifolium_distance_change": -0.003333333333333336,
+        "paired_bifolia": 15,
+        "paired_cases": 150,
+        "promotion": null,
+        "right_distance": 0.06666666666666665,
+        "right_rate": 0.5666666666666667,
+        "signed_rate_change": -0.0033333333333334103,
+        "status_transitions": {
+          "DECIDED->DECIDED": 144,
+          "DECIDED->TIE": 1,
+          "NA->NA": 50,
+          "TIE->TIE": 5
+        }
+      },
+      "ATOM.PHW.PROTO": {
+        "cluster_bootstrap_95": [
+          0.0,
+          0.0
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.0,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.030000000000000027,
+        "left_rate": 0.53,
+        "mean_bifolium_distance_change": 0.0,
+        "paired_bifolia": 15,
+        "paired_cases": 150,
+        "promotion": null,
+        "right_distance": 0.030000000000000027,
+        "right_rate": 0.53,
+        "signed_rate_change": 0.0,
+        "status_transitions": {
+          "DECIDED->DECIDED": 147,
+          "NA->NA": 50,
+          "TIE->TIE": 3
+        }
+      },
+      "ATOM.PLANT_END.CAL": {
+        "cluster_bootstrap_95": [
+          -0.028571428571428636,
+          0.021428571428571408
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.007142857142857173,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.11785714285714288,
+        "left_rate": 0.3821428571428571,
+        "mean_bifolium_distance_change": -0.007142857142857141,
+        "paired_bifolia": 14,
+        "paired_cases": 140,
+        "promotion": null,
+        "right_distance": 0.11071428571428571,
+        "right_rate": 0.3892857142857143,
+        "signed_rate_change": 0.007142857142857173,
+        "status_transitions": {
+          "DECIDED->DECIDED": 137,
+          "NA->NA": 60,
+          "TIE->TIE": 3
+        }
+      },
+      "ATOM.PLANT_END.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.02857142857142858,
+          0.035714285714285754
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.0071428571428571175,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.03214285714285714,
+        "left_rate": 0.46785714285714286,
+        "mean_bifolium_distance_change": 0.007142857142857145,
+        "paired_bifolia": 14,
+        "paired_cases": 140,
+        "promotion": null,
+        "right_distance": 0.03928571428571426,
+        "right_rate": 0.46071428571428574,
+        "signed_rate_change": -0.0071428571428571175,
+        "status_transitions": {
+          "DECIDED->DECIDED": 125,
+          "NA->NA": 60,
+          "TIE->TIE": 15
+        }
+      },
+      "ATOM.W2.CAL": {
+        "cluster_bootstrap_95": [
+          -0.04999999999999993,
+          0.03999999999999998
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.0025000000000000577,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.0025000000000000577,
+        "left_rate": 0.5025000000000001,
+        "mean_bifolium_distance_change": -0.022500000000000003,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.0,
+        "right_rate": 0.5,
+        "signed_rate_change": -0.0025000000000000577,
+        "status_transitions": {
+          "DECIDED->DECIDED": 198,
+          "DECIDED->TIE": 1,
+          "TIE->TIE": 1
+        }
+      },
+      "ATOM.W2.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.03499999999999992,
+          0.04999999999999999
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.014999999999999902,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.06500000000000006,
+        "left_rate": 0.43499999999999994,
+        "mean_bifolium_distance_change": -0.015,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.07999999999999996,
+        "right_rate": 0.42000000000000004,
+        "signed_rate_change": -0.014999999999999902,
+        "status_transitions": {
+          "DECIDED->DECIDED": 200
+        }
+      },
+      "J01.CAL": {
+        "cluster_bootstrap_95": [
+          -0.010000000000000009,
+          0.006666666666666654
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.0033333333333334103,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.07000000000000006,
+        "left_rate": 0.5700000000000001,
+        "mean_bifolium_distance_change": -0.003333333333333336,
+        "paired_bifolia": 15,
+        "paired_cases": 150,
+        "promotion": null,
+        "right_distance": 0.06666666666666665,
+        "right_rate": 0.5666666666666667,
+        "signed_rate_change": -0.0033333333333334103,
+        "status_transitions": {
+          "DECIDED->DECIDED": 144,
+          "DECIDED->TIE": 1,
+          "NA->NA": 50,
+          "TIE->TIE": 5
+        }
+      },
+      "J01.PROTO": {
+        "cluster_bootstrap_95": [
+          0.0,
+          0.0
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.0,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.030000000000000027,
+        "left_rate": 0.53,
+        "mean_bifolium_distance_change": 0.0,
+        "paired_bifolia": 15,
+        "paired_cases": 150,
+        "promotion": null,
+        "right_distance": 0.030000000000000027,
+        "right_rate": 0.53,
+        "signed_rate_change": 0.0,
+        "status_transitions": {
+          "DECIDED->DECIDED": 147,
+          "NA->NA": 50,
+          "TIE->TIE": 3
+        }
+      },
+      "J02.CAL": {
+        "cluster_bootstrap_95": [
+          -0.053333333333333344,
+          0.033333333333333326
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.023333333333333317,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.08666666666666667,
+        "left_rate": 0.41333333333333333,
+        "mean_bifolium_distance_change": -0.0033333333333333253,
+        "paired_bifolia": 15,
+        "paired_cases": 150,
+        "promotion": null,
+        "right_distance": 0.06333333333333335,
+        "right_rate": 0.43666666666666665,
+        "signed_rate_change": 0.023333333333333317,
+        "status_transitions": {
+          "DECIDED->DECIDED": 149,
+          "DECIDED->TIE": 1,
+          "NA->NA": 50
+        }
+      },
+      "J02.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.013333333333333364,
+          0.020000000000000018
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.0,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.039999999999999925,
+        "left_rate": 0.5399999999999999,
+        "mean_bifolium_distance_change": 0.013333333333333341,
+        "paired_bifolia": 15,
+        "paired_cases": 150,
+        "promotion": null,
+        "right_distance": 0.039999999999999925,
+        "right_rate": 0.5399999999999999,
+        "signed_rate_change": 0.0,
+        "status_transitions": {
+          "DECIDED->DECIDED": 150,
+          "NA->NA": 50
+        }
+      },
+      "J03.CAL": {
+        "cluster_bootstrap_95": [
+          -0.03500000000000003,
+          0.03500000000000003
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.010000000000000009,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.040000000000000036,
+        "left_rate": 0.54,
+        "mean_bifolium_distance_change": 0.02000000000000001,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.030000000000000027,
+        "right_rate": 0.53,
+        "signed_rate_change": -0.010000000000000009,
+        "status_transitions": {
+          "DECIDED->DECIDED": 198,
+          "DECIDED->TIE": 2
+        }
+      },
+      "J03.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.039999999999999925,
+          0.040000000000000036
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.0050000000000000044,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.07499999999999996,
+        "left_rate": 0.575,
+        "mean_bifolium_distance_change": -0.045,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.07999999999999996,
+        "right_rate": 0.58,
+        "signed_rate_change": 0.0050000000000000044,
+        "status_transitions": {
+          "DECIDED->DECIDED": 200
+        }
+      },
+      "J04.CAL": {
+        "cluster_bootstrap_95": [
+          -0.025000000000000022,
+          0.050000000000000044
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.01000000000000012,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.05499999999999994,
+        "left_rate": 0.5549999999999999,
+        "mean_bifolium_distance_change": 0.029999999999999992,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.06500000000000006,
+        "right_rate": 0.5650000000000001,
+        "signed_rate_change": 0.01000000000000012,
+        "status_transitions": {
+          "DECIDED->DECIDED": 200
+        }
+      },
+      "J04.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.0500000000000001,
+          0.024999999999999967
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.015000000000000013,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.10500000000000004,
+        "left_rate": 0.39499999999999996,
+        "mean_bifolium_distance_change": -0.024999999999999998,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.09000000000000002,
+        "right_rate": 0.41,
+        "signed_rate_change": 0.015000000000000013,
+        "status_transitions": {
+          "DECIDED->DECIDED": 200
+        }
+      },
+      "J05.CAL": {
+        "cluster_bootstrap_95": [
+          -0.02999999999999997,
+          0.040000000000000036
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.009999999999999953,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.06500000000000006,
+        "left_rate": 0.43499999999999994,
+        "mean_bifolium_distance_change": 0.020000000000000004,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.07500000000000001,
+        "right_rate": 0.425,
+        "signed_rate_change": -0.009999999999999953,
+        "status_transitions": {
+          "DECIDED->DECIDED": 198,
+          "TIE->TIE": 2
+        }
+      },
+      "J05.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.025000000000000022,
+          0.03500000000000003
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.009999999999999953,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.07,
+        "left_rate": 0.43,
+        "mean_bifolium_distance_change": -5.551115123125783e-18,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.07999999999999996,
+        "right_rate": 0.42000000000000004,
+        "signed_rate_change": -0.009999999999999953,
+        "status_transitions": {
+          "DECIDED->DECIDED": 200
+        }
+      },
+      "J06.CAL": {
+        "cluster_bootstrap_95": [
+          -0.030000000000000027,
+          0.039999999999999925
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.0050000000000000044,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.01749999999999996,
+        "left_rate": 0.5175,
+        "mean_bifolium_distance_change": 0.025000000000000012,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.022499999999999964,
+        "right_rate": 0.5225,
+        "signed_rate_change": 0.0050000000000000044,
+        "status_transitions": {
+          "DECIDED->DECIDED": 197,
+          "TIE->TIE": 3
+        }
+      },
+      "J06.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.02999999999999997,
+          0.040000000000000036
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.009999999999999898,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.025000000000000022,
+        "left_rate": 0.525,
+        "mean_bifolium_distance_change": 0.02,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.03499999999999992,
+        "right_rate": 0.5349999999999999,
+        "signed_rate_change": 0.009999999999999898,
+        "status_transitions": {
+          "DECIDED->DECIDED": 200
+        }
+      },
+      "J07.CAL": {
+        "cluster_bootstrap_95": [
+          -0.07777777777777772,
+          0.06666666666666665
+        ],
+        "direction_reversal": true,
+        "distance_change": -0.00833333333333336,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.022222222222222254,
+        "left_rate": 0.5222222222222223,
+        "mean_bifolium_distance_change": -0.025,
+        "paired_bifolia": 18,
+        "paired_cases": 180,
+        "promotion": null,
+        "right_distance": 0.013888888888888895,
+        "right_rate": 0.4861111111111111,
+        "signed_rate_change": -0.03611111111111115,
+        "status_transitions": {
+          "DECIDED->DECIDED": 179,
+          "DECIDED->TIE": 1,
+          "NA->NA": 20
+        }
+      },
+      "J07.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.06111111111111106,
+          0.07777777777777772
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.03333333333333344,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.03888888888888886,
+        "left_rate": 0.5388888888888889,
+        "mean_bifolium_distance_change": 0.011111111111111106,
+        "paired_bifolia": 18,
+        "paired_cases": 180,
+        "promotion": null,
+        "right_distance": 0.0722222222222223,
+        "right_rate": 0.5722222222222223,
+        "signed_rate_change": 0.03333333333333344,
+        "status_transitions": {
+          "DECIDED->DECIDED": 180,
+          "NA->NA": 20
+        }
+      },
+      "J08.F1LF.CAL": {
+        "cluster_bootstrap_95": [
+          -0.020000000000000018,
+          0.023333333333333317
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.010000000000000009,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.050000000000000044,
+        "left_rate": 0.55,
+        "mean_bifolium_distance_change": -0.0033333333333333288,
+        "paired_bifolia": 15,
+        "paired_cases": 150,
+        "promotion": null,
+        "right_distance": 0.06000000000000005,
+        "right_rate": 0.56,
+        "signed_rate_change": 0.010000000000000009,
+        "status_transitions": {
+          "DECIDED->DECIDED": 121,
+          "NA->NA": 50,
+          "TIE->DECIDED": 3,
+          "TIE->TIE": 26
+        }
+      },
+      "J08.F1LF.JOINT.CAL": {
+        "cluster_bootstrap_95": [
+          -0.01428571428571429,
+          0.03928571428571426
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.017857142857142794,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.08214285714285718,
+        "left_rate": 0.5821428571428572,
+        "mean_bifolium_distance_change": 0.003571428571428575,
+        "paired_bifolia": 14,
+        "paired_cases": 140,
+        "promotion": null,
+        "right_distance": 0.09999999999999998,
+        "right_rate": 0.6,
+        "signed_rate_change": 0.017857142857142794,
+        "status_transitions": {
+          "DECIDED->DECIDED": 63,
+          "DECIDED->TIE": 2,
+          "NA->NA": 60,
+          "TIE->DECIDED": 7,
+          "TIE->TIE": 68
+        }
+      },
+      "J08.F1LF.JOINT.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.021428571428571408,
+          0.03214285714285714
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.010714285714285676,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.024999999999999967,
+        "left_rate": 0.47500000000000003,
+        "mean_bifolium_distance_change": 0.01785714285714286,
+        "paired_bifolia": 14,
+        "paired_cases": 140,
+        "promotion": null,
+        "right_distance": 0.01428571428571429,
+        "right_rate": 0.4857142857142857,
+        "signed_rate_change": 0.010714285714285676,
+        "status_transitions": {
+          "DECIDED->DECIDED": 63,
+          "DECIDED->TIE": 2,
+          "NA->NA": 60,
+          "TIE->DECIDED": 7,
+          "TIE->TIE": 68
+        }
+      },
+      "J08.F1LF.LONG.CAL": {
+        "cluster_bootstrap_95": [
+          -0.01388888888888884,
+          0.03125
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.0057870370370370905,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.034226190476190466,
+        "left_rate": 0.5342261904761905,
+        "mean_bifolium_distance_change": 0.015046296296296299,
+        "paired_bifolia": 12,
+        "paired_cases": 74,
+        "promotion": null,
+        "right_distance": 0.040013227513227556,
+        "right_rate": 0.5400132275132276,
+        "signed_rate_change": 0.0057870370370370905,
+        "status_transitions": {
+          "DECIDED->DECIDED": 48,
+          "DECIDED->NA": 2,
+          "NA->DECIDED": 1,
+          "NA->NA": 123,
+          "TIE->DECIDED": 2,
+          "TIE->TIE": 24
+        }
+      },
+      "J08.F1LF.LONG.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.03125,
+          0.046875
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.015625,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.0013392857142857095,
+        "left_rate": 0.4986607142857143,
+        "mean_bifolium_distance_change": 0.015625,
+        "paired_bifolia": 8,
+        "paired_cases": 46,
+        "promotion": null,
+        "right_distance": 0.01696428571428571,
+        "right_rate": 0.4830357142857143,
+        "signed_rate_change": -0.015625,
+        "status_transitions": {
+          "DECIDED->DECIDED": 25,
+          "DECIDED->NA": 1,
+          "NA->NA": 152,
+          "TIE->DECIDED": 3,
+          "TIE->NA": 1,
+          "TIE->TIE": 18
+        }
+      },
+      "J08.F1LF.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.025000000000000022,
+          0.03750000000000003
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.0,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.011428571428571344,
+        "left_rate": 0.5114285714285713,
+        "mean_bifolium_distance_change": 0.025,
+        "paired_bifolia": 10,
+        "paired_cases": 52,
+        "promotion": null,
+        "right_distance": 0.011428571428571344,
+        "right_rate": 0.5114285714285713,
+        "signed_rate_change": 0.0,
+        "status_transitions": {
+          "DECIDED->DECIDED": 26,
+          "DECIDED->NA": 1,
+          "NA->NA": 145,
+          "TIE->DECIDED": 4,
+          "TIE->NA": 2,
+          "TIE->TIE": 22
+        }
+      },
+      "J08.F1LF.SHORT.CAL": {
+        "cluster_bootstrap_95": [
+          -0.04999999999999999,
+          0.09999999999999998
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.008333333333333304,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.05499999999999999,
+        "left_rate": 0.445,
+        "mean_bifolium_distance_change": 0.058333333333333334,
+        "paired_bifolia": 5,
+        "paired_cases": 25,
+        "promotion": null,
+        "right_distance": 0.0633333333333333,
+        "right_rate": 0.4366666666666667,
+        "signed_rate_change": -0.008333333333333304,
+        "status_transitions": {
+          "DECIDED->DECIDED": 16,
+          "DECIDED->TIE": 1,
+          "NA->NA": 174,
+          "TIE->DECIDED": 1,
+          "TIE->NA": 1,
+          "TIE->TIE": 7
+        }
+      },
+      "J08.F1LF.SHORT.PROTO": {
+        "cluster_bootstrap_95": [
+          0.0,
+          0.125
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.0625,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.0625,
+        "left_rate": 0.5625,
+        "mean_bifolium_distance_change": 0.0625,
+        "paired_bifolia": 2,
+        "paired_cases": 6,
+        "promotion": null,
+        "right_distance": 0.125,
+        "right_rate": 0.625,
+        "signed_rate_change": 0.0625,
+        "status_transitions": {
+          "DECIDED->DECIDED": 1,
+          "NA->NA": 193,
+          "TIE->DECIDED": 1,
+          "TIE->NA": 1,
+          "TIE->TIE": 4
+        }
+      },
+      "J08.POSTPLANT.CAL": {
+        "cluster_bootstrap_95": null,
+        "distance_change": null,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_rate": null,
+        "paired_bifolia": 0,
+        "paired_cases": 0,
+        "promotion": null,
+        "right_rate": null,
+        "status_transitions": {
+          "NA->NA": 200
+        }
+      },
+      "J08.POSTPLANT.JOINT.CAL": {
+        "cluster_bootstrap_95": null,
+        "distance_change": null,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_rate": null,
+        "paired_bifolia": 0,
+        "paired_cases": 0,
+        "promotion": null,
+        "right_rate": null,
+        "status_transitions": {
+          "NA->NA": 200
+        }
+      },
+      "J08.POSTPLANT.JOINT.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.042857142857142816,
+          0.02857142857142858
+        ],
+        "direction_reversal": true,
+        "distance_change": 0.007142857142857173,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.0071428571428571175,
+        "left_rate": 0.5071428571428571,
+        "mean_bifolium_distance_change": -0.007142857142857157,
+        "paired_bifolia": 7,
+        "paired_cases": 70,
+        "promotion": null,
+        "right_distance": 0.01428571428571429,
+        "right_rate": 0.4857142857142857,
+        "signed_rate_change": -0.021428571428571408,
+        "status_transitions": {
+          "DECIDED->DECIDED": 25,
+          "DECIDED->TIE": 2,
+          "NA->NA": 130,
+          "TIE->DECIDED": 1,
+          "TIE->TIE": 42
+        }
+      },
+      "J08.POSTPLANT.LONG.CAL": {
+        "cluster_bootstrap_95": null,
+        "distance_change": null,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_rate": null,
+        "paired_bifolia": 0,
+        "paired_cases": 0,
+        "promotion": null,
+        "right_rate": null,
+        "status_transitions": {
+          "NA->NA": 200
+        }
+      },
+      "J08.POSTPLANT.LONG.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.11111111111111116,
+          0.03703703703703709
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.037037037037037035,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.07407407407407413,
+        "left_rate": 0.4259259259259259,
+        "mean_bifolium_distance_change": -0.037037037037037056,
+        "paired_bifolia": 3,
+        "paired_cases": 20,
+        "promotion": null,
+        "right_distance": 0.11111111111111116,
+        "right_rate": 0.38888888888888884,
+        "signed_rate_change": -0.037037037037037035,
+        "status_transitions": {
+          "DECIDED->DECIDED": 10,
+          "NA->NA": 179,
+          "TIE->NA": 1,
+          "TIE->TIE": 10
+        }
+      },
+      "J08.POSTPLANT.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.07666666666666677,
+          0.04444444444444451
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.03222222222222221,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.024444444444444435,
+        "left_rate": 0.47555555555555556,
+        "mean_bifolium_distance_change": -0.03222222222222224,
+        "paired_bifolia": 5,
+        "paired_cases": 35,
+        "promotion": null,
+        "right_distance": 0.05666666666666664,
+        "right_rate": 0.44333333333333336,
+        "signed_rate_change": -0.03222222222222221,
+        "status_transitions": {
+          "DECIDED->DECIDED": 20,
+          "DECIDED->TIE": 1,
+          "NA->NA": 164,
+          "TIE->NA": 1,
+          "TIE->TIE": 14
+        }
+      },
+      "J08.POSTPLANT.SHORT.CAL": {
+        "cluster_bootstrap_95": null,
+        "distance_change": null,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_rate": null,
+        "paired_bifolia": 0,
+        "paired_cases": 0,
+        "promotion": null,
+        "right_rate": null,
+        "status_transitions": {
+          "NA->NA": 200
+        }
+      },
+      "J08.POSTPLANT.SHORT.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.050000000000000044,
+          0.0
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.025000000000000022,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.050000000000000044,
+        "left_rate": 0.55,
+        "mean_bifolium_distance_change": -0.025000000000000022,
+        "paired_bifolia": 2,
+        "paired_cases": 15,
+        "promotion": null,
+        "right_distance": 0.025000000000000022,
+        "right_rate": 0.525,
+        "signed_rate_change": -0.025000000000000022,
+        "status_transitions": {
+          "DECIDED->DECIDED": 10,
+          "DECIDED->TIE": 1,
+          "NA->NA": 185,
+          "TIE->TIE": 4
+        }
+      },
+      "J08.WIDE.CAL": {
+        "cluster_bootstrap_95": [
+          -0.012500000000000067,
+          0.06000000000000005
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.022499999999999964,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.11499999999999999,
+        "left_rate": 0.615,
+        "mean_bifolium_distance_change": 0.007499999999999998,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.13749999999999996,
+        "right_rate": 0.6375,
+        "signed_rate_change": 0.022499999999999964,
+        "status_transitions": {
+          "DECIDED->DECIDED": 156,
+          "DECIDED->TIE": 2,
+          "TIE->DECIDED": 3,
+          "TIE->TIE": 39
+        }
+      },
+      "J08.WIDE.JOINT.CAL": {
+        "cluster_bootstrap_95": [
+          -0.04249999999999998,
+          0.05499999999999994
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.025000000000000022,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.012499999999999956,
+        "left_rate": 0.5125,
+        "mean_bifolium_distance_change": 0.009999999999999995,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.03749999999999998,
+        "right_rate": 0.5375,
+        "signed_rate_change": 0.025000000000000022,
+        "status_transitions": {
+          "DECIDED->DECIDED": 121,
+          "DECIDED->TIE": 4,
+          "TIE->DECIDED": 10,
+          "TIE->TIE": 65
+        }
+      },
+      "J08.WIDE.JOINT.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.03250000000000003,
+          0.03500000000000003
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.007499999999999896,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.0025000000000000577,
+        "left_rate": 0.49749999999999994,
+        "mean_bifolium_distance_change": 0.0075000000000000015,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.009999999999999953,
+        "right_rate": 0.49000000000000005,
+        "signed_rate_change": -0.007499999999999896,
+        "status_transitions": {
+          "DECIDED->DECIDED": 123,
+          "DECIDED->TIE": 4,
+          "TIE->DECIDED": 9,
+          "TIE->TIE": 64
+        }
+      },
+      "J08.WIDE.LONG.CAL": {
+        "cluster_bootstrap_95": [
+          -0.010212418300653558,
+          0.053909897292250264
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.02155695611577968,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.07851307189542478,
+        "left_rate": 0.5785130718954248,
+        "mean_bifolium_distance_change": 0.034628851540616255,
+        "paired_bifolia": 17,
+        "paired_cases": 118,
+        "promotion": null,
+        "right_distance": 0.10007002801120446,
+        "right_rate": 0.6000700280112045,
+        "signed_rate_change": 0.02155695611577968,
+        "status_transitions": {
+          "DECIDED->DECIDED": 75,
+          "DECIDED->NA": 2,
+          "DECIDED->TIE": 2,
+          "NA->DECIDED": 1,
+          "NA->NA": 78,
+          "NA->TIE": 1,
+          "TIE->DECIDED": 5,
+          "TIE->TIE": 36
+        }
+      },
+      "J08.WIDE.LONG.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.03583099906629317,
+          0.039542483660130745
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.019164332399626505,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.021241830065359457,
+        "left_rate": 0.47875816993464054,
+        "mean_bifolium_distance_change": -0.0069794584500466805,
+        "paired_bifolia": 17,
+        "paired_cases": 118,
+        "promotion": null,
+        "right_distance": 0.04040616246498596,
+        "right_rate": 0.45959383753501404,
+        "signed_rate_change": -0.019164332399626505,
+        "status_transitions": {
+          "DECIDED->DECIDED": 51,
+          "DECIDED->NA": 2,
+          "DECIDED->TIE": 1,
+          "NA->NA": 78,
+          "NA->TIE": 2,
+          "TIE->DECIDED": 6,
+          "TIE->TIE": 60
+        }
+      },
+      "J08.WIDE.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.029166666666666674,
+          0.03736111111111107
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.01430555555555546,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.015158730158730205,
+        "left_rate": 0.4848412698412698,
+        "mean_bifolium_distance_change": 0.00319444444444445,
+        "paired_bifolia": 20,
+        "paired_cases": 144,
+        "promotion": null,
+        "right_distance": 0.029464285714285665,
+        "right_rate": 0.47053571428571433,
+        "signed_rate_change": -0.01430555555555546,
+        "status_transitions": {
+          "DECIDED->DECIDED": 72,
+          "DECIDED->NA": 2,
+          "DECIDED->TIE": 1,
+          "NA->NA": 54,
+          "TIE->DECIDED": 5,
+          "TIE->TIE": 66
+        }
+      },
+      "J08.WIDE.SHORT.CAL": {
+        "cluster_bootstrap_95": [
+          -0.03518518518518515,
+          0.0
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.01790123456790127,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.19506172839506175,
+        "left_rate": 0.30493827160493825,
+        "mean_bifolium_distance_change": -0.005555555555555567,
+        "paired_bifolia": 9,
+        "paired_cases": 55,
+        "promotion": null,
+        "right_distance": 0.17716049382716048,
+        "right_rate": 0.3228395061728395,
+        "signed_rate_change": 0.01790123456790127,
+        "status_transitions": {
+          "DECIDED->DECIDED": 43,
+          "DECIDED->TIE": 2,
+          "NA->NA": 145,
+          "TIE->DECIDED": 1,
+          "TIE->TIE": 9
+        }
+      },
+      "J08.WIDE.SHORT.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.032716049382716106,
+          0.03703703703703698
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.0018518518518518823,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.0064814814814815325,
+        "left_rate": 0.49351851851851847,
+        "mean_bifolium_distance_change": -0.0006172839506172941,
+        "paired_bifolia": 9,
+        "paired_cases": 55,
+        "promotion": null,
+        "right_distance": 0.00462962962962965,
+        "right_rate": 0.49537037037037035,
+        "signed_rate_change": 0.0018518518518518823,
+        "status_transitions": {
+          "DECIDED->DECIDED": 22,
+          "DECIDED->TIE": 4,
+          "NA->NA": 145,
+          "TIE->DECIDED": 3,
+          "TIE->TIE": 26
+        }
+      },
+      "J09.CAL": {
+        "cluster_bootstrap_95": [
+          -0.05499999999999999,
+          0.04999999999999993
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.020000000000000018,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.09249999999999997,
+        "left_rate": 0.40750000000000003,
+        "mean_bifolium_distance_change": 0.05,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.07249999999999995,
+        "right_rate": 0.42750000000000005,
+        "signed_rate_change": 0.020000000000000018,
+        "status_transitions": {
+          "DECIDED->DECIDED": 196,
+          "DECIDED->TIE": 1,
+          "TIE->DECIDED": 1,
+          "TIE->TIE": 2
+        }
+      },
+      "J09.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.02444444444444449,
+          0.024722222222222312
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.0008333333333333526,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.008333333333333304,
+        "left_rate": 0.4916666666666667,
+        "mean_bifolium_distance_change": 0.0041666666666666545,
+        "paired_bifolia": 20,
+        "paired_cases": 186,
+        "promotion": null,
+        "right_distance": 0.009166666666666656,
+        "right_rate": 0.49083333333333334,
+        "signed_rate_change": -0.0008333333333333526,
+        "status_transitions": {
+          "DECIDED->DECIDED": 173,
+          "DECIDED->NA": 3,
+          "DECIDED->TIE": 2,
+          "NA->DECIDED": 2,
+          "NA->NA": 5,
+          "TIE->NA": 4,
+          "TIE->TIE": 11
+        }
+      },
+      "J10.CAL": {
+        "cluster_bootstrap_95": [
+          -0.023684210526315752,
+          0.018421052631578894
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.0026315789473684292,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.01842105263157895,
+        "left_rate": 0.48157894736842105,
+        "mean_bifolium_distance_change": -0.018421052631578942,
+        "paired_bifolia": 19,
+        "paired_cases": 190,
+        "promotion": null,
+        "right_distance": 0.02105263157894738,
+        "right_rate": 0.4789473684210526,
+        "signed_rate_change": -0.0026315789473684292,
+        "status_transitions": {
+          "DECIDED->DECIDED": 162,
+          "DECIDED->TIE": 5,
+          "NA->NA": 10,
+          "TIE->DECIDED": 2,
+          "TIE->TIE": 21
+        }
+      },
+      "J10.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.038235294117647034,
+          0.024264705882352966
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.0022058823529411686,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.10889355742296924,
+        "left_rate": 0.6088935574229692,
+        "mean_bifolium_distance_change": -0.008088235294117648,
+        "paired_bifolia": 17,
+        "paired_cases": 144,
+        "promotion": null,
+        "right_distance": 0.10668767507002808,
+        "right_rate": 0.6066876750700281,
+        "signed_rate_change": -0.0022058823529411686,
+        "status_transitions": {
+          "DECIDED->DECIDED": 103,
+          "DECIDED->TIE": 1,
+          "NA->NA": 55,
+          "TIE->DECIDED": 2,
+          "TIE->NA": 1,
+          "TIE->TIE": 38
+        }
+      },
+      "J11.H2.CAL": {
+        "cluster_bootstrap_95": [
+          -0.026315789473684237,
+          0.016666666666666663
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.004970760233918181,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.12478070175438599,
+        "left_rate": 0.375219298245614,
+        "mean_bifolium_distance_change": 0.00029239766081871535,
+        "paired_bifolia": 19,
+        "paired_cases": 172,
+        "promotion": null,
+        "right_distance": 0.11980994152046781,
+        "right_rate": 0.3801900584795322,
+        "signed_rate_change": 0.004970760233918181,
+        "status_transitions": {
+          "DECIDED->DECIDED": 162,
+          "DECIDED->NA": 1,
+          "DECIDED->TIE": 2,
+          "NA->DECIDED": 1,
+          "NA->NA": 25,
+          "NA->TIE": 1,
+          "TIE->DECIDED": 2,
+          "TIE->TIE": 6
+        }
+      },
+      "J11.H2.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.021428571428571463,
+          0.014285714285714235
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.0071428571428571175,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.0453939909297052,
+        "left_rate": 0.4546060090702948,
+        "mean_bifolium_distance_change": -0.007142857142857141,
+        "paired_bifolia": 14,
+        "paired_cases": 90,
+        "promotion": null,
+        "right_distance": 0.03825113378684808,
+        "right_rate": 0.4617488662131519,
+        "signed_rate_change": 0.0071428571428571175,
+        "status_transitions": {
+          "DECIDED->DECIDED": 47,
+          "DECIDED->NA": 2,
+          "NA->NA": 104,
+          "NA->TIE": 2,
+          "TIE->NA": 2,
+          "TIE->TIE": 43
+        }
+      },
+      "J11.L3.H2.CAL": {
+        "cluster_bootstrap_95": [
+          -0.036805555555555536,
+          0.03506944444444443
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.012152777777777735,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.059412202380952406,
+        "left_rate": 0.4405877976190476,
+        "mean_bifolium_distance_change": -0.026041666666666654,
+        "paired_bifolia": 16,
+        "paired_cases": 143,
+        "promotion": null,
+        "right_distance": 0.07156498015873014,
+        "right_rate": 0.42843501984126986,
+        "signed_rate_change": -0.012152777777777735,
+        "status_transitions": {
+          "DECIDED->DECIDED": 116,
+          "NA->DECIDED": 1,
+          "NA->NA": 56,
+          "TIE->DECIDED": 2,
+          "TIE->TIE": 25
+        }
+      },
+      "J11.L3.H2.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.03125,
+          0.02083333333333326
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.01041666666666663,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.047718253968253965,
+        "left_rate": 0.45228174603174603,
+        "mean_bifolium_distance_change": -0.010416666666666666,
+        "paired_bifolia": 12,
+        "paired_cases": 70,
+        "promotion": null,
+        "right_distance": 0.037301587301587336,
+        "right_rate": 0.46269841269841266,
+        "signed_rate_change": 0.01041666666666663,
+        "status_transitions": {
+          "DECIDED->DECIDED": 41,
+          "DECIDED->NA": 2,
+          "NA->NA": 127,
+          "NA->TIE": 1,
+          "TIE->TIE": 29
+        }
+      },
+      "J11.L4.H2.CAL": {
+        "cluster_bootstrap_95": [
+          -0.05357142857142855,
+          0.04067460317460325
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.023809523809523836,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.03825644841269843,
+        "left_rate": 0.46174355158730157,
+        "mean_bifolium_distance_change": -0.0029761904761904795,
+        "paired_bifolia": 16,
+        "paired_cases": 117,
+        "promotion": null,
+        "right_distance": 0.014446924603174593,
+        "right_rate": 0.4855530753968254,
+        "signed_rate_change": 0.023809523809523836,
+        "status_transitions": {
+          "DECIDED->DECIDED": 110,
+          "DECIDED->NA": 1,
+          "DECIDED->TIE": 2,
+          "NA->DECIDED": 1,
+          "NA->NA": 79,
+          "NA->TIE": 1,
+          "TIE->NA": 1,
+          "TIE->TIE": 5
+        }
+      },
+      "J11.L4.H2.PROTO": {
+        "cluster_bootstrap_95": [
+          0.0,
+          0.0
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.0,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.02638888888888885,
+        "left_rate": 0.47361111111111115,
+        "mean_bifolium_distance_change": 0.0,
+        "paired_bifolia": 6,
+        "paired_cases": 24,
+        "promotion": null,
+        "right_distance": 0.02638888888888885,
+        "right_rate": 0.47361111111111115,
+        "signed_rate_change": 0.0,
+        "status_transitions": {
+          "DECIDED->DECIDED": 6,
+          "NA->NA": 174,
+          "NA->TIE": 1,
+          "TIE->NA": 1,
+          "TIE->TIE": 18
+        }
+      },
+      "J11.L5.H2.CAL": {
+        "cluster_bootstrap_95": [
+          -0.026666666666666616,
+          0.028333333333333377
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.0016666666666666496,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.13691798941798944,
+        "left_rate": 0.36308201058201056,
+        "mean_bifolium_distance_change": -0.01833333333333333,
+        "paired_bifolia": 15,
+        "paired_cases": 115,
+        "promotion": null,
+        "right_distance": 0.1385846560846561,
+        "right_rate": 0.3614153439153439,
+        "signed_rate_change": -0.0016666666666666496,
+        "status_transitions": {
+          "DECIDED->DECIDED": 100,
+          "DECIDED->NA": 4,
+          "DECIDED->TIE": 3,
+          "NA->DECIDED": 2,
+          "NA->NA": 78,
+          "NA->TIE": 1,
+          "TIE->DECIDED": 2,
+          "TIE->TIE": 10
+        }
+      },
+      "J11.L5.H2.PROTO": {
+        "cluster_bootstrap_95": [
+          0.0,
+          0.0
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.0,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.0,
+        "left_rate": 0.5,
+        "mean_bifolium_distance_change": 0.0,
+        "paired_bifolia": 5,
+        "paired_cases": 19,
+        "promotion": null,
+        "right_distance": 0.0,
+        "right_rate": 0.5,
+        "signed_rate_change": 0.0,
+        "status_transitions": {
+          "NA->NA": 176,
+          "NA->TIE": 2,
+          "TIE->NA": 3,
+          "TIE->TIE": 19
+        }
+      },
+      "J11.SUPPORT.CAL": {
+        "cluster_bootstrap_95": [
+          -0.021052631578947323,
+          0.023684210526315752
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.0,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.0,
+        "left_rate": 0.5,
+        "mean_bifolium_distance_change": 0.010526315789473679,
+        "paired_bifolia": 19,
+        "paired_cases": 190,
+        "promotion": null,
+        "right_distance": 0.0,
+        "right_rate": 0.5,
+        "signed_rate_change": 0.0,
+        "status_transitions": {
+          "DECIDED->DECIDED": 155,
+          "DECIDED->TIE": 3,
+          "NA->NA": 10,
+          "TIE->DECIDED": 1,
+          "TIE->TIE": 31
+        }
+      },
+      "J11.SUPPORT.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.010526315789473717,
+          0.015789473684210575
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.0,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.010526315789473606,
+        "left_rate": 0.5105263157894736,
+        "mean_bifolium_distance_change": 0.010526315789473687,
+        "paired_bifolia": 19,
+        "paired_cases": 190,
+        "promotion": null,
+        "right_distance": 0.010526315789473606,
+        "right_rate": 0.5105263157894736,
+        "signed_rate_change": 0.0,
+        "status_transitions": {
+          "DECIDED->DECIDED": 184,
+          "NA->NA": 10,
+          "TIE->TIE": 6
+        }
+      },
+      "J12.CAL": {
+        "cluster_bootstrap_95": [
+          -0.03687499999999999,
+          0.05437500000000006
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.011874999999999913,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.06062500000000004,
+        "left_rate": 0.43937499999999996,
+        "mean_bifolium_distance_change": -0.011874999999999993,
+        "paired_bifolia": 20,
+        "paired_cases": 198,
+        "promotion": null,
+        "right_distance": 0.07249999999999995,
+        "right_rate": 0.42750000000000005,
+        "signed_rate_change": -0.011874999999999913,
+        "status_transitions": {
+          "DECIDED->DECIDED": 182,
+          "DECIDED->NA": 2,
+          "DECIDED->TIE": 7,
+          "TIE->DECIDED": 2,
+          "TIE->TIE": 7
+        }
+      },
+      "J12.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.026666666666666616,
+          0.03416666666666668
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.0,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.0011111111111111183,
+        "left_rate": 0.4988888888888889,
+        "mean_bifolium_distance_change": 0.00500000000000001,
+        "paired_bifolia": 20,
+        "paired_cases": 190,
+        "promotion": null,
+        "right_distance": 0.0011111111111111183,
+        "right_rate": 0.4988888888888889,
+        "signed_rate_change": 0.0,
+        "status_transitions": {
+          "DECIDED->DECIDED": 160,
+          "DECIDED->TIE": 2,
+          "NA->NA": 9,
+          "TIE->DECIDED": 6,
+          "TIE->NA": 1,
+          "TIE->TIE": 22
+        }
+      },
+      "J13.CAL": {
+        "cluster_bootstrap_95": [
+          -0.0444444444444444,
+          0.03333333333333344
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.019444444444444486,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.033333333333333326,
+        "left_rate": 0.5333333333333333,
+        "mean_bifolium_distance_change": 0.00277777777777778,
+        "paired_bifolia": 18,
+        "paired_cases": 180,
+        "promotion": null,
+        "right_distance": 0.01388888888888884,
+        "right_rate": 0.5138888888888888,
+        "signed_rate_change": -0.019444444444444486,
+        "status_transitions": {
+          "DECIDED->DECIDED": 158,
+          "DECIDED->TIE": 2,
+          "NA->NA": 20,
+          "TIE->DECIDED": 3,
+          "TIE->TIE": 17
+        }
+      },
+      "J13.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.059259259259259345,
+          0.0444444444444444
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.014814814814814836,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.03142857142857147,
+        "left_rate": 0.5314285714285715,
+        "mean_bifolium_distance_change": -0.014814814814814814,
+        "paired_bifolia": 15,
+        "paired_cases": 104,
+        "promotion": null,
+        "right_distance": 0.016613756613756636,
+        "right_rate": 0.5166137566137566,
+        "signed_rate_change": -0.014814814814814836,
+        "status_transitions": {
+          "DECIDED->DECIDED": 100,
+          "DECIDED->NA": 3,
+          "DECIDED->TIE": 1,
+          "NA->DECIDED": 4,
+          "NA->NA": 89,
+          "TIE->DECIDED": 1,
+          "TIE->TIE": 2
+        }
+      },
+      "J14.CAL": {
+        "cluster_bootstrap_95": [
+          -0.04250000000000004,
+          0.039999999999999925
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.007499999999999951,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.0050000000000000044,
+        "left_rate": 0.505,
+        "mean_bifolium_distance_change": -0.007499999999999993,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.012499999999999956,
+        "right_rate": 0.5125,
+        "signed_rate_change": 0.007499999999999951,
+        "status_transitions": {
+          "DECIDED->DECIDED": 180,
+          "DECIDED->TIE": 4,
+          "TIE->DECIDED": 3,
+          "TIE->TIE": 13
+        }
+      },
+      "J14.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.040000000000000036,
+          0.044999999999999984
+        ],
+        "direction_reversal": true,
+        "distance_change": 0.009999999999999953,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.0025000000000000577,
+        "left_rate": 0.5025000000000001,
+        "mean_bifolium_distance_change": 0.004999999999999993,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.012500000000000011,
+        "right_rate": 0.4875,
+        "signed_rate_change": -0.015000000000000069,
+        "status_transitions": {
+          "DECIDED->DECIDED": 199,
+          "TIE->TIE": 1
+        }
+      },
+      "J15.CAL": {
+        "cluster_bootstrap_95": [
+          -0.04999999999999999,
+          0.04999999999999993
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.012500000000000067,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.03249999999999997,
+        "left_rate": 0.5325,
+        "mean_bifolium_distance_change": -0.027500000000000004,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.04500000000000004,
+        "right_rate": 0.545,
+        "signed_rate_change": 0.012500000000000067,
+        "status_transitions": {
+          "DECIDED->DECIDED": 193,
+          "TIE->DECIDED": 3,
+          "TIE->TIE": 4
+        }
+      },
+      "J15.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.030000000000000082,
+          0.050000000000000044
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.025000000000000022,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.06500000000000006,
+        "left_rate": 0.5650000000000001,
+        "mean_bifolium_distance_change": 0.015000000000000003,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.09000000000000008,
+        "right_rate": 0.5900000000000001,
+        "signed_rate_change": 0.025000000000000022,
+        "status_transitions": {
+          "DECIDED->DECIDED": 200
+        }
+      },
+      "J16.CAL": {
+        "cluster_bootstrap_95": [
+          -0.08000000000000002,
+          0.08999999999999997
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.057499999999999996,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.0050000000000000044,
+        "left_rate": 0.505,
+        "mean_bifolium_distance_change": 0.007499999999999993,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.0625,
+        "right_rate": 0.5625,
+        "signed_rate_change": 0.057499999999999996,
+        "status_transitions": {
+          "DECIDED->DECIDED": 196,
+          "DECIDED->TIE": 2,
+          "TIE->DECIDED": 1,
+          "TIE->TIE": 1
+        }
+      },
+      "J16.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.04999999999999993,
+          0.04500000000000004
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.0,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.12,
+        "left_rate": 0.62,
+        "mean_bifolium_distance_change": 8.326672684688674e-18,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.12,
+        "right_rate": 0.62,
+        "signed_rate_change": 0.0,
+        "status_transitions": {
+          "DECIDED->DECIDED": 200
+        }
+      },
+      "J17.CAL": {
+        "cluster_bootstrap_95": [
+          -0.04999999999999993,
+          0.04250000000000004
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.0,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.040000000000000036,
+        "left_rate": 0.45999999999999996,
+        "mean_bifolium_distance_change": -0.015000000000000005,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.040000000000000036,
+        "right_rate": 0.45999999999999996,
+        "signed_rate_change": 0.0,
+        "status_transitions": {
+          "DECIDED->DECIDED": 197,
+          "DECIDED->TIE": 1,
+          "TIE->DECIDED": 1,
+          "TIE->TIE": 1
+        }
+      },
+      "J17.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.015000000000000013,
+          0.04500000000000004
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.025000000000000022,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.13,
+        "left_rate": 0.63,
+        "mean_bifolium_distance_change": 0.014999999999999996,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.15500000000000003,
+        "right_rate": 0.655,
+        "signed_rate_change": 0.025000000000000022,
+        "status_transitions": {
+          "DECIDED->DECIDED": 200
+        }
+      },
+      "J18.CAL": {
+        "cluster_bootstrap_95": [
+          -0.04750000000000004,
+          0.07250000000000001
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.025000000000000022,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.0,
+        "left_rate": 0.5,
+        "mean_bifolium_distance_change": 0.03500000000000002,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.025000000000000022,
+        "right_rate": 0.525,
+        "signed_rate_change": 0.025000000000000022,
+        "status_transitions": {
+          "DECIDED->DECIDED": 180,
+          "DECIDED->TIE": 4,
+          "TIE->DECIDED": 4,
+          "TIE->TIE": 12
+        }
+      },
+      "J18.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.04999999999999999,
+          0.02999999999999997
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.009999999999999953,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.13499999999999995,
+        "left_rate": 0.36500000000000005,
+        "mean_bifolium_distance_change": -0.010000000000000005,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.125,
+        "right_rate": 0.375,
+        "signed_rate_change": 0.009999999999999953,
+        "status_transitions": {
+          "DECIDED->DECIDED": 200
+        }
+      },
+      "J19.CAL": {
+        "cluster_bootstrap_95": [
+          -0.0824999999999999,
+          0.015000000000000013
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.034999999999999976,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.1225,
+        "left_rate": 0.3775,
+        "mean_bifolium_distance_change": -0.02000000000000001,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.08750000000000002,
+        "right_rate": 0.4125,
+        "signed_rate_change": 0.034999999999999976,
+        "status_transitions": {
+          "DECIDED->DECIDED": 175,
+          "DECIDED->TIE": 8,
+          "TIE->DECIDED": 8,
+          "TIE->TIE": 9
+        }
+      },
+      "J19.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.040000000000000036,
+          0.020000000000000018
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.015000000000000013,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.07499999999999996,
+        "left_rate": 0.575,
+        "mean_bifolium_distance_change": -0.014999999999999996,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.05999999999999994,
+        "right_rate": 0.5599999999999999,
+        "signed_rate_change": -0.015000000000000013,
+        "status_transitions": {
+          "DECIDED->DECIDED": 200
+        }
+      },
+      "J20.CAL": {
+        "cluster_bootstrap_95": [
+          -0.03749999999999998,
+          0.022500000000000075
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.007499999999999951,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.07250000000000001,
+        "left_rate": 0.5725,
+        "mean_bifolium_distance_change": -0.002500000000000005,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.06500000000000006,
+        "right_rate": 0.5650000000000001,
+        "signed_rate_change": -0.007499999999999951,
+        "status_transitions": {
+          "DECIDED->DECIDED": 198,
+          "DECIDED->TIE": 1,
+          "TIE->TIE": 1
+        }
+      },
+      "J20.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.02999999999999997,
+          0.029999999999999916
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.0025000000000000577,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.04500000000000004,
+        "left_rate": 0.45499999999999996,
+        "mean_bifolium_distance_change": 0.007499999999999995,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.04249999999999998,
+        "right_rate": 0.4575,
+        "signed_rate_change": 0.0025000000000000577,
+        "status_transitions": {
+          "DECIDED->DECIDED": 199,
+          "DECIDED->TIE": 1
+        }
+      },
+      "J21.CAL": {
+        "cluster_bootstrap_95": null,
+        "distance_change": null,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_rate": null,
+        "paired_bifolia": 0,
+        "paired_cases": 0,
+        "promotion": null,
+        "right_rate": null,
+        "status_transitions": {
+          "NA->NA": 200
+        }
+      },
+      "J21.PROTO": {
+        "cluster_bootstrap_95": null,
+        "distance_change": null,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_rate": null,
+        "paired_bifolia": 0,
+        "paired_cases": 0,
+        "promotion": null,
+        "right_rate": null,
+        "status_transitions": {
+          "NA->NA": 200
+        }
+      },
+      "J22.CAL": {
+        "cluster_bootstrap_95": [
+          -0.02857142857142847,
+          0.04285714285714287
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.014285714285714346,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.04999999999999999,
+        "left_rate": 0.45,
+        "mean_bifolium_distance_change": 0.007142857142857137,
+        "paired_bifolia": 14,
+        "paired_cases": 140,
+        "promotion": null,
+        "right_distance": 0.06428571428571433,
+        "right_rate": 0.43571428571428567,
+        "signed_rate_change": -0.014285714285714346,
+        "status_transitions": {
+          "DECIDED->DECIDED": 134,
+          "NA->NA": 60,
+          "TIE->TIE": 6
+        }
+      },
+      "J22.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.021428571428571463,
+          0.03214285714285714
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.0035714285714286698,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.06428571428571422,
+        "left_rate": 0.4357142857142858,
+        "mean_bifolium_distance_change": 0.03214285714285713,
+        "paired_bifolia": 14,
+        "paired_cases": 140,
+        "promotion": null,
+        "right_distance": 0.0678571428571429,
+        "right_rate": 0.4321428571428571,
+        "signed_rate_change": -0.0035714285714286698,
+        "status_transitions": {
+          "DECIDED->DECIDED": 134,
+          "NA->NA": 60,
+          "TIE->DECIDED": 1,
+          "TIE->TIE": 5
+        }
+      },
+      "J23.CAL": {
+        "cluster_bootstrap_95": [
+          -0.02999999999999997,
+          0.04249999999999998
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.0024999999999999467,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.02750000000000008,
+        "left_rate": 0.5275000000000001,
+        "mean_bifolium_distance_change": 0.0425,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.030000000000000027,
+        "right_rate": 0.53,
+        "signed_rate_change": 0.0024999999999999467,
+        "status_transitions": {
+          "DECIDED->DECIDED": 198,
+          "DECIDED->TIE": 1,
+          "TIE->TIE": 1
+        }
+      },
+      "J23.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.044999999999999984,
+          0.040000000000000036
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.0050000000000000044,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.14500000000000002,
+        "left_rate": 0.355,
+        "mean_bifolium_distance_change": 0.014999999999999996,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.14,
+        "right_rate": 0.36,
+        "signed_rate_change": 0.0050000000000000044,
+        "status_transitions": {
+          "DECIDED->DECIDED": 200
+        }
+      },
+      "J24.CAL": {
+        "cluster_bootstrap_95": [
+          -0.025000000000000022,
+          0.040000000000000036
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.010000000000000009,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.12,
+        "left_rate": 0.62,
+        "mean_bifolium_distance_change": 0.010000000000000005,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.13,
+        "right_rate": 0.63,
+        "signed_rate_change": 0.010000000000000009,
+        "status_transitions": {
+          "DECIDED->DECIDED": 200
+        }
+      },
+      "J24.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.044999999999999984,
+          0.06000000000000005
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.025000000000000022,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.020000000000000018,
+        "left_rate": 0.52,
+        "mean_bifolium_distance_change": 0.015000000000000005,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.04500000000000004,
+        "right_rate": 0.545,
+        "signed_rate_change": 0.025000000000000022,
+        "status_transitions": {
+          "DECIDED->DECIDED": 200
+        }
+      },
+      "J25.CAL": {
+        "cluster_bootstrap_95": [
+          -0.07500000000000001,
+          0.030000000000000027
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.034999999999999976,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.1225,
+        "left_rate": 0.3775,
+        "mean_bifolium_distance_change": -0.025,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.08750000000000002,
+        "right_rate": 0.4125,
+        "signed_rate_change": 0.034999999999999976,
+        "status_transitions": {
+          "DECIDED->DECIDED": 188,
+          "DECIDED->TIE": 1,
+          "TIE->DECIDED": 5,
+          "TIE->TIE": 6
+        }
+      },
+      "J25.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.039999999999999925,
+          0.039999999999999925
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.010000000000000009,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.010000000000000009,
+        "left_rate": 0.51,
+        "mean_bifolium_distance_change": -0.009999999999999998,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.0,
+        "right_rate": 0.5,
+        "signed_rate_change": -0.010000000000000009,
+        "status_transitions": {
+          "DECIDED->DECIDED": 200
+        }
+      }
+    },
+    "PF_NO_RESCUE__PF_ANCHOR": {
+      "ATOM.BODY.CAL": {
+        "cluster_bootstrap_95": [
+          -0.05499999999999999,
+          0.04500000000000004
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.004999999999999949,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.04999999999999999,
+        "left_rate": 0.45,
+        "mean_bifolium_distance_change": -0.014999999999999996,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.04500000000000004,
+        "right_rate": 0.45499999999999996,
+        "signed_rate_change": 0.004999999999999949,
+        "status_transitions": {
+          "DECIDED->DECIDED": 200
+        }
+      },
+      "ATOM.BODY.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.04999999999999993,
+          0.040000000000000036
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.0050000000000000044,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.010000000000000009,
+        "left_rate": 0.51,
+        "mean_bifolium_distance_change": -0.024999999999999998,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.015000000000000013,
+        "right_rate": 0.515,
+        "signed_rate_change": 0.0050000000000000044,
+        "status_transitions": {
+          "DECIDED->DECIDED": 200
+        }
+      },
+      "ATOM.FIRST_INTERIOR.CAL": {
+        "cluster_bootstrap_95": [
+          -0.06000000000000005,
+          0.040000000000000036
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.026666666666666727,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.07333333333333336,
+        "left_rate": 0.5733333333333334,
+        "mean_bifolium_distance_change": -0.01333333333333333,
+        "paired_bifolia": 15,
+        "paired_cases": 150,
+        "promotion": null,
+        "right_distance": 0.046666666666666634,
+        "right_rate": 0.5466666666666666,
+        "signed_rate_change": -0.026666666666666727,
+        "status_transitions": {
+          "DECIDED->DECIDED": 150,
+          "NA->NA": 50
+        }
+      },
+      "ATOM.FIRST_INTERIOR.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.053333333333333344,
+          0.053333333333333344
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.013333333333333308,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.026666666666666672,
+        "left_rate": 0.47333333333333333,
+        "mean_bifolium_distance_change": 3.7007434154171884e-18,
+        "paired_bifolia": 15,
+        "paired_cases": 150,
+        "promotion": null,
+        "right_distance": 0.013333333333333364,
+        "right_rate": 0.48666666666666664,
+        "signed_rate_change": 0.013333333333333308,
+        "status_transitions": {
+          "DECIDED->DECIDED": 150,
+          "NA->NA": 50
+        }
+      },
+      "ATOM.HEAD.CAL": {
+        "cluster_bootstrap_95": [
+          -0.04749999999999999,
+          0.04249999999999998
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.0050000000000000044,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.03749999999999998,
+        "left_rate": 0.5375,
+        "mean_bifolium_distance_change": -0.030000000000000016,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.04249999999999998,
+        "right_rate": 0.5425,
+        "signed_rate_change": 0.0050000000000000044,
+        "status_transitions": {
+          "DECIDED->DECIDED": 197,
+          "TIE->DECIDED": 2,
+          "TIE->TIE": 1
+        }
+      },
+      "ATOM.HEAD.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.08499999999999996,
+          0.05499999999999994
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.039999999999999925,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.07999999999999996,
+        "left_rate": 0.58,
+        "mean_bifolium_distance_change": -0.01,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.040000000000000036,
+        "right_rate": 0.54,
+        "signed_rate_change": -0.039999999999999925,
+        "status_transitions": {
+          "DECIDED->DECIDED": 200
+        }
+      },
+      "ATOM.LINE_END.CAL": {
+        "cluster_bootstrap_95": [
+          -0.02999999999999997,
+          0.050000000000000044
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.020000000000000018,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.07999999999999996,
+        "left_rate": 0.58,
+        "mean_bifolium_distance_change": -2.7755575615628915e-18,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.09999999999999998,
+        "right_rate": 0.6,
+        "signed_rate_change": 0.020000000000000018,
+        "status_transitions": {
+          "DECIDED->DECIDED": 200
+        }
+      },
+      "ATOM.LINE_END.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.025000000000000022,
+          0.03500000000000003
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.004999999999999949,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.0050000000000000044,
+        "left_rate": 0.495,
+        "mean_bifolium_distance_change": 0.024999999999999994,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.009999999999999953,
+        "right_rate": 0.49000000000000005,
+        "signed_rate_change": -0.004999999999999949,
+        "status_transitions": {
+          "DECIDED->DECIDED": 200
+        }
+      },
+      "ATOM.PARA_END.CAL": {
+        "cluster_bootstrap_95": [
+          -0.047222222222222276,
+          0.047222222222222276
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.0,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.21944444444444444,
+        "left_rate": 0.7194444444444444,
+        "mean_bifolium_distance_change": 0.016666666666666663,
+        "paired_bifolia": 18,
+        "paired_cases": 180,
+        "promotion": null,
+        "right_distance": 0.21944444444444444,
+        "right_rate": 0.7194444444444444,
+        "signed_rate_change": 0.0,
+        "status_transitions": {
+          "DECIDED->DECIDED": 173,
+          "DECIDED->TIE": 2,
+          "NA->NA": 20,
+          "TIE->DECIDED": 4,
+          "TIE->TIE": 1
+        }
+      },
+      "ATOM.PARA_END.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.07777777777777778,
+          0.1166666666666667
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.061111111111111116,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.019444444444444375,
+        "left_rate": 0.5194444444444444,
+        "mean_bifolium_distance_change": 0.01111111111111112,
+        "paired_bifolia": 18,
+        "paired_cases": 180,
+        "promotion": null,
+        "right_distance": 0.08055555555555549,
+        "right_rate": 0.5805555555555555,
+        "signed_rate_change": 0.061111111111111116,
+        "status_transitions": {
+          "DECIDED->DECIDED": 164,
+          "DECIDED->TIE": 7,
+          "NA->NA": 20,
+          "TIE->DECIDED": 5,
+          "TIE->TIE": 4
+        }
+      },
+      "ATOM.PHW.CAL": {
+        "cluster_bootstrap_95": [
+          -0.036666666666666625,
+          0.026666666666666616
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.0033333333333334103,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.06666666666666665,
+        "left_rate": 0.5666666666666667,
+        "mean_bifolium_distance_change": -0.029999999999999992,
+        "paired_bifolia": 15,
+        "paired_cases": 150,
+        "promotion": null,
+        "right_distance": 0.06333333333333324,
+        "right_rate": 0.5633333333333332,
+        "signed_rate_change": -0.0033333333333334103,
+        "status_transitions": {
+          "DECIDED->DECIDED": 144,
+          "NA->NA": 50,
+          "TIE->DECIDED": 1,
+          "TIE->TIE": 5
+        }
+      },
+      "ATOM.PHW.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.04666666666666669,
+          0.053333333333333455
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.026666666666666616,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.030000000000000027,
+        "left_rate": 0.53,
+        "mean_bifolium_distance_change": 3.7007434154171884e-18,
+        "paired_bifolia": 15,
+        "paired_cases": 150,
+        "promotion": null,
+        "right_distance": 0.05666666666666664,
+        "right_rate": 0.5566666666666666,
+        "signed_rate_change": 0.026666666666666616,
+        "status_transitions": {
+          "DECIDED->DECIDED": 147,
+          "NA->NA": 50,
+          "TIE->TIE": 3
+        }
+      },
+      "ATOM.PLANT_END.CAL": {
+        "cluster_bootstrap_95": [
+          -0.06785714285714284,
+          0.05357142857142855
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.010714285714285676,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.11071428571428571,
+        "left_rate": 0.3892857142857143,
+        "mean_bifolium_distance_change": 0.0035714285714285704,
+        "paired_bifolia": 14,
+        "paired_cases": 140,
+        "promotion": null,
+        "right_distance": 0.10000000000000003,
+        "right_rate": 0.39999999999999997,
+        "signed_rate_change": 0.010714285714285676,
+        "status_transitions": {
+          "DECIDED->DECIDED": 135,
+          "DECIDED->TIE": 2,
+          "NA->NA": 60,
+          "TIE->DECIDED": 1,
+          "TIE->TIE": 2
+        }
+      },
+      "ATOM.PLANT_END.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.06428571428571433,
+          0.02857142857142858
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.01428571428571429,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.03928571428571426,
+        "left_rate": 0.46071428571428574,
+        "mean_bifolium_distance_change": -0.05714285714285715,
+        "paired_bifolia": 14,
+        "paired_cases": 140,
+        "promotion": null,
+        "right_distance": 0.024999999999999967,
+        "right_rate": 0.47500000000000003,
+        "signed_rate_change": 0.01428571428571429,
+        "status_transitions": {
+          "DECIDED->DECIDED": 124,
+          "DECIDED->TIE": 1,
+          "NA->NA": 60,
+          "TIE->DECIDED": 1,
+          "TIE->TIE": 14
+        }
+      },
+      "ATOM.W2.CAL": {
+        "cluster_bootstrap_95": [
+          -0.08750000000000002,
+          0.09000000000000008
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.05999999999999994,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.0,
+        "left_rate": 0.5,
+        "mean_bifolium_distance_change": -0.025,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.05999999999999994,
+        "right_rate": 0.5599999999999999,
+        "signed_rate_change": 0.05999999999999994,
+        "status_transitions": {
+          "DECIDED->DECIDED": 198,
+          "TIE->DECIDED": 2
+        }
+      },
+      "ATOM.W2.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.04999999999999993,
+          0.06999999999999995
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.010000000000000064,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.07999999999999996,
+        "left_rate": 0.42000000000000004,
+        "mean_bifolium_distance_change": 1.3877787807814457e-17,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.09000000000000002,
+        "right_rate": 0.41,
+        "signed_rate_change": -0.010000000000000064,
+        "status_transitions": {
+          "DECIDED->DECIDED": 200
+        }
+      },
+      "J01.CAL": {
+        "cluster_bootstrap_95": [
+          -0.036666666666666625,
+          0.026666666666666616
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.0033333333333334103,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.06666666666666665,
+        "left_rate": 0.5666666666666667,
+        "mean_bifolium_distance_change": -0.029999999999999992,
+        "paired_bifolia": 15,
+        "paired_cases": 150,
+        "promotion": null,
+        "right_distance": 0.06333333333333324,
+        "right_rate": 0.5633333333333332,
+        "signed_rate_change": -0.0033333333333334103,
+        "status_transitions": {
+          "DECIDED->DECIDED": 144,
+          "NA->NA": 50,
+          "TIE->DECIDED": 1,
+          "TIE->TIE": 5
+        }
+      },
+      "J01.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.04666666666666669,
+          0.053333333333333455
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.026666666666666616,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.030000000000000027,
+        "left_rate": 0.53,
+        "mean_bifolium_distance_change": 3.7007434154171884e-18,
+        "paired_bifolia": 15,
+        "paired_cases": 150,
+        "promotion": null,
+        "right_distance": 0.05666666666666664,
+        "right_rate": 0.5566666666666666,
+        "signed_rate_change": 0.026666666666666616,
+        "status_transitions": {
+          "DECIDED->DECIDED": 147,
+          "NA->NA": 50,
+          "TIE->TIE": 3
+        }
+      },
+      "J02.CAL": {
+        "cluster_bootstrap_95": [
+          -0.019999999999999962,
+          0.026666666666666672
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.0033333333333332993,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.06333333333333335,
+        "left_rate": 0.43666666666666665,
+        "mean_bifolium_distance_change": 0.00999999999999999,
+        "paired_bifolia": 15,
+        "paired_cases": 150,
+        "promotion": null,
+        "right_distance": 0.06666666666666665,
+        "right_rate": 0.43333333333333335,
+        "signed_rate_change": -0.0033333333333332993,
+        "status_transitions": {
+          "DECIDED->DECIDED": 149,
+          "NA->NA": 50,
+          "TIE->DECIDED": 1
+        }
+      },
+      "J02.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.05999999999999994,
+          0.06
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.026666666666666616,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.039999999999999925,
+        "left_rate": 0.5399999999999999,
+        "mean_bifolium_distance_change": 0.013333333333333341,
+        "paired_bifolia": 15,
+        "paired_cases": 150,
+        "promotion": null,
+        "right_distance": 0.013333333333333308,
+        "right_rate": 0.5133333333333333,
+        "signed_rate_change": -0.026666666666666616,
+        "status_transitions": {
+          "DECIDED->DECIDED": 150,
+          "NA->NA": 50
+        }
+      },
+      "J03.CAL": {
+        "cluster_bootstrap_95": [
+          -0.06000000000000005,
+          0.04749999999999999
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.004999999999999893,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.030000000000000027,
+        "left_rate": 0.53,
+        "mean_bifolium_distance_change": -0.05500000000000001,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.03499999999999992,
+        "right_rate": 0.5349999999999999,
+        "signed_rate_change": 0.004999999999999893,
+        "status_transitions": {
+          "DECIDED->DECIDED": 197,
+          "DECIDED->TIE": 1,
+          "TIE->DECIDED": 1,
+          "TIE->TIE": 1
+        }
+      },
+      "J03.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.08499999999999996,
+          0.05499999999999999
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.039999999999999925,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.07999999999999996,
+        "left_rate": 0.58,
+        "mean_bifolium_distance_change": 0.0,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.040000000000000036,
+        "right_rate": 0.54,
+        "signed_rate_change": -0.039999999999999925,
+        "status_transitions": {
+          "DECIDED->DECIDED": 200
+        }
+      },
+      "J04.CAL": {
+        "cluster_bootstrap_95": [
+          -0.0475000000000001,
+          0.0675
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.014999999999999902,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.06500000000000006,
+        "left_rate": 0.5650000000000001,
+        "mean_bifolium_distance_change": -0.045,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.07999999999999996,
+        "right_rate": 0.58,
+        "signed_rate_change": 0.014999999999999902,
+        "status_transitions": {
+          "DECIDED->DECIDED": 198,
+          "DECIDED->TIE": 2
+        }
+      },
+      "J04.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.08000000000000007,
+          0.040000000000000036
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.03500000000000003,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.09000000000000002,
+        "left_rate": 0.41,
+        "mean_bifolium_distance_change": -0.015000000000000003,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.05499999999999999,
+        "right_rate": 0.445,
+        "signed_rate_change": 0.03500000000000003,
+        "status_transitions": {
+          "DECIDED->DECIDED": 200
+        }
+      },
+      "J05.CAL": {
+        "cluster_bootstrap_95": [
+          -0.06,
+          0.03500000000000003
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.022499999999999964,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.07500000000000001,
+        "left_rate": 0.425,
+        "mean_bifolium_distance_change": -0.027500000000000014,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.05250000000000005,
+        "right_rate": 0.44749999999999995,
+        "signed_rate_change": 0.022499999999999964,
+        "status_transitions": {
+          "DECIDED->DECIDED": 198,
+          "TIE->DECIDED": 1,
+          "TIE->TIE": 1
+        }
+      },
+      "J05.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.034999999999999976,
+          0.04999999999999999
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.015000000000000069,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.07999999999999996,
+        "left_rate": 0.42000000000000004,
+        "mean_bifolium_distance_change": -0.004999999999999988,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.09500000000000003,
+        "right_rate": 0.40499999999999997,
+        "signed_rate_change": -0.015000000000000069,
+        "status_transitions": {
+          "DECIDED->DECIDED": 200
+        }
+      },
+      "J06.CAL": {
+        "cluster_bootstrap_95": [
+          -0.05499999999999994,
+          0.06
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.019999999999999907,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.022499999999999964,
+        "left_rate": 0.5225,
+        "mean_bifolium_distance_change": 0.019999999999999993,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.0025000000000000577,
+        "right_rate": 0.5025000000000001,
+        "signed_rate_change": -0.019999999999999907,
+        "status_transitions": {
+          "DECIDED->DECIDED": 196,
+          "DECIDED->TIE": 1,
+          "TIE->DECIDED": 1,
+          "TIE->TIE": 2
+        }
+      },
+      "J06.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.03500000000000014,
+          0.04999999999999993
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.01000000000000012,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.03499999999999992,
+        "left_rate": 0.5349999999999999,
+        "mean_bifolium_distance_change": -0.010000000000000005,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.04500000000000004,
+        "right_rate": 0.545,
+        "signed_rate_change": 0.01000000000000012,
+        "status_transitions": {
+          "DECIDED->DECIDED": 200
+        }
+      },
+      "J07.CAL": {
+        "cluster_bootstrap_95": [
+          -0.07500000000000001,
+          0.0888888888888889
+        ],
+        "direction_reversal": true,
+        "distance_change": 0.0222222222222222,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.013888888888888895,
+        "left_rate": 0.4861111111111111,
+        "mean_bifolium_distance_change": 0.011111111111111106,
+        "paired_bifolia": 18,
+        "paired_cases": 180,
+        "promotion": null,
+        "right_distance": 0.036111111111111094,
+        "right_rate": 0.5361111111111111,
+        "signed_rate_change": 0.04999999999999999,
+        "status_transitions": {
+          "DECIDED->DECIDED": 177,
+          "DECIDED->TIE": 2,
+          "NA->NA": 20,
+          "TIE->TIE": 1
+        }
+      },
+      "J07.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.061111111111111116,
+          0.05555555555555547
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.005555555555555647,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.0722222222222223,
+        "left_rate": 0.5722222222222223,
+        "mean_bifolium_distance_change": -0.01666666666666666,
+        "paired_bifolia": 18,
+        "paired_cases": 180,
+        "promotion": null,
+        "right_distance": 0.06666666666666665,
+        "right_rate": 0.5666666666666667,
+        "signed_rate_change": -0.005555555555555647,
+        "status_transitions": {
+          "DECIDED->DECIDED": 180,
+          "NA->NA": 20
+        }
+      },
+      "J08.F1LF.CAL": {
+        "cluster_bootstrap_95": [
+          -0.013333333333333364,
+          0.020000000000000018
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.006666666666666599,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.06000000000000005,
+        "left_rate": 0.56,
+        "mean_bifolium_distance_change": -0.006666666666666665,
+        "paired_bifolia": 15,
+        "paired_cases": 150,
+        "promotion": null,
+        "right_distance": 0.06666666666666665,
+        "right_rate": 0.5666666666666667,
+        "signed_rate_change": 0.006666666666666599,
+        "status_transitions": {
+          "DECIDED->DECIDED": 123,
+          "DECIDED->TIE": 1,
+          "NA->NA": 50,
+          "TIE->DECIDED": 1,
+          "TIE->TIE": 25
+        }
+      },
+      "J08.F1LF.JOINT.CAL": {
+        "cluster_bootstrap_95": [
+          -0.010714285714285787,
+          0.0
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.0035714285714285587,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.09999999999999998,
+        "left_rate": 0.6,
+        "mean_bifolium_distance_change": -0.003571428571428575,
+        "paired_bifolia": 14,
+        "paired_cases": 140,
+        "promotion": null,
+        "right_distance": 0.09642857142857142,
+        "right_rate": 0.5964285714285714,
+        "signed_rate_change": -0.0035714285714285587,
+        "status_transitions": {
+          "DECIDED->DECIDED": 66,
+          "DECIDED->TIE": 4,
+          "NA->NA": 60,
+          "TIE->DECIDED": 3,
+          "TIE->TIE": 67
+        }
+      },
+      "J08.F1LF.JOINT.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.010714285714285787,
+          0.007142857142857173
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.0035714285714285587,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.01428571428571429,
+        "left_rate": 0.4857142857142857,
+        "mean_bifolium_distance_change": -0.003571428571428575,
+        "paired_bifolia": 14,
+        "paired_cases": 140,
+        "promotion": null,
+        "right_distance": 0.01785714285714285,
+        "right_rate": 0.48214285714285715,
+        "signed_rate_change": -0.0035714285714285587,
+        "status_transitions": {
+          "DECIDED->DECIDED": 66,
+          "DECIDED->TIE": 4,
+          "NA->NA": 60,
+          "TIE->DECIDED": 3,
+          "TIE->TIE": 67
+        }
+      },
+      "J08.F1LF.LONG.CAL": {
+        "cluster_bootstrap_95": [
+          0.0,
+          0.0
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.0,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.038855820105820116,
+        "left_rate": 0.5388558201058201,
+        "mean_bifolium_distance_change": 0.0,
+        "paired_bifolia": 12,
+        "paired_cases": 72,
+        "promotion": null,
+        "right_distance": 0.038855820105820116,
+        "right_rate": 0.5388558201058201,
+        "signed_rate_change": 0.0,
+        "status_transitions": {
+          "DECIDED->DECIDED": 49,
+          "DECIDED->NA": 2,
+          "NA->DECIDED": 2,
+          "NA->NA": 123,
+          "TIE->NA": 1,
+          "TIE->TIE": 23
+        }
+      },
+      "J08.F1LF.LONG.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.0625,
+          0.02083333333333337
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.020833333333333315,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.037797619047619024,
+        "left_rate": 0.462202380952381,
+        "mean_bifolium_distance_change": -0.02083333333333333,
+        "paired_bifolia": 8,
+        "paired_cases": 44,
+        "promotion": null,
+        "right_distance": 0.01696428571428571,
+        "right_rate": 0.4830357142857143,
+        "signed_rate_change": 0.020833333333333315,
+        "status_transitions": {
+          "DECIDED->DECIDED": 26,
+          "DECIDED->NA": 1,
+          "DECIDED->TIE": 1,
+          "NA->DECIDED": 2,
+          "NA->NA": 152,
+          "TIE->NA": 1,
+          "TIE->TIE": 17
+        }
+      },
+      "J08.F1LF.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.050000000000000044,
+          0.01666666666666672
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.016666666666666607,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.03023809523809523,
+        "left_rate": 0.46976190476190477,
+        "mean_bifolium_distance_change": -0.016666666666666663,
+        "paired_bifolia": 10,
+        "paired_cases": 47,
+        "promotion": null,
+        "right_distance": 0.013571428571428623,
+        "right_rate": 0.4864285714285714,
+        "signed_rate_change": 0.016666666666666607,
+        "status_transitions": {
+          "DECIDED->DECIDED": 26,
+          "DECIDED->NA": 3,
+          "DECIDED->TIE": 1,
+          "NA->DECIDED": 3,
+          "NA->NA": 144,
+          "NA->TIE": 1,
+          "TIE->NA": 2,
+          "TIE->TIE": 20
+        }
+      },
+      "J08.F1LF.SHORT.CAL": {
+        "cluster_bootstrap_95": [
+          -0.1375,
+          0.0
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.0625,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.15750000000000003,
+        "left_rate": 0.34249999999999997,
+        "mean_bifolium_distance_change": -0.0625,
+        "paired_bifolia": 5,
+        "paired_cases": 20,
+        "promotion": null,
+        "right_distance": 0.09500000000000003,
+        "right_rate": 0.40499999999999997,
+        "signed_rate_change": 0.0625,
+        "status_transitions": {
+          "DECIDED->DECIDED": 12,
+          "DECIDED->NA": 3,
+          "DECIDED->TIE": 2,
+          "NA->DECIDED": 1,
+          "NA->NA": 172,
+          "NA->TIE": 2,
+          "TIE->NA": 2,
+          "TIE->TIE": 6
+        }
+      },
+      "J08.F1LF.SHORT.PROTO": {
+        "cluster_bootstrap_95": [
+          0.0,
+          0.0
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.0,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.0,
+        "left_rate": 0.5,
+        "mean_bifolium_distance_change": 0.0,
+        "paired_bifolia": 2,
+        "paired_cases": 3,
+        "promotion": null,
+        "right_distance": 0.0,
+        "right_rate": 0.5,
+        "signed_rate_change": 0.0,
+        "status_transitions": {
+          "DECIDED->NA": 2,
+          "NA->DECIDED": 1,
+          "NA->NA": 192,
+          "NA->TIE": 1,
+          "TIE->NA": 1,
+          "TIE->TIE": 3
+        }
+      },
+      "J08.POSTPLANT.CAL": {
+        "cluster_bootstrap_95": null,
+        "distance_change": null,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_rate": null,
+        "paired_bifolia": 0,
+        "paired_cases": 0,
+        "promotion": null,
+        "right_rate": null,
+        "status_transitions": {
+          "NA->NA": 200
+        }
+      },
+      "J08.POSTPLANT.JOINT.CAL": {
+        "cluster_bootstrap_95": null,
+        "distance_change": null,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_rate": null,
+        "paired_bifolia": 0,
+        "paired_cases": 0,
+        "promotion": null,
+        "right_rate": null,
+        "status_transitions": {
+          "NA->NA": 200
+        }
+      },
+      "J08.POSTPLANT.JOINT.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.028571428571428636,
+          0.0357142857142857
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.01428571428571429,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.01428571428571429,
+        "left_rate": 0.4857142857142857,
+        "mean_bifolium_distance_change": -0.014285714285714266,
+        "paired_bifolia": 7,
+        "paired_cases": 70,
+        "promotion": null,
+        "right_distance": 0.0,
+        "right_rate": 0.5,
+        "signed_rate_change": 0.01428571428571429,
+        "status_transitions": {
+          "DECIDED->DECIDED": 18,
+          "DECIDED->TIE": 8,
+          "NA->NA": 130,
+          "TIE->DECIDED": 2,
+          "TIE->TIE": 42
+        }
+      },
+      "J08.POSTPLANT.LONG.CAL": {
+        "cluster_bootstrap_95": null,
+        "distance_change": null,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_rate": null,
+        "paired_bifolia": 0,
+        "paired_cases": 0,
+        "promotion": null,
+        "right_rate": null,
+        "status_transitions": {
+          "NA->NA": 200
+        }
+      },
+      "J08.POSTPLANT.LONG.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.05555555555555547,
+          0.08333333333333331
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.027777777777777735,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.11111111111111116,
+        "left_rate": 0.38888888888888884,
+        "mean_bifolium_distance_change": 0.027777777777777773,
+        "paired_bifolia": 3,
+        "paired_cases": 18,
+        "promotion": null,
+        "right_distance": 0.1388888888888889,
+        "right_rate": 0.3611111111111111,
+        "signed_rate_change": -0.027777777777777735,
+        "status_transitions": {
+          "DECIDED->DECIDED": 10,
+          "NA->NA": 178,
+          "NA->TIE": 2,
+          "TIE->DECIDED": 1,
+          "TIE->NA": 2,
+          "TIE->TIE": 7
+        }
+      },
+      "J08.POSTPLANT.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.053333333333333344,
+          0.04999999999999993
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.026666666666666672,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.05666666666666664,
+        "left_rate": 0.44333333333333336,
+        "mean_bifolium_distance_change": 0.006666666666666677,
+        "paired_bifolia": 5,
+        "paired_cases": 33,
+        "promotion": null,
+        "right_distance": 0.08333333333333331,
+        "right_rate": 0.4166666666666667,
+        "signed_rate_change": -0.026666666666666672,
+        "status_transitions": {
+          "DECIDED->DECIDED": 17,
+          "DECIDED->TIE": 3,
+          "NA->NA": 163,
+          "NA->TIE": 2,
+          "TIE->DECIDED": 3,
+          "TIE->NA": 2,
+          "TIE->TIE": 10
+        }
+      },
+      "J08.POSTPLANT.SHORT.CAL": {
+        "cluster_bootstrap_95": null,
+        "distance_change": null,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_rate": null,
+        "paired_bifolia": 0,
+        "paired_cases": 0,
+        "promotion": null,
+        "right_rate": null,
+        "status_transitions": {
+          "NA->NA": 200
+        }
+      },
+      "J08.POSTPLANT.SHORT.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.04999999999999993,
+          0.0
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.025000000000000022,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.025000000000000022,
+        "left_rate": 0.525,
+        "mean_bifolium_distance_change": -0.024999999999999967,
+        "paired_bifolia": 2,
+        "paired_cases": 15,
+        "promotion": null,
+        "right_distance": 0.0,
+        "right_rate": 0.5,
+        "signed_rate_change": -0.025000000000000022,
+        "status_transitions": {
+          "DECIDED->DECIDED": 7,
+          "DECIDED->TIE": 3,
+          "NA->NA": 185,
+          "TIE->DECIDED": 2,
+          "TIE->TIE": 3
+        }
+      },
+      "J08.WIDE.CAL": {
+        "cluster_bootstrap_95": [
+          -0.015000000000000124,
+          0.032500000000000084
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.007500000000000062,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.13749999999999996,
+        "left_rate": 0.6375,
+        "mean_bifolium_distance_change": -0.007499999999999998,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.14500000000000002,
+        "right_rate": 0.645,
+        "signed_rate_change": 0.007500000000000062,
+        "status_transitions": {
+          "DECIDED->DECIDED": 154,
+          "DECIDED->TIE": 5,
+          "TIE->DECIDED": 4,
+          "TIE->TIE": 37
+        }
+      },
+      "J08.WIDE.JOINT.CAL": {
+        "cluster_bootstrap_95": [
+          -0.03749999999999998,
+          0.03499999999999992
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.0025000000000000577,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.03749999999999998,
+        "left_rate": 0.5375,
+        "mean_bifolium_distance_change": -0.0225,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.040000000000000036,
+        "right_rate": 0.54,
+        "signed_rate_change": 0.0025000000000000577,
+        "status_transitions": {
+          "DECIDED->DECIDED": 120,
+          "DECIDED->TIE": 11,
+          "TIE->DECIDED": 8,
+          "TIE->TIE": 61
+        }
+      },
+      "J08.WIDE.JOINT.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.02999999999999997,
+          0.025000000000000022
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.004999999999999949,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.009999999999999953,
+        "left_rate": 0.49000000000000005,
+        "mean_bifolium_distance_change": -0.015000000000000008,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.0050000000000000044,
+        "right_rate": 0.495,
+        "signed_rate_change": 0.004999999999999949,
+        "status_transitions": {
+          "DECIDED->DECIDED": 121,
+          "DECIDED->TIE": 11,
+          "TIE->DECIDED": 7,
+          "TIE->TIE": 61
+        }
+      },
+      "J08.WIDE.LONG.CAL": {
+        "cluster_bootstrap_95": [
+          -0.01167133520074698,
+          0.04330065359477131
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.018090569561157732,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.10170401493930914,
+        "left_rate": 0.6017040149393091,
+        "mean_bifolium_distance_change": -0.009687208216619976,
+        "paired_bifolia": 17,
+        "paired_cases": 112,
+        "promotion": null,
+        "right_distance": 0.11979458450046687,
+        "right_rate": 0.6197945845004669,
+        "signed_rate_change": 0.018090569561157732,
+        "status_transitions": {
+          "DECIDED->DECIDED": 76,
+          "DECIDED->NA": 4,
+          "DECIDED->TIE": 1,
+          "NA->DECIDED": 3,
+          "NA->NA": 75,
+          "NA->TIE": 2,
+          "TIE->DECIDED": 1,
+          "TIE->NA": 4,
+          "TIE->TIE": 34
+        }
+      },
+      "J08.WIDE.LONG.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.03627450980392155,
+          0.009803921568627527
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.0117647058823529,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.05581232492997196,
+        "left_rate": 0.44418767507002804,
+        "mean_bifolium_distance_change": -0.01176470588235294,
+        "paired_bifolia": 17,
+        "paired_cases": 112,
+        "promotion": null,
+        "right_distance": 0.04404761904761906,
+        "right_rate": 0.45595238095238094,
+        "signed_rate_change": 0.0117647058823529,
+        "status_transitions": {
+          "DECIDED->DECIDED": 50,
+          "DECIDED->NA": 4,
+          "DECIDED->TIE": 3,
+          "NA->DECIDED": 3,
+          "NA->NA": 75,
+          "NA->TIE": 2,
+          "TIE->DECIDED": 2,
+          "TIE->NA": 4,
+          "TIE->TIE": 57
+        }
+      },
+      "J08.WIDE.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.029166666666666674,
+          0.01583333333333342
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.0025000000000000022,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.038690476190476164,
+        "left_rate": 0.46130952380952384,
+        "mean_bifolium_distance_change": -0.0225,
+        "paired_bifolia": 20,
+        "paired_cases": 141,
+        "promotion": null,
+        "right_distance": 0.03619047619047616,
+        "right_rate": 0.46380952380952384,
+        "signed_rate_change": 0.0025000000000000022,
+        "status_transitions": {
+          "DECIDED->DECIDED": 67,
+          "DECIDED->NA": 3,
+          "DECIDED->TIE": 7,
+          "NA->DECIDED": 5,
+          "NA->NA": 49,
+          "NA->TIE": 2,
+          "TIE->DECIDED": 9,
+          "TIE->TIE": 58
+        }
+      },
+      "J08.WIDE.SHORT.CAL": {
+        "cluster_bootstrap_95": [
+          -0.0444444444444444,
+          0.033333333333333326
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.004166666666666707,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.1908068783068783,
+        "left_rate": 0.3091931216931217,
+        "mean_bifolium_distance_change": -0.004166666666666664,
+        "paired_bifolia": 9,
+        "paired_cases": 49,
+        "promotion": null,
+        "right_distance": 0.1866402116402116,
+        "right_rate": 0.3133597883597884,
+        "signed_rate_change": 0.004166666666666707,
+        "status_transitions": {
+          "DECIDED->DECIDED": 34,
+          "DECIDED->NA": 4,
+          "DECIDED->TIE": 6,
+          "NA->DECIDED": 5,
+          "NA->NA": 139,
+          "NA->TIE": 1,
+          "TIE->DECIDED": 4,
+          "TIE->NA": 2,
+          "TIE->TIE": 5
+        }
+      },
+      "J08.WIDE.SHORT.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.050000000000000044,
+          0.033333333333333326
+        ],
+        "direction_reversal": true,
+        "distance_change": 0.001984126984126866,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.007341269841269926,
+        "left_rate": 0.5073412698412699,
+        "mean_bifolium_distance_change": -0.01666666666666667,
+        "paired_bifolia": 9,
+        "paired_cases": 49,
+        "promotion": null,
+        "right_distance": 0.009325396825396792,
+        "right_rate": 0.4906746031746032,
+        "signed_rate_change": -0.01666666666666672,
+        "status_transitions": {
+          "DECIDED->DECIDED": 18,
+          "DECIDED->NA": 2,
+          "DECIDED->TIE": 5,
+          "NA->DECIDED": 4,
+          "NA->NA": 139,
+          "NA->TIE": 2,
+          "TIE->DECIDED": 6,
+          "TIE->NA": 4,
+          "TIE->TIE": 20
+        }
+      },
+      "J09.CAL": {
+        "cluster_bootstrap_95": [
+          -0.07500000000000001,
+          0.03499999999999992
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.022499999999999964,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.07249999999999995,
+        "left_rate": 0.42750000000000005,
+        "mean_bifolium_distance_change": -0.0625,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.04999999999999999,
+        "right_rate": 0.45,
+        "signed_rate_change": 0.022499999999999964,
+        "status_transitions": {
+          "DECIDED->DECIDED": 194,
+          "DECIDED->TIE": 3,
+          "TIE->DECIDED": 2,
+          "TIE->TIE": 1
+        }
+      },
+      "J09.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.0699305555555555,
+          0.08243055555555562
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.05118055555555562,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.011458333333333293,
+        "left_rate": 0.4885416666666667,
+        "mean_bifolium_distance_change": -0.01618055555555555,
+        "paired_bifolia": 20,
+        "paired_cases": 187,
+        "promotion": null,
+        "right_distance": 0.06263888888888891,
+        "right_rate": 0.4373611111111111,
+        "signed_rate_change": -0.05118055555555562,
+        "status_transitions": {
+          "DECIDED->DECIDED": 172,
+          "DECIDED->TIE": 3,
+          "NA->DECIDED": 2,
+          "NA->NA": 9,
+          "NA->TIE": 1,
+          "TIE->DECIDED": 3,
+          "TIE->NA": 1,
+          "TIE->TIE": 9
+        }
+      },
+      "J10.CAL": {
+        "cluster_bootstrap_95": [
+          -0.04210526315789476,
+          0.04736842105263156
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.0026315789473684292,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.02105263157894738,
+        "left_rate": 0.4789473684210526,
+        "mean_bifolium_distance_change": 0.028947368421052635,
+        "paired_bifolia": 19,
+        "paired_cases": 190,
+        "promotion": null,
+        "right_distance": 0.01842105263157895,
+        "right_rate": 0.48157894736842105,
+        "signed_rate_change": 0.0026315789473684292,
+        "status_transitions": {
+          "DECIDED->DECIDED": 160,
+          "DECIDED->TIE": 4,
+          "NA->NA": 10,
+          "TIE->DECIDED": 9,
+          "TIE->TIE": 17
+        }
+      },
+      "J10.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.0748366013071895,
+          0.029073295985060588
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.028069561157796463,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.10290616246498596,
+        "left_rate": 0.602906162464986,
+        "mean_bifolium_distance_change": -0.010422502334267043,
+        "paired_bifolia": 17,
+        "paired_cases": 137,
+        "promotion": null,
+        "right_distance": 0.0748366013071895,
+        "right_rate": 0.5748366013071895,
+        "signed_rate_change": -0.028069561157796463,
+        "status_transitions": {
+          "DECIDED->DECIDED": 96,
+          "DECIDED->NA": 5,
+          "DECIDED->TIE": 4,
+          "NA->DECIDED": 2,
+          "NA->NA": 53,
+          "NA->TIE": 1,
+          "TIE->DECIDED": 7,
+          "TIE->NA": 2,
+          "TIE->TIE": 30
+        }
+      },
+      "J11.H2.CAL": {
+        "cluster_bootstrap_95": [
+          -0.021052631578947323,
+          0.04210526315789476
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.009398496240601462,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.11312656641604013,
+        "left_rate": 0.38687343358395987,
+        "mean_bifolium_distance_change": -0.011654135338345861,
+        "paired_bifolia": 19,
+        "paired_cases": 172,
+        "promotion": null,
+        "right_distance": 0.12252506265664159,
+        "right_rate": 0.3774749373433584,
+        "signed_rate_change": -0.009398496240601462,
+        "status_transitions": {
+          "DECIDED->DECIDED": 162,
+          "DECIDED->NA": 1,
+          "DECIDED->TIE": 2,
+          "NA->DECIDED": 1,
+          "NA->NA": 25,
+          "TIE->DECIDED": 2,
+          "TIE->NA": 1,
+          "TIE->TIE": 6
+        }
+      },
+      "J11.H2.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.03588435374149662,
+          0.048015873015872956
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.017913832199546453,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.032922335600907016,
+        "left_rate": 0.467077664399093,
+        "mean_bifolium_distance_change": -0.01383219954648526,
+        "paired_bifolia": 14,
+        "paired_cases": 84,
+        "promotion": null,
+        "right_distance": 0.05083616780045347,
+        "right_rate": 0.44916383219954653,
+        "signed_rate_change": -0.017913832199546453,
+        "status_transitions": {
+          "DECIDED->DECIDED": 41,
+          "DECIDED->NA": 2,
+          "DECIDED->TIE": 4,
+          "NA->DECIDED": 5,
+          "NA->NA": 100,
+          "NA->TIE": 3,
+          "TIE->DECIDED": 2,
+          "TIE->NA": 6,
+          "TIE->TIE": 37
+        }
+      },
+      "J11.L3.H2.CAL": {
+        "cluster_bootstrap_95": [
+          -0.04682539682539688,
+          0.04107142857142859
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.0037698412698412564,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.06969246031746029,
+        "left_rate": 0.4303075396825397,
+        "mean_bifolium_distance_change": -0.007242063492063494,
+        "paired_bifolia": 16,
+        "paired_cases": 142,
+        "promotion": null,
+        "right_distance": 0.06592261904761904,
+        "right_rate": 0.43407738095238096,
+        "signed_rate_change": 0.0037698412698412564,
+        "status_transitions": {
+          "DECIDED->DECIDED": 114,
+          "DECIDED->NA": 1,
+          "DECIDED->TIE": 4,
+          "NA->DECIDED": 2,
+          "NA->NA": 54,
+          "TIE->DECIDED": 6,
+          "TIE->NA": 1,
+          "TIE->TIE": 18
+        }
+      },
+      "J11.L3.H2.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.046527777777777724,
+          0.05654761904761907
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.0225198412698413,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.032440476190476186,
+        "left_rate": 0.4675595238095238,
+        "mean_bifolium_distance_change": -0.021924603174603166,
+        "paired_bifolia": 12,
+        "paired_cases": 67,
+        "promotion": null,
+        "right_distance": 0.05496031746031749,
+        "right_rate": 0.4450396825396825,
+        "signed_rate_change": -0.0225198412698413,
+        "status_transitions": {
+          "DECIDED->DECIDED": 35,
+          "DECIDED->NA": 3,
+          "DECIDED->TIE": 3,
+          "NA->DECIDED": 7,
+          "NA->NA": 121,
+          "NA->TIE": 1,
+          "TIE->NA": 1,
+          "TIE->TIE": 29
+        }
+      },
+      "J11.L4.H2.CAL": {
+        "cluster_bootstrap_95": [
+          -0.05208333333333337,
+          0.05208333333333326
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.02256944444444442,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.0013268849206349298,
+        "left_rate": 0.5013268849206349,
+        "mean_bifolium_distance_change": -0.022569444444444444,
+        "paired_bifolia": 16,
+        "paired_cases": 114,
+        "promotion": null,
+        "right_distance": 0.02389632936507935,
+        "right_rate": 0.5238963293650793,
+        "signed_rate_change": 0.02256944444444442,
+        "status_transitions": {
+          "DECIDED->DECIDED": 106,
+          "DECIDED->NA": 5,
+          "NA->DECIDED": 6,
+          "NA->NA": 75,
+          "TIE->TIE": 8
+        }
+      },
+      "J11.L4.H2.PROTO": {
+        "cluster_bootstrap_95": [
+          0.0,
+          0.0
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.0,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.02638888888888885,
+        "left_rate": 0.47361111111111115,
+        "mean_bifolium_distance_change": 0.0,
+        "paired_bifolia": 6,
+        "paired_cases": 22,
+        "promotion": null,
+        "right_distance": 0.02638888888888885,
+        "right_rate": 0.47361111111111115,
+        "signed_rate_change": 0.0,
+        "status_transitions": {
+          "DECIDED->DECIDED": 6,
+          "NA->DECIDED": 1,
+          "NA->NA": 173,
+          "NA->TIE": 1,
+          "TIE->NA": 3,
+          "TIE->TIE": 16
+        }
+      },
+      "J11.L5.H2.CAL": {
+        "cluster_bootstrap_95": [
+          -0.029629629629629617,
+          0.04722222222222222
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.0092592592592593,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.13506613756613756,
+        "left_rate": 0.36493386243386244,
+        "mean_bifolium_distance_change": 0.03148148148148148,
+        "paired_bifolia": 15,
+        "paired_cases": 108,
+        "promotion": null,
+        "right_distance": 0.14432539682539686,
+        "right_rate": 0.35567460317460314,
+        "signed_rate_change": -0.0092592592592593,
+        "status_transitions": {
+          "DECIDED->DECIDED": 95,
+          "DECIDED->NA": 8,
+          "DECIDED->TIE": 1,
+          "NA->DECIDED": 2,
+          "NA->NA": 80,
+          "TIE->DECIDED": 6,
+          "TIE->NA": 2,
+          "TIE->TIE": 6
+        }
+      },
+      "J11.L5.H2.PROTO": {
+        "cluster_bootstrap_95": [
+          0.0,
+          0.0
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.0,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.0,
+        "left_rate": 0.5,
+        "mean_bifolium_distance_change": 0.0,
+        "paired_bifolia": 5,
+        "paired_cases": 16,
+        "promotion": null,
+        "right_distance": 0.0,
+        "right_rate": 0.5,
+        "signed_rate_change": 0.0,
+        "status_transitions": {
+          "NA->NA": 176,
+          "NA->TIE": 3,
+          "TIE->NA": 5,
+          "TIE->TIE": 16
+        }
+      },
+      "J11.SUPPORT.CAL": {
+        "cluster_bootstrap_95": [
+          -0.03947368421052633,
+          0.03157894736842104
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.0026315789473684847,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.0,
+        "left_rate": 0.5,
+        "mean_bifolium_distance_change": -0.007894736842105262,
+        "paired_bifolia": 19,
+        "paired_cases": 190,
+        "promotion": null,
+        "right_distance": 0.0026315789473684847,
+        "right_rate": 0.4973684210526315,
+        "signed_rate_change": -0.0026315789473684847,
+        "status_transitions": {
+          "DECIDED->DECIDED": 151,
+          "DECIDED->TIE": 5,
+          "NA->NA": 10,
+          "TIE->DECIDED": 10,
+          "TIE->TIE": 24
+        }
+      },
+      "J11.SUPPORT.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.04999999999999993,
+          0.04999999999999993
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.010526315789473828,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.010526315789473606,
+        "left_rate": 0.5105263157894736,
+        "mean_bifolium_distance_change": -0.010526315789473684,
+        "paired_bifolia": 19,
+        "paired_cases": 190,
+        "promotion": null,
+        "right_distance": 0.021052631578947434,
+        "right_rate": 0.5210526315789474,
+        "signed_rate_change": 0.010526315789473828,
+        "status_transitions": {
+          "DECIDED->DECIDED": 181,
+          "DECIDED->TIE": 3,
+          "NA->NA": 10,
+          "TIE->DECIDED": 1,
+          "TIE->TIE": 5
+        }
+      },
+      "J12.CAL": {
+        "cluster_bootstrap_95": [
+          -0.07142857142857151,
+          0.0496428571428571
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.027142857142857135,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.07428571428571429,
+        "left_rate": 0.4257142857142857,
+        "mean_bifolium_distance_change": 0.01214285714285714,
+        "paired_bifolia": 20,
+        "paired_cases": 197,
+        "promotion": null,
+        "right_distance": 0.04714285714285715,
+        "right_rate": 0.45285714285714285,
+        "signed_rate_change": 0.027142857142857135,
+        "status_transitions": {
+          "DECIDED->DECIDED": 175,
+          "DECIDED->NA": 1,
+          "DECIDED->TIE": 8,
+          "NA->NA": 2,
+          "TIE->DECIDED": 6,
+          "TIE->TIE": 8
+        }
+      },
+      "J12.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.05624999999999991,
+          0.06624999999999998
+        ],
+        "direction_reversal": true,
+        "distance_change": 0.019791666666666707,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.0047916666666666385,
+        "left_rate": 0.5047916666666666,
+        "mean_bifolium_distance_change": 0.009375,
+        "paired_bifolia": 20,
+        "paired_cases": 187,
+        "promotion": null,
+        "right_distance": 0.024583333333333346,
+        "right_rate": 0.47541666666666665,
+        "signed_rate_change": -0.029374999999999984,
+        "status_transitions": {
+          "DECIDED->DECIDED": 160,
+          "DECIDED->NA": 2,
+          "DECIDED->TIE": 4,
+          "NA->NA": 9,
+          "NA->TIE": 1,
+          "TIE->DECIDED": 5,
+          "TIE->NA": 1,
+          "TIE->TIE": 18
+        }
+      },
+      "J13.CAL": {
+        "cluster_bootstrap_95": [
+          -0.02777777777777779,
+          0.019444444444444597
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.002777777777777768,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.01388888888888884,
+        "left_rate": 0.5138888888888888,
+        "mean_bifolium_distance_change": -0.008333333333333331,
+        "paired_bifolia": 18,
+        "paired_cases": 180,
+        "promotion": null,
+        "right_distance": 0.011111111111111072,
+        "right_rate": 0.5111111111111111,
+        "signed_rate_change": -0.002777777777777768,
+        "status_transitions": {
+          "DECIDED->DECIDED": 156,
+          "DECIDED->TIE": 5,
+          "NA->NA": 20,
+          "TIE->DECIDED": 6,
+          "TIE->TIE": 13
+        }
+      },
+      "J13.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.07664021164021168,
+          0.0722222222222223
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.004907407407407471,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.0375793650793651,
+        "left_rate": 0.5375793650793651,
+        "mean_bifolium_distance_change": 0.005833333333333339,
+        "paired_bifolia": 15,
+        "paired_cases": 99,
+        "promotion": null,
+        "right_distance": 0.03267195767195763,
+        "right_rate": 0.5326719576719576,
+        "signed_rate_change": -0.004907407407407471,
+        "status_transitions": {
+          "DECIDED->DECIDED": 97,
+          "DECIDED->NA": 8,
+          "NA->DECIDED": 5,
+          "NA->NA": 87,
+          "TIE->DECIDED": 1,
+          "TIE->NA": 1,
+          "TIE->TIE": 1
+        }
+      },
+      "J14.CAL": {
+        "cluster_bootstrap_95": [
+          -0.03500000000000009,
+          0.04500000000000004
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.01750000000000007,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.012499999999999956,
+        "left_rate": 0.5125,
+        "mean_bifolium_distance_change": 0.017499999999999998,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.030000000000000027,
+        "right_rate": 0.53,
+        "signed_rate_change": 0.01750000000000007,
+        "status_transitions": {
+          "DECIDED->DECIDED": 180,
+          "DECIDED->TIE": 3,
+          "TIE->DECIDED": 8,
+          "TIE->TIE": 9
+        }
+      },
+      "J14.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.04499999999999993,
+          0.05499999999999994
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.015000000000000013,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.012500000000000011,
+        "left_rate": 0.4875,
+        "mean_bifolium_distance_change": 0.015000000000000003,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.027500000000000024,
+        "right_rate": 0.4725,
+        "signed_rate_change": -0.015000000000000013,
+        "status_transitions": {
+          "DECIDED->DECIDED": 199,
+          "TIE->TIE": 1
+        }
+      },
+      "J15.CAL": {
+        "cluster_bootstrap_95": [
+          -0.04249999999999998,
+          0.05499999999999994
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.020000000000000018,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.04500000000000004,
+        "left_rate": 0.545,
+        "mean_bifolium_distance_change": -2.7755575615628915e-18,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.06500000000000006,
+        "right_rate": 0.5650000000000001,
+        "signed_rate_change": 0.020000000000000018,
+        "status_transitions": {
+          "DECIDED->DECIDED": 190,
+          "DECIDED->TIE": 6,
+          "TIE->DECIDED": 2,
+          "TIE->TIE": 2
+        }
+      },
+      "J15.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.06500000000000006,
+          0.039999999999999925
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.01000000000000012,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.09000000000000008,
+        "left_rate": 0.5900000000000001,
+        "mean_bifolium_distance_change": -0.05,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.07999999999999996,
+        "right_rate": 0.58,
+        "signed_rate_change": -0.01000000000000012,
+        "status_transitions": {
+          "DECIDED->DECIDED": 200
+        }
+      },
+      "J16.CAL": {
+        "cluster_bootstrap_95": [
+          -0.08999999999999986,
+          0.07
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.04749999999999999,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.0625,
+        "left_rate": 0.5625,
+        "mean_bifolium_distance_change": -0.007499999999999993,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.015000000000000013,
+        "right_rate": 0.515,
+        "signed_rate_change": -0.04749999999999999,
+        "status_transitions": {
+          "DECIDED->DECIDED": 194,
+          "DECIDED->TIE": 3,
+          "TIE->TIE": 3
+        }
+      },
+      "J16.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.025000000000000022,
+          0.05500000000000005
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.015000000000000013,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.12,
+        "left_rate": 0.62,
+        "mean_bifolium_distance_change": -0.004999999999999996,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.135,
+        "right_rate": 0.635,
+        "signed_rate_change": 0.015000000000000013,
+        "status_transitions": {
+          "DECIDED->DECIDED": 200
+        }
+      },
+      "J17.CAL": {
+        "cluster_bootstrap_95": [
+          -0.030000000000000082,
+          0.03250000000000003
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.0,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.040000000000000036,
+        "left_rate": 0.45999999999999996,
+        "mean_bifolium_distance_change": 0.010000000000000009,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.040000000000000036,
+        "right_rate": 0.45999999999999996,
+        "signed_rate_change": 0.0,
+        "status_transitions": {
+          "DECIDED->DECIDED": 197,
+          "DECIDED->TIE": 1,
+          "TIE->DECIDED": 1,
+          "TIE->TIE": 1
+        }
+      },
+      "J17.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.030000000000000027,
+          0.04500000000000004
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.004999999999999893,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.15500000000000003,
+        "left_rate": 0.655,
+        "mean_bifolium_distance_change": -0.004999999999999996,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.15999999999999992,
+        "right_rate": 0.6599999999999999,
+        "signed_rate_change": 0.004999999999999893,
+        "status_transitions": {
+          "DECIDED->DECIDED": 200
+        }
+      },
+      "J18.CAL": {
+        "cluster_bootstrap_95": [
+          -0.07000000000000006,
+          0.04999999999999999
+        ],
+        "direction_reversal": true,
+        "distance_change": -0.020000000000000018,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.025000000000000022,
+        "left_rate": 0.525,
+        "mean_bifolium_distance_change": -0.030000000000000006,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.0050000000000000044,
+        "right_rate": 0.495,
+        "signed_rate_change": -0.030000000000000027,
+        "status_transitions": {
+          "DECIDED->DECIDED": 177,
+          "DECIDED->TIE": 7,
+          "TIE->DECIDED": 7,
+          "TIE->TIE": 9
+        }
+      },
+      "J18.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.03500000000000003,
+          0.065
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.010000000000000009,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.125,
+        "left_rate": 0.375,
+        "mean_bifolium_distance_change": 1.1102230246251566e-17,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.135,
+        "right_rate": 0.365,
+        "signed_rate_change": -0.010000000000000009,
+        "status_transitions": {
+          "DECIDED->DECIDED": 200
+        }
+      },
+      "J19.CAL": {
+        "cluster_bootstrap_95": [
+          -0.040000000000000036,
+          0.05999999999999994
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.007500000000000007,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.08750000000000002,
+        "left_rate": 0.4125,
+        "mean_bifolium_distance_change": 0.0225,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.09500000000000003,
+        "right_rate": 0.40499999999999997,
+        "signed_rate_change": -0.007500000000000007,
+        "status_transitions": {
+          "DECIDED->DECIDED": 173,
+          "DECIDED->TIE": 10,
+          "TIE->DECIDED": 7,
+          "TIE->TIE": 10
+        }
+      },
+      "J19.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.03999999999999998,
+          0.06499999999999995
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.025000000000000022,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.05999999999999994,
+        "left_rate": 0.5599999999999999,
+        "mean_bifolium_distance_change": 0.004999999999999988,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.08499999999999996,
+        "right_rate": 0.585,
+        "signed_rate_change": 0.025000000000000022,
+        "status_transitions": {
+          "DECIDED->DECIDED": 200
+        }
+      },
+      "J20.CAL": {
+        "cluster_bootstrap_95": [
+          -0.08000000000000002,
+          0.07250000000000001
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.03500000000000003,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.06500000000000006,
+        "left_rate": 0.5650000000000001,
+        "mean_bifolium_distance_change": 0.040000000000000015,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.030000000000000027,
+        "right_rate": 0.53,
+        "signed_rate_change": -0.03500000000000003,
+        "status_transitions": {
+          "DECIDED->DECIDED": 196,
+          "DECIDED->TIE": 2,
+          "TIE->TIE": 2
+        }
+      },
+      "J20.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.05499999999999999,
+          0.04500000000000004
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.009999999999999953,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.04249999999999998,
+        "left_rate": 0.4575,
+        "mean_bifolium_distance_change": -0.009999999999999998,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.03250000000000003,
+        "right_rate": 0.46749999999999997,
+        "signed_rate_change": 0.009999999999999953,
+        "status_transitions": {
+          "DECIDED->DECIDED": 199,
+          "TIE->TIE": 1
+        }
+      },
+      "J21.CAL": {
+        "cluster_bootstrap_95": null,
+        "distance_change": null,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_rate": null,
+        "paired_bifolia": 0,
+        "paired_cases": 0,
+        "promotion": null,
+        "right_rate": null,
+        "status_transitions": {
+          "NA->NA": 200
+        }
+      },
+      "J21.PROTO": {
+        "cluster_bootstrap_95": null,
+        "distance_change": null,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_rate": null,
+        "paired_bifolia": 0,
+        "paired_cases": 0,
+        "promotion": null,
+        "right_rate": null,
+        "status_transitions": {
+          "NA->NA": 200
+        }
+      },
+      "J22.CAL": {
+        "cluster_bootstrap_95": [
+          -0.057142857142857106,
+          0.05357142857142849
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.0035714285714286698,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.06428571428571433,
+        "left_rate": 0.43571428571428567,
+        "mean_bifolium_distance_change": 0.010714285714285707,
+        "paired_bifolia": 14,
+        "paired_cases": 140,
+        "promotion": null,
+        "right_distance": 0.060714285714285665,
+        "right_rate": 0.43928571428571433,
+        "signed_rate_change": 0.0035714285714286698,
+        "status_transitions": {
+          "DECIDED->DECIDED": 134,
+          "NA->NA": 60,
+          "TIE->DECIDED": 1,
+          "TIE->TIE": 5
+        }
+      },
+      "J22.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.04999999999999999,
+          0.06428571428571433
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.0071428571428571175,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.0678571428571429,
+        "left_rate": 0.4321428571428571,
+        "mean_bifolium_distance_change": -0.007142857142857141,
+        "paired_bifolia": 14,
+        "paired_cases": 140,
+        "promotion": null,
+        "right_distance": 0.07500000000000001,
+        "right_rate": 0.425,
+        "signed_rate_change": -0.0071428571428571175,
+        "status_transitions": {
+          "DECIDED->DECIDED": 135,
+          "NA->NA": 60,
+          "TIE->TIE": 5
+        }
+      },
+      "J23.CAL": {
+        "cluster_bootstrap_95": [
+          -0.06999999999999995,
+          0.065
+        ],
+        "direction_reversal": true,
+        "distance_change": -0.020000000000000073,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.030000000000000027,
+        "left_rate": 0.53,
+        "mean_bifolium_distance_change": -0.02,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.009999999999999953,
+        "right_rate": 0.49000000000000005,
+        "signed_rate_change": -0.03999999999999998,
+        "status_transitions": {
+          "DECIDED->DECIDED": 198,
+          "TIE->DECIDED": 2
+        }
+      },
+      "J23.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.03500000000000003,
+          0.020000000000000018
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.010000000000000009,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.14,
+        "left_rate": 0.36,
+        "mean_bifolium_distance_change": -2.7755575615628915e-18,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.13,
+        "right_rate": 0.37,
+        "signed_rate_change": 0.010000000000000009,
+        "status_transitions": {
+          "DECIDED->DECIDED": 200
+        }
+      },
+      "J24.CAL": {
+        "cluster_bootstrap_95": [
+          -0.05999999999999994,
+          0.029999999999999916
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.015000000000000013,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.13,
+        "left_rate": 0.63,
+        "mean_bifolium_distance_change": -0.015000000000000003,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.11499999999999999,
+        "right_rate": 0.615,
+        "signed_rate_change": -0.015000000000000013,
+        "status_transitions": {
+          "DECIDED->DECIDED": 200
+        }
+      },
+      "J24.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.04500000000000004,
+          0.05500000000000005
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.014999999999999902,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.04500000000000004,
+        "left_rate": 0.545,
+        "mean_bifolium_distance_change": -0.015000000000000003,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.05999999999999994,
+        "right_rate": 0.5599999999999999,
+        "signed_rate_change": 0.014999999999999902,
+        "status_transitions": {
+          "DECIDED->DECIDED": 200
+        }
+      },
+      "J25.CAL": {
+        "cluster_bootstrap_95": [
+          -0.04249999999999998,
+          0.03750000000000003
+        ],
+        "direction_reversal": false,
+        "distance_change": -0.007500000000000062,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.08750000000000002,
+        "left_rate": 0.4125,
+        "mean_bifolium_distance_change": 0.012499999999999997,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.07999999999999996,
+        "right_rate": 0.42000000000000004,
+        "signed_rate_change": 0.007500000000000062,
+        "status_transitions": {
+          "DECIDED->DECIDED": 191,
+          "DECIDED->TIE": 2,
+          "TIE->DECIDED": 3,
+          "TIE->TIE": 4
+        }
+      },
+      "J25.PROTO": {
+        "cluster_bootstrap_95": [
+          -0.040000000000000036,
+          0.03499999999999992
+        ],
+        "direction_reversal": false,
+        "distance_change": 0.0050000000000000044,
+        "inference": "descriptive_reused_bifolia_frozen_models",
+        "left_distance": 0.0,
+        "left_rate": 0.5,
+        "mean_bifolium_distance_change": -0.024999999999999994,
+        "paired_bifolia": 20,
+        "paired_cases": 200,
+        "promotion": null,
+        "right_distance": 0.0050000000000000044,
+        "right_rate": 0.505,
+        "signed_rate_change": 0.0050000000000000044,
+        "status_transitions": {
+          "DECIDED->DECIDED": 200
+        }
+      }
+    }
+  },
+  "local_primary": "ATOM.PARA_END.CAL",
+  "multiplicity": "descriptive_only_no_inferential_selection",
+  "plan_hash": "6b185bf56e043efa0180753f63cc15206c7d1b59238a87d4cc85272693a2c4a4",
+  "primary": "J24.CAL",
+  "promotion": null
+}

@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "plan_hash": "6b185bf56e043efa0180753f63cc15206c7d1b59238a87d4cc85272693a2c4a4",
+  "generated_unique_cases": 800,
+  "comparison_cases": 600,
+  "reference_cases": 200,
+  "prediction_rows_semantically_verified": 600,
+  "base_reference_cases_exact": 200,
+  "base_historical_payloads_exact": 1600,
+  "baseline_predictions_equal_previous_release": true,
+  "implementation_files_unchanged": 25,
+  "runtime_inputs": {
+    "archives": {
+      "EHC1_E1GLOBAL_FULL_20260911.zip": "cf8ec127ab584a8460c3c02aa4f3a5b2a7f01a328a9b3568f58d6ce0c53c025f",
+      "RMW1_BTI2_EHC2_DECOMP1_PUV_HANDOFF_COMPACT_20260912.zip": "0a3ea22dbe826ca56100de3e185460e6a3b5e804c5b1166069abfc8dd6c04f29"
+    },
+    "files": 15632,
+    "tree_sha256": "defa4df428a64a25358aae4a5c3305d4e31614cfa3c29136eb8359d570cce204"
+  },
+  "models_frozen": true,
+  "predictions": [
+    {
+      "arm": "BASE",
+      "sets": 200,
+      "predictions_sha256": "fca371f8e52008c8aa5fa7dff386a9905ecd087da106b0a0ba40fca49599de54",
+      "channels_sha256": "6b1950e48374d1e9ae2141221b8911789c08da25f965d3667970e6efe317fd8a"
+    },
+    {
+      "arm": "PF_NO_RESCUE",
+      "sets": 200,
+      "predictions_sha256": "ea12a251955ac15687a59876b9c2bcf857c2289e106895a0d489db2cb287ff6e",
+      "channels_sha256": "8efe08fe07852b6ce6eb83c60437f6d9ced924f12a38dc3ea4faa96f2e7cded7"
+    },
+    {
+      "arm": "PF_ANCHOR",
+      "sets": 200,
+      "predictions_sha256": "752ef9986d66a43e575f6fe5b73dd7d6b998955b30893c4341ee3be5b7017225",
+      "channels_sha256": "8d956a715793ca6d5f093cdf948824f3d291e48ab091da3cd85e00e3463a2093"
+    }
+  ],
+  "generation_manifest_sha256": "61dcfef71767d20eaf6934fb68da9f221696ea7435ac26257788a33898c0f2a4",
+  "audit_report_sha256": "07f99c3bfebb94e34d5cf75fcea5450fc189791a498cfd9c44d05c955d55e31e",
+  "comparison_sha256": "a67d0675c706c896905fd64b1639f1aa65d474f4f2507b4c4d5f42c46c2d80e5",
+  "connection_recovery": "original processes survived; no regeneration or seed replacement",
+  "promotion": null
+}

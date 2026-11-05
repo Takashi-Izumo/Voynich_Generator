@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "stage": "COMPLETED",
+  "completed_stages": [
+    "audit",
+    "historical",
+    "export",
+    "evaluate",
+    "summarize"
+  ],
+  "error": null
+}
