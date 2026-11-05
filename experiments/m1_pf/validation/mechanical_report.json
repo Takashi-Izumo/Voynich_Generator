@@ -1,0 +1,222 @@
+{
+  "base_reference_checked": true,
+  "base_reference_main_rng_checked": true,
+  "cases": 9,
+  "generation_binding": {
+    "copied_plan_sha256": "9921fc8a5067cf26066e3eab1e22b4e99343503066d9cbac35204f72ece3427c",
+    "manifest_sha256": "e8012eb03c11e9619f933fffab6e487b94c8f11ceef07e713fe2d53baf32f1e8",
+    "plan_hash": "c392a1588d29139a6aaa53be18ce947b782159d0be02d0644f9c5f62329c3107",
+    "status_sha256": "5a99152fdf34ee99e7718398d5732e8ea128e2d24dc8f8157058330a279dc0c1"
+  },
+  "plan_hash": "c392a1588d29139a6aaa53be18ce947b782159d0be02d0644f9c5f62329c3107",
+  "promotion": null,
+  "repeat_binding": {
+    "copied_plan_sha256": "9921fc8a5067cf26066e3eab1e22b4e99343503066d9cbac35204f72ece3427c",
+    "manifest_sha256": "8a280ab7dddc88c733810fac9fb63a8ade10bd24afa05f9f5a532559a730c1d7",
+    "plan_hash": "c392a1588d29139a6aaa53be18ce947b782159d0be02d0644f9c5f62329c3107",
+    "status_sha256": "5a99152fdf34ee99e7718398d5732e8ea128e2d24dc8f8157058330a279dc0c1"
+  },
+  "repeat_checked": true,
+  "repeat_root": "/workspace/voynich-results/m1-pf-reviewfix-v2/reverse",
+  "results": [
+    {
+      "anchor_overrides": 0,
+      "arm": "BASE",
+      "base_reference_exact": true,
+      "base_reference_main_rng_exact": true,
+      "bif": "A:2",
+      "candidate1_argmax": 2,
+      "pf_events": 2,
+      "repeat_exact": true,
+      "repeat_main_rng_exact": true,
+      "rescue_adopted": 0,
+      "rescue_explored": 8,
+      "run": 91701
+    },
+    {
+      "anchor_overrides": 0,
+      "arm": "PF_NO_RESCUE",
+      "bif": "A:2",
+      "candidate1_argmax": 2,
+      "pf_events": 2,
+      "repeat_exact": true,
+      "repeat_main_rng_exact": true,
+      "rescue_adopted": 0,
+      "rescue_explored": 0,
+      "run": 91701
+    },
+    {
+      "anchor_overrides": 1,
+      "arm": "PF_ANCHOR",
+      "bif": "A:2",
+      "candidate1_argmax": 1,
+      "pf_events": 2,
+      "repeat_exact": true,
+      "repeat_main_rng_exact": true,
+      "rescue_adopted": 0,
+      "rescue_explored": 0,
+      "run": 91701
+    },
+    {
+      "anchor_overrides": 0,
+      "arm": "BASE",
+      "base_reference_exact": true,
+      "base_reference_main_rng_exact": true,
+      "bif": "A:3",
+      "candidate1_argmax": 1,
+      "pf_events": 2,
+      "repeat_exact": true,
+      "repeat_main_rng_exact": true,
+      "rescue_adopted": 1,
+      "rescue_explored": 16,
+      "run": 91701
+    },
+    {
+      "anchor_overrides": 0,
+      "arm": "PF_NO_RESCUE",
+      "bif": "A:3",
+      "candidate1_argmax": 1,
+      "pf_events": 2,
+      "repeat_exact": true,
+      "repeat_main_rng_exact": true,
+      "rescue_adopted": 0,
+      "rescue_explored": 0,
+      "run": 91701
+    },
+    {
+      "anchor_overrides": 1,
+      "arm": "PF_ANCHOR",
+      "bif": "A:3",
+      "candidate1_argmax": 1,
+      "pf_events": 2,
+      "repeat_exact": true,
+      "repeat_main_rng_exact": true,
+      "rescue_adopted": 0,
+      "rescue_explored": 0,
+      "run": 91701
+    },
+    {
+      "anchor_overrides": 0,
+      "arm": "BASE",
+      "base_reference_exact": true,
+      "base_reference_main_rng_exact": true,
+      "bif": "G:1",
+      "candidate1_argmax": 0,
+      "pf_events": 3,
+      "repeat_exact": true,
+      "repeat_main_rng_exact": true,
+      "rescue_adopted": 0,
+      "rescue_explored": 0,
+      "run": 91701
+    },
+    {
+      "anchor_overrides": 0,
+      "arm": "PF_NO_RESCUE",
+      "bif": "G:1",
+      "candidate1_argmax": 0,
+      "pf_events": 3,
+      "repeat_exact": true,
+      "repeat_main_rng_exact": true,
+      "rescue_adopted": 0,
+      "rescue_explored": 0,
+      "run": 91701
+    },
+    {
+      "anchor_overrides": 0,
+      "arm": "PF_ANCHOR",
+      "bif": "G:1",
+      "candidate1_argmax": 0,
+      "pf_events": 3,
+      "repeat_exact": true,
+      "repeat_main_rng_exact": true,
+      "rescue_adopted": 0,
+      "rescue_explored": 0,
+      "run": 91701
+    }
+  ],
+  "schema_version": 2,
+  "scope_counts": [
+    {
+      "endpoint_usable": true,
+      "generator_pf": false,
+      "judge_atom": "LINE_END",
+      "judge_observed": true,
+      "observation_mode": "FULL",
+      "reason": "NOT_PF",
+      "segments": 31,
+      "structural_end_atom": "LINE_END"
+    },
+    {
+      "endpoint_usable": false,
+      "generator_pf": false,
+      "judge_atom": null,
+      "judge_observed": false,
+      "observation_mode": "NONE",
+      "reason": "NOT_PF",
+      "segments": 6,
+      "structural_end_atom": "LINE_END"
+    },
+    {
+      "endpoint_usable": true,
+      "generator_pf": false,
+      "judge_atom": null,
+      "judge_observed": false,
+      "observation_mode": "END_ONLY",
+      "reason": "NOT_PF",
+      "segments": 12,
+      "structural_end_atom": "LINE_END"
+    },
+    {
+      "endpoint_usable": true,
+      "generator_pf": false,
+      "judge_atom": "PLANT_END",
+      "judge_observed": true,
+      "observation_mode": "FULL",
+      "reason": "PLANT_END",
+      "segments": 10,
+      "structural_end_atom": "PLANT_END"
+    },
+    {
+      "endpoint_usable": false,
+      "generator_pf": false,
+      "judge_atom": null,
+      "judge_observed": false,
+      "observation_mode": "NONE",
+      "reason": "PLANT_END",
+      "segments": 1,
+      "structural_end_atom": "PLANT_END"
+    },
+    {
+      "endpoint_usable": true,
+      "generator_pf": false,
+      "judge_atom": null,
+      "judge_observed": false,
+      "observation_mode": "END_ONLY",
+      "reason": "PLANT_END",
+      "segments": 6,
+      "structural_end_atom": "PLANT_END"
+    },
+    {
+      "endpoint_usable": true,
+      "generator_pf": true,
+      "judge_atom": "PARA_END",
+      "judge_observed": true,
+      "observation_mode": "FULL",
+      "reason": "INTERVENTION",
+      "segments": 6,
+      "structural_end_atom": "PARA_END"
+    },
+    {
+      "endpoint_usable": true,
+      "generator_pf": true,
+      "judge_atom": null,
+      "judge_observed": false,
+      "observation_mode": "END_ONLY",
+      "reason": "INTERVENTION",
+      "segments": 1,
+      "structural_end_atom": "PARA_END"
+    }
+  ],
+  "statistical_evaluation": "NOT_RUN",
+  "status": "PASS"
+}

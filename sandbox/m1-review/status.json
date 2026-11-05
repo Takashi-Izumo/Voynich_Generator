@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "branch": "sandbox/m1-review",
+  "phase": "AWAITING_INDEPENDENT_RECHECK_V2",
+  "current_request": "sandbox/m1-review/requests/002-v2-recheck.md",
+  "latest_received_report": "sandbox/m1-review/reports/001-forwarded-v1.md",
+  "implementation_manifest": "sandbox/m1-review/implementation_manifest.json",
+  "implementation_side_checks": {
+    "unit_tests": 27,
+    "frozen_judge_tests": 56,
+    "generated_pages": 24,
+    "cal_smoke_passed": true
+  },
+  "independent_v2_result": null,
+  "full_comparison": "ON_HOLD",
+  "main_merge": "REQUIRES_USER_APPROVAL",
+  "promotion": null,
+  "coordination": "fetch on each resumed task; no automatic cross-chat activation; reviewer appends reports only"
+}

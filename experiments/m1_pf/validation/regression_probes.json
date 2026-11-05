@@ -1,0 +1,6 @@
+{
+  "checksum_refresh_rejects_old_pass": "Missing/changed mechanical audit seal",
+  "failed_reaudit_invalidates_old_seal": true,
+  "final_reference_rng_difference_rejected": "BASE final main RNG differs from reference: A:2/91701",
+  "fresh_audit_required_and_succeeds_after_restoration": true
+}

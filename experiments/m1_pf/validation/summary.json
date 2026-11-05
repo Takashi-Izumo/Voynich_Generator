@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "schema_version": 2,
+  "base_commit": "c610c2a81e733748e0fb246de89143d6ecda764e",
+  "plan_hash": "c392a1588d29139a6aaa53be18ce947b782159d0be02d0644f9c5f62329c3107",
+  "scope": "implementation_smoke_not_effectiveness",
+  "unit_tests_passed": 27,
+  "frozen_judge_tests_passed": 56,
+  "generated_pages": 24,
+  "base_reference_main_rng_exact": true,
+  "repeat_exact": true,
+  "runtime_inputs": {
+    "archives": {
+      "EHC1_E1GLOBAL_FULL_20260911.zip": "cf8ec127ab584a8460c3c02aa4f3a5b2a7f01a328a9b3568f58d6ce0c53c025f",
+      "RMW1_BTI2_EHC2_DECOMP1_PUV_HANDOFF_COMPACT_20260912.zip": "0a3ea22dbe826ca56100de3e185460e6a3b5e804c5b1166069abfc8dd6c04f29"
+    },
+    "files": 15632,
+    "tree_sha256": "defa4df428a64a25358aae4a5c3305d4e31614cfa3c29136eb8359d570cce204"
+  },
+  "end_only_endpoints": 19,
+  "end_only_atom_observed": 0,
+  "tokens_and_final_main_rng_unchanged_vs_v1": true,
+  "cal_predictions_unchanged_vs_v1": true,
+  "cal_model_set_hash": "61238cf467871ac13ab9374e2da23ae8a3ad215ea960029e6c8507e065efaf79",
+  "cal_trial_count_per_arm": 3,
+  "bootstrap_for_smoke": 100,
+  "full_comparison": "ON_HOLD_PENDING_INDEPENDENT_REVIEW",
+  "promotion": null,
+  "artifacts_root": "/workspace/voynich-results/m1-pf-reviewfix-v2"
+}
