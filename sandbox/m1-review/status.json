@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "branch": "sandbox/m1-review",
-  "phase": "AWAITING_INDEPENDENT_RECHECK_V2",
-  "current_request": "sandbox/m1-review/requests/002-v2-recheck.md",
-  "latest_received_report": "sandbox/m1-review/reports/001-forwarded-v1.md",
+  "phase": "INDEPENDENT_RECHECK_V2_PASSED_AWAITING_COMPARISON_PLAN",
+  "current_request": null,
+  "latest_received_report": "sandbox/m1-review/reports/002-independent-v2-20261105/REVIEW.md",
   "implementation_manifest": "sandbox/m1-review/implementation_manifest.json",
   "implementation_side_checks": {
     "unit_tests": 27,
@@ -11,9 +11,26 @@
     "generated_pages": 24,
     "cal_smoke_passed": true
   },
-  "independent_v2_result": null,
+  "independent_v2_result": {
+    "status": "PASS_MECHANISM_AND_CAL_SMOKE",
+    "report_commit": "d36255c098671715cc596be63fdb2ee01ef93649",
+    "report_sha256": "64c13fc05cac05643ce3b4f7fae1d94bd1846e6021612e8cbead63963895c020",
+    "verified_report_files": 17,
+    "unit_tests": {
+      "m1": 27,
+      "judges": 56
+    },
+    "fresh_generated_pages": 24,
+    "fixed_cal_predictions": 9,
+    "v1_r1_r2_r3": "RESOLVED_IN_TESTED_CASES",
+    "v1_r4": "WITHDRAWN_REVIEWER_OVERSIGHT_MECHANICAL_RNG_END_WAS_COMPARED",
+    "erratum": "sandbox/m1-review/reports/002-independent-v2-20261105/ERRATUM_V1.md"
+  },
   "full_comparison": "ON_HOLD",
   "main_merge": "REQUIRES_USER_APPROVAL",
   "promotion": null,
-  "coordination": "fetch on each resumed task; no automatic cross-chat activation; reviewer appends reports only"
+  "coordination": "fetch on each resumed task; no automatic cross-chat activation; reviewer appends reports only",
+  "last_completed_request": "sandbox/m1-review/requests/002-v2-recheck.md",
+  "next_step": "Agree and freeze the full comparison protocol, capability controls and decision/multiplicity rules before running it.",
+  "latest_implementation_response": "sandbox/m1-review/responses/003-v2-review-acknowledgement.md"
 }
