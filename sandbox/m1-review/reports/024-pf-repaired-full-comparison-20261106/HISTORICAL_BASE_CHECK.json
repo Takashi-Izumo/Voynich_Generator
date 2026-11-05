@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "cases": 200,
+  "semantic_state_actual_rng_exact": true,
+  "base_records_sha256": "df506f51c170dcbc13e161cc96cca6941ba701d7a972a9c33b769de4f4eaf64e",
+  "prior_manifest_sha256": "61dcfef71767d20eaf6934fb68da9f221696ea7435ac26257788a33898c0f2a4"
+}

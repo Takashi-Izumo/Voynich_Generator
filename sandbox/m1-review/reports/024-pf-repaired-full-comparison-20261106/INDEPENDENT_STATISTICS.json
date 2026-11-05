@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "all_view_arm_rates_checked": 288,
+  "primary_rate_intervals_checked": 6,
+  "primary_paired_distance_intervals_checked": 4,
+  "bootstrap_replicates": 10000,
+  "seed": 20261104,
+  "NA_not_replaced_by_tie": true
+}

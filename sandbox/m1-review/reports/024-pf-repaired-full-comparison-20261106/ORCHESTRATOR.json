@@ -1,0 +1,9 @@
+{
+  "capability_review_sha256": null,
+  "cases": 800,
+  "descriptive_execution_sha256": "ce1cfac1b51b99234b74346abb862e5c55bfcdc1fbc781e67db400190d64110c",
+  "driver_sha256": "9b0e0d895b027116eb44c992da5124ba1e494fec24cf88507db9c9aca75423c9",
+  "partition": "canonical_jobs[i::workers]",
+  "purpose": "descriptive-main",
+  "workers": 4
+}

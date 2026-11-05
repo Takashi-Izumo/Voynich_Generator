@@ -1,0 +1,21 @@
+{
+  "stage": "generation",
+  "returncode": 0,
+  "wall_seconds": 2600.714273411999,
+  "command": [
+    "/workspace/.venvs/voynich/bin/python",
+    "/workspace/voynich-results/m1-v2-independent-20261105/checkout/sandbox/m1-review/reports/019-controls-and-first-pf-full-comparison-20261105/run_comparison_descriptive.py",
+    "--checkout",
+    "/workspace/voynich-results/m1-v2-independent-20261105/checkout",
+    "--plan",
+    "/workspace/voynich-results/m1-v2-independent-20261105/checkout/sandbox/m1-review/reports/024-pf-repaired-full-comparison-20261106/full-plan/plan.json",
+    "--output",
+    "/workspace/voynich-results/pf-repaired-full-comparison-20261106/generated",
+    "--workers",
+    "4",
+    "--purpose",
+    "descriptive-main",
+    "--descriptive-authorization",
+    "/workspace/voynich-results/m1-v2-independent-20261105/checkout/sandbox/m1-review/reports/024-pf-repaired-full-comparison-20261106/DESCRIPTIVE_EXECUTION.json"
+  ]
+}

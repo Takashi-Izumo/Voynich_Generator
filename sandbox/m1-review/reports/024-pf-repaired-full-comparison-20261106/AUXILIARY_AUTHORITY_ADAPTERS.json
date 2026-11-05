@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "adapters": {
+    "diagnostics": {
+      "frozen_source_sha256": "d8213d05a902b331d8a6409b6e8560289d1826b3c73a43a39c9c993c12e7e1c4",
+      "only_private_release_guard_substituted": true,
+      "product_module_modified": false,
+      "wall_seconds": 10.735534236009698
+    },
+    "evaluation": {
+      "frozen_source_sha256": "d6c198a08b63f2b2329579daee78df6a205eb8f74bb1c3103b8f004574682b9e",
+      "only_private_release_guard_substituted": true,
+      "product_module_modified": false,
+      "wall_seconds": 38.916114006977296
+    }
+  },
+  "release_authority_sha256": "2e561c3c39b85b3497fe061ccd9bdaa509dbab8ead47aa904b84715115ec4231"
+}

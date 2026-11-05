@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "counts_include_discarded_attempts": true,
+  "by_arm": {
+    "BASE": 0,
+    "PF_GATE": 0,
+    "PF_GATE_LENGTH": 2,
+    "REFERENCE": 0
+  },
+  "cases": [
+    {
+      "arm": "PF_GATE_LENGTH",
+      "bif": "A:3",
+      "run": 91710,
+      "terminal_precommits": 1
+    },
+    {
+      "arm": "PF_GATE_LENGTH",
+      "bif": "A:3",
+      "run": 91711,
+      "terminal_precommits": 1
+    }
+  ]
+}

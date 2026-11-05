@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "events": [
+    {
+      "action": "predictions_sealed",
+      "arm": "BASE",
+      "count": 200
+    },
+    {
+      "action": "predictions_sealed",
+      "arm": "PF_GATE",
+      "count": 200
+    },
+    {
+      "action": "predictions_sealed",
+      "arm": "PF_GATE_LENGTH",
+      "count": 200
+    },
+    {
+      "action": "score_key_read",
+      "arm": "BASE",
+      "sealed_predictions": 600
+    },
+    {
+      "action": "score_key_read",
+      "arm": "PF_GATE",
+      "sealed_predictions": 600
+    },
+    {
+      "action": "score_key_read",
+      "arm": "PF_GATE_LENGTH",
+      "sealed_predictions": 600
+    }
+  ],
+  "all_600_predictions_before_scoring": true
+}

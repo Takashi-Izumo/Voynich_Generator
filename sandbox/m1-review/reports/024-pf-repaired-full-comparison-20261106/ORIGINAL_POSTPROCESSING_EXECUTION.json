@@ -1,0 +1,9 @@
+{
+  "stage": "postprocessing",
+  "returncode": 1,
+  "wall_seconds": 95.85544187697815,
+  "command": [
+    "/workspace/.venvs/voynich/bin/python",
+    "/workspace/voynich-results/pf-repaired-full-comparison-20261106/run_postprocessing.py"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "arms": {
+    "BASE": {
+      "counts": {
+        "anchor_fallbacks": 0,
+        "cases": 200,
+        "gate_calls": 0,
+        "gate_changed_calls": 0,
+        "observed_pf_events": 290,
+        "proposal_calls": 0,
+        "raw_draws": 0
+      },
+      "raw_fallback_rate": null,
+      "visible_pf_bifolia": 18,
+      "visible_pf_macro": {
+        "m_crossed_7": 0,
+        "physical_width": 5.6194444444444445,
+        "stable_7plus": 0.04722222222222222,
+        "visible_4to6": 0.7583333333333333,
+        "visible_7plus": 0.04722222222222222,
+        "visible_glyph_width": 5.6,
+        "visible_le3": 0.19444444444444445,
+        "visible_length": 4.656481481481482
+      }
+    },
+    "PF_GATE": {
+      "counts": {
+        "anchor_fallbacks": 0,
+        "cases": 200,
+        "gate_calls": 9487,
+        "gate_changed_calls": 9487,
+        "observed_pf_events": 290,
+        "proposal_calls": 0,
+        "raw_draws": 0
+      },
+      "raw_fallback_rate": null,
+      "visible_pf_bifolia": 18,
+      "visible_pf_macro": {
+        "m_crossed_7": 0,
+        "physical_width": 5.8462962962962965,
+        "stable_7plus": 0.05462962962962963,
+        "visible_4to6": 0.775,
+        "visible_7plus": 0.05462962962962963,
+        "visible_glyph_width": 5.826851851851852,
+        "visible_le3": 0.17037037037037037,
+        "visible_length": 4.782407407407407
+      }
+    },
+    "PF_GATE_LENGTH": {
+      "counts": {
+        "anchor_fallbacks": 22,
+        "cases": 200,
+        "gate_calls": 9456,
+        "gate_changed_calls": 9456,
+        "observed_pf_events": 290,
+        "proposal_calls": 373409,
+        "raw_draws": 1363177
+      },
+      "raw_fallback_rate": 5.8916630290110844e-05,
+      "visible_pf_bifolia": 18,
+      "visible_pf_macro": {
+        "m_crossed_7": 0.005555555555555556,
+        "physical_width": 5.906481481481482,
+        "stable_7plus": 0.09444444444444444,
+        "visible_4to6": 0.7037037037037037,
+        "visible_7plus": 0.1,
+        "visible_glyph_width": 5.889814814814815,
+        "visible_le3": 0.1962962962962963,
+        "visible_length": 4.806481481481481
+      }
+    }
+  },
+  "inference": "descriptive_development_reused_bifolia",
+  "plan_hash": "5f0e657be62f5541ef16b40737d44f86bca70cdf990985154693a7fbacb6954a",
+  "promotion": null,
+  "scope": "generator_pf_and_judge_observed; within_case_then_seed_then_equal_bifolium"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "audit",
+  "command": [
+    "/workspace/.venvs/voynich/bin/python",
+    "-m",
+    "experiments.pf_generation",
+    "audit",
+    "--plan",
+    "/workspace/voynich-results/m1-v2-independent-20261105/checkout/sandbox/m1-review/reports/024-pf-repaired-full-comparison-20261106/full-plan/plan.json",
+    "--generated",
+    "/workspace/voynich-results/pf-repaired-full-comparison-20261106/generated",
+    "--output",
+    "/workspace/voynich-results/pf-repaired-full-comparison-20261106/audit"
+  ],
+  "returncode": 2,
+  "wall_seconds": 95.78502837300766
+}

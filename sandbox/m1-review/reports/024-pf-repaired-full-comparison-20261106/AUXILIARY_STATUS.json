@@ -1,0 +1,8 @@
+{
+  "status": "COMPLETED_DESCRIPTIVE_COMPARISON_VIA_INDEPENDENT_NATIVE_SCOPE_REVIEW",
+  "generated_pages": 800,
+  "predicted_cases": 600,
+  "official_audit_status": "FAIL_SCOPE_ASSUMPTION_PRESERVED",
+  "independent_audit_status": "PASS_INDEPENDENT_NATIVE_SCOPE_REVIEW_FOR_DESCRIPTIVE_COMPUTATION",
+  "promotion": null
+}

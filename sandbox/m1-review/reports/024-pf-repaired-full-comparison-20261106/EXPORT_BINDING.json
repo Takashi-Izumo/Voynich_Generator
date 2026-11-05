@@ -1,0 +1,30 @@
+{
+  "arms": [
+    "BASE",
+    "PF_GATE",
+    "PF_GATE_LENGTH"
+  ],
+  "corpus_hash": "98023219583a12916e0feafa8fc900aac5b574671bd82a1d68db76ab99005256",
+  "files": {
+    "BASE": {
+      "answer_key.jsonl": "643e556c5a785ffd9730a0364313be4494924595bb1649477998f5c4af41cc06",
+      "corpus.json": "1cece640f07a4b3d92e56ad1d5ce15f1895cf8ba97244ef95e54c966747c73bd",
+      "export_manifest.json": "401e997f8c301f907aa521ec388c101dee98e6ebef1c7d239104d248ada56c53",
+      "inputs.jsonl": "cc7016d930ddbc5d4a1de4bb9e7151aaba5d9e7a4e7404b00ae0498a84b7850e"
+    },
+    "PF_GATE": {
+      "answer_key.jsonl": "643e556c5a785ffd9730a0364313be4494924595bb1649477998f5c4af41cc06",
+      "corpus.json": "1cece640f07a4b3d92e56ad1d5ce15f1895cf8ba97244ef95e54c966747c73bd",
+      "export_manifest.json": "d7e2731bf4ff9c6b8f93c3f7d131362ec9a69c8e6b927d4b3471beb4a6a89456",
+      "inputs.jsonl": "5a7af7cf9f450d755920ae77f69cdf7b13c0080a7bf45a66f88ffc3ee86b53d8"
+    },
+    "PF_GATE_LENGTH": {
+      "answer_key.jsonl": "643e556c5a785ffd9730a0364313be4494924595bb1649477998f5c4af41cc06",
+      "corpus.json": "1cece640f07a4b3d92e56ad1d5ce15f1895cf8ba97244ef95e54c966747c73bd",
+      "export_manifest.json": "8b952bf5d1a916b18c3b64d25cd17d8e3c0fd28f3f7c39413ac2df48a3c14f2c",
+      "inputs.jsonl": "e0294d71d8877954d1feefb76294d8415255dc2cfa95adc40212a0cf33ac4497"
+    }
+  },
+  "plan_hash": "5f0e657be62f5541ef16b40737d44f86bca70cdf990985154693a7fbacb6954a",
+  "primary": "J24.CAL"
+}
