@@ -1,0 +1,44 @@
+{
+  "cases": [
+    {
+      "bif": "A_2",
+      "files": {
+        "tokens.csv.gz": true,
+        "packing.csv": true,
+        "requests.jsonl.gz": true,
+        "surface_commits.jsonl.gz": true,
+        "pf_candidates.csv.gz": true,
+        "pf_branch_tokens.csv.gz": true,
+        "phw_candidates.csv.gz": true,
+        "route_trace.jsonl.gz": true
+      }
+    },
+    {
+      "bif": "A_3",
+      "files": {
+        "tokens.csv.gz": true,
+        "packing.csv": true,
+        "requests.jsonl.gz": true,
+        "surface_commits.jsonl.gz": true,
+        "pf_candidates.csv.gz": true,
+        "pf_branch_tokens.csv.gz": true,
+        "phw_candidates.csv.gz": true,
+        "route_trace.jsonl.gz": true
+      }
+    },
+    {
+      "bif": "G_1",
+      "files": {
+        "tokens.csv.gz": true,
+        "packing.csv": true,
+        "requests.jsonl.gz": true,
+        "surface_commits.jsonl.gz": true,
+        "pf_candidates.csv.gz": true,
+        "pf_branch_tokens.csv.gz": true,
+        "phw_candidates.csv.gz": true,
+        "route_trace.jsonl.gz": true
+      }
+    }
+  ],
+  "all_24_payloads_equal": true
+}

@@ -1,0 +1,16 @@
+{
+  "sandbox_start_commit": "6c1dbcd72e942ac3d675df43dbc7872105249bf8",
+  "implementation_snapshot_sha256": "294a7afdc86949e4f774166c449a5415de9573c1e4e57ab6bb94032df57c1504",
+  "implementation_files_verified": 25,
+  "plan_hash": "c392a1588d29139a6aaa53be18ce947b782159d0be02d0644f9c5f62329c3107",
+  "runtime_inputs": {
+    "archives": {
+      "EHC1_E1GLOBAL_FULL_20260911.zip": "cf8ec127ab584a8460c3c02aa4f3a5b2a7f01a328a9b3568f58d6ce0c53c025f",
+      "RMW1_BTI2_EHC2_DECOMP1_PUV_HANDOFF_COMPACT_20260912.zip": "0a3ea22dbe826ca56100de3e185460e6a3b5e804c5b1166069abfc8dd6c04f29"
+    },
+    "files": 15632,
+    "tree_sha256": "defa4df428a64a25358aae4a5c3305d4e31614cfa3c29136eb8359d570cce204"
+  },
+  "model_set_hash": "61238cf467871ac13ab9374e2da23ae8a3ad215ea960029e6c8507e065efaf79",
+  "original_generator_jury_unchanged": true
+}

@@ -1,0 +1,6 @@
+{
+  "comparisons": [
+    "BASE__PF_NO_RESCUE",
+    "PF_NO_RESCUE__PF_ANCHOR"
+  ]
+}

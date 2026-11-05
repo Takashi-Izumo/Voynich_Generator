@@ -1,0 +1,27 @@
+{
+  "old_pass_after_token_and_checksum_update": {
+    "rejected": true,
+    "error": "Missing/changed mechanical audit seal"
+  },
+  "refreshing_only_seal_cannot_rebind_old_report": {
+    "rejected": true,
+    "error": "Evaluation requires a passing mechanical audit and exact BASE reference"
+  },
+  "failed_reaudit": {
+    "rejected": true,
+    "error": "Visible commit/token mismatch"
+  },
+  "failed_reaudit_old_seal_removed": true,
+  "updated_repeat_rejected": {
+    "rejected": true,
+    "error": "Audited repeat artifacts changed"
+  },
+  "rng_only_change_same_semantic_state": {
+    "rejected": true,
+    "error": "BASE final main RNG differs from reference: A:2/91701"
+  },
+  "final_rng_mechanical_mismatch": {
+    "rejected": true,
+    "error": "Final main RNG differs from generator audit"
+  }
+}

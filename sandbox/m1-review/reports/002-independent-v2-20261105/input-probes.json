@@ -1,0 +1,19 @@
+{
+  "same_size_configuration_change": {
+    "rejected": true,
+    "error": "Extracted runtime input changed: EHC1_E1GLOBAL_20260911/inputs/RMW1_BTI2_EHC1_20260911/parent/HerbalA_RMW1_BTI2_20260909/parameters/FROZEN_FOLD_CONFIGS.json"
+  },
+  "selector_deletion": {
+    "rejected": true,
+    "error": "Extracted runtime input set changed (missing or additional files)"
+  },
+  "core_change": {
+    "rejected": true,
+    "error": "Extracted runtime input changed: EHC1_E1GLOBAL_20260911/inputs/RMW1_BTI2_EHC1_20260911/parent/HerbalA_RMW1_BTI2_20260909/outputs/core_cache/B_2__C_4__E_4__G_4.pkl.gz"
+  },
+  "additional_selector": {
+    "rejected": true,
+    "error": "Extracted runtime input set changed (missing or additional files)"
+  },
+  "all_inputs_restored_and_plan_valid": true
+}

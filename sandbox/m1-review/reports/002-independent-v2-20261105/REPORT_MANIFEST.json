@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "path": "COMMANDS.md",
+      "bytes": 2924,
+      "sha256": "56a0dc70a5119f4a9b9f6f1777c8b5c4ae695b49506d97c74e37285be01311c8"
+    },
+    {
+      "path": "ERRATUM_V1.md",
+      "bytes": 1469,
+      "sha256": "7bb5f317c73d6d96655bb26f25205f68eb94d05f1aa23fa5de39be1bc70a381f"
+    },
+    {
+      "path": "RESULTS.json",
+      "bytes": 1056,
+      "sha256": "a8ba0cbd6cda61b54626c1950c8f201d59cb8b9adfd7bbfaf9b7002010fedc34"
+    },
+    {
+      "path": "REVIEW.md",
+      "bytes": 7610,
+      "sha256": "64c13fc05cac05643ce3b4f7fae1d94bd1846e6021612e8cbead63963895c020"
+    },
+    {
+      "path": "artifact-probes.json",
+      "bytes": 803,
+      "sha256": "cfc665d11c7640c1be87a8bfa12916c03541c8272baa10724d223959b75d9864"
+    },
+    {
+      "path": "evaluate.log",
+      "bytes": 83,
+      "sha256": "2c903af1036f92f633a8565f1453fc6131fb72bde55f225bb3817af9743cfacd"
+    },
+    {
+      "path": "export.log",
+      "bytes": 101,
+      "sha256": "963a9a9e2f30d56b85a1c1a67d0ad6129291b1a16a2df4c7707bcdbf65976f30"
+    },
+    {
+      "path": "forward.log",
+      "bytes": 460,
+      "sha256": "41c95ab56f6021a6adb0408dbeebe4b246e17b0158f2dc1a1417d30c02138375"
+    },
+    {
+      "path": "historical-base-match.json",
+      "bytes": 1103,
+      "sha256": "2129cfc7c664ac77b643860df867d3bb26393d422df03fb3af0381fbff5a93ce"
+    },
+    {
+      "path": "input-probes.json",
+      "bytes": 781,
+      "sha256": "5f4f722a8a638eb3bf474535f65f22fd6f2dc9da8cad4c8af26389078baccb8a"
+    },
+    {
+      "path": "plan.log",
+      "bytes": 110,
+      "sha256": "9d95f88d15fe9f4cec08e41602b67d77bf672701296328e9f25c3f1df677e92c"
+    },
+    {
+      "path": "probes.py",
+      "bytes": 8179,
+      "sha256": "7d4c9699beb7723ce195649ef4713c2b3427701646237ffc2de688094878bee3"
+    },
+    {
+      "path": "reverse.log",
+      "bytes": 460,
+      "sha256": "df5fba01414860602bb1e249c80db444bbdca1ea9e50b50245718dd146b6be1f"
+    },
+    {
+      "path": "scope-probes.json",
+      "bytes": 144,
+      "sha256": "e85f10d862434e0539cad809dfeff7c0f4bb341775a5cda83d739c1ce917929b"
+    },
+    {
+      "path": "snapshot-verification.json",
+      "bytes": 831,
+      "sha256": "63f2b9e0b5c9690f9c89481679c9e01e6441181196d94696e4dd1b32f8e50b5e"
+    },
+    {
+      "path": "unit-judges.log",
+      "bytes": 7159,
+      "sha256": "f69287862ce3c490fb4176b06190db1dd942cd88d37586434448a39d21dc2542"
+    },
+    {
+      "path": "unit-m1.log",
+      "bytes": 3692,
+      "sha256": "e0a599668d84cc66dba6bab6ba9af15e4f10cf0beece3a84d759ae8124f16501"
+    }
+  ]
+}

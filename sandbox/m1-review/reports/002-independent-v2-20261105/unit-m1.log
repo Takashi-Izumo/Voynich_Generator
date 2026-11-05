@@ -1,0 +1,32 @@
+test_below_chance_is_symmetric_and_direction_reversal_reported (test_evaluation.EvaluationTests.test_below_chance_is_symmetric_and_direction_reversal_reported) ... ok
+test_mismatched_or_duplicate_trials_rejected (test_evaluation.EvaluationTests.test_mismatched_or_duplicate_trials_rejected) ... ok
+test_ties_half_na_excluded_bifolia_equal_weight (test_evaluation.EvaluationTests.test_ties_half_na_excluded_bifolia_equal_weight) ... ok
+test_wrong_frozen_cal_model_rejected_before_output_or_predictions (test_evaluation.EvaluationTests.test_wrong_frozen_cal_model_rejected_before_output_or_predictions) ... ok
+test_zero_comparable_does_not_become_chance (test_evaluation.EvaluationTests.test_zero_comparable_does_not_become_chance) ... ok
+test_anchor_records_candidate1_but_commits_candidate0_and_its_rng (test_overlay.OverlayTests.test_anchor_records_candidate1_but_commits_candidate0_and_its_rng) ... ok
+test_base_rescue_commits_rescue_state_but_argmax_rng (test_overlay.OverlayTests.test_base_rescue_commits_rescue_state_but_argmax_rng) ... ok
+test_hidden_mutable_parent_payload_leak_is_rejected (test_overlay.OverlayTests.test_hidden_mutable_parent_payload_leak_is_rejected) ... ok
+test_initial_tie_prefers_candidate0 (test_overlay.OverlayTests.test_initial_tie_prefers_candidate0) ... ok
+test_main_rng_leak_is_rejected (test_overlay.OverlayTests.test_main_rng_leak_is_rejected) ... ok
+test_no_rescue_keeps_initial_argmax_and_generates_exactly_two (test_overlay.OverlayTests.test_no_rescue_keeps_initial_argmax_and_generates_exactly_two) ... ok
+test_pf_boundary_population (test_overlay.OverlayTests.test_pf_boundary_population) ... ok
+test_unknown_pending_field_fails_closed (test_overlay.OverlayTests.test_unknown_pending_field_fails_closed) ... ok
+test_visible_m_and_compound_glyph_threshold_crossings (test_overlay.OverlayTests.test_visible_m_and_compound_glyph_threshold_crossings) ... ok
+test_arm_change_without_resealing_is_rejected (test_plan.SealedPlanTests.test_arm_change_without_resealing_is_rejected) ... ok
+test_code_change_invalidates_existing_plan (test_plan.SealedPlanTests.test_code_change_invalidates_existing_plan) ... ok
+test_mask_change_invalidates_existing_plan (test_plan.SealedPlanTests.test_mask_change_invalidates_existing_plan) ... ok
+test_additional_or_missing_input_is_rejected (test_review_fixes.ExpandedInputTests.test_additional_or_missing_input_is_rejected) ... ok
+test_compiler_outputs_are_not_generation_inputs (test_review_fixes.ExpandedInputTests.test_compiler_outputs_are_not_generation_inputs) ... ok
+test_configuration_change_is_rejected (test_review_fixes.ExpandedInputTests.test_configuration_change_is_rejected) ... ok
+test_end_only_usable_by_endpoint_views_but_not_atoms (test_review_fixes.ScopeTests.test_end_only_usable_by_endpoint_views_but_not_atoms) ... ok
+test_full_atoms_match_frozen_judge (test_review_fixes.ScopeTests.test_full_atoms_match_frozen_judge) ... ok
+test_none_is_not_an_observed_endpoint (test_review_fixes.ScopeTests.test_none_is_not_an_observed_endpoint) ... ok
+test_base_reference_rng_has_explicit_comparison (test_review_fixes.SealAndRngTests.test_base_reference_rng_has_explicit_comparison) ... ok
+test_checksum_refresh_cannot_reuse_old_pass (test_review_fixes.SealAndRngTests.test_checksum_refresh_cannot_reuse_old_pass) ... ok
+test_final_rng_must_match_mechanical_audit (test_review_fixes.SealAndRngTests.test_final_rng_must_match_mechanical_audit) ... ok
+test_refreshing_seal_binding_alone_cannot_rebind_old_report (test_review_fixes.SealAndRngTests.test_refreshing_seal_binding_alone_cannot_rebind_old_report) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.179s
+
+OK

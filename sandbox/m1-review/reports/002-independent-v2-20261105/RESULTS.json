@@ -1,0 +1,26 @@
+{
+  "status": "PASS_MECHANISM_AND_CAL_SMOKE",
+  "full_comparison": "ON_HOLD",
+  "main_merge": "NOT_PERFORMED",
+  "promotion": null,
+  "sandbox_start_commit": "6c1dbcd72e942ac3d675df43dbc7872105249bf8",
+  "plan_hash": "c392a1588d29139a6aaa53be18ce947b782159d0be02d0644f9c5f62329c3107",
+  "unit_tests": {
+    "m1": 27,
+    "judges": 56
+  },
+  "fresh_generated_pages": 24,
+  "forward_base_reference_cases": 3,
+  "forward_reverse_compared_cases": 9,
+  "fixed_cal_predictions": 9,
+  "paired_comparisons": 2,
+  "independent_input_negative_kinds": 4,
+  "independent_artifact_rng_negative_kinds": 6,
+  "v1_r1_r2_r3": "RESOLVED_IN_TESTED_CASES",
+  "v1_r4": "WITHDRAWN_REVIEWER_OVERSIGHT_MECHANICAL_RNG_END_WAS_COMPARED",
+  "runtime_files_verified": 15632,
+  "runtime_tree_hash": "defa4df428a64a25358aae4a5c3305d4e31614cfa3c29136eb8359d570cce204",
+  "model_set_hash": "61238cf467871ac13ab9374e2da23ae8a3ad215ea960029e6c8507e065efaf79",
+  "source_code_changed_by_reviewer": false,
+  "raw_results_local_root": "/workspace/voynich-results/m1-v2-independent-20261105"
+}
