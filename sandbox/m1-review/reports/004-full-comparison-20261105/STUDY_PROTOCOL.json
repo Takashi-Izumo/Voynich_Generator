@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "authorization": "User: 本比較は検証側=this chat; では開始してください (2026-11-05 JST)",
+  "sandbox_source_commit": "602c4501ba34792135d585691c005536a341b936",
+  "implementation_snapshot_sha256": "294a7afdc86949e4f774166c449a5415de9573c1e4e57ab6bb94032df57c1504",
+  "plan_hash": "6b185bf56e043efa0180753f63cc15206c7d1b59238a87d4cc85272693a2c4a4",
+  "generation_workers": 4,
+  "numba_threads": 2,
+  "arms": [
+    "BASE",
+    "PF_NO_RESCUE",
+    "PF_ANCHOR"
+  ],
+  "cases_per_arm": 200,
+  "comparison_pages": 600,
+  "reference_pages": 200,
+  "total_generated_pages": 800,
+  "runs": [
+    91701,
+    91702,
+    91703,
+    91704,
+    91705,
+    91707,
+    91708,
+    91709,
+    91710,
+    91711
+  ],
+  "bifolia": [
+    "A:2",
+    "B:3",
+    "D:1",
+    "F:2",
+    "A:3",
+    "C:1",
+    "D:3",
+    "F:4",
+    "A:4",
+    "C:2",
+    "D:4",
+    "G:1",
+    "B:1",
+    "C:3",
+    "E:3",
+    "G:3",
+    "B:2",
+    "C:4",
+    "E:4",
+    "G:4"
+  ],
+  "primary": "J24.CAL",
+  "local_primary": "ATOM.PARA_END.CAL",
+  "bootstrap_replicates": 10000,
+  "prediction_jobs": 4,
+  "capability_controls": "NOT_COMPLETED_FOR_PARAGRAPH_FINAL; no equivalence or promotion claims",
+  "inference": "predeclared_descriptive_development_comparison",
+  "promotion": null,
+  "automatic_selection": false,
+  "model_set_hash": "61238cf467871ac13ab9374e2da23ae8a3ad215ea960029e6c8507e065efaf79",
+  "extractor_hash": "5b74ed23eda0cad35377e0786f0c3aa8cc7375a033bb6cdc7ed81b98e343bc37",
+  "protocol_hash": "007d2c9556c5f19a72aa044aa01cf6bf6cbe60f7296e50504112242cf97896f0",
+  "runtime_inputs": {
+    "archives": {
+      "EHC1_E1GLOBAL_FULL_20260911.zip": "cf8ec127ab584a8460c3c02aa4f3a5b2a7f01a328a9b3568f58d6ce0c53c025f",
+      "RMW1_BTI2_EHC2_DECOMP1_PUV_HANDOFF_COMPACT_20260912.zip": "0a3ea22dbe826ca56100de3e185460e6a3b5e804c5b1166069abfc8dd6c04f29"
+    },
+    "files": 15632,
+    "tree_sha256": "defa4df428a64a25358aae4a5c3305d4e31614cfa3c29136eb8359d570cce204"
+  },
+  "orchestrator_sha256": "66808ce736b13460569a7705895f3bb88a72867eca6bb8ff5aaf0cb2973aa869",
+  "comparison_driver": "unchanged Runtime.generate; only external orchestration is parallelized"
+}
