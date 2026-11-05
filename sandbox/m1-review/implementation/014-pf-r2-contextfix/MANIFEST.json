@@ -1,0 +1,251 @@
+{
+  "contains_answer_keys": false,
+  "contains_parent_archives": false,
+  "contains_raw_generated_pages": false,
+  "files": [
+    {
+      "bytes": 7921,
+      "path": "experiments/pf_generation/README.md",
+      "sha256": "60fc1aeba2c8eb3635e27e41e95848352da23b3cab79aa22b853944614b3ac56"
+    },
+    {
+      "bytes": 629,
+      "path": "experiments/pf_generation/__init__.py",
+      "sha256": "724f9613e9334543141e5a92c2e4bf961d5ee648614b0cffb6e8a0ec3cfba609"
+    },
+    {
+      "bytes": 2975,
+      "path": "experiments/pf_generation/__main__.py",
+      "sha256": "3cc7f1bf6f64b5a7a3129bf85a4859981dc9991bf18ebcc8b391062085b0ea65"
+    },
+    {
+      "bytes": 8805,
+      "path": "experiments/pf_generation/audit.py",
+      "sha256": "7c99ad687c11c60a8475fae9980fb945a6cc26d63db255a301229eb1f60c989e"
+    },
+    {
+      "bytes": 1302,
+      "path": "experiments/pf_generation/common.py",
+      "sha256": "4591026b9873a59b05d0ecf32fa7dc7d4fc297412ab381c81a3db0906c0ff711"
+    },
+    {
+      "bytes": 3202,
+      "path": "experiments/pf_generation/diagnostics.py",
+      "sha256": "d8213d05a902b331d8a6409b6e8560289d1826b3c73a43a39c9c993c12e7e1c4"
+    },
+    {
+      "bytes": 5731,
+      "path": "experiments/pf_generation/evaluation.py",
+      "sha256": "d6c198a08b63f2b2329579daee78df6a205eb8f74bb1c3103b8f004574682b9e"
+    },
+    {
+      "bytes": 1447,
+      "path": "experiments/pf_generation/gate.py",
+      "sha256": "adb3f87fbcdf81a015c89ddf9368f66422bfb3ebc5be32f44409edde6e7cd14b"
+    },
+    {
+      "bytes": 6604,
+      "path": "experiments/pf_generation/laws.py",
+      "sha256": "a63b8180269d3b119d1cde2f0743d22b625fd468435d912aad0159119959300b"
+    },
+    {
+      "bytes": 12545,
+      "path": "experiments/pf_generation/overlay.py",
+      "sha256": "34ca0d84af9901d3bb82cc4976c31145aa61d613c4fb9ef7080cf91656156519"
+    },
+    {
+      "bytes": 7342,
+      "path": "experiments/pf_generation/plan.py",
+      "sha256": "e506dd41626ef820e7221b67e7dde56923a6aeba2631a27275311b8d31f75c52"
+    },
+    {
+      "bytes": 12374,
+      "path": "experiments/pf_generation/policy_audit.py",
+      "sha256": "c98865e7c96bbf512aa3df2fd8e34c90845e1d3cd9f3cfc921db5b82921a9966"
+    },
+    {
+      "bytes": 5754,
+      "path": "experiments/pf_generation/proposal.py",
+      "sha256": "56947994e96f049fb0a516328d6b27d1ebc53f87428969027640ddf84bc3518a"
+    },
+    {
+      "bytes": 6227,
+      "path": "experiments/pf_generation/runtime.py",
+      "sha256": "198f5ac9aa64ba1020ec74eb91de8ea4aaf6b728ef934a67294e36364ee2c048"
+    },
+    {
+      "bytes": 0,
+      "path": "experiments/pf_generation/tests/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 5299,
+      "path": "experiments/pf_generation/tests/run_artifact_probes.py",
+      "sha256": "a1005b12f9346f4a86f761df8b5fa350fc59dd6a876dfaa9bd65e2f84f5a2e82"
+    },
+    {
+      "bytes": 6047,
+      "path": "experiments/pf_generation/tests/run_context_probes.py",
+      "sha256": "2a40a8f946cf2fa165320f7b6270764445cddb8e31d13b05e60f3699e60b11c9"
+    },
+    {
+      "bytes": 6336,
+      "path": "experiments/pf_generation/tests/run_trace_probes.py",
+      "sha256": "d63a822176ea9dd12eeaed7b76883d29f297d1fc65648fb492ca28c81a016d8d"
+    },
+    {
+      "bytes": 1114,
+      "path": "experiments/pf_generation/tests/test_calibration_contract.py",
+      "sha256": "1e8b0c8ee7e4707ad9060abe912bbd113e468e8517c2b6b21abe2ed196f421b3"
+    },
+    {
+      "bytes": 6297,
+      "path": "experiments/pf_generation/tests/test_integrity.py",
+      "sha256": "2f9189c2af0bf4b89048e2c6f45d26ca24e89f9d9b0419a9fa123395e18ea332"
+    },
+    {
+      "bytes": 7257,
+      "path": "experiments/pf_generation/tests/test_policy.py",
+      "sha256": "1077d09145c4f52a036f87cfbfcda68cc7a1b4bf4f6571289f37f96d8f816767"
+    },
+    {
+      "bytes": 4396,
+      "path": "experiments/pf_generation/tests/test_raw_context.py",
+      "sha256": "c89aa79e3fc44e6487870f2f715f9b10ea41ba1939a2bb09bd165042cc35065c"
+    },
+    {
+      "bytes": 5908,
+      "path": "experiments/pf_generation/tests/test_trace_coverage.py",
+      "sha256": "dc9135a8115fd6c66e3f5faf4a47c81345fd506a2533266060a496c00d967ae1"
+    },
+    {
+      "bytes": 4806,
+      "path": "sandbox/m1-review/implementation/014-pf-r2-contextfix/VALIDATION.md",
+      "sha256": "2e67455da80672915fddbb7ade7f2760fc3a09e65b54f002eae6fc74ebde07ba"
+    },
+    {
+      "bytes": 1533,
+      "path": "sandbox/m1-review/implementation/014-pf-r2-contextfix/cal-smoke.json",
+      "sha256": "3183791be855150b0ba2a005a23f4847b8e83616cdc499d8807af7f11a284dad"
+    },
+    {
+      "bytes": 7834,
+      "path": "sandbox/m1-review/implementation/014-pf-r2-contextfix/context-probes.json",
+      "sha256": "5afe4865d9178c562776fa21593da9be8e85b370ad30ebec68f5623733b79ffc"
+    },
+    {
+      "bytes": 2328,
+      "path": "sandbox/m1-review/implementation/014-pf-r2-contextfix/diagnostics.json",
+      "sha256": "32e6e82d92f6778f59b43681edbdef7edd4e5ff87bf6f731a49b9fb0362c1e2c"
+    },
+    {
+      "bytes": 474,
+      "path": "sandbox/m1-review/implementation/014-pf-r2-contextfix/identity-context-probe.json",
+      "sha256": "6983a5545135aee210a2b760ab10779756f865a1abb27ff750db89008627cf82"
+    },
+    {
+      "bytes": 88101,
+      "path": "sandbox/m1-review/implementation/014-pf-r2-contextfix/identity-plan/plan.json",
+      "sha256": "6b03fdf635fef82fd686d99757f131ba36c2551daf634c203e5f7ea7dec6ca07"
+    },
+    {
+      "bytes": 30288,
+      "path": "sandbox/m1-review/implementation/014-pf-r2-contextfix/identity-plan/scope_ledger.json",
+      "sha256": "a01c19bf5681f1d5e48022b1b44a12e31ed580c147f311d5f5de5578bb34105f"
+    },
+    {
+      "bytes": 7189,
+      "path": "sandbox/m1-review/implementation/014-pf-r2-contextfix/identity-report.json",
+      "sha256": "a536475b44cb0a6da15712d259a3f83af7cf0cc7796059beda55e8071858b91d"
+    },
+    {
+      "bytes": 8271,
+      "path": "sandbox/m1-review/implementation/014-pf-r2-contextfix/mechanical-report.json",
+      "sha256": "db167e60bb5a9d702e591da230919990cc160d8ed84cf25b7d2c5ac4feef4685"
+    },
+    {
+      "bytes": 192,
+      "path": "sandbox/m1-review/implementation/014-pf-r2-contextfix/performance.json",
+      "sha256": "4208e6334bf511d5f36fa0f61ecbd7e00e0b0ad8bd019a3e91eef556209e8320"
+    },
+    {
+      "bytes": 2054,
+      "path": "sandbox/m1-review/implementation/014-pf-r2-contextfix/prior-cal-comparison.json",
+      "sha256": "6f29d6701ffb615492b94feb8165f47a769cc2dea4e252ca956245b586100ec2"
+    },
+    {
+      "bytes": 179,
+      "path": "sandbox/m1-review/implementation/014-pf-r2-contextfix/prior-semantics-comparison.json",
+      "sha256": "1416faa7875f4a001af73a3884bf6ecb88679c7749b793586536dae013b38494"
+    },
+    {
+      "bytes": 4038,
+      "path": "sandbox/m1-review/implementation/014-pf-r2-contextfix/r1-regressions.json",
+      "sha256": "7c1c4102005ddf281743fd2cca98e9fa6586dfdb6d7833bb1a4068c87ea9372b"
+    },
+    {
+      "bytes": 1195,
+      "path": "sandbox/m1-review/implementation/014-pf-r2-contextfix/required-probes.json",
+      "sha256": "825efb2ed98c7b09f0ec525c5eb4f034ce6a0cb92f67e40561a7bb7739653884"
+    },
+    {
+      "bytes": 583,
+      "path": "sandbox/m1-review/implementation/014-pf-r2-contextfix/reviewer-exact-after.json",
+      "sha256": "d9c25ebff0bcb4a393f0e091a037600362c898c1d46444109435df1b7c7949c6"
+    },
+    {
+      "bytes": 543,
+      "path": "sandbox/m1-review/implementation/014-pf-r2-contextfix/reviewer-exact-before.json",
+      "sha256": "f077f78fbf01aec786a2150375a5cd4c5571b14686d9f806b33759a5b20006ba"
+    },
+    {
+      "bytes": 88804,
+      "path": "sandbox/m1-review/implementation/014-pf-r2-contextfix/study-plan/plan.json",
+      "sha256": "562c6e46b2e610a1bd502b4a339080940097f1fbbeb354b3a5cf876d68e352ae"
+    },
+    {
+      "bytes": 30288,
+      "path": "sandbox/m1-review/implementation/014-pf-r2-contextfix/study-plan/scope_ledger.json",
+      "sha256": "a01c19bf5681f1d5e48022b1b44a12e31ed580c147f311d5f5de5578bb34105f"
+    },
+    {
+      "bytes": 1356,
+      "path": "sandbox/m1-review/implementation/014-pf-r2-contextfix/summary.json",
+      "sha256": "ca295006208700356e698654572d9615962ff4af7fbb20ae04737da2a7893bcd"
+    },
+    {
+      "bytes": 7159,
+      "path": "sandbox/m1-review/implementation/014-pf-r2-contextfix/tests-judges.log",
+      "sha256": "0d24d4f0d757663c65b8dbc7204c6c20efc467bb6988e6c544f4e3e9fbbbda9d"
+    },
+    {
+      "bytes": 3692,
+      "path": "sandbox/m1-review/implementation/014-pf-r2-contextfix/tests-m1.log",
+      "sha256": "38be1031d59b2110b04bc808249518a04cc910f4d0c06c1a396f2da9f3869747"
+    },
+    {
+      "bytes": 6066,
+      "path": "sandbox/m1-review/implementation/014-pf-r2-contextfix/tests-pf.log",
+      "sha256": "093c7fff8dae370038511600b2649dec3fd216df47e44d0d7572e77e153a4383"
+    },
+    {
+      "bytes": 2519,
+      "path": "sandbox/m1-review/requests/015-pf-r2-context-recheck.md",
+      "sha256": "349f25bac2de6f377a529bb9dee8ad1a9ad5a44f3a07a5714019dfb6d035401b"
+    },
+    {
+      "bytes": 1294,
+      "path": "sandbox/m1-review/responses/014-pf-r2-context-response.md",
+      "sha256": "f575e9e89991d3d84e13ab5e568feedbe447a82dd9e8af2224ae84265e2b344d"
+    }
+  ],
+  "frozen_source_sha256": "e4b1d0a0de114d4f1e19aaa07b40e2d10354afd52648352ba2e4140b299d28a6",
+  "implementation_source_sha256": "a0c8569e75e7e6fe93c6b4ed587df73241b7b8d03d0cf7717c4222decccf1170",
+  "payload_snapshot_sha256": "6bd40ff58cb65fd001b5e6de2030e358edb326db211cfd6c1101cb1925358aa2",
+  "prior_implementation_commit": "7db514606b2b77640a3f8454acd4c7b1abbc4a7c",
+  "promotion": null,
+  "review_revision": "PF_GENERATION_TRACE_V2_R2_TYPED_CONTEXT_FIX",
+  "schema_version": 1,
+  "source_review_commit": "20c5b7da687a1df747cbdf03ffee4934c80e431b",
+  "trace_schema": 2
+}

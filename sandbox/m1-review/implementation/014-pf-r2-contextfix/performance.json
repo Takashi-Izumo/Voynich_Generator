@@ -1,0 +1,6 @@
+{
+  "generated_pages": 12,
+  "max_rss_mib": 423.83203125,
+  "scope": "forward_smoke_with_three_fold_cores; parallel_processes; no_full_run_budget_claim",
+  "wall_seconds": 83.39704824401997
+}

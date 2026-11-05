@@ -26,6 +26,14 @@ def policy_digest(path):
                    [c.get('pfgen_trace') for c in read_rows(path / 'm1_candidates.jsonl.gz')]])
 
 
+def context_key(row):
+    """One typed identity for authority, gate, request linkage and raw rows."""
+    fields = (('page', str), ('locus', str), ('segment_id', int), ('event', int), ('candidate', int))
+    require(isinstance(row, dict) and all(type(row.get(name)) is kind for name, kind in fields),
+            'Invalid PF candidate context fields/types')
+    return tuple(row[name] for name, _ in fields)
+
+
 def trace_coverage(candidates, requests, gates, proposals, arm):
     """Expected coverage comes from branch/request records, not policy row totals."""
     require([r['proposal_id'] for r in requests] == list(range(len(requests))), 'Missing/duplicate request IDs')
@@ -37,6 +45,7 @@ def trace_coverage(candidates, requests, gates, proposals, arm):
     next_gate = next_raw = 0
     covered_requests = set()
     for candidate in candidates:
+        expected_context = context_key(candidate)
         window = candidate.get('pfgen_trace', {})
         require(window.get('trace_schema') == TRACE_SCHEMA, 'Missing PF candidate trace window')
         require(all(type(window.get(k)) is int for k in ['gate_start', 'gate_stop', 'raw_start', 'raw_stop']),
@@ -62,11 +71,13 @@ def trace_coverage(candidates, requests, gates, proposals, arm):
             require(link.get('trace_schema') == TRACE_SCHEMA and type(link.get('gate_query_id')) is int
                     and ga <= link['gate_query_id'] < gz and link.get('event') == candidate['event']
                     and link.get('candidate') == candidate['candidate'], 'Missing/wrong PF request gate link')
+            require(context_key(dict(page=request['page'], locus=request['locus'], segment_id=request['segment_id'],
+                                     event=link['event'], candidate=link['candidate'])) == expected_context,
+                    'PF request belongs to another candidate context')
             gid = link['gate_query_id']
             query_ids.append(gid)
             gate = gates[gid]
-            require((gate['page'], gate['locus'], gate['segment_id'], gate['event'], gate['candidate']) ==
-                    (candidate['page'], candidate['locus'], candidate['segment_id'], candidate['event'], candidate['candidate']),
+            require(context_key(gate) == expected_context,
                     'Gate query belongs to another candidate')
             require(gate['rstart'] == request['rstart'] and gate['capacity'] == candidate['segment_capacity'],
                     'Gate/request width mismatch')
@@ -82,6 +93,7 @@ def trace_coverage(candidates, requests, gates, proposals, arm):
                 rid = receipt.get('call_id')
                 require(type(rid) is int and ra <= rid < rz, 'Raw call outside candidate window')
                 row = proposals[rid]
+                require(context_key(row) == expected_context, 'Raw call belongs to another candidate context')
                 require(row['request_id'] == request['proposal_id'] and row['gate_query_id'] == gid
                         and row['word_index'] == request['word_index'] and row['rstart'] == request['rstart']
                         and row['role'] == request['role'], 'Raw call/request linkage mismatch')
@@ -134,14 +146,13 @@ def audit_case(path, arm, plan):
     candidates = read_rows(path / 'm1_candidates.jsonl.gz')
     requests = read_rows(path / 'requests.jsonl.gz')
     coverage = trace_coverage(candidates, requests, gates, proposals, arm)
-    keys = {(c['page'], c['locus'], c['segment_id'], c['event'], c['candidate']) for c in candidates}
-    key = lambda row: (row['page'], row['locus'], row['segment_id'], row['event'], row['candidate'])
+    keys = {context_key(c) for c in candidates}
     require(arm != 'BASE' or not gates, 'Gate adapter used in BASE')
     require(arm == 'PF_GATE_LENGTH' or not proposals, 'Length sampler used in wrong arm')
     for row in gates:
         require(row.get('trace_schema') == TRACE_SCHEMA and row['split_end'] == (row['segment_id'] > 0),
                 'Wrong gate trace schema or split scope')
-        require(row['generator_pf'] and key(row) in keys, 'Gate escaped PF candidate scope')
+        require(row['generator_pf'] and context_key(row) in keys, 'Gate escaped PF candidate scope')
         require(row['band'] == band(row['rstart']) and row['offset'] == law.theta[row['band']], 'Wrong gate bin')
         before = row['parent_probability']
         after = before if row['offset'] == 0 else sigmoid(logit(before) + row['offset'])
@@ -149,7 +160,7 @@ def audit_case(path, arm, plan):
         close(sigmoid(logit(after) + math.log(0.8)) if row['split_end'] else after, row['engine_probability'])
     for row in proposals:
         require(row.get('trace_schema') == TRACE_SCHEMA, 'Wrong raw trace schema')
-        require(row['generator_pf'] and key(row) in keys and row['paragraph_line'] >= 2
+        require(row['generator_pf'] and context_key(row) in keys and row['paragraph_line'] >= 2
                 and row['row_phase'] == 'FINAL' and row['end'] and row['line_end_boundary']
                 and row['state_unchanged'] and row['law_sha256'] == digest(law), 'Proposal escaped PF END scope')
         require(row['identity'] == law.identity, 'Wrong raw identity mode')

@@ -1,0 +1,39 @@
+{
+  "actual_final_main_rng_unchanged": true,
+  "all_r2_fresh_audits_rejected": true,
+  "capability_replay_implemented": false,
+  "context_script_executions": 11,
+  "existing_negative_checks": 6,
+  "fitted_laws_unchanged": true,
+  "fixed_cal_predictions": 9,
+  "guarded_implementation_sources": 40,
+  "identity_context_negative_executions": 1,
+  "identity_plan_hash": "787e7c1fda748a87483dd9b65dc67bcd785d0cc18cb21e8d1ff55a0109b55335",
+  "mechanics": {
+    "generated_pages": 36,
+    "invalid_rows": 0,
+    "packing_failures": 0,
+    "plant_false_heads": 0,
+    "support_violations": 0,
+    "terminal_mismatches": 0
+  },
+  "new_full_comparison_started": false,
+  "original_frozen_sources_preserved": 501,
+  "prior_prediction_channel_score_files_byte_identical": 12,
+  "prior_semantic_cases_including_reference": 12,
+  "promotion": null,
+  "r1_regression_executions": 13,
+  "r2_false_pass_reproduced_before_fix": true,
+  "raw_artifact_root": "/workspace/voynich-results/pf-generation-r2-contextfix-20261105",
+  "reviewer_exact_after_executions": 1,
+  "status": "R2_FIXED_VALIDATED_AWAITING_INDEPENDENT_RECHECK",
+  "study_plan_hash": "70ea87ef554bb6114dad8bb5f2aa2ca5d1bac883424f596e1950dd8c1f441b47",
+  "total_r2_negative_executions": 13,
+  "trace_schema": 2,
+  "unit_tests": {
+    "judges": 56,
+    "m1": 27,
+    "pf_generation": 47,
+    "total": 130
+  }
+}

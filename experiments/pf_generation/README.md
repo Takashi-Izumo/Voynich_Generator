@@ -8,7 +8,7 @@
 
 gateのsplit gainは原版engineで一度だけ適用します。sampler factoryとrunnerの一時接続は`finally`で復元します。共有coreのSTOP配列や展開runtimeを変更しません。
 
-独立検証010のR1を受け、現在はplan/監査/traceのschema v2です。旧schema v1のplan・PASSは再利用せず、新しいplanで再生成します。生成法則は初版と同じです。[修正と検証](../../sandbox/m1-review/implementation/011-pf-tracefix-v2/VALIDATION.md)と[能力対照の設計訂正](../../sandbox/m1-review/designs/012-pf-review-corrections/CAPABILITY_CONTROL_ERRATUM.md)を併読してください。
+独立検証010のR1を受け、現在はplan/監査/traceのschema v2です。再検証013でR1解消を確認後、追加R2のraw候補帰属も修正しました。記録形式はv2のままですが、sourceが変わった旧plan・PASSは再利用せず、新しいplanで再生成します。生成法則は初版と同じです。[R2修正と検証](../../sandbox/m1-review/implementation/014-pf-r2-contextfix/VALIDATION.md)、[R1の過去記録](../../sandbox/m1-review/implementation/011-pf-tracefix-v2/VALIDATION.md)、[能力対照の設計訂正](../../sandbox/m1-review/designs/012-pf-review-corrections/CAPABILITY_CONTROL_ERRATUM.md)を併読してください。
 
 ## 実行
 
@@ -49,6 +49,8 @@ planは新法則、policy、ソース、凍結原版・審判、展開入力tree
 
 v2はPF候補のlegacy要求ID区間から要求を取り出し、gate query IDを照合します。PF ENDでは親Mapの独立した `1 + proposal_draws` 件のraw呼出しを要求し、各call ID・順序・draw数・行digestを要求側receiptと照合します。候補側のcounter区間はpolicy配列の長さから再構築しません。ログ全消去・部分欠落・重複・内側draw欠落を、集計とchecksumを更新しても拒否します。反転側も独立にcoverage監査してから比較します。
 
+R2修正ではpage/locus/segment/event/candidateを型も含めた共通キーで照合します。raw行は結合先の候補に直接一致する必要があり、「別の実在候補としては有効」でも拒否します。receipt digestの更新はこの帰属照合を代替しません。
+
 ```bash
 python -m unittest discover -s experiments/pf_generation/tests -v
 python -m unittest discover -s experiments/m1_pf/tests -v
@@ -71,7 +73,15 @@ python -m experiments.pf_generation.tests.run_trace_probes \
   --repeat /path/to/new-run/reverse --output /path/to/new-run/trace-probes
 ```
 
-v2の[実装側検証記録](../../sandbox/m1-review/implementation/011-pf-tracefix-v2/VALIDATION.md)と、初版の[過去の記録](../../sandbox/m1-review/implementation/009-pf-generation-v1/VALIDATION.md)を保存しています。v2は通常順/逆順24面と恒等対照12面の計36面を新たに生成しました。独立した真正面の数ではありません。
+R2の帰属改変負例も、別rootへのコピーにだけ適用します。
+
+```bash
+python -m experiments.pf_generation.tests.run_context_probes \
+  --plan /path/to/new-run/plan/plan.json --generated /path/to/new-run/forward \
+  --repeat /path/to/new-run/reverse --output /path/to/new-run/context-probes
+```
+
+現在の[実装側検証記録](../../sandbox/m1-review/implementation/014-pf-r2-contextfix/VALIDATION.md)と、初版の[過去の記録](../../sandbox/m1-review/implementation/009-pf-generation-v1/VALIDATION.md)を保存しています。各修正で通常順/逆順24面と恒等対照12面の計36面を新たに生成しました。独立した真正面の数ではありません。
 
 ## 次段階
 

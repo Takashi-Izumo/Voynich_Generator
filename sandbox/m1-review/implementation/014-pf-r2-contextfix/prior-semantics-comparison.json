@@ -1,0 +1,7 @@
+{
+  "cases": 12,
+  "fitted_laws_identical": true,
+  "prior_revision": "7db5146 trace schema v2",
+  "semantic_outputs_final_state_actual_rng_identical": true,
+  "status": "PASS"
+}
