@@ -1,0 +1,9 @@
+{
+  "status": "REPRODUCED_NONBLOCKING_API_WORKAROUND",
+  "command": "python -m experiments.pf_controls verify-export --plan ... --generated ... --exported ...",
+  "error": "TypeError: verify_export() got an unexpected keyword argument 'exported'",
+  "location": "experiments/pf_controls/__main__.py:28",
+  "producer_sources_modified": false,
+  "workaround": "Call pipeline.verify_export(plan, generated, exported_root) positionally",
+  "scoring_or_audit_checks_removed": false
+}

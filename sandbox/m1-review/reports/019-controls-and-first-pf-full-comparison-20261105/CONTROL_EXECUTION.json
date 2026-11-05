@@ -1,0 +1,109 @@
+{
+  "status": "COMPLETED",
+  "reviewed_source_commit": "2bd72160cb61d994e873c48d09a7dfca72b3375b",
+  "control_plan_hash": "33b7d30a29c3494e4d95fc25fa479df69fa24e10150050f2454d13fb824e3e76",
+  "model_set_hash": "61238cf467871ac13ab9374e2da23ae8a3ad215ea960029e6c8507e065efaf79",
+  "unit_tests": {
+    "controls": 31,
+    "pf": 47,
+    "m1": 27,
+    "judges": 56
+  },
+  "unit_test_total": 161,
+  "all_runs": [
+    {
+      "name": "fit-full",
+      "returncode": 0,
+      "wall_seconds": 40.319976721002604
+    },
+    {
+      "name": "fit-smoke",
+      "returncode": 0,
+      "wall_seconds": 35.820398633004515
+    },
+    {
+      "name": "full-audit",
+      "returncode": 0,
+      "wall_seconds": 1168.761694653993,
+      "cumulative_child_max_rss_kib": 1027132
+    },
+    {
+      "name": "full-export",
+      "returncode": 0,
+      "wall_seconds": 105.48919544799719,
+      "cumulative_child_max_rss_kib": 1951712
+    },
+    {
+      "name": "full-generate",
+      "returncode": 0,
+      "wall_seconds": 930.610110278998,
+      "cumulative_child_max_rss_kib": 881328
+    },
+    {
+      "name": "full-verify-export-api",
+      "returncode": 0,
+      "wall_seconds": 132.28320313300355,
+      "cumulative_child_max_rss_kib": 1974428
+    },
+    {
+      "name": "negative-probes",
+      "returncode": 0,
+      "wall_seconds": 1346.7266650689999,
+      "cumulative_child_max_rss_kib": 868324
+    },
+    {
+      "name": "smoke-audit",
+      "returncode": 0,
+      "wall_seconds": 257.71185487999173,
+      "cumulative_child_max_rss_kib": 891784
+    },
+    {
+      "name": "smoke-export",
+      "returncode": 0,
+      "wall_seconds": 47.771233512001345,
+      "cumulative_child_max_rss_kib": 891784
+    },
+    {
+      "name": "smoke-generate",
+      "returncode": 0,
+      "wall_seconds": 179.67629180800577,
+      "cumulative_child_max_rss_kib": 745768
+    },
+    {
+      "name": "smoke-verify-export-api",
+      "returncode": 0,
+      "wall_seconds": 73.8129083620006,
+      "cumulative_child_max_rss_kib": 566160
+    },
+    {
+      "name": "smoke-verify-export",
+      "returncode": 1,
+      "wall_seconds": 1.6060980970069068,
+      "cumulative_child_max_rss_kib": 891784
+    },
+    {
+      "name": "unit-controls",
+      "returncode": 0,
+      "wall_seconds": 1.94751311300206
+    },
+    {
+      "name": "unit-judges",
+      "returncode": 0,
+      "wall_seconds": 3.331957746995613
+    },
+    {
+      "name": "unit-m1",
+      "returncode": 0,
+      "wall_seconds": 1.5808309679996455
+    },
+    {
+      "name": "unit-pf",
+      "returncode": 0,
+      "wall_seconds": 0.9679581300006248
+    }
+  ],
+  "verify_export_cli_failed": true,
+  "same_verify_export_function_passed_via_positional_api": true,
+  "main_failure_is_separate": true,
+  "no_raw_words_cases_keys_snapshots_or_donors_published": true
+}

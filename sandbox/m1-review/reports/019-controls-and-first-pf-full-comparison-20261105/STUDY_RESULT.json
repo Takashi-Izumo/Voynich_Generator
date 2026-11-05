@@ -1,0 +1,61 @@
+{
+  "status": "MAIN_INCOMPLETE_GENERATOR_FAILURE",
+  "planned_main_pages": 800,
+  "completed_main_pages": 421,
+  "main_scores_computed": false,
+  "failure_case": {
+    "arm": "PF_GATE_LENGTH",
+    "bif": "A:3",
+    "run": 91711
+  },
+  "failure_reproduced_in_fresh_runtime": true,
+  "control_execution": "COMPLETED_106_CASES",
+  "control_fresh_replay_audit": "PASS_20_LEAVES_2240_BRANCHES",
+  "control_mechanism": "PASS_VIA_API_WITH_CLI_DEFECT",
+  "capability_review_status": "CAPABILITY_NOT_VERIFIED",
+  "capability_channel_results": {
+    "ATOM.PARA_END/length_width": {
+      "status": "INSUFFICIENT_CAPABILITY",
+      "accuracy": 0.4722222222222222,
+      "realized_fraction": 0.9444444444444444,
+      "comparable_bifolia": 18,
+      "planned_pages": 18,
+      "NA": 0,
+      "bootstrap_95": [
+        0.3888888888888889,
+        0.5555555555555556
+      ]
+    },
+    "ATOM.PARA_END/terminal": {
+      "status": "MANIPULATION_NOT_REALIZED",
+      "accuracy": 0.4722222222222222,
+      "realized_fraction": 0.3333333333333333,
+      "comparable_bifolia": 18,
+      "planned_pages": 18,
+      "NA": 0,
+      "bootstrap_95": [
+        0.3611111111111111,
+        0.5833333333333334
+      ]
+    },
+    "ATOM.PARA_END/space_T_H1": {
+      "status": "MANIPULATION_NOT_REALIZED",
+      "accuracy": 0.5882352941176471,
+      "realized_fraction": 0.47058823529411764,
+      "comparable_bifolia": 17,
+      "planned_pages": 17,
+      "NA": 0,
+      "bootstrap_95": [
+        0.4411764705882353,
+        0.7352941176470589
+      ]
+    }
+  },
+  "length_width_saturated_ties": 15,
+  "length_width_changed_features_but_saturated_ties": 14,
+  "generator_or_jury_or_thresholds_modified_by_verifier": false,
+  "seed_replacement_or_partial_scoring": false,
+  "promotion_or_equivalence_verdict": null,
+  "baseline_remains": "BASE",
+  "next_main_run": "Reseal after independent review of corrected source; regenerate all800 into a new root without reusing these421."
+}

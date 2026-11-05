@@ -1,0 +1,217 @@
+{
+  "length_width__far": {
+    "counts": {
+      "ties": 15,
+      "tied_same_raw_distance": 15
+    },
+    "tied_distances": [
+      {
+        "score": 0.9166666666666667,
+        "A_distance": 1.0,
+        "B_distance": 1.0
+      },
+      {
+        "score": 0.875,
+        "A_distance": 1.0,
+        "B_distance": 1.0
+      },
+      {
+        "score": 0.875,
+        "A_distance": 1.0,
+        "B_distance": 1.0
+      },
+      {
+        "score": 0.9166666666666667,
+        "A_distance": 1.0,
+        "B_distance": 1.0
+      },
+      {
+        "score": 0.9583333333333333,
+        "A_distance": 1.0,
+        "B_distance": 1.0
+      },
+      {
+        "score": 0.875,
+        "A_distance": 1.0,
+        "B_distance": 1.0
+      },
+      {
+        "score": 0.875,
+        "A_distance": 1.0,
+        "B_distance": 1.0
+      },
+      {
+        "score": 0.875,
+        "A_distance": 1.0,
+        "B_distance": 1.0
+      },
+      {
+        "score": 0.9166666666666667,
+        "A_distance": 1.0,
+        "B_distance": 1.0
+      },
+      {
+        "score": 0.9583333333333333,
+        "A_distance": 1.0,
+        "B_distance": 1.0
+      },
+      {
+        "score": 0.875,
+        "A_distance": 1.0,
+        "B_distance": 1.0
+      },
+      {
+        "score": 0.875,
+        "A_distance": 1.0,
+        "B_distance": 1.0
+      },
+      {
+        "score": 0.9166666666666667,
+        "A_distance": 1.0,
+        "B_distance": 1.0
+      },
+      {
+        "score": 0.875,
+        "A_distance": 1.0,
+        "B_distance": 1.0
+      },
+      {
+        "score": 0.875,
+        "A_distance": 1.0,
+        "B_distance": 1.0
+      }
+    ]
+  },
+  "terminal__far": {
+    "counts": {
+      "ties": 13,
+      "tied_same_raw_distance": 13
+    },
+    "tied_distances": [
+      {
+        "score": 0.5625,
+        "A_distance": 0.04297386768136867,
+        "B_distance": 0.04297386768136867
+      },
+      {
+        "score": 0.6041666666666667,
+        "A_distance": 0.5,
+        "B_distance": 0.5
+      },
+      {
+        "score": 0.14583333333333326,
+        "A_distance": 1.0,
+        "B_distance": 1.0
+      },
+      {
+        "score": 1.0,
+        "A_distance": 0.31127812445913283,
+        "B_distance": 0.31127812445913283
+      },
+      {
+        "score": 0.6458333333333333,
+        "A_distance": 0.31127812445913283,
+        "B_distance": 0.31127812445913283
+      },
+      {
+        "score": 0.25,
+        "A_distance": 0.0,
+        "B_distance": 0.0
+      },
+      {
+        "score": 0.14583333333333326,
+        "A_distance": 1.0,
+        "B_distance": 1.0
+      },
+      {
+        "score": 0.5625,
+        "A_distance": 0.1908745046211096,
+        "B_distance": 0.1908745046211096
+      },
+      {
+        "score": 0.8333333333333333,
+        "A_distance": 0.4059369371110204,
+        "B_distance": 0.4059369371110204
+      },
+      {
+        "score": 0.03125,
+        "A_distance": 1.0,
+        "B_distance": 1.0
+      },
+      {
+        "score": 0.8125,
+        "A_distance": 0.4591479170272448,
+        "B_distance": 0.4591479170272448
+      },
+      {
+        "score": 0.5625,
+        "A_distance": 0.195709628799731,
+        "B_distance": 0.195709628799731
+      },
+      {
+        "score": 0.6875,
+        "A_distance": 0.4591479170272448,
+        "B_distance": 0.4591479170272448
+      }
+    ]
+  },
+  "space_T_H1__far": {
+    "counts": {
+      "ties": 10,
+      "tied_same_raw_distance": 9,
+      "tied_distinct_raw_distance": 1
+    },
+    "tied_distances": [
+      {
+        "score": 0.8333333333333333,
+        "A_distance": 3.250961573533219,
+        "B_distance": 3.250961573533219
+      },
+      {
+        "score": 0.8333333333333333,
+        "A_distance": 3.286747507937945,
+        "B_distance": 3.286747507937945
+      },
+      {
+        "score": 0.5,
+        "A_distance": 2.1563784696043644,
+        "B_distance": 2.1563784696043644
+      },
+      {
+        "score": 0.9166666666666666,
+        "A_distance": 2.790203330602833,
+        "B_distance": 2.790203330602833
+      },
+      {
+        "score": 0.0,
+        "A_distance": 6.312882955284356,
+        "B_distance": 6.312882955284356
+      },
+      {
+        "score": 0.47916666666666663,
+        "A_distance": 2.3321424766912813,
+        "B_distance": 2.3321424766912813
+      },
+      {
+        "score": 0.45833333333333326,
+        "A_distance": 3.92283213947754,
+        "B_distance": 3.681824039973745
+      },
+      {
+        "score": 0.9583333333333333,
+        "A_distance": 3.0518739624189144,
+        "B_distance": 3.0518739624189144
+      },
+      {
+        "score": 0.5208333333333333,
+        "A_distance": 3.905882070547603,
+        "B_distance": 3.905882070547603
+      },
+      {
+        "score": 0.5833333333333335,
+        "A_distance": 3.8210298589546805,
+        "B_distance": 3.8210298589546805
+      }
+    ]
+  }
+}

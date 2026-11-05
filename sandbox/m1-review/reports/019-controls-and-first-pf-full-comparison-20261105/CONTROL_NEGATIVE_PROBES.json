@@ -1,0 +1,150 @@
+{
+  "checks": [
+    {
+      "probe": "missing_all",
+      "reason": "Missing/extra replay branches",
+      "rejected": true,
+      "seal_revoked": true,
+      "seconds": 24.594810201000655,
+      "stale_pass_rejected": true
+    },
+    {
+      "probe": "missing_one",
+      "reason": "Missing/extra replay branches",
+      "rejected": true,
+      "seal_revoked": true,
+      "seconds": 47.33691646299849,
+      "stale_pass_rejected": true
+    },
+    {
+      "probe": "duplicate",
+      "reason": "Duplicate/missing/reordered branch IDs",
+      "rejected": true,
+      "seal_revoked": true,
+      "seconds": 44.80871115300397,
+      "stale_pass_rejected": true
+    },
+    {
+      "probe": "existing_event_context",
+      "reason": "Replay belongs to another snapshot/candidate context",
+      "rejected": true,
+      "seal_revoked": true,
+      "seconds": 18.67405811100616,
+      "stale_pass_rejected": true
+    },
+    {
+      "probe": "float_branch_id",
+      "reason": "Replay belongs to another snapshot/candidate context",
+      "rejected": true,
+      "seal_revoked": true,
+      "seconds": 18.39240054199763,
+      "stale_pass_rejected": true
+    },
+    {
+      "probe": "missing_request",
+      "reason": "Replay request coverage mismatch",
+      "rejected": true,
+      "seal_revoked": true,
+      "seconds": 18.57902988200658,
+      "stale_pass_rejected": true
+    },
+    {
+      "probe": "snapshot_misbind",
+      "reason": "Replay belongs to another snapshot/candidate context",
+      "rejected": true,
+      "seal_revoked": true,
+      "seconds": 18.486488331996952,
+      "stale_pass_rejected": true
+    },
+    {
+      "probe": "selection_changed",
+      "reason": "Donor selection changed or misbound",
+      "rejected": true,
+      "seal_revoked": true,
+      "seconds": 21.36276214699319,
+      "stale_pass_rejected": true
+    },
+    {
+      "probe": "support_violation",
+      "reason": "Replay support/isolation failure",
+      "rejected": true,
+      "seal_revoked": true,
+      "seconds": 17.723908530999324,
+      "stale_pass_rejected": true
+    },
+    {
+      "probe": "inner_request_context",
+      "reason": "Fresh replay differs: A:2",
+      "rejected": true,
+      "seal_revoked": true,
+      "seconds": 276.1007739580091,
+      "stale_pass_rejected": true
+    },
+    {
+      "probe": "main_rng_forged_receipt",
+      "reason": "Fresh replay differs: A:2",
+      "rejected": true,
+      "seal_revoked": true,
+      "seconds": 158.45516018099443,
+      "stale_pass_rejected": true
+    },
+    {
+      "probe": "target_known3_fit",
+      "reason": "Invalid proxy scope/hash",
+      "rejected": true
+    },
+    {
+      "probe": "key-leak_resealed_export",
+      "reason": "Export assignment/text/key/diagnostic mismatch",
+      "rejected": true
+    },
+    {
+      "probe": "typed-input_resealed_export",
+      "reason": "Export assignment/text/key/diagnostic mismatch",
+      "rejected": true
+    },
+    {
+      "probe": "wrong-key_resealed_export",
+      "reason": "Export assignment/text/key/diagnostic mismatch",
+      "rejected": true
+    },
+    {
+      "bindings_restored": true,
+      "class_controls_restored": true,
+      "probe": "injected_failure",
+      "reason": "probe PF exception",
+      "rejected": true
+    },
+    {
+      "bindings_restored": true,
+      "class_controls_restored": true,
+      "probe": "route_contamination",
+      "reason": "Replay contaminated BASE state/RNG/rare/route/sampler/request counters",
+      "rejected": true
+    },
+    {
+      "bindings_restored": true,
+      "class_controls_restored": true,
+      "probe": "request_counter_contamination",
+      "reason": "Replay contaminated BASE state/RNG/rare/route/sampler/request counters",
+      "rejected": true
+    },
+    {
+      "bindings_restored": true,
+      "class_controls_restored": true,
+      "probe": "class_control_contamination",
+      "reason": "Replay contaminated BASE state/RNG/rare/route/sampler/request counters",
+      "rejected": true
+    },
+    {
+      "bindings_restored": true,
+      "probe": "rare_clone_corruption",
+      "reason": "Branch input differs",
+      "rejected": true
+    }
+  ],
+  "ordinary_base_after_failure_equal": true,
+  "original_artifacts_preserved": true,
+  "source_input_files_never_modified": true,
+  "status": "PASS"
+}

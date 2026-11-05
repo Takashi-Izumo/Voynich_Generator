@@ -1,0 +1,28 @@
+{
+  "all_donors_selected_before_true_word_substitution": true,
+  "files": {
+    "length_width__far/answer_key.jsonl": "8395035be0e0e027154a1598a4915a10d0727dca132303bcb207bbb5e87d8452",
+    "length_width__far/diagnostics.jsonl": "f3edb5aa423f4dd7a74dd30f82294dcbbe7da8a3733e464d0d9c31ba7c84b709",
+    "length_width__far/inputs.jsonl": "98be8e956d152c3274ab7e028683c0cca247c4746f0cdf1a053f42f2c295193d",
+    "length_width__near/answer_key.jsonl": "e7f4be032c0cc8b4dcce49350ddc3c6974833e1e7694d62dc60f7cb478c81681",
+    "length_width__near/diagnostics.jsonl": "af73c3dc5163d4ab6f6d4db50e83548924f89ae5a2b70a20946ccab1299b0c19",
+    "length_width__near/inputs.jsonl": "2afd5bcea9667883df29d3210d500ee681a49d700b865d8d395b99f187aee0d8",
+    "space_T_H1__far/answer_key.jsonl": "bfcb1ae9d4bc1f2108edbcb7db4ee0ba3cc8885bba74e2e8d7adf8c8f222d8b5",
+    "space_T_H1__far/diagnostics.jsonl": "b6a17f33e84959373f381579b3be5f7b5f605cdc2b5cf0bacdb97a364a2ce765",
+    "space_T_H1__far/inputs.jsonl": "075ed46baa9d573c0a2d71fd6fab0bdd819f4691a02de1cf8d85f6954b4f9b0f",
+    "space_T_H1__near/answer_key.jsonl": "43d6fbe3b96bcf5a492b5f99de0eb83be9bbfc9e2ba99ad4a77883f25f46eef3",
+    "space_T_H1__near/diagnostics.jsonl": "21a7ea6e16273c48a58eb3c58d6e642c39b5ff3275d7f13ded9272fb9cf4fe25",
+    "space_T_H1__near/inputs.jsonl": "d694e040dc3cb6c490d59760abeddd785738878e893e1eb0e333337daab22e71",
+    "terminal__far/answer_key.jsonl": "ff96eab224caa4d331df4651a54bff1adfee7132b711bfebff479efa5460b946",
+    "terminal__far/diagnostics.jsonl": "449583db4633e6407970bb069e2f95a7a1ec3b7e7f323b38baea8b76ecc2fa25",
+    "terminal__far/inputs.jsonl": "2f1d20ee1dc83147b64bf3bb3610f06ff39b581b1eb71da888286e135be2031e",
+    "terminal__near/answer_key.jsonl": "f1d896e1eeb16d5091ef5f287e77d2f83e945d224ad92be078f657e7c7f0eac4",
+    "terminal__near/diagnostics.jsonl": "82d7ef3ddd06fdb727c432e5ced533a524eeb7659637df43ccd6c9d918e2f41c",
+    "terminal__near/inputs.jsonl": "b840531796915a63c9f51f72661a7b9d50f4f418395581949a9fb608d98d1b4c"
+  },
+  "generated_root": "/workspace/voynich-results/pf-controls-independent-20261105/full-generated",
+  "generation_binding": "b581e370ec265feeddc14669a2dadd7c19881e818264953e15d7b7eaa60fd36b",
+  "plan_sha256": "33b7d30a29c3494e4d95fc25fa479df69fa24e10150050f2454d13fb824e3e76",
+  "predictor_files": "only each inputs.jsonl; no snapshots/proxies/logs/keys/diagnostics",
+  "sha256": "1663920b37c76553a538acd54c1259f16e8fc1d3a640b3c09849beeebd9aa6a4"
+}

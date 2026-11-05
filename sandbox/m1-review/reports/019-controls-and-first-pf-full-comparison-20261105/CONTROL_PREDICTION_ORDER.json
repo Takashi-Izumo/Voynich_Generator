@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "planned": 106,
+  "events": [
+    {
+      "action": "predictions_sealed",
+      "count": 18,
+      "opaque_group": "2d06ea846f0d185edd7a439f"
+    },
+    {
+      "action": "predictions_sealed",
+      "count": 18,
+      "opaque_group": "27299a5def8c4a5865cbece3"
+    },
+    {
+      "action": "predictions_sealed",
+      "count": 18,
+      "opaque_group": "b113dfe201e0865a70693325"
+    },
+    {
+      "action": "predictions_sealed",
+      "count": 18,
+      "opaque_group": "b23183900daa2b6ddc767791"
+    },
+    {
+      "action": "predictions_sealed",
+      "count": 17,
+      "opaque_group": "ee71858d681170470ce33f7b"
+    },
+    {
+      "action": "predictions_sealed",
+      "count": 17,
+      "opaque_group": "468bf0c57342eda891119508"
+    },
+    {
+      "action": "score_key_read",
+      "sealed_predictions": 106
+    },
+    {
+      "action": "score_key_read",
+      "sealed_predictions": 106
+    },
+    {
+      "action": "score_key_read",
+      "sealed_predictions": 106
+    },
+    {
+      "action": "score_key_read",
+      "sealed_predictions": 106
+    },
+    {
+      "action": "score_key_read",
+      "sealed_predictions": 106
+    },
+    {
+      "action": "score_key_read",
+      "sealed_predictions": 106
+    }
+  ]
+}

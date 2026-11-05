@@ -1,0 +1,1763 @@
+{
+  "all_predictions_before_scoring": true,
+  "channel_results": {
+    "ATOM.PARA_END/length_width": {
+      "NA": 0,
+      "NA_fraction": 0.0,
+      "all_channel_facts": "/workspace/voynich-results/pf-controls-independent-20261105/evaluation/predictions/27299a5def8c4a5865cbece3/channels.jsonl",
+      "bifolia": 18,
+      "bootstrap_replicates": 10000,
+      "by_bifolium": {
+        "17d564f7381f47c2": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "1bbd3540da8c0743": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "1dd8c80cacd2e603": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "1e7e1c70ce7e340a": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "3f9a177766465c81": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 1,
+          "decided_accuracy": 0.0,
+          "expected_game_accuracy": 0.0,
+          "ties": 0,
+          "trials": 1
+        },
+        "458f8b84f74e8ae5": {
+          "NA": 0,
+          "correct": 1,
+          "decided": 1,
+          "decided_accuracy": 1.0,
+          "expected_game_accuracy": 1.0,
+          "ties": 0,
+          "trials": 1
+        },
+        "5e8fb3c84a3c9c80": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 1,
+          "decided_accuracy": 0.0,
+          "expected_game_accuracy": 0.0,
+          "ties": 0,
+          "trials": 1
+        },
+        "67da4f9b61c5c204": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "6803829d60a4c09f": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "6fdd16680f042d17": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "806b5dac8dc47532": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "839553c5febea9a2": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "85f18c7ab9b8bbc2": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "86c58a84fa04c3a4": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "92a54e3820fa4697": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "acf6c3a6fa5bf754": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "e3ae3836e233efa0": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "f317295633cd2170": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        }
+      },
+      "comparable_bifolia": 18,
+      "comparable_coverage": 1.0,
+      "correct": 1,
+      "decided": 3,
+      "decided_bifolia": 3,
+      "decided_cluster_bootstrap_95": [
+        0.0,
+        1.0
+      ],
+      "decision_coverage": 0.16666666666666666,
+      "expected_accuracy_ties_half": true,
+      "expected_game_cluster_bootstrap_95": [
+        0.3888888888888889,
+        0.5555555555555556
+      ],
+      "interval_scope": "available_bifolia_and_frozen_models_only",
+      "macro_decided_accuracy": 0.3333333333333333,
+      "macro_expected_game_accuracy": 0.4722222222222222,
+      "planned_eligible_pages": 18,
+      "pooled_decided_accuracy": 0.3333333333333333,
+      "pooled_expected_game_accuracy": 0.4722222222222222,
+      "realized_target_manipulation_fraction": 0.9444444444444444,
+      "status": "INSUFFICIENT_CAPABILITY",
+      "ties": 15,
+      "trials": 18,
+      "used_for_gate": true
+    },
+    "ATOM.PARA_END/space_T_H1": {
+      "NA": 0,
+      "NA_fraction": 0.0,
+      "all_channel_facts": "/workspace/voynich-results/pf-controls-independent-20261105/evaluation/predictions/468bf0c57342eda891119508/channels.jsonl",
+      "bifolia": 17,
+      "bootstrap_replicates": 10000,
+      "by_bifolium": {
+        "17d564f7381f47c2": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "1bbd3540da8c0743": {
+          "NA": 0,
+          "correct": 1,
+          "decided": 1,
+          "decided_accuracy": 1.0,
+          "expected_game_accuracy": 1.0,
+          "ties": 0,
+          "trials": 1
+        },
+        "1dd8c80cacd2e603": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "1e7e1c70ce7e340a": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "3f9a177766465c81": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 1,
+          "decided_accuracy": 0.0,
+          "expected_game_accuracy": 0.0,
+          "ties": 0,
+          "trials": 1
+        },
+        "458f8b84f74e8ae5": {
+          "NA": 0,
+          "correct": 1,
+          "decided": 1,
+          "decided_accuracy": 1.0,
+          "expected_game_accuracy": 1.0,
+          "ties": 0,
+          "trials": 1
+        },
+        "5e8fb3c84a3c9c80": {
+          "NA": 0,
+          "correct": 1,
+          "decided": 1,
+          "decided_accuracy": 1.0,
+          "expected_game_accuracy": 1.0,
+          "ties": 0,
+          "trials": 1
+        },
+        "67da4f9b61c5c204": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "6803829d60a4c09f": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "6fdd16680f042d17": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "839553c5febea9a2": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "85f18c7ab9b8bbc2": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "86c58a84fa04c3a4": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "92a54e3820fa4697": {
+          "NA": 0,
+          "correct": 1,
+          "decided": 1,
+          "decided_accuracy": 1.0,
+          "expected_game_accuracy": 1.0,
+          "ties": 0,
+          "trials": 1
+        },
+        "acf6c3a6fa5bf754": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "e3ae3836e233efa0": {
+          "NA": 0,
+          "correct": 1,
+          "decided": 1,
+          "decided_accuracy": 1.0,
+          "expected_game_accuracy": 1.0,
+          "ties": 0,
+          "trials": 1
+        },
+        "f317295633cd2170": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 1,
+          "decided_accuracy": 0.0,
+          "expected_game_accuracy": 0.0,
+          "ties": 0,
+          "trials": 1
+        }
+      },
+      "comparable_bifolia": 17,
+      "comparable_coverage": 1.0,
+      "correct": 5,
+      "decided": 7,
+      "decided_bifolia": 7,
+      "decided_cluster_bootstrap_95": [
+        0.42857142857142855,
+        1.0
+      ],
+      "decision_coverage": 0.4117647058823529,
+      "expected_accuracy_ties_half": true,
+      "expected_game_cluster_bootstrap_95": [
+        0.4411764705882353,
+        0.7352941176470589
+      ],
+      "interval_scope": "available_bifolia_and_frozen_models_only",
+      "macro_decided_accuracy": 0.7142857142857143,
+      "macro_expected_game_accuracy": 0.5882352941176471,
+      "planned_eligible_pages": 17,
+      "pooled_decided_accuracy": 0.7142857142857143,
+      "pooled_expected_game_accuracy": 0.5882352941176471,
+      "realized_target_manipulation_fraction": 0.47058823529411764,
+      "status": "MANIPULATION_NOT_REALIZED",
+      "ties": 10,
+      "trials": 17,
+      "used_for_gate": true
+    },
+    "ATOM.PARA_END/terminal": {
+      "NA": 0,
+      "NA_fraction": 0.0,
+      "all_channel_facts": "/workspace/voynich-results/pf-controls-independent-20261105/evaluation/predictions/b23183900daa2b6ddc767791/channels.jsonl",
+      "bifolia": 18,
+      "bootstrap_replicates": 10000,
+      "by_bifolium": {
+        "17d564f7381f47c2": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "1bbd3540da8c0743": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "1dd8c80cacd2e603": {
+          "NA": 0,
+          "correct": 1,
+          "decided": 1,
+          "decided_accuracy": 1.0,
+          "expected_game_accuracy": 1.0,
+          "ties": 0,
+          "trials": 1
+        },
+        "1e7e1c70ce7e340a": {
+          "NA": 0,
+          "correct": 1,
+          "decided": 1,
+          "decided_accuracy": 1.0,
+          "expected_game_accuracy": 1.0,
+          "ties": 0,
+          "trials": 1
+        },
+        "3f9a177766465c81": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "458f8b84f74e8ae5": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 1,
+          "decided_accuracy": 0.0,
+          "expected_game_accuracy": 0.0,
+          "ties": 0,
+          "trials": 1
+        },
+        "5e8fb3c84a3c9c80": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "67da4f9b61c5c204": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "6803829d60a4c09f": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "6fdd16680f042d17": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "806b5dac8dc47532": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "839553c5febea9a2": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "85f18c7ab9b8bbc2": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 1,
+          "decided_accuracy": 0.0,
+          "expected_game_accuracy": 0.0,
+          "ties": 0,
+          "trials": 1
+        },
+        "86c58a84fa04c3a4": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 1,
+          "decided_accuracy": 0.0,
+          "expected_game_accuracy": 0.0,
+          "ties": 0,
+          "trials": 1
+        },
+        "92a54e3820fa4697": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "acf6c3a6fa5bf754": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "e3ae3836e233efa0": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "f317295633cd2170": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        }
+      },
+      "comparable_bifolia": 18,
+      "comparable_coverage": 1.0,
+      "correct": 2,
+      "decided": 5,
+      "decided_bifolia": 5,
+      "decided_cluster_bootstrap_95": [
+        0.0,
+        0.8
+      ],
+      "decision_coverage": 0.2777777777777778,
+      "expected_accuracy_ties_half": true,
+      "expected_game_cluster_bootstrap_95": [
+        0.3611111111111111,
+        0.5833333333333334
+      ],
+      "interval_scope": "available_bifolia_and_frozen_models_only",
+      "macro_decided_accuracy": 0.4,
+      "macro_expected_game_accuracy": 0.4722222222222222,
+      "planned_eligible_pages": 18,
+      "pooled_decided_accuracy": 0.4,
+      "pooled_expected_game_accuracy": 0.4722222222222222,
+      "realized_target_manipulation_fraction": 0.3333333333333333,
+      "status": "MANIPULATION_NOT_REALIZED",
+      "ties": 13,
+      "trials": 18,
+      "used_for_gate": true
+    }
+  },
+  "comparison_plan_hash": "262097f1db82c4c53c2f2b8ebf84ddee227c8ebd2264fb3f56ab02a42f131c17",
+  "control_plan_hash": "33b7d30a29c3494e4d95fc25fa479df69fa24e10150050f2454d13fb824e3e76",
+  "diagnostics": {
+    "length_width__far": {
+      "NA": 0,
+      "NA_fraction": 0.0,
+      "all_channel_facts": "/workspace/voynich-results/pf-controls-independent-20261105/evaluation/predictions/27299a5def8c4a5865cbece3/channels.jsonl",
+      "bifolia": 18,
+      "bootstrap_replicates": 10000,
+      "by_bifolium": {
+        "17d564f7381f47c2": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "1bbd3540da8c0743": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "1dd8c80cacd2e603": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "1e7e1c70ce7e340a": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "3f9a177766465c81": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 1,
+          "decided_accuracy": 0.0,
+          "expected_game_accuracy": 0.0,
+          "ties": 0,
+          "trials": 1
+        },
+        "458f8b84f74e8ae5": {
+          "NA": 0,
+          "correct": 1,
+          "decided": 1,
+          "decided_accuracy": 1.0,
+          "expected_game_accuracy": 1.0,
+          "ties": 0,
+          "trials": 1
+        },
+        "5e8fb3c84a3c9c80": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 1,
+          "decided_accuracy": 0.0,
+          "expected_game_accuracy": 0.0,
+          "ties": 0,
+          "trials": 1
+        },
+        "67da4f9b61c5c204": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "6803829d60a4c09f": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "6fdd16680f042d17": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "806b5dac8dc47532": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "839553c5febea9a2": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "85f18c7ab9b8bbc2": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "86c58a84fa04c3a4": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "92a54e3820fa4697": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "acf6c3a6fa5bf754": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "e3ae3836e233efa0": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "f317295633cd2170": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        }
+      },
+      "comparable_bifolia": 18,
+      "comparable_coverage": 1.0,
+      "correct": 1,
+      "decided": 3,
+      "decided_bifolia": 3,
+      "decided_cluster_bootstrap_95": [
+        0.0,
+        1.0
+      ],
+      "decision_coverage": 0.16666666666666666,
+      "expected_accuracy_ties_half": true,
+      "expected_game_cluster_bootstrap_95": [
+        0.3888888888888889,
+        0.5555555555555556
+      ],
+      "interval_scope": "available_bifolia_and_frozen_models_only",
+      "macro_decided_accuracy": 0.3333333333333333,
+      "macro_expected_game_accuracy": 0.4722222222222222,
+      "planned_eligible_pages": 18,
+      "pooled_decided_accuracy": 0.3333333333333333,
+      "pooled_expected_game_accuracy": 0.4722222222222222,
+      "realized_target_manipulation_fraction": 0.9444444444444444,
+      "status": "INSUFFICIENT_CAPABILITY",
+      "ties": 15,
+      "trials": 18,
+      "used_for_gate": true
+    },
+    "length_width__near": {
+      "NA": 0,
+      "NA_fraction": 0.0,
+      "all_channel_facts": "/workspace/voynich-results/pf-controls-independent-20261105/evaluation/predictions/2d06ea846f0d185edd7a439f/channels.jsonl",
+      "bifolia": 18,
+      "bootstrap_replicates": 10000,
+      "by_bifolium": {
+        "17d564f7381f47c2": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "1bbd3540da8c0743": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "1dd8c80cacd2e603": {
+          "NA": 0,
+          "correct": 1,
+          "decided": 1,
+          "decided_accuracy": 1.0,
+          "expected_game_accuracy": 1.0,
+          "ties": 0,
+          "trials": 1
+        },
+        "1e7e1c70ce7e340a": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "3f9a177766465c81": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 1,
+          "decided_accuracy": 0.0,
+          "expected_game_accuracy": 0.0,
+          "ties": 0,
+          "trials": 1
+        },
+        "458f8b84f74e8ae5": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "5e8fb3c84a3c9c80": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "67da4f9b61c5c204": {
+          "NA": 0,
+          "correct": 1,
+          "decided": 1,
+          "decided_accuracy": 1.0,
+          "expected_game_accuracy": 1.0,
+          "ties": 0,
+          "trials": 1
+        },
+        "6803829d60a4c09f": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "6fdd16680f042d17": {
+          "NA": 0,
+          "correct": 1,
+          "decided": 1,
+          "decided_accuracy": 1.0,
+          "expected_game_accuracy": 1.0,
+          "ties": 0,
+          "trials": 1
+        },
+        "806b5dac8dc47532": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "839553c5febea9a2": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "85f18c7ab9b8bbc2": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "86c58a84fa04c3a4": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "92a54e3820fa4697": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "acf6c3a6fa5bf754": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "e3ae3836e233efa0": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "f317295633cd2170": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        }
+      },
+      "comparable_bifolia": 18,
+      "comparable_coverage": 1.0,
+      "correct": 3,
+      "decided": 4,
+      "decided_bifolia": 4,
+      "decided_cluster_bootstrap_95": [
+        0.25,
+        1.0
+      ],
+      "decision_coverage": 0.2222222222222222,
+      "expected_accuracy_ties_half": true,
+      "expected_game_cluster_bootstrap_95": [
+        0.4444444444444444,
+        0.6666666666666666
+      ],
+      "interval_scope": "available_bifolia_and_frozen_models_only",
+      "macro_decided_accuracy": 0.75,
+      "macro_expected_game_accuracy": 0.5555555555555556,
+      "planned_eligible_pages": 18,
+      "pooled_decided_accuracy": 0.75,
+      "pooled_expected_game_accuracy": 0.5555555555555556,
+      "realized_target_manipulation_fraction": 0.7222222222222222,
+      "status": "MANIPULATION_NOT_REALIZED",
+      "ties": 14,
+      "trials": 18,
+      "used_for_gate": false
+    },
+    "space_T_H1__far": {
+      "NA": 0,
+      "NA_fraction": 0.0,
+      "all_channel_facts": "/workspace/voynich-results/pf-controls-independent-20261105/evaluation/predictions/468bf0c57342eda891119508/channels.jsonl",
+      "bifolia": 17,
+      "bootstrap_replicates": 10000,
+      "by_bifolium": {
+        "17d564f7381f47c2": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "1bbd3540da8c0743": {
+          "NA": 0,
+          "correct": 1,
+          "decided": 1,
+          "decided_accuracy": 1.0,
+          "expected_game_accuracy": 1.0,
+          "ties": 0,
+          "trials": 1
+        },
+        "1dd8c80cacd2e603": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "1e7e1c70ce7e340a": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "3f9a177766465c81": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 1,
+          "decided_accuracy": 0.0,
+          "expected_game_accuracy": 0.0,
+          "ties": 0,
+          "trials": 1
+        },
+        "458f8b84f74e8ae5": {
+          "NA": 0,
+          "correct": 1,
+          "decided": 1,
+          "decided_accuracy": 1.0,
+          "expected_game_accuracy": 1.0,
+          "ties": 0,
+          "trials": 1
+        },
+        "5e8fb3c84a3c9c80": {
+          "NA": 0,
+          "correct": 1,
+          "decided": 1,
+          "decided_accuracy": 1.0,
+          "expected_game_accuracy": 1.0,
+          "ties": 0,
+          "trials": 1
+        },
+        "67da4f9b61c5c204": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "6803829d60a4c09f": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "6fdd16680f042d17": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "839553c5febea9a2": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "85f18c7ab9b8bbc2": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "86c58a84fa04c3a4": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "92a54e3820fa4697": {
+          "NA": 0,
+          "correct": 1,
+          "decided": 1,
+          "decided_accuracy": 1.0,
+          "expected_game_accuracy": 1.0,
+          "ties": 0,
+          "trials": 1
+        },
+        "acf6c3a6fa5bf754": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "e3ae3836e233efa0": {
+          "NA": 0,
+          "correct": 1,
+          "decided": 1,
+          "decided_accuracy": 1.0,
+          "expected_game_accuracy": 1.0,
+          "ties": 0,
+          "trials": 1
+        },
+        "f317295633cd2170": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 1,
+          "decided_accuracy": 0.0,
+          "expected_game_accuracy": 0.0,
+          "ties": 0,
+          "trials": 1
+        }
+      },
+      "comparable_bifolia": 17,
+      "comparable_coverage": 1.0,
+      "correct": 5,
+      "decided": 7,
+      "decided_bifolia": 7,
+      "decided_cluster_bootstrap_95": [
+        0.42857142857142855,
+        1.0
+      ],
+      "decision_coverage": 0.4117647058823529,
+      "expected_accuracy_ties_half": true,
+      "expected_game_cluster_bootstrap_95": [
+        0.4411764705882353,
+        0.7352941176470589
+      ],
+      "interval_scope": "available_bifolia_and_frozen_models_only",
+      "macro_decided_accuracy": 0.7142857142857143,
+      "macro_expected_game_accuracy": 0.5882352941176471,
+      "planned_eligible_pages": 17,
+      "pooled_decided_accuracy": 0.7142857142857143,
+      "pooled_expected_game_accuracy": 0.5882352941176471,
+      "realized_target_manipulation_fraction": 0.47058823529411764,
+      "status": "MANIPULATION_NOT_REALIZED",
+      "ties": 10,
+      "trials": 17,
+      "used_for_gate": true
+    },
+    "space_T_H1__near": {
+      "NA": 0,
+      "NA_fraction": 0.0,
+      "all_channel_facts": "/workspace/voynich-results/pf-controls-independent-20261105/evaluation/predictions/ee71858d681170470ce33f7b/channels.jsonl",
+      "bifolia": 17,
+      "bootstrap_replicates": 10000,
+      "by_bifolium": {
+        "17d564f7381f47c2": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "1bbd3540da8c0743": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "1dd8c80cacd2e603": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "1e7e1c70ce7e340a": {
+          "NA": 0,
+          "correct": 1,
+          "decided": 1,
+          "decided_accuracy": 1.0,
+          "expected_game_accuracy": 1.0,
+          "ties": 0,
+          "trials": 1
+        },
+        "3f9a177766465c81": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "458f8b84f74e8ae5": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "5e8fb3c84a3c9c80": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "67da4f9b61c5c204": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "6803829d60a4c09f": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "6fdd16680f042d17": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "839553c5febea9a2": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "85f18c7ab9b8bbc2": {
+          "NA": 0,
+          "correct": 1,
+          "decided": 1,
+          "decided_accuracy": 1.0,
+          "expected_game_accuracy": 1.0,
+          "ties": 0,
+          "trials": 1
+        },
+        "86c58a84fa04c3a4": {
+          "NA": 0,
+          "correct": 1,
+          "decided": 1,
+          "decided_accuracy": 1.0,
+          "expected_game_accuracy": 1.0,
+          "ties": 0,
+          "trials": 1
+        },
+        "92a54e3820fa4697": {
+          "NA": 0,
+          "correct": 1,
+          "decided": 1,
+          "decided_accuracy": 1.0,
+          "expected_game_accuracy": 1.0,
+          "ties": 0,
+          "trials": 1
+        },
+        "acf6c3a6fa5bf754": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 1,
+          "decided_accuracy": 0.0,
+          "expected_game_accuracy": 0.0,
+          "ties": 0,
+          "trials": 1
+        },
+        "e3ae3836e233efa0": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "f317295633cd2170": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 1,
+          "decided_accuracy": 0.0,
+          "expected_game_accuracy": 0.0,
+          "ties": 0,
+          "trials": 1
+        }
+      },
+      "comparable_bifolia": 17,
+      "comparable_coverage": 1.0,
+      "correct": 4,
+      "decided": 6,
+      "decided_bifolia": 6,
+      "decided_cluster_bootstrap_95": [
+        0.3333333333333333,
+        1.0
+      ],
+      "decision_coverage": 0.35294117647058826,
+      "expected_accuracy_ties_half": true,
+      "expected_game_cluster_bootstrap_95": [
+        0.4117647058823529,
+        0.7058823529411765
+      ],
+      "interval_scope": "available_bifolia_and_frozen_models_only",
+      "macro_decided_accuracy": 0.6666666666666666,
+      "macro_expected_game_accuracy": 0.5588235294117647,
+      "planned_eligible_pages": 17,
+      "pooled_decided_accuracy": 0.6666666666666666,
+      "pooled_expected_game_accuracy": 0.5588235294117647,
+      "realized_target_manipulation_fraction": 0.47058823529411764,
+      "status": "MANIPULATION_NOT_REALIZED",
+      "ties": 11,
+      "trials": 17,
+      "used_for_gate": false
+    },
+    "terminal__far": {
+      "NA": 0,
+      "NA_fraction": 0.0,
+      "all_channel_facts": "/workspace/voynich-results/pf-controls-independent-20261105/evaluation/predictions/b23183900daa2b6ddc767791/channels.jsonl",
+      "bifolia": 18,
+      "bootstrap_replicates": 10000,
+      "by_bifolium": {
+        "17d564f7381f47c2": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "1bbd3540da8c0743": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "1dd8c80cacd2e603": {
+          "NA": 0,
+          "correct": 1,
+          "decided": 1,
+          "decided_accuracy": 1.0,
+          "expected_game_accuracy": 1.0,
+          "ties": 0,
+          "trials": 1
+        },
+        "1e7e1c70ce7e340a": {
+          "NA": 0,
+          "correct": 1,
+          "decided": 1,
+          "decided_accuracy": 1.0,
+          "expected_game_accuracy": 1.0,
+          "ties": 0,
+          "trials": 1
+        },
+        "3f9a177766465c81": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "458f8b84f74e8ae5": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 1,
+          "decided_accuracy": 0.0,
+          "expected_game_accuracy": 0.0,
+          "ties": 0,
+          "trials": 1
+        },
+        "5e8fb3c84a3c9c80": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "67da4f9b61c5c204": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "6803829d60a4c09f": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "6fdd16680f042d17": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "806b5dac8dc47532": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "839553c5febea9a2": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "85f18c7ab9b8bbc2": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 1,
+          "decided_accuracy": 0.0,
+          "expected_game_accuracy": 0.0,
+          "ties": 0,
+          "trials": 1
+        },
+        "86c58a84fa04c3a4": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 1,
+          "decided_accuracy": 0.0,
+          "expected_game_accuracy": 0.0,
+          "ties": 0,
+          "trials": 1
+        },
+        "92a54e3820fa4697": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "acf6c3a6fa5bf754": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "e3ae3836e233efa0": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "f317295633cd2170": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        }
+      },
+      "comparable_bifolia": 18,
+      "comparable_coverage": 1.0,
+      "correct": 2,
+      "decided": 5,
+      "decided_bifolia": 5,
+      "decided_cluster_bootstrap_95": [
+        0.0,
+        0.8
+      ],
+      "decision_coverage": 0.2777777777777778,
+      "expected_accuracy_ties_half": true,
+      "expected_game_cluster_bootstrap_95": [
+        0.3611111111111111,
+        0.5833333333333334
+      ],
+      "interval_scope": "available_bifolia_and_frozen_models_only",
+      "macro_decided_accuracy": 0.4,
+      "macro_expected_game_accuracy": 0.4722222222222222,
+      "planned_eligible_pages": 18,
+      "pooled_decided_accuracy": 0.4,
+      "pooled_expected_game_accuracy": 0.4722222222222222,
+      "realized_target_manipulation_fraction": 0.3333333333333333,
+      "status": "MANIPULATION_NOT_REALIZED",
+      "ties": 13,
+      "trials": 18,
+      "used_for_gate": true
+    },
+    "terminal__near": {
+      "NA": 0,
+      "NA_fraction": 0.0,
+      "all_channel_facts": "/workspace/voynich-results/pf-controls-independent-20261105/evaluation/predictions/b113dfe201e0865a70693325/channels.jsonl",
+      "bifolia": 18,
+      "bootstrap_replicates": 10000,
+      "by_bifolium": {
+        "17d564f7381f47c2": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "1bbd3540da8c0743": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "1dd8c80cacd2e603": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "1e7e1c70ce7e340a": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "3f9a177766465c81": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "458f8b84f74e8ae5": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "5e8fb3c84a3c9c80": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "67da4f9b61c5c204": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "6803829d60a4c09f": {
+          "NA": 0,
+          "correct": 1,
+          "decided": 1,
+          "decided_accuracy": 1.0,
+          "expected_game_accuracy": 1.0,
+          "ties": 0,
+          "trials": 1
+        },
+        "6fdd16680f042d17": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "806b5dac8dc47532": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "839553c5febea9a2": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "85f18c7ab9b8bbc2": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "86c58a84fa04c3a4": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "92a54e3820fa4697": {
+          "NA": 0,
+          "correct": 1,
+          "decided": 1,
+          "decided_accuracy": 1.0,
+          "expected_game_accuracy": 1.0,
+          "ties": 0,
+          "trials": 1
+        },
+        "acf6c3a6fa5bf754": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        },
+        "e3ae3836e233efa0": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 1,
+          "decided_accuracy": 0.0,
+          "expected_game_accuracy": 0.0,
+          "ties": 0,
+          "trials": 1
+        },
+        "f317295633cd2170": {
+          "NA": 0,
+          "correct": 0,
+          "decided": 0,
+          "decided_accuracy": null,
+          "expected_game_accuracy": 0.5,
+          "ties": 1,
+          "trials": 1
+        }
+      },
+      "comparable_bifolia": 18,
+      "comparable_coverage": 1.0,
+      "correct": 2,
+      "decided": 3,
+      "decided_bifolia": 3,
+      "decided_cluster_bootstrap_95": [
+        0.0,
+        1.0
+      ],
+      "decision_coverage": 0.16666666666666666,
+      "expected_accuracy_ties_half": true,
+      "expected_game_cluster_bootstrap_95": [
+        0.4444444444444444,
+        0.6111111111111112
+      ],
+      "interval_scope": "available_bifolia_and_frozen_models_only",
+      "macro_decided_accuracy": 0.6666666666666666,
+      "macro_expected_game_accuracy": 0.5277777777777778,
+      "planned_eligible_pages": 18,
+      "pooled_decided_accuracy": 0.6666666666666666,
+      "pooled_expected_game_accuracy": 0.5277777777777778,
+      "realized_target_manipulation_fraction": 0.2222222222222222,
+      "status": "MANIPULATION_NOT_REALIZED",
+      "ties": 15,
+      "trials": 18,
+      "used_for_gate": false
+    }
+  },
+  "export_hash": "1663920b37c76553a538acd54c1259f16e8fc1d3a640b3c09849beeebd9aa6a4",
+  "full_comparison_started": false,
+  "independent_review_required": true,
+  "model_set_hash": "61238cf467871ac13ab9374e2da23ae8a3ad215ea960029e6c8507e065efaf79",
+  "promotion": null,
+  "schema_version": 1,
+  "sha256": "e27d661a105a358e509d32f2aa6457a709271a8956a6d21a95b8403209aa3a9b",
+  "status": "NOT_PASSED"
+}

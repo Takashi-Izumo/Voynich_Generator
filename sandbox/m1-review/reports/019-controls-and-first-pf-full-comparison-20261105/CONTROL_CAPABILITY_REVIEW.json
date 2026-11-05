@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "status": "CAPABILITY_NOT_VERIFIED",
+  "comparison_plan_hash": "262097f1db82c4c53c2f2b8ebf84ddee227c8ebd2264fb3f56ab02a42f131c17",
+  "model_set_hash": "61238cf467871ac13ab9374e2da23ae8a3ad215ea960029e6c8507e065efaf79",
+  "required_channels": [
+    "ATOM.PARA_END/length_width",
+    "ATOM.PARA_END/terminal",
+    "ATOM.PARA_END/space_T_H1"
+  ],
+  "channel_results": {
+    "ATOM.PARA_END/length_width": {
+      "status": "INSUFFICIENT_CAPABILITY",
+      "accuracy": 0.4722222222222222,
+      "realized_fraction": 0.9444444444444444,
+      "comparable_bifolia": 18,
+      "planned_pages": 18,
+      "NA": 0,
+      "bootstrap_95": [
+        0.3888888888888889,
+        0.5555555555555556
+      ]
+    },
+    "ATOM.PARA_END/terminal": {
+      "status": "MANIPULATION_NOT_REALIZED",
+      "accuracy": 0.4722222222222222,
+      "realized_fraction": 0.3333333333333333,
+      "comparable_bifolia": 18,
+      "planned_pages": 18,
+      "NA": 0,
+      "bootstrap_95": [
+        0.3611111111111111,
+        0.5833333333333334
+      ]
+    },
+    "ATOM.PARA_END/space_T_H1": {
+      "status": "MANIPULATION_NOT_REALIZED",
+      "accuracy": 0.5882352941176471,
+      "realized_fraction": 0.47058823529411764,
+      "comparable_bifolia": 17,
+      "planned_pages": 17,
+      "NA": 0,
+      "bootstrap_95": [
+        0.4411764705882353,
+        0.7352941176470589
+      ]
+    }
+  },
+  "control_plan_hash": "33b7d30a29c3494e4d95fc25fa479df69fa24e10150050f2454d13fb824e3e76",
+  "capability_result_sha256": "97f483b25f2720fbcac490e81787b724c4ad8d0cf407382b3053bd24bf56dfb1",
+  "prediction_order_sha256": "c371f7e566d5b74fbac6dbd9bb50aaed9543e415cc988202e4c29757622a5727",
+  "cli_defect_disclosed": true,
+  "main_execution_is_separately_registered_descriptive_study": true
+}

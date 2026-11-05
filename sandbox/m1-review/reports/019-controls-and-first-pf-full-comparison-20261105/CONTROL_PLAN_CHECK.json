@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "smoke_plan_hash": "37bf96f5fae1efe46ff1342f0755b35d0924411d47591460bb9d6df810743135",
+  "full_control_plan_hash": "33b7d30a29c3494e4d95fc25fa479df69fa24e10150050f2454d13fb824e3e76",
+  "fresh_fits_equal_shared": true,
+  "proxy_training": "external16 x4, test4/known3 excluded",
+  "all_probabilities_positive_normalized": true
+}

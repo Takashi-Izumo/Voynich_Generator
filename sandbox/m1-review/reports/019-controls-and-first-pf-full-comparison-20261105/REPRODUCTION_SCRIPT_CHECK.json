@@ -1,0 +1,10 @@
+{
+  "status": "PASS_EXPECTED_ORIGINAL_ASSERTION_REPRODUCED",
+  "returncode": 1,
+  "arm": "PF_GATE_LENGTH",
+  "bif": "A:3",
+  "run": 91711,
+  "wall_seconds": 26.13438990600116,
+  "source_modified": false,
+  "partial_comparison_continued": false
+}

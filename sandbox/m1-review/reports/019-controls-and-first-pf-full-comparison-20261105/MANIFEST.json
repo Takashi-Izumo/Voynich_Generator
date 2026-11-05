@@ -1,0 +1,174 @@
+{
+  "status": "FINAL_REPORT_COMPLETE_MAIN_COMPARISON_INCOMPLETE",
+  "main_status": "FAILED_GENERATOR_INVARIANT_421_OF_800",
+  "control_status": "COMPLETED_106_CASES_CAPABILITY_NOT_VERIFIED",
+  "reviewed_source_commit": "2bd72160cb61d994e873c48d09a7dfca72b3375b",
+  "prior_failure_report_commit": "740ec25c281160b3f7aa2414723c2618fd4cb663",
+  "files": [
+    {
+      "path": "CONTROL_ALL_JUDGES.csv",
+      "bytes": 93349,
+      "sha256": "4867532aad37a70f5e06d238475543223014e856417063ccc5dd2a719e5a1502"
+    },
+    {
+      "path": "CONTROL_CAL_TIE_DIAGNOSTICS.json",
+      "bytes": 4794,
+      "sha256": "7aa70cf1d1a640f1e722097764a29ea4258d40e18dd412f14ec82550b8be4248"
+    },
+    {
+      "path": "CONTROL_CAPABILITY_RESULTS.json",
+      "bytes": 47926,
+      "sha256": "97f483b25f2720fbcac490e81787b724c4ad8d0cf407382b3053bd24bf56dfb1"
+    },
+    {
+      "path": "CONTROL_CAPABILITY_REVIEW.json",
+      "bytes": 1781,
+      "sha256": "912fab4941813ce3ebe0d9dde45e1e81ed006a188cec8c2accfc0677d4d45fbb"
+    },
+    {
+      "path": "CONTROL_CLI_DEFECT.json",
+      "bytes": 479,
+      "sha256": "833ca51a37f11552e8d492567c4053d7804365856177d5a95c96d2919268db77"
+    },
+    {
+      "path": "CONTROL_EXECUTION.json",
+      "bytes": 2795,
+      "sha256": "8f4f83c4287206eb2b28ac3a04b0fd873c2222e4ef5d79aaea05f7756b7dc392"
+    },
+    {
+      "path": "CONTROL_EXPORT_MANIFEST.json",
+      "bytes": 2462,
+      "sha256": "bbd929c4a2d5beb092cc081d0af7fb88eb74c1f292c33bff0719df0447e24b98"
+    },
+    {
+      "path": "CONTROL_FULL_AUDIT.json",
+      "bytes": 4723,
+      "sha256": "06df22644804bd29799135a49cfcc8fc8828d592781a05ba51c62c6dc5e9fca7"
+    },
+    {
+      "path": "CONTROL_INDEPENDENT_RECOMPUTATION.json",
+      "bytes": 2264,
+      "sha256": "3257ecd547c8fadc4459f0a4141727749843d90f0b897fc5b67215e867840841"
+    },
+    {
+      "path": "CONTROL_LENGTH_WIDTH_SATURATION.json",
+      "bytes": 7190,
+      "sha256": "bc51a979f35d271d88c773381432ab69ca1571a2850a4c264cdb4a31181f162c"
+    },
+    {
+      "path": "CONTROL_MECHANISM_REVIEW.json",
+      "bytes": 662,
+      "sha256": "aee505d555d72b9cfa3e7cf1868292df842318b5d34c2a95ee8732566dda5020"
+    },
+    {
+      "path": "CONTROL_NEGATIVE_PROBES.json",
+      "bytes": 4278,
+      "sha256": "f81eeb440f9c249aa85be20d3b188e2ef332ec1e23747aaa10f27e205b3f9882"
+    },
+    {
+      "path": "CONTROL_PLAN_CHECK.json",
+      "bytes": 352,
+      "sha256": "9502214f76dc3237d1fcb108a49572df193c9b6b3477d99976edc3d92be557ca"
+    },
+    {
+      "path": "CONTROL_PREDICTION_ORDER.json",
+      "bytes": 1247,
+      "sha256": "c371f7e566d5b74fbac6dbd9bb50aaed9543e415cc988202e4c29757622a5727"
+    },
+    {
+      "path": "CONTROL_RESULTS.csv",
+      "bytes": 1081,
+      "sha256": "9444739a44070c4a22f93801354402b5deb411467a78d5bde03cdb96217b9e92"
+    },
+    {
+      "path": "CONTROL_SELECTION_COUNTS.json",
+      "bytes": 720,
+      "sha256": "2469077e1a026648f3ced9649b543f033f83e39651baa862e02a5f7c7c5c0886"
+    },
+    {
+      "path": "CONTROL_SMOKE_AUDIT.json",
+      "bytes": 1094,
+      "sha256": "a8aae9856bcc6c60b344b1ae84f072bb27d32057b5bfad93781516db941f33b9"
+    },
+    {
+      "path": "CONTROL_SOURCE_MANIFEST_CHECK.json",
+      "bytes": 111,
+      "sha256": "03a0c80a03f5d51238e491cd2231a8d11c3da606586b4b06da8a17883cb341fa"
+    },
+    {
+      "path": "DESCRIPTIVE_EXECUTION.json",
+      "bytes": 1371,
+      "sha256": "554836c12815b4c1007c41ead6fbe61841d6c8ffaff9fe03da51d5555ae443e4"
+    },
+    {
+      "path": "EXECUTION_AMENDMENT.md",
+      "bytes": 2680,
+      "sha256": "94c50f0f8c71c8f36cc371bf01423885b3c74c4a9556a8d0c87ebc91d05f6083"
+    },
+    {
+      "path": "FAILURE_MANIFEST.json",
+      "bytes": 1150,
+      "sha256": "20a51c691ea28e7eed596bb0670706a379ff93838b0e9c117fa3a32cf2fe6495"
+    },
+    {
+      "path": "FAILURE_REPORT.md",
+      "bytes": 4987,
+      "sha256": "743f6f874e33f914286f2c68ea8bcd59d03cef2ebcaffeab91d66678b552b666"
+    },
+    {
+      "path": "GENERATOR_FAILURE.json",
+      "bytes": 2215,
+      "sha256": "01f3ecac3dc80d0ca83ba3c402ef6a313004f97faec093c91981aa26cad4c88c"
+    },
+    {
+      "path": "MAIN_FAILURE_SUMMARY.json",
+      "bytes": 1142,
+      "sha256": "872c06af425b77e6da1a6900e485dfc722808f4e13fe9e4bec2a7a99b488e9a0"
+    },
+    {
+      "path": "PARTIAL_EXECUTION.csv",
+      "bytes": 37305,
+      "sha256": "6a20d55aabe449c4070f1cff4124180bcb1f8f4a7b53621fc0e92fdc032c39e5"
+    },
+    {
+      "path": "REGISTRATION_MANIFEST.json",
+      "bytes": 685,
+      "sha256": "3383db7e2fed43a133f7332a04e53c96339a70d02eafbf123fa3918eae6e5133"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 9203,
+      "sha256": "3334d18b529d02168967787de7a4f442e5e6ffd47ca2290836ebb00678e6ca32"
+    },
+    {
+      "path": "REPRODUCTION_SCRIPT_CHECK.json",
+      "bytes": 246,
+      "sha256": "c803fd57b32ab01c7dc378a34cb0d78248a85042493f9e5e66c62d0e66a471db"
+    },
+    {
+      "path": "STUDY_RESULT.json",
+      "bytes": 1953,
+      "sha256": "7acac159adbc0b605078a9d325a4a488a1020395f1c0875b93543f6ccb636671"
+    },
+    {
+      "path": "main-failure-traceback.log",
+      "bytes": 890,
+      "sha256": "f4658f7162bdb322efec676005848e3299f18c75ab1063da1386df9d6f26b701"
+    },
+    {
+      "path": "reproduce_failure.py",
+      "bytes": 1228,
+      "sha256": "bb9c0c274800e47b8e207e751aec40112965a6a993e8d0362487bfef6cb54878"
+    },
+    {
+      "path": "reproduction-script-check.log",
+      "bytes": 1314,
+      "sha256": "55ff0dbad4348ade18f0f00dd185cfbd3badcd78da171b0af0f27bb0e373ab81"
+    },
+    {
+      "path": "run_comparison_descriptive.py",
+      "bytes": 9103,
+      "sha256": "9b0e0d895b027116eb44c992da5124ba1e494fec24cf88507db9c9aca75423c9"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "status": "PASS",
+  "all_six_groups": true,
+  "confidence_intervals_recomputed": true,
+  "bootstrap_replicates": 10000,
+  "bootstrap_rng_seed": 20261104,
+  "groups": {
+    "length_width__far": {
+      "status": "PASS_RECOMPUTATION",
+      "trials": 18,
+      "realized_pages": 17,
+      "comparable_bifolia": 18,
+      "accuracy": 0.4722222222222222,
+      "bootstrap_95": [
+        0.3888888888888889,
+        0.5555555555555556
+      ],
+      "correct": 1,
+      "ties": 15,
+      "NA": 0,
+      "decided": 3
+    },
+    "length_width__near": {
+      "status": "PASS_RECOMPUTATION",
+      "trials": 18,
+      "realized_pages": 13,
+      "comparable_bifolia": 18,
+      "accuracy": 0.5555555555555556,
+      "bootstrap_95": [
+        0.4444444444444444,
+        0.6666666666666666
+      ],
+      "correct": 3,
+      "ties": 14,
+      "NA": 0,
+      "decided": 4
+    },
+    "space_T_H1__far": {
+      "status": "PASS_RECOMPUTATION",
+      "trials": 17,
+      "realized_pages": 8,
+      "comparable_bifolia": 17,
+      "accuracy": 0.5882352941176471,
+      "bootstrap_95": [
+        0.4411764705882353,
+        0.7352941176470589
+      ],
+      "correct": 5,
+      "ties": 10,
+      "NA": 0,
+      "decided": 7
+    },
+    "space_T_H1__near": {
+      "status": "PASS_RECOMPUTATION",
+      "trials": 17,
+      "realized_pages": 8,
+      "comparable_bifolia": 17,
+      "accuracy": 0.5588235294117647,
+      "bootstrap_95": [
+        0.4117647058823529,
+        0.7058823529411765
+      ],
+      "correct": 4,
+      "ties": 11,
+      "NA": 0,
+      "decided": 6
+    },
+    "terminal__far": {
+      "status": "PASS_RECOMPUTATION",
+      "trials": 18,
+      "realized_pages": 6,
+      "comparable_bifolia": 18,
+      "accuracy": 0.4722222222222222,
+      "bootstrap_95": [
+        0.3611111111111111,
+        0.5833333333333334
+      ],
+      "correct": 2,
+      "ties": 13,
+      "NA": 0,
+      "decided": 5
+    },
+    "terminal__near": {
+      "status": "PASS_RECOMPUTATION",
+      "trials": 18,
+      "realized_pages": 4,
+      "comparable_bifolia": 18,
+      "accuracy": 0.5277777777777778,
+      "bootstrap_95": [
+        0.4444444444444444,
+        0.6111111111111112
+      ],
+      "correct": 2,
+      "ties": 15,
+      "NA": 0,
+      "decided": 3
+    }
+  }
+}

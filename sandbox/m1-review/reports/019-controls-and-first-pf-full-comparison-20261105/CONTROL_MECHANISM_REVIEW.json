@@ -1,0 +1,14 @@
+{
+  "status": "PASS_API_MECHANISM_WITH_CLI_DEFECT",
+  "reviewed_commit": "2bd72160cb61d994e873c48d09a7dfca72b3375b",
+  "source_inspection_completed": true,
+  "unit_tests": 161,
+  "smoke_observed_base_pages": 3,
+  "smoke_donors": 448,
+  "negative_checks": 20,
+  "cli_defect": "verify-export keyword mismatch; API verified directly",
+  "capability_pass_not_assumed": true,
+  "smoke_ordinary_base_pages": 3,
+  "receipt_label_correction": "The driver receipt mislabeled 3 ordinary BASE pages as reference pages. No REFERENCE arm was generated in this control smoke.",
+  "original_receipt_sha256": "fa59a00e768b75c5cb0fd5a9789183f28d7dd627b01535caea1b47856299ad12"
+}

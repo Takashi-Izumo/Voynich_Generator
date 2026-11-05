@@ -1,0 +1,172 @@
+{
+  "base_full_semantics_state_main_rng_checked": true,
+  "binding": "b581e370ec265feeddc14669a2dadd7c19881e818264953e15d7b7eaa60fd36b",
+  "capability_pass": false,
+  "cases": [
+    {
+      "base_sha256": "85ecd524d9e638cb0a4b7acf335d5bf34027a47a8859c45948dc5c65e1cd382e",
+      "bif": "A:2",
+      "donors": 128,
+      "events": 2,
+      "expected_donors": 128,
+      "selections": 12
+    },
+    {
+      "base_sha256": "a3eac2c02d76edd323e27753d37e7b39fe9fbb62c60a4a635eba8d4d4f9252e5",
+      "bif": "A:3",
+      "donors": 128,
+      "events": 2,
+      "expected_donors": 128,
+      "selections": 6
+    },
+    {
+      "base_sha256": "045211a241b00d32bf6efcfdd787d830cbb1f5c148a545337256670e210073b0",
+      "bif": "A:4",
+      "donors": 64,
+      "events": 1,
+      "expected_donors": 64,
+      "selections": 0
+    },
+    {
+      "base_sha256": "c266d7f894d9ecff8a3ce6bec6c190a4280fdecc1bbb281b42df950d9e71f5d3",
+      "bif": "B:1",
+      "donors": 128,
+      "events": 2,
+      "expected_donors": 128,
+      "selections": 12
+    },
+    {
+      "base_sha256": "08b15b87c1d596d3f9953eb7f7d478ebf153f2dafef52769531eb02f0c0fbe49",
+      "bif": "B:2",
+      "donors": 64,
+      "events": 1,
+      "expected_donors": 64,
+      "selections": 6
+    },
+    {
+      "base_sha256": "e62cc3efaff4d59cfefde012cd8c2c5484417591863fc6a8f05d043654201713",
+      "bif": "B:3",
+      "donors": 64,
+      "events": 1,
+      "expected_donors": 64,
+      "selections": 0
+    },
+    {
+      "base_sha256": "c8ccb2392cb8e1e7b7a4abb29ace3bc21dfd63b65ea8af56afc4d1ed1c2bd141",
+      "bif": "C:1",
+      "donors": 128,
+      "events": 2,
+      "expected_donors": 128,
+      "selections": 12
+    },
+    {
+      "base_sha256": "38c6b87f0ba617152bd65145757c9f99f0aff0b936a8331692d595b69ef41728",
+      "bif": "C:2",
+      "donors": 128,
+      "events": 2,
+      "expected_donors": 128,
+      "selections": 12
+    },
+    {
+      "base_sha256": "5958272f8cd770642486f0ef38f7e58652dc8d053125c978ce7312f9a936f890",
+      "bif": "C:3",
+      "donors": 128,
+      "events": 2,
+      "expected_donors": 128,
+      "selections": 12
+    },
+    {
+      "base_sha256": "6236e7b6bda507b7c2503ffdee143f897d2737d172a488e4e41e9f94207ac096",
+      "bif": "C:4",
+      "donors": 64,
+      "events": 1,
+      "expected_donors": 64,
+      "selections": 6
+    },
+    {
+      "base_sha256": "ce0ec591e8056ac7ca85f468ef1553543fea661caae73dd028f08485f7e5b016",
+      "bif": "D:1",
+      "donors": 128,
+      "events": 2,
+      "expected_donors": 128,
+      "selections": 12
+    },
+    {
+      "base_sha256": "80030a0fd0c5b564ba4a93cb49a0124d96f410fdf22e93b064d96b91d79151ee",
+      "bif": "D:3",
+      "donors": 64,
+      "events": 1,
+      "expected_donors": 64,
+      "selections": 6
+    },
+    {
+      "base_sha256": "4ca9441e6ab7335509bd823a89f3e7f1ee61f30971e83c7be2a22dff4cd45f3d",
+      "bif": "D:4",
+      "donors": 192,
+      "events": 3,
+      "expected_donors": 192,
+      "selections": 6
+    },
+    {
+      "base_sha256": "a93b0116f1fac306a6100557b94af33e01b0b68df7a06b4d0a18d4b2714e728c",
+      "bif": "E:3",
+      "donors": 64,
+      "events": 1,
+      "expected_donors": 64,
+      "selections": 6
+    },
+    {
+      "base_sha256": "cf2124312281e3020d266d7569f247e5fde666756a11a92066bedc227dee9fdc",
+      "bif": "E:4",
+      "donors": 192,
+      "events": 3,
+      "expected_donors": 192,
+      "selections": 16
+    },
+    {
+      "base_sha256": "a456ceb245b51b846cf5a0eb5a8a0f11d874c8f412171040696c1a595940a47d",
+      "bif": "F:2",
+      "donors": 128,
+      "events": 2,
+      "expected_donors": 128,
+      "selections": 4
+    },
+    {
+      "base_sha256": "e807c75a717dacb74c78a94b6e896fc9bf7a6ec6466487adc214046a7c21471a",
+      "bif": "F:4",
+      "donors": 128,
+      "events": 2,
+      "expected_donors": 128,
+      "selections": 12
+    },
+    {
+      "base_sha256": "54f70eaf598a72aa33b6ba8fcb72443c934f9ee8301e903c39046149a0849940",
+      "bif": "G:1",
+      "donors": 192,
+      "events": 3,
+      "expected_donors": 192,
+      "selections": 18
+    },
+    {
+      "base_sha256": "69bb37974ec89f5619331e4cf0554d7e67ce5c40d4348c8594cd1920bd6b8de4",
+      "bif": "G:3",
+      "donors": 64,
+      "events": 1,
+      "expected_donors": 64,
+      "selections": 6
+    },
+    {
+      "base_sha256": "07ea2ddb98d3b9a4aeab8a2b0dc86bd162acf57d9ead9005531925048549baea",
+      "bif": "G:4",
+      "donors": 64,
+      "events": 1,
+      "expected_donors": 64,
+      "selections": 6
+    }
+  ],
+  "fresh_replay_checked": true,
+  "plan_sha256": "33b7d30a29c3494e4d95fc25fa479df69fa24e10150050f2454d13fb824e3e76",
+  "sha256": "28b5fbbe922c06d0575fce076af14a6104da37172ab4d385570a846e980e0e37",
+  "status": "PASS",
+  "support_packing_terminal_plant_violations": 0
+}

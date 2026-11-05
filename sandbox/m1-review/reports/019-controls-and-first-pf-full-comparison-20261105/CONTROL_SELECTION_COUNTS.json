@@ -1,0 +1,32 @@
+{
+  "status": "GENERATED_SELECTION_COUNTS_NOT_CAPABILITY_VERDICT",
+  "control_plan_hash": "33b7d30a29c3494e4d95fc25fa479df69fa24e10150050f2454d13fb824e3e76",
+  "events": 35,
+  "donors": 2240,
+  "groups": {
+    "length_width__far": {
+      "SELECTED": 28,
+      "NO_MATCH_WITHIN_64": 1
+    },
+    "length_width__near": {
+      "SELECTED": 20,
+      "NO_MATCH_WITHIN_64": 9
+    },
+    "space_T_H1__far": {
+      "SELECTED": 9,
+      "NO_MATCH_WITHIN_64": 18
+    },
+    "space_T_H1__near": {
+      "NO_MATCH_WITHIN_64": 15,
+      "SELECTED": 12
+    },
+    "terminal__far": {
+      "SELECTED": 9,
+      "NO_MATCH_WITHIN_64": 20
+    },
+    "terminal__near": {
+      "NO_MATCH_WITHIN_64": 18,
+      "SELECTED": 11
+    }
+  }
+}
