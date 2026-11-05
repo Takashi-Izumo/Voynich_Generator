@@ -6,9 +6,10 @@
 experiments/m1_pf/               # 現在の実装（v2、実ファイル）
 sandbox/m1-review/
   status.json                   # 実装側が管理する現在地
-  requests/002-v2-recheck.md     # 次に行う独立検証
+  requests/002-v2-recheck.md     # 完了した独立再検証の依頼
   reports/001-forwarded-v1.md    # ユーザー経由で届いた旧版の指摘
   reports/<review-id>/...        # 検証側が追加する報告・再現手順
+  responses/                    # 実装側の受領・確認記録
   templates/REVIEW_REPORT.md     # 検証報告のひな形
 ```
 
@@ -42,6 +43,7 @@ git push origin HEAD:refs/heads/sandbox/m1-review
 
 ## 運用範囲
 
-- 本比較とmainへのmergeは保留。検証PASSだけでは自動で解除・昇格しません。
+- M1本比較は別途ユーザーが実行を指示した記述的な開発比較として完了し、報告004と追加診断・提案005を受領しました。現在地は `status.json`、確認内容は `responses/006-full-comparison-and-proposal-review.md` を参照してください。
+- 今回の2候補を現行v22.3の置換として推奨する結果には至っていません。次の候補は設計段階で、新案の実装・生成・採点は未着手です。検証PASSや提案の受領だけでは、自動採用・昇格・mainへのmergeを行いません。
 - クラウド間の自動起動・常駐ポーリングは設定していません。別チャットを開始/再開した時にfetchし、GitHub上の最新依頼・報告を読みます。
 - sandboxは別リポジトリや秘密領域ではなく、同じリポジトリの専用ブランチです。

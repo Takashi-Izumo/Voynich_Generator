@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "branch": "sandbox/m1-review",
-  "phase": "INDEPENDENT_RECHECK_V2_PASSED_AWAITING_COMPARISON_PLAN",
+  "phase": "M1_FULL_COMPARISON_REVIEWED_NO_PROMOTION",
   "current_request": null,
-  "latest_received_report": "sandbox/m1-review/reports/002-independent-v2-20261105/REVIEW.md",
+  "latest_received_report": "sandbox/m1-review/reports/005-post-m1-proposals-20261105/PROPOSAL.md",
   "implementation_manifest": "sandbox/m1-review/implementation_manifest.json",
   "implementation_side_checks": {
     "unit_tests": 27,
@@ -26,11 +26,37 @@
     "v1_r4": "WITHDRAWN_REVIEWER_OVERSIGHT_MECHANICAL_RNG_END_WAS_COMPARED",
     "erratum": "sandbox/m1-review/reports/002-independent-v2-20261105/ERRATUM_V1.md"
   },
-  "full_comparison": "ON_HOLD",
+  "full_comparison": "COMPLETED_DESCRIPTIVE_COMPARISON_REVIEWED",
+  "full_comparison_result": {
+    "report": "sandbox/m1-review/reports/004-full-comparison-20261105/REPORT.md",
+    "report_commit": "e45a708133a0ca1abb8f0753f1594f026d6b8d3d",
+    "report_sha256": "3ff07bac606f16f5dcf33b0f27bbac101a2a978dfd70391fe09ab3bd91e707e2",
+    "plan_hash": "6b185bf56e043efa0180753f63cc15206c7d1b59238a87d4cc85272693a2c4a4",
+    "verified_report_files": 22,
+    "reported_generated_pages": 800,
+    "reported_comparison_pages": 600,
+    "reported_reference_pages": 200,
+    "reported_base_reference_exact_cases": 200,
+    "reported_historical_payloads_exact": 1600,
+    "selected_view_summaries_recomputed": 42,
+    "raw_artifacts_recomputed_in_implementation_cloud": false,
+    "inference": "DESCRIPTIVE_DEVELOPMENT_REUSED_BIFOLIA_FROZEN_MODELS",
+    "replacement_recommended": false
+  },
+  "post_m1_proposal": {
+    "report": "sandbox/m1-review/reports/005-post-m1-proposals-20261105/PROPOSAL.md",
+    "report_commit": "ca49cfb3c63b26c3ede1e67a9c2eba246b5e7c81",
+    "proposal_sha256": "cc8898a356678161b8f2eb85106c425c074258807e978b4869ed9fe2aa06bde6",
+    "verified_report_files": 3,
+    "priority_design_candidate": "PF_SPECIFIC_CLOSING_GATE_AND_END_LENGTH_WIDTH_DISTRIBUTION",
+    "new_candidate_implemented": false,
+    "new_candidate_generated": false,
+    "new_candidate_evaluated": false
+  },
   "main_merge": "REQUIRES_USER_APPROVAL",
   "promotion": null,
   "coordination": "fetch on each resumed task; no automatic cross-chat activation; reviewer appends reports only",
   "last_completed_request": "sandbox/m1-review/requests/002-v2-recheck.md",
-  "next_step": "Agree and freeze the full comparison protocol, capability controls and decision/multiplicity rules before running it.",
-  "latest_implementation_response": "sandbox/m1-review/responses/003-v2-review-acknowledgement.md"
+  "next_step": "Design isolated PF closing-gate and end-length/width alternatives with held-out bifolia, backoff, state/RNG audit and capability controls; no new candidate has been implemented or run.",
+  "latest_implementation_response": "sandbox/m1-review/responses/006-full-comparison-and-proposal-review.md"
 }
