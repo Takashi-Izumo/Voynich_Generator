@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "design_id": "007-pf-generation-v1",
+  "status": "DESIGN_FOR_REVIEW_NOT_IMPLEMENTED",
+  "base_commit": "c610c2a81e733748e0fb246de89143d6ecda764e",
+  "m1_implementation_snapshot_sha256": "294a7afdc86949e4f774166c449a5415de9573c1e4e57ab6bb94032df57c1504",
+  "proposal_commit": "ca49cfb3c63b26c3ede1e67a9c2eba246b5e7c81",
+  "priority": ["PF_GATE_AND_LENGTH", "PF_EXACT_TERMINAL_SCORE", "PF_SPACE"],
+  "scope": {
+    "raw_para_final": true,
+    "boundary_type": "LINE_END",
+    "minimum_para_line_raw": 2,
+    "generation_gated_on_judge_observation": false
+  },
+  "training": {
+    "source": "parent_strict_line_and_complete_segment_capacity_checks",
+    "bifolia": "FoldContext.complete_train_bifs",
+    "external_complete_bifolia": 16,
+    "exclude_all_outer_test_bifolia": true,
+    "new_law_uses_target_known3": false,
+    "pages_per_external_bifolium": 4,
+    "weighting": "equal_bifolium_rescaled_to_event_count",
+    "hyperparameter_search": false
+  },
+  "gate": {
+    "remaining_width_upper_bounds": [3, 6, 9, null],
+    "model": "binomial_offset_parent_gate_plus_split_gain",
+    "ridge_lambda": 20.0,
+    "empty_bin_offset": 0.0,
+    "split_gain_applied_times": 1
+  },
+  "end_length": {
+    "length_band_upper_bounds": [3, 6, null],
+    "physical_width_band_upper_bounds": [3, 6, 9, null],
+    "ordinary_line_end_prior_mass": 0.5,
+    "pf_shrinkage_mass": 20.0,
+    "gain_bounds": [0.25, 4.0],
+    "acceptance_normalizer": "global_max_gain_over_length_and_width_bins",
+    "max_raw_draws_including_anchor": 32,
+    "fallback": "first_raw_parent_anchor",
+    "application_stage": "raw_pre_map_pre_m_pre_rare",
+    "missing_training_bin_gain": 1.0,
+    "identity_avoids_additional_rng": true,
+    "rare_transform_inside_new_resampling": false,
+    "exact_final_distribution_claim": false
+  },
+  "studies": {
+    "first": ["BASE", "PF_GATE", "PF_GATE_LENGTH"],
+    "second": ["BASE", "PF_E_HALF", "PF_E_ZERO"],
+    "third": ["BASE", "PF_SPACE_HEAD"],
+    "mixed_proposals_in_first_study": false
+  },
+  "terminal_score": {
+    "lambda_E_values": [1.0, 0.5, 0.0],
+    "family_and_width_coefficients_unchanged": true,
+    "new_score_also_used_for_len1_eligibility": true
+  },
+  "space_score": {
+    "first_feature": "visible_previous_terminal_family_to_visible_H1",
+    "coefficient": 0.5,
+    "log_ratio_clip": [-2.0, 2.0],
+    "shrinkage_mass": 20.0,
+    "ordinary_body_prior_mass": 0.5,
+    "single_word_segment_score": 0.0,
+    "cross_plant_or_line": false,
+    "length_pair_in_first_space_arm": false
+  },
+  "mechanism": {
+    "initial_pf_candidates": 2,
+    "len1_extra_candidates_when_original_conditions_hold": 8,
+    "main_rng_continuation": "current_arm_initial_two_candidate_argmax",
+    "rescue_state_and_rng_may_have_different_sources": true,
+    "proposal_ids": "legacy_shared_all_attempts",
+    "estimand": "total_effect_including_downstream_rng_and_state"
+  },
+  "smoke": {
+    "bifolia": ["A:2", "A:3", "G:1"],
+    "runs": [91701],
+    "arms_including_reference": ["BASE", "PF_GATE", "PF_GATE_LENGTH", "REFERENCE"],
+    "orders": ["forward", "reverse"],
+    "generated_pages": 24
+  },
+  "planned_development_comparison": {
+    "bifolia": 20,
+    "runs": [91701, 91702, 91703, 91704, 91705, 91707, 91708, 91709, 91710, 91711],
+    "seeds_are_additional_independent_genuine_pages": false,
+    "primary": "J24.CAL",
+    "local_primary": "ATOM.PARA_END.CAL",
+    "primary_contrasts": [["BASE", "PF_GATE"], ["PF_GATE", "PF_GATE_LENGTH"]],
+    "bootstrap_replicates": 10000,
+    "new_failure_seed_exclusion_or_replacement": false,
+    "execution_plan_sealed": false,
+    "started": false
+  },
+  "frozen_evaluation": {
+    "model_set_hash": "61238cf467871ac13ab9374e2da23ae8a3ad215ea960029e6c8507e065efaf79",
+    "extractor_hash": "5b74ed23eda0cad35377e0786f0c3aa8cc7375a033bb6cdc7ed81b98e343bc37",
+    "protocol_hash": "007d2c9556c5f19a72aa044aa01cf6bf6cbe60f7296e50504112242cf97896f0",
+    "refit": false,
+    "proto_fallback": false
+  },
+  "capability_control_initial_criteria": {
+    "donor_segments_per_pf_event_max": 64,
+    "diagnostic_replay_isolated_from_base_continuation": true,
+    "directions": ["near_vs_base", "base_vs_far"],
+    "donor_selection_uses_judge_score_or_target_truth": false,
+    "minimum_independent_clusters": 10,
+    "minimum_modifiable_coverage": 0.8,
+    "minimum_directional_expected_rank_accuracy": 0.75,
+    "bootstrap_lower_must_exceed": 0.5,
+    "controls_or_results_created": false
+  },
+  "promotion": null,
+  "main_merge_authorized_by_this_design": false
+}

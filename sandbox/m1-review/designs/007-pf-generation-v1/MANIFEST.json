@@ -1,0 +1,40 @@
+{
+  "design_source_commit": "253b37ee692da5b9c0b708ea72e03bde7d825c3f",
+  "files": [
+    {
+      "bytes": 19935,
+      "path": "DESIGN.md",
+      "sha256": "0a02a64e3dac9a21933b1e75012827a4371cdec32499a6ef876cc62d951da78c"
+    },
+    {
+      "bytes": 4534,
+      "path": "DESIGN_CONTRACT.json",
+      "sha256": "e0e37d3f29920dea8c96e2e1d018cbf64bf053ecc9fd178dbacb3d1654d9f6bb"
+    },
+    {
+      "bytes": 5157,
+      "path": "EVALUATION.md",
+      "sha256": "965cd4de45cc0fde34e514dc2a24e7ccbe6ed6e355532d070f2031f1bf3ad31a"
+    },
+    {
+      "bytes": 8718,
+      "path": "SOURCE_AUDIT.json",
+      "sha256": "4f25cad2dce1a9eccfa8225c7c1add8778da8f1d1cca4af8e0fe3e9b4f7be306"
+    },
+    {
+      "bytes": 4940,
+      "path": "source_audit.py",
+      "sha256": "b00b44eb9839cfa644890d940981dd4cded11d2db54835bcfeb644452532fd75"
+    }
+  ],
+  "new_candidate_generated": false,
+  "new_candidate_implemented": false,
+  "promotion": null,
+  "proposal_commit": "ca49cfb3c63b26c3ede1e67a9c2eba246b5e7c81",
+  "purpose": "Design evaluation and read-only source audit; not an execution plan or implementation PASS",
+  "review_request": {
+    "path": "sandbox/m1-review/requests/008-pf-design-review.md",
+    "sha256": "96de47a1a4fee74cf3ada5f8d6da19244dd5462007b1cd7c7fb46f0a1635bfbe"
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,336 @@
+{
+  "limitations": [
+    "Counts overlap between outer folds and are not independent samples.",
+    "Training counts use parent strict_line, not the evaluation target-only mask.",
+    "The corpus was already used for development; this is not independent confirmation."
+  ],
+  "new_generation": false,
+  "new_judge_prediction_or_scoring": false,
+  "new_parameter_fit": false,
+  "outer_folds": [
+    {
+      "excluded_bifolia": [
+        "A:2",
+        "B:3",
+        "D:1",
+        "F:2"
+      ],
+      "ordinary_line_end_prior_events": 422,
+      "outer_fold": 0,
+      "pf_end_roles": {
+        "BODY": 81,
+        "HEAD": 1,
+        "W2": 14
+      },
+      "pf_length_band_counts": {
+        "1-3": 24,
+        "4-6": 60,
+        "7+": 12
+      },
+      "pf_physical_width_counts": {
+        "1": 1,
+        "2": 5,
+        "3": 5,
+        "4": 7,
+        "5": 25,
+        "6": 18,
+        "7": 17,
+        "8": 10,
+        "9": 4,
+        "10": 1,
+        "11": 3
+      },
+      "pf_segments": 96,
+      "pf_training_bifolia_with_events": 16,
+      "pf_word_starts": 411,
+      "training_bifolia": [
+        "A:3",
+        "A:4",
+        "B:1",
+        "B:2",
+        "C:1",
+        "C:2",
+        "C:3",
+        "C:4",
+        "D:3",
+        "D:4",
+        "E:3",
+        "E:4",
+        "F:4",
+        "G:1",
+        "G:3",
+        "G:4"
+      ]
+    },
+    {
+      "excluded_bifolia": [
+        "A:3",
+        "C:1",
+        "D:3",
+        "F:4"
+      ],
+      "ordinary_line_end_prior_events": 390,
+      "outer_fold": 1,
+      "pf_end_roles": {
+        "BODY": 81,
+        "HEAD": 1,
+        "W2": 12
+      },
+      "pf_length_band_counts": {
+        "1-3": 23,
+        "4-6": 58,
+        "7+": 13
+      },
+      "pf_physical_width_counts": {
+        "1": 1,
+        "2": 5,
+        "3": 3,
+        "4": 6,
+        "5": 27,
+        "6": 18,
+        "7": 18,
+        "8": 10,
+        "9": 3,
+        "10": 1,
+        "11": 2
+      },
+      "pf_segments": 94,
+      "pf_training_bifolia_with_events": 16,
+      "pf_word_starts": 381,
+      "training_bifolia": [
+        "A:2",
+        "A:4",
+        "B:1",
+        "B:2",
+        "B:3",
+        "C:2",
+        "C:3",
+        "C:4",
+        "D:1",
+        "D:4",
+        "E:3",
+        "E:4",
+        "F:2",
+        "G:1",
+        "G:3",
+        "G:4"
+      ]
+    },
+    {
+      "excluded_bifolia": [
+        "A:4",
+        "C:2",
+        "D:4",
+        "G:1"
+      ],
+      "ordinary_line_end_prior_events": 414,
+      "outer_fold": 2,
+      "pf_end_roles": {
+        "BODY": 82,
+        "HEAD": 1,
+        "W2": 13
+      },
+      "pf_length_band_counts": {
+        "1-3": 27,
+        "4-6": 57,
+        "7+": 12
+      },
+      "pf_physical_width_counts": {
+        "2": 6,
+        "3": 8,
+        "4": 7,
+        "5": 23,
+        "6": 15,
+        "7": 21,
+        "8": 9,
+        "9": 3,
+        "10": 2,
+        "11": 2
+      },
+      "pf_segments": 96,
+      "pf_training_bifolia_with_events": 16,
+      "pf_word_starts": 395,
+      "training_bifolia": [
+        "A:2",
+        "A:3",
+        "B:1",
+        "B:2",
+        "B:3",
+        "C:1",
+        "C:3",
+        "C:4",
+        "D:1",
+        "D:3",
+        "E:3",
+        "E:4",
+        "F:2",
+        "F:4",
+        "G:3",
+        "G:4"
+      ]
+    },
+    {
+      "excluded_bifolia": [
+        "B:1",
+        "C:3",
+        "E:3",
+        "G:3"
+      ],
+      "ordinary_line_end_prior_events": 396,
+      "outer_fold": 3,
+      "pf_end_roles": {
+        "BODY": 85,
+        "HEAD": 1,
+        "W2": 12
+      },
+      "pf_length_band_counts": {
+        "1-3": 28,
+        "4-6": 60,
+        "7+": 10
+      },
+      "pf_physical_width_counts": {
+        "1": 1,
+        "2": 5,
+        "3": 8,
+        "4": 5,
+        "5": 26,
+        "6": 16,
+        "7": 20,
+        "8": 9,
+        "9": 3,
+        "10": 2,
+        "11": 3
+      },
+      "pf_segments": 98,
+      "pf_training_bifolia_with_events": 16,
+      "pf_word_starts": 405,
+      "training_bifolia": [
+        "A:2",
+        "A:3",
+        "A:4",
+        "B:2",
+        "B:3",
+        "C:1",
+        "C:2",
+        "C:4",
+        "D:1",
+        "D:3",
+        "D:4",
+        "E:4",
+        "F:2",
+        "F:4",
+        "G:1",
+        "G:4"
+      ]
+    },
+    {
+      "excluded_bifolia": [
+        "B:2",
+        "C:4",
+        "E:4",
+        "G:4"
+      ],
+      "ordinary_line_end_prior_events": 406,
+      "outer_fold": 4,
+      "pf_end_roles": {
+        "BODY": 83,
+        "W2": 13
+      },
+      "pf_length_band_counts": {
+        "1-3": 26,
+        "4-6": 57,
+        "7+": 13
+      },
+      "pf_physical_width_counts": {
+        "1": 1,
+        "2": 3,
+        "3": 8,
+        "4": 7,
+        "5": 23,
+        "6": 17,
+        "7": 20,
+        "8": 10,
+        "9": 3,
+        "10": 2,
+        "11": 2
+      },
+      "pf_segments": 96,
+      "pf_training_bifolia_with_events": 16,
+      "pf_word_starts": 384,
+      "training_bifolia": [
+        "A:2",
+        "A:3",
+        "A:4",
+        "B:1",
+        "B:3",
+        "C:1",
+        "C:2",
+        "C:3",
+        "D:1",
+        "D:3",
+        "D:4",
+        "E:3",
+        "F:2",
+        "F:4",
+        "G:1",
+        "G:3"
+      ]
+    }
+  ],
+  "physical_width_profile": {
+    "a": 1,
+    "cfh": 4,
+    "ch": 2,
+    "ckh": 4,
+    "cph": 4,
+    "cth": 4,
+    "d": 1,
+    "e": 1,
+    "f": 2,
+    "i": 1,
+    "k": 2,
+    "l": 1,
+    "m": 1,
+    "n": 1,
+    "o": 1,
+    "p": 2,
+    "q": 1,
+    "r": 1,
+    "s": 1,
+    "sh": 2,
+    "t": 2,
+    "y": 1
+  },
+  "purpose": "PF proposal design: existing source and training-scope inventory only",
+  "runtime_inputs": {
+    "archives": {
+      "EHC1_E1GLOBAL_FULL_20260911.zip": "cf8ec127ab584a8460c3c02aa4f3a5b2a7f01a328a9b3568f58d6ce0c53c025f",
+      "RMW1_BTI2_EHC2_DECOMP1_PUV_HANDOFF_COMPACT_20260912.zip": "0a3ea22dbe826ca56100de3e185460e6a3b5e804c5b1166069abfc8dd6c04f29"
+    },
+    "files": 15632,
+    "tree_sha256": "defa4df428a64a25358aae4a5c3305d4e31614cfa3c29136eb8359d570cce204"
+  },
+  "schema_version": 1,
+  "source_data_hashes": {
+    "ZL3b-n.txt": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+    "full_segment_schedule.csv": "1e53eb60f6d796ec639cfd8a462a531ae151dffd3d76dfc4c1335f1bf8048001",
+    "full_segment_schedule_tokens.csv": "8988c2f649e515968f4e1bbf27265fdf707c1776f9bdd28dc91bb259e238311f",
+    "observed_tokens_stable.csv": "5063bff8183e54b990065267c12e8cf7b4bcf579cd0d1c75f840bcfc4ee693d7"
+  },
+  "source_hashes": {
+    "HerbalA_v22_3_20260921/model/code/integrated_sampler_v21.py": "89adbc89c2d13fca2ffab751efd2d2f1347f9f705b7fe31d82f18c8af528898e",
+    "HerbalA_v22_3_20260921/model/code/run_v22_3_stage3d.py": "57561f3c70ad278ca52b4822eca6d77ed37325189ee618c9aaf41f29d8790d7f",
+    "HerbalA_v22_3_20260921/model/code/runtime_bootstrap.py": "f9c6cd871f039b52d65f2b243c202a5054055072f58ced295edb21372b526fc4",
+    "HerbalA_v22_3_20260921/model/runtime/EHC1_E1GLOBAL_20260911/inputs/RMW1_BTI2_EHC1_20260911/code/bti2_patch_engine.py": "4a37b9639534ade0c1c4ac427ad4b26f399d32194fe496af0c41825ed92ad7c3",
+    "HerbalA_v22_3_20260921/model/runtime/EHC1_E1GLOBAL_20260911/inputs/RMW1_BTI2_EHC1_20260911/code/bti2_patch_sampler.py": "6b24288f7f3123ca03290aed22066c96819b5b8aac54b999dc6dc9eb98b65a1f",
+    "HerbalA_v22_3_20260921/model/runtime/EHC1_E1GLOBAL_20260911/inputs/RMW1_BTI2_EHC1_20260911/code/entry_fast_sampler.py": "5175f4acbf3d6907f63c6d2b7b70c2c3ebc84d1224b7e09b13166ecc69237ce9",
+    "HerbalA_v22_3_20260921/model/runtime/EHC1_E1GLOBAL_20260911/inputs/RMW1_BTI2_EHC1_20260911/code/fold_context.py": "bb59e3114a8187ae6b9cd5e6ba240e9afdbf17e9ed9d34f1dacb7c82efb29a75",
+    "HerbalA_v22_3_20260921/model/runtime/EHC1_E1GLOBAL_20260911/inputs/RMW1_BTI2_EHC1_20260911/parent/HerbalA_RMW1_BTI2_20260909/parent_SEL42/code/close1_sampler.py": "5241e3c81fc6a5d4257953b8630b16981ba8084595c6535da83871ba116f98d9",
+    "HerbalA_v22_3_20260921/model/runtime/EHC1_E1GLOBAL_20260911/inputs/RMW1_BTI2_EHC1_20260911/parent/HerbalA_RMW1_BTI2_20260909/parent_SEL42/code/sel42_data.py": "7f7ab16bf3f68529a992907db7a9c12d9f4504553e6f5381bbc358944517384b",
+    "HerbalA_v22_3_20260921/model/runtime/EHC1_E1GLOBAL_20260911/inputs/RMW1_BTI2_EHC1_20260911/parent/HerbalA_RMW1_BTI2_20260909/parent_SEL42/code/sel42_selectors.py": "afa1dfd37329d837cc8dc5638f31694879d9ba105953a173469fca6d8eedc5e6",
+    "HerbalA_v22_3_20260921/model/runtime/EHC1_E1GLOBAL_20260911/inputs/RMW1_BTI2_EHC1_20260911/parent/HerbalA_RMW1_BTI2_20260909/parent_SEL42/code/v19r_rb3_pw2_close1.py": "a3bbec6cc2b07f2a8b64192192eb839e640214d727585777738cb7445d85e71c"
+  },
+  "source_pf_segments": 120,
+  "source_pf_segments_capacity_checked": 120,
+  "source_scope": "parent strict_line, pf, complete bifolia; all four pages of external16"
+}

@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "branch": "sandbox/m1-review",
-  "phase": "M1_FULL_COMPARISON_REVIEWED_NO_PROMOTION",
-  "current_request": null,
+  "phase": "POST_M1_PF_DESIGN_READY_FOR_REVIEW",
+  "current_request": "sandbox/m1-review/requests/008-pf-design-review.md",
   "latest_received_report": "sandbox/m1-review/reports/005-post-m1-proposals-20261105/PROPOSAL.md",
   "implementation_manifest": "sandbox/m1-review/implementation_manifest.json",
   "implementation_side_checks": {
@@ -53,10 +53,23 @@
     "new_candidate_generated": false,
     "new_candidate_evaluated": false
   },
+  "pf_design": {
+    "design_id": "007-pf-generation-v1",
+    "evaluation": "sandbox/m1-review/designs/007-pf-generation-v1/EVALUATION.md",
+    "design": "sandbox/m1-review/designs/007-pf-generation-v1/DESIGN.md",
+    "contract": "sandbox/m1-review/designs/007-pf-generation-v1/DESIGN_CONTRACT.json",
+    "source_audit": "sandbox/m1-review/designs/007-pf-generation-v1/SOURCE_AUDIT.json",
+    "manifest": "sandbox/m1-review/designs/007-pf-generation-v1/MANIFEST.json",
+    "status": "DESIGN_FOR_REVIEW_NOT_IMPLEMENTED",
+    "source_capacity_checks": 120,
+    "training_pf_ends_by_outer_fold": [96, 94, 96, 98, 96],
+    "first_study_arms": ["BASE", "PF_GATE", "PF_GATE_LENGTH"],
+    "review_request_scope": "DOCUMENT_REVIEW_ONLY_NO_NEW_FIT_GENERATION_OR_SCORING"
+  },
   "main_merge": "REQUIRES_USER_APPROVAL",
   "promotion": null,
   "coordination": "fetch on each resumed task; no automatic cross-chat activation; reviewer appends reports only",
   "last_completed_request": "sandbox/m1-review/requests/002-v2-recheck.md",
-  "next_step": "Design isolated PF closing-gate and end-length/width alternatives with held-out bifolia, backoff, state/RNG audit and capability controls; no new candidate has been implemented or run.",
+  "next_step": "Review design 007 under request 008, then implement the isolated PF gate/end-length study. This request is document review only; no new model fit, implementation, generation or scoring has started.",
   "latest_implementation_response": "sandbox/m1-review/responses/006-full-comparison-and-proposal-review.md"
 }
