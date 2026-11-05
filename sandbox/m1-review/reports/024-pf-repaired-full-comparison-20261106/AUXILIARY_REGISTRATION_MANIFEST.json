@@ -1,0 +1,123 @@
+{
+  "status": "PROSPECTIVE_AUXILIARY_REGISTRATION_BEFORE_ANY_PREDICTIONS",
+  "generation_source": "43a6895",
+  "previous_registration_commit": "31700ae",
+  "official_audit_status": "FAIL_PRESERVED",
+  "files": [
+    {
+      "path": "AUDIT_SCOPE_FINDING.md",
+      "bytes": 4392,
+      "sha256": "4892710a85628d8f747ccece0373e9f10e35168ec433864dd0004845a13a71f2"
+    },
+    {
+      "path": "AUXILIARY_EXECUTION.json",
+      "bytes": 2109,
+      "sha256": "e3d6e34a14822b6d0aa52923f83bde47d06e8f5b965cabd96923c8f65c28598a"
+    },
+    {
+      "path": "AUXILIARY_PROTOCOL.md",
+      "bytes": 2645,
+      "sha256": "99e97fe4263f57a4edcda76bc331388ca7de749d23977f09ac8737cc74264446"
+    },
+    {
+      "path": "CANONICAL_DIAGNOSTIC.json",
+      "bytes": 249013,
+      "sha256": "bf0739ebf7753d0bf7160db635168c933f915dab0a035f8a2dfbdf6d6c1386fd"
+    },
+    {
+      "path": "DESCRIPTIVE_EXECUTION.json",
+      "bytes": 1645,
+      "sha256": "ce1cfac1b51b99234b74346abb862e5c55bfcdc1fbc781e67db400190d64110c"
+    },
+    {
+      "path": "DRIVER_CHECK.json",
+      "bytes": 489,
+      "sha256": "6ab83de7637998affc86040723b376108767df597d297a21ce73cb5e888e35f6"
+    },
+    {
+      "path": "EXECUTION_CONTRACT.json",
+      "bytes": 2017,
+      "sha256": "8b4f913ae358e9304ce6e7354179cd93e84158dc3c0a23e59f91811521087701"
+    },
+    {
+      "path": "GATE_SPLIT_DIAGNOSTICS.json",
+      "bytes": 8007,
+      "sha256": "d040841b78def3bfc16c6e3d195b0a1e366f4171f30c5335a34c61ad8f22599f"
+    },
+    {
+      "path": "INDEPENDENT_AUDIT_REVIEW.json",
+      "bytes": 249394,
+      "sha256": "2e561c3c39b85b3497fe061ccd9bdaa509dbab8ead47aa904b84715115ec4231"
+    },
+    {
+      "path": "INDEPENDENT_NEGATIVE_CHECKS.json",
+      "bytes": 4950,
+      "sha256": "162820f78986b29d12714495bcdddc2cc7b393c07c313c2beb79cb42dbf03fef"
+    },
+    {
+      "path": "MAIN_CASE_REGRESSION.json",
+      "bytes": 372,
+      "sha256": "5e2a8d663cb3577afe9744711d2f24a9e5bafdd829f7e3b5faaf26c61c64194e"
+    },
+    {
+      "path": "OFFICIAL_AUDIT_FAILURE.json",
+      "bytes": 159,
+      "sha256": "1314a9ca672a478981e9e5113ad166b328aee8415789a48dcfb359b3e91b4a60"
+    },
+    {
+      "path": "PROTOCOL.md",
+      "bytes": 3871,
+      "sha256": "44a6d4b27234c0b16c12bcbf4ab436c6df47d8d4d9803b4d7ffbf7eb44294372"
+    },
+    {
+      "path": "REGISTRATION_MANIFEST.json",
+      "bytes": 1242,
+      "sha256": "7a907f81ea862d6b7d7d5dc1c701a4f34a60b683a5e07edac482f0f1168459df"
+    },
+    {
+      "path": "SPLIT_FALSE_ACCEPT.json",
+      "bytes": 1278,
+      "sha256": "f5925779f9379c8c6a8aebfb776ff058169da59a9981b7ccdb8ca6add5494428"
+    },
+    {
+      "path": "SPLIT_SCHEDULE.json",
+      "bytes": 542,
+      "sha256": "5e483aa8647070b88d3d145b6fe218f1630ce1b1cb11cb2e2828126172d6600a"
+    },
+    {
+      "path": "diagnose_split_audit.py",
+      "bytes": 4266,
+      "sha256": "b199dd876c5fbffe85ccc1e16b7bbda2e2c8e6e7d19c585a99302e0efd3724f2"
+    },
+    {
+      "path": "full-plan/plan.json",
+      "bytes": 97059,
+      "sha256": "3a63c269ec032390d6c0f91a12a7b0c79a3a80ab9cda9777331fb88d47d90474"
+    },
+    {
+      "path": "full-plan/scope_ledger.json",
+      "bytes": 153678,
+      "sha256": "d7caec57a372a6619c82c708b7bf6c707ade69398ffccb40567e2a97c79a72fd"
+    },
+    {
+      "path": "independent_canonical_audit.py",
+      "bytes": 7928,
+      "sha256": "248c49a6a42446b6d3e4bbf9fb9bf248b1457c00878442072c1eb1101a354316"
+    },
+    {
+      "path": "probe_split_false_accept.py",
+      "bytes": 2931,
+      "sha256": "4b41cd1af6de190dcf4ab4455094d2a8098b2025892a3aaffb227ed2dad0fef7"
+    },
+    {
+      "path": "run_auxiliary_comparison.py",
+      "bytes": 8471,
+      "sha256": "538b0828c9920817e4683e5762747391ba6182edd014665a950bb688f10f7d76"
+    },
+    {
+      "path": "run_postprocessing.py",
+      "bytes": 11018,
+      "sha256": "79a00e19c6e9d91238cba0dded269ad52746bc54725f999066d7f2d5709265a8"
+    }
+  ]
+}

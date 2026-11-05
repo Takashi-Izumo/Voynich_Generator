@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "status": "REGISTERED_INDEPENDENT_AUDIT_AUXILIARY_COMPARISON",
+  "registered_at_utc": "2026-11-05T16:46:21.849060+00:00",
+  "source_commit": "43a6895",
+  "generation_registration_commit": "31700ae",
+  "comparison_plan_hash": "5f0e657be62f5541ef16b40737d44f86bca70cdf990985154693a7fbacb6954a",
+  "model_set_hash": "61238cf467871ac13ab9374e2da23ae8a3ad215ea960029e6c8507e065efaf79",
+  "official_audit_status": "FAIL_PRESERVED",
+  "official_AUDIT_seal_created": false,
+  "independent_audit_review_sha256": "2e561c3c39b85b3497fe061ccd9bdaa509dbab8ead47aa904b84715115ec4231",
+  "generation_binding": {
+    "plan_hash": "5f0e657be62f5541ef16b40737d44f86bca70cdf990985154693a7fbacb6954a",
+    "manifest_sha256": "ba9eb6d2f623a133e1a3472a9337e2f04c57c4260753310be4774249c1dd4fdb",
+    "copied_plan_sha256": "3a63c269ec032390d6c0f91a12a7b0c79a3a80ab9cda9777331fb88d47d90474",
+    "status_sha256": "c18147b3135cad5d3205283b6279846388f5557c4419be963bf91f1d38c2545e"
+  },
+  "auxiliary_driver_sha256": "538b0828c9920817e4683e5762747391ba6182edd014665a950bb688f10f7d76",
+  "independent_review_code_sha256": "248c49a6a42446b6d3e4bbf9fb9bf248b1457c00878442072c1eb1101a354316",
+  "checked_cases": 600,
+  "exact_base_reference_cases": 200,
+  "negative_checks": 29,
+  "changes": "Separate independent release authority using canonical frozen-schedule split predicate; isolated copies of unchanged export/diagnostic code replace only release guard. Product files, generated data and official FAIL remain unchanged.",
+  "unchanged": "All800 generated pages, all600 planned comparisons, laws, cohorts, seeds, masks, genuine source, CAL models/extractor, primary, contrasts, bootstrap and scoring code",
+  "predictions_or_scores_available_at_registration": false,
+  "generated_pages_reused": 800,
+  "old_failed_421_pages_reused": false,
+  "capability_status": "CAPABILITY_NOT_VERIFIED_UNCHANGED",
+  "quality_equivalence_or_promotion_claims": false,
+  "promotion": null,
+  "final_result_label": "Supplemental descriptive comparison via independent native-scope review; not a product-pipeline audit PASS"
+}

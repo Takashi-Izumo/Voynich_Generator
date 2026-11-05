@@ -1,0 +1,42 @@
+{
+  "status": "AUDITOR_FALSE_REJECTION_AND_FALSE_ACCEPT_REPRODUCED",
+  "generation_unchanged": true,
+  "source_unchanged": true,
+  "official_seal_created": false,
+  "results": [
+    {
+      "arm": "PF_GATE",
+      "bif": "D:4",
+      "run": 91701,
+      "status": "FALSE_ACCEPT_REPRODUCED",
+      "correct_original_case_rejected": true,
+      "forged_wrong_gain_case_accepted": true,
+      "changed_gate_rows": 10,
+      "modified_files": [
+        "pfgen_gates.jsonl.gz"
+      ],
+      "unmodified_generated_and_request_evidence": 19,
+      "expected_frozen_engine_split_end": false,
+      "forged_split_end": true,
+      "forged_extra_gain": 0.8,
+      "level": "per-case audit API; no full-run PASS seal issued"
+    },
+    {
+      "arm": "PF_GATE_LENGTH",
+      "bif": "D:4",
+      "run": 91701,
+      "status": "FALSE_ACCEPT_REPRODUCED",
+      "correct_original_case_rejected": true,
+      "forged_wrong_gain_case_accepted": true,
+      "changed_gate_rows": 10,
+      "modified_files": [
+        "pfgen_gates.jsonl.gz"
+      ],
+      "unmodified_generated_and_request_evidence": 19,
+      "expected_frozen_engine_split_end": false,
+      "forged_split_end": true,
+      "forged_extra_gain": 0.8,
+      "level": "per-case audit API; no full-run PASS seal issued"
+    }
+  ]
+}

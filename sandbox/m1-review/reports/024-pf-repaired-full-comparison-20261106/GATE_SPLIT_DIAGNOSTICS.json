@@ -1,0 +1,347 @@
+{
+  "status": "GATE_SPLIT_SCOPE_DISAGREEMENT",
+  "bad_cases": [
+    {
+      "arm": "PF_GATE",
+      "bif": "D:4",
+      "run": 91701,
+      "path": "PF_GATE/run91701/HerbalA_v22_3_PFGEN_PF_GATE/D_4"
+    },
+    {
+      "arm": "PF_GATE",
+      "bif": "D:4",
+      "run": 91702,
+      "path": "PF_GATE/run91702/HerbalA_v22_3_PFGEN_PF_GATE/D_4"
+    },
+    {
+      "arm": "PF_GATE",
+      "bif": "D:4",
+      "run": 91703,
+      "path": "PF_GATE/run91703/HerbalA_v22_3_PFGEN_PF_GATE/D_4"
+    },
+    {
+      "arm": "PF_GATE",
+      "bif": "D:4",
+      "run": 91704,
+      "path": "PF_GATE/run91704/HerbalA_v22_3_PFGEN_PF_GATE/D_4"
+    },
+    {
+      "arm": "PF_GATE",
+      "bif": "D:4",
+      "run": 91705,
+      "path": "PF_GATE/run91705/HerbalA_v22_3_PFGEN_PF_GATE/D_4"
+    },
+    {
+      "arm": "PF_GATE",
+      "bif": "D:4",
+      "run": 91707,
+      "path": "PF_GATE/run91707/HerbalA_v22_3_PFGEN_PF_GATE/D_4"
+    },
+    {
+      "arm": "PF_GATE",
+      "bif": "D:4",
+      "run": 91708,
+      "path": "PF_GATE/run91708/HerbalA_v22_3_PFGEN_PF_GATE/D_4"
+    },
+    {
+      "arm": "PF_GATE",
+      "bif": "D:4",
+      "run": 91709,
+      "path": "PF_GATE/run91709/HerbalA_v22_3_PFGEN_PF_GATE/D_4"
+    },
+    {
+      "arm": "PF_GATE",
+      "bif": "D:4",
+      "run": 91710,
+      "path": "PF_GATE/run91710/HerbalA_v22_3_PFGEN_PF_GATE/D_4"
+    },
+    {
+      "arm": "PF_GATE",
+      "bif": "D:4",
+      "run": 91711,
+      "path": "PF_GATE/run91711/HerbalA_v22_3_PFGEN_PF_GATE/D_4"
+    },
+    {
+      "arm": "PF_GATE_LENGTH",
+      "bif": "D:4",
+      "run": 91701,
+      "path": "PF_GATE_LENGTH/run91701/HerbalA_v22_3_PFGEN_PF_GATE_LENGTH/D_4"
+    },
+    {
+      "arm": "PF_GATE_LENGTH",
+      "bif": "D:4",
+      "run": 91702,
+      "path": "PF_GATE_LENGTH/run91702/HerbalA_v22_3_PFGEN_PF_GATE_LENGTH/D_4"
+    },
+    {
+      "arm": "PF_GATE_LENGTH",
+      "bif": "D:4",
+      "run": 91703,
+      "path": "PF_GATE_LENGTH/run91703/HerbalA_v22_3_PFGEN_PF_GATE_LENGTH/D_4"
+    },
+    {
+      "arm": "PF_GATE_LENGTH",
+      "bif": "D:4",
+      "run": 91704,
+      "path": "PF_GATE_LENGTH/run91704/HerbalA_v22_3_PFGEN_PF_GATE_LENGTH/D_4"
+    },
+    {
+      "arm": "PF_GATE_LENGTH",
+      "bif": "D:4",
+      "run": 91705,
+      "path": "PF_GATE_LENGTH/run91705/HerbalA_v22_3_PFGEN_PF_GATE_LENGTH/D_4"
+    },
+    {
+      "arm": "PF_GATE_LENGTH",
+      "bif": "D:4",
+      "run": 91707,
+      "path": "PF_GATE_LENGTH/run91707/HerbalA_v22_3_PFGEN_PF_GATE_LENGTH/D_4"
+    },
+    {
+      "arm": "PF_GATE_LENGTH",
+      "bif": "D:4",
+      "run": 91708,
+      "path": "PF_GATE_LENGTH/run91708/HerbalA_v22_3_PFGEN_PF_GATE_LENGTH/D_4"
+    },
+    {
+      "arm": "PF_GATE_LENGTH",
+      "bif": "D:4",
+      "run": 91709,
+      "path": "PF_GATE_LENGTH/run91709/HerbalA_v22_3_PFGEN_PF_GATE_LENGTH/D_4"
+    },
+    {
+      "arm": "PF_GATE_LENGTH",
+      "bif": "D:4",
+      "run": 91710,
+      "path": "PF_GATE_LENGTH/run91710/HerbalA_v22_3_PFGEN_PF_GATE_LENGTH/D_4"
+    },
+    {
+      "arm": "PF_GATE_LENGTH",
+      "bif": "D:4",
+      "run": 91711,
+      "path": "PF_GATE_LENGTH/run91711/HerbalA_v22_3_PFGEN_PF_GATE_LENGTH/D_4"
+    }
+  ],
+  "groups": [
+    {
+      "arm": "PF_GATE",
+      "bif": "D:4",
+      "run": 91701,
+      "page": "f29v",
+      "locus": "f29v.9",
+      "segment_id": 2,
+      "trace_split_end": false,
+      "audit_assumes_split_end": true,
+      "gate_rows": 10
+    },
+    {
+      "arm": "PF_GATE",
+      "bif": "D:4",
+      "run": 91702,
+      "page": "f29v",
+      "locus": "f29v.9",
+      "segment_id": 2,
+      "trace_split_end": false,
+      "audit_assumes_split_end": true,
+      "gate_rows": 10
+    },
+    {
+      "arm": "PF_GATE",
+      "bif": "D:4",
+      "run": 91703,
+      "page": "f29v",
+      "locus": "f29v.9",
+      "segment_id": 2,
+      "trace_split_end": false,
+      "audit_assumes_split_end": true,
+      "gate_rows": 10
+    },
+    {
+      "arm": "PF_GATE",
+      "bif": "D:4",
+      "run": 91704,
+      "page": "f29v",
+      "locus": "f29v.9",
+      "segment_id": 2,
+      "trace_split_end": false,
+      "audit_assumes_split_end": true,
+      "gate_rows": 10
+    },
+    {
+      "arm": "PF_GATE",
+      "bif": "D:4",
+      "run": 91705,
+      "page": "f29v",
+      "locus": "f29v.9",
+      "segment_id": 2,
+      "trace_split_end": false,
+      "audit_assumes_split_end": true,
+      "gate_rows": 10
+    },
+    {
+      "arm": "PF_GATE",
+      "bif": "D:4",
+      "run": 91707,
+      "page": "f29v",
+      "locus": "f29v.9",
+      "segment_id": 2,
+      "trace_split_end": false,
+      "audit_assumes_split_end": true,
+      "gate_rows": 10
+    },
+    {
+      "arm": "PF_GATE",
+      "bif": "D:4",
+      "run": 91708,
+      "page": "f29v",
+      "locus": "f29v.9",
+      "segment_id": 2,
+      "trace_split_end": false,
+      "audit_assumes_split_end": true,
+      "gate_rows": 10
+    },
+    {
+      "arm": "PF_GATE",
+      "bif": "D:4",
+      "run": 91709,
+      "page": "f29v",
+      "locus": "f29v.9",
+      "segment_id": 2,
+      "trace_split_end": false,
+      "audit_assumes_split_end": true,
+      "gate_rows": 10
+    },
+    {
+      "arm": "PF_GATE",
+      "bif": "D:4",
+      "run": 91710,
+      "page": "f29v",
+      "locus": "f29v.9",
+      "segment_id": 2,
+      "trace_split_end": false,
+      "audit_assumes_split_end": true,
+      "gate_rows": 11
+    },
+    {
+      "arm": "PF_GATE",
+      "bif": "D:4",
+      "run": 91711,
+      "page": "f29v",
+      "locus": "f29v.9",
+      "segment_id": 2,
+      "trace_split_end": false,
+      "audit_assumes_split_end": true,
+      "gate_rows": 10
+    },
+    {
+      "arm": "PF_GATE_LENGTH",
+      "bif": "D:4",
+      "run": 91701,
+      "page": "f29v",
+      "locus": "f29v.9",
+      "segment_id": 2,
+      "trace_split_end": false,
+      "audit_assumes_split_end": true,
+      "gate_rows": 10
+    },
+    {
+      "arm": "PF_GATE_LENGTH",
+      "bif": "D:4",
+      "run": 91702,
+      "page": "f29v",
+      "locus": "f29v.9",
+      "segment_id": 2,
+      "trace_split_end": false,
+      "audit_assumes_split_end": true,
+      "gate_rows": 10
+    },
+    {
+      "arm": "PF_GATE_LENGTH",
+      "bif": "D:4",
+      "run": 91703,
+      "page": "f29v",
+      "locus": "f29v.9",
+      "segment_id": 2,
+      "trace_split_end": false,
+      "audit_assumes_split_end": true,
+      "gate_rows": 10
+    },
+    {
+      "arm": "PF_GATE_LENGTH",
+      "bif": "D:4",
+      "run": 91704,
+      "page": "f29v",
+      "locus": "f29v.9",
+      "segment_id": 2,
+      "trace_split_end": false,
+      "audit_assumes_split_end": true,
+      "gate_rows": 10
+    },
+    {
+      "arm": "PF_GATE_LENGTH",
+      "bif": "D:4",
+      "run": 91705,
+      "page": "f29v",
+      "locus": "f29v.9",
+      "segment_id": 2,
+      "trace_split_end": false,
+      "audit_assumes_split_end": true,
+      "gate_rows": 10
+    },
+    {
+      "arm": "PF_GATE_LENGTH",
+      "bif": "D:4",
+      "run": 91707,
+      "page": "f29v",
+      "locus": "f29v.9",
+      "segment_id": 2,
+      "trace_split_end": false,
+      "audit_assumes_split_end": true,
+      "gate_rows": 10
+    },
+    {
+      "arm": "PF_GATE_LENGTH",
+      "bif": "D:4",
+      "run": 91708,
+      "page": "f29v",
+      "locus": "f29v.9",
+      "segment_id": 2,
+      "trace_split_end": false,
+      "audit_assumes_split_end": true,
+      "gate_rows": 11
+    },
+    {
+      "arm": "PF_GATE_LENGTH",
+      "bif": "D:4",
+      "run": 91709,
+      "page": "f29v",
+      "locus": "f29v.9",
+      "segment_id": 2,
+      "trace_split_end": false,
+      "audit_assumes_split_end": true,
+      "gate_rows": 10
+    },
+    {
+      "arm": "PF_GATE_LENGTH",
+      "bif": "D:4",
+      "run": 91710,
+      "page": "f29v",
+      "locus": "f29v.9",
+      "segment_id": 2,
+      "trace_split_end": false,
+      "audit_assumes_split_end": true,
+      "gate_rows": 10
+    },
+    {
+      "arm": "PF_GATE_LENGTH",
+      "bif": "D:4",
+      "run": 91711,
+      "page": "f29v",
+      "locus": "f29v.9",
+      "segment_id": 2,
+      "trace_split_end": false,
+      "audit_assumes_split_end": true,
+      "gate_rows": 10
+    }
+  ]
+}

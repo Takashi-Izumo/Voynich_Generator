@@ -1,0 +1,26 @@
+[
+  {
+    "page": "f29v",
+    "locus": "f29v.9",
+    "segment_id": 0,
+    "nsegments": 2,
+    "boundary_type": "PLANT",
+    "segment_capacity": 31,
+    "para": 2,
+    "para_line_raw": 5,
+    "literal_engine_split_end": false,
+    "audit_simplified_split_end": false
+  },
+  {
+    "page": "f29v",
+    "locus": "f29v.9",
+    "segment_id": 2,
+    "nsegments": 2,
+    "boundary_type": "LINE_END",
+    "segment_capacity": 5,
+    "para": 2,
+    "para_line_raw": 5,
+    "literal_engine_split_end": false,
+    "audit_simplified_split_end": true
+  }
+]

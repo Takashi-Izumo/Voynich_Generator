@@ -1,0 +1,181 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "family": "R1",
+      "probe": "00-PF_GATE_LENGTH-erase_all",
+      "rejected": true,
+      "reason": "Missing PF policy rows for candidate window"
+    },
+    {
+      "family": "R1",
+      "probe": "01-PF_GATE_LENGTH-partial_gate",
+      "rejected": true,
+      "reason": "Missing/duplicate/reordered gate query IDs"
+    },
+    {
+      "family": "R1",
+      "probe": "02-PF_GATE_LENGTH-partial_raw",
+      "rejected": true,
+      "reason": "Missing/duplicate/reordered raw call IDs"
+    },
+    {
+      "family": "R1",
+      "probe": "03-PF_GATE_LENGTH-duplicate_gate",
+      "rejected": true,
+      "reason": "Missing/duplicate/reordered gate query IDs"
+    },
+    {
+      "family": "R1",
+      "probe": "04-PF_GATE_LENGTH-duplicate_raw",
+      "rejected": true,
+      "reason": "Missing/duplicate/reordered raw call IDs"
+    },
+    {
+      "family": "R1",
+      "probe": "05-PF_GATE_LENGTH-reorder_raw",
+      "rejected": true,
+      "reason": "Missing/duplicate/reordered raw call IDs"
+    },
+    {
+      "family": "R1",
+      "probe": "06-PF_GATE_LENGTH-partial_inner_draw",
+      "rejected": true,
+      "reason": "Missing/changed inner raw draws or raw receipt"
+    },
+    {
+      "family": "R1",
+      "probe": "07-PF_GATE_LENGTH-erase_request_links",
+      "rejected": true,
+      "reason": "Missing/wrong PF request gate link"
+    },
+    {
+      "family": "R1",
+      "probe": "08-PF_GATE_LENGTH-erase_raw_links_and_windows",
+      "rejected": true,
+      "reason": "Missing/duplicate PF END raw request coverage"
+    },
+    {
+      "family": "R1",
+      "probe": "09-PF_GATE_LENGTH-wrong_request",
+      "rejected": true,
+      "reason": "Raw call/request linkage mismatch"
+    },
+    {
+      "family": "R1",
+      "probe": "10-PF_GATE-erase_gates",
+      "rejected": true,
+      "reason": "Missing PF policy rows for candidate window"
+    },
+    {
+      "family": "R1",
+      "probe": "11-PF_GATE_LENGTH-erase_all-both-orders",
+      "rejected": true,
+      "reason": "Missing PF policy rows for candidate window"
+    },
+    {
+      "family": "R1",
+      "probe": "12-PF_GATE_LENGTH-erase_all-repeat-only",
+      "rejected": true,
+      "reason": "Missing PF policy rows for candidate window"
+    },
+    {
+      "family": "R2",
+      "probe": "candidate-both",
+      "rejected": true,
+      "reason": "Raw call belongs to another candidate context"
+    },
+    {
+      "family": "R2",
+      "probe": "candidate-repeat_only",
+      "rejected": true,
+      "reason": "Raw call belongs to another candidate context"
+    },
+    {
+      "family": "R2",
+      "probe": "candidate-single",
+      "rejected": true,
+      "reason": "Raw call belongs to another candidate context"
+    },
+    {
+      "family": "R2",
+      "probe": "candidate_bool-single",
+      "rejected": true,
+      "reason": "Invalid PF candidate context fields/types"
+    },
+    {
+      "family": "R2",
+      "probe": "candidate_float-single",
+      "rejected": true,
+      "reason": "Invalid PF candidate context fields/types"
+    },
+    {
+      "family": "R2",
+      "probe": "candidate_string-single",
+      "rejected": true,
+      "reason": "Invalid PF candidate context fields/types"
+    },
+    {
+      "family": "R2",
+      "probe": "event-single",
+      "rejected": true,
+      "reason": "Raw call belongs to another candidate context"
+    },
+    {
+      "family": "R2",
+      "probe": "locus-single",
+      "rejected": true,
+      "reason": "Raw call belongs to another candidate context"
+    },
+    {
+      "family": "R2",
+      "probe": "page-single",
+      "rejected": true,
+      "reason": "Raw call belongs to another candidate context"
+    },
+    {
+      "family": "R2",
+      "probe": "segment_id-single",
+      "rejected": true,
+      "reason": "Raw call belongs to another candidate context"
+    },
+    {
+      "family": "R2",
+      "probe": "whole_existing-single",
+      "rejected": true,
+      "reason": "Raw call belongs to another candidate context"
+    },
+    {
+      "family": "TERMINAL",
+      "probe": "forged_commit_chain",
+      "rejected": true,
+      "reason": "Semantic terminal differs from actual committed surface"
+    },
+    {
+      "family": "TERMINAL",
+      "probe": "remove_receipt_zero_count",
+      "rejected": true,
+      "reason": "Missing/out-of-scope terminal precommit receipt"
+    },
+    {
+      "family": "TERMINAL",
+      "probe": "stale_next_request",
+      "rejected": true,
+      "reason": "Next request did not observe the committed visible terminal"
+    },
+    {
+      "family": "NATIVE_SPLIT",
+      "probe": "PF_GATE",
+      "rejected": true,
+      "reason": "Wrong gate trace schema or split scope",
+      "product_auditor_accepts_this_forgery": true
+    },
+    {
+      "family": "NATIVE_SPLIT",
+      "probe": "PF_GATE_LENGTH",
+      "rejected": true,
+      "reason": "Wrong gate trace schema or split scope",
+      "product_auditor_accepts_this_forgery": true
+    }
+  ]
+}

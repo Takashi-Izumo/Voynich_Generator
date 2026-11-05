@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "arm": "PF_GATE_LENGTH",
+  "bif": "A:3",
+  "run": 91711,
+  "proposal_id": 630,
+  "next_request": 631,
+  "semantic_terminal": 12,
+  "next_request_terminal": 12,
+  "independent_smoke_full_semantics_state_actual_rng_exact": true,
+  "surface_sha256": "399a300166767b9258228d35f919c990fe61aec104fb18b409a60eee477b2a3d",
+  "raw_words_published": false
+}
