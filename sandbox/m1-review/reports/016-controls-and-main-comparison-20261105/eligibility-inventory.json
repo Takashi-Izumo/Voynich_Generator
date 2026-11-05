@@ -1,0 +1,132 @@
+{
+  "status": "READ_ONLY_ELIGIBILITY_INVENTORY",
+  "corpus_hash": "98023219583a12916e0feafa8fc900aac5b574671bd82a1d68db76ab99005256",
+  "target_pages": 20,
+  "full_pf_events": 29,
+  "full_pf_target_bifolia": 18,
+  "space_pf_events": 27,
+  "space_pf_target_bifolia": 17,
+  "rows": [
+    {
+      "cluster_id": "458f8b84f74e8ae5",
+      "target_slot": 3,
+      "full_pf_events": 2,
+      "full_pf_with_previous_word": 2
+    },
+    {
+      "cluster_id": "6803829d60a4c09f",
+      "target_slot": 3,
+      "full_pf_events": 1,
+      "full_pf_with_previous_word": 1
+    },
+    {
+      "cluster_id": "4d5db508a31fb983",
+      "target_slot": 3,
+      "full_pf_events": 0,
+      "full_pf_with_previous_word": 0
+    },
+    {
+      "cluster_id": "85f18c7ab9b8bbc2",
+      "target_slot": 3,
+      "full_pf_events": 2,
+      "full_pf_with_previous_word": 2
+    },
+    {
+      "cluster_id": "86c58a84fa04c3a4",
+      "target_slot": 3,
+      "full_pf_events": 1,
+      "full_pf_with_previous_word": 1
+    },
+    {
+      "cluster_id": "f652dc894e2cdb8e",
+      "target_slot": 3,
+      "full_pf_events": 0,
+      "full_pf_with_previous_word": 0
+    },
+    {
+      "cluster_id": "e3ae3836e233efa0",
+      "target_slot": 3,
+      "full_pf_events": 2,
+      "full_pf_with_previous_word": 2
+    },
+    {
+      "cluster_id": "1bbd3540da8c0743",
+      "target_slot": 3,
+      "full_pf_events": 2,
+      "full_pf_with_previous_word": 2
+    },
+    {
+      "cluster_id": "1e7e1c70ce7e340a",
+      "target_slot": 3,
+      "full_pf_events": 2,
+      "full_pf_with_previous_word": 2
+    },
+    {
+      "cluster_id": "17d564f7381f47c2",
+      "target_slot": 3,
+      "full_pf_events": 1,
+      "full_pf_with_previous_word": 1
+    },
+    {
+      "cluster_id": "6fdd16680f042d17",
+      "target_slot": 3,
+      "full_pf_events": 2,
+      "full_pf_with_previous_word": 2
+    },
+    {
+      "cluster_id": "f317295633cd2170",
+      "target_slot": 3,
+      "full_pf_events": 1,
+      "full_pf_with_previous_word": 1
+    },
+    {
+      "cluster_id": "67da4f9b61c5c204",
+      "target_slot": 3,
+      "full_pf_events": 1,
+      "full_pf_with_previous_word": 1
+    },
+    {
+      "cluster_id": "92a54e3820fa4697",
+      "target_slot": 3,
+      "full_pf_events": 1,
+      "full_pf_with_previous_word": 1
+    },
+    {
+      "cluster_id": "5e8fb3c84a3c9c80",
+      "target_slot": 3,
+      "full_pf_events": 3,
+      "full_pf_with_previous_word": 2
+    },
+    {
+      "cluster_id": "806b5dac8dc47532",
+      "target_slot": 3,
+      "full_pf_events": 1,
+      "full_pf_with_previous_word": 0
+    },
+    {
+      "cluster_id": "839553c5febea9a2",
+      "target_slot": 3,
+      "full_pf_events": 2,
+      "full_pf_with_previous_word": 2
+    },
+    {
+      "cluster_id": "3f9a177766465c81",
+      "target_slot": 3,
+      "full_pf_events": 3,
+      "full_pf_with_previous_word": 3
+    },
+    {
+      "cluster_id": "acf6c3a6fa5bf754",
+      "target_slot": 3,
+      "full_pf_events": 1,
+      "full_pf_with_previous_word": 1
+    },
+    {
+      "cluster_id": "1dd8c80cacd2e603",
+      "target_slot": 3,
+      "full_pf_events": 1,
+      "full_pf_with_previous_word": 1
+    }
+  ],
+  "capability_predictions_run": false
+}

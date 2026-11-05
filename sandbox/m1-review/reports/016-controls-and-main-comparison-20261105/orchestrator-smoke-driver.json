@@ -1,0 +1,8 @@
+{
+  "capability_review_sha256": null,
+  "cases": 12,
+  "driver_sha256": "211fe068352f9903567bcadf87e3108025101708152a7f3ecbe6e82e33a921e6",
+  "partition": "canonical_jobs[i::workers]",
+  "purpose": "smoke",
+  "workers": 4
+}

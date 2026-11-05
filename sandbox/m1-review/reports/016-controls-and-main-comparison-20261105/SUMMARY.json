@@ -1,0 +1,20 @@
+{
+  "status": "PREPARATION_COMPLETE_AWAITING_IMPLEMENTATION_CHAT",
+  "authorization": "User: 対照・本比較",
+  "source_commit": "20bd3c6f69038ae8f8d5cfb1af406f86922f057f",
+  "comparison_plan_hash": "262097f1db82c4c53c2f2b8ebf84ddee227c8ebd2264fb3f56ab02a42f131c17",
+  "new_plan_fitted": true,
+  "full_comparison_pages": 800,
+  "comparison_pages": 600,
+  "reference_pages": 200,
+  "workers": 4,
+  "orchestrator_smoke_generated_pages": 12,
+  "orchestrator_smoke_audit": "PASS_EXACT_SEMANTIC_STATE_RNG_POLICY",
+  "capability_start_conditions_negative_checks": 3,
+  "control_code_implemented": false,
+  "control_predictions_run": false,
+  "main_comparison_started": false,
+  "external_dependency": "Implementation-side chat must be resumed to implement supported PF replay/controls under IMPLEMENTATION_REQUEST.md; sandbox has no automatic cross-chat activation",
+  "next_verification": "Independent control code/smoke review, then full control assessment, then release main run if all preregistered channel gates pass",
+  "promotion": null
+}

@@ -1,0 +1,63 @@
+{
+  "status": "SEALED_NOT_GENERATED",
+  "source_head": "20bd3c6f69038ae8f8d5cfb1af406f86922f057f",
+  "plan_hash": "262097f1db82c4c53c2f2b8ebf84ddee227c8ebd2264fb3f56ab02a42f131c17",
+  "bifolia": [
+    "A:2",
+    "A:3",
+    "A:4",
+    "B:1",
+    "B:2",
+    "B:3",
+    "C:1",
+    "C:2",
+    "C:3",
+    "C:4",
+    "D:1",
+    "D:3",
+    "D:4",
+    "E:3",
+    "E:4",
+    "F:2",
+    "F:4",
+    "G:1",
+    "G:3",
+    "G:4"
+  ],
+  "runs": [
+    91701,
+    91702,
+    91703,
+    91704,
+    91705,
+    91707,
+    91708,
+    91709,
+    91710,
+    91711
+  ],
+  "arms": [
+    "BASE",
+    "PF_GATE",
+    "PF_GATE_LENGTH"
+  ],
+  "comparison_pages": 600,
+  "reference_pages": 200,
+  "folds": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "pf_training_ends": {
+    "0": 96,
+    "1": 94,
+    "2": 96,
+    "3": 98,
+    "4": 96
+  },
+  "wall_seconds": 46.338965829010704,
+  "full_generation_started": false,
+  "capability_implementation_present": false
+}

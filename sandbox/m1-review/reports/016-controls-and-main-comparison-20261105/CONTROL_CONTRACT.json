@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "status": "IMPLEMENTATION_REQUEST_NOT_CAPABILITY_PASS",
+  "authorization": "User: 対照・本比較",
+  "generator_source_commit": "a6873a2f3af64b423411dc9daeb14fa43879dea3",
+  "independent_pass_commit": "20bd3c6f69038ae8f8d5cfb1af406f86922f057f",
+  "comparison_plan_hash": "262097f1db82c4c53c2f2b8ebf84ddee227c8ebd2264fb3f56ab02a42f131c17",
+  "model_set_hash": "61238cf467871ac13ab9374e2da23ae8a3ad215ea960029e6c8507e065efaf79",
+  "control_seed": 92101,
+  "replay_namespace": "PF_CAPABILITY_REPLAY_20261105_V1",
+  "max_donor_segments_per_pf_event": 64,
+  "complete_bifolia": 20,
+  "target_slot": 3,
+  "reference_training": "external16 complete bifolia, all4 faces; exclude entire outer test4 and target known3 for new proxy tables",
+  "required_channels": [
+    "ATOM.PARA_END/length_width",
+    "ATOM.PARA_END/terminal",
+    "ATOM.PARA_END/space_T_H1"
+  ],
+  "donor_selection": {
+    "proxy_tables": "length3 x visible-width4 joint; terminal22; exact previous-terminal22 to H1 conditional",
+    "shrinkage_mass": 20,
+    "ordinary_prior_mass": 0.5,
+    "directions": [
+      "near",
+      "far"
+    ],
+    "distance": "negative log probability under external16 proxy",
+    "anchor": "BASE generated endpoint, never the genuine target word",
+    "selected_ids_sealed_before_predict": true,
+    "test_judge_scores_used": false,
+    "genuine_target_word_values_used": false
+  },
+  "control_game": {
+    "positive": "unmodified genuine target page",
+    "negative": "same genuine page with preregistered supported PF donor segments substituted",
+    "known3_layout_masks_unchanged": true,
+    "primary_direction": "far",
+    "near_direction": "diagnostic, no universal CAL rank expectation",
+    "independent_truth": "genuine original versus programmatically modified page; not derived from CAL or null stratum"
+  },
+  "gate": {
+    "required": "all three required channels pass, each on far controls",
+    "minimum_contributing_bifolia": 10,
+    "minimum_comparable_page_fraction": 0.8,
+    "minimum_realized_target_manipulation_fraction": 0.8,
+    "minimum_macro_expected_accuracy": 0.6,
+    "cluster_bootstrap_replicates": 10000,
+    "cluster_bootstrap_95_lower_strictly_above": 0.5,
+    "tie": 0.5,
+    "na": "report and exclude only according to frozen observation rules; keep in coverage denominator",
+    "selection_after_predictions": false,
+    "failed_manipulation_status": "MANIPULATION_NOT_REALIZED",
+    "failed_capability_status": "INSUFFICIENT_CAPABILITY",
+    "near_controls_used_to_gate": false
+  },
+  "cal_contract": {
+    "two_sided_null_typicality": true,
+    "raw_nll_order_implies_cal_rank": false,
+    "channel_order_implies_J24_order": false,
+    "legacy_75_percent_gate_used": false,
+    "refit": false,
+    "proto_fallback": false
+  },
+  "labels_hidden_from_predictor": true,
+  "all_predictions_before_scoring": true,
+  "other_atoms_and_offtarget_features_reported": true,
+  "main_comparison_started": false,
+  "promotion": null
+}

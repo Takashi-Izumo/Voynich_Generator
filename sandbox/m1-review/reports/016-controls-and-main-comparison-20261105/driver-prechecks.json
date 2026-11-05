@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "dry_run": {
+    "plan_hash": "262097f1db82c4c53c2f2b8ebf84ddee227c8ebd2264fb3f56ab02a42f131c17",
+    "cases": 800,
+    "per_worker": [
+      200,
+      200,
+      200,
+      200
+    ],
+    "arms": [
+      "BASE",
+      "PF_GATE",
+      "PF_GATE_LENGTH",
+      "REFERENCE"
+    ],
+    "generation_started": false
+  },
+  "negative_probes": [
+    {
+      "purpose": "main",
+      "status": "REJECTED_AS_EXPECTED",
+      "generation_root_created": false
+    },
+    {
+      "purpose": "smoke",
+      "status": "REJECTED_AS_EXPECTED",
+      "generation_root_created": false
+    },
+    {
+      "purpose": "main_with_actual_pending_review",
+      "status": "REJECTED_AS_EXPECTED",
+      "generation_root_created": false
+    }
+  ]
+}

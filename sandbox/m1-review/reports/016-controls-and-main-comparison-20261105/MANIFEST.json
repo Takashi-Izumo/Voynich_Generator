@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "source_commit": "20bd3c6f69038ae8f8d5cfb1af406f86922f057f",
+  "purpose": "Control implementation handoff and sealed main-comparison preparation; no capability PASS or main-generation claim",
+  "files": [
+    {
+      "path": "CAPABILITY_REVIEW.pending.json",
+      "bytes": 599,
+      "sha256": "25fe5cb53843828560f25174c55753d863035ee8e609e1ef3180058b88ac3c0d"
+    },
+    {
+      "path": "CONTROL_CONTRACT.json",
+      "bytes": 2983,
+      "sha256": "d4e1162505b883cb6b6a0a6ba635cdb22b382befb8cf6fe14928eca07df8d3e9"
+    },
+    {
+      "path": "EXECUTION_CONTRACT.json",
+      "bytes": 1839,
+      "sha256": "f31eb8ff33e674c129a8d93604a7a907b54057e6e116dd2ab5d2f80365cdc19f"
+    },
+    {
+      "path": "IMPLEMENTATION_REQUEST.md",
+      "bytes": 6413,
+      "sha256": "a1d072ac5cff033a829cde7f5a3e9841121c1b3a32f6fe8b4656ce61c6bce311"
+    },
+    {
+      "path": "MAIN_COMMANDS.md",
+      "bytes": 3999,
+      "sha256": "2057fd6c87bc721180e6de1e81325d1a1179058404bc642f9a394ece79c10d84"
+    },
+    {
+      "path": "PROTOCOL.md",
+      "bytes": 7461,
+      "sha256": "975b4225ab8b9865ad42a00283be0480a24e4d3c2cbbc4aed28e7b8070010fda"
+    },
+    {
+      "path": "SUMMARY.json",
+      "bytes": 1044,
+      "sha256": "20bb8b728aee93fd3b1f5e0521ac61e4aa7f6a9adbfc35fa10a8ee065c858c56"
+    },
+    {
+      "path": "driver-prechecks.json",
+      "bytes": 748,
+      "sha256": "90ea7a1fbf299664b76edfdfdc72663832e601823def84ef7bc6671f97c7efd7"
+    },
+    {
+      "path": "eligibility-inventory.json",
+      "bytes": 3166,
+      "sha256": "bf2129782de870f18c26ccd81bbf4a9461c5d1fbc4be1545354e84febce0621c"
+    },
+    {
+      "path": "full-plan/plan.json",
+      "bytes": 96533,
+      "sha256": "59048b7d1a7e0012ef42eec86be23081c03504d559826728685af2e1c84edb8a"
+    },
+    {
+      "path": "full-plan/scope_ledger.json",
+      "bytes": 153678,
+      "sha256": "d7caec57a372a6619c82c708b7bf6c707ade69398ffccb40567e2a97c79a72fd"
+    },
+    {
+      "path": "orchestrator-smoke-audit.json",
+      "bytes": 8255,
+      "sha256": "d864023c14cdf00a8b7a7508e0b81ef6be398dbc3370ee360de03f3f0f459a3f"
+    },
+    {
+      "path": "orchestrator-smoke-driver.json",
+      "bytes": 224,
+      "sha256": "21e074dc45ba1683f3981a8cafc1d0dec36464d8efce6e2ead1e4143f69998b5"
+    },
+    {
+      "path": "preparation.json",
+      "bytes": 941,
+      "sha256": "469b35898ccf8b21ae6c5bade12bcff4d8494d0caccbe2db3b29332a2c2952dd"
+    },
+    {
+      "path": "run_comparison.py",
+      "bytes": 7736,
+      "sha256": "211fe068352f9903567bcadf87e3108025101708152a7f3ecbe6e82e33a921e6"
+    }
+  ],
+  "contains_raw_pages": false,
+  "contains_answer_keys": false,
+  "contains_parent_archives": false
+}

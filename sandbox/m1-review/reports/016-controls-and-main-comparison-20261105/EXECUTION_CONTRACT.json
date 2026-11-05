@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "status": "SEALED_AWAITING_CAPABILITY_REVIEW",
+  "authorization": "User: 対照・本比較",
+  "comparison_plan_hash": "262097f1db82c4c53c2f2b8ebf84ddee227c8ebd2264fb3f56ab02a42f131c17",
+  "arms": [
+    "BASE",
+    "PF_GATE",
+    "PF_GATE_LENGTH"
+  ],
+  "contrasts": [
+    [
+      "BASE",
+      "PF_GATE"
+    ],
+    [
+      "PF_GATE",
+      "PF_GATE_LENGTH"
+    ]
+  ],
+  "bifolia": [
+    "A:2",
+    "A:3",
+    "A:4",
+    "B:1",
+    "B:2",
+    "B:3",
+    "C:1",
+    "C:2",
+    "C:3",
+    "C:4",
+    "D:1",
+    "D:3",
+    "D:4",
+    "E:3",
+    "E:4",
+    "F:2",
+    "F:4",
+    "G:1",
+    "G:3",
+    "G:4"
+  ],
+  "runs": [
+    91701,
+    91702,
+    91703,
+    91704,
+    91705,
+    91707,
+    91708,
+    91709,
+    91710,
+    91711
+  ],
+  "comparison_pages": 600,
+  "reference_pages": 200,
+  "total_pages": 800,
+  "workers": 4,
+  "numba_threads": 2,
+  "model_set_hash": "61238cf467871ac13ab9374e2da23ae8a3ad215ea960029e6c8507e065efaf79",
+  "primary": "J24.CAL",
+  "local_primary": "ATOM.PARA_END.CAL",
+  "prediction_jobs": 4,
+  "bootstrap_replicates": 10000,
+  "inference": "descriptive_development_reused_bifolia_not_fresh_confirmation",
+  "promotion": null,
+  "start_condition": "Independent CAPABILITY_REVIEW.json status PASS_CAPABILITY_REVIEW, matching plan/model and PASS on all required channels",
+  "source_change_policy": "stop and reseal/recheck before generation; no silent parameter or cohort change",
+  "failure_policy": "stop all workers at case boundaries on first failure; preserve partial evidence; no new seed exclusion or replacement",
+  "raw_artifacts_in_git": false,
+  "main_generation_started": false,
+  "driver_sha256": "211fe068352f9903567bcadf87e3108025101708152a7f3ecbe6e82e33a921e6",
+  "driver_smoke_pages": 12,
+  "driver_smoke_audit": "PASS_EXACT_AGAINST_EXISTING_SMOKE_AND_REFERENCE"
+}
