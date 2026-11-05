@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "status": "DESIGN_CORRECTION_NOT_CAPABILITY_PASS",
+  "source_review_commit": "d30c376",
+  "supersedes": [
+    "007-pf-generation-v1/DESIGN.md: universal near > base > far CAL ranking",
+    "007-pf-generation-v1/DESIGN_CONTRACT.json: unconditional capability_control_initial_criteria"
+  ],
+  "raw_nll_order_implies_cal_rank_order": false,
+  "calibration": "1 - 2 * abs(F - 0.5); genuine-null central typicality, both tails low",
+  "separate_checks": ["raw_feature_manipulation", "scalar_calibration_contract", "preregistered_text_capability_controls"],
+  "text_control_expected_order": "central_null > lower_null_tail and central_null > upper_null_tail, only for the actual calibrated descriptor and realized preregistered strata",
+  "donor_selection_uses_test_judge_scores": false,
+  "posthoc_donor_reselection": false,
+  "unrealized_manipulation": "MANIPULATION_NOT_REALIZED_NOT_JUDGE_FAILURE",
+  "raw_feature_distance_equals_judge_descriptor_assumed": false,
+  "automatic_75_percent_gate": false,
+  "capability_control_replay_implemented": false,
+  "frozen_judge_changed": false,
+  "promotion": null
+}

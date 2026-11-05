@@ -1,0 +1,66 @@
+test_all_unknown_document_rejected (test_audit_regressions.AuditRegressionTests.test_all_unknown_document_rejected) ... ok
+test_asymmetric_exclusion_mask_rejected (test_audit_regressions.AuditRegressionTests.test_asymmetric_exclusion_mask_rejected) ... ok
+test_genuine_score_tie_remains_a_valid_contest (test_audit_regressions.AuditRegressionTests.test_genuine_score_tie_remains_a_valid_contest) ... ok
+test_invalid_weight_configs_rejected (test_audit_regressions.AuditRegressionTests.test_invalid_weight_configs_rejected) ... ok
+test_joint_mixture_is_invariant_to_whole_document_replication (test_audit_regressions.AuditRegressionTests.test_joint_mixture_is_invariant_to_whole_document_replication) ... ok
+test_layout_mismatches_rejected (test_audit_regressions.AuditRegressionTests.test_layout_mismatches_rejected) ... ok
+test_local_paragraph_id_names_do_not_change_layout (test_audit_regressions.AuditRegressionTests.test_local_paragraph_id_names_do_not_change_layout) ... ok
+test_mix_joint_before_conditioning_rare_context (test_audit_regressions.AuditRegressionTests.test_mix_joint_before_conditioning_rare_context) ... ok
+test_no_comparable_atoms_rejected_instead_of_random_guess (test_audit_regressions.AuditRegressionTests.test_no_comparable_atoms_rejected_instead_of_random_guess) ... ok
+test_phw_only_weights_change_actual_prediction_delta (test_audit_regressions.AuditRegressionTests.test_phw_only_weights_change_actual_prediction_delta) ... ok
+test_primary_atom_selection_is_applied (test_audit_regressions.AuditRegressionTests.test_primary_atom_selection_is_applied) ... ok
+test_route_persistence_has_a_separate_state_per_pair (test_audit_regressions.AuditRegressionTests.test_route_persistence_has_a_separate_state_per_pair) ... ok
+test_route_sharing_uses_two_page_subsets (test_audit_regressions.AuditRegressionTests.test_route_sharing_uses_two_page_subsets) ... ok
+test_shared_mask_is_allowed (test_audit_regressions.AuditRegressionTests.test_shared_mask_is_allowed) ... ok
+test_weighted_mean_and_available_weight_renormalization (test_audit_regressions.AuditRegressionTests.test_weighted_mean_and_available_weight_renormalization) ... ok
+test_all_views_and_raw_profile (test_panel.PanelTests.test_all_views_and_raw_profile) ... ok
+test_answer_fields_rejected (test_panel.PanelTests.test_answer_fields_rejected) ... ok
+test_atoms_form_a_partition (test_panel.PanelTests.test_atoms_form_a_partition) ... ok
+test_candidate_swap (test_panel.PanelTests.test_candidate_swap) ... ok
+test_conditional_score_is_not_joint_score (test_panel.PanelTests.test_conditional_score_is_not_joint_score) ... ok
+test_empty_is_na (test_panel.PanelTests.test_empty_is_na) ... ok
+test_excluded_line_prevents_false_vertical_adjacency (test_panel.PanelTests.test_excluded_line_prevents_false_vertical_adjacency) ... ok
+test_glyphs_and_unknown (test_panel.PanelTests.test_glyphs_and_unknown) ... ok
+test_informative_primary_swap_and_neutral_ties (test_panel.PanelTests.test_informative_primary_swap_and_neutral_ties) ... ok
+test_invalid_schema_boundaries (test_panel.PanelTests.test_invalid_schema_boundaries) ... ok
+test_known_order (test_panel.PanelTests.test_known_order) ... ok
+test_order_information_reaches_primary_without_random_tie_votes (test_panel.PanelTests.test_order_information_reaches_primary_without_random_tie_votes) ... ok
+test_plant_is_closed_but_not_physical_lf (test_panel.PanelTests.test_plant_is_closed_but_not_physical_lf) ... ok
+test_primary_accuracy_not_margin_sign (test_panel.PanelTests.test_primary_accuracy_not_margin_sign) ... ok
+test_seal_reveal_and_tampering (test_panel.PanelTests.test_seal_reveal_and_tampering) ... ok
+test_single_line_single_word_has_both_flags (test_panel.PanelTests.test_single_line_single_word_has_both_flags) ... ok
+test_unknown_does_not_create_head_or_space (test_panel.PanelTests.test_unknown_does_not_create_head_or_space) ... ok
+test_word_order_is_visible_to_J25 (test_panel.PanelTests.test_word_order_is_visible_to_J25) ... ok
+test_wrong_key_and_duplicate_trial_rejected (test_panel.PanelTests.test_wrong_key_and_duplicate_trial_rejected) ... ok
+test_cal_primary_does_not_silently_fallback (test_v03.V03Tests.test_cal_primary_does_not_silently_fallback) ... ok
+test_control_changes_only_requested_h2_and_preserves_width (test_v03.V03Tests.test_control_changes_only_requested_h2_and_preserves_width) ... ok
+test_exact_unequal_seed_statistics (test_v03.V03Tests.test_exact_unequal_seed_statistics) ... ok
+test_f1lf_is_shared_template_not_candidate_word_count (test_v03.V03Tests.test_f1lf_is_shared_template_not_candidate_word_count) ... ok
+test_genuine_only_fit_and_artifact_binding (test_v03.V03Tests.test_genuine_only_fit_and_artifact_binding) ... FIT 0 conditional_models 16 null_channels 116
+FIT 1 conditional_models 16 null_channels 116
+FIT 2 conditional_models 16 null_channels 116
+FIT 3 conditional_models 16 null_channels 116
+FIT 4 conditional_models 16 null_channels 116
+ok
+test_glyphs_m_retained_and_invalid_rare_rejected (test_v03.V03Tests.test_glyphs_m_retained_and_invalid_rare_rejected) ... ok
+test_grouped_splits_and_holdout_guard (test_v03.V03Tests.test_grouped_splits_and_holdout_guard) ... ok
+test_indexed_one_glyph_relation_matches_exhaustive_search (test_v03.V03Tests.test_indexed_one_glyph_relation_matches_exhaustive_search) ... ok
+test_j08_aggregate_counts_both_short_and_long_endpoints_once (test_v03.V03Tests.test_j08_aggregate_counts_both_short_and_long_endpoints_once) ... ok
+test_j11_lengths_and_support_do_not_require_internal_anchor (test_v03.V03Tests.test_j11_lengths_and_support_do_not_require_internal_anchor) ... ok
+test_no_compression_after_missing_line (test_v03.V03Tests.test_no_compression_after_missing_line) ... ok
+test_parallel_predictions_equal_serial_without_reading_keys (test_v03.V03Tests.test_parallel_predictions_equal_serial_without_reading_keys) ... ok
+test_partial_endpoint_is_not_a_word_or_head (test_v03.V03Tests.test_partial_endpoint_is_not_a_word_or_head) ... ok
+test_plant_resets_connection_not_head (test_v03.V03Tests.test_plant_resets_connection_not_head) ... ok
+test_prediction_cannot_disguise_missing_evidence_as_tie (test_v03.V03Tests.test_prediction_cannot_disguise_missing_evidence_as_tie) ... ok
+test_rank_both_tails_and_calibration_minimum (test_v03.V03Tests.test_rank_both_tails_and_calibration_minimum) ... ok
+test_seal_key_separation_and_tamper_detection (test_v03.V03Tests.test_seal_key_separation_and_tamper_detection) ... ok
+test_shared_modes_and_slot_complement_are_enforced (test_v03.V03Tests.test_shared_modes_and_slot_complement_are_enforced) ... ok
+test_smoothed_conditional_rows_positive_and_normalized (test_v03.V03Tests.test_smoothed_conditional_rows_positive_and_normalized) ... ok
+test_swap_and_reference_order (test_v03.V03Tests.test_swap_and_reference_order) ... ok
+test_tie_not_forced_into_expert_accuracy (test_v03.V03Tests.test_tie_not_forced_into_expert_accuracy) ... ok
+test_unknown_paragraph_does_not_allow_known_paragraph_to_recur (test_v03.V03Tests.test_unknown_paragraph_does_not_allow_known_paragraph_to_recur) ... ok
+
+----------------------------------------------------------------------
+Ran 56 tests in 1.674s
+
+OK

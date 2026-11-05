@@ -1,0 +1,6 @@
+{
+  "audit": "PASS",
+  "original_artifacts_unmodified": true,
+  "same_omission_in_both_orders": true,
+  "status": "UNEXPECTED_ACCEPTANCE"
+}

@@ -5,7 +5,7 @@ from pathlib import Path
 
 from experiments.m1_pf.common import ROOT, PACKAGE, digest, file_hash, frozen_sources, state_hash, write_json
 from experiments.m1_pf.inputs import runtime_inputs
-from . import ARMS, DESIGN
+from . import ARMS, DESIGN, CAPABILITY_ERRATUM
 
 
 def require(condition, reason):
@@ -24,7 +24,7 @@ def implementation_sources():
             'Pinned M1 snapshot changed')
     for path, expected in manifest['files'].items():
         require(file_hash(ROOT / path) == expected, 'Pinned M1 file changed: ' + path)
-    paths = [*Path(__file__).parent.glob('*.py'), ROOT / DESIGN]
+    paths = [*Path(__file__).parent.glob('*.py'), ROOT / DESIGN, ROOT / CAPABILITY_ERRATUM]
     return {**manifest['files'], **{str(p.relative_to(ROOT)): file_hash(p) for p in sorted(paths)}}
 
 

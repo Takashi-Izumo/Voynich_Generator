@@ -18,11 +18,12 @@ def audited(plan_path, generated):
     plan = load_plan(plan_path)
     binding = generation_binding(plan, generated)
     seal = json.loads((Path(generated) / 'AUDIT.json').read_text())
-    require(seal.get('schema_version') == 1 and seal['plan_hash'] == plan['plan_hash']
+    require(seal.get('schema_version') == 2 and seal['plan_hash'] == plan['plan_hash']
             and seal['generation_binding'] == binding and file_hash(seal['report']) == seal['report_sha256'],
             'Missing/changed mechanical audit seal')
     report = json.loads(Path(seal['report']).read_text())
-    require(report.get('schema_version') == 1 and report['plan_hash'] == plan['plan_hash']
+    require(report.get('schema_version') == 2 and report.get('trace_coverage_checked') is True
+            and report['plan_hash'] == plan['plan_hash']
             and report['generation_binding'] == binding and report['status'] == 'PASS'
             and report['base_reference_checked'] and report['base_reference_main_rng_checked'],
             'Evaluation requires a passing mechanical audit and exact BASE reference')

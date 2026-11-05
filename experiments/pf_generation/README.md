@@ -8,6 +8,8 @@
 
 gateのsplit gainは原版engineで一度だけ適用します。sampler factoryとrunnerの一時接続は`finally`で復元します。共有coreのSTOP配列や展開runtimeを変更しません。
 
+独立検証010のR1を受け、現在はplan/監査/traceのschema v2です。旧schema v1のplan・PASSは再利用せず、新しいplanで再生成します。生成法則は初版と同じです。[修正と検証](../../sandbox/m1-review/implementation/011-pf-tracefix-v2/VALIDATION.md)と[能力対照の設計訂正](../../sandbox/m1-review/designs/012-pf-review-corrections/CAPABILITY_CONTROL_ERRATUM.md)を併読してください。
+
 ## 実行
 
 v22.3の親archive・依存関係は既存M1と同じです。Python環境は `/workspace/.venvs/voynich/bin/python`、実行時は `NUMBA_NUM_THREADS=2` と `PYTHONPYCACHEPREFIX=/workspace/voynich-setup/pycache` を使用しています。
@@ -45,6 +47,8 @@ planは新法則、policy、ソース、凍結原版・審判、展開入力tree
 
 `m1_events/m1_candidates`は既存の枝・state・RNG監査契約を継承しています。追加の `pfgen_gates/pfgen_proposals` は全試行を記録し、独立監査で確率・重み・採否・上限・scopeを再計算します。main RNGは各armの初期2候補argmax、採用stateは救済枝の場合もあり、両者を分けて記録します。共有request採番と後続side RNGへの波及を含む総効果です。
 
+v2はPF候補のlegacy要求ID区間から要求を取り出し、gate query IDを照合します。PF ENDでは親Mapの独立した `1 + proposal_draws` 件のraw呼出しを要求し、各call ID・順序・draw数・行digestを要求側receiptと照合します。候補側のcounter区間はpolicy配列の長さから再構築しません。ログ全消去・部分欠落・重複・内側draw欠落を、集計とchecksumを更新しても拒否します。反転側も独立にcoverage監査してから比較します。
+
 ```bash
 python -m unittest discover -s experiments/pf_generation/tests -v
 python -m unittest discover -s experiments/m1_pf/tests -v
@@ -59,8 +63,18 @@ python -m experiments.pf_generation.tests.run_artifact_probes \
   --repeat /path/to/new-run/reverse --output /path/to/new-run/probes
 ```
 
-検証結果と再現記録は [実装側検証記録](../../sandbox/m1-review/implementation/009-pf-generation-v1/VALIDATION.md)を参照してください。通常順/逆順24面、恒等対照12面、実行予算測定12面の計48面は機構smokeであり、48個の独立した真正面ではありません。
+ログ欠落の負例は、正常生成物を変更せず別rootへのコピーだけで検査します。
+
+```bash
+python -m experiments.pf_generation.tests.run_trace_probes \
+  --plan /path/to/new-run/plan/plan.json --generated /path/to/new-run/forward \
+  --repeat /path/to/new-run/reverse --output /path/to/new-run/trace-probes
+```
+
+v2の[実装側検証記録](../../sandbox/m1-review/implementation/011-pf-tracefix-v2/VALIDATION.md)と、初版の[過去の記録](../../sandbox/m1-review/implementation/009-pf-generation-v1/VALIDATION.md)を保存しています。v2は通常順/逆順24面と恒等対照12面の計36面を新たに生成しました。独立した真正面の数ではありません。
 
 ## 次段階
 
 個別末字scoreとSPACE接続は別studyとして設計済みで、このpackageの第1比較には混ぜていません。64枝replayを用いる審判能力対照は未実装で、本比較前の別工程です。全20葉×10seedの新本比較、正式採用、main mergeは今回行っていません。
+
+設計007の「生の負log確率が小さいnearほどCALが高い」という一律の順位規則は訂正済みです。CALは真正nullの中央で高く両裾で低いため、生特徴の操作確認、校正変換の契約、実テキストの能力対照を分けます。旧75%能力基準を無条件に適用しません。

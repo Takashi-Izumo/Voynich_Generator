@@ -6,12 +6,12 @@ import inspect
 from pathlib import Path
 
 from experiments.m1_pf.runtime import Runtime as FrozenRuntime, GENERATION_LOCK
-from . import ARMS
+from . import ARMS, TRACE_SCHEMA
 from .common import digest, file_hash, implementation_sources, require, runtime_inputs, state_hash, write_json
 from .gate import models_view
 from .laws import Law
 from .overlay import Overlay
-from .proposal import Trace, sampler_class
+from .proposal import Trace, sampler_class, request_sampler_class
 
 
 class Runtime(FrozenRuntime):
@@ -38,12 +38,12 @@ class Runtime(FrozenRuntime):
         law, trace = Law.load(payload), Trace()
 
         def prepare_segment(sr, models, event, candidate):
-            trace.context = dict(page=str(sr.page), locus=str(sr.locus), segment_id=int(sr.segment_id),
+            trace.set_context(dict(page=str(sr.page), locus=str(sr.locus), segment_id=int(sr.segment_id),
                                  generator_pf=bool(e.is_pf(sr)), event=event, candidate=candidate,
                                  split_end=bool(int(sr.nsegments) > 1 and int(sr.segment_id) == int(sr.nsegments) - 1
-                                                and str(sr.boundary_type) == 'LINE_END'))
+                                                and str(sr.boundary_type) == 'LINE_END')))
             if arm in ('PF_GATE', 'PF_GATE_LENGTH') and e.is_pf(sr):
-                return models_view(models, law, e.m, trace.context, trace.gates)
+                return models_view(models, law, e.m, trace.context, trace)
             return models
 
         overlay = None if arm == 'REFERENCE' else Overlay(e, arm, prepare_segment)
@@ -60,6 +60,8 @@ class Runtime(FrozenRuntime):
         alpha = float(a.SEL.loc[(fc.fold, bif), 'selected_alpha'])
         try:
             rb.PatchSampler = a.configure(run, bif)
+            if arm in ('PF_GATE', 'PF_GATE_LENGTH'):
+                rb.PatchSampler = request_sampler_class(rb.PatchSampler, trace)
             rb.PatchMapState = a.ParagraphH1PatchMapState
             rb.build_bt_leafex = lambda ref, ext, a0=32.: a.real_build(ref, ext, alpha)
             rb.patch_generate = reference if overlay is None else overlay
@@ -70,6 +72,11 @@ class Runtime(FrozenRuntime):
         finally:
             rb.PatchSampler, rb.PatchMapState, rb.build_bt_leafex, rb.patch_generate, rb.EntryFastSampler = previous
         require(digest(law) == digest(Law.load(payload)), 'Immutable PF law changed')
+        trace.finish_context()
+        if overlay is not None and arm != 'BASE':
+            for candidate in overlay.candidates:
+                candidate['pfgen_trace'] = dict(trace_schema=TRACE_SCHEMA,
+                    **trace.windows[candidate['event'], candidate['candidate']])
         rb.save_result(dest, result, fc, patch, tab)
         if overlay is not None:
             rb.dump_jsonl(dest / 'm1_events.jsonl.gz', overlay.events)
@@ -83,10 +90,10 @@ class Runtime(FrozenRuntime):
                      generation_input_sha256=result[1]['generation_input_sha256'],
                      archives=self.archives, runtime_sources=self.runtime_hashes, runtime_inputs=self.input_snapshot)
         write_json(dest / 'M1_FINAL.json', final)  # Explicit inherited state/RNG contract.
-        write_json(dest / 'PF_GENERATION_FINAL.json', dict(plan_hash=self.plan['plan_hash'],
+        write_json(dest / 'PF_GENERATION_FINAL.json', dict(trace_schema=TRACE_SCHEMA, plan_hash=self.plan['plan_hash'],
                    law_sha256=digest(payload), effective_law_sha256=digest(law), fold=fc.fold,
                    arm=arm, bif=bif, run=run, source_sha256=digest(self.plan['implementation_sources']),
-                   gate_calls=len(trace.gates), proposal_calls=len(trace.proposals),
+                   gate_calls=trace.next_gate_id, proposal_calls=trace.next_raw_id,
                    raw_draws=sum(len(p['draws']) for p in trace.proposals),
                    anchor_fallbacks=sum(p['fallback'] for p in trace.proposals),
                    gate_changed_calls=sum(g['parent_probability'] != g['adapted_probability'] for g in trace.gates),

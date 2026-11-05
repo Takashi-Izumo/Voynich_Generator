@@ -38,6 +38,8 @@ def semantic_case(path):
     for p in path.glob('*.jsonl.gz'):
         if not p.name.startswith(('m1_', 'pfgen_')):
             data[p.name] = read_jsonl(p)
+            if p.name == 'requests.jsonl.gz':
+                data[p.name] = [{k: v for k, v in row.items() if k != 'pfgen'} for row in data[p.name]]
     data['full_final_state_sha256'] = json.loads((path / 'M1_FINAL.json').read_text())['final_state_sha256']
     data['final_main_rng_state'] = final_rng(path)
     return data
@@ -122,12 +124,14 @@ def audit(plan_path, generated, output, repeat=None):
                                 'Identity policy differs from original reference')
                         row['identity_reference_exact'] = True
                     if repeated:
+                        audit_case(repeated[arm, bif, run], arm, plan)
                         require(final_rng(p) == final_rng(repeated[arm, bif, run]), 'Repeat final main RNG differs')
                         require(semantic_case(p) == semantic_case(repeated[arm, bif, run]),
                                 f'Order/repeat contamination: {arm}/{bif}/{run}')
                         require(policy_digest(p) == policy_digest(repeated[arm, bif, run]), 'Repeat PF policy logs differ')
                         row['repeat_exact'] = True
                         row['repeat_main_rng_exact'] = True
+                        row['repeat_policy_coverage_checked'] = True
                     results.append(row)
         ledger = json.loads((Path(plan_path).parent / 'scope_ledger.json').read_text())
         scope = Counter((r['generator_pf'], r['structural_end_atom'], r['judge_atom'], r['judge_observed'],
@@ -135,7 +139,7 @@ def audit(plan_path, generated, output, repeat=None):
         require(generation_binding(plan, generated) == binding, 'Generation changed while auditing')
         if repeat:
             require(generation_binding(plan, repeat) == repeat_binding, 'Repeat generation changed while auditing')
-        report = dict(schema_version=1, status='PASS', plan_hash=plan['plan_hash'], cases=len(results), results=results,
+        report = dict(schema_version=2, trace_coverage_checked=True, status='PASS', plan_hash=plan['plan_hash'], cases=len(results), results=results,
                       generation_binding=binding, repeat_binding=repeat_binding,
                       repeat_root=str(Path(repeat).resolve()) if repeat else None,
                       base_reference_checked=all(r.get('base_reference_exact', False) for r in results if r['arm'] == 'BASE'),
@@ -148,7 +152,7 @@ def audit(plan_path, generated, output, repeat=None):
     except Exception as exc:
         write_json(output / 'report.json', {'status': 'FAIL', 'error': str(exc), 'plan_hash': plan['plan_hash']})
         raise
-    write_json(Path(generated) / 'AUDIT.json', {'schema_version': 1, 'report_sha256': file_hash(output / 'report.json'),
+    write_json(Path(generated) / 'AUDIT.json', {'schema_version': 2, 'report_sha256': file_hash(output / 'report.json'),
                                               'report': str((output / 'report.json').resolve()),
                                               'plan_hash': plan['plan_hash'], 'generation_binding': binding})
     return report

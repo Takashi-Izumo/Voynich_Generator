@@ -9,9 +9,9 @@ from .common import band
 
 
 class GateAdapter:
-    def __init__(self, parent, law, m, context, events):
+    def __init__(self, parent, law, m, context, trace):
         self.parent, self.law, self.m = parent, law, m
-        self.context, self.events = dict(context), events
+        self.context, self.trace = dict(context), trace
 
     def predict_proba(self, x):
         parent = self.parent.predict_proba(x)
@@ -23,14 +23,14 @@ class GateAdapter:
             after = before if theta == 0.0 else self.m.sigmoid(self.m.logit(before) + theta)
             if theta != 0.0:
                 result[i] = (1.0 - after, after)
-            self.events.append(dict(self.context, rstart=r, capacity=capacity, band=band(r),
+            self.trace.register_gate(dict(self.context, rstart=r, capacity=capacity, band=band(r),
                                     parent_probability=before, offset=theta, adapted_probability=after,
                                     engine_probability=(self.m.sigmoid(self.m.logit(after) + math.log(self.m.FINAL_SEG_CLOSE_GAIN))
                                                         if self.context['split_end'] else after)))
         return result
 
 
-def models_view(models, law, m, context, events):
+def models_view(models, law, m, context, trace):
     view = copy(models)
-    view.gate = GateAdapter(models.gate, law, m, context, events)
+    view.gate = GateAdapter(models.gate, law, m, context, trace)
     return view

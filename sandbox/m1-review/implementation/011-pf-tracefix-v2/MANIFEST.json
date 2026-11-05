@@ -1,0 +1,256 @@
+{
+  "contains_answer_keys": false,
+  "contains_parent_archives": false,
+  "contains_raw_generated_pages": false,
+  "files": [
+    {
+      "bytes": 7060,
+      "path": "experiments/pf_generation/README.md",
+      "sha256": "4e2600c8038fe751af6991ae7dc1c248f98c07a1bd562788d6d263d93df9b25e"
+    },
+    {
+      "bytes": 629,
+      "path": "experiments/pf_generation/__init__.py",
+      "sha256": "724f9613e9334543141e5a92c2e4bf961d5ee648614b0cffb6e8a0ec3cfba609"
+    },
+    {
+      "bytes": 2975,
+      "path": "experiments/pf_generation/__main__.py",
+      "sha256": "3cc7f1bf6f64b5a7a3129bf85a4859981dc9991bf18ebcc8b391062085b0ea65"
+    },
+    {
+      "bytes": 8805,
+      "path": "experiments/pf_generation/audit.py",
+      "sha256": "7c99ad687c11c60a8475fae9980fb945a6cc26d63db255a301229eb1f60c989e"
+    },
+    {
+      "bytes": 1302,
+      "path": "experiments/pf_generation/common.py",
+      "sha256": "4591026b9873a59b05d0ecf32fa7dc7d4fc297412ab381c81a3db0906c0ff711"
+    },
+    {
+      "bytes": 3202,
+      "path": "experiments/pf_generation/diagnostics.py",
+      "sha256": "d8213d05a902b331d8a6409b6e8560289d1826b3c73a43a39c9c993c12e7e1c4"
+    },
+    {
+      "bytes": 5731,
+      "path": "experiments/pf_generation/evaluation.py",
+      "sha256": "d6c198a08b63f2b2329579daee78df6a205eb8f74bb1c3103b8f004574682b9e"
+    },
+    {
+      "bytes": 1447,
+      "path": "experiments/pf_generation/gate.py",
+      "sha256": "adb3f87fbcdf81a015c89ddf9368f66422bfb3ebc5be32f44409edde6e7cd14b"
+    },
+    {
+      "bytes": 6604,
+      "path": "experiments/pf_generation/laws.py",
+      "sha256": "a63b8180269d3b119d1cde2f0743d22b625fd468435d912aad0159119959300b"
+    },
+    {
+      "bytes": 12545,
+      "path": "experiments/pf_generation/overlay.py",
+      "sha256": "34ca0d84af9901d3bb82cc4976c31145aa61d613c4fb9ef7080cf91656156519"
+    },
+    {
+      "bytes": 7342,
+      "path": "experiments/pf_generation/plan.py",
+      "sha256": "e506dd41626ef820e7221b67e7dde56923a6aeba2631a27275311b8d31f75c52"
+    },
+    {
+      "bytes": 11823,
+      "path": "experiments/pf_generation/policy_audit.py",
+      "sha256": "b74980751e4c4a08f60d8b518946b53279720d323ee5e4df14d076fe7c10217a"
+    },
+    {
+      "bytes": 5754,
+      "path": "experiments/pf_generation/proposal.py",
+      "sha256": "56947994e96f049fb0a516328d6b27d1ebc53f87428969027640ddf84bc3518a"
+    },
+    {
+      "bytes": 6227,
+      "path": "experiments/pf_generation/runtime.py",
+      "sha256": "198f5ac9aa64ba1020ec74eb91de8ea4aaf6b728ef934a67294e36364ee2c048"
+    },
+    {
+      "bytes": 0,
+      "path": "experiments/pf_generation/tests/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 5299,
+      "path": "experiments/pf_generation/tests/run_artifact_probes.py",
+      "sha256": "a1005b12f9346f4a86f761df8b5fa350fc59dd6a876dfaa9bd65e2f84f5a2e82"
+    },
+    {
+      "bytes": 6336,
+      "path": "experiments/pf_generation/tests/run_trace_probes.py",
+      "sha256": "d63a822176ea9dd12eeaed7b76883d29f297d1fc65648fb492ca28c81a016d8d"
+    },
+    {
+      "bytes": 1114,
+      "path": "experiments/pf_generation/tests/test_calibration_contract.py",
+      "sha256": "1e8b0c8ee7e4707ad9060abe912bbd113e468e8517c2b6b21abe2ed196f421b3"
+    },
+    {
+      "bytes": 6297,
+      "path": "experiments/pf_generation/tests/test_integrity.py",
+      "sha256": "2f9189c2af0bf4b89048e2c6f45d26ca24e89f9d9b0419a9fa123395e18ea332"
+    },
+    {
+      "bytes": 7257,
+      "path": "experiments/pf_generation/tests/test_policy.py",
+      "sha256": "1077d09145c4f52a036f87cfbfcda68cc7a1b4bf4f6571289f37f96d8f816767"
+    },
+    {
+      "bytes": 5908,
+      "path": "experiments/pf_generation/tests/test_trace_coverage.py",
+      "sha256": "dc9135a8115fd6c66e3f5faf4a47c81345fd506a2533266060a496c00d967ae1"
+    },
+    {
+      "bytes": 1131,
+      "path": "sandbox/m1-review/designs/012-pf-review-corrections/CAPABILITY_CONTROL_ERRATUM.json",
+      "sha256": "a427d4d0963c2a5874ce1953c1f24edc83df4ec710f7509b52f27e444d1bc535"
+    },
+    {
+      "bytes": 2989,
+      "path": "sandbox/m1-review/designs/012-pf-review-corrections/CAPABILITY_CONTROL_ERRATUM.md",
+      "sha256": "d6d3fe93b05bbdeab79dfe0b76cce86a9e40a16c1629fc1df3b0cdf58e41d819"
+    },
+    {
+      "bytes": 6488,
+      "path": "sandbox/m1-review/implementation/011-pf-tracefix-v2/VALIDATION.md",
+      "sha256": "b558d9018d158f7d15852498a128191a01d33459b7e55398af135802440c993d"
+    },
+    {
+      "bytes": 1524,
+      "path": "sandbox/m1-review/implementation/011-pf-tracefix-v2/cal-smoke.json",
+      "sha256": "87965453e29ac2ef41a7b461eef9664a46a4b8ecbe1a2abcc73de39d3500f5ea"
+    },
+    {
+      "bytes": 2328,
+      "path": "sandbox/m1-review/implementation/011-pf-tracefix-v2/diagnostics.json",
+      "sha256": "ce39a80011dad08684010e285d666c51b54ecdc94c44506b55a5ca90e85dd77e"
+    },
+    {
+      "bytes": 171,
+      "path": "sandbox/m1-review/implementation/011-pf-tracefix-v2/identity-omission.json",
+      "sha256": "96f280b1641018faaf6b802e0b088f856ae7842e7f86a20d6f5622f7e6f1d21d"
+    },
+    {
+      "bytes": 88101,
+      "path": "sandbox/m1-review/implementation/011-pf-tracefix-v2/identity-plan/plan.json",
+      "sha256": "0147cc89f7d7d1d75db991b88b11fc938667ca81c58f35c9bcec4cd0b5e538be"
+    },
+    {
+      "bytes": 30288,
+      "path": "sandbox/m1-review/implementation/011-pf-tracefix-v2/identity-plan/scope_ledger.json",
+      "sha256": "a01c19bf5681f1d5e48022b1b44a12e31ed580c147f311d5f5de5578bb34105f"
+    },
+    {
+      "bytes": 7189,
+      "path": "sandbox/m1-review/implementation/011-pf-tracefix-v2/identity-report.json",
+      "sha256": "b07739f5adb2d1d88e0141c3c263e10998e8b77e82b9a1038d1c44f76ed838b7"
+    },
+    {
+      "bytes": 8269,
+      "path": "sandbox/m1-review/implementation/011-pf-tracefix-v2/mechanical-report.json",
+      "sha256": "86a6a8f2a9c372545f762c561fb92583a4072e72038af0a3419188cf247a61b7"
+    },
+    {
+      "bytes": 182,
+      "path": "sandbox/m1-review/implementation/011-pf-tracefix-v2/performance.json",
+      "sha256": "96f6f56ea9c9362f02a1307fb69832b873b1d26b5a2953d230afd3fe2e436d52"
+    },
+    {
+      "bytes": 1195,
+      "path": "sandbox/m1-review/implementation/011-pf-tracefix-v2/required-probes.json",
+      "sha256": "3e8865bdc96be7448f54c1fd4c6766c9be48c4a4e4f7abe07128246561be19d6"
+    },
+    {
+      "bytes": 178,
+      "path": "sandbox/m1-review/implementation/011-pf-tracefix-v2/reviewer-exact-after-both-orders.json",
+      "sha256": "ab9820fc4962faa785114b06410f8af3e74d870432fbe68354e72ba0c3d9ba0f"
+    },
+    {
+      "bytes": 534,
+      "path": "sandbox/m1-review/implementation/011-pf-tracefix-v2/reviewer-exact-after.json",
+      "sha256": "82e36b9fa41bbf903b99a4fe704d64968ccb469513838f68032cbb634a4fd8c5"
+    },
+    {
+      "bytes": 140,
+      "path": "sandbox/m1-review/implementation/011-pf-tracefix-v2/reviewer-exact-before-both-orders.json",
+      "sha256": "7da4c476a3bd4962294cad8b57fc84f86e12e627a52452683b4c3866b9c58b6e"
+    },
+    {
+      "bytes": 496,
+      "path": "sandbox/m1-review/implementation/011-pf-tracefix-v2/reviewer-exact-before.json",
+      "sha256": "6083d7f82b38cc76074f95494555737b365bd4a02b01edeea96d84cc33eceeab"
+    },
+    {
+      "bytes": 88804,
+      "path": "sandbox/m1-review/implementation/011-pf-tracefix-v2/study-plan/plan.json",
+      "sha256": "4f4787dc2ffd6e47ebcceb7864f61246ca5beadb7e2a05518db1ec14193a8ef0"
+    },
+    {
+      "bytes": 30288,
+      "path": "sandbox/m1-review/implementation/011-pf-tracefix-v2/study-plan/scope_ledger.json",
+      "sha256": "a01c19bf5681f1d5e48022b1b44a12e31ed580c147f311d5f5de5578bb34105f"
+    },
+    {
+      "bytes": 1380,
+      "path": "sandbox/m1-review/implementation/011-pf-tracefix-v2/summary.json",
+      "sha256": "c14f665dfc55e17d25bae6fada2bfe5f1d665bf19a0cb1ab717a543ee6368497"
+    },
+    {
+      "bytes": 7159,
+      "path": "sandbox/m1-review/implementation/011-pf-tracefix-v2/tests-judges.log",
+      "sha256": "b3038bf9da72c1b187da0605b1d962ed1d713d48d88641998f88795dbb564ed2"
+    },
+    {
+      "bytes": 3692,
+      "path": "sandbox/m1-review/implementation/011-pf-tracefix-v2/tests-m1.log",
+      "sha256": "8d9323bf6666812627e3a8e09d63a1aec336b61dd93ccb838ea699270b833def"
+    },
+    {
+      "bytes": 4974,
+      "path": "sandbox/m1-review/implementation/011-pf-tracefix-v2/tests-pf.log",
+      "sha256": "a0e4cf524c8dd1e8be8dd2958cb6e0f48e105e29432289598f3f998b77caa6cf"
+    },
+    {
+      "bytes": 4038,
+      "path": "sandbox/m1-review/implementation/011-pf-tracefix-v2/trace-probes.json",
+      "sha256": "b5a89466136ff2262de72785a7dfde33917133b916e29288f90dcdd5373744f6"
+    },
+    {
+      "bytes": 1014,
+      "path": "sandbox/m1-review/implementation/011-pf-tracefix-v2/v1-cal-comparison.json",
+      "sha256": "b6ad04992137d6ab11b4a77da6307fd86f9c55ac369dc5ead86c78a5fc701ef2"
+    },
+    {
+      "bytes": 246,
+      "path": "sandbox/m1-review/implementation/011-pf-tracefix-v2/v1-semantics-comparison.json",
+      "sha256": "374a7c2f1efb59d447448108361d9ffebb339b815a34edce88c00291f938ae80"
+    },
+    {
+      "bytes": 2836,
+      "path": "sandbox/m1-review/requests/013-pf-tracefix-recheck.md",
+      "sha256": "0b7ff11b575c800f14170b74ffb083bae6e01962cf2edf5c7c188dc39a0fce04"
+    },
+    {
+      "bytes": 1559,
+      "path": "sandbox/m1-review/responses/011-pf-tracefix-review-response.md",
+      "sha256": "e64679f2aaff6ab2e0462d08cdc175754b36d03d5d9f8de9015b49c91e63c0c8"
+    }
+  ],
+  "frozen_source_sha256": "e4b1d0a0de114d4f1e19aaa07b40e2d10354afd52648352ba2e4140b299d28a6",
+  "implementation_source_sha256": "6768f6ee0351c9f4f217d43650509ca3a8258a095ed15bdcf0b691f6610627e3",
+  "payload_snapshot_sha256": "5575eec5a9d16ff5fe69df3d307b6d28566f2124dec8f5a7eebddb01c14deec2",
+  "prior_implementation_commit": "fd1fa286671962ab768886597a82b167e7dcb52f",
+  "promotion": null,
+  "review_revision": "PF_GENERATION_TRACE_V2_R1_FIX",
+  "schema_version": 1,
+  "source_review_commit": "d30c376bf9ae55c5080290b1b22e050f8cbedd6c",
+  "trace_schema": 2
+}

@@ -6,7 +6,7 @@ from types import SimpleNamespace
 import unittest
 from unittest.mock import patch
 
-from experiments.pf_generation import ARMS, BASE_COMMIT, CONTRASTS, DESIGN, EXTRACTOR_HASH, MODEL_SET_HASH, POLICY, PROTOCOL_HASH
+from experiments.pf_generation import ARMS, BASE_COMMIT, CONTRASTS, DESIGN, CAPABILITY_ERRATUM, EXTRACTOR_HASH, MODEL_SET_HASH, POLICY, PROTOCOL_HASH
 from experiments.pf_generation.common import ROOT, digest, file_hash, write_json
 from experiments.pf_generation.evaluation import audited
 from experiments.pf_generation.audit import generation_binding
@@ -19,10 +19,11 @@ class PlanIntegrityTests(unittest.TestCase):
         self.temp = tempfile.TemporaryDirectory()
         self.addCleanup(self.temp.cleanup)
         self.root = Path(self.temp.name)
-        self.plan = dict(schema_version=1, experiment='PF_GENERATION_DESIGN_007_STUDY_1', base_commit=BASE_COMMIT,
+        self.plan = dict(schema_version=2, trace_schema=2, experiment='PF_GENERATION_DESIGN_007_STUDY_1', base_commit=BASE_COMMIT,
                          arms=list(ARMS), contrasts=[list(c) for c in CONTRASTS], policy=POLICY,
                          bifolia=['T0'], folds={'T0': 0}, runtime_inputs={}, frozen_sources={}, implementation_sources={},
                          design_sha256=file_hash(ROOT / DESIGN), scope_ledger_hash=digest([]), identity_override=True,
+                         capability_design_erratum_sha256=file_hash(ROOT / CAPABILITY_ERRATUM),
                          required_model_set_hash=MODEL_SET_HASH, extractor_hash=EXTRACTOR_HASH, protocol_hash=PROTOCOL_HASH,
                          primary='J24.CAL', local_primary='ATOM.PARA_END.CAL', laws={'0': dict(
                              fold=0, theta=[0.] * 4, gains=[[1.] * 4] * 3, known3_used=False,
@@ -64,6 +65,13 @@ class PlanIntegrityTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'training scope'):
             load_plan(self.root / 'plan.json')
 
+    def test_old_trace_schema_plan_is_rejected(self):
+        self.plan['schema_version'] = 1
+        self.plan.pop('trace_schema')
+        self.save()
+        with self.assertRaisesRegex(ValueError, 'Unsupported PF contract'):
+            load_plan(self.root / 'plan.json')
+
 
 class ReceiptTests(unittest.TestCase):
     def test_refreshed_artifact_checksums_do_not_reuse_old_pass(self):
@@ -83,10 +91,10 @@ class ReceiptTests(unittest.TestCase):
             manifest = dict(plan_hash='sealed', records=rows)
             write_json(root / 'manifest.json', manifest)
             binding = generation_binding(plan, root)
-            report = dict(schema_version=1, plan_hash='sealed', generation_binding=binding, status='PASS',
+            report = dict(schema_version=2, trace_coverage_checked=True, plan_hash='sealed', generation_binding=binding, status='PASS',
                           base_reference_checked=True, base_reference_main_rng_checked=True, repeat_checked=False)
             write_json(root / 'report.json', report)
-            write_json(root / 'AUDIT.json', dict(schema_version=1, plan_hash='sealed', generation_binding=binding,
+            write_json(root / 'AUDIT.json', dict(schema_version=2, plan_hash='sealed', generation_binding=binding,
                        report=str(root / 'report.json'), report_sha256=file_hash(root / 'report.json')))
             with patch('experiments.pf_generation.evaluation.load_plan', return_value=plan):
                 self.assertEqual(audited('unused', root), plan)

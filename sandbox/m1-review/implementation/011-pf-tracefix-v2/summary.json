@@ -1,0 +1,38 @@
+{
+  "all_trace_negative_fresh_audits_rejected": true,
+  "capability_design_rule_corrected": true,
+  "capability_replay_implemented": false,
+  "compared_to_v1_semantic_cases_including_reference": 12,
+  "existing_negative_checks": 6,
+  "fitted_laws_unchanged": true,
+  "fixed_cal_predictions": 9,
+  "identity_plan_hash": "62061dc9ff6ff3ad41846c4055af3f78219677b97f85ea7bf473a6194125cced",
+  "identity_trace_negative_executions": 1,
+  "implementation_guarded_source_files": 40,
+  "mechanics": {
+    "generated_pages": 36,
+    "invalid_rows": 0,
+    "packing_failures": 0,
+    "plant_false_heads": 0,
+    "support_violations": 0,
+    "terminal_mismatches": 0
+  },
+  "new_full_comparison_started": false,
+  "new_trace_negative_executions": 16,
+  "new_trace_script_cases": 13,
+  "old_reproducer_false_pass_confirmed": true,
+  "original_frozen_source_files_preserved": 501,
+  "prediction_and_channel_files_byte_identical_to_v1": true,
+  "promotion": null,
+  "raw_artifact_root": "/workspace/voynich-results/pf-generation-tracefix-v2-20261105",
+  "reviewer_exact_reproducer_after_executions": 2,
+  "status": "PASS_TRACE_COVERAGE_AND_MECHANISM_SMOKE_AWAITING_INDEPENDENT_RECHECK",
+  "study_plan_hash": "5dcd7aedf76922e4cba8d87779c54c7692fd7bab9088635757943db53aaa0810",
+  "trace_schema": 2,
+  "unit_tests": {
+    "judges": 56,
+    "m1": 27,
+    "pf_generation": 39,
+    "total": 122
+  }
+}

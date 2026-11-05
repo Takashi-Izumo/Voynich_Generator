@@ -1,0 +1,7 @@
+{
+  "cases": 12,
+  "law_payloads_identical": true,
+  "normalization": "exclude new pfgen observation metadata from requests; all other original evidence compared",
+  "semantic_outputs_final_state_actual_rng_identical": true,
+  "status": "PASS"
+}

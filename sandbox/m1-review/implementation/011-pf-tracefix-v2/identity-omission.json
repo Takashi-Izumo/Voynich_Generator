@@ -1,0 +1,6 @@
+{
+  "checksums_refreshed_and_verified": true,
+  "identity_override": true,
+  "reason": "Missing PF policy rows for candidate window",
+  "status": "REJECTED_AS_EXPECTED"
+}

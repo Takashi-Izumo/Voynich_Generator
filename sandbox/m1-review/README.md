@@ -7,9 +7,10 @@ experiments/m1_pf/               # 現在の実装（v2、実ファイル）
 experiments/pf_generation/       # 新しいPF gate/語長法則・第1比較の実装
 sandbox/m1-review/
   status.json                   # 実装側が管理する現在地
-  requests/010-pf-generation-independent-check.md # 現在の独立検証依頼
+  requests/013-pf-tracefix-recheck.md # 現在の独立再検証依頼
   designs/007-pf-generation-v1/ # 3案の評価・設計・入力監査
-  implementation/009-pf-generation-v1/ # 新実装の検証記録・manifest
+  designs/012-pf-review-corrections/ # CAL能力対照の設計訂正
+  implementation/011-pf-tracefix-v2/ # trace欠落修正の検証記録・manifest
   reports/001-forwarded-v1.md    # ユーザー経由で届いた旧版の指摘
   reports/<review-id>/...        # 検証側が追加する報告・再現手順
   responses/                    # 実装側の受領・確認記録
@@ -48,7 +49,9 @@ git push origin HEAD:refs/heads/sandbox/m1-review
 
 - M1本比較は別途ユーザーが実行を指示した記述的な開発比較として完了し、報告004と追加診断・提案005を受領しました。現在地は `status.json`、確認内容は `responses/006-full-comparison-and-proposal-review.md` を参照してください。
 - M1の2候補を現行v22.3の置換として推奨する結果には至っていません。その後の3案の評価・設計は `designs/007-pf-generation-v1/`、最優先案の実装は `experiments/pf_generation/` にあります。
-- ユーザーの実装指示でPF gate/語長法則の第1比較を実装し、48面の機構smoke・固定CAL接続を確認しました。現在は依頼010で独立検証を依頼しています。依頼008の文書レビューがPASSしたという意味ではありません。
+- 第一案の独立検証010では通常生成・fit・恒等対照・CAL接続を再現できましたが、介入ログ欠落を新規監査が受理するR1があり、要修正となりました。
+- R1をtrace schema v2で修正し、新規36面・122テスト・追加trace負例16実行と既存負例6項目を確認しました。現在は依頼013で独立再検証を依頼しています。通常の生成法則は保持し、検証した12ケースの意味出力/state/RNGと9予測は初版と一致しました。
+- 能力対照のnear/base/far CAL順位は訂正012を参照してください。元の生NLLの大小をCALの順位へ直結させず、旧75%能力基準を無条件に適用しません。
 - 個別末字・SPACEは後続study、審判能力対照64枝replayと新本比較は次段階です。smoke PASSで自動採用・昇格・mainへのmergeを行いません。
 - クラウド間の自動起動・常駐ポーリングは設定していません。別チャットを開始/再開した時にfetchし、GitHub上の最新依頼・報告を読みます。
 - sandboxは別リポジトリや秘密領域ではなく、同じリポジトリの専用ブランチです。

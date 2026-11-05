@@ -6,7 +6,7 @@ from pathlib import Path
 
 from experiments.m1_pf.plan import scope_ledger
 from experiments.m1_pf.runtime import Runtime as SourceRuntime
-from . import ARMS, BASE_COMMIT, CONTRASTS, DESIGN, EXTRACTOR_HASH, MODEL_SET_HASH, POLICY, PROTOCOL_HASH
+from . import ARMS, BASE_COMMIT, CONTRASTS, DESIGN, CAPABILITY_ERRATUM, EXTRACTOR_HASH, MODEL_SET_HASH, POLICY, PROTOCOL_HASH, TRACE_SCHEMA
 from .common import ROOT, PACKAGE, digest, file_hash, frozen_sources, implementation_sources, model_dir, require, runtime_inputs, write_json
 from .laws import Law, fit_fold
 
@@ -26,7 +26,7 @@ def create_plan(output, bifolia, runs, kind='smoke', identity=False, blinding_se
     folds = {b: int(rt.active.SEL.reset_index().set_index('bif').loc[b, 'fold']) for b in bifolia}
     laws = {str(f): fit_fold(rt, f, identity) for f in sorted(set(folds.values()))}
     ledger, data = scope_ledger(bifolia)
-    plan = dict(schema_version=1, experiment='PF_GENERATION_DESIGN_007_STUDY_1', base_commit=BASE_COMMIT,
+    plan = dict(schema_version=2, trace_schema=TRACE_SCHEMA, experiment='PF_GENERATION_DESIGN_007_STUDY_1', base_commit=BASE_COMMIT,
                 package=PACKAGE.name, arms=list(ARMS), contrasts=[list(c) for c in CONTRASTS], kind=kind,
                 bifolia=bifolia, runs=runs, folds=folds, laws=laws, policy=dict(POLICY),
                 identity_override=bool(identity), blinding_seed=blinding_seed,
@@ -34,6 +34,7 @@ def create_plan(output, bifolia, runs, kind='smoke', identity=False, blinding_se
                 primary='J24.CAL', local_primary='ATOM.PARA_END.CAL', data=data,
                 scope_ledger_hash=digest(ledger), frozen_sources=frozen_sources(),
                 implementation_sources=sources, design_sha256=file_hash(ROOT / DESIGN),
+                capability_design_erratum_sha256=file_hash(ROOT / CAPABILITY_ERRATUM),
                 runtime_inputs=rt.input_snapshot, inference='descriptive_development_reused_bifolia',
                 proposal_id_contract='legacy_shared_all_attempts_including_discarded_branches',
                 main_rng_continuation='initial_two_candidate_argmax_in_each_arm',
@@ -67,7 +68,8 @@ def load_plan(path):
     path = Path(path)
     plan = json.loads(path.read_text())
     require(digest({k: v for k, v in plan.items() if k != 'plan_hash'}) == plan['plan_hash'], 'Sealed PF plan changed')
-    require(plan['schema_version'] == 1 and plan['experiment'] == 'PF_GENERATION_DESIGN_007_STUDY_1'
+    require(plan['schema_version'] == 2 and plan.get('trace_schema') == TRACE_SCHEMA
+            and plan['experiment'] == 'PF_GENERATION_DESIGN_007_STUDY_1'
             and plan['base_commit'] == BASE_COMMIT and plan['arms'] == list(ARMS)
             and plan['contrasts'] == [list(c) for c in CONTRASTS] and plan['policy'] == POLICY
             and plan['required_model_set_hash'] == MODEL_SET_HASH and plan['extractor_hash'] == EXTRACTOR_HASH
@@ -76,6 +78,7 @@ def load_plan(path):
     require(frozen_sources() == plan['frozen_sources'], 'Frozen generator/judge changed')
     require(implementation_sources() == plan['implementation_sources'], 'PF implementation changed after sealing')
     require(file_hash(ROOT / DESIGN) == plan['design_sha256'], 'Design contract changed')
+    require(file_hash(ROOT / CAPABILITY_ERRATUM) == plan['capability_design_erratum_sha256'], 'Capability design erratum changed')
     require(runtime_inputs() == plan['runtime_inputs'], 'Expanded runtime inputs changed')
     require(digest(json.loads((path.parent / 'scope_ledger.json').read_text())) == plan['scope_ledger_hash'],
             'Scope ledger changed')

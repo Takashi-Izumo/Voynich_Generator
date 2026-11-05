@@ -1,0 +1,42 @@
+{
+  "bootstrap_replicates": 100,
+  "comparison_sha256": "e0ca754c64f137d4f9c361e3052234306a70ccc1c193bb95bfc5b0f2ae593877",
+  "contrasts": [
+    "BASE__PF_GATE",
+    "PF_GATE__PF_GATE_LENGTH"
+  ],
+  "fixed_predictions": 9,
+  "model_set_hash": "61238cf467871ac13ab9374e2da23ae8a3ad215ea960029e6c8507e065efaf79",
+  "predictions": [
+    {
+      "arm": "BASE",
+      "files": {
+        "channels.jsonl": "22384f1b5014910e26ecee173396c674cbb5fce916cd8a7cfba944826ea1744b",
+        "manifest.json": "2d90f3b619018b59bf61634628e16216fbcc4327a5eec2ccb6d018c3ec9e35a6",
+        "predictions.jsonl": "25c79958a964dbb82639bf0564cf93f25897bf306e1ab7bf4a9d43ec4b00aa3a"
+      },
+      "sets": 3
+    },
+    {
+      "arm": "PF_GATE",
+      "files": {
+        "channels.jsonl": "22384f1b5014910e26ecee173396c674cbb5fce916cd8a7cfba944826ea1744b",
+        "manifest.json": "2d90f3b619018b59bf61634628e16216fbcc4327a5eec2ccb6d018c3ec9e35a6",
+        "predictions.jsonl": "25c79958a964dbb82639bf0564cf93f25897bf306e1ab7bf4a9d43ec4b00aa3a"
+      },
+      "sets": 3
+    },
+    {
+      "arm": "PF_GATE_LENGTH",
+      "files": {
+        "channels.jsonl": "d6150bcba08ae88ea2e9e5fcad7b9a79f4a36f459113d492b1d1a7e08ac88074",
+        "manifest.json": "fb11f3fcd42222a5e06d7b6a1797b3a4c070f68d87847eaa026673105614f89c",
+        "predictions.jsonl": "c9827c475fb204be44b1c1f092e1eac41be34f0c50d421758fc8514763ebdbf5"
+      },
+      "sets": 3
+    }
+  ],
+  "promotion": null,
+  "status": "PASS",
+  "v1_prediction_and_channel_files_byte_identical": true
+}

@@ -43,6 +43,9 @@ class FakeRNG:
 def build(law, generator=lambda rng: (0,)):
     m = SimpleNamespace(stable_width=len, word_str=lambda seq: 'q' * len(seq))
     trace = Trace()
+    trace.set_context(dict(generator_pf=True, event=0, candidate=0, split_end=False))
+    trace.register_gate({})
+    trace.bind_request(dict(proposal_id=0))
     cls = sampler_class(RawParent, m)
     return cls(generator, None, None, law, trace), trace
 
@@ -156,22 +159,24 @@ class GateTests(unittest.TestCase):
     def test_identity_preserves_parent_probabilities_exactly(self):
         p = np.array([[.3, .7], [.01, .99]])
         parent = SimpleNamespace(predict_proba=lambda x: p)
-        events = []
-        adapter = GateAdapter(parent, IDENTITY, self.m(), {'split_end': False}, events)
+        trace = Trace()
+        trace.set_context(dict(generator_pf=True, event=0, candidate=0, split_end=False))
+        adapter = GateAdapter(parent, IDENTITY, self.m(), trace.context, trace)
         np.testing.assert_array_equal(adapter.predict_proba([[5, 0, 0, 20], [8, 0, 0, 20]]), p)
-        self.assertEqual(len(events), 2)
+        self.assertEqual(len(trace.gates), 2)
 
     def test_split_gain_is_recorded_once_after_offset(self):
         p = np.array([[.5, .5]])
         parent = SimpleNamespace(predict_proba=lambda x: p)
-        events = []
+        trace = Trace()
+        trace.set_context(dict(generator_pf=True, event=0, candidate=0, split_end=True))
         m = self.m()
         law = Law((1.,) * 4, IDENTITY.gains)
-        adapter = GateAdapter(parent, law, m, {'split_end': True}, events)
+        adapter = GateAdapter(parent, law, m, trace.context, trace)
         result = adapter.predict_proba([[5, 0, 0, 20]])
         self.assertAlmostEqual(result[0, 1], m.sigmoid(1.))
         import math
-        self.assertAlmostEqual(events[0]['engine_probability'], m.sigmoid(1. + math.log(.8)))
+        self.assertAlmostEqual(trace.gates[0]['engine_probability'], m.sigmoid(1. + math.log(.8)))
 
 
 if __name__ == '__main__':
