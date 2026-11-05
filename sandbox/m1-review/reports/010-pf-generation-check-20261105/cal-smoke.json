@@ -1,0 +1,49 @@
+{
+  "status": "PASS_CONNECTION_ONLY",
+  "primary": "J24.CAL",
+  "local_primary": "ATOM.PARA_END.CAL",
+  "bootstrap": 100,
+  "arms": {
+    "BASE": {
+      "model_set_hash": "61238cf467871ac13ab9374e2da23ae8a3ad215ea960029e6c8507e065efaf79",
+      "extractor_hash": "5b74ed23eda0cad35377e0786f0c3aa8cc7375a033bb6cdc7ed81b98e343bc37",
+      "protocol_hash": "007d2c9556c5f19a72aa044aa01cf6bf6cbe60f7296e50504112242cf97896f0",
+      "prediction_file_sha256": "25c79958a964dbb82639bf0564cf93f25897bf306e1ab7bf4a9d43ec4b00aa3a",
+      "sealed_predictions": 3,
+      "predictor_answer_key_read": false,
+      "primary_expected_accuracy": 0.6666666666666666,
+      "para_end_expected_accuracy": 0.6666666666666666,
+      "ties": 0,
+      "NA": 0
+    },
+    "PF_GATE": {
+      "model_set_hash": "61238cf467871ac13ab9374e2da23ae8a3ad215ea960029e6c8507e065efaf79",
+      "extractor_hash": "5b74ed23eda0cad35377e0786f0c3aa8cc7375a033bb6cdc7ed81b98e343bc37",
+      "protocol_hash": "007d2c9556c5f19a72aa044aa01cf6bf6cbe60f7296e50504112242cf97896f0",
+      "prediction_file_sha256": "25c79958a964dbb82639bf0564cf93f25897bf306e1ab7bf4a9d43ec4b00aa3a",
+      "sealed_predictions": 3,
+      "predictor_answer_key_read": false,
+      "primary_expected_accuracy": 0.6666666666666666,
+      "para_end_expected_accuracy": 0.6666666666666666,
+      "ties": 0,
+      "NA": 0
+    },
+    "PF_GATE_LENGTH": {
+      "model_set_hash": "61238cf467871ac13ab9374e2da23ae8a3ad215ea960029e6c8507e065efaf79",
+      "extractor_hash": "5b74ed23eda0cad35377e0786f0c3aa8cc7375a033bb6cdc7ed81b98e343bc37",
+      "protocol_hash": "007d2c9556c5f19a72aa044aa01cf6bf6cbe60f7296e50504112242cf97896f0",
+      "prediction_file_sha256": "c9827c475fb204be44b1c1f092e1eac41be34f0c50d421758fc8514763ebdbf5",
+      "sealed_predictions": 3,
+      "predictor_answer_key_read": false,
+      "primary_expected_accuracy": 0.6666666666666666,
+      "para_end_expected_accuracy": 0.6666666666666666,
+      "ties": 0,
+      "NA": 0
+    }
+  },
+  "contrasts": [
+    "BASE__PF_GATE",
+    "PF_GATE__PF_GATE_LENGTH"
+  ],
+  "quality_conclusion": null
+}

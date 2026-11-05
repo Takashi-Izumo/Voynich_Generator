@@ -1,0 +1,7 @@
+{
+  "status": "REPRODUCED",
+  "results": {
+    "trace-omission-probe.json": "UNEXPECTED_ACCEPTANCE",
+    "trace-omission-both-orders.json": "UNEXPECTED_ACCEPTANCE"
+  }
+}

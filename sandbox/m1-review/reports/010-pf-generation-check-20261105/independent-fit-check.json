@@ -1,0 +1,326 @@
+{
+  "status": "PASS",
+  "method": "Reconstructed source masks and counts; independent Brent root solve for ridge gradient",
+  "smoke_plan_hash": "32537fffbcb53f9a5cfa03545650cde3fabe816cd19292aa5bd01743e5289152",
+  "all_fold_plan_hash": "eea221bc944afc24417d9d0d8e578f668bf966ffd64b4dcddd4dfc312a803c68",
+  "identity_plan_hash": "de01514c5e869b9667e223aec5262f8afa4b704020879adc323736a9edffb131",
+  "fresh_smoke_plan_equals_shared_bytes_as_json": true,
+  "design_manifest_files_checked": 5,
+  "folds": [
+    {
+      "fold": 0,
+      "pf_ends": 96,
+      "pf_starts": 411,
+      "prior_ends": 422,
+      "contributing_pf_bifolia": [
+        "A:3",
+        "A:4",
+        "B:1",
+        "B:2",
+        "C:1",
+        "C:2",
+        "C:3",
+        "C:4",
+        "D:3",
+        "D:4",
+        "E:3",
+        "E:4",
+        "F:4",
+        "G:1",
+        "G:3",
+        "G:4"
+      ],
+      "training_bifolia": [
+        "A:3",
+        "A:4",
+        "B:1",
+        "B:2",
+        "C:1",
+        "C:2",
+        "C:3",
+        "C:4",
+        "D:3",
+        "D:4",
+        "E:3",
+        "E:4",
+        "F:4",
+        "G:1",
+        "G:3",
+        "G:4"
+      ],
+      "excluded_bifolia": [
+        "A:2",
+        "B:3",
+        "D:1",
+        "F:2"
+      ],
+      "law_sha256": "b5053f0e09fbe1464dc65b9ec29930ec6d27f4b9452d94d583477051d2d1bbf5",
+      "max_theta_difference": 9.257178357202633e-14,
+      "max_gain_difference": 0.0,
+      "parent_core_scope": "FROZEN_18",
+      "auxiliary_parent_bifolia": [
+        "A:1",
+        "B:4"
+      ],
+      "training_m_ends": 14,
+      "long_word_gain_by_width": [
+        0.6764374295377679,
+        0.29361389772449226,
+        0.9598904893590776,
+        0.9754395533234136
+      ]
+    },
+    {
+      "fold": 1,
+      "pf_ends": 94,
+      "pf_starts": 381,
+      "prior_ends": 390,
+      "contributing_pf_bifolia": [
+        "A:2",
+        "A:4",
+        "B:1",
+        "B:2",
+        "B:3",
+        "C:2",
+        "C:3",
+        "C:4",
+        "D:1",
+        "D:4",
+        "E:3",
+        "E:4",
+        "F:2",
+        "G:1",
+        "G:3",
+        "G:4"
+      ],
+      "training_bifolia": [
+        "A:2",
+        "A:4",
+        "B:1",
+        "B:2",
+        "B:3",
+        "C:2",
+        "C:3",
+        "C:4",
+        "D:1",
+        "D:4",
+        "E:3",
+        "E:4",
+        "F:2",
+        "G:1",
+        "G:3",
+        "G:4"
+      ],
+      "excluded_bifolia": [
+        "A:3",
+        "C:1",
+        "D:3",
+        "F:4"
+      ],
+      "law_sha256": "51a330bbee5d56ccafc7c3739dd301aedd4e7a68ad462a73f6f37e6f3f8234bf",
+      "max_theta_difference": 6.569050858828973e-14,
+      "max_gain_difference": 0.0,
+      "parent_core_scope": "FROZEN_18",
+      "auxiliary_parent_bifolia": [
+        "A:1",
+        "B:4"
+      ],
+      "training_m_ends": 2,
+      "long_word_gain_by_width": [
+        0.6890693974231675,
+        0.2889361531361611,
+        0.9697679478558023,
+        1.0077740311708172
+      ]
+    },
+    {
+      "fold": 2,
+      "pf_ends": 96,
+      "pf_starts": 395,
+      "prior_ends": 414,
+      "contributing_pf_bifolia": [
+        "A:2",
+        "A:3",
+        "B:1",
+        "B:2",
+        "B:3",
+        "C:1",
+        "C:3",
+        "C:4",
+        "D:1",
+        "D:3",
+        "E:3",
+        "E:4",
+        "F:2",
+        "F:4",
+        "G:3",
+        "G:4"
+      ],
+      "training_bifolia": [
+        "A:2",
+        "A:3",
+        "B:1",
+        "B:2",
+        "B:3",
+        "C:1",
+        "C:3",
+        "C:4",
+        "D:1",
+        "D:3",
+        "E:3",
+        "E:4",
+        "F:2",
+        "F:4",
+        "G:3",
+        "G:4"
+      ],
+      "excluded_bifolia": [
+        "A:4",
+        "C:2",
+        "D:4",
+        "G:1"
+      ],
+      "law_sha256": "7cacf5d2ff97af7c0e4fc203239bfeb7fb5cc180d05c6cee7c5feb3a896e8b76",
+      "max_theta_difference": 1.3322676295501878e-15,
+      "max_gain_difference": 0.0,
+      "parent_core_scope": "FROZEN_18",
+      "auxiliary_parent_bifolia": [
+        "A:1",
+        "B:4"
+      ],
+      "training_m_ends": 13,
+      "long_word_gain_by_width": [
+        0.6075949367088608,
+        0.3088803088803089,
+        0.9435638331306866,
+        0.9777155361525852
+      ]
+    },
+    {
+      "fold": 3,
+      "pf_ends": 98,
+      "pf_starts": 405,
+      "prior_ends": 396,
+      "contributing_pf_bifolia": [
+        "A:2",
+        "A:3",
+        "A:4",
+        "B:2",
+        "B:3",
+        "C:1",
+        "C:2",
+        "C:4",
+        "D:1",
+        "D:3",
+        "D:4",
+        "E:4",
+        "F:2",
+        "F:4",
+        "G:1",
+        "G:4"
+      ],
+      "training_bifolia": [
+        "A:2",
+        "A:3",
+        "A:4",
+        "B:2",
+        "B:3",
+        "C:1",
+        "C:2",
+        "C:4",
+        "D:1",
+        "D:3",
+        "D:4",
+        "E:4",
+        "F:2",
+        "F:4",
+        "G:1",
+        "G:4"
+      ],
+      "excluded_bifolia": [
+        "B:1",
+        "C:3",
+        "E:3",
+        "G:3"
+      ],
+      "law_sha256": "ff3c77d5ea8b84c0b1fb3cb9f64af0a71062801b1c7b06ab66bd5dc3ba931bdf",
+      "max_theta_difference": 6.076250613773482e-13,
+      "max_gain_difference": 0.0,
+      "parent_core_scope": "FROZEN_18",
+      "auxiliary_parent_bifolia": [
+        "A:1",
+        "B:4"
+      ],
+      "training_m_ends": 13,
+      "long_word_gain_by_width": [
+        0.6026680617316245,
+        0.3070411573745848,
+        0.69770510092354,
+        0.9795853212081607
+      ]
+    },
+    {
+      "fold": 4,
+      "pf_ends": 96,
+      "pf_starts": 384,
+      "prior_ends": 406,
+      "contributing_pf_bifolia": [
+        "A:2",
+        "A:3",
+        "A:4",
+        "B:1",
+        "B:3",
+        "C:1",
+        "C:2",
+        "C:3",
+        "D:1",
+        "D:3",
+        "D:4",
+        "E:3",
+        "F:2",
+        "F:4",
+        "G:1",
+        "G:3"
+      ],
+      "training_bifolia": [
+        "A:2",
+        "A:3",
+        "A:4",
+        "B:1",
+        "B:3",
+        "C:1",
+        "C:2",
+        "C:3",
+        "D:1",
+        "D:3",
+        "D:4",
+        "E:3",
+        "F:2",
+        "F:4",
+        "G:1",
+        "G:3"
+      ],
+      "excluded_bifolia": [
+        "B:2",
+        "C:4",
+        "E:4",
+        "G:4"
+      ],
+      "law_sha256": "d1785b87d47019531a91d0c513215fe42cc7481958f0a726506642a107ddd763",
+      "max_theta_difference": 1.475486399726833e-13,
+      "max_gain_difference": 0.0,
+      "parent_core_scope": "FROZEN_18",
+      "auxiliary_parent_bifolia": [
+        "A:1",
+        "B:4"
+      ],
+      "training_m_ends": 14,
+      "long_word_gain_by_width": [
+        0.6441223832528181,
+        0.30158331239004776,
+        1.006017879624396,
+        0.9755660132657669
+      ]
+    }
+  ]
+}

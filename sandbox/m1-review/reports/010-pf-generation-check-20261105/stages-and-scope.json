@@ -1,0 +1,163 @@
+{
+  "stage_samples_are_different_denominators": true,
+  "all_attempts_include_discarded_branches": true,
+  "scope_counts": {
+    "(False, 'FULL', 'LINE_END', True)": 31,
+    "(False, 'END_ONLY', None, False)": 18,
+    "(True, 'FULL', 'PARA_END', True)": 6,
+    "(False, 'NONE', None, False)": 7,
+    "(False, 'FULL', 'PLANT_END', True)": 10,
+    "(True, 'END_ONLY', None, False)": 1
+  },
+  "arms": {
+    "BASE": {
+      "counts": {
+        "all_pf_candidates": 38,
+        "candidate_m_crossed_7": 0,
+        "post_plant_body_tokens": 27,
+        "strict_f1lf_requests": 67
+      },
+      "minimum_gate_rows_minus_candidate_nwords": null,
+      "all_candidate_visible": {
+        "n": 38,
+        "bands": {
+          "4-6": 26,
+          "7+": 4,
+          "1-3": 8
+        }
+      },
+      "committed_request_selected_pre_rare": {
+        "n": 7,
+        "bands": {
+          "7+": 2,
+          "4-6": 5
+        }
+      },
+      "final_generator_pf_stable": {
+        "n": 7,
+        "bands": {
+          "7+": 2,
+          "4-6": 5
+        }
+      },
+      "final_generator_pf_visible": {
+        "n": 7,
+        "bands": {
+          "7+": 2,
+          "4-6": 5
+        }
+      }
+    },
+    "PF_GATE": {
+      "counts": {
+        "all_pf_candidates": 38,
+        "candidate_m_crossed_7": 0,
+        "gate_events": 98,
+        "split_gate_events": 27,
+        "gate_events_on_judge_unobserved_pf": 10,
+        "post_plant_body_tokens": 27,
+        "strict_f1lf_requests": 67
+      },
+      "minimum_gate_rows_minus_candidate_nwords": 0,
+      "all_candidate_visible": {
+        "n": 38,
+        "bands": {
+          "4-6": 26,
+          "7+": 4,
+          "1-3": 8
+        }
+      },
+      "committed_request_selected_pre_rare": {
+        "n": 7,
+        "bands": {
+          "7+": 2,
+          "4-6": 5
+        }
+      },
+      "final_generator_pf_stable": {
+        "n": 7,
+        "bands": {
+          "7+": 2,
+          "4-6": 5
+        }
+      },
+      "final_generator_pf_visible": {
+        "n": 7,
+        "bands": {
+          "7+": 2,
+          "4-6": 5
+        }
+      }
+    },
+    "PF_GATE_LENGTH": {
+      "counts": {
+        "all_pf_candidates": 54,
+        "candidate_m_crossed_7": 0,
+        "gate_events": 192,
+        "split_gate_events": 13,
+        "gate_events_on_judge_unobserved_pf": 10,
+        "raw_proposal_calls": 6229,
+        "raw_anchor_fallbacks": 1,
+        "raw_draws": 20904,
+        "max_raw_draws_per_call": 32,
+        "post_plant_body_tokens": 25,
+        "strict_f1lf_requests": 22
+      },
+      "minimum_gate_rows_minus_candidate_nwords": 0,
+      "all_candidate_visible": {
+        "n": 54,
+        "bands": {
+          "4-6": 27,
+          "1-3": 20,
+          "7+": 7
+        }
+      },
+      "committed_request_selected_pre_rare": {
+        "n": 7,
+        "bands": {
+          "4-6": 4,
+          "7+": 2,
+          "1-3": 1
+        }
+      },
+      "final_generator_pf_stable": {
+        "n": 7,
+        "bands": {
+          "4-6": 4,
+          "7+": 2,
+          "1-3": 1
+        }
+      },
+      "final_generator_pf_visible": {
+        "n": 7,
+        "bands": {
+          "4-6": 4,
+          "7+": 2,
+          "1-3": 1
+        }
+      }
+    }
+  },
+  "raw_all_attempt_draws": {
+    "n": 20904,
+    "bands": {
+      "4-6": 10926,
+      "1-3": 8937,
+      "7+": 1041
+    }
+  },
+  "raw_returned_before_map": {
+    "n": 6229,
+    "bands": {
+      "4-6": 3267,
+      "7+": 289,
+      "1-3": 2673
+    }
+  },
+  "limitations": [
+    "Raw and candidate samples include retries and discarded branches; they are not independent tokens.",
+    "A committed request selected word is after Map and inherited sampler corrections, before engine rare work.",
+    "F1LF source and policy are frozen; downstream RNG permits later F1LF realizations to differ.",
+    "END_ONLY remains a non-atom endpoint observation, and is not promoted to FULL."
+  ]
+}

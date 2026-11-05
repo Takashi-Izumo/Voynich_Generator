@@ -1,0 +1,7 @@
+{
+  "audit": "PASS",
+  "evaluation_audited_gate": "ACCEPTED",
+  "note": "Same policy trace omission in forward and reverse copies; original artifacts unchanged",
+  "repeat_checked": true,
+  "status": "UNEXPECTED_ACCEPTANCE"
+}

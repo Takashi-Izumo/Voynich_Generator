@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "events": [
+    {
+      "action": "prediction_sealed",
+      "arm": "BASE",
+      "predictions": 3
+    },
+    {
+      "action": "prediction_sealed",
+      "arm": "PF_GATE",
+      "predictions": 3
+    },
+    {
+      "action": "prediction_sealed",
+      "arm": "PF_GATE_LENGTH",
+      "predictions": 3
+    },
+    {
+      "action": "score_key_read",
+      "arm": "BASE",
+      "already_sealed_predictions": 9
+    },
+    {
+      "action": "score_key_read",
+      "arm": "PF_GATE",
+      "already_sealed_predictions": 9
+    },
+    {
+      "action": "score_key_read",
+      "arm": "PF_GATE_LENGTH",
+      "already_sealed_predictions": 9
+    }
+  ],
+  "contrasts": [
+    "BASE__PF_GATE",
+    "PF_GATE__PF_GATE_LENGTH"
+  ],
+  "bootstrap": 100,
+  "inference": "connection_smoke_only"
+}

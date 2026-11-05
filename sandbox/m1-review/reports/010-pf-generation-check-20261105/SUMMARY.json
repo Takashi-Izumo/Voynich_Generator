@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "reviewed_commit": "fd1fa286671962ab768886597a82b167e7dcb52f",
+  "verdict": "REQUEST_CHANGES",
+  "normal_generation_mechanics": "PASS",
+  "independent_fit": "PASS",
+  "unit_tests": {
+    "pf": 20,
+    "m1": 27,
+    "judges": 56
+  },
+  "fresh_generated_pages": 36,
+  "cal_connection": "PASS",
+  "new_implementation_findings": [
+    {
+      "id": "R1",
+      "severity": "P2",
+      "subject": "Missing PF policy traces accepted by a fresh audit and evaluation precheck",
+      "reproduced_without_repeat": true,
+      "reproduced_with_both_orders_missing": true
+    }
+  ],
+  "background_design_caveat": "near/base/far NLL order is not a universal order for two-sided genuine-null CAL",
+  "quality_conclusion": null,
+  "full_comparison_started": false,
+  "promotion": null
+}

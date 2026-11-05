@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "fixture": "synthetic compound glyph and m, stable length6 to visible length7",
+  "stable_length": 6,
+  "visible_length": 7,
+  "threshold_crossings": [
+    6
+  ]
+}

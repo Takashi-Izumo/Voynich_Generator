@@ -1,0 +1,53 @@
+{
+  "fit-all-folds.result": {
+    "name": "fit-all-folds",
+    "returncode": 0,
+    "wall_seconds": 79.59803601900057,
+    "max_rss_kib": 304248
+  },
+  "fit-identity.result": {
+    "name": "fit-identity",
+    "returncode": 0,
+    "wall_seconds": 45.39763820799999,
+    "max_rss_kib": 305028
+  },
+  "fit-smoke.result": {
+    "name": "fit-smoke",
+    "returncode": 0,
+    "seconds": 47.670419041998684
+  },
+  "generate-forward.result": {
+    "name": "generate-forward",
+    "returncode": 0,
+    "wall_seconds": 203.49599490199762,
+    "max_rss_kib": 435736
+  },
+  "generate-identity.result": {
+    "name": "generate-identity",
+    "returncode": 0,
+    "wall_seconds": 176.66487507500278,
+    "max_rss_kib": 434196
+  },
+  "generate-reverse.result": {
+    "name": "generate-reverse",
+    "returncode": 0,
+    "wall_seconds": 114.2193072650116,
+    "max_rss_kib": 435952
+  },
+  "unit-judges.result": {
+    "name": "unit-judges",
+    "returncode": 0,
+    "seconds": 3.9265194659965346
+  },
+  "unit-m1.result": {
+    "name": "unit-m1",
+    "returncode": 0,
+    "seconds": 2.4922315510048065
+  },
+  "unit-pf.result": {
+    "name": "unit-pf",
+    "returncode": 0,
+    "seconds": 2.3615192569995997
+  },
+  "measurement_context": "Generation processes overlapped each other and law fits; wall time is not an isolated speed benchmark. ru_maxrss is per child process in KiB."
+}

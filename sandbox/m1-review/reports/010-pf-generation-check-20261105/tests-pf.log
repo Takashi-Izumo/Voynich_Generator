@@ -1,0 +1,25 @@
+test_unknown_fast_sampler_mutable_field_is_rejected (test_integrity.ControlTests.test_unknown_fast_sampler_mutable_field_is_rejected) ... ok
+test_expanded_settings_change_is_rejected (test_integrity.PlanIntegrityTests.test_expanded_settings_change_is_rejected) ... ok
+test_new_law_cannot_use_known3_even_with_new_seal (test_integrity.PlanIntegrityTests.test_new_law_cannot_use_known3_even_with_new_seal) ... ok
+test_sealed_law_change_is_rejected (test_integrity.PlanIntegrityTests.test_sealed_law_change_is_rejected) ... ok
+test_target_cannot_enter_training_scope (test_integrity.PlanIntegrityTests.test_target_cannot_enter_training_scope) ... ok
+test_refreshed_artifact_checksums_do_not_reuse_old_pass (test_integrity.ReceiptTests.test_refreshed_artifact_checksums_do_not_reuse_old_pass) ... ok
+test_identity_preserves_parent_probabilities_exactly (test_policy.GateTests.test_identity_preserves_parent_probabilities_exactly) ... ok
+test_split_gain_is_recorded_once_after_offset (test_policy.GateTests.test_split_gain_is_recorded_once_after_offset) ... ok
+test_gate_recovers_offset_direction_and_empty_bins (test_policy.LawTests.test_gate_recovers_offset_direction_and_empty_bins) ... ok
+test_law_is_deeply_immutable (test_policy.LawTests.test_law_is_deeply_immutable) ... ok
+test_missing_training_bin_backs_off (test_policy.LawTests.test_missing_training_bin_backs_off) ... ok
+test_nonfinite_or_out_of_bounds_law_rejected (test_policy.LawTests.test_nonfinite_or_out_of_bounds_law_rejected) ... ok
+test_empty_word_keeps_parent_retry_path_and_rng (test_policy.ProposalTests.test_empty_word_keeps_parent_retry_path_and_rng) ... ok
+test_fallback_is_first_anchor_and_bounded (test_policy.ProposalTests.test_fallback_is_first_anchor_and_bounded) ... ok
+test_identity_matches_parent_output_and_rng (test_policy.ProposalTests.test_identity_matches_parent_output_and_rng) ... ok
+test_raw_semantic_mutation_is_rejected (test_policy.ProposalTests.test_raw_semantic_mutation_is_rejected) ... ok
+test_scope_excludes_nonfinal_paragraph (test_policy.ProposalTests.test_scope_excludes_nonfinal_paragraph) ... ok
+test_scope_excludes_plant_first_line_and_continue (test_policy.ProposalTests.test_scope_excludes_plant_first_line_and_continue) ... ok
+test_supported_accepted_draw_returned (test_policy.ProposalTests.test_supported_accepted_draw_returned) ... ok
+test_trace_context_does_not_choose_candidates (test_policy.ProposalTests.test_trace_context_does_not_choose_candidates) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.079s
+
+OK

@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "reviewed_commit": "fd1fa286671962ab768886597a82b167e7dcb52f",
+  "report_path": "sandbox/m1-review/reports/010-pf-generation-check-20261105",
+  "files": [
+    {
+      "path": "REPRO.md",
+      "bytes": 5318,
+      "sha256": "30dccce1149f5e721d07b0e5e88c13fd0fdac76c3170ca5cabb782cb1898b8dd"
+    },
+    {
+      "path": "REVIEW.md",
+      "bytes": 11185,
+      "sha256": "cc3147fb2a0bf1ef66e141f9183dad8844461ca17009d88032dddeb813d7533b"
+    },
+    {
+      "path": "SUMMARY.json",
+      "bytes": 800,
+      "sha256": "bca998f03e724ab51aa2c924e9ba9b7081392c49596eff02001f019db057766a"
+    },
+    {
+      "path": "boundary-fixture.json",
+      "bytes": 188,
+      "sha256": "e95a2575365cff037098f73713a1ffcce43310b5ccee41cd38d8c62ed807e666"
+    },
+    {
+      "path": "cal-smoke.json",
+      "bytes": 2088,
+      "sha256": "5e7ab6ef71255ea9d94c54182617e978598d6d94885a7841de2b53b39f4bb5da"
+    },
+    {
+      "path": "check_fit_independently.py",
+      "bytes": 6474,
+      "sha256": "31b5fccd0d4e00edbf7809ee88a8df09f10fcb8ce1cf7a89ee111984ad6163f1"
+    },
+    {
+      "path": "check_stages_and_scope.py",
+      "bytes": 5913,
+      "sha256": "c1f00f859843b3f64e5a0455f86c730c4cd380b29766423db9ad1b1033014153"
+    },
+    {
+      "path": "diagnostics.json",
+      "bytes": 2328,
+      "sha256": "71f18149060296cd9be8c34032aa8d741e6a610ccffe7c5ca6042e52e9a6d47c"
+    },
+    {
+      "path": "evaluation-order.json",
+      "bytes": 800,
+      "sha256": "56fbc61e506277f9c23f3f90013e9432a96d5327fac9626e92f270e33d5cf11c"
+    },
+    {
+      "path": "final-restoration-check.json",
+      "bytes": 931,
+      "sha256": "ebbb8bfb9be4864aa7c765df25336ccecb63c38f8d482a9738967b27b071fbb8"
+    },
+    {
+      "path": "identity-report.json",
+      "bytes": 6587,
+      "sha256": "d34f1627406379453606b17db442f4f8fc5c49d37bf2d9e6738a551c4a9703a5"
+    },
+    {
+      "path": "independent-fit-check.json",
+      "bytes": 6643,
+      "sha256": "1d0d989c712fd8bc36607067464a4bdd84ef733e0d8d2a8b1928666e384dc2f0"
+    },
+    {
+      "path": "manifest-check.json",
+      "bytes": 2469,
+      "sha256": "1b849f71182a181f31b62d933002e72468a66c94c787710c0de2d02b1834cc5a"
+    },
+    {
+      "path": "mechanical-report.json",
+      "bytes": 7246,
+      "sha256": "90a5baebf176b2334fefa95537173d324c354f0690f15c299aa51e2a782b6e40"
+    },
+    {
+      "path": "performance.json",
+      "bytes": 1365,
+      "sha256": "43517914057db9271f54ceec103b3ba5a04cdcea1738739b228e1deaa1f48885"
+    },
+    {
+      "path": "probe_missing_policy_traces.py",
+      "bytes": 4040,
+      "sha256": "5fc768546cceefe499bac133eb9f4bc6322d61d92a0f6dd573544a222cb1d219"
+    },
+    {
+      "path": "repro-script-check.json",
+      "bytes": 170,
+      "sha256": "a4d65b592e84cf213b8b79d2bd4302d102ae5714f1f3bd45f224952661d6c12a"
+    },
+    {
+      "path": "required-negative-probes.json",
+      "bytes": 1195,
+      "sha256": "de587e38f1732e7d4c2133be049d35b870f5083205079878b24a5d56e50e4fba"
+    },
+    {
+      "path": "stages-and-scope.json",
+      "bytes": 3883,
+      "sha256": "bcff3a1e6bd5a244c500f15d44f162438c8f91eedd59fd86aa19c5e72d4525df"
+    },
+    {
+      "path": "tests-judges.log",
+      "bytes": 7159,
+      "sha256": "ed2254d3e3e388d9bb977a1db7c71d2afa16be7e98c2173c68f497fe4d81b9d2"
+    },
+    {
+      "path": "tests-m1.log",
+      "bytes": 3692,
+      "sha256": "321f35c1d9f3ee2fbc8b730f3aead25d8ed96a666c9727a848385507f84e2346"
+    },
+    {
+      "path": "tests-pf.log",
+      "bytes": 2569,
+      "sha256": "ec5452092aa09c99faba309daaf37ef51cdca24a030d6f0759a66ab18b760227"
+    },
+    {
+      "path": "trace-omission-both-orders.json",
+      "bytes": 226,
+      "sha256": "7086bea784f00630f9ed1101b90b4d22ce692acb93be981dab73cc410324ae51"
+    },
+    {
+      "path": "trace-omission-probe.json",
+      "bytes": 496,
+      "sha256": "6083d7f82b38cc76074f95494555737b365bd4a02b01edeea96d84cc33eceeab"
+    }
+  ],
+  "contains_raw_generated_pages": false,
+  "contains_answer_keys": false,
+  "contains_parent_archives": false
+}
