@@ -1,0 +1,27 @@
+{
+  "reviewed_commit": "a6873a2f3af64b423411dc9daeb14fa43879dea3",
+  "verdict": "PASS_R2_INDEPENDENT_RECHECK",
+  "R2": "RESOLVED",
+  "R1_regression": "PASS",
+  "additional_required_fixes": [],
+  "tests": {
+    "pf": 47,
+    "m1": 27,
+    "judges": 56
+  },
+  "new_generated_pages": 36,
+  "normal_and_identity_mechanics": "PASS",
+  "context_probes_rejected": 11,
+  "original_reviewer_probe_rejected": true,
+  "identity_context_probe_rejected": true,
+  "r1_probes_rejected": 13,
+  "required_input_probes": "PASS_AND_RESTORED",
+  "prior_semantic_state_rng_cases_equal": 12,
+  "prior_policy_and_request_metadata_equal": true,
+  "prior_prediction_channel_and_score_files_byte_equal": 12,
+  "cal_connection": "PASS",
+  "quality_conclusion": null,
+  "capability_controls_implemented": false,
+  "full_comparison_started": false,
+  "promotion": null
+}

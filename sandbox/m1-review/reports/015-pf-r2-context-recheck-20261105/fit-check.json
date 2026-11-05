@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "new_fit_performed": true,
+  "plan_hash": "70ea87ef554bb6114dad8bb5f2aa2ca5d1bac883424f596e1950dd8c1f441b47",
+  "identity_plan_hash": "787e7c1fda748a87483dd9b65dc67bcd785d0cc18cb21e8d1ff55a0109b55335",
+  "laws_equal_prior_v2": true,
+  "frozen_sources_equal_prior_v2": true,
+  "runtime_inputs_equal_prior_v2": true,
+  "shared_plan_equal": true,
+  "pf_segments": {
+    "0": 96,
+    "1": 94,
+    "2": 96
+  }
+}

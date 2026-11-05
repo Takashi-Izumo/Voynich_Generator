@@ -1,0 +1,113 @@
+{
+  "original_artifacts_unmodified": true,
+  "original_positive_precheck": true,
+  "plan_hash": "70ea87ef554bb6114dad8bb5f2aa2ca5d1bac883424f596e1950dd8c1f441b47",
+  "probes": [
+    {
+      "checksums_refreshed_and_verified": true,
+      "evaluation_precheck_rejected": true,
+      "old_seal_invalidated": true,
+      "probe": "00-PF_GATE_LENGTH-erase_all",
+      "reason": "Missing PF policy rows for candidate window",
+      "status": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "checksums_refreshed_and_verified": true,
+      "evaluation_precheck_rejected": true,
+      "old_seal_invalidated": true,
+      "probe": "01-PF_GATE_LENGTH-partial_gate",
+      "reason": "Missing/duplicate/reordered gate query IDs",
+      "status": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "checksums_refreshed_and_verified": true,
+      "evaluation_precheck_rejected": true,
+      "old_seal_invalidated": true,
+      "probe": "02-PF_GATE_LENGTH-partial_raw",
+      "reason": "Missing/duplicate/reordered raw call IDs",
+      "status": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "checksums_refreshed_and_verified": true,
+      "evaluation_precheck_rejected": true,
+      "old_seal_invalidated": true,
+      "probe": "03-PF_GATE_LENGTH-duplicate_gate",
+      "reason": "Missing/duplicate/reordered gate query IDs",
+      "status": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "checksums_refreshed_and_verified": true,
+      "evaluation_precheck_rejected": true,
+      "old_seal_invalidated": true,
+      "probe": "04-PF_GATE_LENGTH-duplicate_raw",
+      "reason": "Missing/duplicate/reordered raw call IDs",
+      "status": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "checksums_refreshed_and_verified": true,
+      "evaluation_precheck_rejected": true,
+      "old_seal_invalidated": true,
+      "probe": "05-PF_GATE_LENGTH-reorder_raw",
+      "reason": "Missing/duplicate/reordered raw call IDs",
+      "status": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "checksums_refreshed_and_verified": true,
+      "evaluation_precheck_rejected": true,
+      "old_seal_invalidated": true,
+      "probe": "06-PF_GATE_LENGTH-partial_inner_draw",
+      "reason": "Missing/changed inner raw draws or raw receipt",
+      "status": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "checksums_refreshed_and_verified": true,
+      "evaluation_precheck_rejected": true,
+      "old_seal_invalidated": true,
+      "probe": "07-PF_GATE_LENGTH-erase_request_links",
+      "reason": "Missing/wrong PF request gate link",
+      "status": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "checksums_refreshed_and_verified": true,
+      "evaluation_precheck_rejected": true,
+      "old_seal_invalidated": true,
+      "probe": "08-PF_GATE_LENGTH-erase_raw_links_and_windows",
+      "reason": "Missing/duplicate PF END raw request coverage",
+      "status": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "checksums_refreshed_and_verified": true,
+      "evaluation_precheck_rejected": true,
+      "old_seal_invalidated": true,
+      "probe": "09-PF_GATE_LENGTH-wrong_request",
+      "reason": "Raw call/request linkage mismatch",
+      "status": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "checksums_refreshed_and_verified": true,
+      "evaluation_precheck_rejected": true,
+      "old_seal_invalidated": true,
+      "probe": "10-PF_GATE-erase_gates",
+      "reason": "Missing PF policy rows for candidate window",
+      "status": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "checksums_refreshed_and_verified": true,
+      "evaluation_precheck_rejected": true,
+      "old_seal_invalidated": true,
+      "probe": "11-PF_GATE_LENGTH-erase_all-both-orders",
+      "reason": "Missing PF policy rows for candidate window",
+      "status": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "checksums_refreshed_and_verified": true,
+      "evaluation_precheck_rejected": true,
+      "old_seal_invalidated": true,
+      "probe": "12-PF_GATE_LENGTH-erase_all-repeat-only",
+      "reason": "Missing PF policy rows for candidate window",
+      "status": "REJECTED_AS_EXPECTED"
+    }
+  ],
+  "status": "PASS",
+  "trace_probe_count": 13
+}

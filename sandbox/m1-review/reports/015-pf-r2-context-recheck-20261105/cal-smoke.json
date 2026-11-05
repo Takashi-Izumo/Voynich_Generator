@@ -1,0 +1,40 @@
+{
+  "status": "PASS_CONNECTION_ONLY",
+  "bootstrap": 100,
+  "contrasts": [
+    "BASE__PF_GATE",
+    "PF_GATE__PF_GATE_LENGTH"
+  ],
+  "arms": {
+    "BASE": {
+      "sets": 3,
+      "primary": "J24.CAL",
+      "model_set_hash": "61238cf467871ac13ab9374e2da23ae8a3ad215ea960029e6c8507e065efaf79",
+      "protocol_hash": "007d2c9556c5f19a72aa044aa01cf6bf6cbe60f7296e50504112242cf97896f0",
+      "extractor_hash": "5b74ed23eda0cad35377e0786f0c3aa8cc7375a033bb6cdc7ed81b98e343bc37",
+      "predictions_sha256": "25c79958a964dbb82639bf0564cf93f25897bf306e1ab7bf4a9d43ec4b00aa3a",
+      "channels_sha256": "22384f1b5014910e26ecee173396c674cbb5fce916cd8a7cfba944826ea1744b",
+      "answer_key_read": false
+    },
+    "PF_GATE": {
+      "sets": 3,
+      "primary": "J24.CAL",
+      "model_set_hash": "61238cf467871ac13ab9374e2da23ae8a3ad215ea960029e6c8507e065efaf79",
+      "protocol_hash": "007d2c9556c5f19a72aa044aa01cf6bf6cbe60f7296e50504112242cf97896f0",
+      "extractor_hash": "5b74ed23eda0cad35377e0786f0c3aa8cc7375a033bb6cdc7ed81b98e343bc37",
+      "predictions_sha256": "25c79958a964dbb82639bf0564cf93f25897bf306e1ab7bf4a9d43ec4b00aa3a",
+      "channels_sha256": "22384f1b5014910e26ecee173396c674cbb5fce916cd8a7cfba944826ea1744b",
+      "answer_key_read": false
+    },
+    "PF_GATE_LENGTH": {
+      "sets": 3,
+      "primary": "J24.CAL",
+      "model_set_hash": "61238cf467871ac13ab9374e2da23ae8a3ad215ea960029e6c8507e065efaf79",
+      "protocol_hash": "007d2c9556c5f19a72aa044aa01cf6bf6cbe60f7296e50504112242cf97896f0",
+      "extractor_hash": "5b74ed23eda0cad35377e0786f0c3aa8cc7375a033bb6cdc7ed81b98e343bc37",
+      "predictions_sha256": "c9827c475fb204be44b1c1f092e1eac41be34f0c50d421758fc8514763ebdbf5",
+      "channels_sha256": "d6150bcba08ae88ea2e9e5fcad7b9a79f4a36f459113d492b1d1a7e08ac88074",
+      "answer_key_read": false
+    }
+  }
+}

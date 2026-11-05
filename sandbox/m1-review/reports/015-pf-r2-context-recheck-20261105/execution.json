@@ -1,0 +1,83 @@
+{
+  "results": {
+    "audit-normal.result": {
+      "name": "audit-normal",
+      "returncode": 0,
+      "wall_seconds": 23.99034324999957
+    },
+    "unit-pf.result": {
+      "name": "unit-pf",
+      "returncode": 0,
+      "wall_seconds": 0.9675700869993307
+    },
+    "audit-identity.result": {
+      "name": "audit-identity",
+      "returncode": 0,
+      "wall_seconds": 11.968236747008632
+    },
+    "unit-judges.result": {
+      "name": "unit-judges",
+      "returncode": 0,
+      "wall_seconds": 4.805501117007225
+    },
+    "unit-m1.result": {
+      "name": "unit-m1",
+      "returncode": 0,
+      "wall_seconds": 1.4065643339999951
+    },
+    "context-probes.result": {
+      "name": "context-probes",
+      "returncode": 0,
+      "wall_seconds": 161.20913820699207
+    },
+    "generate-identity.result": {
+      "name": "generate-identity",
+      "returncode": 0,
+      "wall_seconds": 116.9451737789932,
+      "max_rss_kib": 435352
+    },
+    "prior-comparison.result": {
+      "name": "prior-comparison",
+      "returncode": 0,
+      "wall_seconds": 3.6932124060112983
+    },
+    "generate-reverse.result": {
+      "name": "generate-reverse",
+      "returncode": 0,
+      "wall_seconds": 133.15959836800175,
+      "max_rss_kib": 434828
+    },
+    "fit-normal.result": {
+      "name": "fit-normal",
+      "returncode": 0,
+      "wall_seconds": 43.55397629000072
+    },
+    "required-probes.result": {
+      "name": "required-probes",
+      "returncode": 0,
+      "wall_seconds": 43.959735340002226
+    },
+    "fit-identity.result": {
+      "name": "fit-identity",
+      "returncode": 0,
+      "wall_seconds": 41.93198676199245
+    },
+    "generate-forward.result": {
+      "name": "generate-forward",
+      "returncode": 0,
+      "wall_seconds": 129.3448645949975,
+      "max_rss_kib": 435104
+    },
+    "r1-probes.result": {
+      "name": "r1-probes",
+      "returncode": 0,
+      "wall_seconds": 172.52053750900086
+    },
+    "original-reviewer-probe.result": {
+      "name": "original-reviewer-probe",
+      "returncode": 0,
+      "wall_seconds": 16.30660250800429
+    }
+  },
+  "measurement_context": "Generation processes overlapped; copy-only probes also overlapped and all exited before real-input mutation probes. ru_maxrss is KiB; timings are not isolated speed comparisons."
+}

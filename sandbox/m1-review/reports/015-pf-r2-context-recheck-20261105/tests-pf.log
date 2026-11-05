@@ -1,0 +1,52 @@
+test_central_null_scores_above_both_tails (test_calibration_contract.CalibrationDirectionTests.test_central_null_scores_above_both_tails) ... ok
+test_increasing_distance_from_lower_tail_can_increase_cal (test_calibration_contract.CalibrationDirectionTests.test_increasing_distance_from_lower_tail_can_increase_cal) ... ok
+test_unknown_fast_sampler_mutable_field_is_rejected (test_integrity.ControlTests.test_unknown_fast_sampler_mutable_field_is_rejected) ... ok
+test_expanded_settings_change_is_rejected (test_integrity.PlanIntegrityTests.test_expanded_settings_change_is_rejected) ... ok
+test_new_law_cannot_use_known3_even_with_new_seal (test_integrity.PlanIntegrityTests.test_new_law_cannot_use_known3_even_with_new_seal) ... ok
+test_old_trace_schema_plan_is_rejected (test_integrity.PlanIntegrityTests.test_old_trace_schema_plan_is_rejected) ... ok
+test_sealed_law_change_is_rejected (test_integrity.PlanIntegrityTests.test_sealed_law_change_is_rejected) ... ok
+test_target_cannot_enter_training_scope (test_integrity.PlanIntegrityTests.test_target_cannot_enter_training_scope) ... ok
+test_refreshed_artifact_checksums_do_not_reuse_old_pass (test_integrity.ReceiptTests.test_refreshed_artifact_checksums_do_not_reuse_old_pass) ... ok
+test_identity_preserves_parent_probabilities_exactly (test_policy.GateTests.test_identity_preserves_parent_probabilities_exactly) ... ok
+test_split_gain_is_recorded_once_after_offset (test_policy.GateTests.test_split_gain_is_recorded_once_after_offset) ... ok
+test_gate_recovers_offset_direction_and_empty_bins (test_policy.LawTests.test_gate_recovers_offset_direction_and_empty_bins) ... ok
+test_law_is_deeply_immutable (test_policy.LawTests.test_law_is_deeply_immutable) ... ok
+test_missing_training_bin_backs_off (test_policy.LawTests.test_missing_training_bin_backs_off) ... ok
+test_nonfinite_or_out_of_bounds_law_rejected (test_policy.LawTests.test_nonfinite_or_out_of_bounds_law_rejected) ... ok
+test_empty_word_keeps_parent_retry_path_and_rng (test_policy.ProposalTests.test_empty_word_keeps_parent_retry_path_and_rng) ... ok
+test_fallback_is_first_anchor_and_bounded (test_policy.ProposalTests.test_fallback_is_first_anchor_and_bounded) ... ok
+test_identity_matches_parent_output_and_rng (test_policy.ProposalTests.test_identity_matches_parent_output_and_rng) ... ok
+test_raw_semantic_mutation_is_rejected (test_policy.ProposalTests.test_raw_semantic_mutation_is_rejected) ... ok
+test_scope_excludes_nonfinal_paragraph (test_policy.ProposalTests.test_scope_excludes_nonfinal_paragraph) ... ok
+test_scope_excludes_plant_first_line_and_continue (test_policy.ProposalTests.test_scope_excludes_plant_first_line_and_continue) ... ok
+test_supported_accepted_draw_returned (test_policy.ProposalTests.test_supported_accepted_draw_returned) ... ok
+test_trace_context_does_not_choose_candidates (test_policy.ProposalTests.test_trace_context_does_not_choose_candidates) ... ok
+test_complete_context_from_other_existing_event (test_raw_context.RawContextTests.test_complete_context_from_other_existing_event) ... ok
+test_context_types_are_not_coerced (test_raw_context.RawContextTests.test_context_types_are_not_coerced) ... ok
+test_each_raw_context_component_with_refreshed_receipt (test_raw_context.RawContextTests.test_each_raw_context_component_with_refreshed_receipt) ... ok
+test_existing_candidate_misattribution_even_with_fresh_receipt (test_raw_context.RawContextTests.test_existing_candidate_misattribution_even_with_fresh_receipt) ... ok
+test_gate_context_uses_same_strict_identity (test_raw_context.RawContextTests.test_gate_context_uses_same_strict_identity) ... ok
+test_missing_context_component_is_explicitly_rejected (test_raw_context.RawContextTests.test_missing_context_component_is_explicitly_rejected) ... ok
+test_normal_multiple_candidates (test_raw_context.RawContextTests.test_normal_multiple_candidates) ... ok
+test_request_context_uses_same_strict_identity (test_raw_context.RawContextTests.test_request_context_uses_same_strict_identity) ... ok
+test_duplicate_gate (test_trace_coverage.CoverageTests.test_duplicate_gate) ... ok
+test_duplicate_raw (test_trace_coverage.CoverageTests.test_duplicate_raw) ... ok
+test_erasing_raw_receipts_also_cannot_erase_parent_map_draws (test_trace_coverage.CoverageTests.test_erasing_raw_receipts_also_cannot_erase_parent_map_draws) ... ok
+test_full_omission_with_zeroed_summaries_cannot_pass (test_trace_coverage.CoverageTests.test_full_omission_with_zeroed_summaries_cannot_pass) ... ok
+test_gate_only_needs_requests_but_no_raw_intervention (test_trace_coverage.CoverageTests.test_gate_only_needs_requests_but_no_raw_intervention) ... ok
+test_missing_inner_draw_with_outer_row_retained (test_trace_coverage.CoverageTests.test_missing_inner_draw_with_outer_row_retained) ... ok
+test_missing_request_gate_metadata (test_trace_coverage.CoverageTests.test_missing_request_gate_metadata) ... ok
+test_no_pf_candidates_is_not_false_missing_coverage (test_trace_coverage.CoverageTests.test_no_pf_candidates_is_not_false_missing_coverage) ... ok
+test_normal_retry_and_map_auxiliary_calls (test_trace_coverage.CoverageTests.test_normal_retry_and_map_auxiliary_calls) ... ok
+test_partial_gate_omission (test_trace_coverage.CoverageTests.test_partial_gate_omission) ... ok
+test_partial_raw_omission (test_trace_coverage.CoverageTests.test_partial_raw_omission) ... ok
+test_reordered_raw (test_trace_coverage.CoverageTests.test_reordered_raw) ... ok
+test_segment_retry_can_repeat_word_start_with_a_new_query_id (test_trace_coverage.CoverageTests.test_segment_retry_can_repeat_word_start_with_a_new_query_id) ... ok
+test_trace_cannot_be_added_to_non_pf_request (test_trace_coverage.CoverageTests.test_trace_cannot_be_added_to_non_pf_request) ... ok
+test_trace_window_counter_independent_of_row_array (test_trace_coverage.CoverageTests.test_trace_window_counter_independent_of_row_array) ... ok
+test_wrong_request_link (test_trace_coverage.CoverageTests.test_wrong_request_link) ... ok
+
+----------------------------------------------------------------------
+Ran 47 tests in 0.064s
+
+OK

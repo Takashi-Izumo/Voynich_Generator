@@ -1,0 +1,37 @@
+{
+  "plan_hash": "70ea87ef554bb6114dad8bb5f2aa2ca5d1bac883424f596e1950dd8c1f441b47",
+  "probes": [
+    {
+      "probe": "sealed_law_changed",
+      "reason": "Sealed PF plan changed",
+      "status": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "probe": "expanded_generation_setting_changed",
+      "reason": "Extracted runtime input changed: EHC1_E1GLOBAL_20260911/inputs/RMW1_BTI2_EHC1_20260911/parent/HerbalA_RMW1_BTI2_20260909/parameters/FROZEN_FOLD_CONFIGS.json",
+      "status": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "probe": "artifact_plus_refreshed_checksum_stale_pass",
+      "reason": "Missing/changed mechanical audit seal",
+      "status": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "probe": "changed_visible_commit_reaudit",
+      "reason": "Visible commit/token mismatch",
+      "status": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "probe": "failed_reaudit_invalidates_old_pass",
+      "status": "PASS"
+    },
+    {
+      "probe": "self_consistent_reference_rng_change",
+      "reason": "BASE final main RNG differs from reference: A:2/91701",
+      "status": "REJECTED_AS_EXPECTED"
+    }
+  ],
+  "restored_artifacts": true,
+  "restored_positive_audit": "PASS",
+  "status": "PASS"
+}

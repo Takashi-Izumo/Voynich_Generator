@@ -1,0 +1,18 @@
+{
+  "identity_positive_precheck": true,
+  "normal_final_seal": {
+    "generation_binding": {
+      "copied_plan_sha256": "562c6e46b2e610a1bd502b4a339080940097f1fbbeb354b3a5cf876d68e352ae",
+      "manifest_sha256": "66fa03e02419856200cfb8c6771f4e85900aaf027ab233be8bc798ef4ab187f0",
+      "plan_hash": "70ea87ef554bb6114dad8bb5f2aa2ca5d1bac883424f596e1950dd8c1f441b47",
+      "status_sha256": "75be43556f9fd8b49d0028d37678a5b806c72881f027339cdc55cd69c76ab8ea"
+    },
+    "plan_hash": "70ea87ef554bb6114dad8bb5f2aa2ca5d1bac883424f596e1950dd8c1f441b47",
+    "report": "/workspace/voynich-results/pf-r2-independent-20261105/required-probes/restored-positive-audit/report.json",
+    "report_sha256": "2d9b6713f995b3bbe103e0f583a6bd2e86e6f8c1fc7e4e238aee90c5dcd5a69b",
+    "schema_version": 2
+  },
+  "original_generation_manifests_verified": true,
+  "source_and_runtime_inputs_verified": true,
+  "status": "PASS"
+}
