@@ -1,0 +1,297 @@
+{
+  "status": "PASS_EXPECTED_EXIT_CODES",
+  "runs": [
+    {
+      "name": "control-audit",
+      "command": [
+        "/workspace/.venvs/voynich/bin/python",
+        "-m",
+        "experiments.pf_controls",
+        "audit",
+        "--plan",
+        "/workspace/voynich-results/pf-surface-independent-20261106/control-plan/plan.json",
+        "--output",
+        "/workspace/voynich-results/pf-surface-independent-20261106/control-audit",
+        "--generated",
+        "/workspace/voynich-results/pf-surface-independent-20261106/control-generate"
+      ],
+      "returncode": 0,
+      "expected_returncode": 0,
+      "wall_seconds": 100.21790741599398
+    },
+    {
+      "name": "control-export",
+      "command": [
+        "/workspace/.venvs/voynich/bin/python",
+        "-m",
+        "experiments.pf_controls",
+        "export",
+        "--plan",
+        "/workspace/voynich-results/pf-surface-independent-20261106/control-plan/plan.json",
+        "--output",
+        "/workspace/voynich-results/pf-surface-independent-20261106/control-export",
+        "--generated",
+        "/workspace/voynich-results/pf-surface-independent-20261106/control-generate"
+      ],
+      "returncode": 0,
+      "expected_returncode": 0,
+      "wall_seconds": 29.317880966991652
+    },
+    {
+      "name": "control-generate",
+      "command": [
+        "/workspace/.venvs/voynich/bin/python",
+        "-m",
+        "experiments.pf_controls",
+        "generate",
+        "--plan",
+        "/workspace/voynich-results/pf-surface-independent-20261106/control-plan/plan.json",
+        "--output",
+        "/workspace/voynich-results/pf-surface-independent-20261106/control-generate"
+      ],
+      "returncode": 0,
+      "expected_returncode": 0,
+      "wall_seconds": 69.05433861998608
+    },
+    {
+      "name": "control-real-cli-wrong-key",
+      "command": [
+        "/workspace/.venvs/voynich/bin/python",
+        "-m",
+        "experiments.pf_controls",
+        "verify-export",
+        "--plan",
+        "/workspace/voynich-results/pf-surface-independent-20261106/control-plan/plan.json",
+        "--generated",
+        "/workspace/voynich-results/pf-surface-independent-20261106/control-generate",
+        "--exported",
+        "/workspace/voynich-results/pf-surface-independent-20261106/control-wrong-key"
+      ],
+      "returncode": 1,
+      "expected_returncode": 1,
+      "wall_seconds": 25.186408371009747
+    },
+    {
+      "name": "control-real-cli",
+      "command": [
+        "/workspace/.venvs/voynich/bin/python",
+        "-m",
+        "experiments.pf_controls",
+        "verify-export",
+        "--plan",
+        "/workspace/voynich-results/pf-surface-independent-20261106/control-plan/plan.json",
+        "--generated",
+        "/workspace/voynich-results/pf-surface-independent-20261106/control-generate",
+        "--exported",
+        "/workspace/voynich-results/pf-surface-independent-20261106/control-export"
+      ],
+      "returncode": 0,
+      "expected_returncode": 0,
+      "wall_seconds": 24.86023118700541
+    },
+    {
+      "name": "forward",
+      "command": [
+        "/workspace/.venvs/voynich/bin/python",
+        "-m",
+        "experiments.pf_generation",
+        "generate",
+        "--plan",
+        "/workspace/voynich-results/pf-surface-independent-20261106/smoke-plan/plan.json",
+        "--output",
+        "/workspace/voynich-results/pf-surface-independent-20261106/forward"
+      ],
+      "returncode": 0,
+      "expected_returncode": 0,
+      "wall_seconds": 293.0019056540041
+    },
+    {
+      "name": "identity-audit",
+      "command": [
+        "/workspace/.venvs/voynich/bin/python",
+        "-m",
+        "experiments.pf_generation",
+        "audit",
+        "--plan",
+        "/workspace/voynich-results/pf-surface-independent-20261106/identity-plan/plan.json",
+        "--generated",
+        "/workspace/voynich-results/pf-surface-independent-20261106/identity",
+        "--output",
+        "/workspace/voynich-results/pf-surface-independent-20261106/identity-audit"
+      ],
+      "returncode": 0,
+      "expected_returncode": 0,
+      "wall_seconds": 11.197442653006874
+    },
+    {
+      "name": "identity",
+      "command": [
+        "/workspace/.venvs/voynich/bin/python",
+        "-m",
+        "experiments.pf_generation",
+        "generate",
+        "--plan",
+        "/workspace/voynich-results/pf-surface-independent-20261106/identity-plan/plan.json",
+        "--output",
+        "/workspace/voynich-results/pf-surface-independent-20261106/identity"
+      ],
+      "returncode": 0,
+      "expected_returncode": 0,
+      "wall_seconds": 137.37134009199508
+    },
+    {
+      "name": "normal-audit",
+      "command": [
+        "/workspace/.venvs/voynich/bin/python",
+        "-m",
+        "experiments.pf_generation",
+        "audit",
+        "--plan",
+        "/workspace/voynich-results/pf-surface-independent-20261106/smoke-plan/plan.json",
+        "--generated",
+        "/workspace/voynich-results/pf-surface-independent-20261106/forward",
+        "--repeat",
+        "/workspace/voynich-results/pf-surface-independent-20261106/reverse",
+        "--output",
+        "/workspace/voynich-results/pf-surface-independent-20261106/audit"
+      ],
+      "returncode": 0,
+      "expected_returncode": 0,
+      "wall_seconds": 33.12559265800519
+    },
+    {
+      "name": "r1-probes",
+      "command": [
+        "/workspace/.venvs/voynich/bin/python",
+        "-m",
+        "experiments.pf_generation.tests.run_trace_probes",
+        "--plan",
+        "/workspace/voynich-results/pf-surface-independent-20261106/smoke-plan/plan.json",
+        "--generated",
+        "/workspace/voynich-results/pf-surface-independent-20261106/forward",
+        "--repeat",
+        "/workspace/voynich-results/pf-surface-independent-20261106/reverse",
+        "--output",
+        "/workspace/voynich-results/pf-surface-independent-20261106/r1-probes"
+      ],
+      "returncode": 0,
+      "expected_returncode": 0,
+      "wall_seconds": 178.87489152200578
+    },
+    {
+      "name": "r2-probes",
+      "command": [
+        "/workspace/.venvs/voynich/bin/python",
+        "-m",
+        "experiments.pf_generation.tests.run_context_probes",
+        "--plan",
+        "/workspace/voynich-results/pf-surface-independent-20261106/smoke-plan/plan.json",
+        "--generated",
+        "/workspace/voynich-results/pf-surface-independent-20261106/forward",
+        "--repeat",
+        "/workspace/voynich-results/pf-surface-independent-20261106/reverse",
+        "--output",
+        "/workspace/voynich-results/pf-surface-independent-20261106/r2-probes"
+      ],
+      "returncode": 0,
+      "expected_returncode": 0,
+      "wall_seconds": 151.08413956899312
+    },
+    {
+      "name": "required-probes",
+      "command": [
+        "/workspace/.venvs/voynich/bin/python",
+        "-m",
+        "experiments.pf_generation.tests.run_artifact_probes",
+        "--plan",
+        "/workspace/voynich-results/pf-surface-independent-20261106/smoke-plan/plan.json",
+        "--generated",
+        "/workspace/voynich-results/pf-surface-independent-20261106/forward",
+        "--repeat",
+        "/workspace/voynich-results/pf-surface-independent-20261106/reverse",
+        "--output",
+        "/workspace/voynich-results/pf-surface-independent-20261106/required-probes"
+      ],
+      "returncode": 0,
+      "expected_returncode": 0,
+      "wall_seconds": 76.79453081000247
+    },
+    {
+      "name": "reverse",
+      "command": [
+        "/workspace/.venvs/voynich/bin/python",
+        "-m",
+        "experiments.pf_generation",
+        "generate",
+        "--plan",
+        "/workspace/voynich-results/pf-surface-independent-20261106/smoke-plan/plan.json",
+        "--output",
+        "/workspace/voynich-results/pf-surface-independent-20261106/reverse",
+        "--reverse"
+      ],
+      "returncode": 0,
+      "expected_returncode": 0,
+      "wall_seconds": 293.74201924700174
+    },
+    {
+      "name": "unit-controls",
+      "command": [
+        "/workspace/.venvs/voynich/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "experiments/pf_controls/tests",
+        "-v"
+      ],
+      "returncode": 0,
+      "expected_returncode": 0,
+      "wall_seconds": 3.0775841459981166
+    },
+    {
+      "name": "unit-judges",
+      "command": [
+        "/workspace/.venvs/voynich/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "judges/tests",
+        "-v"
+      ],
+      "returncode": 0,
+      "expected_returncode": 0,
+      "wall_seconds": 4.011337552001351
+    },
+    {
+      "name": "unit-m1",
+      "command": [
+        "/workspace/.venvs/voynich/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "experiments/m1_pf/tests",
+        "-v"
+      ],
+      "returncode": 0,
+      "expected_returncode": 0,
+      "wall_seconds": 3.8563130749971606
+    },
+    {
+      "name": "unit-pf",
+      "command": [
+        "/workspace/.venvs/voynich/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "experiments/pf_generation/tests",
+        "-v"
+      ],
+      "returncode": 0,
+      "expected_returncode": 0,
+      "wall_seconds": 21.37742060299206
+    }
+  ]
+}

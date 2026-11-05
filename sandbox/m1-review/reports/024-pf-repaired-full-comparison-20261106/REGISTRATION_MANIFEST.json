@@ -1,0 +1,41 @@
+{
+  "status": "PROSPECTIVELY_REGISTERED_BEFORE_NEW_FULL_GENERATION",
+  "source_commit": "43a68958b1b85851076179224c9f32cf03a84a2e",
+  "files": [
+    {
+      "path": "DESCRIPTIVE_EXECUTION.json",
+      "bytes": 1645,
+      "sha256": "ce1cfac1b51b99234b74346abb862e5c55bfcdc1fbc781e67db400190d64110c"
+    },
+    {
+      "path": "DRIVER_CHECK.json",
+      "bytes": 489,
+      "sha256": "6ab83de7637998affc86040723b376108767df597d297a21ce73cb5e888e35f6"
+    },
+    {
+      "path": "EXECUTION_CONTRACT.json",
+      "bytes": 2017,
+      "sha256": "8b4f913ae358e9304ce6e7354179cd93e84158dc3c0a23e59f91811521087701"
+    },
+    {
+      "path": "PROTOCOL.md",
+      "bytes": 3871,
+      "sha256": "44a6d4b27234c0b16c12bcbf4ab436c6df47d8d4d9803b4d7ffbf7eb44294372"
+    },
+    {
+      "path": "full-plan/plan.json",
+      "bytes": 97059,
+      "sha256": "3a63c269ec032390d6c0f91a12a7b0c79a3a80ab9cda9777331fb88d47d90474"
+    },
+    {
+      "path": "full-plan/scope_ledger.json",
+      "bytes": 153678,
+      "sha256": "d7caec57a372a6619c82c708b7bf6c707ade69398ffccb40567e2a97c79a72fd"
+    },
+    {
+      "path": "run_postprocessing.py",
+      "bytes": 11018,
+      "sha256": "79a00e19c6e9d91238cba0dded269ad52746bc54725f999066d7f2d5709265a8"
+    }
+  ]
+}

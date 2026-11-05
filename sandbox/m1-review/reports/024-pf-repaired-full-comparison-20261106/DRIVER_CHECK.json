@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "case": "dry-run",
+      "returncode": 0,
+      "no_output_created": true,
+      "expected_reason_matched": true
+    },
+    {
+      "case": "missing-authorization",
+      "returncode": 1,
+      "no_output_created": true,
+      "expected_reason_matched": true
+    },
+    {
+      "case": "old-authorization",
+      "returncode": 1,
+      "no_output_created": true,
+      "expected_reason_matched": true
+    }
+  ],
+  "unchanged_driver": true
+}

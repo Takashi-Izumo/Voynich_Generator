@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "fresh_fits_equal_implementation": true,
+  "old_plan_rejected": "Unsupported PF contract",
+  "full_plan_hash": "5f0e657be62f5541ef16b40737d44f86bca70cdf990985154693a7fbacb6954a",
+  "laws_cohort_seeds_models_masks_runtime_unchanged": true,
+  "planned_main_pages": 800
+}

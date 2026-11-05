@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "base_snapshot_donors_selections_exact": true,
+  "donors": 128,
+  "events": 2,
+  "only_validated_plan_binding_and_its_outer_hash_differ": true
+}

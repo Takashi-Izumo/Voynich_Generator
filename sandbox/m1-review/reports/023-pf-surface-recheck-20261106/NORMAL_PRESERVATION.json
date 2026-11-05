@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "arm": "BASE",
+      "bif": "A:2",
+      "run": 91701,
+      "semantic_state_rng_exact": true
+    },
+    {
+      "arm": "BASE",
+      "bif": "A:3",
+      "run": 91701,
+      "semantic_state_rng_exact": true
+    },
+    {
+      "arm": "BASE",
+      "bif": "G:1",
+      "run": 91701,
+      "semantic_state_rng_exact": true
+    },
+    {
+      "arm": "PF_GATE",
+      "bif": "A:2",
+      "run": 91701,
+      "semantic_state_rng_exact": true
+    },
+    {
+      "arm": "PF_GATE",
+      "bif": "A:3",
+      "run": 91701,
+      "semantic_state_rng_exact": true
+    },
+    {
+      "arm": "PF_GATE",
+      "bif": "G:1",
+      "run": 91701,
+      "semantic_state_rng_exact": true
+    },
+    {
+      "arm": "PF_GATE_LENGTH",
+      "bif": "A:2",
+      "run": 91701,
+      "semantic_state_rng_exact": true
+    },
+    {
+      "arm": "PF_GATE_LENGTH",
+      "bif": "A:3",
+      "run": 91701,
+      "semantic_state_rng_exact": true
+    },
+    {
+      "arm": "PF_GATE_LENGTH",
+      "bif": "G:1",
+      "run": 91701,
+      "semantic_state_rng_exact": true
+    },
+    {
+      "arm": "REFERENCE",
+      "bif": "A:2",
+      "run": 91701,
+      "semantic_state_rng_exact": true
+    },
+    {
+      "arm": "REFERENCE",
+      "bif": "A:3",
+      "run": 91701,
+      "semantic_state_rng_exact": true
+    },
+    {
+      "arm": "REFERENCE",
+      "bif": "G:1",
+      "run": 91701,
+      "semantic_state_rng_exact": true
+    }
+  ],
+  "prior_roots": [
+    "/workspace/voynich-results/pf-r2-independent-20261105/forward"
+  ]
+}

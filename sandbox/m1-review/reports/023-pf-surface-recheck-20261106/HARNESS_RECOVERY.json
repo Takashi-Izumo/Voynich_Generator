@@ -1,0 +1,13 @@
+{
+  "status": "REVIEW_HARNESS_EXCEPTION_HANDLING_CORRECTED",
+  "producer_sources_modified": false,
+  "completed_checks_preserved": true,
+  "original_harness_sha256": "01a2a4a64c237d751f733b2d276a045bd3d512e8cb2315637a5d712b86bc18bd",
+  "reason": "Fresh negative audit correctly revoked AUDIT.json; downstream guard raised FileNotFoundError, which the review harness had omitted from expected exceptions.",
+  "resume_from": "terminal negative checks on new copies, then R1/R2, prescribed probes and CLI; do not rerun 60 generated pages",
+  "second_harness_correction": {
+    "reason": "unseal validates but retains sha256. The only unequal fields were plan_sha256 and its outer sha256; all BASE/snapshot/donor/selection records were already exact. Exclude these two validated binding fields from semantic comparison; remove old sha256 before sealing a deliberately changed export.",
+    "producer_sources_modified": false,
+    "resume_from": "preserved-data comparison and resealed-wrong-key CLI only; do not regenerate or reaudit completed artifacts"
+  }
+}

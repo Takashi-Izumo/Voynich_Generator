@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "mode": "remove_receipt_zero_count",
+      "rejected": true,
+      "reason": "Missing/out-of-scope terminal precommit receipt",
+      "both_orders_tampered": true,
+      "seal_revoked": true,
+      "stale_pass_rejected": true
+    },
+    {
+      "mode": "stale_next_request",
+      "rejected": true,
+      "reason": "Next request did not observe the committed visible terminal",
+      "both_orders_tampered": true,
+      "seal_revoked": true,
+      "stale_pass_rejected": true
+    },
+    {
+      "mode": "forged_commit_chain",
+      "rejected": true,
+      "reason": "Semantic terminal differs from actual committed surface",
+      "both_orders_tampered": true,
+      "seal_revoked": true,
+      "stale_pass_rejected": true
+    }
+  ]
+}

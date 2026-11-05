@@ -1,0 +1,19 @@
+{
+  "status": "PASS_INDEPENDENT_MECHANISM_RECHECK",
+  "source_head": "43a6895",
+  "unit_counts": {
+    "pf": 58,
+    "controls": 33,
+    "m1": 27,
+    "judges": 56
+  },
+  "fresh_pages": 60,
+  "fixed_case_reproduced_and_corrected": true,
+  "actual_cli_and_resealed_wrong_key_checked": true,
+  "normal_identity_order_state_rng_checked": true,
+  "normal_trace_preservation_cases": 12,
+  "capability_status": "CAPABILITY_NOT_VERIFIED_UNCHANGED",
+  "new_jury_donors": "DESIGN_ONLY",
+  "full_plan_hash": "5f0e657be62f5541ef16b40737d44f86bca70cdf990985154693a7fbacb6954a",
+  "review_harness_corrections_disclosed": true
+}

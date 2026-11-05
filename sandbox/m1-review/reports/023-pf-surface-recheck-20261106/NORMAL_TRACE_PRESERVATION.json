@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "cases": 12,
+  "trace_files": 54,
+  "all_requests_candidates_events_gates_raw_exact": true
+}
