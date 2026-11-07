@@ -1,0 +1,461 @@
+{
+  "schema": "pf-exact-terminal-design/1",
+  "study_id": "PF_EXACT_TERMINAL_V1_20261107",
+  "created_jst": "2026-11-07",
+  "timezone": "Etc/GMT-9",
+  "status": "DESIGN_COMPLETE_IMPLEMENTATION_NOT_STARTED",
+  "role": "independent_verification_and_design_handoff",
+  "publication_branch": "sandbox/m1-review",
+  "design_only": true,
+  "promotion": null,
+  "source": {
+    "inspected_head": "6ed1f8318c287c7c641f4883e58b39b84a2183e1",
+    "product_commit": "43a6895",
+    "audit": "SOURCE_AUDIT.json",
+    "files": {
+      "selector": {
+        "path": "HerbalA_v22_3_20260921/model/runtime/EHC1_E1GLOBAL_20260911/inputs/RMW1_BTI2_EHC1_20260911/parent/HerbalA_RMW1_BTI2_20260909/parent_SEL42/code/sel42_selectors.py",
+        "sha256": "afa1dfd37329d837cc8dc5638f31694879d9ba105953a173469fca6d8eedc5e6"
+      },
+      "engine": {
+        "path": "HerbalA_v22_3_20260921/model/runtime/EHC1_E1GLOBAL_20260911/inputs/RMW1_BTI2_EHC1_20260911/code/bti2_patch_engine.py",
+        "sha256": "4a37b9639534ade0c1c4ac427ad4b26f399d32194fe496af0c41825ed92ad7c3"
+      },
+      "fold_context": {
+        "path": "HerbalA_v22_3_20260921/model/runtime/EHC1_E1GLOBAL_20260911/inputs/RMW1_BTI2_EHC1_20260911/code/fold_context.py",
+        "sha256": "bb59e3114a8187ae6b9cd5e6ba240e9afdbf17e9ed9d34f1dacb7c82efb29a75"
+      },
+      "native_runtime": {
+        "path": "experiments/m1_pf/runtime.py",
+        "sha256": "afd4a5640c48354aeb03ef68bb6bbbca5495b1625e59283a9a2174fe9c7619c0"
+      },
+      "surface_commit_repair": {
+        "path": "experiments/pf_generation/surface_commit.py",
+        "sha256": "eec0ff0933cba4a0a5a9ada0fcd7a68309c1cb85606215103de53454a844d90d"
+      }
+    },
+    "future_implementation_commit": null,
+    "future_generation_plan": null,
+    "generation_source_and_validator_source_separate": true,
+    "past_failures_and_manifests_immutable": true
+  },
+  "arms": [
+    {
+      "name": "BASE",
+      "lambda_E": 1.0,
+      "path": "literal_original",
+      "judge_group": true
+    },
+    {
+      "name": "PF_E_HALF",
+      "lambda_E": 0.5,
+      "path": "PF_score_adapter",
+      "judge_group": true
+    },
+    {
+      "name": "PF_E_ZERO",
+      "lambda_E": 0.0,
+      "path": "PF_score_adapter",
+      "judge_group": true
+    },
+    {
+      "name": "REFERENCE",
+      "lambda_E": null,
+      "path": "literal_original",
+      "judge_group": false
+    }
+  ],
+  "primary_contrasts": [
+    [
+      "BASE",
+      "PF_E_HALF"
+    ],
+    [
+      "BASE",
+      "PF_E_ZERO"
+    ]
+  ],
+  "diagnostic_contrasts": [
+    [
+      "PF_E_HALF",
+      "PF_E_ZERO"
+    ]
+  ],
+  "score": {
+    "S0": "original_selector.score(stable_surface, phys_width, segment_capacity)",
+    "E": "original_coefficients.get(E= + raw_pre_m_last_glyph, 0.0)",
+    "expression": "S0 + (lambda_E - 1.0) * E",
+    "arithmetic_order_fixed": true,
+    "direct_S0_if": "lambda_E == 1.0 or E == 0.0",
+    "exact_prefix": "E=",
+    "unchanged_components": [
+      "intercept",
+      "W=",
+      "WB=",
+      "WR=",
+      "EF="
+    ],
+    "input_surface": "raw pre-m stable_surface, native tokenize and I2G",
+    "input_width": "native phys_width",
+    "input_capacity": "native segment_capacity",
+    "families": {
+      "NMY": [
+        "n",
+        "m",
+        "y"
+      ],
+      "LR": [
+        "l",
+        "r"
+      ],
+      "OTHER": "all other glyphs"
+    },
+    "empty_feature": "E=EMPTY (arithmetic fixture only; empty real segments invalid)",
+    "missing_coefficient": 0.0,
+    "selection_comparison": "native exact floating point, no epsilon ties",
+    "audit_numeric_tolerance_may_not_change_selection": true,
+    "mutate_parent_coefficients": false,
+    "new_fitting": false,
+    "lambda_search": false
+  },
+  "scope": {
+    "all_required": [
+      "raw_para_final",
+      "boundary_type == LINE_END",
+      "para_line_raw >= 2"
+    ],
+    "native_predicate": "bti2_patch_engine.is_pf",
+    "generation_independent_of_observation_mask": true,
+    "target_structural_pf_events": 35,
+    "existing_FULL_pf_ends": 29,
+    "existing_FULL_pf_bifolia": 18,
+    "END_ONLY_promoted_to_atom": false,
+    "plant_before_cut": true,
+    "after_plant_BODY_unchanged": true,
+    "strict_F1LF_and_PHW_unchanged": true
+  },
+  "native_LEN1": {
+    "engine_control_flow_reused": true,
+    "initial_candidate_ids": [
+      0,
+      1
+    ],
+    "initial_argmax": "max(candidate_ids, key=(S_lambda, -candidate_id))",
+    "initial_argmax_means": "current arm initial-two argmax, not historical BASE arm",
+    "trigger": "pre-m stable length of current-arm initial argmax <= 5",
+    "rescue_candidate_ids_if_triggered": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "generate_all_eight_if_triggered": true,
+    "eligibility_all": [
+      "candidate stable length == initial winner stable length + 1",
+      "candidate physical width <= initial winner physical width + 1",
+      "candidate stable terminal family == initial winner stable terminal family",
+      "candidate S_lambda >= initial winner S_lambda - 1.0"
+    ],
+    "first_eligible_rescue": "adopt even below initial winner score",
+    "subsequent_rescue": "replace only if strictly higher score than chosen rescue",
+    "rescue_tie": "earlier candidate retained",
+    "selected_state": "final selected branch full state, rare, route, reference bindings",
+    "main_RNG_continuation": "current-arm initial-two argmax branch exit RNG",
+    "all_score_uses_transformed": true,
+    "PHW_tolerance_unchanged": 0.5
+  },
+  "estimand": {
+    "type": "total algorithm effect from PF exact-terminal score intervention",
+    "bank_may_change": true,
+    "rescue_trigger_request_ids_future_RNG_may_change": true,
+    "observed_bank_S0_diagnostic_is_BASE_counterfactual": false,
+    "missing_counterfactual_bank_label": "COUNTERFACTUAL_BANK_NOT_OBSERVED",
+    "extra_shadow_branches_or_arms": false
+  },
+  "training_provenance": {
+    "existing_generator_core": "LEGACY_SCOPE frozen FROZEN_18 cache",
+    "existing_selector_training": "complete_external16 + incomplete_aux2",
+    "incomplete_aux_bifolia": [
+      "A:1",
+      "B:4"
+    ],
+    "outer_test_excluded_bifolia_per_fold": 4,
+    "cache_absent": "fail; no automatic refit",
+    "COMPLETE16_REFIT": false,
+    "selector_load_pair_shortcut": false,
+    "new_control_proxy_training": "complete external16 only; outer test4 excluded",
+    "target_known3_for_new_proxy_or_lambda": false,
+    "existing_known3_adjustments": "unchanged native behavior",
+    "judge_prior_null_test_bifolia": [
+      8,
+      8,
+      4
+    ]
+  },
+  "implementation": {
+    "new_package": "experiments/pf_terminal_score/",
+    "native_generate_bif_reused": true,
+    "case_local_patch": "rb.patch_generate -> native signature bind -> replace only pf_selector",
+    "PHW_models_gate_sampler_unchanged": true,
+    "first_proposal_runtime_or_laws_reused": false,
+    "finally_restore_bindings": true,
+    "generation_lock": "native same-process lock; process parallelism only",
+    "score_draws_RNG": false,
+    "observer_draws_RNG": false,
+    "observer_mutates_request_dicts": false,
+    "trace_prefix": "pfe_",
+    "M1_Runtime_generate_with_new_arm": "do not call inherited _generate; it hardcodes M1 Overlay; reuse input/core methods only"
+  },
+  "surface_commit_validity": {
+    "helper": "experiments/pf_generation/surface_commit.py",
+    "sha256": "eec0ff0933cba4a0a5a9ada0fcd7a68309c1cb85606215103de53454a844d90d",
+    "applies_to": [
+      "PF_E_HALF",
+      "PF_E_ZERO"
+    ],
+    "bypass_if_lambda_E_is_one": true,
+    "BASE_and_REFERENCE_original_path": true,
+    "new_study_policy_required": true,
+    "old_policy_mutated": false,
+    "helper_only_no_first_proposal_laws": true,
+    "scope": "existing helper only: selected W2 H2 stable3-visible2 or BODY H1 stable2-visible1, physical terminal with no rare suffix",
+    "before_parent_semantic_commit": true,
+    "route_anchor_stable_seq_native_F1LF_rare_pending_H1_unchanged": true,
+    "additional_RNG_draws": 0,
+    "shared_validity_receipt": "pfgen_terminal_precommit",
+    "first_proposal_pfgen_gate_length_trace_allowed": false,
+    "receipt_counts": "all attempts and selected branches separately",
+    "baseline_failure": "stop without seed substitution or baseline repair",
+    "native_helper_audit_requests": "do not directly inherit arm != BASE predicate; implement new lambda/arm policy for REFERENCE and identity"
+  },
+  "audit": {
+    "event_key": [
+      "study",
+      "arm",
+      "bif",
+      "run",
+      "page",
+      "locus",
+      "segment_id",
+      "event_id"
+    ],
+    "candidate_key_extra": [
+      "candidate_id",
+      "typed_request_interval"
+    ],
+    "inventory_authority": "canonical schedule; not self-declared trace totals",
+    "candidate_count_authority": "first two candidate rows and current-arm S_lambda/LEN1 trigger",
+    "score_source_authority": "pinned original selector payload and native features",
+    "branch_input_states": "same event-entry GenState snapshot",
+    "shared_request_counters_caches": "advance natively across all attempts; observer must not restore",
+    "state_chain": "chosen state -> next segment entry -> final returned state",
+    "RNG_chain": "initial-two argmax exit -> next segment entry -> final real RNG",
+    "sampler_binding_check": "after native begin_segment/return and selected boundaries, not before native branch bind",
+    "split_predicate": "nsegments > 1 and segment_id == nsegments - 1 and boundary_type == LINE_END",
+    "noncontiguous_fixture": {
+      "bif": "D:4",
+      "page": "f29v",
+      "locus": "f29v.9",
+      "retained_segment_ids": [
+        0,
+        2
+      ],
+      "nsegments": 2,
+      "segment_id": 2,
+      "expected_split_end": false
+    },
+    "reject_wrong_flag_and_matching_wrong_gain": true,
+    "renumber_segment_ids": false,
+    "official_audit_required_for_new_main": true,
+    "report024_auxiliary_bypass_inherited": false,
+    "negative_cases": [
+      "missing duplicate reordered score or candidate traces",
+      "zero claimed totals",
+      "existing candidate label substitution",
+      "wrong lambda intercept W EF or coefficient payload",
+      "wrong tokenization or pre-m/visible conflation",
+      "wrong LEN1 criteria or first eligible override",
+      "RNG from rescue or historical BASE argmax",
+      "forged selected state or validity receipt",
+      "wrong split flag with matching wrong gain",
+      "wrong source input key old seal or stale PASS"
+    ]
+  },
+  "capability_control": {
+    "id": "PF_E_TERMINAL_CONTROL_V1_20261107",
+    "status": "DESIGN_ONLY_IMPLEMENTATION_AND_SUPPORT_PROOF_REQUIRED",
+    "old_terminal_manipulation": {
+      "realized_bifolia": 6,
+      "denominator": 18,
+      "capability": "NOT_VERIFIED"
+    },
+    "target": "individual terminal glyph change within same family",
+    "channel": "ATOM.PARA_END/terminal",
+    "calibration": "fixed CAL; no monotone proxy NLL assumption",
+    "seed": 92101,
+    "population_bifolia": 18,
+    "FULL_pf_ends": 29,
+    "max_complete_segment_trials_per_event": 64,
+    "snapshots": "literal BASE PF entry; isolated replay state RNG rare route counters",
+    "matching_constraint_manifest": "genuine coarse family, visible length bin, visible glyph width, physical width, canonical layout/mask; no individual glyph or word",
+    "matching_manifest_not_generator_training_input": true,
+    "length_bins": [
+      "1-3",
+      "4-6",
+      "7+"
+    ],
+    "proxy_training": "complete external16 strict PF and normal LINE_END; exclude F1LF PLANT and outer test4",
+    "proxy_weighting": "leaf-balanced, rescaled to eligible event counts",
+    "pLF": "(nLF(g) + 0.5/22) / (nLF + 0.5)",
+    "pPF": "(nPF(g) + 20*pLF(g)) / (nPF + 20)",
+    "empty_training": "stop; no target backoff",
+    "target_assignment": "within source constraint family: descending external -log(pPF), tie glyph ID; cycle for 64 trials",
+    "requires_NLL_greater_than_BASE": false,
+    "conditional_sampler_proof": "full native path support and normalization including Map m rare constraints; final raw CDF swap alone insufficient",
+    "eligible_donor": "complete segment, native support/packing and exact same constraint family/length-bin/visible-width/physical-width",
+    "donor_choice": "largest external rarity, then smallest trial ID",
+    "judge_or_genuine_individual_glyph_used_for_donor_choice": false,
+    "seal_all_donor_ids_before_original_individual_glyph_reveal": true,
+    "reference": "original genuine page",
+    "modified": "original genuine page with full selected donor segments substituted; known3 layout mask preserved",
+    "word_splicing_or_terminal_rewrite": false,
+    "unchanged_or_unrealized_pairs_retained_in_all18_denominator": true,
+    "manipulation": "within-family individual-terminal histogram changed; per-end changes also logged",
+    "minimum_manipulated_bifolia": 15,
+    "minimum_manipulation_fraction": 0.8,
+    "minimum_comparable_bifolia": 10,
+    "minimum_comparable_coverage": 0.8,
+    "minimum_macro_expected_accuracy": 0.6,
+    "CI95_lower_strictly_greater_than": 0.5,
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 20261104,
+    "ties": 0.5,
+    "NA": "not ties; report coverage",
+    "all_18_predictions_before_keyed_scoring": true,
+    "all_pairs_identical_raw_distance_and_effective_n": "UNINFORMATIVE_CONTROL; stop before prediction",
+    "all_feature_changes_reported": true,
+    "pure_causal_terminal_isolation_claim": false,
+    "fixed_conditions_not_relaxed_after_failure": true,
+    "not_observed_within_limit_is_support_impossibility": false,
+    "PASS_scope": "registered manipulation and target terminal channel only; not J24 or ATOM aggregate capability",
+    "new_judge_or_distance": "separate genuine-only calibration protocol and sealed model set before outcome predictions"
+  },
+  "mechanism_validation": {
+    "status": "NOT_STARTED",
+    "bifolia": [
+      "A:2",
+      "A:3",
+      "D:4",
+      "G:1"
+    ],
+    "normal_seeds": [
+      91701,
+      91711
+    ],
+    "groups": [
+      "BASE",
+      "PF_E_HALF",
+      "PF_E_ZERO",
+      "REFERENCE"
+    ],
+    "forward_pages": 32,
+    "reverse_fresh_root_pages": 32,
+    "identity_pages": 16,
+    "identity_seed": 91701,
+    "identity_E_arm_lambdas": [
+      1.0,
+      1.0
+    ],
+    "total_pages": 80,
+    "identity_and_BASE_REFERENCE_equality": [
+      "semantic output",
+      "packing",
+      "native requests",
+      "full state",
+      "real main RNG"
+    ],
+    "fixtures_if_natural_cases_absent": "fixed synthetic boundary fixtures; no seed search"
+  },
+  "main_comparison": {
+    "status": "NOT_STARTED_GATED",
+    "gates": [
+      "canonical product audit fix independently verified",
+      "study-two mechanism 80 pages and refusal fixtures PASS",
+      "registered target-terminal capability PASS",
+      "new source plan official audit and seals complete"
+    ],
+    "complete_bifolia": 20,
+    "target": "fixed fourth face",
+    "known": "other three faces",
+    "outer_folds": 5,
+    "seeds": [
+      91701,
+      91702,
+      91703,
+      91704,
+      91705,
+      91707,
+      91708,
+      91709,
+      91710,
+      91711
+    ],
+    "pages_per_group": 200,
+    "fresh_pages_total": 800,
+    "judge_comparisons_total": 600,
+    "reuse_first_proposal_generations": false,
+    "failure_seed_substitution_or_case_exclusion": false,
+    "primary_metric": "J24.CAL",
+    "major_local_metric": "ATOM.PARA_END.CAL",
+    "prespecified_mechanism_readout": "CAL['ATOM.PARA_END/terminal']",
+    "readout_adds_J24_vote_or_independent_primary_test": false,
+    "CAL_model_set": "61238cf467871ac13ab9374e2da23ae8a3ad215ea960029e6c8507e065efaf79",
+    "model_refit_or_PROTO_fallback": false,
+    "all_predictions_sealed_before_keyed_scoring": true,
+    "aggregation": "seed means within bifolium; equal bifolium weights",
+    "ties": 0.5,
+    "NA": "exclude from comparable rates; report explicit coverage, never recode to tie",
+    "paired_population": "common comparable trials per contrast and view",
+    "signed_rate_difference": "macro_rate_right - macro_rate_left on common trials",
+    "distance_difference": "abs(macro_rate_right - 0.5) - abs(macro_rate_left - 0.5) on common trials",
+    "negative_distance_difference": "closer to 50 percent",
+    "direction_reversal_reported": true,
+    "bootstrap_unit": "bifolium, paired same sampled leaves across arms",
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 20261104,
+    "scope_of_inference": "descriptive development comparison reusing same20 leaves; no generalization/equivalence/adoption claim",
+    "first_proposal_combination": "separate future design"
+  },
+  "executed_in_this_design_task": {
+    "frozen_core_folds_read": 5,
+    "source_score_arithmetic_checks": 345,
+    "new_fits": 0,
+    "new_generated_pages": 0,
+    "donor_replays": 0,
+    "judge_predictions": 0,
+    "keyed_scores": 0,
+    "product_or_judge_edits": 0
+  },
+  "readiness": {
+    "design": "COMPLETE",
+    "read_only_source_audit": "PASS",
+    "known_split_audit_fix": "NOT_RECEIVED",
+    "new_score_implementation": "NOT_STARTED",
+    "mechanism_validation": "NOT_STARTED",
+    "target_capability": "NOT_VERIFIED",
+    "new_full_comparison": "NOT_STARTED"
+  },
+  "public_artifacts_exclude": [
+    "raw genuine/generated words",
+    "faces",
+    "truth keys",
+    "prediction JSONL",
+    "snapshots",
+    "donors",
+    "archives"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "status": "DESIGN_CONSISTENCY_PASS",
+  "created_jst": "2026-11-07",
+  "scope": "document/JSON/source provenance integrity; not candidate execution or capability PASS",
+  "source_file_hashes_checked": 5,
+  "frozen_training_metadata_folds_checked": 5,
+  "source_score_arithmetic_checks_previously_executed": 345,
+  "structural_pf_events_checked": 35,
+  "canonical_split_counterexample_reconfirmed": true,
+  "within_family_E_n_greater_than_E_y_folds": 5,
+  "relative_document_links_checked": 17,
+  "mechanism_pages_planned_not_executed": 80,
+  "full_pages_planned_not_executed": 800,
+  "judge_pairs_planned_not_executed": 600,
+  "new_fit_generation_donor_prediction_keyed_score_counts": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "modified_product_judge_or_prior_report_files": 0,
+  "only_new_report025_files": true,
+  "remote_ahead_at_final_fetch": false,
+  "source_audit_python_syntax": "PASS",
+  "product_tests": "not run; no product change"
+}

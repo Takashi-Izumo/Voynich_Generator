@@ -1,0 +1,574 @@
+{
+  "status": "READ_ONLY_DESIGN_SOURCE_AUDIT_PASS",
+  "source_head": "6ed1f8318c287c7c641f4883e58b39b84a2183e1",
+  "product_source": "43a6895",
+  "source_files": {
+    "selector": {
+      "path": "HerbalA_v22_3_20260921/model/runtime/EHC1_E1GLOBAL_20260911/inputs/RMW1_BTI2_EHC1_20260911/parent/HerbalA_RMW1_BTI2_20260909/parent_SEL42/code/sel42_selectors.py",
+      "sha256": "afa1dfd37329d837cc8dc5638f31694879d9ba105953a173469fca6d8eedc5e6"
+    },
+    "engine": {
+      "path": "HerbalA_v22_3_20260921/model/runtime/EHC1_E1GLOBAL_20260911/inputs/RMW1_BTI2_EHC1_20260911/code/bti2_patch_engine.py",
+      "sha256": "4a37b9639534ade0c1c4ac427ad4b26f399d32194fe496af0c41825ed92ad7c3"
+    },
+    "fold_context": {
+      "path": "HerbalA_v22_3_20260921/model/runtime/EHC1_E1GLOBAL_20260911/inputs/RMW1_BTI2_EHC1_20260911/code/fold_context.py",
+      "sha256": "bb59e3114a8187ae6b9cd5e6ba240e9afdbf17e9ed9d34f1dacb7c82efb29a75"
+    },
+    "native_runtime": {
+      "path": "experiments/m1_pf/runtime.py",
+      "sha256": "afd4a5640c48354aeb03ef68bb6bbbca5495b1625e59283a9a2174fe9c7619c0"
+    },
+    "surface_commit_repair": {
+      "path": "experiments/pf_generation/surface_commit.py",
+      "sha256": "eec0ff0933cba4a0a5a9ada0fcd7a68309c1cb85606215103de53454a844d90d"
+    }
+  },
+  "frozen_selector_loading": "LEGACY_SCOPE frozen18 cache only; no COMPLETE16_REFIT or selector load_pair shortcut",
+  "folds": [
+    {
+      "fold": 0,
+      "representative_bif": "A:2",
+      "core_mode": "FROZEN_18",
+      "core_cache_sha256": "cdf31003608c111c216e70fbf605cd8a913853c9db1051c90e4ee61bc053f45c",
+      "complete_external_bifolia": [
+        "A:3",
+        "A:4",
+        "B:1",
+        "B:2",
+        "C:1",
+        "C:2",
+        "C:3",
+        "C:4",
+        "D:3",
+        "D:4",
+        "E:3",
+        "E:4",
+        "F:4",
+        "G:1",
+        "G:3",
+        "G:4"
+      ],
+      "incomplete_aux_bifolia": [
+        "A:1",
+        "B:4"
+      ],
+      "core_training_bifolia": [
+        "A:1",
+        "A:3",
+        "A:4",
+        "B:1",
+        "B:2",
+        "B:4",
+        "C:1",
+        "C:2",
+        "C:3",
+        "C:4",
+        "D:3",
+        "D:4",
+        "E:3",
+        "E:4",
+        "F:4",
+        "G:1",
+        "G:3",
+        "G:4"
+      ],
+      "outer_test_bifolia": [
+        "A:2",
+        "B:3",
+        "D:1",
+        "F:2"
+      ],
+      "actual_selector_training_bifolia": [
+        "A:1",
+        "A:3",
+        "A:4",
+        "B:1",
+        "B:2",
+        "B:4",
+        "C:1",
+        "C:2",
+        "C:3",
+        "C:4",
+        "D:3",
+        "D:4",
+        "E:3",
+        "E:4",
+        "F:4",
+        "G:1",
+        "G:3",
+        "G:4"
+      ],
+      "selector_excluded_bifolia": [
+        "A:2",
+        "B:3",
+        "D:1",
+        "F:2"
+      ],
+      "selector_payload_sha256": "59ae4f880fa07d042aff869599198b42f06dae0f035a046d2ceaab1c2eb46900",
+      "individual_terminal_coefficients": {
+        "E=d": -0.3740955879475254,
+        "E=l": -0.3521232032394148,
+        "E=m": 0.9019359415602074,
+        "E=n": -0.10096413251529704,
+        "E=o": -0.07990353289737906,
+        "E=r": 0.31156491938167913,
+        "E=s": 0.2715920906295133,
+        "E=y": -0.3982137810180267
+      },
+      "terminal_family_coefficients": {
+        "EF=LR": -0.04055828385773916,
+        "EF=NMY": 0.4027580280269112,
+        "EF=OTHER": -0.5709349184371548
+      },
+      "intercept": -0.2087351742679679
+    },
+    {
+      "fold": 1,
+      "representative_bif": "A:3",
+      "core_mode": "FROZEN_18",
+      "core_cache_sha256": "eab028a2d6c61bd70ee70053566e5c821ab8e10827a419a4cdcb7ded5e0e5a93",
+      "complete_external_bifolia": [
+        "A:2",
+        "A:4",
+        "B:1",
+        "B:2",
+        "B:3",
+        "C:2",
+        "C:3",
+        "C:4",
+        "D:1",
+        "D:4",
+        "E:3",
+        "E:4",
+        "F:2",
+        "G:1",
+        "G:3",
+        "G:4"
+      ],
+      "incomplete_aux_bifolia": [
+        "A:1",
+        "B:4"
+      ],
+      "core_training_bifolia": [
+        "A:1",
+        "A:2",
+        "A:4",
+        "B:1",
+        "B:2",
+        "B:3",
+        "B:4",
+        "C:2",
+        "C:3",
+        "C:4",
+        "D:1",
+        "D:4",
+        "E:3",
+        "E:4",
+        "F:2",
+        "G:1",
+        "G:3",
+        "G:4"
+      ],
+      "outer_test_bifolia": [
+        "A:3",
+        "C:1",
+        "D:3",
+        "F:4"
+      ],
+      "actual_selector_training_bifolia": [
+        "A:1",
+        "A:2",
+        "A:4",
+        "B:1",
+        "B:2",
+        "B:3",
+        "B:4",
+        "C:2",
+        "C:3",
+        "C:4",
+        "D:1",
+        "D:4",
+        "E:3",
+        "E:4",
+        "F:2",
+        "G:1",
+        "G:3",
+        "G:4"
+      ],
+      "selector_excluded_bifolia": [
+        "A:3",
+        "C:1",
+        "D:3",
+        "F:4"
+      ],
+      "selector_payload_sha256": "f3f2bb9161e75c7393c84a8cd75f7a8c93a27afef934c7cdb29d31a1a45cfa50",
+      "individual_terminal_coefficients": {
+        "E=a": -0.19000449328887384,
+        "E=d": -0.07514272792582197,
+        "E=e": -0.2082436455312282,
+        "E=l": 0.08540979360200296,
+        "E=m": -0.05318235124261807,
+        "E=n": 0.4031710338738537,
+        "E=o": -0.5531605506824656,
+        "E=r": -0.025516533746220788,
+        "E=s": 0.743697807538099,
+        "E=y": -0.1988071694942948
+      },
+      "terminal_family_coefficients": {
+        "EF=LR": 0.05989325985578203,
+        "EF=NMY": 0.15118151313694606,
+        "EF=OTHER": -0.43081239410510175
+      },
+      "intercept": -0.2197376211123906
+    },
+    {
+      "fold": 2,
+      "representative_bif": "A:4",
+      "core_mode": "FROZEN_18",
+      "core_cache_sha256": "bf6c26b701e21d734c06974604f0857a7bf0659d01a68461c153aaac1d33effb",
+      "complete_external_bifolia": [
+        "A:2",
+        "A:3",
+        "B:1",
+        "B:2",
+        "B:3",
+        "C:1",
+        "C:3",
+        "C:4",
+        "D:1",
+        "D:3",
+        "E:3",
+        "E:4",
+        "F:2",
+        "F:4",
+        "G:3",
+        "G:4"
+      ],
+      "incomplete_aux_bifolia": [
+        "A:1",
+        "B:4"
+      ],
+      "core_training_bifolia": [
+        "A:1",
+        "A:2",
+        "A:3",
+        "B:1",
+        "B:2",
+        "B:3",
+        "B:4",
+        "C:1",
+        "C:3",
+        "C:4",
+        "D:1",
+        "D:3",
+        "E:3",
+        "E:4",
+        "F:2",
+        "F:4",
+        "G:3",
+        "G:4"
+      ],
+      "outer_test_bifolia": [
+        "A:4",
+        "C:2",
+        "D:4",
+        "G:1"
+      ],
+      "actual_selector_training_bifolia": [
+        "A:1",
+        "A:2",
+        "A:3",
+        "B:1",
+        "B:2",
+        "B:3",
+        "B:4",
+        "C:1",
+        "C:3",
+        "C:4",
+        "D:1",
+        "D:3",
+        "E:3",
+        "E:4",
+        "F:2",
+        "F:4",
+        "G:3",
+        "G:4"
+      ],
+      "selector_excluded_bifolia": [
+        "A:4",
+        "C:2",
+        "D:4",
+        "G:1"
+      ],
+      "selector_payload_sha256": "73e888f7f34750e5786a891b6ec9a555ab12b94cfc9f9fc4d016f5283742368c",
+      "individual_terminal_coefficients": {
+        "E=a": -0.31762676083101127,
+        "E=cth": -0.16052090717078463,
+        "E=d": 0.09107404547440912,
+        "E=l": -0.12284167759106963,
+        "E=m": 0.8597609806351824,
+        "E=n": 0.027805802545472685,
+        "E=o": -0.09471376782221007,
+        "E=r": 0.17475122692918707,
+        "E=s": 0.10735597545219741,
+        "E=y": -0.4752498523720985
+      },
+      "terminal_family_coefficients": {
+        "EF=LR": 0.051909549338119726,
+        "EF=NMY": 0.4123169308085193,
+        "EF=OTHER": -0.6860880566302805
+      },
+      "intercept": -0.2218615764836444
+    },
+    {
+      "fold": 3,
+      "representative_bif": "B:1",
+      "core_mode": "FROZEN_18",
+      "core_cache_sha256": "8653bb9acff38187ed3a96f88bdd795c70ccecdd3a48e815cbb530415b2662b1",
+      "complete_external_bifolia": [
+        "A:2",
+        "A:3",
+        "A:4",
+        "B:2",
+        "B:3",
+        "C:1",
+        "C:2",
+        "C:4",
+        "D:1",
+        "D:3",
+        "D:4",
+        "E:4",
+        "F:2",
+        "F:4",
+        "G:1",
+        "G:4"
+      ],
+      "incomplete_aux_bifolia": [
+        "A:1",
+        "B:4"
+      ],
+      "core_training_bifolia": [
+        "A:1",
+        "A:2",
+        "A:3",
+        "A:4",
+        "B:2",
+        "B:3",
+        "B:4",
+        "C:1",
+        "C:2",
+        "C:4",
+        "D:1",
+        "D:3",
+        "D:4",
+        "E:4",
+        "F:2",
+        "F:4",
+        "G:1",
+        "G:4"
+      ],
+      "outer_test_bifolia": [
+        "B:1",
+        "C:3",
+        "E:3",
+        "G:3"
+      ],
+      "actual_selector_training_bifolia": [
+        "A:1",
+        "A:2",
+        "A:3",
+        "A:4",
+        "B:2",
+        "B:3",
+        "B:4",
+        "C:1",
+        "C:2",
+        "C:4",
+        "D:1",
+        "D:3",
+        "D:4",
+        "E:4",
+        "F:2",
+        "F:4",
+        "G:1",
+        "G:4"
+      ],
+      "selector_excluded_bifolia": [
+        "B:1",
+        "C:3",
+        "E:3",
+        "G:3"
+      ],
+      "selector_payload_sha256": "b9cc788cc703abca86d6c1f727b76741907389791ba3f52c6b71bd3f82ca12fe",
+      "individual_terminal_coefficients": {
+        "E=d": -0.5195544944955193,
+        "E=l": -0.45435536146639177,
+        "E=m": 0.8815352924969763,
+        "E=n": -0.03688819716772231,
+        "E=o": 0.395202390170072,
+        "E=r": 0.1472662169235339,
+        "E=s": 0.4832276418461022,
+        "E=sh": -0.20090967427996057,
+        "E=y": -0.38709335759535907
+      },
+      "terminal_family_coefficients": {
+        "EF=LR": -0.3070891445428569,
+        "EF=NMY": 0.45755373773389685,
+        "EF=OTHER": -0.3734140310746014
+      },
+      "intercept": -0.22294943788354765
+    },
+    {
+      "fold": 4,
+      "representative_bif": "B:2",
+      "core_mode": "FROZEN_18",
+      "core_cache_sha256": "ef99d39ee12b4fa673f57fbcfc31667a0e3f0eb184cd0f4b9c27755a57610ce7",
+      "complete_external_bifolia": [
+        "A:2",
+        "A:3",
+        "A:4",
+        "B:1",
+        "B:3",
+        "C:1",
+        "C:2",
+        "C:3",
+        "D:1",
+        "D:3",
+        "D:4",
+        "E:3",
+        "F:2",
+        "F:4",
+        "G:1",
+        "G:3"
+      ],
+      "incomplete_aux_bifolia": [
+        "A:1",
+        "B:4"
+      ],
+      "core_training_bifolia": [
+        "A:1",
+        "A:2",
+        "A:3",
+        "A:4",
+        "B:1",
+        "B:3",
+        "B:4",
+        "C:1",
+        "C:2",
+        "C:3",
+        "D:1",
+        "D:3",
+        "D:4",
+        "E:3",
+        "F:2",
+        "F:4",
+        "G:1",
+        "G:3"
+      ],
+      "outer_test_bifolia": [
+        "B:2",
+        "C:4",
+        "E:4",
+        "G:4"
+      ],
+      "actual_selector_training_bifolia": [
+        "A:1",
+        "A:2",
+        "A:3",
+        "A:4",
+        "B:1",
+        "B:3",
+        "B:4",
+        "C:1",
+        "C:2",
+        "C:3",
+        "D:1",
+        "D:3",
+        "D:4",
+        "E:3",
+        "F:2",
+        "F:4",
+        "G:1",
+        "G:3"
+      ],
+      "selector_excluded_bifolia": [
+        "B:2",
+        "C:4",
+        "E:4",
+        "G:4"
+      ],
+      "selector_payload_sha256": "dda39f7bd5812253cb5bc3ae7a9f82f6fba8eddb79d363275f8f21f0eceaef24",
+      "individual_terminal_coefficients": {
+        "E=cth": -0.19730057951999594,
+        "E=d": 0.05080465784035039,
+        "E=e": -0.23135155458312914,
+        "E=l": 0.033287288147467016,
+        "E=m": 0.8998163532520143,
+        "E=n": -0.04800378459463502,
+        "E=o": -0.4062910279970991,
+        "E=r": 0.034145287405063396,
+        "E=s": 0.5226419662373384,
+        "E=y": -0.4281067789562143
+      },
+      "terminal_family_coefficients": {
+        "EF=LR": 0.06743257555252663,
+        "EF=NMY": 0.42370578970115264,
+        "EF=OTHER": -0.7746731979821108
+      },
+      "intercept": -0.2835348327284385
+    }
+  ],
+  "score_feature_arithmetic_checks": 345,
+  "target_pf_geometry": [
+    {
+      "nsegments": 1,
+      "segment_id": 0,
+      "retained_segment_ids": [
+        0
+      ],
+      "literal_split_end": false,
+      "events": 29
+    },
+    {
+      "nsegments": 2,
+      "segment_id": 1,
+      "retained_segment_ids": [
+        0,
+        1
+      ],
+      "literal_split_end": true,
+      "events": 5
+    },
+    {
+      "nsegments": 2,
+      "segment_id": 2,
+      "retained_segment_ids": [
+        0,
+        2
+      ],
+      "literal_split_end": false,
+      "events": 1
+    }
+  ],
+  "split_scope_counterexamples": [
+    {
+      "bif": "D:4",
+      "page": "f29v",
+      "locus": "f29v.9",
+      "segment_id": 2,
+      "nsegments": 2,
+      "retained_segment_ids": [
+        0,
+        2
+      ],
+      "boundary_type": "LINE_END",
+      "literal_split_end": false,
+      "old_audit_assumption": true
+    }
+  ],
+  "new_fits": 0,
+  "new_generated_pages": 0,
+  "judge_predictions": 0,
+  "keyed_scores": 0
+}

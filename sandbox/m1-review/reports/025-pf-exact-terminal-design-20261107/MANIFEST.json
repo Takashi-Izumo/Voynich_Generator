@@ -1,0 +1,45 @@
+{
+  "schema": "pf-exact-terminal-design-manifest/1",
+  "study_id": "PF_EXACT_TERMINAL_V1_20261107",
+  "status": "DESIGN_ONLY_NOT_EXECUTION_PLAN",
+  "created_jst": "2026-11-07",
+  "inspected_head": "6ed1f8318c287c7c641f4883e58b39b84a2183e1",
+  "product_source": "43a6895",
+  "publication_branch": "sandbox/m1-review",
+  "design": "DESIGN.md",
+  "contract": "DESIGN_CONTRACT.json",
+  "handoff": "IMPLEMENTATION_HANDOFF.md",
+  "source_audit": "SOURCE_AUDIT.json",
+  "new_fitting_generation_prediction_or_scoring": false,
+  "files": {
+    "DESIGN.md": {
+      "sha256": "d8af90e999a96088fc0e2832cb4db0084af9ca24b83d1f57265a9e1b2d2cbd04",
+      "bytes": 24613
+    },
+    "DESIGN_CONTRACT.json": {
+      "sha256": "4c3c515cf07d2fc65e28f1dcbaaf658f8b0c7323ec165979e8b5c5e999bcf6e7",
+      "bytes": 17323
+    },
+    "IMPLEMENTATION_HANDOFF.md": {
+      "sha256": "de6a2ec19c6fe414c53f35f6f113fb4e246cc643e4e7d3329dd9fe176702aa89",
+      "bytes": 4679
+    },
+    "REPORT.md": {
+      "sha256": "aceaf2ac6c2c5c6ee1552094b8a13180b23dddc5e74b82c943b5c3bf8229e3cd",
+      "bytes": 1944
+    },
+    "SOURCE_AUDIT.json": {
+      "sha256": "3493b287e1b28c4b13c124df6782b9b0adfc1d0d775e028a0c7b884369ea5ff4",
+      "bytes": 12834
+    },
+    "VERIFICATION.json": {
+      "sha256": "cd4d3d30ad60dceba329065e85308bd6bf5fbe3d2a274460d5968a8c2a8c766c",
+      "bytes": 948
+    },
+    "source_audit.py": {
+      "sha256": "7622cb9154c1907a7305a51dcf243600c907d9d92e3469b408198a77996db1ea",
+      "bytes": 5293
+    }
+  },
+  "manifest_self_excluded": true
+}
